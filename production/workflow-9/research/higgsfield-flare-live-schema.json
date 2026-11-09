@@ -1,0 +1,161 @@
+{
+  "checked_on": "2026-11-08",
+  "tool": "models_get",
+  "scope": "live Higgsfield MCP, not web UI",
+  "result": {
+    "id": "gpt_image_2_6_flare",
+    "name": "GPT Image 2.6 Flare",
+    "provider_name": "OpenAI",
+    "description": "GPT Image 2.6 Flare image generation and editing, GIF and SVG output",
+    "output_type": "image",
+    "parameters": [
+      {
+        "name": "quality",
+        "required": "optional",
+        "type": "string",
+        "description": "Rendering quality.",
+        "options": [
+          "auto",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ],
+        "default": "low"
+      },
+      {
+        "name": "resolution",
+        "required": "optional",
+        "type": "string",
+        "description": "Output resolution tier.",
+        "options": [
+          "1k",
+          "2k",
+          "4k"
+        ],
+        "default": "1k"
+      },
+      {
+        "name": "background",
+        "required": "optional",
+        "type": "string",
+        "description": "Background handling. Omit to keep the model default.",
+        "options": [
+          "auto",
+          "opaque",
+          "transparent"
+        ],
+        "nullable": true
+      },
+      {
+        "name": "batch_size",
+        "required": "optional",
+        "type": "number",
+        "description": "Number of outputs. Whole number.",
+        "min": 1,
+        "max": 4,
+        "default": 1
+      },
+      {
+        "name": "output_format",
+        "required": "optional",
+        "type": "string",
+        "description": "Output file format. SVG does not accept reference images.",
+        "options": [
+          "png",
+          "jpeg",
+          "webp",
+          "gif",
+          "svg"
+        ],
+        "default": "png"
+      },
+      {
+        "name": "size",
+        "required": "optional",
+        "type": "string",
+        "description": "WIDTHxHEIGHT or auto. GIF defaults to 288x288; dimensions must divide by 16.",
+        "nullable": true
+      },
+      {
+        "name": "frame_count",
+        "required": "optional",
+        "type": "number",
+        "description": "GIF only. Defaults to 9. Whole number.",
+        "min": 2,
+        "max": 64,
+        "nullable": true
+      },
+      {
+        "name": "frame_duration_ms",
+        "required": "optional",
+        "type": "number",
+        "description": "GIF only. Frame duration in milliseconds; defaults to 200. Whole number.",
+        "min": 20,
+        "max": 2000,
+        "nullable": true
+      }
+    ],
+    "medias": [
+      {
+        "name": "medias",
+        "type": "image",
+        "roles": [
+          "image_references"
+        ]
+      }
+    ],
+    "aspect_ratios": [
+      "auto",
+      "1:1",
+      "3:2",
+      "2:3",
+      "4:3",
+      "3:4",
+      "16:9",
+      "9:16",
+      "21:9",
+      "27:16",
+      "16:27",
+      "9:8",
+      "8:9",
+      "4:5",
+      "5:4"
+    ],
+    "tags": [
+      "image-generation",
+      "editing",
+      "reference-images",
+      "4k",
+      "text-rendering",
+      "vector"
+    ],
+    "free_gens": [
+      {
+        "job_set_types": [
+          "ai_influencer_motion_control",
+          "ai_influencer_replace_object",
+          "hf_mult_motion_control",
+          "hf_mult_replace_object"
+        ],
+        "remaining": 4,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": 30
+      },
+      {
+        "job_set_types": [
+          "ai_influencer_sheet"
+        ],
+        "remaining": 35,
+        "parameters": {},
+        "max_duration": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "status": "paused_by_user",
+  "paused_at": "2026-11-07T22:08:31.765415+00:00",
+  "request": "pause the generation and completely uninstall higgsfield mcp in this workspace",
+  "submitted_jobs": 5,
+  "job_statuses": [
+    {
+      "node_id": "I_pilot_civilian",
+      "attempt": 1,
+      "job_id": "0d9f972a-8ab8-4275-80c4-f8079ed313fa",
+      "status": "succeeded",
+      "original_file": "production/chapter-01/runs/workflow-8-v011/sources/I_pilot_civilian-attempt-1.png",
+      "result_url": null,
+      "audit_status": null
+    },
+    {
+      "node_id": "N_child_table__soft_day_upper_left",
+      "attempt": 1,
+      "job_id": "2ba9e943-9876-4a46-81dc-c0d241b39772",
+      "status": "succeeded",
+      "original_file": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-1.png",
+      "result_url": null,
+      "audit_status": null
+    },
+    {
+      "node_id": "N_child_standing_paper_left__soft_day_upper_left",
+      "attempt": 1,
+      "job_id": "384ad549-6e5e-42f3-990f-cd36838cd6ee",
+      "status": "succeeded",
+      "original_file": "production/chapter-01/runs/workflow-8-v011/sources/N_child_standing-attempt-1.png",
+      "result_url": null,
+      "audit_status": "pending; user paused before correction preparation"
+    },
+    {
+      "node_id": "N_child_table__soft_day_upper_left",
+      "attempt": 2,
+      "job_id": "10b5918a-ece4-4b78-a108-1ce403f4c017",
+      "status": "succeeded",
+      "original_file": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-2.png",
+      "result_url": null,
+      "audit_status": null
+    },
+    {
+      "node_id": "V_CH01_CHILD_IMAGINING",
+      "attempt": 1,
+      "job_id": "9e3509a3-94ad-47ed-b11a-de2b1417e6c8",
+      "status": "succeeded",
+      "original_file": null,
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3LKujQNJ9OcF9YtnepRtjjePJsC/hf_20261107_220619_9e3509a3-94ad-47ed-b11a-de2b1417e6c8.png",
+      "audit_status": "not downloaded or accepted; user paused"
+    }
+  ],
+  "live_jobs": 0,
+  "estimated_generation_credits": 5,
+  "actual_credits": null,
+  "new_chapter_delivery_created": false,
+  "retained_delivery": "production/chapter-01/delivery/chapter-01-v010",
+  "artwork_deleted": false,
+  "next_chapter_authorized": false
+}

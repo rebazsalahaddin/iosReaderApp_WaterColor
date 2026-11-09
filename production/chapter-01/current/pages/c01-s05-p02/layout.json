@@ -1,0 +1,111 @@
+{
+  "page": "c01-s05-p02",
+  "canvas": [
+    2400,
+    1792
+  ],
+  "edition": "v011",
+  "layers": [
+    {
+      "source": "production/chapter-01/current/layers/b6c9e3ab4c4a1e5d8bb3.png",
+      "sha256": "b6c9e3ab4c4a1e5d8bb3407aa15915c5d47ce482bff4dea0cc3a50ca50d85d9f",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/95246b7a869635413971.png",
+      "sha256": "95246b7a869635413971bdff7e2d48514fd9062284ada7113a250bfcad0785b6",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/41d8894a714c6a8e8c4a.png",
+      "sha256": "41d8894a714c6a8e8c4a187c6f4ab4c203de3bc358ffb9c0afe948d18cba6095",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/15546ac99172441305e5.png",
+      "sha256": "15546ac99172441305e5f7bd540eb1302b8ae1de959cc2c09891cee338756e18",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/5341143d186ad588194d.png",
+      "sha256": "5341143d186ad588194dc4b7d043847165222074a262b68a1963ba0eb637870c",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/08d6f374fef9b846b5ac.png",
+      "sha256": "08d6f374fef9b846b5acc3406be6102304c7ee1832966427a1c181f094f8225f",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/43f4564942889eb54566.png",
+      "sha256": "43f4564942889eb54566a0d26f2e73a165b03bbd86759b3da2aa7919470bafbc",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    }
+  ],
+  "thought_cloud": {
+    "decision": "thought_cloud",
+    "content_first": true,
+    "trail_count": 3,
+    "size": [
+      450,
+      280
+    ],
+    "interior_opacity": 1,
+    "content": {
+      "size": [
+        350,
+        210
+      ],
+      "strength": 1,
+      "strong_pigment_outside_safe_center": 0
+    },
+    "puffs": [
+      {
+        "size": [
+          42,
+          42
+        ]
+      },
+      {
+        "size": [
+          31,
+          31
+        ]
+      },
+      {
+        "size": [
+          22,
+          22
+        ]
+      }
+    ]
+  }
+}

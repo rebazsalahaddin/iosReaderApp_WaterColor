@@ -1,0 +1,62 @@
+{
+  "id": "A_CH14_R01_L",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-14/references/R01_streetlamp_on_and_off/reference-images/01_LP_ref_char_lamplighter_turnaround.png",
+        "sha256": "b783a1c504df0aa09ddcf5c2d48de53222cfd7a9224ad8d41b28cf8837e50aeb",
+        "role": "Adult lamplighter, cream cap, blue jacket, tan trousers, streetlamp and lighting pole."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "one complete streetlamp in ON state, one small warm flame inside lantern, restrained internal light.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH14_R01",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c14-s01-p01",
+    "c14-s01-p02",
+    "c14-s01-p03",
+    "c14-s01-p04",
+    "c14-s01-p05",
+    "c14-s01-p06",
+    "c14-s02-p01",
+    "c14-s02-p02",
+    "c14-s02-p03",
+    "c14-s02-p04",
+    "c14-s02-p05",
+    "c14-s03-p01",
+    "c14-s03-p02",
+    "c14-s03-p03",
+    "c14-s03-p04",
+    "c14-s03-p06",
+    "c16-s02-p01",
+    "c16-s02-p02",
+    "c16-s02-p03",
+    "c16-s02-p04"
+  ],
+  "audit_only_details": "No broad halo on key background. Glass retains illustrated local highlights, not a magenta interior; inspect at intended background. No lighting pole attached.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH14_R01_L/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. one complete streetlamp in ON state, one small warm flame inside lantern, restrained internal light. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-14/references/R01_streetlamp_on_and_off/audit-contract.json",
+  "prompt_sha256": "920404448b9f6c84e38d1f855f91d587dd3a5f59094bf1e427fc9a7c6ad4f902",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH14_R01_L"
+}

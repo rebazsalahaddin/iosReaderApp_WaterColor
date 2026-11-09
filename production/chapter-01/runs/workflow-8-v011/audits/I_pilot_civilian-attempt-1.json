@@ -1,0 +1,33 @@
+{
+  "node_id": "I_pilot_civilian",
+  "stage": "identity_turnaround",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/I_pilot_civilian-attempt-1.png",
+  "source_sha256": "04bf0efe78e2c68410e0a2fd1f82c7a666b066337ea13216257314a13f8cb72a",
+  "parents": [],
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T21:57:50.703442+00:00",
+  "verdict": "PASS_WITH_NOTE",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Compared four new views to the inspected cream-shirt civilian seed: chestnut waved hair, long simple nose, small dot eyes, adult age, cream collared buttoned cuffs, khaki trousers/belt and brown low shoes remain. Full front/three-quarter/profile/back are complete, naturally posed and consistent."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Actual PNG 2336x1744. Four full bodies with shoes, natural adult proportions and consistent head/body scale; no missing extremities or new chair."
+    },
+    "alpha": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Native RGBA; 52.05% pixels fully transparent. Cream-background diagnostic inspected: no visible matte, checkerboard or surrounding halo. Body alpha mostly252-254/255; acceptable appearance reference only, not yet a page sprite. Audit opaque interiors again on every physical neutral."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Turnaround appearance sheet; no visible physical floor shadow on the cream diagnostic. New supported neutral master must own its contact shadow."
+    }
+  },
+  "issues": [],
+  "diagnostic_files": [
+    "production/chapter-01/runs/workflow-8-v011/audits/civilian-alpha-cream.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/civilian-alpha-dark.jpg"
+  ]
+}

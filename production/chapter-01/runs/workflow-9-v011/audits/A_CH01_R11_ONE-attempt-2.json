@@ -1,0 +1,34 @@
+{
+  "node_id": "A_CH01_R11_ONE",
+  "stage": "object_or_editorial",
+  "attempt": 2,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/A_CH01_R11_ONE-attempt-2.png",
+  "source_sha256": "997073bcde40d8aa268a643dee3fc6eeeae53755526f7bbdc16befd9396be51c",
+  "parents": [],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T10:53:18.825954+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Single gently curled olive-ochre patterned snake sleeping after its meal with closed mouth, small closed eye, one rounded swollen midsection, and one tapered tail on a soft bounded forest-moss watercolor vignette, clean transparent alpha on light and dark diagnostic plates."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/A_CH01_R11_ONE-attempt-2.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Non-grounded or plate/editorial asset per node contract."
+    }
+  },
+  "issues": []
+}

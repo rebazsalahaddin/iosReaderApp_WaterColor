@@ -1,0 +1,24 @@
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 13-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+The boy already holds one sheet with Drawing Two before the same older man and grey-haired woman. The older man’s response is mild dismissal, not ridicule.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–3.392 seconds: The child already holds Drawing Two toward the same adults and waits. Keep the visible elephant drawing unchanged.
+3.392–4.652 seconds: Maintain an attentive pause. Do not begin the adults' dismissal before this pause.
+4.652–7.532 seconds: The older man makes one restrained downward settling gesture with his already extended hand, without touching the sheet.
+7.532–12.2 seconds: The child's hopeful face softens into disappointment; shoulders relax slightly while both hands hold the paper steady.
+12.2–13 seconds: Hold the quiet result. No new school props or thought cloud.
+
+GENERATED SOUND: AMBIENCE ONLY
+Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+Preserve the physical elephant cutaway exactly. No thought clouds, maps, schoolbooks, floating numbers or new teaching props. No grabbing, tearing, scolding finger, shrinking child or turning the adults away.
+
+END STATE
+All story movement finishes within the first 12.831 seconds; maintain a quiet stable hold through 13 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

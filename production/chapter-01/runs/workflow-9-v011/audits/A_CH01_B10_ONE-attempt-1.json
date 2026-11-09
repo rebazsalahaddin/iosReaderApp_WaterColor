@@ -1,0 +1,34 @@
+{
+  "node_id": "A_CH01_B10_ONE",
+  "stage": "background_plate",
+  "attempt": 1,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/A_CH01_B10_ONE-attempt-1.png",
+  "source_sha256": "6db501e6923ad475eba477c09d41a2612d5c7b840d5c8e7b13983ef4f5a65942",
+  "parents": [],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T10:41:19.029252+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Empty childhood room background plate with window and curtains on left, potted plant left-of-centre, rear honey bookshelves, empty coral rug and wooden floor with foreground table and chair cleanly removed, soft storybook watercolor vignette on opaque canvas."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/A_CH01_B10_ONE-attempt-1.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Opaque background plate per node contract."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Non-grounded or plate/editorial asset per node contract."
+    }
+  },
+  "issues": []
+}

@@ -1,0 +1,153 @@
+{
+ "request_id": "CH02_S02",
+ "attempt": 2,
+ "job_id": "b5c8763a-c7c8-45b1-a470-231a682075fa",
+ "source_file": "production/chapter-02/props/raw/CH02_S02_prince_requesting_and_inspecting__attempt-2.png",
+ "source_sha256": "910cbd49acd98d234d2ad33f233e9a9d9702b783029e30211455e800ba40b47b",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "e4f4f5da03d89e6f4e6702d5ddd4f1b10a61bb33e544d43d1b42eb9424f6d0bc",
+ "attachments": [],
+ "cells": [
+  "L",
+  "R"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Same prince identity in both cells (golden messy hair, sage coat, coral scarf, three brass buttons, brown boots, child proportions); soft watercolor, thin warm contours."
+  },
+  "orientation_expression": {
+   "verdict": "MATERIAL_FAIL",
+   "evidence": "RIGHT cell PASS: leans from hips toward viewer-LEFT, hands behind back, empty hands, thoughtful serious face, gaze down-left. LEFT cell FAIL persists: three-quarter facing viewer-RIGHT on all five cues (boot toes right, button placket offset, viewer-right shoulder nearer, pupils right, open palm extending viewer-right). Correction instruction not applied to facing."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "Two single-child cells; no props/papers/labels; clean #FF00FF-family key (corners ~253,3,250); no spill."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "Clean key through leg/arm gaps; no clipping; left cell bounds [155,153,1070,1636], right [1384,210,2229,1642]."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Standing figures ~1480px tall; ample pixels for 610px final standing height (scale ~0.41)."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "PENDING_EXTRACTION",
+   "evidence": "Applies to accepted RIGHT cell; standard magenta keying."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Poses read clearly; LEFT reads as asking but toward the wrong side for the staged pilot position."
+  },
+  "second_contract_check": {
+   "verdict": "MATERIAL_FAIL",
+   "evidence": "Focused recheck of left-cell crop confirms unchanged viewer-RIGHT facing; required three-quarter viewer-LEFT with leftward gesture. Two permitted submissions consumed (attempt 1 job d8400859, attempt 2 job b5c8763a). No mirroring permitted; no further generation for this reference."
+  }
+ },
+ "issues": [
+  {
+   "issue_id": "CH02_S02-L-DIRECTION-PERSISTENT",
+   "request_id": "CH02_S02",
+   "attempt": 2,
+   "cell": "L",
+   "affected_pages": [
+    "c02-s02-p01",
+    "c02-s02-p04",
+    "c02-s02-p05",
+    "c02-s02-p06",
+    "c02-s03-p01",
+    "c02-s03-p02",
+    "c02-s04-p01"
+   ],
+   "coordinate_space": "source",
+   "image_dimensions": [
+    2400,
+    1792
+   ],
+   "bbox_xywh": [
+    155,
+    153,
+    915,
+    1483
+   ],
+   "evidence_file": "production/chapter-02/audits/sources/CH02_S02_attempt-2_leftcell_evidence.png",
+   "evidence_sha256": "3760d861a81ffcb71281d549e4b2b1c06f2365564d2d3ac91da48f819b075188",
+   "expected": "LEFT cell three-quarter facing viewer-LEFT with gesture extending viewer-left (correction brief).",
+   "contract_reference": "attempt-2-prompt.txt correction block S02L-DIRECTION",
+   "observed": "LEFT cell remains three-quarter facing viewer-RIGHT; toes/placket/shoulder/pupils/palm all rightward.",
+   "material_impact": "Asking-state source unavailable: seven staged pages cannot use this cell without breaking the prince-to-pilot recipient direction.",
+   "cause": "source",
+   "local_or_existing_source_option": "Substitute planned complete state CH02_S05:L (prince standing facing LEFT, quiet attentive, hands relaxed) for the asking pages if it passes its own audit; otherwise pages blocked for user decision.",
+   "decision": "BLOCKED",
+   "precise_fix": "No third generation permitted. Compose affected pages with CH02_S05:L once accepted; record substitution in page audits and the delivery report.",
+   "recheck": "S05:L focused direction audit on the same five cues.",
+   "resolved": false
+  }
+ ],
+ "verdict": "BLOCKED_L_ACCEPTED_R",
+ "accepted_cells": [
+  "R"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "cell_audits": {
+  "R": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[R] Same prince identity in both cells (golden messy hair, sage coat, coral scarf, three brass buttons, brown boots, child proportions); soft watercolor, thin warm contours."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[R] RIGHT cell PASS: leans from hips toward viewer-LEFT, hands behind back, empty hands, thoughtful serious face, gaze down-left. LEFT cell FAIL persists: three-quarter facing viewer-RIGHT on all five cues (boot toes right, button placket offset, viewer-right shoulder nearer, pupils right, open palm extending viewer-right). Correction instruction not applied to facing."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[R] Two single-child cells; no props/papers/labels; clean #FF00FF-family key (corners ~253,3,250); no spill."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[R] Clean key through leg/arm gaps; no clipping; left cell bounds [155,153,1070,1636], right [1384,210,2229,1642]."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[R] Standing figures ~1480px tall; ample pixels for 610px final standing height (scale ~0.41)."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[R] Applies to accepted RIGHT cell; standard magenta keying."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[R] Poses read clearly; LEFT reads as asking but toward the wrong side for the staged pilot position."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[R] Focused recheck of left-cell crop confirms unchanged viewer-RIGHT facing; required three-quarter viewer-LEFT with leftward gesture. Two permitted submissions consumed (attempt 1 job d8400859, attempt 2 job b5c8763a). No mirroring permitted; no further generation for this reference."
+    }
+   },
+   "summary": "Cell R of CH02_S02: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "Attempt-2 return preferred for R cell (latest verified). Attempt-1 R cell also retained as alternative. Asking-state L cell blocked after two attempts; CH02_S05:L substitution planned.",
+ "reviewed_at": "2026-11-07T14:50:00.000000+00:00",
+ "cell_details": [
+  {
+   "cell": "R",
+   "bounds_source_px": [
+    1384,
+    210,
+    2229,
+    1641
+   ],
+   "source_file": "production/chapter-02/props/raw/CH02_S02_prince_requesting_and_inspecting__attempt-2.png",
+   "source_sha256": "910cbd49acd98d234d2ad33f233e9a9d9702b783029e30211455e800ba40b47b"
+  }
+ ]
+}

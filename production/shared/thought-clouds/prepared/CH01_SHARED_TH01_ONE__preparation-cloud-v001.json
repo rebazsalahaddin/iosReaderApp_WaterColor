@@ -1,0 +1,41 @@
+{
+  "source": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+  "sha256": "e916dd74b1f35d9d6225c8faaae70659c97d3663a046409e88ef8d01c5d2350a",
+  "source_dimensions": [
+    2400,
+    1792
+  ],
+  "source_cell": [
+    0,
+    0,
+    2400,
+    1792
+  ],
+  "source_crop": [
+    165,
+    65,
+    2287,
+    1727
+  ],
+  "painted_bounds_in_source": [
+    177,
+    77,
+    2275,
+    1715
+  ],
+  "prepared": "production/shared/thought-clouds/prepared/CH01_SHARED_TH01_ONE__rgba-cloud-v001.png",
+  "background_median_rgb": [
+    253.0,
+    1.0,
+    252.0
+  ],
+  "background_chroma_threshold": 208.0,
+  "foreground_policy": "chroma<=30 or dark ink(max channel<210,chroma<=70), verified on actual source interiors; no blanket erosion",
+  "matte": "Nearest observed foreground/background colour projection in narrow edge; all enclosed key gaps remain background",
+  "edge_despill": "Nearest observed low-chroma foreground only within 5px outer silhouette band; interior purple-brown ink preserved",
+  "despilled_rim_pixels": 46122,
+  "interior_max_channel_change": 0.0,
+  "motion_pixels_recovered": 0,
+  "motion_method": "Coverage recovered from observed green-channel contribution to the flat key; existing motion-only region, no added strokes",
+  "status": "prepared and inspected on light, dark and intended scene backgrounds; protected interiors unchanged"
+}

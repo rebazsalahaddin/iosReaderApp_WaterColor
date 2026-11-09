@@ -1,0 +1,64 @@
+{
+  "page": "c01-s05-p03",
+  "canvas": [
+    2400,
+    1792
+  ],
+  "edition": "v011",
+  "layers": [
+    {
+      "source": "production/chapter-01/current/layers/b6c9e3ab4c4a1e5d8bb3.png",
+      "sha256": "b6c9e3ab4c4a1e5d8bb3407aa15915c5d47ce482bff4dea0cc3a50ca50d85d9f",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/95246b7a869635413971.png",
+      "sha256": "95246b7a869635413971bdff7e2d48514fd9062284ada7113a250bfcad0785b6",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/d62ffd50d10c9116bd86.png",
+      "sha256": "d62ffd50d10c9116bd86ff30b044664fcfa57479014dc9946e9e16ab7984ab11",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/8e71274e237037402989.png",
+      "sha256": "8e71274e237037402989de676e05c9cf5c57c337d4cb9be58662a78edb1a9bb8",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/619304ac22186cbaa1a0.png",
+      "sha256": "619304ac22186cbaa1a05c21cabe88da857ed89e8f2062c42d559c2b1927596c",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/08d6f374fef9b846b5ac.png",
+      "sha256": "08d6f374fef9b846b5acc3406be6102304c7ee1832966427a1c181f094f8225f",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "template_only": false,
+  "request_id": "CH01_R13",
+  "attempt": 2,
+  "job_id": "4c6d5a0a-3288-481a-ad21-0ed8d0f915f6",
+  "source_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts__attempt-2.png",
+  "source_sha256": "6459906408283457fbbe311ee4147a460a3aa36fe54c87bbb1558a5ae5c9fbbc",
+  "actual_format": "PNG",
+  "actual_dimensions": [
+    2400,
+    1792
+  ],
+  "prompt_sha256": "bc5e04bb4ae319c707b97e4095c87278e7ceff7ce0579097bff286da9fa7c230",
+  "attachments": [
+    {
+      "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png",
+      "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+      "media_id": "493c4cb7-9aa6-4fbe-b50e-6de4493624ff"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/02_approved_storybook_style.png",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+    },
+    {
+      "path": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts.png",
+      "sha256": "dbe2311b9ea3254e155b9a9b1422bbb3b186fde142bd218e2ce4cf6019430621",
+      "media_id": "ed5d9f88-e01b-47f8-b72a-7a9d8b9e736e"
+    }
+  ],
+  "parameters": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "high",
+    "aspect_ratio": "4:3",
+    "count": 1
+  },
+  "accepted_cells": [
+    "L",
+    "R"
+  ],
+  "verdict": "PASS_WITH_NOTE",
+  "reviewer": "Codex visual inspection against approved style and final three-page composites",
+  "reviewed_at": "2026-11-07T01:11:05.918600+00:00",
+  "credits_estimated": 2,
+  "credits_actual": null,
+  "issues": [],
+  "cell_audits": {
+    "L": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS",
+          "evidence": "Simple pale tan crown/brim/plain band, thin warm contour and quiet wash; no buckle or product-like sculpted crease."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Complete isolated ordinary hat, no wearer; one picture reused for both adult responses."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "Exactly one source picture in this cell; mental interpretation only, no cloud/people/furniture baked in."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Independent mental prop; no physical hand/support reconstruction required."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Native extracted dimensions [1251, 646]; final width 350px, uniform reduction only."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS",
+          "evidence": "Cream/charcoal matte diagnostic and actual room/night placements inspected. Mixed-key contour cleaned locally; pale interiors opaque. Map blank paper neutralized before composition."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Inspected actual final page at 800px width: clear motif without taking attention from faces/action; muted detail matches scene artwork."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Rechecked both diagnosed defects and preserved counts/realm/silhouette/style/native pixels after composition. Local frame/owner geometry passes; no third attempt."
+        }
+      },
+      "measured_crop": [
+        575,
+        162,
+        1826,
+        808
+      ]
+    },
+    "R": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS_WITH_NOTE",
+          "evidence": "One muted sage land wash and pale blue water; no terrain partitions, realistic folds, labels or grids. Native coastline/island shapes remain, recorded as a non-blocking detail note after reading-size review."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Complete straight-on world-map impression; no asserted route or physical map in pilot hands."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "Exactly one source picture in this cell; mental interpretation only, no cloud/people/furniture baked in."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Independent mental prop; no physical hand/support reconstruction required."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Native extracted dimensions [1820, 733]; final width 450px, uniform reduction only."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS",
+          "evidence": "Cream/charcoal matte diagnostic and actual room/night placements inspected. Mixed-key contour cleaned locally; pale interiors opaque. Map blank paper neutralized before composition."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Inspected actual final page at 800px width: clear motif without taking attention from faces/action; muted detail matches scene artwork."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Rechecked both diagnosed defects and preserved counts/realm/silhouette/style/native pixels after composition. Local frame/owner geometry passes; no third attempt."
+        }
+      },
+      "measured_crop": [
+        291,
+        938,
+        2111,
+        1671
+      ]
+    }
+  },
+  "checks": {
+    "identity_style": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "See separately inspected L/R cell evidence and final page audits."
+    },
+    "orientation_expression": {
+      "verdict": "PASS",
+      "evidence": "See separately inspected L/R cell evidence and final page audits."
+    },
+    "count_state_realm": {
+      "verdict": "PASS",
+      "evidence": "See separately inspected L/R cell evidence and final page audits."
+    },
+    "contact_support": {
+      "verdict": "PASS",
+      "evidence": "See separately inspected L/R cell evidence and final page audits."
+    },
+    "native_pixel_budget": {
+      "verdict": "PASS",
+      "evidence": "See separately inspected L/R cell evidence and final page audits."
+    },
+    "extraction_light_dark_intended": {
+      "verdict": "PASS",
+      "evidence": "See separately inspected L/R cell evidence and final page audits."
+    },
+    "reading_size": {
+      "verdict": "PASS",
+      "evidence": "See separately inspected L/R cell evidence and final page audits."
+    },
+    "second_contract_check": {
+      "verdict": "PASS",
+      "evidence": "See separately inspected L/R cell evidence and final page audits."
+    }
+  },
+  "notes": [
+    "The second return retains some tiny islands and coastline wiggles at native scale. At the intended 450px inset, broad wash shapes dominate; no third submission is justified for these non-disruptive details."
+  ]
+}

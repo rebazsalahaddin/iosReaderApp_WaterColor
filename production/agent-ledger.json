@@ -1,0 +1,3138 @@
+{
+  "workflow_version": 7,
+  "sources": {
+    "CH01_R13": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T01:01:18.416974+00:00",
+        "prompt_file": "production/chapter-01/generation-records/CH01_R13/attempt-2-prompt.txt",
+        "prompt_sha256": "bc5e04bb4ae319c707b97e4095c87278e7ceff7ce0579097bff286da9fa7c230",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png",
+            "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+            "media_id": "493c4cb7-9aa6-4fbe-b50e-6de4493624ff"
+          },
+          {
+            "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/02_approved_storybook_style.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts.png",
+            "sha256": "dbe2311b9ea3254e155b9a9b1422bbb3b186fde142bd218e2ce4cf6019430621",
+            "media_id": "ed5d9f88-e01b-47f8-b72a-7a9d8b9e736e"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "correction_preserves_passed_features": true,
+        "evidence": "Original and new style references, both failed cells and three final scene contexts inspected; native sources can support reduced insets without enlargement."
+      },
+      "reuse_decision": "No suitable ordinary hat or flat map in retained accepted sources. One new two-cell sheet serves three pages. Existing frame/puffs reused.",
+      "last_audit": "production/chapter-01/audits/sources/CH01_R13-attempt-2.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "L",
+          "source_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts__attempt-2.png",
+          "source_sha256": "6459906408283457fbbe311ee4147a460a3aa36fe54c87bbb1558a5ae5c9fbbc",
+          "prepared_file": "production/chapter-01/components/prepared/CH01_R13_hat__attempt-2_rgba.png",
+          "prepared_sha256": "3208d837e92063e1765f820390082f49fa365bd0148c678b3d06685467c3ac01",
+          "preparation_record": "production/chapter-01/components/prepared/CH01_R13_attempt-2_preparation.json",
+          "audit_file": "production/chapter-01/audits/sources/CH01_R13-attempt-2.json"
+        },
+        {
+          "cell": "R",
+          "source_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts__attempt-2.png",
+          "source_sha256": "6459906408283457fbbe311ee4147a460a3aa36fe54c87bbb1558a5ae5c9fbbc",
+          "prepared_file": "production/chapter-01/components/prepared/CH01_R13_map__attempt-2_relative.png",
+          "prepared_sha256": "35ca31fb3557bbb7eb1cee901495da0f138d44994292dae801029fc65defd11d",
+          "preparation_record": "production/chapter-01/components/prepared/CH01_R13_attempt-2_preparation.json",
+          "audit_file": "production/chapter-01/audits/sources/CH01_R13-attempt-2.json"
+        }
+      ],
+      "retired_previously_accepted_cells": [
+        {
+          "cell": "L",
+          "source_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts.png",
+          "source_sha256": "dbe2311b9ea3254e155b9a9b1422bbb3b186fde142bd218e2ce4cf6019430621",
+          "prepared_file": "production/chapter-01/components/prepared/CH01_R13_hat__rgba.png",
+          "prepared_sha256": "fe2eeebdc63b5b48e9ce80a1ff062768219ce83c852d1a88cae56f6881db1561",
+          "preparation_record": "production/chapter-01/components/prepared/CH01_R13_preparation.json",
+          "audit_file": "production/chapter-01/audits/sources/CH01_R13-attempt-1.json"
+        },
+        {
+          "cell": "R",
+          "source_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts.png",
+          "source_sha256": "dbe2311b9ea3254e155b9a9b1422bbb3b186fde142bd218e2ce4cf6019430621",
+          "prepared_file": "production/chapter-01/components/prepared/CH01_R13_map__relative.png",
+          "prepared_sha256": "5e88b655ce9dda5c0f5051db50d43e2423fa9ed030438a3384cdadedcb38efa5",
+          "preparation_record": "production/chapter-01/components/prepared/CH01_R13_preparation.json",
+          "audit_file": "production/chapter-01/audits/sources/CH01_R13-attempt-1.json"
+        }
+      ]
+    },
+    "CH02_R01": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_R01/attempt-1-prompt.txt",
+        "prompt_sha256": "f472f3be20e8c7d704545e8cba9bc651640f6825c2c11e9081aeb514f6984d41",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/01_plane_side_view.png",
+            "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+            "media_id": "8db7d80f-43e4-4101-93f0-76ed23d4d6f8"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/02_plane_engin_hood_open.png",
+            "sha256": "095e22c15fb0244f4dab3f6e1bcf267a58f3b4b43404649242d409c1be85915c",
+            "media_id": "cfd6280d-a3a8-4200-90de-7ab21f57eaae"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/03_plane_scale_with_pilot.png",
+            "sha256": "7314e371a63cb5f0a263a3a180cab20386a5a6230bdb31fc8eab0e729bc723cd",
+            "media_id": "76af62b8-6c2b-4744-bd7c-c3606ac43594"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/04_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/05_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/06_CH02_R01_PACKING_GUIDE.png",
+            "sha256": "2f225647ea3c1ef916861de851ef156c7a8990ac081661e59b2055322ce3339a",
+            "media_id": "a4a0bec1-a380-4d0f-970c-28dba569a520"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/07_c02-s01-p02_COMPOSITION_GUIDE.png",
+            "sha256": "b287aa2e99f267731a0f9e8d7b6aaf3e4286283f7a13177fe1b0ed43f0d3ce02",
+            "media_id": "738cb7a4-f745-4de4-99b9-fb90d82ab12a"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "All 7 attachments visually inspected (identity, hood-open lower-right view, 2.2x scale, approved style sample, packing/composition guides) and hash-verified; plane nose-right two-blade state locked; full-width packing 5-7% margins; target box [320,740,1300,570] bottom_center gives native-pixel budget at final scale <=1."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_R01-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "ONE",
+          "bounds_source_px": [
+            239,
+            438,
+            2218,
+            1425
+          ],
+          "source_file": "production/chapter-02/props/raw/CH02_R01_parked_aircraft_open_engine.png",
+          "source_sha256": "971cae872bc1172b690bb2090226ea7765264867241602a942ce6be117c72a10",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_R01_plane__rgba.png",
+          "prepared_sha256": "464733c70e275d8b9b009cfe7940f6d4f5424cdfab834d0a4e4af85171494d60",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_R01_plane__rgba__preparation.json",
+          "crop_bounds": null,
+          "audit_file": "production/chapter-02/audits/sources/CH02_R01-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_R01_plane__rgba.png",
+          "prepared_sha256_v2": "ab9b0683123c3562223e8594946b389147f87830944b66af97550445d7dead96",
+          "preparation_v2": "chapter-1 projection matte; enclosed key gaps transparent; 5px edge despill"
+        }
+      ]
+    },
+    "CH02_S01": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_S01/attempt-1-prompt.txt",
+        "prompt_sha256": "75dcc0d98f1656c276d4f5a4968af20f3aea715fa137119381c64a2605fc8aba",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/01_LP_ref_char_pilot_turnaround.png",
+            "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+            "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/02_LP_scale_seated_pilot_prince.png",
+            "sha256": "78511a8cdab89d764e4fb6d50b44af1bef946502acddc62182e0d57ac25b38a1",
+            "media_id": "edcabe09-2ec0-4815-a870-b6b9e37c49d4"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/03_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/04_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/05_CH02_S01_PACKING_GUIDE.png",
+            "sha256": "2f36973645f4a07c7d99ae797c208b8d89561d351b8eb18de8b46cf11d220a3e",
+            "media_id": "5c9c5f65-fa1f-4623-b880-45fdd212aa7b"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/06_c02-s02-p05_COMPOSITION_GUIDE.png",
+            "sha256": "88b893c2bf498c3d5d21b9dd0f3939c7c8574f262c3e2b47799bf0747ce45469",
+            "media_id": "9951ea04-4a71-4353-b6ea-74cc27ca1cf0"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "Identity/scale/style/packing/composition references inspected and hash-verified; two tall columns 3-47%/53-97% with 6% gutter; direction lock torso-right both cells, head down (drawing) / head right (presenting); blank integrated hand-paper groups, no invented marks; seated crown-to-ground 630px vs standing child 610 verified on scale sheet."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_S01-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "L",
+          "bounds_source_px": [
+            160,
+            342,
+            1079,
+            1640
+          ],
+          "source_file": "production/chapter-02/props/raw/CH02_S01_pilot_drawing_and_presenting_paper.png",
+          "source_sha256": "541ed32ef9569e8322aad2fcdca960143ace435b5d4abb7ada0d3c39afd97ddd",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_S01_pilot_drawing__rgba.png",
+          "prepared_sha256": "6b6fc6e640d61ba9cbb2ed7ecddd88b43fc5a1705b30e9713f97beb445f84a99",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_S01_pilot_drawing__rgba__preparation.json",
+          "crop_bounds": [
+            0,
+            0,
+            1150,
+            1792
+          ],
+          "audit_file": "production/chapter-02/audits/sources/CH02_S01-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_S01_pilot_drawing__rgba.png",
+          "prepared_sha256_v2": "1f148640cb7a072c5fc77a7ac524ac890f798a232b8cf87a6dbefd5b7e37fc84",
+          "preparation_v2": "chapter-1 projection matte; enclosed key gaps transparent; 5px edge despill"
+        },
+        {
+          "cell": "R",
+          "bounds_source_px": [
+            1250,
+            318,
+            2265,
+            1643
+          ],
+          "source_file": "production/chapter-02/props/raw/CH02_S01_pilot_drawing_and_presenting_paper.png",
+          "source_sha256": "541ed32ef9569e8322aad2fcdca960143ace435b5d4abb7ada0d3c39afd97ddd",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_S01_pilot_presenting__rgba.png",
+          "prepared_sha256": "dd31be4b15c5d61b80f7daba344e4acb7a794b6be5fc07e95f7487108e5538a9",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_S01_pilot_presenting__rgba__preparation.json",
+          "crop_bounds": [
+            1250,
+            0,
+            2400,
+            1792
+          ],
+          "audit_file": "production/chapter-02/audits/sources/CH02_S01-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_S01_pilot_presenting__rgba.png",
+          "prepared_sha256_v2": "bec105bdb075a803490fc9918a361b62f8bed35e8aaea8dcd98248078eb1ce75",
+          "preparation_v2": "chapter-1 projection matte; enclosed key gaps transparent; 5px edge despill"
+        }
+      ]
+    },
+    "CH02_S02": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_S02/attempt-2-prompt.txt",
+        "prompt_sha256": "e4f4f5da03d89e6f4e6702d5ddd4f1b10a61bb33e544d43d1b42eb9424f6d0bc",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/01_LP_ref_char_prince_turnaround.png",
+            "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+            "media_id": "c8aff6fc-c268-4cae-acb8-12cc9f4bbb49"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/02_LP_scale_prince_pilot_standing.png",
+            "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+            "media_id": "5a41cf5f-a10c-4506-9146-bdf83d85be3d"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/03_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/04_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/05_CH02_S02_PACKING_GUIDE.png",
+            "sha256": "db282b792ffa112f51725e94b61c2d787851e75567ee2cb9ca5943a29a772e67",
+            "media_id": "a9181e60-f9a6-4548-8241-9d5b74829203"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/06_c21-s05-p01_COMPOSITION_GUIDE.png",
+            "sha256": "71417916c280693f984429471928a4f25465c96d030c34ae2654e144df98fda3",
+            "media_id": "b256e526-e353-40db-aa76-d31f8c678892"
+          },
+          {
+            "path": "production/chapter-02/props/raw/CH02_S02_prince_requesting_and_inspecting.png",
+            "sha256": "3ccab0c1cb06052584f3e25c199da6a3e652a9d528eb825fada9b29a41617fc8",
+            "media_id": "5b0f66ad-2656-4f6a-b01c-a343836b8286",
+            "role": "diagnostic only (failed attempt-1 return, final attachment)"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "correction_preserves_passed_features": true,
+        "evidence": "Attempt-1 audit CH02_S02-attempt-1.json: RIGHT cell PASS; LEFT cell MATERIAL_FAIL S02L-DIRECTION with measured bbox [154,151,918,1486] and evidence crop; no local/mirror alternative; consolidated single-defect correction brief; failed return attached last as diagnostic."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_S02-attempt-2.json",
+      "page_correction_plans_note": null,
+      "blocked_state": "L asking-state: facing correction failed twice; no further submissions",
+      "previous_status": "blocked",
+      "retired_accepted_cells": [
+        {
+          "cell": "R",
+          "bounds_source_px": [
+            1384,
+            210,
+            2229,
+            1641
+          ],
+          "source_file": "production/chapter-02/props/raw/CH02_S02_prince_requesting_and_inspecting__attempt-2.png",
+          "source_sha256": "910cbd49acd98d234d2ad33f233e9a9d9702b783029e30211455e800ba40b47b",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_S02_prince_inspecting__rgba.png",
+          "prepared_sha256": "c02b968abc6227e6c1d9b5cf81c226fa2eb0ad0d789622720cc01390bef765c6",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_S02_prince_inspecting__rgba__preparation.json",
+          "crop_bounds": [
+            1250,
+            0,
+            2400,
+            1792
+          ],
+          "audit_file": "production/chapter-02/audits/sources/CH02_S02-attempt-2.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_S02_prince_inspecting__rgba.png",
+          "prepared_sha256_v2": "4a9782d1f9e68a55db69855df9e142f7778b2ed914e7d15bae1bf24c84c4f5b0",
+          "preparation_v2": "chapter-1 projection matte; enclosed key gaps transparent; 5px edge despill"
+        }
+      ]
+    },
+    "CH02_B01": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_B01/attempt-1-prompt.txt",
+        "prompt_sha256": "5bd309ce7267ea7e3dc78edffe5d3156b9eeda67d6dd80ef730a69bff334e289",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/01_LP_ref_sahara_day.jpg",
+            "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+            "media_id": "146533fd-739a-4de5-9ab8-3dad8546796f"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/02_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/03_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/04_CH02_B01_PACKING_GUIDE.png",
+            "sha256": "50dcc80e56841b94fc8f82b6eee374433c8f41f5413c3d35ef115602ed13a793",
+            "media_id": "252a8104-4439-4605-ba22-99f0cf462a7f"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/05_c02-s02-p01_COMPOSITION_GUIDE.png",
+            "sha256": "2dc11e39ace2b728358e18b6478cbe5ee67a00adde00064ccd26e14ec46c8555",
+            "media_id": "0448e862-93bf-4ddf-84aa-2c6a216c94c8"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "Sahara day plate visually inspected (empty layered dunes, low warm sun upper-left, pastel palette, deckled edges); sunrise variant must keep same camera/dunes with warm sunrise at LEFT per prompt; full-width plate packing, natural paper edges, no key colour, no people/aircraft; style refs cached and inspected; final 2000x1493 field target at scale<=1."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_B01-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "ONE",
+          "bounds_source_px": null,
+          "source_file": "production/chapter-02/props/raw/CH02_B01_sahara_sunrise_reusable_plate.png",
+          "source_sha256": "311c9fe48343df5fb80831d54a4d7f1907f81e53584a1fa0849ee9113878a203",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_B01_sunrise_plate.png",
+          "prepared_sha256": "a22eacf642b163f91de43c637a4364d30cc56d18212b10c617528e01b53d255e",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_B01_sunrise_plate__preparation.json",
+          "audit_file": "production/chapter-02/audits/sources/CH02_B01-attempt-1.json"
+        }
+      ]
+    },
+    "CH02_S03": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_S03/attempt-1-prompt.txt",
+        "prompt_sha256": "0c90094ddfc0f811e5692ad83016aa5b949efe623d2ea4379c96274f39c598ae",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/01_LP_ref_char_pilot_turnaround.png",
+            "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+            "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/02_LP_scale_seated_pilot_prince.png",
+            "sha256": "78511a8cdab89d764e4fb6d50b44af1bef946502acddc62182e0d57ac25b38a1",
+            "media_id": "edcabe09-2ec0-4815-a870-b6b9e37c49d4"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/03_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/04_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/05_CH02_S03_PACKING_GUIDE.png",
+            "sha256": "70861f56f75f2689040819edd9f7da26d5fc49e237143a04d8a71e337063315f",
+            "media_id": "ad326124-f15a-440e-ac23-c59165ba22a9"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/06_c02-s02-p01_COMPOSITION_GUIDE.png",
+            "sha256": "2dc11e39ace2b728358e18b6478cbe5ee67a00adde00064ccd26e14ec46c8555",
+            "media_id": "0448e862-93bf-4ddf-84aa-2c6a216c94c8"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "Pilot family representative CH02_S01 already generated and audited PASS (identity/painterly style confirmed on real return); awakening state: ONE full-width cell, sitting up hands braced near hips, knees bent, surprised-not-terrified, looking up RIGHT; no sand; support contacts preserved; seated-scale lock from inspected scale sheet."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_S03-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "ONE",
+          "bounds_source_px": null,
+          "source_file": "production/chapter-02/props/raw/CH02_S03_pilot_awakening.png",
+          "source_sha256": "043e0a973ccdd81ff8128584667794e43477dbc5fa1b370dc0087cd6a979d6f3",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_S03_pilot_awaken__rgba.png",
+          "prepared_sha256": "93ade06bb8cd78c700f1efe28b9399f613e771d568eba94738e876891e8dc199",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_S03_pilot_awaken__rgba__preparation.json",
+          "crop_bounds": null,
+          "audit_file": "production/chapter-02/audits/sources/CH02_S03-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_S03_pilot_awaken__rgba.png",
+          "prepared_sha256_v2": "902101ee90ad5f252c095c8763557f1ed74c7aa0b722c7a2f54091cbe3e8d83c",
+          "preparation_v2": "chapter-1 projection matte; enclosed key gaps transparent; 5px edge despill"
+        }
+      ]
+    },
+    "CH02_S04": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_S04/attempt-1-prompt.txt",
+        "prompt_sha256": "fc91dfca214905ba53ce6716770f4ee554f08b5ba10db4e5bede99e4316fdbc2",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S04_pilot_first_night_asleep/reference-images/01_LP_ref_char_pilot_turnaround.png",
+            "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+            "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S04_pilot_first_night_asleep/reference-images/02_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S04_pilot_first_night_asleep/reference-images/03_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S04_pilot_first_night_asleep/reference-images/04_CH02_S04_PACKING_GUIDE.png",
+            "sha256": "6f9e79ffdc6c406121c8175dc8c090cf94f2f0bcea4f9923a190e4ea23ae1a82",
+            "media_id": null,
+            "note": "NOT attached in attempt-1 submission (process deviation)"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S04_pilot_first_night_asleep/reference-images/05_c02-s01-p04_COMPOSITION_GUIDE.png",
+            "sha256": "0045c6b1b090aa759c4dc225b4103544f3031745ea4771456bafc00b1a4d7c43",
+            "media_id": null,
+            "note": "NOT attached in attempt-1 submission (process deviation)"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "deviation_record": "Attempt-1 was submitted WITHOUT the guard/reservation sequence and with an abbreviated prompt: LIGHT line paraphrased (\"Soft cool night ambience with gentle pale moonlight from above\" vs authored \"Quiet cool moonlight from upper-left; subdued local colours, no blue background painted into edges\"), STATE line replaced, and Images 4-5 (packing + composition guides) omitted. The submitted job occupies attempt 1. Return to be audited strictly; any material defect (especially packing/margins) triggers the single permitted correction using the complete authored prompt and all five references plus the failed return as diagnostic."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_S04-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "ONE",
+          "bounds_source_px": [
+            253,
+            583,
+            2194,
+            1207
+          ],
+          "source_file": "production/chapter-02/props/raw/CH02_S04_pilot_first_night_asleep.png",
+          "source_sha256": "795d151bec06f789683f774a4fa8ac680f35165c4026d0a3e20c4fd21d4e25aa",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_S04_pilot_asleep__rgba.png",
+          "prepared_sha256": "965f67af0aadc0acc10cd88b99a9cbe6cf0ce38dd7b86dd7487a95030d530814",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_S04_pilot_asleep__rgba__preparation.json",
+          "crop_bounds": null,
+          "audit_file": "production/chapter-02/audits/sources/CH02_S04-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_S04_pilot_asleep__rgba.png",
+          "prepared_sha256_v2": "7657ac9fc49f330cbf329c265b7e3a1798a623c6765a282188d7bf1121a81af1",
+          "preparation_v2": "chapter-1 projection matte; enclosed key gaps transparent; 5px edge despill"
+        }
+      ]
+    },
+    "CH02_S05": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_S05/attempt-1-prompt.txt",
+        "prompt_sha256": "1464fff45b4ff9761ffa502195212d7057a6b86dd78c507ee90791bde3c25f33",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/01_LP_ref_char_prince_turnaround.png",
+            "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+            "media_id": "c8aff6fc-c268-4cae-acb8-12cc9f4bbb49"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/02_LP_scale_prince_pilot_standing.png",
+            "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+            "media_id": "5a41cf5f-a10c-4506-9146-bdf83d85be3d"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/03_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/04_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/05_CH02_S05_PACKING_GUIDE.png",
+            "sha256": "f0354aab4438c36b3d284a503794bccd8aab9aa31cc279a3cd0db1d297f321ce",
+            "media_id": "ca30a131-19ff-42a6-856e-f6ed8f2e03b6"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/06_c08-s03-p01_COMPOSITION_GUIDE.png",
+            "sha256": "283a91df4aa41554f3d6add2ba480c05f008db8b5498e20fad9202e7e2f1bbd8",
+            "media_id": "c8a7199b-083a-47be-83e0-726235eb9f00"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "Prince family audited on real returns; two-column packing; LEFT quiet attentive facing LEFT hands relaxed / RIGHT delighted gentle smile facing LEFT; standing .61/.86 scale sheet inspected; also designated substitute for the seven blocked S02:L asking pages."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_S05-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "L",
+          "bounds_source_px": [
+            267,
+            126,
+            875,
+            1647
+          ],
+          "source_file": "production/chapter-02/props/raw/CH02_S05_prince_listening_and_delighted.png",
+          "source_sha256": "1f88776fe8c271e1d90e48bba2a63b9b61bf799dba25a287dadd0d5b40ef482d",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_S05_prince_quiet__rgba.png",
+          "prepared_sha256": "d916718b9d62243cb9b6a59de12ab12b087da46e564b4c522ecc621184de3ba5",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_S05_prince_quiet__rgba__preparation.json",
+          "crop_bounds": [
+            0,
+            0,
+            1150,
+            1792
+          ],
+          "audit_file": "production/chapter-02/audits/sources/CH02_S05-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_S05_prince_quiet__rgba.png",
+          "prepared_sha256_v2": "de2c51b179ded8e187aab95a871014d98bb4d01dc0be27bc78cc62837d47a3f5"
+        },
+        {
+          "cell": "R",
+          "bounds_source_px": [
+            1539,
+            125,
+            2150,
+            1648
+          ],
+          "source_file": "production/chapter-02/props/raw/CH02_S05_prince_listening_and_delighted.png",
+          "source_sha256": "1f88776fe8c271e1d90e48bba2a63b9b61bf799dba25a287dadd0d5b40ef482d",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_S05_prince_delighted__rgba.png",
+          "prepared_sha256": "73b7e7700f1c60e698fa20139ce58fd784dc759c1cb753ac436b687333b6b98a",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_S05_prince_delighted__rgba__preparation.json",
+          "crop_bounds": [
+            1250,
+            0,
+            2400,
+            1792
+          ],
+          "audit_file": "production/chapter-02/audits/sources/CH02_S05-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_S05_prince_delighted__rgba.png",
+          "prepared_sha256_v2": "551201b4e1926e2034dc5056cf1a842ee46d1cea0fd8ecbee43e029650d1e65e"
+        }
+      ]
+    },
+    "CH03_S01": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH03_S01/attempt-1-prompt.txt",
+        "prompt_sha256": "b99b2bf53643d3a8c862fc5cfeb65d22eaecec303be5e2b5b30e08e1d366ddb4",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/01_LP_ref_char_pilot_turnaround.png",
+            "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+            "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+          },
+          {
+            "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/02_LP_scale_prince_pilot_standing.png",
+            "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+            "media_id": "5a41cf5f-a10c-4506-9146-bdf83d85be3d"
+          },
+          {
+            "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/03_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/04_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/05_CH03_S01_PACKING_GUIDE.png",
+            "sha256": "cb024c6ff5e6fe7be5a93ac43e9d2243a55ea90c00d3f3d9df8bfe47314faa39",
+            "media_id": "f0f77839-4dfa-416b-9f21-b460882d6680"
+          },
+          {
+            "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/06_c02-s01-p02_COMPOSITION_GUIDE.png",
+            "sha256": "b287aa2e99f267731a0f9e8d7b6aaf3e4286283f7a13177fe1b0ed43f0d3ce02",
+            "media_id": "738cb7a4-f745-4de4-99b9-fb90d82ab12a"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "Pilot family representative audited PASS (S01); two-column packing; direction lock LEFT feet/torso/head RIGHT; RIGHT feet/torso RIGHT with anatomical right arm pointing across toward aircraft LEFT and head turned RIGHT toward child."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH03_S01-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "L",
+          "bounds_source_px": [
+            284,
+            210,
+            740,
+            1707
+          ],
+          "source_file": "production/chapter-02/props/raw/CH03_S01_pilot_explaining_and_pointing.png",
+          "source_sha256": "8561e120c0af5088210ef37c730e35cb24f4e97b023a23f6e447c8ecd89ed309",
+          "prepared_file": "production/chapter-02/components/prepared/CH03S01_pilot_listen__rgba.png",
+          "prepared_sha256": "c456da70b431bd04e18ad8d657ca45aaa711ec2913943d30091edca636323708",
+          "preparation_record": "production/chapter-02/components/prepared/CH03S01_pilot_listen__rgba__preparation.json",
+          "crop_bounds": [
+            0,
+            0,
+            1150,
+            1792
+          ],
+          "audit_file": "production/chapter-02/audits/sources/CH03_S01-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH03S01_pilot_listen__rgba.png",
+          "prepared_sha256_v2": "9323677666534fd0e13c75057bfa13d829fc4c2d270b80255021ef070aa0047a"
+        },
+        {
+          "cell": "R",
+          "bounds_source_px": [
+            1356,
+            216,
+            2181,
+            1710
+          ],
+          "source_file": "production/chapter-02/props/raw/CH03_S01_pilot_explaining_and_pointing.png",
+          "source_sha256": "8561e120c0af5088210ef37c730e35cb24f4e97b023a23f6e447c8ecd89ed309",
+          "prepared_file": "production/chapter-02/components/prepared/CH03S01_pilot_point__rgba.png",
+          "prepared_sha256": "b88773599b0f67852a0b02e518682921e8eda752b4fabd7ea89a32c07facd540",
+          "preparation_record": "production/chapter-02/components/prepared/CH03S01_pilot_point__rgba__preparation.json",
+          "crop_bounds": [
+            1250,
+            0,
+            2400,
+            1792
+          ],
+          "audit_file": "production/chapter-02/audits/sources/CH03_S01-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH03S01_pilot_point__rgba.png",
+          "prepared_sha256_v2": "8c664ce0b7ecc2e94df213f29634d8355f1ecbb837d46e58e6e726f129047c55"
+        }
+      ]
+    },
+    "CH04_R02": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH04_R02/attempt-1-prompt.txt",
+        "prompt_sha256": "39b927db2181c21be8d6bd6840c2cf4c190ceefc44da692fbcd0199c8c019d60",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/01_LP_ref_char_prince_turnaround.png",
+            "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+            "media_id": "c8aff6fc-c268-4cae-acb8-12cc9f4bbb49"
+          },
+          {
+            "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/02_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/03_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/04_CH04_R02_PACKING_GUIDE.png",
+            "sha256": "7e1ddc1028620ed7544fd10777cc68610fb52a0955348d8e19f792de3dc310d6",
+            "media_id": "d66b62d1-df66-4152-bf64-5a21186a40b7"
+          },
+          {
+            "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/05_c02-s02-p03_COMPOSITION_GUIDE.png",
+            "sha256": "00d20ada5e54578b1cdd9b47dc6bb4a4ebef9e2abdb0149adef15bda50c9f457",
+            "media_id": "0e8ad17f-924a-4982-b85b-beaa92720429"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "Graphite in-world drawing on cream paper (no key); identity ref inspected; full-width single sheet packing 5-7%; target box 1240x900 at scale<=1; later-owned shared asset required by c02-s02-p03."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH04_R02-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "ONE",
+          "bounds_source_px": null,
+          "source_file": "production/chapter-02/props/raw/CH04_R02_narrator_graphite_prince_portrait.png",
+          "source_sha256": "c385d013b5f446f5e6a02d8548d3464d3d1a79454b532068e301dd466e4b73a4",
+          "prepared_file": "production/chapter-02/components/prepared/CH04_R02_graphite_portrait.png",
+          "prepared_sha256": "0d33b5c7f3bdef205397ea2f327b80f92a53a353922736c62482c499a97523af",
+          "preparation_record": "production/chapter-02/components/prepared/CH04_R02_graphite_portrait__preparation.json",
+          "audit_file": "production/chapter-02/audits/sources/CH04_R02-attempt-1.json"
+        }
+      ]
+    },
+    "CH02_B00": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_B00/attempt-1-prompt.txt",
+        "prompt_sha256": "ef7adce328467b4ffd609d21a6fa7547fbc2b87399275a3b809bab3b8b959ade",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/reference-images/01_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/reference-images/02_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/reference-images/03_c02-s01-p01_COMPOSITION_GUIDE.png",
+            "sha256": "e691ccd32a54007a978a388e8dc454357304300f9edb88e5c62717f681c7258e",
+            "media_id": "0da9edad-1297-4a09-804a-333243379324"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "Empty nonfigurative cream/pale-ochre wash field 92-96%, quiet central 75%, deckled edges; style-only refs inspected; one shared field for all compatible editorial covers; no key colour."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_B00-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "ONE",
+          "bounds_source_px": null,
+          "source_file": "production/chapter-02/props/raw/CH02_B00_shared_editorial_cover_wash.png",
+          "source_sha256": "c49931e6bf25a3d94196369dc11ee25233357619a7c178081a6a130a53f83342",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_B00_cover_field.png",
+          "prepared_sha256": "527522767d21adeb2f727921747f895f8d8715abf3f94ea10a80eaee3ff8e4b6",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_B00_cover_field__preparation.json",
+          "audit_file": "production/chapter-02/audits/sources/CH02_B00-attempt-1.json"
+        }
+      ]
+    },
+    "CH02_C02": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_C02/attempt-1-prompt.txt",
+        "prompt_sha256": "c68976f988eac12dbeb3f543acba25631f33e2635533a2cb81e71f534118cac3",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/01_LP_ref_char_pilot_turnaround.png",
+            "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+            "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/02_plane_side_view.png",
+            "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+            "media_id": "8db7d80f-43e4-4101-93f0-76ed23d4d6f8"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/03_plane_engin_hood_open.png",
+            "sha256": "095e22c15fb0244f4dab3f6e1bcf267a58f3b4b43404649242d409c1be85915c",
+            "media_id": "cfd6280d-a3a8-4200-90de-7ab21f57eaae"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/04_plane_scale_with_pilot.png",
+            "sha256": "7314e371a63cb5f0a263a3a180cab20386a5a6230bdb31fc8eab0e729bc723cd",
+            "media_id": "76af62b8-6c2b-4744-bd7c-c3606ac43594"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/05_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/06_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/07_accepted_CH02_R01_parked_aircraft_open_engine.png",
+            "sha256": "971cae872bc1172b690bb2090226ea7765264867241602a942ce6be117c72a10",
+            "media_id": "929143c6-482f-4f66-9422-ae4940df1a26"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/08_CH02_C02_PACKING_GUIDE.png",
+            "sha256": "84091986e93cff5413a7cd3ab085ff7a29ff2ab982a4b13164de521219643d3b",
+            "media_id": "266633b8-e4de-4afc-8f71-69e4a07901a7"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/09_c02-s01-p03_COMPOSITION_GUIDE.png",
+            "sha256": "9d7ac3caaddbe66ddb68b7a8757060c3104a9fcd9041c6010b8e81fdcfc9afd0",
+            "media_id": "71fef9ad-80fd-4cfd-bd62-81fbee839b9c"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "Dependency CH02_R01 accepted (audit PASS, ONE cell, hash 971cae87); its accepted bytes copied to slot 07 and imported (media 929143c6); full integrated machine/pilot contact group planned; magenta key."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_C02-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "ONE",
+          "bounds_source_px": null,
+          "source_file": "production/chapter-02/props/raw/CH02_C02_pilot_repairing_parked_aircraft.png",
+          "source_sha256": "3b68f1ab398883a3277997d417c839dd179a0063a2e29e942248221af7b4fe02",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_C02_repair_group__rgba.png",
+          "prepared_sha256": "2dde9ced6c796594b8c90377710884ccb244333897128467b92f16261895693e",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_C02_repair_group__rgba__preparation.json",
+          "crop_bounds": null,
+          "audit_file": "production/chapter-02/audits/sources/CH02_C02-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_C02_repair_group__rgba.png",
+          "prepared_sha256_v2": "068b27ba16b49ded8f723b0b479264ff729a03e68a01a1155e5d39bb5a1b7da6",
+          "preparation_v2": "chapter-1 projection matte; enclosed key gaps transparent; 5px edge despill"
+        }
+      ]
+    },
+    "CH02_C01": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T13:21:00.000000+00:00",
+        "prompt_file": "production/chapter-02/generation-records/CH02_C01/attempt-1-prompt.txt",
+        "prompt_sha256": "e2870034c4cebcea6ec22d977a9cdb2a6d3e58dafa7a1b0fe1c14f18fc3a9337",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/01_LP_ref_char_pilot_turnaround.png",
+            "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+            "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/02_LP_scale_seated_pilot_prince.png",
+            "sha256": "78511a8cdab89d764e4fb6d50b44af1bef946502acddc62182e0d57ac25b38a1",
+            "media_id": "edcabe09-2ec0-4815-a870-b6b9e37c49d4"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/03_c01-s05-p01.png",
+            "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+            "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/04_c03-s010.jpg",
+            "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+            "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/05_accepted_CH02_S01_pilot_drawing_and_presenting_paper.png",
+            "sha256": "541ed32ef9569e8322aad2fcdca960143ace435b5d4abb7ada0d3c39afd97ddd",
+            "media_id": "351394a7-62c8-44ff-a8a6-005dedd643d5"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/06_CH02_C01_PACKING_GUIDE.png",
+            "sha256": "ca9e21002d44575b09c63776b0de20f98ed20b5330f3921b7388ad3ff466523e",
+            "media_id": "17aa2894-93c8-4f95-bfea-e42a6d389d29"
+          },
+          {
+            "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/07_c02-s04-p01_COMPOSITION_GUIDE.png",
+            "sha256": "036056f35ccba321c1896857b12e23ee4e6c91f9d2ad9f5869e09ceb919a1c2a",
+            "media_id": "fd89415d-6c45-4dac-b3d9-bf71bdabda21"
+          }
+        ],
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "evidence": "Dependency CH02_S01 accepted (audit PASS, L+R cells, hash 541ed32e); accepted bytes copied to slot 05 and imported (media 351394a7); ONE impatient-box-present state; same camera/paper grip as S01 right; magenta key."
+      },
+      "last_audit": "production/chapter-02/audits/sources/CH02_C01-attempt-1.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "ONE",
+          "bounds_source_px": null,
+          "source_file": "production/chapter-02/props/raw/CH02_C01_pilot_impatiently_presenting_box.png",
+          "source_sha256": "65fac36fde72c235ed8cf7c26dafe0494c540317419e1c930310474099bacb9d",
+          "note": "Accepted cell is the RIGHT of two painted instances; isolated by rectangular crop in the empty clear gutter during preparation; left instance unused.",
+          "prepared_file": "production/chapter-02/components/prepared/CH02_C01_pilot_box__rgba.png",
+          "prepared_sha256": "703023053ec495f1f863bfe5198135be5960bb15c966ee5209705f2d126330c1",
+          "preparation_record": "production/chapter-02/components/prepared/CH02_C01_pilot_box__rgba__preparation.json",
+          "crop_bounds": [
+            1150,
+            0,
+            2400,
+            1792
+          ],
+          "audit_file": "production/chapter-02/audits/sources/CH02_C01-attempt-1.json",
+          "prepared_file_v2": "production/chapter-02/components/prepared-v2/CH02_C01_pilot_box__rgba.png",
+          "prepared_sha256_v2": "cf25ede5a472d1e36b09f1856d2b61b86182f9621e6c7efa8c4028eb5bc0cc50",
+          "preparation_v2": "chapter-1 projection matte; enclosed key gaps transparent; 5px edge despill"
+        }
+      ]
+    },
+    "CH01_E01": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T17:53:41.779206+00:00",
+        "prompt_file": "production/chapter-01/generation-records/CH01_E01/attempt-1-prompt.txt",
+        "prompt_sha256": "416013de162cb9eb5b89072faf2a95b49b953c4b15e4e26a9d97a59a79cbab73",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+            "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+            "media_id": "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff"
+          },
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/02_CH01_S02_pilot_drawing_hope_disappointed.png",
+            "sha256": "475f48380c564fa324a9fe41109ec326b4164b87f306d717b043a9349b0f6de7",
+            "media_id": "0b9c1934-a883-44ce-8934-c52add180ee5"
+          },
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/03_CH01_E01_direction_and_packing.png",
+            "sha256": "cc6b5237fc344b1f9ee7745131a113f6a22ca03738e7ac8df573358463fc9994",
+            "media_id": "15a7b05b-00b7-4323-b518-f315d109f4c6"
+          }
+        ],
+        "evidence": "Visually inspected exact complete source sheets and independent direction/packing diagrams. Existing sources have the old mild performance; new user-directed reaching/withdrawal, downcast loneliness and engaged responses are material narrative changes. Complete coherent groups preserve canonical appearance; no loose anatomy. Pilot native cell height approx1500 supports final1230; heads targeted below native. Other adults retain own head and support measurements."
+      },
+      "reuse_decision": "New user-directed story-performance states; accepted identity references retained, no prior failed request renamed or reset.",
+      "last_audit": "production/chapter-01/generation-records/CH01_E01/attempt-1-audit.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "L",
+          "source_file": "production/chapter-01/props/raw/CH01_E01_pilot_reaching_hope_and_withdrawn_disappointment.png",
+          "source_sha256": "f48d8f72bac13193aa5ccde9923afb29158491a15543628046f3535a74ae8400",
+          "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E01_L__rgba-performance-v010.png",
+          "prepared_sha256": "93fb1d5862ebc8e853ecaf8ffea743ef39398c90fe05676be7d92bf06c6737d2",
+          "preparation_record": "production/chapter-01/components/prepared-v010/CH01_CH01_E01_L__preparation-performance-v010.json",
+          "audit_file": "production/chapter-01/generation-records/CH01_E01/attempt-1-audit.json"
+        },
+        {
+          "cell": "R",
+          "source_file": "production/chapter-01/props/raw/CH01_E01_pilot_reaching_hope_and_withdrawn_disappointment.png",
+          "source_sha256": "f48d8f72bac13193aa5ccde9923afb29158491a15543628046f3535a74ae8400",
+          "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E01_R__rgba-performance-v010.png",
+          "prepared_sha256": "33aed33df0ba9bdd000e0fefe1fe444a23daf8beb67e97292476f9b6170d426d",
+          "preparation_record": "production/chapter-01/components/prepared-v010/CH01_CH01_E01_R__preparation-performance-v010.json",
+          "audit_file": "production/chapter-01/generation-records/CH01_E01/attempt-1-audit.json"
+        }
+      ]
+    },
+    "CH01_E02": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T17:53:41.779206+00:00",
+        "prompt_file": "production/chapter-01/generation-records/CH01_E02/correction-guide/retry-prompt.txt",
+        "prompt_sha256": "e15d19f120edfa0dcf84dc605eb77c77c914dd2e2ad8889fed9b29a4e1052521",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+            "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+            "media_id": "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff"
+          },
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/02_CH01_C01_pilot_conversing_and_isolated.png",
+            "sha256": "843389b2cd2b10f76cad6df7900893908fc60b4cd361588903450228f1c41613",
+            "media_id": "9824a24b-edac-4bcd-a730-e9bf41013b96"
+          },
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/03_CH01_E02_direction_and_packing.png",
+            "sha256": "b184cf5d17ea948ab6bf08d9fda9c738d14cc764f80101dff83ccf149982551f",
+            "media_id": "14e932e5-4fea-40d5-be04-d82d39126c0b"
+          },
+          {
+            "path": "production/chapter-01/generation-records/CH01_E02/correction-guide/correction-board-01.png",
+            "media_id": "dda5b70f-41e1-4d9c-97cf-c7ebd365957e",
+            "sha256": "077d57d939f0be13620a50e5dd22fa25ab582ada9851f44090f9997cdcf51521"
+          },
+          {
+            "path": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast.png",
+            "media_id": "6e4a18b3-3ce7-45d4-bc9c-24fa533e4690",
+            "sha256": "1a46298f458e8177ecca40b374d4e12bd1407facc17fca4ec84f3022cada1ca2"
+          }
+        ],
+        "evidence": "Visually inspected exact complete source sheets and independent direction/packing diagrams. Existing sources have the old mild performance; new user-directed reaching/withdrawal, downcast loneliness and engaged responses are material narrative changes. Complete coherent groups preserve canonical appearance; no loose anatomy. Pilot native cell height approx1500 supports final1230; heads targeted below native. Other adults retain own head and support measurements.",
+        "visual_correction_guide": "production/chapter-01/generation-records/CH01_E02/correction-guide/correction-guide.json",
+        "visual_correction_guide_sha256": "b717a506e385b3b0cd17330671bbce2a4757ff6df98ddc12a21814a63bfe050c",
+        "correction_preserves_passed_features": true,
+        "reference_capacity_checked": true,
+        "reference_capacity_evidence": "Live Nano Banana 2.1 schema accepts image_references; no numeric cap declared. Five ordered image inputs retain all three originals, one legible instruction board and untouched failure last. No role or setting fallback.",
+        "max_reference_images": null
+      },
+      "reuse_decision": "New user-directed story-performance states; accepted identity references retained, no prior failed request renamed or reset.",
+      "last_audit": "production/chapter-01/generation-records/CH01_E02/attempt-2-audit.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "L",
+          "source_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast.png",
+          "source_sha256": "1a46298f458e8177ecca40b374d4e12bd1407facc17fca4ec84f3022cada1ca2",
+          "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E02_L__rgba-performance-v010.png",
+          "prepared_sha256": "d4a18854861da4afde77eb0263c57e5cb28737ac9b70669377bc58bbd5dece5f",
+          "preparation_record": "production/chapter-01/components/prepared-v010/CH01_CH01_E02_L__preparation-performance-v010.json",
+          "audit_file": "production/chapter-01/generation-records/CH01_E02/attempt-1-audit.json"
+        },
+        {
+          "cell": "R",
+          "source_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast__attempt-2.png",
+          "source_sha256": "987b4a7b56801a74f0d29a8a570b957255289f3ee8c260c56862c9ccb7b119b4",
+          "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E02_ONE__rgba-performance-v010.png",
+          "prepared_sha256": "69756f8ed4a505c245e9ac95c4ddf1d8e0e5154dfd5be970ad6ea2c2e5dc9aac",
+          "preparation_record": "production/chapter-01/components/prepared-v010/CH01_CH01_E02_ONE__preparation-performance-v010.json",
+          "audit_file": "production/chapter-01/generation-records/CH01_E02/attempt-2-audit.json"
+        }
+      ]
+    },
+    "CH01_E03": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T17:53:41.779206+00:00",
+        "prompt_file": "production/chapter-01/generation-records/CH01_E03/attempt-1-prompt.txt",
+        "prompt_sha256": "5fba7977d599fbbecc629d127943ebc3c82e731f3ce41283b7f279195c9ce840",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+            "sha256": "80ecd925cb7d12fd9807023e74913dfa79437fe1fe40d72c14e1e469aac260da",
+            "media_id": "0fcdd7e8-92b9-4a86-8b59-760c50782757"
+          },
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/02_CH01_S05_grownup4_listen_reply.png",
+            "sha256": "f7482945be69292db3e5918c2f87fac69a48cf172ecffcbd37aea04da8825cad",
+            "media_id": "0f672f92-29b9-43aa-9fae-8b1788233c77"
+          },
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/03_CH01_E03_direction_and_packing.png",
+            "sha256": "57a5d4b9c63d057f9a1033dec174405b6a2e781d588a2ba91537008df5b9b65f",
+            "media_id": "23abd318-f857-44cd-b697-f7d7842d5e40"
+          }
+        ],
+        "evidence": "Visually inspected exact complete source sheets and independent direction/packing diagrams. Existing sources have the old mild performance; new user-directed reaching/withdrawal, downcast loneliness and engaged responses are material narrative changes. Complete coherent groups preserve canonical appearance; no loose anatomy. Pilot native cell height approx1500 supports final1230; heads targeted below native. Other adults retain own head and support measurements."
+      },
+      "reuse_decision": "New user-directed story-performance states; accepted identity references retained, no prior failed request renamed or reset.",
+      "last_audit": "production/chapter-01/generation-records/CH01_E03/attempt-1-audit.json",
+      "previous_status": "partially_accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "R",
+          "source_file": "production/chapter-01/props/raw/CH01_E03_social_adults_pleased_agreement.png",
+          "source_sha256": "b02f40bcc3c0558aa86556f89dde1b7b8348b4dbafa9041eadb3e3671e6430c6",
+          "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E03_R__rgba-performance-v010.png",
+          "prepared_sha256": "5888dc8b8faf2b06d35218cbd2ce9d2b8f4e52fe4ef9a22da7a734631b7071dd",
+          "preparation_record": "production/chapter-01/components/prepared-v010/CH01_CH01_E03_R__preparation-performance-v010.json",
+          "audit_file": "production/chapter-01/generation-records/CH01_E03/attempt-1-audit.json"
+        }
+      ]
+    },
+    "CH01_E04": {
+      "status": "retired_fresh_start",
+      "preflight": {
+        "reuse_checked": true,
+        "references_visually_checked": true,
+        "page_contracts_checked": true,
+        "pixel_budget_checked": true,
+        "packing_checked": true,
+        "directions_contacts_checked": true,
+        "text_alignment_checked": true,
+        "thought_dependencies_checked": true,
+        "parameters": {
+          "model": "nano_banana_2_1",
+          "resolution": "2k",
+          "thinking_level": "high",
+          "aspect_ratio": "4:3",
+          "count": 1
+        },
+        "estimated_credits": 2,
+        "estimate_checked_at": "2026-11-07T17:53:41.779206+00:00",
+        "prompt_file": "production/chapter-01/generation-records/CH01_E04/attempt-1-prompt.txt",
+        "prompt_sha256": "d267fb5e20693f90ef1dead9f14c159af447a7fbd14a70fe3dd08d10dcedad55",
+        "attachments": [
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/01_CH01_S13_childhood_adults_questioning.png",
+            "sha256": "a97ab55db17f19a359b12995f81642006245c65230a049ed7a44c967cd787a16",
+            "media_id": "aef7cc1b-f337-4e4c-8cda-88b76b0e4909"
+          },
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/02_woman_both_states_facing_right.png",
+            "sha256": "b2a6e085cf9d4254d9815cdab6bb9acd17a49bb36252720f84463d4b1c1f35a6",
+            "media_id": "758177a6-39fa-4212-b8ee-f7a1e9eda747"
+          },
+          {
+            "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/03_CH01_E04_direction_and_packing.png",
+            "sha256": "7d9e2ed2398ee519c8ebee999d54a42a57236b8bc554d132835b0cd3051242cd",
+            "media_id": "3c8aceba-931e-4b68-a0b6-afb5f84fd2c3"
+          }
+        ],
+        "evidence": "Visually inspected exact complete source sheets and independent direction/packing diagrams. Existing sources have the old mild performance; new user-directed reaching/withdrawal, downcast loneliness and engaged responses are material narrative changes. Complete coherent groups preserve canonical appearance; no loose anatomy. Pilot native cell height approx1500 supports final1230; heads targeted below native. Other adults retain own head and support measurements."
+      },
+      "reuse_decision": "New user-directed story-performance states; accepted identity references retained, no prior failed request renamed or reset.",
+      "last_audit": "production/chapter-01/generation-records/CH01_E04/attempt-1-audit.json",
+      "previous_status": "accepted",
+      "retired_accepted_cells": [
+        {
+          "cell": "L",
+          "source_file": "production/chapter-01/props/raw/CH01_E04_childhood_adults_engaged_hat_response.png",
+          "source_sha256": "d8481fe533c712ffbb365b3b8381f52a3713ea2d971632b4c4b3f30bd43671a7",
+          "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E04_L__rgba-performance-v010.png",
+          "prepared_sha256": "f60b81141c6554adde4a2ab02b6c0b27c9dd13dc84962ff9e590a79c3aaeb4f5",
+          "preparation_record": "production/chapter-01/components/prepared-v010/CH01_CH01_E04_L__preparation-performance-v010.json",
+          "audit_file": "production/chapter-01/generation-records/CH01_E04/attempt-1-audit.json"
+        },
+        {
+          "cell": "R",
+          "source_file": "production/chapter-01/props/raw/CH01_E04_childhood_adults_engaged_hat_response.png",
+          "source_sha256": "d8481fe533c712ffbb365b3b8381f52a3713ea2d971632b4c4b3f30bd43671a7",
+          "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E04_R__rgba-performance-v010.png",
+          "prepared_sha256": "da58f39e1799919bc38c7cb01c4512d1add5488a867a6305577b23054c7b036c",
+          "preparation_record": "production/chapter-01/components/prepared-v010/CH01_CH01_E04_R__preparation-performance-v010.json",
+          "audit_file": "production/chapter-01/generation-records/CH01_E04/attempt-1-audit.json"
+        }
+      ]
+    }
+  },
+  "jobs": [
+    {
+      "request_id": "CH01_R13",
+      "attempt": 1,
+      "chapter": 1,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T00:34:09.455903+00:00",
+      "prompt_file": "production/chapter-01/generation-records/CH01_R13/attempt-1-prompt.txt",
+      "prompt_sha256": "ea722cc4bcf559635546af01b0925685d86052cd1066229f8a4a06b9aca14e4a",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png",
+          "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+          "media_id": "493c4cb7-9aa6-4fbe-b50e-6de4493624ff"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c01-s02-p02",
+        "c01-s04-p02",
+        "c01-s05-p02"
+      ],
+      "job_id": "ed5d9f88-e01b-47f8-b72a-7a9d8b9e736e",
+      "backend_role_adjustment": "image to image_references; model and user settings unchanged",
+      "original_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts.png",
+      "completed_at": "2026-11-07T00:44:46.521375+00:00",
+      "original_sha256": "dbe2311b9ea3254e155b9a9b1422bbb3b186fde142bd218e2ce4cf6019430621",
+      "actual_credits": null,
+      "cost_note": "Exact preflight quoted 2 credits; response did not expose settled debit."
+    },
+    {
+      "request_id": "CH01_R13",
+      "attempt": 2,
+      "chapter": 1,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T01:01:41.516476+00:00",
+      "prompt_file": "production/chapter-01/generation-records/CH01_R13/attempt-2-prompt.txt",
+      "prompt_sha256": "bc5e04bb4ae319c707b97e4095c87278e7ceff7ce0579097bff286da9fa7c230",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png",
+          "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+          "media_id": "493c4cb7-9aa6-4fbe-b50e-6de4493624ff"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/02_approved_storybook_style.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts.png",
+          "sha256": "dbe2311b9ea3254e155b9a9b1422bbb3b186fde142bd218e2ce4cf6019430621",
+          "media_id": "ed5d9f88-e01b-47f8-b72a-7a9d8b9e736e"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c01-s02-p02",
+        "c01-s04-p02",
+        "c01-s05-p02"
+      ],
+      "job_id": "4c6d5a0a-3288-481a-ad21-0ed8d0f915f6",
+      "backend_role_adjustment": "image to image_references; model and locked settings unchanged",
+      "original_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts__attempt-2.png",
+      "original_sha256": "6459906408283457fbbe311ee4147a460a3aa36fe54c87bbb1558a5ae5c9fbbc",
+      "completed_at": "2026-11-07T01:03:20.984227+00:00",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_R01",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T13:40:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_R01/attempt-1-prompt.txt",
+      "prompt_sha256": "f472f3be20e8c7d704545e8cba9bc651640f6825c2c11e9081aeb514f6984d41",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/01_plane_side_view.png",
+          "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+          "media_id": "8db7d80f-43e4-4101-93f0-76ed23d4d6f8"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/02_plane_engin_hood_open.png",
+          "sha256": "095e22c15fb0244f4dab3f6e1bcf267a58f3b4b43404649242d409c1be85915c",
+          "media_id": "cfd6280d-a3a8-4200-90de-7ab21f57eaae"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/03_plane_scale_with_pilot.png",
+          "sha256": "7314e371a63cb5f0a263a3a180cab20386a5a6230bdb31fc8eab0e729bc723cd",
+          "media_id": "76af62b8-6c2b-4744-bd7c-c3606ac43594"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/04_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/05_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/06_CH02_R01_PACKING_GUIDE.png",
+          "sha256": "2f225647ea3c1ef916861de851ef156c7a8990ac081661e59b2055322ce3339a",
+          "media_id": "a4a0bec1-a380-4d0f-970c-28dba569a520"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/07_c02-s01-p02_COMPOSITION_GUIDE.png",
+          "sha256": "b287aa2e99f267731a0f9e8d7b6aaf3e4286283f7a13177fe1b0ed43f0d3ce02",
+          "media_id": "738cb7a4-f745-4de4-99b9-fb90d82ab12a"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c02-s01-p02"
+      ],
+      "job_id": "15cc9d04-b587-48b1-bb5b-87085dc314fb",
+      "submitted_at": "2026-11-07T13:42:00.000000+00:00",
+      "completed_at": "2026-11-07T13:46:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_R01_parked_aircraft_open_engine.png",
+      "original_sha256": "971cae872bc1172b690bb2090226ea7765264867241602a942ce6be117c72a10",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_S01",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T13:40:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_S01/attempt-1-prompt.txt",
+      "prompt_sha256": "75dcc0d98f1656c276d4f5a4968af20f3aea715fa137119381c64a2605fc8aba",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/01_LP_ref_char_pilot_turnaround.png",
+          "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+          "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/02_LP_scale_seated_pilot_prince.png",
+          "sha256": "78511a8cdab89d764e4fb6d50b44af1bef946502acddc62182e0d57ac25b38a1",
+          "media_id": "edcabe09-2ec0-4815-a870-b6b9e37c49d4"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/03_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/04_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/05_CH02_S01_PACKING_GUIDE.png",
+          "sha256": "2f36973645f4a07c7d99ae797c208b8d89561d351b8eb18de8b46cf11d220a3e",
+          "media_id": "5c9c5f65-fa1f-4623-b880-45fdd212aa7b"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/06_c02-s02-p05_COMPOSITION_GUIDE.png",
+          "sha256": "88b893c2bf498c3d5d21b9dd0f3939c7c8574f262c3e2b47799bf0747ce45469",
+          "media_id": "9951ea04-4a71-4353-b6ea-74cc27ca1cf0"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c02-s02-p05",
+        "c02-s02-p06",
+        "c02-s03-p01",
+        "c02-s03-p02",
+        "c02-s03-p03",
+        "c02-s03-p04",
+        "c02-s03-p05",
+        "c02-s04-p02",
+        "c02-s04-p03",
+        "c02-s04-p04"
+      ],
+      "job_id": "0c83e500-da64-4b1b-9ca7-2272dbd8ed15",
+      "submitted_at": "2026-11-07T13:42:00.000000+00:00",
+      "completed_at": "2026-11-07T13:46:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_S01_pilot_drawing_and_presenting_paper.png",
+      "original_sha256": "541ed32ef9569e8322aad2fcdca960143ace435b5d4abb7ada0d3c39afd97ddd",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_S02",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T13:40:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_S02/attempt-1-prompt.txt",
+      "prompt_sha256": "b7602cfa68ec0f745af2117ba91004dcd985c1da38471b77bd74075403123379",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/01_LP_ref_char_prince_turnaround.png",
+          "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+          "media_id": "c8aff6fc-c268-4cae-acb8-12cc9f4bbb49"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/02_LP_scale_prince_pilot_standing.png",
+          "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+          "media_id": "5a41cf5f-a10c-4506-9146-bdf83d85be3d"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/03_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/04_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/05_CH02_S02_PACKING_GUIDE.png",
+          "sha256": "db282b792ffa112f51725e94b61c2d787851e75567ee2cb9ca5943a29a772e67",
+          "media_id": "a9181e60-f9a6-4548-8241-9d5b74829203"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/06_c21-s05-p01_COMPOSITION_GUIDE.png",
+          "sha256": "71417916c280693f984429471928a4f25465c96d030c34ae2654e144df98fda3",
+          "media_id": "b256e526-e353-40db-aa76-d31f8c678892"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c02-s02-p01",
+        "c02-s02-p04",
+        "c02-s02-p05",
+        "c02-s02-p06",
+        "c02-s03-p01",
+        "c02-s03-p02",
+        "c02-s03-p03",
+        "c02-s03-p05",
+        "c02-s04-p01",
+        "c02-s04-p03"
+      ],
+      "job_id": "d8400859-d9e4-44ea-9ae9-f78760a8318e",
+      "submitted_at": "2026-11-07T13:42:00.000000+00:00",
+      "completed_at": "2026-11-07T13:46:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_S02_prince_requesting_and_inspecting.png",
+      "original_sha256": "3ccab0c1cb06052584f3e25c199da6a3e652a9d528eb825fada9b29a41617fc8",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_S02",
+      "attempt": 2,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:01:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_S02/attempt-2-prompt.txt",
+      "prompt_sha256": "e4f4f5da03d89e6f4e6702d5ddd4f1b10a61bb33e544d43d1b42eb9424f6d0bc",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/01_LP_ref_char_prince_turnaround.png",
+          "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+          "media_id": "c8aff6fc-c268-4cae-acb8-12cc9f4bbb49"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/02_LP_scale_prince_pilot_standing.png",
+          "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+          "media_id": "5a41cf5f-a10c-4506-9146-bdf83d85be3d"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/03_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/04_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/05_CH02_S02_PACKING_GUIDE.png",
+          "sha256": "db282b792ffa112f51725e94b61c2d787851e75567ee2cb9ca5943a29a772e67",
+          "media_id": "a9181e60-f9a6-4548-8241-9d5b74829203"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/06_c21-s05-p01_COMPOSITION_GUIDE.png",
+          "sha256": "71417916c280693f984429471928a4f25465c96d030c34ae2654e144df98fda3",
+          "media_id": "b256e526-e353-40db-aa76-d31f8c678892"
+        },
+        {
+          "path": "production/chapter-02/props/raw/CH02_S02_prince_requesting_and_inspecting.png",
+          "sha256": "3ccab0c1cb06052584f3e25c199da6a3e652a9d528eb825fada9b29a41617fc8",
+          "media_id": "5b0f66ad-2656-4f6a-b01c-a343836b8286",
+          "role": "diagnostic only (failed attempt-1 return, final attachment)"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "b5c8763a-c7c8-45b1-a470-231a682075fa",
+      "active_pages": [
+        "c02-s02-p01",
+        "c02-s02-p04",
+        "c02-s02-p05",
+        "c02-s02-p06",
+        "c02-s03-p01",
+        "c02-s03-p02",
+        "c02-s03-p03",
+        "c02-s03-p05",
+        "c02-s04-p01",
+        "c02-s04-p03"
+      ],
+      "correction": true,
+      "submitted_at": "2026-11-07T14:03:00.000000+00:00",
+      "completed_at": "2026-11-07T14:12:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_S02_prince_requesting_and_inspecting__attempt-2.png",
+      "original_sha256": "910cbd49acd98d234d2ad33f233e9a9d9702b783029e30211455e800ba40b47b",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_B01",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:07:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_B01/attempt-1-prompt.txt",
+      "prompt_sha256": "5bd309ce7267ea7e3dc78edffe5d3156b9eeda67d6dd80ef730a69bff334e289",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/01_LP_ref_sahara_day.jpg",
+          "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+          "media_id": "146533fd-739a-4de5-9ab8-3dad8546796f"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/02_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/03_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/04_CH02_B01_PACKING_GUIDE.png",
+          "sha256": "50dcc80e56841b94fc8f82b6eee374433c8f41f5413c3d35ef115602ed13a793",
+          "media_id": "252a8104-4439-4605-ba22-99f0cf462a7f"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/05_c02-s02-p01_COMPOSITION_GUIDE.png",
+          "sha256": "2dc11e39ace2b728358e18b6478cbe5ee67a00adde00064ccd26e14ec46c8555",
+          "media_id": "0448e862-93bf-4ddf-84aa-2c6a216c94c8"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "05b54bf9-ca06-4798-9e04-5d68e216e5b6",
+      "active_pages": [
+        "c02-s02-p01",
+        "c02-s02-p02",
+        "c02-s02-p04"
+      ],
+      "submitted_at": "2026-11-07T14:09:00.000000+00:00",
+      "completed_at": "2026-11-07T14:13:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_B01_sahara_sunrise_reusable_plate.png",
+      "original_sha256": "311c9fe48343df5fb80831d54a4d7f1907f81e53584a1fa0849ee9113878a203",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_S03",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:07:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_S03/attempt-1-prompt.txt",
+      "prompt_sha256": "0c90094ddfc0f811e5692ad83016aa5b949efe623d2ea4379c96274f39c598ae",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/01_LP_ref_char_pilot_turnaround.png",
+          "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+          "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/02_LP_scale_seated_pilot_prince.png",
+          "sha256": "78511a8cdab89d764e4fb6d50b44af1bef946502acddc62182e0d57ac25b38a1",
+          "media_id": "edcabe09-2ec0-4815-a870-b6b9e37c49d4"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/03_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/04_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/05_CH02_S03_PACKING_GUIDE.png",
+          "sha256": "70861f56f75f2689040819edd9f7da26d5fc49e237143a04d8a71e337063315f",
+          "media_id": "ad326124-f15a-440e-ac23-c59165ba22a9"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/06_c02-s02-p01_COMPOSITION_GUIDE.png",
+          "sha256": "2dc11e39ace2b728358e18b6478cbe5ee67a00adde00064ccd26e14ec46c8555",
+          "media_id": "0448e862-93bf-4ddf-84aa-2c6a216c94c8"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "de563c58-7453-438f-8310-d805ea078288",
+      "active_pages": [
+        "c02-s02-p01",
+        "c02-s02-p04"
+      ],
+      "submitted_at": "2026-11-07T14:09:00.000000+00:00",
+      "completed_at": "2026-11-07T14:13:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_S03_pilot_awakening.png",
+      "original_sha256": "043e0a973ccdd81ff8128584667794e43477dbc5fa1b370dc0087cd6a979d6f3",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_S04",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:16:00.000000+00:00",
+      "submitted_at": "2026-11-07T14:16:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_S04/attempt-1-prompt.txt",
+      "prompt_sha256": "fc91dfca214905ba53ce6716770f4ee554f08b5ba10db4e5bede99e4316fdbc2",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S04_pilot_first_night_asleep/reference-images/01_LP_ref_char_pilot_turnaround.png",
+          "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S04_pilot_first_night_asleep/reference-images/02_c01-s05-p01.png",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S04_pilot_first_night_asleep/reference-images/03_c03-s010.jpg",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "61c3b75b-99ec-47c6-9ed6-6f37f06977da",
+      "active_pages": [
+        "c02-s01-p04"
+      ],
+      "process_deviation": "Abbreviated prompt; packing/composition guides omitted; guard/reservation sequence skipped; recorded before audit.",
+      "completed_at": "2026-11-07T14:19:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_S04_pilot_first_night_asleep.png",
+      "original_sha256": "795d151bec06f789683f774a4fa8ac680f35165c4026d0a3e20c4fd21d4e25aa",
+      "actual_credits": null
+    },
+    {
+      "request_id": "CH02_S05",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:16:30.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_S05/attempt-1-prompt.txt",
+      "prompt_sha256": "1464fff45b4ff9761ffa502195212d7057a6b86dd78c507ee90791bde3c25f33",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/01_LP_ref_char_prince_turnaround.png",
+          "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+          "media_id": "c8aff6fc-c268-4cae-acb8-12cc9f4bbb49"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/02_LP_scale_prince_pilot_standing.png",
+          "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+          "media_id": "5a41cf5f-a10c-4506-9146-bdf83d85be3d"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/03_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/04_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/05_CH02_S05_PACKING_GUIDE.png",
+          "sha256": "f0354aab4438c36b3d284a503794bccd8aab9aa31cc279a3cd0db1d297f321ce",
+          "media_id": "ca30a131-19ff-42a6-856e-f6ed8f2e03b6"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/reference-images/06_c08-s03-p01_COMPOSITION_GUIDE.png",
+          "sha256": "283a91df4aa41554f3d6add2ba480c05f008db8b5498e20fad9202e7e2f1bbd8",
+          "media_id": "c8a7199b-083a-47be-83e0-726235eb9f00"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "d84f7cb6-1094-4885-a0cd-46331b952caf",
+      "active_pages": [
+        "c02-s02-p02",
+        "c02-s03-p04",
+        "c02-s04-p02",
+        "c02-s04-p04"
+      ],
+      "submitted_at": "2026-11-07T14:18:00.000000+00:00",
+      "completed_at": "2026-11-07T14:21:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_S05_prince_listening_and_delighted.png",
+      "original_sha256": "1f88776fe8c271e1d90e48bba2a63b9b61bf799dba25a287dadd0d5b40ef482d",
+      "actual_credits": null
+    },
+    {
+      "request_id": "CH03_S01",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:16:30.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH03_S01/attempt-1-prompt.txt",
+      "prompt_sha256": "b99b2bf53643d3a8c862fc5cfeb65d22eaecec303be5e2b5b30e08e1d366ddb4",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/01_LP_ref_char_pilot_turnaround.png",
+          "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+          "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+        },
+        {
+          "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/02_LP_scale_prince_pilot_standing.png",
+          "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+          "media_id": "5a41cf5f-a10c-4506-9146-bdf83d85be3d"
+        },
+        {
+          "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/03_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/04_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/05_CH03_S01_PACKING_GUIDE.png",
+          "sha256": "cb024c6ff5e6fe7be5a93ac43e9d2243a55ea90c00d3f3d9df8bfe47314faa39",
+          "media_id": "f0f77839-4dfa-416b-9f21-b460882d6680"
+        },
+        {
+          "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/06_c02-s01-p02_COMPOSITION_GUIDE.png",
+          "sha256": "b287aa2e99f267731a0f9e8d7b6aaf3e4286283f7a13177fe1b0ed43f0d3ce02",
+          "media_id": "738cb7a4-f745-4de4-99b9-fb90d82ab12a"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "c4d7ca35-2350-4678-ae3c-89d077b2264e",
+      "active_pages": [
+        "c02-s01-p02"
+      ],
+      "submitted_at": "2026-11-07T14:18:00.000000+00:00",
+      "completed_at": "2026-11-07T14:21:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH03_S01_pilot_explaining_and_pointing.png",
+      "original_sha256": "8561e120c0af5088210ef37c730e35cb24f4e97b023a23f6e447c8ecd89ed309",
+      "actual_credits": null
+    },
+    {
+      "request_id": "CH04_R02",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:34:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH04_R02/attempt-1-prompt.txt",
+      "prompt_sha256": "39b927db2181c21be8d6bd6840c2cf4c190ceefc44da692fbcd0199c8c019d60",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/01_LP_ref_char_prince_turnaround.png",
+          "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+          "media_id": "c8aff6fc-c268-4cae-acb8-12cc9f4bbb49"
+        },
+        {
+          "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/02_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/03_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/04_CH04_R02_PACKING_GUIDE.png",
+          "sha256": "7e1ddc1028620ed7544fd10777cc68610fb52a0955348d8e19f792de3dc310d6",
+          "media_id": "d66b62d1-df66-4152-bf64-5a21186a40b7"
+        },
+        {
+          "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/05_c02-s02-p03_COMPOSITION_GUIDE.png",
+          "sha256": "00d20ada5e54578b1cdd9b47dc6bb4a4ebef9e2abdb0149adef15bda50c9f457",
+          "media_id": "0e8ad17f-924a-4982-b85b-beaa92720429"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "eafc3ce4-33c5-4b49-bc35-32dbb942af87",
+      "active_pages": [
+        "c02-s02-p03"
+      ],
+      "submitted_at": "2026-11-07T14:36:00.000000+00:00",
+      "completed_at": "2026-11-07T14:45:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH04_R02_narrator_graphite_prince_portrait.png",
+      "original_sha256": "c385d013b5f446f5e6a02d8548d3464d3d1a79454b532068e301dd466e4b73a4",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_B00",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:34:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_B00/attempt-1-prompt.txt",
+      "prompt_sha256": "ef7adce328467b4ffd609d21a6fa7547fbc2b87399275a3b809bab3b8b959ade",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/reference-images/01_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/reference-images/02_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/reference-images/03_c02-s01-p01_COMPOSITION_GUIDE.png",
+          "sha256": "e691ccd32a54007a978a388e8dc454357304300f9edb88e5c62717f681c7258e",
+          "media_id": "0da9edad-1297-4a09-804a-333243379324"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "9acfed3d-2cd3-4217-ab88-506f2018d439",
+      "active_pages": [
+        "c02-s01-p01"
+      ],
+      "submitted_at": "2026-11-07T14:36:00.000000+00:00",
+      "completed_at": "2026-11-07T14:45:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_B00_shared_editorial_cover_wash.png",
+      "original_sha256": "c49931e6bf25a3d94196369dc11ee25233357619a7c178081a6a130a53f83342",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_C02",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:34:00.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_C02/attempt-1-prompt.txt",
+      "prompt_sha256": "c68976f988eac12dbeb3f543acba25631f33e2635533a2cb81e71f534118cac3",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/01_LP_ref_char_pilot_turnaround.png",
+          "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+          "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/02_plane_side_view.png",
+          "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+          "media_id": "8db7d80f-43e4-4101-93f0-76ed23d4d6f8"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/03_plane_engin_hood_open.png",
+          "sha256": "095e22c15fb0244f4dab3f6e1bcf267a58f3b4b43404649242d409c1be85915c",
+          "media_id": "cfd6280d-a3a8-4200-90de-7ab21f57eaae"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/04_plane_scale_with_pilot.png",
+          "sha256": "7314e371a63cb5f0a263a3a180cab20386a5a6230bdb31fc8eab0e729bc723cd",
+          "media_id": "76af62b8-6c2b-4744-bd7c-c3606ac43594"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/05_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/06_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/07_accepted_CH02_R01_parked_aircraft_open_engine.png",
+          "sha256": "971cae872bc1172b690bb2090226ea7765264867241602a942ce6be117c72a10",
+          "media_id": "929143c6-482f-4f66-9422-ae4940df1a26"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/08_CH02_C02_PACKING_GUIDE.png",
+          "sha256": "84091986e93cff5413a7cd3ab085ff7a29ff2ab982a4b13164de521219643d3b",
+          "media_id": "266633b8-e4de-4afc-8f71-69e4a07901a7"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/09_c02-s01-p03_COMPOSITION_GUIDE.png",
+          "sha256": "9d7ac3caaddbe66ddb68b7a8757060c3104a9fcd9041c6010b8e81fdcfc9afd0",
+          "media_id": "71fef9ad-80fd-4cfd-bd62-81fbee839b9c"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "0c0f1a5c-cd30-48af-b422-70dac3fa0c47",
+      "active_pages": [
+        "c02-s01-p03"
+      ],
+      "submitted_at": "2026-11-07T14:36:00.000000+00:00",
+      "completed_at": "2026-11-07T14:45:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_C02_pilot_repairing_parked_aircraft.png",
+      "original_sha256": "3b68f1ab398883a3277997d417c839dd179a0063a2e29e942248221af7b4fe02",
+      "actual_credits": null,
+      "cost_note": "Live estimate 2 credits; settled debit not exposed."
+    },
+    {
+      "request_id": "CH02_C01",
+      "attempt": 1,
+      "chapter": 2,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T14:38:30.000000+00:00",
+      "prompt_file": "production/chapter-02/generation-records/CH02_C01/attempt-1-prompt.txt",
+      "prompt_sha256": "e2870034c4cebcea6ec22d977a9cdb2a6d3e58dafa7a1b0fe1c14f18fc3a9337",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/01_LP_ref_char_pilot_turnaround.png",
+          "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+          "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/02_LP_scale_seated_pilot_prince.png",
+          "sha256": "78511a8cdab89d764e4fb6d50b44af1bef946502acddc62182e0d57ac25b38a1",
+          "media_id": "edcabe09-2ec0-4815-a870-b6b9e37c49d4"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/03_c01-s05-p01.png",
+          "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/04_c03-s010.jpg",
+          "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+          "media_id": "48481f83-83bd-4a14-81f5-bb12106824da"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/05_accepted_CH02_S01_pilot_drawing_and_presenting_paper.png",
+          "sha256": "541ed32ef9569e8322aad2fcdca960143ace435b5d4abb7ada0d3c39afd97ddd",
+          "media_id": "351394a7-62c8-44ff-a8a6-005dedd643d5"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/06_CH02_C01_PACKING_GUIDE.png",
+          "sha256": "ca9e21002d44575b09c63776b0de20f98ed20b5330f3921b7388ad3ff466523e",
+          "media_id": "17aa2894-93c8-4f95-bfea-e42a6d389d29"
+        },
+        {
+          "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/07_c02-s04-p01_COMPOSITION_GUIDE.png",
+          "sha256": "036056f35ccba321c1896857b12e23ee4e6c91f9d2ad9f5869e09ceb919a1c2a",
+          "media_id": "fd89415d-6c45-4dac-b3d9-bf71bdabda21"
+        }
+      ],
+      "estimated_credits": 2,
+      "job_id": "c2d91d22-04a5-4452-adf2-e53da319b21f",
+      "active_pages": [
+        "c02-s04-p01"
+      ],
+      "submitted_at": "2026-11-07T14:40:00.000000+00:00",
+      "completed_at": "2026-11-07T14:44:00.000000+00:00",
+      "original_file": "production/chapter-02/props/raw/CH02_C01_pilot_impatiently_presenting_box.png",
+      "original_sha256": "65fac36fde72c235ed8cf7c26dafe0494c540317419e1c930310474099bacb9d",
+      "actual_credits": null
+    },
+    {
+      "request_id": "CH01_E02",
+      "attempt": 1,
+      "chapter": 1,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T17:53:53.011941+00:00",
+      "prompt_file": "production/chapter-01/generation-records/CH01_E02/attempt-1-prompt.txt",
+      "prompt_sha256": "35cd286b79e94b0d95a5d4b627ca78be70e7c9e93d9cb72ba1c3a6cb55512285",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+          "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+          "media_id": "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/02_CH01_C01_pilot_conversing_and_isolated.png",
+          "sha256": "843389b2cd2b10f76cad6df7900893908fc60b4cd361588903450228f1c41613",
+          "media_id": "9824a24b-edac-4bcd-a730-e9bf41013b96"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/03_CH01_E02_direction_and_packing.png",
+          "sha256": "b184cf5d17ea948ab6bf08d9fda9c738d14cc764f80101dff83ccf149982551f",
+          "media_id": "14e932e5-4fea-40d5-be04-d82d39126c0b"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c01-s05-p03",
+        "c01-s06-p01",
+        "c01-s06-p02"
+      ],
+      "job_id": "c9ca8ba6-ec4d-405c-8782-07362ef09ebe",
+      "submitted_at": "2026-11-07T17:54:30.581458+00:00",
+      "completed_at": "2026-11-07T17:57:57.673743+00:00",
+      "original_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast.png",
+      "original_sha256": "1a46298f458e8177ecca40b374d4e12bd1407facc17fca4ec84f3022cada1ca2",
+      "actual_credits": null
+    },
+    {
+      "request_id": "CH01_E01",
+      "attempt": 1,
+      "chapter": 1,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T18:01:51.773291+00:00",
+      "prompt_file": "production/chapter-01/generation-records/CH01_E01/attempt-1-prompt.txt",
+      "prompt_sha256": "416013de162cb9eb5b89072faf2a95b49b953c4b15e4e26a9d97a59a79cbab73",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+          "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+          "media_id": "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/02_CH01_S02_pilot_drawing_hope_disappointed.png",
+          "sha256": "475f48380c564fa324a9fe41109ec326b4164b87f306d717b043a9349b0f6de7",
+          "media_id": "0b9c1934-a883-44ce-8934-c52add180ee5"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/03_CH01_E01_direction_and_packing.png",
+          "sha256": "cc6b5237fc344b1f9ee7745131a113f6a22ca03738e7ac8df573358463fc9994",
+          "media_id": "15a7b05b-00b7-4323-b518-f315d109f4c6"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c01-s05-p01",
+        "c01-s05-p02"
+      ],
+      "job_id": "aa5dfe50-9318-4c52-b623-d61280703441",
+      "submitted_at": "2026-11-07T18:02:06.466778+00:00",
+      "completed_at": "2026-11-07T18:04:10.728248+00:00",
+      "original_file": "production/chapter-01/props/raw/CH01_E01_pilot_reaching_hope_and_withdrawn_disappointment.png",
+      "original_sha256": "f48d8f72bac13193aa5ccde9923afb29158491a15543628046f3535a74ae8400",
+      "actual_credits": null
+    },
+    {
+      "request_id": "CH01_E03",
+      "attempt": 1,
+      "chapter": 1,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T18:02:28.024703+00:00",
+      "prompt_file": "production/chapter-01/generation-records/CH01_E03/attempt-1-prompt.txt",
+      "prompt_sha256": "5fba7977d599fbbecc629d127943ebc3c82e731f3ce41283b7f279195c9ce840",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+          "sha256": "80ecd925cb7d12fd9807023e74913dfa79437fe1fe40d72c14e1e469aac260da",
+          "media_id": "0fcdd7e8-92b9-4a86-8b59-760c50782757"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/02_CH01_S05_grownup4_listen_reply.png",
+          "sha256": "f7482945be69292db3e5918c2f87fac69a48cf172ecffcbd37aea04da8825cad",
+          "media_id": "0f672f92-29b9-43aa-9fae-8b1788233c77"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/03_CH01_E03_direction_and_packing.png",
+          "sha256": "57a5d4b9c63d057f9a1033dec174405b6a2e781d588a2ba91537008df5b9b65f",
+          "media_id": "23abd318-f857-44cd-b697-f7d7842d5e40"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c01-s06-p01"
+      ],
+      "job_id": "606dcf5b-4bab-4fac-bb98-6f4a8b1a67f5",
+      "submitted_at": "2026-11-07T18:02:44.870338+00:00",
+      "completed_at": "2026-11-07T18:04:10.730054+00:00",
+      "original_file": "production/chapter-01/props/raw/CH01_E03_social_adults_pleased_agreement.png",
+      "original_sha256": "b02f40bcc3c0558aa86556f89dde1b7b8348b4dbafa9041eadb3e3671e6430c6",
+      "actual_credits": null
+    },
+    {
+      "request_id": "CH01_E04",
+      "attempt": 1,
+      "chapter": 1,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T18:02:28.035248+00:00",
+      "prompt_file": "production/chapter-01/generation-records/CH01_E04/attempt-1-prompt.txt",
+      "prompt_sha256": "d267fb5e20693f90ef1dead9f14c159af447a7fbd14a70fe3dd08d10dcedad55",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/01_CH01_S13_childhood_adults_questioning.png",
+          "sha256": "a97ab55db17f19a359b12995f81642006245c65230a049ed7a44c967cd787a16",
+          "media_id": "aef7cc1b-f337-4e4c-8cda-88b76b0e4909"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/02_woman_both_states_facing_right.png",
+          "sha256": "b2a6e085cf9d4254d9815cdab6bb9acd17a49bb36252720f84463d4b1c1f35a6",
+          "media_id": "758177a6-39fa-4212-b8ee-f7a1e9eda747"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/03_CH01_E04_direction_and_packing.png",
+          "sha256": "7d9e2ed2398ee519c8ebee999d54a42a57236b8bc554d132835b0cd3051242cd",
+          "media_id": "3c8aceba-931e-4b68-a0b6-afb5f84fd2c3"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c01-s02-p01",
+        "c01-s02-p02",
+        "c01-s02-p03"
+      ],
+      "job_id": "84b371e6-1fbb-44b9-9610-2350a90acedf",
+      "submitted_at": "2026-11-07T18:02:44.870470+00:00",
+      "completed_at": "2026-11-07T18:04:10.731576+00:00",
+      "original_file": "production/chapter-01/props/raw/CH01_E04_childhood_adults_engaged_hat_response.png",
+      "original_sha256": "d8481fe533c712ffbb365b3b8381f52a3713ea2d971632b4c4b3f30bd43671a7",
+      "actual_credits": null
+    },
+    {
+      "request_id": "CH01_E02",
+      "attempt": 2,
+      "chapter": 1,
+      "status": "succeeded",
+      "reserved_at": "2026-11-07T18:04:52.615240+00:00",
+      "prompt_file": "production/chapter-01/generation-records/CH01_E02/correction-guide/retry-prompt.txt",
+      "prompt_sha256": "e15d19f120edfa0dcf84dc605eb77c77c914dd2e2ad8889fed9b29a4e1052521",
+      "parameters": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "4:3",
+        "count": 1
+      },
+      "attachments": [
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+          "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+          "media_id": "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/02_CH01_C01_pilot_conversing_and_isolated.png",
+          "sha256": "843389b2cd2b10f76cad6df7900893908fc60b4cd361588903450228f1c41613",
+          "media_id": "9824a24b-edac-4bcd-a730-e9bf41013b96"
+        },
+        {
+          "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/03_CH01_E02_direction_and_packing.png",
+          "sha256": "b184cf5d17ea948ab6bf08d9fda9c738d14cc764f80101dff83ccf149982551f",
+          "media_id": "14e932e5-4fea-40d5-be04-d82d39126c0b"
+        },
+        {
+          "path": "production/chapter-01/generation-records/CH01_E02/correction-guide/correction-board-01.png",
+          "media_id": "dda5b70f-41e1-4d9c-97cf-c7ebd365957e",
+          "sha256": "077d57d939f0be13620a50e5dd22fa25ab582ada9851f44090f9997cdcf51521"
+        },
+        {
+          "path": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast.png",
+          "media_id": "6e4a18b3-3ce7-45d4-bc9c-24fa533e4690",
+          "sha256": "1a46298f458e8177ecca40b374d4e12bd1407facc17fca4ec84f3022cada1ca2"
+        }
+      ],
+      "estimated_credits": 2,
+      "active_pages": [
+        "c01-s05-p03",
+        "c01-s06-p01",
+        "c01-s06-p02"
+      ],
+      "job_id": "68286109-888c-48d1-8968-9360c89f7a3c",
+      "submitted_at": "2026-11-07T18:05:58.195408+00:00",
+      "completed_at": "2026-11-07T18:14:29.121025+00:00",
+      "original_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast__attempt-2.png",
+      "original_sha256": "987b4a7b56801a74f0d29a8a570b957255289f3ee8c260c56862c9ccb7b119b4",
+      "actual_credits": null
+    }
+  ],
+  "media_cache": [
+    {
+      "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+      "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png",
+      "media_id": "493c4cb7-9aa6-4fbe-b50e-6de4493624ff",
+      "confirmed": true,
+      "role": "style only",
+      "confirmed_at": "2026-11-07T00:33:53.995710+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/02_approved_storybook_style.png",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "media_id": "3c5fc2c3-6180-48cb-b8fc-f40e0be4fcfd",
+      "confirmed": true,
+      "role": "approved storybook style only",
+      "confirmed_at": "2026-11-07T01:01:18.416974+00:00"
+    },
+    {
+      "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/01_plane_side_view.png",
+      "media_id": "8db7d80f-43e4-4101-93f0-76ed23d4d6f8",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "095e22c15fb0244f4dab3f6e1bcf267a58f3b4b43404649242d409c1be85915c",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/02_plane_engin_hood_open.png",
+      "media_id": "cfd6280d-a3a8-4200-90de-7ab21f57eaae",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "7314e371a63cb5f0a263a3a180cab20386a5a6230bdb31fc8eab0e729bc723cd",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/03_plane_scale_with_pilot.png",
+      "media_id": "76af62b8-6c2b-4744-bd7c-c3606ac43594",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/05_c03-s010.jpg",
+      "media_id": "48481f83-83bd-4a14-81f5-bb12106824da",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "2f225647ea3c1ef916861de851ef156c7a8990ac081661e59b2055322ce3339a",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/06_CH02_R01_PACKING_GUIDE.png",
+      "media_id": "a4a0bec1-a380-4d0f-970c-28dba569a520",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "b287aa2e99f267731a0f9e8d7b6aaf3e4286283f7a13177fe1b0ed43f0d3ce02",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/07_c02-s01-p02_COMPOSITION_GUIDE.png",
+      "media_id": "738cb7a4-f745-4de4-99b9-fb90d82ab12a",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/01_LP_ref_char_pilot_turnaround.png",
+      "media_id": "62b6a831-79a4-4c85-8c87-16f303aaccec",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "78511a8cdab89d764e4fb6d50b44af1bef946502acddc62182e0d57ac25b38a1",
+      "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/02_LP_scale_seated_pilot_prince.png",
+      "media_id": "edcabe09-2ec0-4815-a870-b6b9e37c49d4",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "2f36973645f4a07c7d99ae797c208b8d89561d351b8eb18de8b46cf11d220a3e",
+      "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/05_CH02_S01_PACKING_GUIDE.png",
+      "media_id": "5c9c5f65-fa1f-4623-b880-45fdd212aa7b",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "88b893c2bf498c3d5d21b9dd0f3939c7c8574f262c3e2b47799bf0747ce45469",
+      "path": "story-and-continuity/chapter-02/reusable-poses/S01_pilot_drawing_and_presenting_paper/reference-images/06_c02-s02-p05_COMPOSITION_GUIDE.png",
+      "media_id": "9951ea04-4a71-4353-b6ea-74cc27ca1cf0",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+      "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/01_LP_ref_char_prince_turnaround.png",
+      "media_id": "c8aff6fc-c268-4cae-acb8-12cc9f4bbb49",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+      "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/02_LP_scale_prince_pilot_standing.png",
+      "media_id": "5a41cf5f-a10c-4506-9146-bdf83d85be3d",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "db282b792ffa112f51725e94b61c2d787851e75567ee2cb9ca5943a29a772e67",
+      "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/05_CH02_S02_PACKING_GUIDE.png",
+      "media_id": "a9181e60-f9a6-4548-8241-9d5b74829203",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "71417916c280693f984429471928a4f25465c96d030c34ae2654e144df98fda3",
+      "path": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/reference-images/06_c21-s05-p01_COMPOSITION_GUIDE.png",
+      "media_id": "b256e526-e353-40db-aa76-d31f8c678892",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T13:36:00.000000+00:00"
+    },
+    {
+      "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+      "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/01_LP_ref_sahara_day.jpg",
+      "media_id": "146533fd-739a-4de5-9ab8-3dad8546796f",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T14:06:00.000000+00:00"
+    },
+    {
+      "sha256": "50dcc80e56841b94fc8f82b6eee374433c8f41f5413c3d35ef115602ed13a793",
+      "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/04_CH02_B01_PACKING_GUIDE.png",
+      "media_id": "252a8104-4439-4605-ba22-99f0cf462a7f",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T14:06:00.000000+00:00"
+    },
+    {
+      "sha256": "2dc11e39ace2b728358e18b6478cbe5ee67a00adde00064ccd26e14ec46c8555",
+      "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/05_c02-s02-p01_COMPOSITION_GUIDE.png",
+      "media_id": "0448e862-93bf-4ddf-84aa-2c6a216c94c8",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T14:06:00.000000+00:00"
+    },
+    {
+      "sha256": "70861f56f75f2689040819edd9f7da26d5fc49e237143a04d8a71e337063315f",
+      "path": "story-and-continuity/chapter-02/reusable-poses/S03_pilot_awakening/reference-images/05_CH02_S03_PACKING_GUIDE.png",
+      "media_id": "ad326124-f15a-440e-ac23-c59165ba22a9",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T14:06:00.000000+00:00"
+    },
+    {
+      "sha256": "9d7ac3caaddbe66ddb68b7a8757060c3104a9fcd9041c6010b8e81fdcfc9afd0",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/09_c02-s01-p03_COMPOSITION_GUIDE.png",
+      "media_id": "71fef9ad-80fd-4cfd-bd62-81fbee839b9c",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T14:32:00.000000+00:00",
+      "transfer_note": "Read->CDN->media_import_url route; proxy may re-encode as jpeg"
+    },
+    {
+      "sha256": "ca9e21002d44575b09c63776b0de20f98ed20b5330f3921b7388ad3ff466523e",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/06_CH02_C01_PACKING_GUIDE.png",
+      "media_id": "17aa2894-93c8-4f95-bfea-e42a6d389d29",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T14:32:00.000000+00:00",
+      "transfer_note": "Read->CDN->media_import_url route; proxy may re-encode as jpeg"
+    },
+    {
+      "sha256": "036056f35ccba321c1896857b12e23ee4e6c91f9d2ad9f5869e09ceb919a1c2a",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/07_c02-s04-p01_COMPOSITION_GUIDE.png",
+      "media_id": "fd89415d-6c45-4dac-b3d9-bf71bdabda21",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T14:32:00.000000+00:00",
+      "transfer_note": "Read->CDN->media_import_url route; proxy may re-encode as jpeg"
+    },
+    {
+      "sha256": "541ed32ef9569e8322aad2fcdca960143ace435b5d4abb7ada0d3c39afd97ddd",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C01_pilot_impatiently_presenting_box/reference-images/05_accepted_CH02_S01_pilot_drawing_and_presenting_paper.png",
+      "media_id": "351394a7-62c8-44ff-a8a6-005dedd643d5",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T14:32:00.000000+00:00",
+      "transfer_note": "Read->CDN->media_import_url route; proxy may re-encode as jpeg"
+    },
+    {
+      "sha256": "971cae872bc1172b690bb2090226ea7765264867241602a942ce6be117c72a10",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/07_accepted_CH02_R01_parked_aircraft_open_engine.png",
+      "media_id": "929143c6-482f-4f66-9422-ae4940df1a26",
+      "confirmed": true,
+      "role": "numbered request reference",
+      "confirmed_at": "2026-11-07T14:32:00.000000+00:00",
+      "transfer_note": "Read->CDN->media_import_url route; proxy may re-encode as jpeg"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+      "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+      "media_id": "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/02_CH01_S02_pilot_drawing_hope_disappointed.png",
+      "sha256": "475f48380c564fa324a9fe41109ec326b4164b87f306d717b043a9349b0f6de7",
+      "media_id": "0b9c1934-a883-44ce-8934-c52add180ee5",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/03_CH01_E01_direction_and_packing.png",
+      "sha256": "cc6b5237fc344b1f9ee7745131a113f6a22ca03738e7ac8df573358463fc9994",
+      "media_id": "15a7b05b-00b7-4323-b518-f315d109f4c6",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/02_CH01_C01_pilot_conversing_and_isolated.png",
+      "sha256": "843389b2cd2b10f76cad6df7900893908fc60b4cd361588903450228f1c41613",
+      "media_id": "9824a24b-edac-4bcd-a730-e9bf41013b96",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/03_CH01_E02_direction_and_packing.png",
+      "sha256": "b184cf5d17ea948ab6bf08d9fda9c738d14cc764f80101dff83ccf149982551f",
+      "media_id": "14e932e5-4fea-40d5-be04-d82d39126c0b",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+      "sha256": "85dd90c5f16f02b8a2816bd1c4d4366f07e60ec9892b7e72060c6ecafe04f370",
+      "media_id": "344e6032-603a-46fe-b9ca-a3e2cede7c1e",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/02_CH01_S05_grownup4_listen_reply.png",
+      "sha256": "de289235ac3ffd233a7aa5210b0efd60c9ced434329475b1ec34929df11bebb4",
+      "media_id": "08d17d00-f50a-4e47-b0b0-24543b8c3a33",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/03_CH01_E03_direction_and_packing.png",
+      "sha256": "57a5d4b9c63d057f9a1033dec174405b6a2e781d588a2ba91537008df5b9b65f",
+      "media_id": "23abd318-f857-44cd-b697-f7d7842d5e40",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/01_CH01_S13_childhood_adults_questioning.png",
+      "sha256": "eb3121b1a7ef943bc373dce041e373e7e5cb6d18c96b588832165bff89d34358",
+      "media_id": "29bbcd0b-65c2-467e-b8e6-60a96df042db",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/02_woman_both_states_facing_right.png",
+      "sha256": "29ffdbe679e502f0b7bb4a7d8176c62b39e4ae68d579737ad84b9396a8d70d0b",
+      "media_id": "16fb4c58-fd92-4156-85ef-80466b53af98",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/03_CH01_E04_direction_and_packing.png",
+      "sha256": "7d9e2ed2398ee519c8ebee999d54a42a57236b8bc554d132835b0cd3051242cd",
+      "media_id": "3c8aceba-931e-4b68-a0b6-afb5f84fd2c3",
+      "confirmed": true,
+      "role": "numbered generation reference",
+      "confirmed_at": "2026-11-07T17:53:41.779206+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+      "sha256": "80ecd925cb7d12fd9807023e74913dfa79437fe1fe40d72c14e1e469aac260da",
+      "media_id": "0fcdd7e8-92b9-4a86-8b59-760c50782757",
+      "confirmed": true,
+      "role": "exact intended source cell; no competing direction",
+      "confirmed_at": "2026-11-07T18:02:27.411176+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/02_CH01_S05_grownup4_listen_reply.png",
+      "sha256": "f7482945be69292db3e5918c2f87fac69a48cf172ecffcbd37aea04da8825cad",
+      "media_id": "0f672f92-29b9-43aa-9fae-8b1788233c77",
+      "confirmed": true,
+      "role": "exact intended source cell; no competing direction",
+      "confirmed_at": "2026-11-07T18:02:27.411176+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/01_CH01_S13_childhood_adults_questioning.png",
+      "sha256": "a97ab55db17f19a359b12995f81642006245c65230a049ed7a44c967cd787a16",
+      "media_id": "aef7cc1b-f337-4e4c-8cda-88b76b0e4909",
+      "confirmed": true,
+      "role": "exact intended source cell; no competing direction",
+      "confirmed_at": "2026-11-07T18:02:27.411176+00:00"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/02_woman_both_states_facing_right.png",
+      "sha256": "b2a6e085cf9d4254d9815cdab6bb9acd17a49bb36252720f84463d4b1c1f35a6",
+      "media_id": "758177a6-39fa-4212-b8ee-f7a1e9eda747",
+      "confirmed": true,
+      "role": "exact intended source cell; no competing direction",
+      "confirmed_at": "2026-11-07T18:02:27.411176+00:00"
+    },
+    {
+      "path": "production/chapter-01/generation-records/CH01_E02/correction-guide/correction-board-01.png",
+      "media_id": "dda5b70f-41e1-4d9c-97cf-c7ebd365957e",
+      "sha256": "077d57d939f0be13620a50e5dd22fa25ab582ada9851f44090f9997cdcf51521",
+      "confirmed": true,
+      "role": "retry diagnostic/instruction",
+      "confirmed_at": "2026-11-07T18:03:54.883575+00:00"
+    },
+    {
+      "path": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast.png",
+      "media_id": "6e4a18b3-3ce7-45d4-bc9c-24fa533e4690",
+      "sha256": "1a46298f458e8177ecca40b374d4e12bd1407facc17fca4ec84f3022cada1ca2",
+      "confirmed": true,
+      "role": "retry diagnostic/instruction",
+      "confirmed_at": "2026-11-07T18:03:54.885730+00:00"
+    }
+  ],
+  "page_generation_rounds": {
+    "c01-s02-p02": 2,
+    "c01-s04-p02": 2,
+    "c01-s05-p02": 2,
+    "c02-s02-p01": 2,
+    "c02-s02-p04": 2,
+    "c02-s02-p05": 2,
+    "c02-s02-p06": 2,
+    "c02-s03-p01": 2,
+    "c02-s03-p02": 2,
+    "c02-s03-p03": 2,
+    "c02-s03-p05": 2,
+    "c02-s04-p01": 2,
+    "c02-s04-p03": 2,
+    "c01-s05-p03": 2,
+    "c01-s06-p01": 2,
+    "c01-s06-p02": 2
+  },
+  "note": "CH01_R13 used both permitted submissions: initial source rejected by user, corrected source accepted for composition with native-only detail note. Three final pages await manual review; no Chapter 2 jobs.",
+  "page_correction_plans": {
+    "c01-s02-p02": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH01_R13"
+      ],
+      "opened_at": "2026-11-07T00:59:59.490248+00:00",
+      "source_issues": [
+        "CH01_R13-L-style",
+        "CH01_R13-R-style"
+      ],
+      "local_composition": "Use smaller balanced hat; simplify map frame; uniformly rescale/reposition entire night aircraft and integrated pilot; preserve other characters and borders."
+    },
+    "c01-s04-p02": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH01_R13"
+      ],
+      "opened_at": "2026-11-07T00:59:59.490248+00:00",
+      "source_issues": [
+        "CH01_R13-L-style",
+        "CH01_R13-R-style"
+      ],
+      "local_composition": "Use smaller balanced hat; simplify map frame; uniformly rescale/reposition entire night aircraft and integrated pilot; preserve other characters and borders."
+    },
+    "c01-s05-p02": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH01_R13"
+      ],
+      "opened_at": "2026-11-07T00:59:59.490248+00:00",
+      "source_issues": [
+        "CH01_R13-L-style",
+        "CH01_R13-R-style"
+      ],
+      "local_composition": "Use smaller balanced hat; simplify map frame; uniformly rescale/reposition entire night aircraft and integrated pilot; preserve other characters and borders."
+    },
+    "c02-s02-p01": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c02-s02-p04": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c02-s02-p05": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c02-s02-p06": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c02-s03-p01": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c02-s03-p02": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c02-s03-p03": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c02-s03-p05": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c02-s04-p01": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c02-s04-p03": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH02_S02"
+      ],
+      "source_issues": [
+        "CH02_S02-L-DIRECTION"
+      ],
+      "opened_at": "2026-11-07T14:00:00.000000+00:00",
+      "local_composition": "Right cell of attempt 1 already accepted; only LEFT asking-cell direction is corrected. No other source changes planned for these pages."
+    },
+    "c01-s05-p03": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH01_E02"
+      ],
+      "opened_at": "2026-11-07T18:01:03.174047+00:00",
+      "note": "E02 consolidated correction: only R facing fails. All other supplied inputs inspected. E01/E03/E04 remain independent first-pass user-directed performance requests."
+    },
+    "c01-s06-p01": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH01_E02"
+      ],
+      "opened_at": "2026-11-07T18:01:03.174054+00:00",
+      "note": "E02 consolidated correction: only R facing fails. All other supplied inputs inspected. E01/E03/E04 remain independent first-pass user-directed performance requests."
+    },
+    "c01-s06-p02": {
+      "all_available_sources_audited": true,
+      "request_ids": [
+        "CH01_E02"
+      ],
+      "opened_at": "2026-11-07T18:01:03.174055+00:00",
+      "note": "E02 consolidated correction: only R facing fails. All other supplied inputs inspected. E01/E03/E04 remain independent first-pass user-directed performance requests."
+    }
+  },
+  "s02_substitution_plan": {
+    "planned": "Use accepted CH02_S05:L (facing LEFT, quiet attentive, hands relaxed) for the seven asking-state pages if S05 passes; page recipes otherwise unchanged; substitution to be recorded per page audit and in the delivery report.",
+    "pages": [
+      "c02-s02-p01",
+      "c02-s02-p04",
+      "c02-s02-p05",
+      "c02-s02-p06",
+      "c02-s03-p01",
+      "c02-s03-p02",
+      "c02-s04-p01"
+    ]
+  },
+  "chapter2_generation_summary": {
+    "requests": 12,
+    "initial_submissions": 12,
+    "correction_submissions": 1,
+    "accepted_sources": 11,
+    "blocked_states": [
+      "CH02_S02:L asking-state (two attempts, direction)"
+    ],
+    "substitute_plan": "CH02_S05:L for seven asking pages",
+    "estimated_credits_spent": 26
+  },
+  "chapter2_v002_fix_cycle": {
+    "trigger": "user review of chapter-02-v001 (2026-11-07): drawing extraction/size (Drawing One hero), plane toy-size, magenta leftovers above wheel/between cowlings, halos, shadow-over-character + blob shadows, night page (brightness/size/missing plane/shadow), prince miniature+orientation+distance, rejected cloud asset, semi-transparent sheep drawings, ram-page wrong affect, missing box drawing, twin-instance fragment, duplicate pages, delighted-prince likeness",
+    "method": "full local recomposition by 19 parallel page agents under master audit (user-directed orchestration); shared toolkit /tmp/lp-fix/toolkit/fixlib.py implementing Chapter-1 confirmed methods",
+    "components": "prepared-v2 cells + pigment masters under production/chapter-02/components/prepared-v2/",
+    "scale_changes": {
+      "prince_standing_equivalent_px": {
+        "from": 610,
+        "to": 700,
+        "reason": "user: prince read as a miniature"
+      },
+      "pilot_standing_equivalent_px": 1000,
+      "plane_width_rule": "2.2 x local adult standing height"
+    },
+    "cell_fixes": [
+      "CH02_C01 pilot_box: erased twin-instance fragment at cell x<70 sha cf25ede5a472d1e3",
+      "CH02_S05:L mirrored on 8 pages (user-directed orientation fix); CH03_S01:R mirrored on c02-s02-p06 (master-directed; subagent approval claim corrected)"
+    ],
+    "thought_cloud": "c02-s03-p02 rebuilt with Chapter-1 puff-large frame + draw2 pigment 650px + two trail puffs (cloud.png abandoned)",
+    "edition": "chapter-02-v002",
+    "delivery": {
+      "archive": "production/chapter-02/delivery/Chapter_02_Illustrations_v2.zip",
+      "archive_sha256": "b2df888d3ef152e87ba06a25d02d7a6c032f3af4e81fc182a2cea291cdf21731",
+      "pages": 19
+    },
+    "page_outputs": [
+      {
+        "page": "c02-s01-p01",
+        "sha256": "5a54fd8c2ebd369a122abeb280c7e3cfede6173736b77a03b81522aae6f1b4c5"
+      },
+      {
+        "page": "c02-s01-p02",
+        "sha256": "204c70fd7ef12deeb31665b516523398a5903bbfdb6d7b2c7a787af62ed8b7fa"
+      },
+      {
+        "page": "c02-s01-p03",
+        "sha256": "7aaebd27829a8259b7092361ee9782a582d0312f165256c4769db3589460871b"
+      },
+      {
+        "page": "c02-s01-p04",
+        "sha256": "0781d133e402681ec172e1c6c2a9e15d713c4f5e96b9d6c527f351c9f3c8ca81"
+      },
+      {
+        "page": "c02-s02-p01",
+        "sha256": "a7184c57f5b65ac48db8d7ffa991c89d2557bb2855b3a5c0c6fc758fb09df1de"
+      },
+      {
+        "page": "c02-s02-p02",
+        "sha256": "55eda5411f00972c0777521901607dd1d5abb0bb3b58b052fb1b9eaaf32804b4"
+      },
+      {
+        "page": "c02-s02-p03",
+        "sha256": "6182d59b701bbb6d8716c02305f3ed5008d118bc984accbfe78e4b7608d2311b"
+      },
+      {
+        "page": "c02-s02-p04",
+        "sha256": "d1bc936f4a43daa770bb29e6ab6bfb39ac4de365f0285591ca6722faad0059e7"
+      },
+      {
+        "page": "c02-s02-p05",
+        "sha256": "baf1413f2b42ef5a4778c9f426a17338b75a1665849937938139cdf6c820db4c"
+      },
+      {
+        "page": "c02-s02-p06",
+        "sha256": "b851c1777bd7eb37cfdf0273333cbda8bd20b097b4d95e6ceca33b5466ade5e3"
+      },
+      {
+        "page": "c02-s03-p01",
+        "sha256": "a1b97d65d2891fa3f1e9798814ffbd024de5c2fee2abff307fa1bc4a5c9a33b6"
+      },
+      {
+        "page": "c02-s03-p02",
+        "sha256": "a5aac8199297185e27bafdda53e26fc036790100b579f7e9bf07a543de7c97bc"
+      },
+      {
+        "page": "c02-s03-p03",
+        "sha256": "718adc90a991e5e4f1f0ae7f555c979c1003962c24e2cdc314cc976183eee223"
+      },
+      {
+        "page": "c02-s03-p04",
+        "sha256": "799ea778d59c70c2f8787ae6a1ea4620acd22db95d78112fa1d38a32d8a89e8e"
+      },
+      {
+        "page": "c02-s03-p05",
+        "sha256": "b837ffc4b379228e940e1185a89ebcbcd9d955c5281bbb1e3bbb4f4d03829b64"
+      },
+      {
+        "page": "c02-s04-p01",
+        "sha256": "a7687a534c20b2dc24498c164b6e33ced4580c00f7cbad343cf7cebf2c0e5591"
+      },
+      {
+        "page": "c02-s04-p02",
+        "sha256": "6b412df988db0f12b2f7a4cf0cb6ed465ab57924464c9571ec41bcde48c38531"
+      },
+      {
+        "page": "c02-s04-p03",
+        "sha256": "bd809c94c4a538ea6499e8bc2378d29f753fae07a4cd9a83ae74182dee1e283f"
+      },
+      {
+        "page": "c02-s04-p04",
+        "sha256": "e4f531ace87d4d907fc0adaaf590a2e5e57052541f216de455da3192ea8a5a11"
+      }
+    ]
+  }
+}

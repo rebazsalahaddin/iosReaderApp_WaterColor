@@ -1,0 +1,11 @@
+{
+  "status": "fail",
+  "workflow_version": 9,
+  "protected_files_unchanged": 2038,
+  "authorized_removed_protected_files": 502,
+  "active_instruction_files_checked": 1303,
+  "errors": [
+    "Authorized removal record mismatch: production/chapter-01/delivery/.DS_Store"
+  ],
+  "scope": "Control consistency and byte preservation only; no generated illustration or visual approval."
+}

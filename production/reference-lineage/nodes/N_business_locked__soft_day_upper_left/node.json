@@ -1,0 +1,96 @@
+{
+  "id": "N_business_locked__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_business"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_business"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "size-and-location-references/shared/LP_ch13_desk_state_guide.png",
+        "candidate_sha256": "75093c7fa14329f3093bd2659c3d43f0a73784771322d87ce9e40665e72e3c7f",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Same businessman/desk/chair with closed locked drawer and one key in lock; working sheet hidden, pencil resting front-right, two fixed paper stacks/cold cigarette, neutral face and hands at rest.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "business_locked",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c13-s03-p04",
+    "c13-s03-p05",
+    "c13-s03-p06",
+    "c13-s03-p07"
+  ],
+  "legacy_tokens": [
+    "CH13_S02:ONE",
+    "CH13_C02:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-13/reusable-poses/S02_businessman_locked_drawer_silence/reference-images/02_LP_ch13_desk_scale_guide.png",
+      "sha256": "0764e07901c5b717b6d6edf155f3f8569c12e053a286f332c559cb5f2b1227af",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-13/reusable-poses/S02_businessman_locked_drawer_silence/reference-images/03_LP_ch13_desk_state_guide.png",
+      "sha256": "75093c7fa14329f3093bd2659c3d43f0a73784771322d87ce9e40665e72e3c7f",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-13/reusable-poses/S02_businessman_locked_drawer_silence/reference-images/07_CH13_S02_PACKING_GUIDE.png",
+      "sha256": "8fe7d5fdb61c7059d6b19b717e2e0d7f9c4372d4362872898c6c8f286a98193c",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-13/reusable-poses/S02_businessman_locked_drawer_silence/reference-images/08_c13-s03-p04_COMPOSITION_GUIDE.png",
+      "sha256": "cb2f3d7a6c0ce3e83391e975e697d213959ebf4158c37730bb54f248f7f1e371",
+      "role": "TECHNICAL final-page placement for c13-s03-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/02_LP_ch13_desk_scale_guide.png",
+      "sha256": "0764e07901c5b717b6d6edf155f3f8569c12e053a286f332c559cb5f2b1227af",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/03_LP_ch13_desk_state_guide.png",
+      "sha256": "75093c7fa14329f3093bd2659c3d43f0a73784771322d87ce9e40665e72e3c7f",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/07_CH13_C02_PACKING_GUIDE.png",
+      "sha256": "6bb513340e805575ff070bf7fa03929ab3c8e6f8b2360d81df62c5e4cec8f9ba",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/08_c13-s03-p07_COMPOSITION_GUIDE.png",
+      "sha256": "69a817f5d5b7c356fdd32a4c8bac8ac81cc46158eef15cfcc097ed3f8de76ae6",
+      "role": "TECHNICAL final-page placement for c13-s03-p07. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_business_locked__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Same businessman/desk/chair with closed locked drawer and one key in lock; working sheet hidden, pencil resting front-right, two fixed paper stacks/cold cigarette, neutral face and hands at rest. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "c9cbc1c26d2c7ee86efb7b72d0993438dc757a3707f4186717341e7d5b1b0f0c",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_business_locked__soft_day_upper_left"
+}

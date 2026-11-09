@@ -1,0 +1,28 @@
+{
+  "page": "c01-s04-p01",
+  "canvas": [
+    2400,
+    1792
+  ],
+  "edition": "v011",
+  "layers": [
+    {
+      "source": "production/chapter-01/current/layers/511fb3deaf845623bc1f.png",
+      "sha256": "511fb3deaf845623bc1f528f97f40da3619c261bf81e7592213613f33c546d80",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/3a7b2a91a744c426f312.png",
+      "sha256": "3a7b2a91a744c426f3125d7831cc720e3b64581befb057a39835d18a87c4a705",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    }
+  ]
+}

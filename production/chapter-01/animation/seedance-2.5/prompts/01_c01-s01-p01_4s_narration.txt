@@ -1,0 +1,22 @@
+OPTIONAL GENERATION PROMPT. Recommended: hold the original PNG locally for 2.573 seconds and spend no generation credits. If an animated opening is required, generate the following 4-second shot, then retain only its first 2.573 seconds.
+
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 4-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+An overhead still life of Drawing Number One and its resting pencil. The paper, exact graphite contour and pencil remain stationary.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–4 seconds: Hold the supplied opening illustration completely still. The chapter title is heard only in the original recording added later. Keep the pencil, paper, graphite and lighting unchanged.
+
+GENERATED SOUND: AMBIENCE ONLY
+Almost silent room air only. The drawing and pencil are stationary, with no scratch, rustle or impact.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+No hand enters; no line draws itself; no text or title appears. No pencil rolling, paper flutter, sparkling pigment or animated wood grain.
+
+END STATE
+All story movement finishes within the first 2.573 seconds; maintain a quiet stable hold through 4 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

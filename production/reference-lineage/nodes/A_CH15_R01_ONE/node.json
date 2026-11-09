@@ -1,0 +1,43 @@
+{
+  "id": "A_CH15_R01_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-15/references/R01_great_book_and_magnifier_opening/reference-images/01_LP_ref_char_geographer_turnaround.png",
+        "sha256": "f309c74e961216b35c481442d24d42252e1972ef8547f3be5997b874ac6fb309",
+        "role": "Older bespectacled geographer, chair, desk, great book and magnifier."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "geographer great book open on a matching tabletop-colour patch, one magnifier resting front-left, nonverbal page shapes only, no hands, people or held pencil.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH15_R01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c15-s01-p01"
+  ],
+  "audit_only_details": "Canonical book and magnifier design; one complete editorial opening prop group, no child removed from shared desk scene.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH15_R01_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. geographer great book open on a matching tabletop-colour patch, one magnifier resting front-left, nonverbal page shapes only, no hands, people or held pencil. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-15/references/R01_great_book_and_magnifier_opening/audit-contract.json",
+  "prompt_sha256": "51b42ac1ce83e9ef0c6c35cc979569ef726c7005dc3340405403de5d36d9d58d",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH15_R01_ONE"
+}

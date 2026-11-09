@@ -1,0 +1,178 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH02_R01",
+  "prompt_file": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/PROMPT.txt",
+  "prompt_sha256": "f63ccf6af2f23aa2e86844bbf64489691fbf93e2c263e06b3ac6c8e099181963",
+  "expected_cells": [
+    "ONE: complete parked aircraft, side view nose RIGHT; upper cowling supported open as in the lower-right reference view; cockpit empty, TWO stopped vertical blades."
+  ],
+  "required_state_direction_contact": "No people, crash dents, smoke, detached parts or ground. Preserve machine geometry; do not mirror a finished image to fake the opposite view.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_plane_side_view.png",
+      "role": "Current plane identity: one cockpit, one seat/headrest, one windscreen, TWO opposite propeller blades, cream/blue low-wing body. Retired plane turnaround is excluded.",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/01_plane_side_view.png",
+      "status": "supplied",
+      "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+      "source_key": "plane"
+    },
+    {
+      "name": "02_plane_engin_hood_open.png",
+      "role": "LOWER-RIGHT SIDE VIEW ONLY for supported open upper cowling. Ignore angled views with conflicting four blades.",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/02_plane_engin_hood_open.png",
+      "status": "supplied",
+      "sha256": "095e22c15fb0244f4dab3f6e1bcf267a58f3b4b43404649242d409c1be85915c",
+      "source_key": "openplane"
+    },
+    {
+      "name": "03_plane_scale_with_pilot.png",
+      "role": "Plane length about 2.2 adult upright heights at equal depth; not authority for painted pilot anatomy.",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/03_plane_scale_with_pilot.png",
+      "status": "supplied",
+      "sha256": "7314e371a63cb5f0a263a3a180cab20386a5a6230bdb31fc8eab0e729bc723cd",
+      "source_key": "planescale"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_CH02_R01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/06_CH02_R01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "2f225647ea3c1ef916861de851ef156c7a8990ac081661e59b2055322ce3339a"
+    },
+    {
+      "name": "07_c02-s01-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c02-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/07_c02-s01-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "b287aa2e99f267731a0f9e8d7b6aaf3e4286283f7a13177fe1b0ed43f0d3ce02"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "A_CH02_R01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c02-s01-p02",
+    "c03-s01-p03",
+    "c03-s01-p04",
+    "c03-s02-p02",
+    "c05-s01-p02",
+    "c24-s01-p02"
+  ],
+  "placement_targets": [
+    {
+      "page": "c02-s01-p02",
+      "cell": "CH02_R01:ONE",
+      "box_px": [
+        320,
+        740,
+        1300,
+        570
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s01-p03",
+      "cell": "CH02_R01:ONE",
+      "box_px": [
+        320,
+        740,
+        1300,
+        570
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s01-p04",
+      "cell": "CH02_R01:ONE",
+      "box_px": [
+        320,
+        740,
+        1300,
+        570
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s02-p02",
+      "cell": "CH02_R01:ONE",
+      "box_px": [
+        320,
+        740,
+        1300,
+        570
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c05-s01-p02",
+      "cell": "CH02_R01:ONE",
+      "box_px": [
+        320,
+        740,
+        1300,
+        570
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c24-s01-p02",
+      "cell": "CH02_R01:ONE",
+      "box_px": [
+        320,
+        740,
+        1300,
+        570
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

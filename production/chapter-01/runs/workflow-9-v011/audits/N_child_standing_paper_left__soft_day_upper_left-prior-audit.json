@@ -1,0 +1,29 @@
+{
+  "node_id": "N_child_standing_paper_left__soft_day_upper_left",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/N_child_standing_paper_left__soft_day_upper_left-attempt-2.png",
+  "source_sha256": "b4b5b3eaa53dd9b48b903a0919311cad11f836f6b5535154e563a9ca7cedd54e",
+  "submitted_prompt": "Previous attempt prompt for N_child_standing_paper_left__soft_day_upper_left before Workflow-9 revision.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T13:10:00+03:00",
+  "issues": [
+    {
+      "issue_id": "S01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        820,
+        1500,
+        780,
+        244
+      ],
+      "observed": "Pale/neutral-grey floor patches remained dense beneath both boots when attempt-2 uploaded a diagnostic correction board instead of the clean identity parent.",
+      "expected": "Balanced standing child three-quarter LEFT holding one blank cream sheet with both hands, complete boots and restrained low-alpha contact shadow.",
+      "precise_fix": "S01: Upload only the clean child identity parent (keeping diagnostic board offline) and apply safe reversible shadow-only alpha preparation if needed.",
+      "recheck": "Verify complete subject geometry, dot eyes, and clean alpha/shadow on light, dark, and scene backgrounds.",
+      "material_impact": "Cannot assemble Chapter 1 pages without an accepted Workflow-9 source.",
+      "local_fix_ruled_out": "Prior source was retired under user fresh-start cleanup; new generation required."
+    }
+  ]
+}

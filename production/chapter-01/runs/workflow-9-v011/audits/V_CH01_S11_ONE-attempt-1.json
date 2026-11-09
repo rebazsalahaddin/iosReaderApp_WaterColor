@@ -1,0 +1,40 @@
+{
+  "node_id": "V_CH01_S11_ONE",
+  "stage": "expression_variant",
+  "attempt": 1,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/V_CH01_S11_ONE-attempt-1.png",
+  "source_sha256": "d29c8066bf647323c78eee4603b1d0811d037770358da649862e1f4a5f9be362",
+  "parents": [
+    {
+      "node_id": "N_child_table__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-9-v011/sources/N_child_table__soft_day_upper_left-attempt-3.png",
+      "sha256": "904512aeb3f05bbbbc56e1e2685c8fc35be0dd0795ff5928270006d442ba5435"
+    }
+  ],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T11:28:21.890895+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Seated child at round table leaning forward in concentration with right hand holding graphite pencil over blank cream sheet and left hand steadying its margin, one closed dusty-blue book at far left, exact parent chair/table/boots/shadow registration, clean transparent alpha."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/V_CH01_S11_ONE-attempt-1.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "PASS",
+      "evidence": "Soft translucent ground contact shadow verified on light and dark backgrounds with no opaque floor patch."
+    }
+  },
+  "issues": []
+}

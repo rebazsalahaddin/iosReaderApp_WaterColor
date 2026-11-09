@@ -1,0 +1,108 @@
+{
+ "request_id": "CH04_R02",
+ "attempt": 1,
+ "job_id": "eafc3ce4-33c5-4b49-bc35-32dbb942af87",
+ "source_file": "production/chapter-02/props/raw/CH04_R02_narrator_graphite_prince_portrait.png",
+ "source_sha256": "c385d013b5f446f5e6a02d8548d3464d3d1a79454b532068e301dd466e4b73a4",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "39b927db2181c21be8d6bd6840c2cf4c190ceefc44da692fbcd0199c8c019d60",
+ "attachments": [],
+ "cells": [
+  "ONE"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Grey graphite only, no colored watercolor; tender chibi child with messy windswept hair silhouette, knee-length coat with three buttons, scarf, mid-calf boots; sparse imperfect hand-drawn contours, hatching, no photorealism."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "Standing front-facing gentle wistful portrait; expression tender with hatch blush."
+  },
+  "count_state_realm": {
+   "verdict": "PASS_WITH_NOTE",
+   "evidence": "One figure, one cream sheet full-bleed; no writing/scenery/second figure; NOTE: two-three tiny stray graphite flecks near coat and boots - incidental sketch debris, harmless at reading size; optional light local cleanup in preparation."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "N/A standalone drawing; loose hatched ground strokes only."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Figure ~20-25% width, ~70% height of 2400x1792; generous margins; final box 1240x900 at scale<=1."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "NOT_APPLICABLE",
+   "evidence": "In-world paper drawing used whole-sheet; no keying."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Reads as narrator hand-drawn portrait at reading size."
+  },
+  "second_contract_check": {
+   "verdict": "PASS",
+   "evidence": "Recheck vs contract: graphite medium, golden-hair silhouette via shape, familiar coat/boots, no writing - all confirmed."
+  }
+ },
+ "issues": [],
+ "verdict": "PASS",
+ "accepted_cells": [
+  "ONE"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "reviewed_at": "2026-11-07T14:46:00.000000+00:00",
+ "cell_audits": {
+  "ONE": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Grey graphite only, no colored watercolor; tender chibi child with messy windswept hair silhouette, knee-length coat with three buttons, scarf, mid-calf boots; sparse imperfect hand-drawn contours, hatching, no photorealism."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Standing front-facing gentle wistful portrait; expression tender with hatch blush."
+    },
+    "count_state_realm": {
+     "verdict": "PASS_WITH_NOTE",
+     "evidence": "[ONE] One figure, one cream sheet full-bleed; no writing/scenery/second figure; NOTE: two-three tiny stray graphite flecks near coat and boots - incidental sketch debris, harmless at reading size; optional light local cleanup in preparation."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[ONE] N/A standalone drawing; loose hatched ground strokes only."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Figure ~20-25% width, ~70% height of 2400x1792; generous margins; final box 1240x900 at scale<=1."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[ONE] In-world paper drawing used whole-sheet; no keying."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Reads as narrator hand-drawn portrait at reading size."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Recheck vs contract: graphite medium, golden-hair silhouette via shape, familiar coat/boots, no writing - all confirmed."
+    }
+   },
+   "summary": "Cell ONE of CH04_R02: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "Accepted attempt 1.",
+ "cell_details": [
+  {
+   "cell": "ONE",
+   "bounds_source_px": null,
+   "source_file": "production/chapter-02/props/raw/CH04_R02_narrator_graphite_prince_portrait.png",
+   "source_sha256": "c385d013b5f446f5e6a02d8548d3464d3d1a79454b532068e301dd466e4b73a4"
+  }
+ ]
+}

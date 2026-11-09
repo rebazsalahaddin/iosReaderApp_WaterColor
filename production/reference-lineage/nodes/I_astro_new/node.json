@@ -1,0 +1,31 @@
+{
+  "id": "I_astro_new",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One clean identity turnaround of the SAME astro new: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": "appearance-references/shared/LP_ref_char_astronomer_western_turnaround.png",
+  "candidate_role": "existing identity turnaround or plant stages; inspect and accept before use",
+  "prompt_file": "production/reference-lineage/nodes/I_astro_new/PROMPT.txt",
+  "candidate_sha256": "6896fe7e4ba8a7a581cc292baa12a156ae79e13a8ab4b13eacce43ded972cfe3",
+  "prompt": "One clean identity turnaround of the SAME astro new: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "415f3a9e9e881ee29196947a98be840a54bcef5274866d2b8b0141dc58e586a9",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_astro_new"
+}

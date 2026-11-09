@@ -1,0 +1,52 @@
+{
+  "id": "A_CH16_R02_L",
+  "stage": "local_assembly",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_king",
+    "I_geo",
+    "I_business",
+    "I_drinker"
+  ],
+  "input_contract": {
+    "max_images": 0,
+    "submission_forbidden": true,
+    "local_identity_sources": [
+      "I_king",
+      "I_geo",
+      "I_business",
+      "I_drinker"
+    ]
+  },
+  "content": "four small separately spaced chest portraits representing king, geographer, businessman and weary drinker, all with unchanged identities; no furniture.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH16_R02",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c16-s01-p03",
+    "c16-s01-p04",
+    "c17-s01-p02",
+    "c17-s01-p03",
+    "c17-s01-p04"
+  ],
+  "audit_only_details": "Editorial category cues only, no actual meeting. This small-portrait sheet is not a full-body four-cell sheet. Keep purple king robe away from key colour.",
+  "shadow_mode": "none_editorial",
+  "prompt_file": "production/reference-lineage/nodes/A_CH16_R02_L/PROMPT.txt",
+  "prompt": "LOCAL ASSEMBLY RECIPE — DO NOT SUBMIT TO AN IMAGE MODEL. Locally select one accepted complete chest portrait of each named adult: king, geographer, businessman and weary drinker. Crop from their own audited turnarounds, preserving whole head/shoulders, costume, native pixels and the requested expression. Keep the four portraits separate and select only the page-named portrait during composition. No furniture or invented meeting. Inspect source crops and expression before use; if no suitable accepted source exists, stop and resolve its existing canonical route and remaining attempt allowance. No new portrait identity, paid portrait-sheet remake, physical floor shadow or extra generation allowance. Record source hashes, crop bounds and uniform scale. No work is executed by preparing this recipe.",
+  "offline_audit_request": "story-and-continuity/chapter-16/references/R02_representative_adult_portraits/audit-contract.json",
+  "prompt_sha256": "78205237ddecd8a81069713dea9ac692d13ca6b03fb60ec0d25cd05783491f2c",
+  "local_assembly_instructions": "Locally select one accepted complete chest portrait of each named adult: king, geographer, businessman and weary drinker. Crop from their own audited turnarounds, preserving whole head/shoulders, costume, native pixels and the requested expression. Keep the four portraits separate and select only the page-named portrait during composition. No furniture or invented meeting.",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH16_R02_L"
+}

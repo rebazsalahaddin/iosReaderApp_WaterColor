@@ -1,0 +1,43 @@
+{
+  "id": "A_CH25_R03_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-25/references/R03_christmas_memory_tree_and_gifts/reference-images/01_LP_ref_child_room.jpg",
+        "sha256": "39e0533078e2e4d695dd479f4538febe7e830a96dbdae2f9a45683f3a26e1c11",
+        "role": "Empty familiar room: furniture, window and layout. Original child scale does not govern adult figures."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "small evergreen Christmas tree with a few warm tiny lights and simple modest ornaments, several plain wrapped gifts at its foot on a small warm floor patch; no writing or people.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH25_R03",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c25-s01-p08"
+  ],
+  "audit_only_details": "A bounded childhood Christmas memory still life. No gift claim in present-day desert, no church transported to Sahara, no extravagant new furnishings.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH25_R03_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. small evergreen Christmas tree with a few warm tiny lights and simple modest ornaments, several plain wrapped gifts at its foot on a small warm floor patch; no writing or people. Soft warm indoor light. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-25/references/R03_christmas_memory_tree_and_gifts/audit-contract.json",
+  "prompt_sha256": "a805eb6fd01cd9635edc3e69bf71890e786a126775aa03c85bef995d414b7edf",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH25_R03_ONE"
+}

@@ -1,0 +1,757 @@
+{
+  "workflow_version": 9,
+  "chapter": 13,
+  "title": "Counting the Stars",
+  "page_count": 21,
+  "page_order": [
+    "c13-s01-p01",
+    "c13-s01-p02",
+    "c13-s01-p03",
+    "c13-s01-p04",
+    "c13-s01-p05",
+    "c13-s01-p06",
+    "c13-s01-p07",
+    "c13-s02-p01",
+    "c13-s02-p02",
+    "c13-s02-p03",
+    "c13-s02-p04",
+    "c13-s02-p05",
+    "c13-s02-p06",
+    "c13-s02-p07",
+    "c13-s03-p01",
+    "c13-s03-p02",
+    "c13-s03-p03",
+    "c13-s03-p04",
+    "c13-s03-p05",
+    "c13-s03-p06",
+    "c13-s03-p07"
+  ],
+  "status": "plan_only_check_current_overlays_and_accepted_sources",
+  "chapter_notes": "Stars remain distant and unowned in the picture; ownership is the man\u2019s claim. Exact 501,622,731 stays in text. One cold extinguished cigarette rests front-left, no smoke. Desk sheet is visible through 3.3, hidden in closed locked drawer from 3.4. No goose, bank building, diamond or physical star capture.",
+  "manual_approval_required_after_delivery": true,
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "scale_and_anchor_registry_required_before_composition": true,
+  "decoded_pixel_and_semantic_duplicate_checks_required": true,
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_requires_reviewed_graphics": true,
+  "direct_source_requests": [
+    "CH02_B00",
+    "CH02_S02",
+    "CH02_S05",
+    "CH03_S03",
+    "CH12_S02",
+    "CH13_B01",
+    "CH13_C01",
+    "CH13_C02",
+    "CH13_R01",
+    "CH13_S01_L",
+    "CH13_S01_R",
+    "CH13_S02"
+  ],
+  "dependency_order": [
+    "CH02_B00",
+    "CH02_S02",
+    "CH02_S05",
+    "CH03_S03",
+    "CH12_S01_L",
+    "CH13_R01",
+    "CH13_B01",
+    "CH13_S01_L",
+    "CH12_S01_R",
+    "CH13_S01_R",
+    "CH13_C01",
+    "CH13_S02",
+    "CH12_C01",
+    "CH13_C02",
+    "CH12_S02"
+  ],
+  "later_owned_required_sources": [],
+  "possible_initial_jobs_before_reuse": 21,
+  "max_total_submissions_if_all_sources_were_new": 63,
+  "budget_note": "Theoretical upper bound only. Not a spending budget. Reuse first, subtract both ledgers, require bounded spend window and exceptional third-attempt evidence.",
+  "generation_requests": [
+    {
+      "request_id": "CH02_B00",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c13-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH02_S02",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c13-s01-p04",
+        "c13-s01-p05",
+        "c13-s01-p06",
+        "c13-s01-p07",
+        "c13-s02-p01",
+        "c13-s02-p02",
+        "c13-s02-p03",
+        "c13-s02-p04",
+        "c13-s02-p05",
+        "c13-s02-p06",
+        "c13-s02-p07",
+        "c13-s03-p03",
+        "c13-s03-p06"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH02_S05",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c13-s01-p02",
+        "c13-s01-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH03_S03",
+      "owner_chapter": 3,
+      "prompt_file": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c13-s03-p01",
+        "c13-s03-p02",
+        "c13-s03-p04",
+        "c13-s03-p05",
+        "c13-s03-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH12_S01_L",
+      "owner_chapter": 12,
+      "prompt_file": "story-and-continuity/chapter-12/reusable-poses/S01_L_drinker_listening_and_drinking_first_state/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-12/reusable-poses/S01_L_drinker_listening_and_drinking_first_state/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [],
+      "dependency_only": true
+    },
+    {
+      "request_id": "CH13_R01",
+      "owner_chapter": 13,
+      "prompt_file": "story-and-continuity/chapter-13/references/R01_paper_and_pencil_opening_still_life/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-13/references/R01_paper_and_pencil_opening_still_life/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c13-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH13_B01",
+      "owner_chapter": 13,
+      "prompt_file": "story-and-continuity/chapter-13/references/B01_businessman_empty_world/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-13/references/B01_businessman_empty_world/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c13-s01-p02",
+        "c13-s01-p03",
+        "c13-s01-p04",
+        "c13-s01-p05",
+        "c13-s01-p06",
+        "c13-s01-p07",
+        "c13-s02-p01",
+        "c13-s02-p02",
+        "c13-s02-p03",
+        "c13-s02-p04",
+        "c13-s02-p05",
+        "c13-s02-p06",
+        "c13-s02-p07",
+        "c13-s03-p01",
+        "c13-s03-p02",
+        "c13-s03-p03",
+        "c13-s03-p04",
+        "c13-s03-p05",
+        "c13-s03-p06",
+        "c13-s03-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH13_S01_L",
+      "owner_chapter": 13,
+      "prompt_file": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c13-s01-p02",
+        "c13-s01-p03",
+        "c13-s03-p01",
+        "c13-s03-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH12_S01_R",
+      "owner_chapter": 12,
+      "prompt_file": "story-and-continuity/chapter-12/reusable-poses/S01_R_drinker_listening_and_drinking_second_state/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-12/reusable-poses/S01_R_drinker_listening_and_drinking_second_state/audit-contract.json",
+      "dependencies": [
+        "CH12_S01_L"
+      ],
+      "active_page_uses": [],
+      "dependency_only": true
+    },
+    {
+      "request_id": "CH13_S01_R",
+      "owner_chapter": 13,
+      "prompt_file": "story-and-continuity/chapter-13/reusable-poses/S01_R_businessman_counting_and_explaining_second_state/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-13/reusable-poses/S01_R_businessman_counting_and_explaining_second_state/audit-contract.json",
+      "dependencies": [
+        "CH13_S01_L"
+      ],
+      "active_page_uses": [
+        "c13-s01-p04",
+        "c13-s01-p05",
+        "c13-s01-p06",
+        "c13-s01-p07",
+        "c13-s02-p01",
+        "c13-s02-p02",
+        "c13-s02-p03",
+        "c13-s02-p04",
+        "c13-s02-p05",
+        "c13-s02-p06",
+        "c13-s02-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH13_C01",
+      "owner_chapter": 13,
+      "prompt_file": "story-and-continuity/chapter-13/pose-corrections/C01_businessman_explaining_with_pencil_resting/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-13/pose-corrections/C01_businessman_explaining_with_pencil_resting/audit-contract.json",
+      "dependencies": [
+        "CH13_S01_L"
+      ],
+      "active_page_uses": [
+        "c13-s03-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH13_S02",
+      "owner_chapter": 13,
+      "prompt_file": "story-and-continuity/chapter-13/reusable-poses/S02_businessman_locked_drawer_silence/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-13/reusable-poses/S02_businessman_locked_drawer_silence/audit-contract.json",
+      "dependencies": [
+        "CH13_S01_L"
+      ],
+      "active_page_uses": [
+        "c13-s03-p04",
+        "c13-s03-p05",
+        "c13-s03-p06"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH12_C01",
+      "owner_chapter": 12,
+      "prompt_file": "story-and-continuity/chapter-12/pose-corrections/C01_drinker_after_sip_bottle_returned/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-12/pose-corrections/C01_drinker_after_sip_bottle_returned/audit-contract.json",
+      "dependencies": [
+        "CH12_S01_L",
+        "CH12_S01_R"
+      ],
+      "active_page_uses": [],
+      "dependency_only": true
+    },
+    {
+      "request_id": "CH13_C02",
+      "owner_chapter": 13,
+      "prompt_file": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/audit-contract.json",
+      "dependencies": [
+        "CH13_S02"
+      ],
+      "active_page_uses": [
+        "c13-s03-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH12_S02",
+      "owner_chapter": 12,
+      "prompt_file": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/audit-contract.json",
+      "dependencies": [
+        "CH12_C01"
+      ],
+      "active_page_uses": [
+        "c13-s02-p05"
+      ],
+      "dependency_only": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "c13-s01-p01",
+      "assets": [
+        "CH02_B00:ONE",
+        "CH13_R01:ONE"
+      ],
+      "story_text": "",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s01-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s01-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s01-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p01/layout.json",
+      "reference_lineage": {
+        "CH02_B00:ONE": "A_CH02_B00_ONE",
+        "CH13_R01:ONE": "A_CH13_R01_ONE"
+      }
+    },
+    {
+      "page": "c13-s01-p02",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_L:ONE",
+        "CH02_S05:L"
+      ],
+      "story_text": "The fourth planet belonged to a businessman. He was too busy to look up. \"Good morning. Your cigarette has gone out.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s01-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s01-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s01-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p02/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_L:ONE": "V_CH13_S01_L_ONE",
+        "CH02_S05:L": "V_CH02_S05_L"
+      }
+    },
+    {
+      "page": "c13-s01-p03",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_L:ONE",
+        "CH02_S05:L"
+      ],
+      "story_text": "\"Three and two, five. Five and seven, twelve. Good morning. I haven't time to light it. Now, where was I? Five hundred and one million...\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s01-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s01-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s01-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p03/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_L:ONE": "V_CH13_S01_L_ONE",
+        "CH02_S05:L": "V_CH02_S05_L"
+      }
+    },
+    {
+      "page": "c13-s01-p04",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"Five hundred million what?\" \"I'm doing important work. I can't stop.\" \"Five hundred million what?\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s01-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s01-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s01-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p04/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s01-p05",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "The little prince never forgot a question.",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s01-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s01-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s01-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p05/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s01-p06",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"I've lived here fifty-four years. Only three things have stopped my work. A goose, twenty-two years ago. Its noise made me get four sums wrong.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s01-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s01-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s01-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p06/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s01-p07",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"Then, eleven years ago, pain in my knees. I don't get enough exercise. I'm too busy. And now you. Five hundred and one million...\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s01-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s01-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s01-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s01-p07/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s02-p01",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"Million what?\" \"Those little things in the sky.\" \"Flies?\" \"No. Shining things.\" \"Bees?\" \"No! The gold things that make lazy people dream.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s02-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s02-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s02-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p01/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s02-p02",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"Stars?\" \"Yes.\" \"What do you do with five hundred million stars?\" \"501,622,731. I am exact. I own them.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s02-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s02-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s02-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p02/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s02-p03",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"You own them? But I met a king...\" \"Kings rule. They don't own.\" \"What good does owning stars do?\" \"It makes me rich.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s02-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s02-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s02-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p03/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s02-p04",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"And what good is being rich?\" \"I can buy more stars when someone finds them.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s02-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s02-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s02-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p04/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s02-p05",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L",
+        "CH12_S02:ONE"
+      ],
+      "story_text": "The little prince remembered the man who drank. Another circle.",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s02-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s02-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s02-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p05/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L",
+        "CH12_S02:ONE": "V_CH12_S02_ONE"
+      }
+    },
+    {
+      "page": "c13-s02-p06",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"How can the stars belong to you?\" \"Who owned them before?\" \"Nobody, I suppose.\" \"Then they're mine. I was the first to think of it.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s02-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s02-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s02-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p06/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s02-p07",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_R:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"Find a diamond with no owner: it's yours. Find an island with no owner: it's yours. Think of a new idea and have it recorded as your own: it's yours. I thought of owning stars.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s02-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s02-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s02-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s02-p07/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_R:ONE": "V_CH13_S01_R_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s03-p01",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_L:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "\"And what do you do with them?\" \"I count them. Then I count them again. It's difficult work.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s03-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s03-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s03-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p01/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_L:ONE": "V_CH13_S01_L_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c13-s03-p02",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S01_L:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "The little prince was still not satisfied.",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s03-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s03-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s03-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p02/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S01_L:ONE": "V_CH13_S01_L_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c13-s03-p03",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_C01:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"If I own a silk scarf, I can wear it and carry it away. I can carry a flower too. But you can't pick the stars.\" \"I can put them in the bank.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s03-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s03-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s03-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p03/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_C01:ONE": "V_CH13_C01_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s03-p04",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S02:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "\"How?\" \"I write their number on paper. I put the paper in a drawer. I lock it.\" \"That's all?\" \"That's enough.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s03-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s03-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s03-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p04/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S02:ONE": "V_CH13_S02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c13-s03-p05",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S02:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "It was a strange game, the little prince thought. A little like making a poem. But it did not seem very important.",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s03-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s03-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s03-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p05/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S02:ONE": "V_CH13_S02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c13-s03-p06",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_S02:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"I water my flower every day. I clean my three volcanoes every week, even the cold one. You never know. It's useful to them that they're mine.\"",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s03-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s03-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s03-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p06/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_S02:ONE": "V_CH13_S02_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c13-s03-p07",
+      "assets": [
+        "CH13_B01:ONE",
+        "CH13_C02:ONE",
+        "CH03_S03:R"
+      ],
+      "story_text": "\"But you are no use to the stars.\" The businessman opened his mouth. Nothing came out. The little prince left, still wondering at the ways of grown-ups.",
+      "assembly_instructions": "story-and-continuity/chapter-13/page-compositions/c13-s03-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-13/page-compositions/c13-s03-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-13/page-compositions/c13-s03-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-13/page-compositions/c13-s03-p07/layout.json",
+      "reference_lineage": {
+        "CH13_B01:ONE": "A_CH13_B01_ONE",
+        "CH13_C02:ONE": "V_CH13_C02_ONE",
+        "CH03_S03:R": "V_CH03_S03_R"
+      }
+    }
+  ],
+  "policy": "production/agent-policy.json",
+  "audit_template": "production/agent-workflow/templates/page-audit.json",
+  "lineage_execution_order": [
+    "I_prince",
+    "I_drinker",
+    "I_business",
+    "N_prince_standing_left__soft_day_upper_left",
+    "N_prince_walk_right__soft_day_upper_left",
+    "N_drinker_six_bottles__soft_day_upper_left",
+    "N_business_working__soft_day_upper_left",
+    "N_business_locked__soft_day_upper_left",
+    "V_CH02_S02_L",
+    "V_CH02_S05_L",
+    "V_CH03_S03_L",
+    "V_CH03_S03_R",
+    "V_CH12_S02_ONE",
+    "A_CH13_B01_ONE",
+    "V_CH13_S02_ONE",
+    "V_CH13_C01_ONE",
+    "V_CH13_C02_ONE",
+    "V_CH13_S01_L_ONE",
+    "V_CH13_S01_R_ONE",
+    "A_CH13_R01_ONE",
+    "A_CH02_B00_ONE"
+  ],
+  "generation_route": "lineage_nodes_only",
+  "legacy_dependency_usage": "offline_audit_and_historical_attempt_traceability",
+  "lineage_catalog": "production/reference-lineage/catalog.json",
+  "workflow_process": "production/workflow-9/PROCESS.md",
+  "family_canaries": {
+    "N_prince_standing_left__soft_day_upper_left": "V_CH02_S02_L",
+    "N_prince_walk_right__soft_day_upper_left": "V_CH03_S03_R",
+    "N_drinker_six_bottles__soft_day_upper_left": "V_CH12_S02_ONE",
+    "N_business_locked__soft_day_upper_left": "V_CH13_S02_ONE",
+    "N_business_working__soft_day_upper_left": "V_CH13_C01_ONE"
+  }
+}

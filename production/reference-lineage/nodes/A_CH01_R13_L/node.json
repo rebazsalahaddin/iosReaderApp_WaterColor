@@ -1,0 +1,45 @@
+{
+  "id": "A_CH01_R13_L",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png",
+        "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+        "role": "STYLE ONLY: native crop of the approved Chapter 1 watercolor paper/pencil/wood, for pigment grain, local contour and opaque cream tone. Do not copy its pencil, drawing, wood surface or composition."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "one simple low rounded pale tan ordinary hat, broad soft brim, one plain warm-brown band; delicate contour and broad watercolor wash. No buckle, detailed felt, sharp crown creases or wearer.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_R13",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c01-s02-p02",
+    "c01-s04-p02",
+    "c01-s05-p02"
+  ],
+  "audit_only_details": "Two wide horizontal bands, TOP hat and BOTTOM map, each independent and complete. These are pictures INSIDE future thought clouds, not real props added to the story. Keep all painted contours comfortably inside their cell with clean key-colour separation. No thought frame, trail, people, scenery, furniture or text. The hat is the adults’ mistaken reading, not a replacement for canonical Drawing One. The map is a visual aid for mental geography, not an asserted flight route.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH01_R13_L/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. one simple low rounded pale tan ordinary hat, broad soft brim, one plain warm-brown band; delicate contour and broad watercolor wash. No buckle, detailed felt, sharp crown creases or wearer. Soft neutral upper-left illumination; opaque pale interiors, restrained luminous watercolor. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/audit-contract.json",
+  "prompt_sha256": "63535b611e3c4d38ae882053865d2a20f27557351eacb6c709bbe086d855dab8",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH01_R13_L"
+}

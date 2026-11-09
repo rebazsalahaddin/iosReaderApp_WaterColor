@@ -1,0 +1,257 @@
+{
+  "page": "c21-s03-p07",
+  "canvas": [
+    2400,
+    1792
+  ],
+  "status": "planned component rebuild; not generated",
+  "stage": "fox_meadow",
+  "coordinate_authority": "authored numeric production targets; ungenerated assets require measured fit verification",
+  "safe_frame_px": [
+    120,
+    90,
+    2160,
+    1612
+  ],
+  "paper_rgb_hex": "#FDFAF3",
+  "layers": [
+    {
+      "asset": "CH21_B01:ONE",
+      "role": "background",
+      "target_box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "target_box_percent": [
+        8.333,
+        8.315,
+        83.333,
+        83.315
+      ],
+      "z": 0,
+      "realm": "actual",
+      "anchor": "center",
+      "transform": "uniform scale down only; preserve all painted subject bounds; no mirroring or nonuniform stretch",
+      "placement_rule": "Fit complete painted bounds inside the target box, align to its stated anchor; boxes are envelopes, not permission to distort anatomy.",
+      "notes": "New 2K plate fits a 2000\u00d71493 region on matched warm paper; preserve full field and deckled edges, never enlarge or crop.",
+      "source_state": "ONE: quiet grassy meadow with one apple tree on LEFT, open sitting space in foreground, a band of golden wheat farther back on RIGHT. Gentle daylight, no animals, people, firearms, buildings or words. New location proposal, not desert: style reference only. Apple tree roots/trunk provide stable landmark. Keep empty grass for gradually closer seating; no duplicate trees."
+    },
+    {
+      "asset": "CH21_S01:R",
+      "role": "fox",
+      "target_box_px": [
+        370,
+        1190,
+        560,
+        340
+      ],
+      "target_box_percent": [
+        15.417,
+        66.406,
+        23.333,
+        18.973
+      ],
+      "z": 21,
+      "realm": "actual",
+      "anchor": "bottom_center",
+      "transform": "uniform scale down only; preserve all painted subject bounds; no mirroring or nonuniform stretch",
+      "placement_rule": "Fit complete painted bounds inside the target box, align to its stated anchor; boxes are envelopes, not permission to distort anatomy.",
+      "notes": "Fox shoulder .35 of upright prince P; target box accommodates head and tail, not standing height measurement.",
+      "source_state": "RIGHT: fox sitting neatly, head turned RIGHT in quiet attention, tail curled beside hind paws, mouth closed. Fox shoulder height about .35 upright P is a proposed shared-depth target; retain reference body proportions, do not humanize paws.",
+      "scale_lock": {
+        "shoulder_height_px": 214,
+        "method": "Shoulder height, not ears/tail or full silhouette. Preserve four-legged anatomy."
+      }
+    },
+    {
+      "asset": "CH21_S02:R",
+      "role": "prince",
+      "target_box_px": [
+        995,
+        1140,
+        390,
+        390
+      ],
+      "target_box_percent": [
+        41.458,
+        63.616,
+        16.25,
+        21.763
+      ],
+      "z": 22,
+      "realm": "actual",
+      "anchor": "bottom_center",
+      "transform": "uniform scale down only; preserve all painted subject bounds; no mirroring or nonuniform stretch",
+      "placement_rule": "Fit complete painted bounds inside the target box, align to its stated anchor; boxes are envelopes, not permission to distort anatomy.",
+      "notes": " Keep same body scale while moving toward fox between days. Child centre x1190; fox centre x650. Check visible silhouette gap, not centres alone.",
+      "source_state": "RIGHT: same seated child facing LEFT, one small open-hand gesture as he asks a question, thoughtful face. No stool or chair; place progressively nearer fox in separate pages without changing either body scale.",
+      "scale_lock": {
+        "prince_standing_equivalent_px": 610,
+        "prince_head_height_target_px": 189,
+        "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+      }
+    }
+  ],
+  "story_note": "Regular visits; hunters\u2019 dance remains dialogue, no new village set.",
+  "source_text": "\"Things that make one day different from another. My hunters dance with the village girls on Thursdays. So Thursday is my day to walk among the grape plants.\"",
+  "assembly_notes": [
+    "Each box is a proposed placement envelope; actual asset alpha bounds and internal landmarks must be measured after return. A numeric guide is not proof that an ungenerated asset fits.",
+    "Keep page camera fixed after its first accepted assembly. For the same scene, change only named state or declared time/realm transition; never zoom to conceal a missing pose.",
+    "Preserve the neutral master's generated soft contact shadow with its complete group; no separate added shadow. Inspect actual sole/chair/prop supports and alpha after the uniform transform. Only accepted legacy keyed sources follow their retained measured local-grounding recipe; no floor shadow for paper art or imagined/editorial/airborne assets.",
+    "Save final measured scale, x/y, painted bounds, floor contacts, head/body ratio and paper corners in an as-built layout.json. Never auto-approve from this plan."
+  ],
+  "drawing_protocol": "Preserve master marks and medium. Derive pigment relative to paper, fit uniformly in local paper plane, perspective warp, multiply only protected paper interior, retain fingers above. No redraw, contrast boost or live animal substituted.",
+  "delivery_name": "c21-s03-p07.png",
+  "required_checks": [
+    "source story and realm",
+    "identity and costume",
+    "separate body/head/chair directions",
+    "prop count and state",
+    "floor/support contacts",
+    "useful source pixel dimensions",
+    "mask interiors and enclosed holes",
+    "native-size edge spill",
+    "reading-size emotion",
+    "all442 page coverage",
+    "visible action recipient or justified story-specific omission",
+    "gaze and gesture meet the intended target",
+    "one coherent instant and adjacent-page continuity",
+    "same-camera measured character/prop scale",
+    "chapter-matching painted frame and border",
+    "thought content readable before frame sizing",
+    "exact passage-to-visible-evidence alignment",
+    "selective thought owner, readable content and chronology"
+  ],
+  "narrative_staging": {
+    "review_scope": "Manuscript and planned staging reviewed; generated sources and final composition still require visual inspection.",
+    "story_text": "\"Things that make one day different from another. My hunters dance with the village girls on Thursdays. So Thursday is my day to walk among the grape plants.\"",
+    "selected_moment": "Regular visits; hunters\u2019 dance remains dialogue, no new village set.",
+    "chapter_continuity": "Fox/prince eyelines and distance evolve from meeting through taming to farewell. The prince addresses the real roses in the garden; do not move the fox into that garden or literalise the invisible bond.",
+    "page_specific_exception_or_correction": "No additional staging change identified in this planning review.",
+    "visible_components": [
+      {
+        "asset": "CH21_S01:R",
+        "role": "fox",
+        "realm": "actual",
+        "state": "RIGHT: fox sitting neatly, head turned RIGHT in quiet attention, tail curled beside hind paws, mouth closed. Fox shoulder height about .35 upright P is a proposed shared-depth target; retain reference body proportions, do not humanize paws."
+      },
+      {
+        "asset": "CH21_S02:R",
+        "role": "prince",
+        "realm": "actual",
+        "state": "RIGHT: same seated child facing LEFT, one small open-hand gesture as he asks a question, thoughtful face. No stool or chair; place progressively nearer fox in separate pages without changing either body scale."
+      }
+    ],
+    "before_assembly_required_fields": [
+      "visible instant",
+      "actor and action",
+      "recipient or target",
+      "target-containing component/background",
+      "head/body/hand/gaze directions",
+      "off-frame reason if any",
+      "one-owner prop/contact inventory",
+      "adjacent-page continuity"
+    ],
+    "delivery_gate": [
+      "State one visible instant and name actor, action, recipient/target, story realm, and pose evidence before assembling.",
+      "An offering, showing, pointing, helping or speaking pose needs its visible recipient/target, including recipients integrated in a contact group/background. An exception needs a page-specific story/framing reason, not a generic off-frame excuse.",
+      "Trace body, hand, head and gaze directions to the intended target at reading size. Both sides must be understandable without reading the caption.",
+      "Check face emotion, occupied hands, actual paper face, full-body proportions, supporting contacts and one-owner prop counts against the preceding and following pages.",
+      "Distinguish actual participants from memory, thought, metaphor, editorial illustration and hypothesis; do not add a character merely because dialogue mentions them.",
+      "Verify actual source pixels, measured placements, non-overlap and scene camera. A numerical envelope or a close-up label is not visual evidence.",
+      "Record a reading-size scene verdict and a native-size contact/edge verdict. Fix failed staging with compatible complete components or the prepared whole-state correction before delivery; no head swaps, mirrors, hidden upscaling or renewed routine permission."
+    ],
+    "visual_status": "Not auto-approved by this planning review."
+  },
+  "geometry_continuity": {
+    "camera_group_id": "fox_meadow-8b157c847a",
+    "chapter_opening": false,
+    "coordinate_authority": "planned group; actual source landmarks/painted bounds must be measured before acceptance",
+    "scale_rule": "Same location/camera/depth: fixed physical size; use native anatomical/prop landmarks, one uniform scale, then compare at identical display zoom.",
+    "comparable_landmark_tolerance_percent": 1.5,
+    "unchanged_support_anchor_tolerance_px": 3,
+    "frame_rule": "Match measured full-scene painted bounds and paper borders; openings cannot be tiny icons on blank white.",
+    "border_delta_limit_percentage_points": 2,
+    "thought_rule": "Readable content first; original aspect/pigment preserved; fit only empty painted frame with small padding. No fixed 650px frame cap.",
+    "required_evidence": [
+      "baseline page and camera/background transform",
+      "native and final anatomical/prop landmarks",
+      "scale calculation and independent landmark crosscheck",
+      "floor/seat/hand contacts after resize",
+      "painted field bounds and normalized margins",
+      "thought image size and safe interior, when present",
+      "actual source second-landmark comparison and support contact pixels"
+    ],
+    "unchanged_anchor_tolerance_px": 3
+  },
+  "text_alignment": {
+    "source_text": "\"Things that make one day different from another. My hunters dance with the village girls on Thursdays. So Thursday is my day to walk among the grape plants.\"",
+    "source_lines": [
+      1415,
+      1418
+    ],
+    "chapter_opening": false,
+    "visible_story_evidence": "Regular visits; hunters\u2019 dance remains dialogue, no new village set.",
+    "thought": {
+      "decision": "no_cloud",
+      "owner": null,
+      "content_assets": [],
+      "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+      "selected_evidence": "Regular visits; hunters\u2019 dance remains dialogue, no new village set.",
+      "realm_caution": "One rose association at \u201cshe has tamed me\u201d; keep real fox, gold wheat and growing distance/contact sufficient elsewhere."
+    },
+    "chapter_story_locks": "One rose association at \u201cshe has tamed me\u201d; keep real fox, gold wheat and growing distance/contact sufficient elsewhere.",
+    "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+    "acceptance": [
+      "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+      "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+      "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+      "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+    ],
+    "thought_aesthetics": {
+      "guide": "production/Text_to_Illustration_Alignment.md",
+      "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+      "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+      "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+      "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+      "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+      "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+    }
+  },
+  "composition_performance_contract": {
+    "version": 1,
+    "guide": "production/Composition_Continuity_and_Performance.md",
+    "scale_tolerance_percent": 1.5,
+    "unchanged_anchor_tolerance_px": 3,
+    "scale_method": "Native anatomical and rigid-prop endpoints -> one uniform scale -> second independent landmark check; never fit pose height as anatomy.",
+    "relative_scale_authority": "Named geometry artwork and persistent cross-chapter ratios; reconcile conflicting turnaround proportions before generating.",
+    "registration": "Keep actor/prop world anchors and at least three room/floor landmarks fixed at same camera/depth unless the passage moves them.",
+    "camera_rule": "Plan a motivated establishing/interaction/detail/emotional shot; genuine angle needs matching perspective sources. Reframe ALL physical layers and shadows together, preserve screen direction and painted border.",
+    "expression_rule": "Each visible participant has named readable emotion, gaze recipient, brow/eye/mouth/head/gesture evidence at reading size.",
+    "grounding_rule": "Inspect the generated neutral shadow at actual bearing surfaces; preserve its exact shape, position, hue, softness, alpha and intensity in each variant. One owner, no white gap or extra shadow. Legacy keyed sources retain their measured preparation recipe; imagined/airborne assets have no floor shadow.",
+    "thought_trail_count_when_selected": 3,
+    "uniqueness_rule": "Every page communicates its own text through action/response/meaningful view; no exact or cosmetic-only duplicate.",
+    "before_delivery": [
+      "actual native landmarks and source hashes",
+      "relative scale and same-camera comparison",
+      "actual support pixels and final shadow attachment",
+      "reading-size expression/gaze/interaction",
+      "decoded-pixel duplicate scan plus semantic near-duplicate review",
+      "exact layer reconstruction",
+      "manual chapter approval stop"
+    ]
+  },
+  "reference_lineage": {
+    "workflow_version": 8,
+    "planned_only": true,
+    "asset_nodes": {
+      "CH21_B01:ONE": "A_CH21_B01_ONE",
+      "CH21_S01:R": "V_CH21_S01_R",
+      "CH21_S02:R": "V_CH21_S02_R"
+    },
+    "preserve_current_as_built": true,
+    "guide": "production/Reference_Lineage_Workflow.md"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH13_S01_L",
+  "prompt_file": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/PROMPT.txt",
+  "prompt_sha256": "d604ecb81436b33b194e0cfe3a0c0af6b2bd03e8a344c04c257590230a7d27c3",
+  "expected_cells": [
+    "ONE: businessman seated at his desk, right hand holding pencil over central blank working sheet, eyes down counting; two paper stacks and cold cigarette fixed."
+  ],
+  "required_state_direction_contact": "Drawer closed; no visible key yet. No painted calculations, money or glowing cigarette. Wide groups: keep table corners and chair feet complete. DIRECTION LOCK: Body/desk three-quarter RIGHT; head DOWN to central paper, right hand pencil.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_LP_ref_char_businessman_turnaround.png",
+      "role": "Blue-waistcoated businessman, wooden desk and chair; use the specified desk state.",
+      "path": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/reference-images/01_LP_ref_char_businessman_turnaround.png",
+      "status": "supplied",
+      "sha256": "5a49cfb0cca48051c9f3fbcbcb7cf404bc79b15df3b946afe987acb30d43a6ea",
+      "source_key": "business"
+    },
+    {
+      "name": "02_LP_ch13_desk_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/reference-images/02_LP_ch13_desk_scale_guide.png",
+      "status": "supplied",
+      "sha256": "0764e07901c5b717b6d6edf155f3f8569c12e053a286f332c559cb5f2b1227af",
+      "source_key": "LP_ch13_desk_scale_guide"
+    },
+    {
+      "name": "03_LP_ch13_desk_state_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/reference-images/03_LP_ch13_desk_state_guide.png",
+      "status": "supplied",
+      "sha256": "75093c7fa14329f3093bd2659c3d43f0a73784771322d87ce9e40665e72e3c7f",
+      "source_key": "LP_ch13_desk_state_guide"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_CH13_S01_L_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/reference-images/06_CH13_S01_L_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "6225bb58a765b885a7c12b21d6cf05540e3f973330052ed3192c9ee643380503"
+    },
+    {
+      "name": "07_c13-s01-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c13-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/reference-images/07_c13-s01-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "0234b07937f1faf1d4502f2da543d6c54ad01b5fd4a5413367a2e0d32b058626"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "V_CH13_S01_L_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c13-s01-p02",
+    "c13-s01-p03",
+    "c13-s03-p01",
+    "c13-s03-p02"
+  ],
+  "placement_targets": [
+    {
+      "page": "c13-s01-p02",
+      "cell": "CH13_S01_L:ONE",
+      "box_px": [
+        290,
+        420,
+        1250,
+        1110
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c13-s01-p03",
+      "cell": "CH13_S01_L:ONE",
+      "box_px": [
+        290,
+        420,
+        1250,
+        1110
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c13-s03-p01",
+      "cell": "CH13_S01_L:ONE",
+      "box_px": [
+        290,
+        420,
+        1250,
+        1110
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c13-s03-p02",
+      "cell": "CH13_S01_L:ONE",
+      "box_px": [
+        290,
+        420,
+        1250,
+        1110
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

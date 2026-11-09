@@ -1,0 +1,51 @@
+{
+  "id": "V_CH21_S03_L",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_fox_standing_right__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_fox_standing_right__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "same fox standing with a small eager lift of head and one front paw slightly raised, happy anticipation, no human jumping pose.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH21_S03",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c21-s03-p05",
+    "c21-s04-p01",
+    "c21-s04-p02",
+    "c21-s04-p03"
+  ],
+  "allowed_changes": "same fox standing with a small eager lift of head and one front paw slightly raised, happy anticipation, no human jumping pose.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "No enormous tear streams or grin. These are later emotional states, not the first wary meeting. DIRECTION LOCK: Both fox states face RIGHT toward prince: torso and muzzle RIGHT, naturally grounded paws.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH21_S03_L/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: same fox standing with a small eager lift of head and one front paw slightly raised, happy anticipation, no human jumping pose. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/audit-contract.json",
+  "prompt_sha256": "73cf8594fd267766aa84176a1092827521b9c4a12b9654254dc893d01774a45b",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH21_S03_L",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

@@ -1,0 +1,141 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH01_S14",
+  "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/PROMPT.txt",
+  "prompt_sha256": "7c1ba4e68bb711ecd4474034cb655d8a4363b18f65e0cc2fcb725ceedf7cd249",
+  "expected_cells": [
+    "LEFT: same older man standing body and feet RIGHT, head down-right, one modest hand indicating schoolwork off-frame, serious ordinary expression.",
+    "RIGHT: same woman body and feet RIGHT, head down-right, small reserved nod and relaxed hands, gently dismissive rather than angry."
+  ],
+  "required_state_direction_contact": "Same identities and scale as S13; no aggression or actual schoolbooks invented.",
+  "isolation_key": null,
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "dependencies": [
+    "CH01_S13"
+  ],
+  "references": [
+    {
+      "name": "01_LP_ref_char_grownup1_turnaround.png",
+      "role": "Older bespectacled adult identity only.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/01_LP_ref_char_grownup1_turnaround.png",
+      "status": "supplied",
+      "sha256": "2b9c4f26a0a3613f7cd58ee51674111e20db11af13f980a26128f4a7c1a58d79",
+      "source_key": "grownup1"
+    },
+    {
+      "name": "02_LP_ref_char_grownup2_turnaround.png",
+      "role": "Grey-haired adult woman identity only.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/02_LP_ref_char_grownup2_turnaround.png",
+      "status": "supplied",
+      "sha256": "3ab08530209c18b023ea7ed91cff6cc4114f95cb930a43ac3dce4322ca0680b2",
+      "source_key": "grownup2"
+    },
+    {
+      "name": "03_LP_scale_child_grownups.png",
+      "role": "Childhood size authority: older man H=1000, woman .96H, six-year-old narrator .66H; preserve own anatomy, compare standing equivalents, never visible seated height.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/03_LP_scale_child_grownups.png",
+      "status": "supplied",
+      "sha256": "64af22820bab6a44b0252a6c1e5b9da849d7ecd425dd8658f34a7e4ba387f34f",
+      "source_key": "child_scale"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_accepted_CH01_S13_childhood_adults_questioning.png",
+      "role": "ACCEPTED CH01_S13: childhood adults questioning. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/06_accepted_CH01_S13_childhood_adults_questioning.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH01_S13",
+      "expected_raw": "production/chapter-01/props/raw/CH01_S13_childhood_adults_questioning.png"
+    },
+    {
+      "name": "07_CH01_S14_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/07_CH01_S14_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "93bc426fd2a30e72cde89e85580fb11318539fcc9b2ba46fc9b81d1090ac339c"
+    },
+    {
+      "name": "08_c01-s03-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c01-s03-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/08_c01-s03-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "1157248f9715d013ec65fd37c82e77f43712a33b2040fa930e419a63d87bce91"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "L": "V_CH01_S14_L",
+    "R": "V_CH01_S14_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c01-s03-p02"
+  ],
+  "placement_targets": [
+    {
+      "page": "c01-s03-p02",
+      "cell": "CH01_S14:L",
+      "box_px": [
+        310,
+        470,
+        460,
+        1060
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c01-s03-p02",
+      "cell": "CH01_S14:R",
+      "box_px": [
+        855,
+        512,
+        450,
+        1018
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

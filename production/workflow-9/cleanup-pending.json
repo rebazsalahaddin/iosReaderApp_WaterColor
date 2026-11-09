@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "chapters": [
+    1,
+    2
+  ],
+  "reason": "User requested removal of the previous generated art and deliveries for both chapters. Only the superseded Chapter 2 v001 edition has been removed so far; current editions and their dependencies remain and must be retired consistently before fresh generation.",
+  "completed_inventory": "production/workflow-9/authorized-removal-inventory.json",
+  "next_steps": [
+    "Inventory and retire the current Chapter 1 v010 and Chapter 2 v002 deliveries, generated page layers and prior generated sources, preserving only required identity, geometry and prompt references.",
+    "Update active chapter progress, lineage source availability, delivery manifests, source routes and validators without deleting historical job and attempt records.",
+    "Verify no retired art remains in active reference routes and run production/validate_package.py before marking cleanup complete."
+  ],
+  "completed_at": "2026-11-08T12:55:30+03:00"
+}

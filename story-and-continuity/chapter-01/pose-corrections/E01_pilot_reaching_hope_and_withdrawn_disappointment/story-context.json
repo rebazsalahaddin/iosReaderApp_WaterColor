@@ -1,0 +1,135 @@
+{
+  "request_id": "CH01_E01",
+  "page_contracts": {
+    "c01-s05-p01": {
+      "source_text": "But sometimes I meet someone and think, \"Perhaps this one will understand.\" I still have Drawing Number One. So I show it to them.",
+      "source_lines": [
+        81,
+        84
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Use the exact selected source states and this page’s passage; retain established scene, time and prop state.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "Presentation precedes the answer. Preserve anticipation; the hat thought appears only on the next response page.",
+        "selected_evidence": "Use the exact selected source states and this page’s passage; retain established scene, time and prop state.",
+        "realm_caution": "Adults mistake Drawing One for a hat; child and prince know the hidden elephant. Pilot’s map is a user-directed mental geography cue."
+      },
+      "chapter_story_locks": "Adults mistake Drawing One for a hat; child and prince know the hidden elephant. Pilot’s map is a user-directed mental geography cue.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c01-s05-p02": {
+      "source_text": "I wait for their answer. \"A hat,\" they say. Always a hat.",
+      "source_lines": [
+        85,
+        88
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Repeats the same misunderstanding years later. Actual scene and physical paper/contact states remain intact.",
+      "thought": {
+        "decision": "thought_cloud",
+        "owner": "the adult listeners, with trail to the speaking older man",
+        "content": "a simple pale tan ordinary hat, reused for both adult responses",
+        "why": "Repeats the same misunderstanding years later.",
+        "content_assets": [
+          "CH01_R13:L"
+        ],
+        "frame_envelope_px": [
+          1380,
+          100,
+          450,
+          280
+        ],
+        "basis": "explicit passage",
+        "do_not_depict": "No physical hat; Drawing One stays unchanged in the pilot’s hands.",
+        "max_cloud_bodies": 1,
+        "trail_rule": "Three small painted puffs toward the named thinker; no tail toward the listener or narrator by default. For a shared adult interpretation use one cloud near the responding adult, not duplicate hats.",
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "content_width_fraction": [
+          0.78,
+          0.85
+        ],
+        "actual_owner_head_and_trail_to_measure": true,
+        "protected_regions": "faces, showing hands, paper/drawing, key contacts and fixed page border",
+        "content_pipeline": "reuse accepted canonical originals; otherwise preplanned source requests only; no full-page regeneration",
+        "measured_content_width_px": 350,
+        "owner_head_anchor": [
+          1430,
+          465
+        ],
+        "trail_positions": [
+          [
+            1420,
+            380
+          ],
+          [
+            1410,
+            424
+          ]
+        ]
+      },
+      "chapter_story_locks": "Adults mistake Drawing One for a hat; child and prince know the hidden elephant. Pilot’s map is a user-directed mental geography cue.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    }
+  },
+  "source_content_only": [
+    "LEFT: same adult pilot, seated three-quarter RIGHT, leaning forward slightly from his hips, eyes directed at the off-sheet adults to his RIGHT, raised expectant eyebrows, a warm open hopeful smile. Both hands extend one blank ivory landscape sheet invitingly toward RIGHT at mid-chest. This is an active hopeful offer, not passive holding.",
+    "RIGHT: same adult pilot and chair, still three-quarter RIGHT, shoulders sink slightly, head inclines DOWN toward the same blank sheet which he draws a little closer to his chest. Inner brow corners gently raised, eyelids lowered and mouth corners visibly down: disappointed, hurt, still dignified. No tears or theatrical grimace. Both hands retain the paper."
+  ],
+  "source_details": "Each cell contains one complete coherent adult pilot, the SAME wooden chair, both boots and exactly one blank paper. Chair, pelvis and feet remain angled RIGHT; the right cell is NOT mirrored. Keep matching head dimensions, seat height, chair geometry and foot contacts between states; all changes above the hips. Sheet visible front plane wide enough for the original graphite drawing to be composited later, hands on margins. Do not draw a hat or snake. Chairs stay in the same projected position in both cells.",
+  "composition_performance_contract": {
+    "version": 1,
+    "guide": "production/Composition_Continuity_and_Performance.md",
+    "scale_tolerance_percent": 1.5,
+    "unchanged_anchor_tolerance_px": 3,
+    "scale_method": "Native anatomical and rigid-prop endpoints -> one uniform scale -> second independent landmark check; never fit pose height as anatomy.",
+    "relative_scale_authority": "Named geometry artwork and persistent cross-chapter ratios; reconcile conflicting turnaround proportions before generating.",
+    "registration": "Keep actor/prop world anchors and at least three room/floor landmarks fixed at same camera/depth unless the passage moves them.",
+    "camera_rule": "Plan a motivated establishing/interaction/detail/emotional shot; genuine angle needs matching perspective sources. Reframe ALL physical layers and shadows together, preserve screen direction and painted border.",
+    "expression_rule": "Each visible participant has named readable emotion, gaze recipient, brow/eye/mouth/head/gesture evidence at reading size.",
+    "grounding_rule": "Verified actual bearing surfaces, one owner, attached low-alpha contact core and soft wash; no white gap; no shadows under imagined/airborne objects.",
+    "thought_trail_count_when_selected": 3,
+    "uniqueness_rule": "Every page communicates its own text through action/response/meaningful view; no exact or cosmetic-only duplicate.",
+    "before_delivery": [
+      "actual native landmarks and source hashes",
+      "relative scale and same-camera comparison",
+      "actual support pixels and final shadow attachment",
+      "reading-size expression/gaze/interaction",
+      "decoded-pixel duplicate scan plus semantic near-duplicate review",
+      "exact layer reconstruction",
+      "manual chapter approval stop"
+    ]
+  }
+}

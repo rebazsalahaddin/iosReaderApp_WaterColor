@@ -1,0 +1,116 @@
+{
+  "node_id": "N_child_table__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-2.png",
+  "source_sha256": "ba1a56b2874e952e190e6cc668d729ad091d1e5717cd8bc9e0df36728c9f7a7a",
+  "parents": [
+    {
+      "node_id": "I_child",
+      "path": "production/chapter-01/runs/workflow-8-v011/preflight/child-identity-three-quarter.png",
+      "sha256": "66189f88355625379751e442d48206c83534571565e9216d80164a28ed71a040"
+    }
+  ],
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T22:05:58.217369+00:00",
+  "verdict": "PASS_WITH_NOTE",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Same chestnut tufted hair, dot eyes, small rounded six-year-old face, cream crew-neck shirt, tan rolled trousers and brown boots as the inspected canonical crop."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Two small brown dot/oval eyes, no irises."
+    },
+    "native_geometry": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Native2336x1744 complete child/table/chair group, visible crown including tuft, entire connected furniture and soles. Body neutral toward LEFT; table from the audited empty room authority. Second return slightly reframes the first foundation, so all future expression geometry is locked to THIS accepted second return; first was never accepted."
+    },
+    "contacts": {
+      "verdict": "PASS",
+      "evidence": "Both hands meet tabletop edge; hips supported by chair; both boots and all visible furniture legs meet their own soft shadows. No detached anatomy or duplicate furniture."
+    },
+    "alpha": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Native RGBA transparent surroundings, no opaque floor or visible fringe after cream/dark/actual-room checks. Interiors are near-opaque252-254 as in this model output; retain raw reference and inspect actual page backing. No checkerboard pixels."
+    },
+    "shadow": {
+      "verdict": "PASS",
+      "evidence": "E01 resolved: inspected cream, dark blue and actual retained room/rug diagnostics. The shadow is now a quiet neutral taupe wash through which the background remains visible; it meets soles/legs, no pale islands or duplicate owner. Preserve the complete lower support/shadow region exactly for every variant."
+    }
+  },
+  "native_landmarks": {
+    "crown": [
+      1545,
+      9
+    ],
+    "chin": [
+      1484,
+      541
+    ],
+    "table_front_left_contact": [
+      329,
+      1512
+    ],
+    "table_back_left_contact": [
+      619,
+      1355
+    ],
+    "table_front_right_contact": [
+      1580,
+      1543
+    ],
+    "chair_right_contact": [
+      1900,
+      1427
+    ],
+    "child_left_sole": [
+      1187,
+      1442
+    ],
+    "child_right_sole": [
+      1328,
+      1487
+    ]
+  },
+  "native_landmark_uncertainty_px": 4,
+  "protected_support_shadow_mask": "production/chapter-01/runs/workflow-8-v011/preflight/N_child_table-protected-support-shadow-mask.png",
+  "issues": [
+    {
+      "issue_id": "E01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": true,
+      "cause": "source",
+      "bbox_xywh": [
+        240,
+        1370,
+        1940,
+        374
+      ],
+      "dimensions": [
+        2336,
+        1744
+      ],
+      "observed": "Pale floor-coloured patches under legs/soles are nearly opaque (example RGBA184,160,148,250 at400,1630); conspicuous bright islands on dark ground and paper-colour blotches on the actual rug.",
+      "expected": "Only soft attached neutral warm-grey shadow with low/graded alpha and transparent surround; actual floor/rug visible through it, no cream matte.",
+      "precise_fix": "Remove every pale or cream floor patch beneath all supports; retain only a very light neutral warm-grey contact shadow with low graded alpha, attached to all soles/legs and fading to zero. Preserve every subject/furniture pixel and camera outside the shadow.",
+      "recheck": "Inspect all support shadows on cream, dark and actual room backgrounds; sample RGB/alpha outside opaque supports and verify no pale opaque floor islands.",
+      "material_impact": "Opaque pale patches overwrite actual room/rug texture and look like cutout floor islands.",
+      "local_fix_ruled_out": "New neutral shadow must be genuinely generated and accepted before expression branching. Erasing these patches would remove the shadow; replacing it programmatically violates this workflow.",
+      "resolution": "Second return shows restrained transparent taupe-grey shadows without pale floor islands on dark and actual warm room rug. All visible sole/table/chair supports remain attached; no white strips or second shadow. Native alpha retained.",
+      "resolved_at": "2026-11-07T22:05:58.217369+00:00"
+    }
+  ],
+  "second_attempt_recheck": [
+    "E01 resolved",
+    "identity/dot eyes retained",
+    "complete furniture and support contacts retained",
+    "one closed blue book, one blank sheet and one pencil retained",
+    "no labels, diagnostic crops or extra scenery rendered"
+  ],
+  "diagnostic_files": [
+    "production/chapter-01/runs/workflow-8-v011/audits/child-table-attempt2-cream.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/child-table-attempt2-dark.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/child-table-attempt2-actual.jpg"
+  ]
+}

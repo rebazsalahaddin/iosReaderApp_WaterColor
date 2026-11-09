@@ -1,0 +1,46 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This tool provides an auto-updating generation widget for these jobs. Do not call job_display, show_generations, or show_generation_by_ids to display these jobs again, either before or after completion, unless the user explicitly requests a separate display. If you need to await completion, use jobs_wait with timeout_seconds <= 15. Use job_display only if the user explicitly requests a separate re-display of one specific job."
+    },
+    {
+      "type": "text",
+      "text": "Note: adjustments applied — medias[0].role: \"image\" → \"image_references\" (GPT Image 2.6 Flare backend expects schema-key media roles).\n\nSubmitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- 384ad549-6e5e-42f3-990f-cd36838cd6ee  \"Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Child standing three-quarter LEFT with both hands supporting one blank cream sheet toward adults off-frame LEFT; neutral face and balanced supported feet. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft neutral daylight from upper-left; preserve the established local colours. Include a very light soft attached watercolor contact shadow at visible ground supports, with graded alpha fading to full transparency. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.\""
+    },
+    {
+      "type": "text",
+      "text": "If the user requests a combined display of multiple generations, including jobs submitted through separate generate_* calls, collect all requested job IDs, wait for the complete set with jobs_wait, then call show_generation_by_ids with jobs: [{\"index\":0,\"job_id\":\"<first actual job ID>\"},{\"index\":1,\"job_id\":\"<second actual job ID>\"}, ...]. job_display accepts only one id: never pass ids to it or loop over it to show a group. Do not create an extra display when the existing generation widgets already satisfy the request."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "id": "384ad549-6e5e-42f3-990f-cd36838cd6ee",
+        "type": "image",
+        "status": "pending",
+        "model": "gpt_image_2_6_flare",
+        "params": {
+          "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Child standing three-quarter LEFT with both hands supporting one blank cream sheet toward adults off-frame LEFT; neutral face and balanced supported feet. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft neutral daylight from upper-left; preserve the established local colours. Include a very light soft attached watercolor contact shadow at visible ground supports, with graded alpha fading to full transparency. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+          "aspect_ratio": "4:3",
+          "reference_images": [
+            "4fb3a0b2-2744-43ae-afc7-5e1de3fb966a"
+          ],
+          "quality": "medium",
+          "resolution": "2k",
+          "batch_size": 1,
+          "output_format": "png",
+          "background": "transparent"
+        }
+      }
+    ],
+    "adjustments": {
+      "medias[0].role": {
+        "requested": "image",
+        "used": "image_references",
+        "reason": "GPT Image 2.6 Flare backend expects schema-key media roles"
+      }
+    }
+  },
+  "isError": false
+}

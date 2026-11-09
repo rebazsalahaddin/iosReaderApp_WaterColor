@@ -1,0 +1,51 @@
+{
+  "id": "V_CH23_S01_L_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_pill_seller_counter__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_pill_seller_counter__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "pill seller behind his plain wooden counter, explaining with one small open hand; one unlabelled closed small pill container on counter, no dose in hand.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH23_S01_L",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c23-s01-p02",
+    "c23-s01-p03",
+    "c23-s01-p04",
+    "c23-s01-p05"
+  ],
+  "allowed_changes": "pill seller behind his plain wooden counter, explaining with one small open hand; one unlabelled closed small pill container on counter, no dose in hand.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Complete contact group. No child in these cells, no swallowing or written claim. Proposed shared-depth prince/seller upright body-height ratio .62; do not infer it from seated visible height. DIRECTION LOCK: Seller body/counter front three-quarter RIGHT, head RIGHT toward child; one open hand, closed container.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH23_S01_L_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: pill seller behind his plain wooden counter, explaining with one small open hand; one unlabelled closed small pill container on counter, no dose in hand. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-23/reusable-poses/S01_L_pill_seller_at_counter_first_state/audit-contract.json",
+  "prompt_sha256": "3e1bfb0330e575faeaca235f3fda40565aa04dadbc5151e7dbf24c76f3de54ba",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH23_S01_L_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

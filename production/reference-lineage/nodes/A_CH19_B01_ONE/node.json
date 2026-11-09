@@ -1,0 +1,51 @@
+{
+  "id": "A_CH19_B01_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-19/references/B01_high_mountain_empty_ridge/reference-images/01_LP_ref_sahara_day.jpg",
+        "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+        "role": "Existing empty daytime Sahara plate. Preserve the full view and watercolor margins."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "high dry rocky ridge with a safe broad foreground footing, sharp distant peaks, pale cool sky, restrained traces of snow far away. No people, buildings, paths with crowds or faces in rocks.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH19_B01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c19-s01-p01",
+    "c19-s01-p02",
+    "c19-s01-p03",
+    "c19-s01-p04",
+    "c19-s01-p05",
+    "c19-s01-p06",
+    "c19-s01-p07",
+    "c19-s01-p08",
+    "c19-s01-p09"
+  ],
+  "audit_only_details": "New location proposal: watercolor rock forms, not Sahara dune shapes. Camera at child eye level on the ridge; no view of the whole planet. Keep a clear foreground for one small figure.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH19_B01_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. high dry rocky ridge with a safe broad foreground footing, sharp distant peaks, pale cool sky, restrained traces of snow far away. No people, buildings, paths with crowds or faces in rocks. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-19/references/B01_high_mountain_empty_ridge/audit-contract.json",
+  "prompt_sha256": "f264615e0c662ff21c0184aebb65610e60a7262a9ca5125ef36c356498d975b6",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH19_B01_ONE"
+}

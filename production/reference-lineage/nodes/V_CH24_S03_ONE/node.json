@@ -1,0 +1,50 @@
+{
+  "id": "V_CH24_S03_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_pilot_carry_prince__moonlight_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_pilot_carry_prince__moonlight_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "pilot walking slowly RIGHT while carrying sleeping prince securely in both arms, one arm supporting child\u2019s back and one under knees, child\u2019s head supported near adult chest, small sleeping smile, gold hair and coral scarf visible.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH24_S03",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c24-s03-p01",
+    "c24-s03-p02",
+    "c24-s03-p03"
+  ],
+  "allowed_changes": "pilot walking slowly RIGHT while carrying sleeping prince securely in both arms, one arm supporting child\u2019s back and one under knees, child\u2019s head supported near adult chest, small sleeping smile, gold hair and coral scarf visible.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "One coherent full-width group, no spare hands or unsupported neck; child is sleeping, not dead. No literal candle or glow. DIRECTION LOCK: Adult walks RIGHT, sleeping child lies across arms with supported head near adult LEFT chest, continuous contacts.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH24_S03_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: pilot walking slowly RIGHT while carrying sleeping prince securely in both arms, one arm supporting child\u2019s back and one under knees, child\u2019s head supported near adult chest, small sleeping smile, gold hair and coral scarf visible. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-24/reusable-poses/S03_pilot_carrying_sleeping_prince/audit-contract.json",
+  "prompt_sha256": "30502dc8de9e09e6b98777d78964296d0ce7f48a1dd6217623223f6f14b08606",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH24_S03_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

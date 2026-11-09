@@ -1,0 +1,47 @@
+{
+  "id": "A_CH04_B03_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-04/references/B03_narrator_room_standing_empty_plate/reference-images/01_LP_ref_pilot_room_standing_ch04.png",
+        "sha256": "565aec88e81db8b99c2c56d8eb81136b04db08df1f77fd801a99e3f1c2604d36",
+        "role": "Approved adult-room standing camera/fit: crown-to-sole 60–65% of original frame height, head/full-standing about .21–.22. Do not copy visitors or card."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "same familiar room at the approved standing-WIDE camera, matching window, floor, table/chairs and shelf positions; no people, visitors, held card, drawings or extra furniture.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH04_B03",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c04-s03-p01",
+    "c04-s03-p02",
+    "c04-s03-p05",
+    "c04-s03-p06",
+    "c27-s01-p02"
+  ],
+  "audit_only_details": "Preserve the entire approved camera field; remove only occupants and their personal props. Existing furniture remains and standing pose sheets contain none.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH04_B03_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. same familiar room at the approved standing-WIDE camera, matching window, floor, table/chairs and shelf positions; no people, visitors, held card, drawings or extra furniture. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-04/references/B03_narrator_room_standing_empty_plate/audit-contract.json",
+  "prompt_sha256": "122dcd69ae5701345657bac3c10f2bff28a5e615913b373b152b8b57a5420380",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH04_B03_ONE"
+}

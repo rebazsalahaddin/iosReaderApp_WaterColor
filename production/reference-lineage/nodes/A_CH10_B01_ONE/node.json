@@ -1,0 +1,68 @@
+{
+  "id": "A_CH10_B01_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/reference-images/03_c01-s05-p01.png",
+        "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+        "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "warm pale ochre first neighbouring planet, local curved ground and open periwinkle sky; no throne, coat, king or child.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH10_B01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c10-s01-p03",
+    "c10-s01-p04",
+    "c10-s01-p05",
+    "c10-s01-p06",
+    "c10-s01-p07",
+    "c10-s01-p08",
+    "c10-s02-p01",
+    "c10-s02-p02",
+    "c10-s02-p03",
+    "c10-s02-p04",
+    "c10-s02-p05",
+    "c10-s02-p06",
+    "c10-s02-p07",
+    "c10-s03-p01",
+    "c10-s03-p02",
+    "c10-s03-p03",
+    "c10-s03-p04",
+    "c10-s03-p05",
+    "c10-s04-p01",
+    "c10-s04-p02",
+    "c10-s04-p03",
+    "c10-s04-p04",
+    "c10-s04-p05",
+    "c10-s04-p06",
+    "c10-s04-p07",
+    "c10-s04-p08"
+  ],
+  "audit_only_details": "Match guide first world, separate from B-612; no six planets as physical objects on this ground.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH10_B01_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. warm pale ochre first neighbouring planet, local curved ground and open periwinkle sky; no throne, coat, king or child. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/audit-contract.json",
+  "prompt_sha256": "d17760f093115aa085d045c7d186edda2eaf54171dc667a9a76ee5e7fbef797f",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH10_B01_ONE"
+}

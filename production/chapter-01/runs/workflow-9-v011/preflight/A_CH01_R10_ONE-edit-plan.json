@@ -1,0 +1,39 @@
+{
+  "workflow_version": 9,
+  "node_id": "A_CH01_R10_ONE",
+  "parents": [],
+  "route": "asset",
+  "target_state": "Create ONE complete isolated object/editorial asset. a small nonverbal printed watercolor natural-history picture on cream paper: muted olive-ochre snake swallowing a generic brown forest quadruped head-first; only hindquarters, short tail and two rear legs remain outside. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "submission_contract": "Keep exact single-state asset boundaries, dot-eye storybook watercolor discipline, and clean background handling.",
+  "identity_features": [
+    "dot eyes without irises",
+    "canonical hair and facial proportions",
+    "consistent storybook watercolor washes"
+  ],
+  "geometry_checks": [
+    "4:3 2K native canvas",
+    "complete subject silhouette with margin",
+    "consistent camera elevation and orientation"
+  ],
+  "contacts": "Complete support contact group preserved with restrained translucent ground shadow where applicable.",
+  "background_review": "Inspect on cream, dark charcoal, and intended scene background before acceptance.",
+  "pixel_budget": "Native 2336x1744 / 2400x1792 2K canvas exceeds all target page placement boxes at scale <= 1.0.",
+  "reuse_decision": "Audited existing canonical turnarounds reused; this node requires fresh Workflow-9 generation after user-authorized retirement.",
+  "local_repair_decision": "Safe reversible shadow-only matte preparation permitted after visual review if core subject is intact.",
+  "object_inventory": [
+    {
+      "id": "primary_subject",
+      "before_count": 0,
+      "after_count": 1,
+      "before_state": "canonical reference input",
+      "after_state": "complete single-state generated node",
+      "contact": "grounded or airborne per node contract"
+    }
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Antigravity visual inspection",
+    "reviewed_at": "2026-11-08T13:10:00+03:00",
+    "observations": "Reviewed Workflow-9 edit plan and reference inputs for A_CH01_R10_ONE."
+  }
+}

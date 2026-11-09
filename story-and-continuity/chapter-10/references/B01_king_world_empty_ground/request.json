@@ -1,0 +1,400 @@
+{
+  "id": "CH10_B01",
+  "chapter": 10,
+  "code": "B01",
+  "title": "king world empty ground",
+  "kind": "background",
+  "cells": [
+    "ONE: warm pale ochre first neighbouring planet, local curved ground and open periwinkle sky; no throne, coat, king or child."
+  ],
+  "refs": [
+    "LP_ch10_king_scale_guide",
+    "LP_ch10_six_worlds_guide",
+    "success_style",
+    "style"
+  ],
+  "details": "Match guide first world, separate from B-612; no six planets as physical objects on this ground.",
+  "key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "slug": "king_world_empty_ground",
+  "output": "CH10_B01_king_world_empty_ground.png",
+  "raw_output_folder": "production/chapter-10/props/raw",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c10-s01-p03",
+    "c10-s01-p04",
+    "c10-s01-p05",
+    "c10-s01-p06",
+    "c10-s01-p07",
+    "c10-s01-p08",
+    "c10-s02-p01",
+    "c10-s02-p02",
+    "c10-s02-p03",
+    "c10-s02-p04",
+    "c10-s02-p05",
+    "c10-s02-p06",
+    "c10-s02-p07",
+    "c10-s03-p01",
+    "c10-s03-p02",
+    "c10-s03-p03",
+    "c10-s03-p04",
+    "c10-s03-p05",
+    "c10-s04-p01",
+    "c10-s04-p02",
+    "c10-s04-p03",
+    "c10-s04-p04",
+    "c10-s04-p05",
+    "c10-s04-p06",
+    "c10-s04-p07",
+    "c10-s04-p08"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground",
+  "representative_page": "c10-s01-p03",
+  "placement_targets": [
+    {
+      "page": "c10-s01-p03",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s01-p04",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s01-p05",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s01-p06",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s01-p07",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s01-p08",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s02-p01",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s02-p02",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s02-p03",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s02-p04",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s02-p05",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s02-p06",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s02-p07",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s03-p01",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s03-p02",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s03-p03",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s03-p04",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s03-p05",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s04-p01",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s04-p02",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s04-p03",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s04-p04",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s04-p05",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s04-p06",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s04-p07",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s04-p08",
+      "cell": "CH10_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ch10_king_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/reference-images/01_LP_ch10_king_scale_guide.png",
+      "status": "supplied",
+      "sha256": "1bc414f0581c188348ad9f6c745ef63421116a6e043a367ecc8a8d63f3bf5f8d",
+      "source_key": "LP_ch10_king_scale_guide"
+    },
+    {
+      "name": "02_LP_ch10_six_worlds_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/reference-images/02_LP_ch10_six_worlds_guide.png",
+      "status": "supplied",
+      "sha256": "5db56efabf05e44e6a2a16b6d311f6ae14c001d09f99460514cf99f66e0fa573",
+      "source_key": "LP_ch10_six_worlds_guide"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_CH10_B01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/reference-images/05_CH10_B01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "8f9770f78cc6be0404ff53c87b2f1ff88065acb43ed08346c8901690e27da664"
+    },
+    {
+      "name": "06_c10-s01-p03_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c10-s01-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/reference-images/06_c10-s01-p03_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "7f7ffc747c6c3bb39bf09c69f5901f8a98d39fe02c6585d7b874c640a5c1cf58"
+    }
+  ],
+  "readiness": "ready_for_agent_generation",
+  "prompt": "CH10_B01 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: warm pale ochre first neighbouring planet, local curved ground and open periwinkle sky; no throne, coat, king or child.\n  Actual short payload: production/reference-lineage/nodes/A_CH10_B01_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "A_CH10_B01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

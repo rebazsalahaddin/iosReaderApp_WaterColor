@@ -1,0 +1,43 @@
+{
+  "id": "A_CH01_B12_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-01/references/B12_night_flight_landscape/reference-images/01_LP_ref_sahara_night.jpg",
+        "sha256": "c99e972cf519b1be1804535072d92b5a7bad4b24a9f82dd56eb312abaac15bb7",
+        "role": "Existing empty night Sahara plate. Preserve the full view; no added literal bells or smiling stars."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "dark blue night sky and tiny distant stars above quiet dark landforms and a faint river far below; no aircraft, people, labels or map.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_B12",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c01-s04-p02"
+  ],
+  "audit_only_details": "Same elevated flight camera; this is a separate night journey, no location-specific landmarks falsely identifying China or Arizona.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH01_B12_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. dark blue night sky and tiny distant stars above quiet dark landforms and a faint river far below; no aircraft, people, labels or map. Soft cool moonlight from upper-left. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-01/references/B12_night_flight_landscape/audit-contract.json",
+  "prompt_sha256": "eb78f1f6ac2103095180b5ce041d23f3d7548b29ba8518850731026c0e77753e",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH01_B12_ONE"
+}

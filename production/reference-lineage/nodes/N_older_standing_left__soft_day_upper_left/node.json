@@ -1,0 +1,75 @@
+{
+  "id": "N_older_standing_left__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_grownup1"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_grownup1"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Older bespectacled adult standing three-quarter LEFT, shoes LEFT, neutral expression and hands low.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "older_standing_left",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c04-s02-p01",
+    "c04-s02-p02",
+    "c04-s02-p03",
+    "c04-s02-p04",
+    "c04-s03-p01",
+    "c04-s03-p02",
+    "c04-s03-p05",
+    "c04-s03-p06",
+    "c27-s01-p02"
+  ],
+  "legacy_tokens": [
+    "CH04_S04:L",
+    "CH27_C01:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-04/reusable-poses/S04_grownups_listening/reference-images/05_CH04_S04_PACKING_GUIDE.png",
+      "sha256": "c18d5e04efcdd1a42699eb8e73e839697adf3305f970fbbf89e1de9f41e25756",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-04/reusable-poses/S04_grownups_listening/reference-images/06_c04-s03-p01_COMPOSITION_GUIDE.png",
+      "sha256": "e27cbc2617f134105c5951fbcb7a6d213f1099634e76b607e749961bd4782f66",
+      "role": "TECHNICAL final-page placement for c04-s03-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-27/pose-corrections/C01_grownup_welcoming_narrator_home/reference-images/04_CH27_C01_PACKING_GUIDE.png",
+      "sha256": "4b781729d94e777c1b3a7b88a6a313ee90833cf6151de82a38e89b0306323274",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-27/pose-corrections/C01_grownup_welcoming_narrator_home/reference-images/05_c27-s01-p02_COMPOSITION_GUIDE.png",
+      "sha256": "aaafe68ad24b446a18568bbfa3b3106758f2c1b4943a7cdf8f7870141fc5e1dc",
+      "role": "TECHNICAL final-page placement for c27-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_older_standing_left__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Older bespectacled adult standing three-quarter LEFT, shoes LEFT, neutral expression and hands low. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "d4d1a965c3e972c0efabfeafac13971fe586911006d727caba3e1f42c10f9a68",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_older_standing_left__soft_day_upper_left"
+}

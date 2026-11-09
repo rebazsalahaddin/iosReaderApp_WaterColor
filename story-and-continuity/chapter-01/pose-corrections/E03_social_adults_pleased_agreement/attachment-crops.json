@@ -1,0 +1,26 @@
+[
+  {
+    "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+    "original_source": "production/chapter-01/props/raw/CH01_S04_grownup3_talk_reply.png",
+    "source_sha256": "85dd90c5f16f02b8a2816bd1c4d4366f07e60ec9892b7e72060c6ecafe04f370",
+    "crop_ltrb": [
+      1200,
+      0,
+      2400,
+      1792
+    ],
+    "operation": "Exact native crop only, no resampling/mirroring"
+  },
+  {
+    "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/02_CH01_S05_grownup4_listen_reply.png",
+    "original_source": "production/chapter-01/props/raw/CH01_S05_grownup4_listen_reply.png",
+    "source_sha256": "de289235ac3ffd233a7aa5210b0efd60c9ced434329475b1ec34929df11bebb4",
+    "crop_ltrb": [
+      1200,
+      0,
+      2400,
+      1792
+    ],
+    "operation": "Exact native crop only, no resampling/mirroring"
+  }
+]

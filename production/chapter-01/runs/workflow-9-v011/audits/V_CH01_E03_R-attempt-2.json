@@ -1,0 +1,40 @@
+{
+  "node_id": "V_CH01_E03_R",
+  "stage": "expression_variant",
+  "attempt": 2,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/V_CH01_E03_R-attempt-2.png",
+  "source_sha256": "231f17dab1dcb8d06d54297a8077b33a091fbbc2d1fed57861259823057dcff3",
+  "parents": [
+    {
+      "node_id": "N_younger_social_chair_left__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-9-v011/sources/N_younger_social_chair_left__soft_day_upper_left-attempt-1.png",
+      "sha256": "437a7c15f6543b373395b082a71bc9d3ed2228eb44d2b452ee7647bb996c540c"
+    }
+  ],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T11:23:02.734125+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Seated younger adult in grey sweater on wooden chair facing three-quarter left, warm open smile, one open palm raised in welcoming agreement gesture while other hand rests on knee, exact parent chair/shoes/identity registration, clean transparent alpha."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/V_CH01_E03_R-attempt-2.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "PASS",
+      "evidence": "Soft translucent ground contact shadow verified on light and dark backgrounds with no opaque floor patch."
+    }
+  },
+  "issues": []
+}

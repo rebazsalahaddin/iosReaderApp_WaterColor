@@ -1,0 +1,50 @@
+{
+  "id": "A_CH16_R02_R",
+  "stage": "local_assembly",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_vain",
+    "I_grownup1",
+    "I_grownup2"
+  ],
+  "input_contract": {
+    "max_images": 0,
+    "submission_forbidden": true,
+    "local_identity_sources": [
+      "I_vain",
+      "I_grownup1",
+      "I_grownup2"
+    ]
+  },
+  "content": "one vain man chest portrait and a separate small crowd of anonymous adult silhouettes, no literal statistical tally.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH16_R02",
+  "legacy_cell": "R",
+  "affected_pages": [
+    "c16-s01-p03",
+    "c16-s01-p04",
+    "c17-s01-p02",
+    "c17-s01-p03",
+    "c17-s01-p04"
+  ],
+  "audit_only_details": "Editorial category cues only, no actual meeting. This small-portrait sheet is not a full-body four-cell sheet. Keep purple king robe away from key colour.",
+  "shadow_mode": "none_editorial",
+  "prompt_file": "production/reference-lineage/nodes/A_CH16_R02_R/PROMPT.txt",
+  "prompt": "LOCAL ASSEMBLY RECIPE — DO NOT SUBMIT TO AN IMAGE MODEL. Locally select the accepted vain-man chest portrait, preserving his complete head, hat and shoulders. For the separate anonymous population cue, use complete native adult silhouettes from audited identity sources with one uniform silhouette treatment; keep them anonymous, without face detail or a literal numerical tally. Do not assemble heads and bodies or mirror asymmetric figures. Inspect source crops and expression before use; if no suitable accepted source exists, stop and resolve its existing canonical route and remaining attempt allowance. No new portrait identity, paid portrait-sheet remake, physical floor shadow or extra generation allowance. Record source hashes, crop bounds and uniform scale. No work is executed by preparing this recipe.",
+  "offline_audit_request": "story-and-continuity/chapter-16/references/R02_representative_adult_portraits/audit-contract.json",
+  "prompt_sha256": "ba3fb2577a0cf4b3c3e5a040b75c3b0e50df02ed001479c00e69a27f726d769d",
+  "local_assembly_instructions": "Locally select the accepted vain-man chest portrait, preserving his complete head, hat and shoulders. For the separate anonymous population cue, use complete native adult silhouettes from audited identity sources with one uniform silhouette treatment; keep them anonymous, without face detail or a literal numerical tally. Do not assemble heads and bodies or mirror asymmetric figures.",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH16_R02_R"
+}

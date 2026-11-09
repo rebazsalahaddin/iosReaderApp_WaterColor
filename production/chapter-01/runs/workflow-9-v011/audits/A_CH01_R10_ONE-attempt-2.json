@@ -1,0 +1,34 @@
+{
+  "node_id": "A_CH01_R10_ONE",
+  "stage": "object_or_editorial",
+  "attempt": 2,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/A_CH01_R10_ONE-attempt-2.png",
+  "source_sha256": "7ff64e70061a459a3e0ebb9d5d8081d73a17b6670a4492ac71f1f3b0ebb87ce1",
+  "parents": [],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T10:47:49.105383+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Nonverbal natural-history watercolor picture showing muted olive-ochre boa constrictor with tapered tail on the left and open jaws on the right swallowing a brown forest quadruped head-first with only hindquarters, short tail, and two rear legs remaining outside, non-gory, dot eye, clean transparent alpha on light and dark diagnostic plates."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/A_CH01_R10_ONE-attempt-2.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Non-grounded or plate/editorial asset per node contract."
+    }
+  },
+  "issues": []
+}

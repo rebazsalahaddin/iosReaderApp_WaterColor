@@ -1,0 +1,18 @@
+{
+  "workflow_version": 8,
+  "chapters": 27,
+  "pages": 442,
+  "legacy_requests": 174,
+  "logical_states": 229,
+  "nodes_by_stage": {
+    "background_plate": 27,
+    "expression_variant": 162,
+    "identity_turnaround": 23,
+    "local_assembly": 2,
+    "neutral_posture": 90,
+    "object_or_editorial": 39
+  },
+  "jobs_submitted": 0,
+  "credits_spent": 0,
+  "artwork_modified": false
+}

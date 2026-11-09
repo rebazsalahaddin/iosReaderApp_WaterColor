@@ -1,0 +1,142 @@
+{
+  "id": "N_drinker_six_bottles__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_drinker"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_drinker"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "size-and-location-references/shared/LP_ch12_bottle_layout_guide.png",
+        "candidate_sha256": "d0369feae8c438017b535a3245be8e131b9e052132309f2a4690471f5a0e8691",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Weary man seated on same backless stool behind same table, body RIGHT, neutral resting face. Exactly six bottles at guide positions; bottle A in central slot, right hand resting near A. Lock bottle shapes/count/spacing.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "drinker_six_bottles",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c12-s01-p02",
+    "c12-s01-p03",
+    "c12-s01-p04",
+    "c12-s01-p05",
+    "c12-s01-p06",
+    "c12-s01-p07",
+    "c12-s01-p08",
+    "c13-s02-p05"
+  ],
+  "legacy_tokens": [
+    "CH12_S01_L:ONE",
+    "CH12_S01_R:ONE",
+    "CH12_S02:ONE",
+    "CH12_C01:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S01_L_drinker_listening_and_drinking_first_state/reference-images/02_LP_ch12_seated_scale_guide.png",
+      "sha256": "09c59f5d7650c44e635cce196670a32b5734a5294fff6c68c587068d6e28f87b",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S01_L_drinker_listening_and_drinking_first_state/reference-images/03_LP_ch12_bottle_layout_guide.png",
+      "sha256": "d0369feae8c438017b535a3245be8e131b9e052132309f2a4690471f5a0e8691",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S01_L_drinker_listening_and_drinking_first_state/reference-images/06_CH12_S01_L_PACKING_GUIDE.png",
+      "sha256": "1f2bee52629c710a51ca974a3ef8e8bae955a82f4f2bba4caea6588ce3872377",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S01_L_drinker_listening_and_drinking_first_state/reference-images/07_c12-s01-p02_COMPOSITION_GUIDE.png",
+      "sha256": "1896d7162b17f21c33c2d13075d04b24559713ff19a562e38b5a8106d3210252",
+      "role": "TECHNICAL final-page placement for c12-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S01_R_drinker_listening_and_drinking_second_state/reference-images/02_LP_ch12_seated_scale_guide.png",
+      "sha256": "09c59f5d7650c44e635cce196670a32b5734a5294fff6c68c587068d6e28f87b",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S01_R_drinker_listening_and_drinking_second_state/reference-images/03_LP_ch12_bottle_layout_guide.png",
+      "sha256": "d0369feae8c438017b535a3245be8e131b9e052132309f2a4690471f5a0e8691",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S01_R_drinker_listening_and_drinking_second_state/reference-images/07_CH12_S01_R_PACKING_GUIDE.png",
+      "sha256": "5cf3ab71a224b5006d3f68014d097f129b610c34ccea906ccd11e8cf686074f7",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S01_R_drinker_listening_and_drinking_second_state/reference-images/08_c12-s01-p03_COMPOSITION_GUIDE.png",
+      "sha256": "c4366ae08dc42530536f73b33db492f701fd264a77f7ee3a95fa25e2a0f57bff",
+      "role": "TECHNICAL final-page placement for c12-s01-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/02_LP_ch12_seated_scale_guide.png",
+      "sha256": "09c59f5d7650c44e635cce196670a32b5734a5294fff6c68c587068d6e28f87b",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/03_LP_ch12_bottle_layout_guide.png",
+      "sha256": "d0369feae8c438017b535a3245be8e131b9e052132309f2a4690471f5a0e8691",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/07_CH12_S02_PACKING_GUIDE.png",
+      "sha256": "d7619ae315715267ff8603387665280b485dbbdaf62dd076bfde1d196b72a277",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/08_c12-s01-p05_COMPOSITION_GUIDE.png",
+      "sha256": "d6db568b1885a7a275b3947f97c998ad0484e124f3012e0d69f5e7b6d512d544",
+      "role": "TECHNICAL final-page placement for c12-s01-p05. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/pose-corrections/C01_drinker_after_sip_bottle_returned/reference-images/02_LP_ch12_bottle_layout_guide.png",
+      "sha256": "d0369feae8c438017b535a3245be8e131b9e052132309f2a4690471f5a0e8691",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/pose-corrections/C01_drinker_after_sip_bottle_returned/reference-images/03_LP_ch12_seated_scale_guide.png",
+      "sha256": "09c59f5d7650c44e635cce196670a32b5734a5294fff6c68c587068d6e28f87b",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/pose-corrections/C01_drinker_after_sip_bottle_returned/reference-images/08_CH12_C01_PACKING_GUIDE.png",
+      "sha256": "439d2061043d5c71e0d1bc9797e8f826ba215f83f0f21edca84f9906722a045a",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-12/pose-corrections/C01_drinker_after_sip_bottle_returned/reference-images/09_c12-s01-p04_COMPOSITION_GUIDE.png",
+      "sha256": "564451dde1e6c533f4e3ff2a7736d0cd348b2a33ec2c51bc210fb327f986e835",
+      "role": "TECHNICAL final-page placement for c12-s01-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_drinker_six_bottles__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Weary man seated on same backless stool behind same table, body RIGHT, neutral resting face. Exactly six bottles at guide positions; bottle A in central slot, right hand resting near A. Lock bottle shapes/count/spacing. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "a4dd4b37800e3a209e0f787f71a167ae63b84c5ef892f1c4af1858801c1b88a7",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_drinker_six_bottles__soft_day_upper_left"
+}

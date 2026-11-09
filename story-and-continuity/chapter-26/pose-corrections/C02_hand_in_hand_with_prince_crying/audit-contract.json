@@ -1,0 +1,128 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH26_C02",
+  "prompt_file": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/PROMPT.txt",
+  "prompt_sha256": "86641c7c32474a4e8060455ca3458a7ea5c4fa6cb7b0ee0b1ca5651e67585a87",
+  "expected_cells": [
+    "ONE: same pilot and prince walking RIGHT hand in hand, naturally joined fingers and unchanged arm lengths; child now quietly crying, pilot worried, both fully supported at same depth."
+  ],
+  "required_state_direction_contact": "A complete emotional variant of the joined group, not a swapped child head. One adult and one child.",
+  "isolation_key": null,
+  "light": "Soft cool moonlight from upper-left.",
+  "dependencies": [
+    "CH26_S06"
+  ],
+  "references": [
+    {
+      "name": "01_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/01_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "02_LP_ref_char_prince_turnaround.png",
+      "role": "Prince identity: golden hair, rounded child face, sage coat, CORAL scarf, brass buttons and brown boots; never enlarge him to adult proportions.",
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/02_LP_ref_char_prince_turnaround.png",
+      "status": "supplied",
+      "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+      "source_key": "prince"
+    },
+    {
+      "name": "03_LP_scale_prince_pilot_standing.png",
+      "role": "Same-depth prince/pilot standing height .61 (band .58\u2013.64); head HEIGHT .86 (band .81\u2013.91). Do not use for unrelated adults or seated-height comparisons.",
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/03_LP_scale_prince_pilot_standing.png",
+      "status": "supplied",
+      "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+      "source_key": "standing"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_accepted_CH26_S06_walking_hand_in_hand_at_night.png",
+      "role": "ACCEPTED CH26_S06: walking hand in hand at night. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/06_accepted_CH26_S06_walking_hand_in_hand_at_night.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH26_S06",
+      "expected_raw": "production/chapter-26/props/raw/CH26_S06_walking_hand_in_hand_at_night.png"
+    },
+    {
+      "name": "07_CH26_C02_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/07_CH26_C02_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "c50ee48290bc443fb2de85c696d0da45b6f92c71fe9debc8ac6dd9d5c35ab281"
+    },
+    {
+      "name": "08_c26-s04-p08_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c26-s04-p08. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/08_c26-s04-p08_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "429e5e8fb84e1811be0f22c151d0b0880ed998f18a7f24b7a3b0eecaf4782b45"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "V_CH26_C02_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c26-s04-p08"
+  ],
+  "placement_targets": [
+    {
+      "page": "c26-s04-p08",
+      "cell": "CH26_C02:ONE",
+      "box_px": [
+        520,
+        410,
+        1360,
+        1120
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

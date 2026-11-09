@@ -1,0 +1,63 @@
+{
+  "id": "N_snake_ring__moonlight_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_snake"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_snake"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "One thin gold-yellow snake resting in loose low ring, head low, closed small mouth, simple dot eyes, fixed length/thickness; neutral non-menacing expression.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "snake_ring",
+  "light": "Cool soft moonlight, preserving gold-yellow local colour.",
+  "affected_pages": [
+    "c17-s02-p01",
+    "c17-s02-p02",
+    "c17-s02-p03",
+    "c17-s02-p04",
+    "c17-s02-p05",
+    "c17-s02-p06",
+    "c17-s03-p01",
+    "c17-s03-p02"
+  ],
+  "legacy_tokens": [
+    "CH17_S03:L"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-17/reusable-poses/S03_snake_moonlit_ring_and_curve/reference-images/04_CH17_S03_PACKING_GUIDE.png",
+      "sha256": "e5fcf47f9180dfb830782c00ec827430a1144f8e3666087e1e7e400315e26c4a",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-17/reusable-poses/S03_snake_moonlit_ring_and_curve/reference-images/05_c17-s02-p01_COMPOSITION_GUIDE.png",
+      "sha256": "5d56f1909e3642b6eb796e32490ce73ac2cbd0caa10bea501f6550223d70426d",
+      "role": "TECHNICAL final-page placement for c17-s02-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_snake_ring__moonlight_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. One thin gold-yellow snake resting in loose low ring, head low, closed small mouth, simple dot eyes, fixed length/thickness; neutral non-menacing expression. Preserve animal identity, dot eyes, body dimensions, proportions, colours and watercolor design. No human features, costume or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Cool soft moonlight, preserving gold-yellow local colour. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "7d00f807fcd3e0537529b6d723333c44341b323a7cdca91ad285bee15868916e",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_snake_ring__moonlight_upper_left"
+}

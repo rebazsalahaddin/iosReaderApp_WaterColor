@@ -1,0 +1,3385 @@
+{
+  "source_audio_sha256": "2eaee08179592e70b87fd32a80368fcd5540aef70c14f91c795f8a01d33531bc",
+  "source_content_sha256": "811a633680bafdd9f0caef8741b9a5763feeaced320e7922caf2333d7cb35065",
+  "source_audio_filename": "narration.m4a",
+  "source_duration_seconds": 5557.34,
+  "alignment_method": "gemini-3.8-flash-tts+interactions-style+segment-assembly+whisper-cpp-small.en-word-timestamps+canonical-grouping-matcher+silence-aware-window-refinement",
+  "alignment_quality_note": "Engineering alignment for the complete revised book (27 chapters), machine-derived and not human-audited. Narration: gemini-3.8-flash-tts via the Interactions API with speech_metadata.style \u2014 pilot/narrator=Enceladus, adults=Alnilam, the little prince=his designed stored voice (D-090), mountain_echo=the prince's voice, and the revision's thirteen auditioned speakers (D-123 cast) \u2014 one natural take per segment, per-page delivery notes from the revision media plan, NO time-stretch and NO chunk splicing, no slow version. Assembled by tools/assemble_audio.py. Word timings: whisper.cpp ggml-small.en per screen WAV master with the canonical-grouping matcher (digit readings collapse onto their canonical tokens), composed sample-exactly onto the concatenated book MP3. The book-title screen is narrated first. Unresolved lexical tokens: 0.",
+  "paragraphs": [
+    {
+      "paragraph_id": "para.c01.000",
+      "text": "My First Drawing",
+      "words": [
+        {
+          "token_id": "tok.0003",
+          "text": "My",
+          "source_start_seconds": 2.4,
+          "source_end_seconds": 2.44,
+          "chapter_start_seconds": 0.2,
+          "chapter_end_seconds": 0.24
+        },
+        {
+          "token_id": "tok.0004",
+          "text": "First",
+          "source_start_seconds": 2.44,
+          "source_end_seconds": 3.15,
+          "chapter_start_seconds": 0.24,
+          "chapter_end_seconds": 0.95
+        },
+        {
+          "token_id": "tok.0005",
+          "text": "Drawing",
+          "source_start_seconds": 3.15,
+          "source_end_seconds": 4.16,
+          "chapter_start_seconds": 0.95,
+          "chapter_end_seconds": 1.96
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.001",
+      "text": "When I was six, I found a picture I couldn't stop looking at. It was in a book about the forest: a huge snake swallowing an animal.",
+      "words": [
+        {
+          "token_id": "tok.0006",
+          "text": "When",
+          "source_start_seconds": 5.16,
+          "source_end_seconds": 5.64,
+          "chapter_start_seconds": 2.96,
+          "chapter_end_seconds": 3.44
+        },
+        {
+          "token_id": "tok.0007",
+          "text": "I",
+          "source_start_seconds": 5.64,
+          "source_end_seconds": 5.81,
+          "chapter_start_seconds": 3.44,
+          "chapter_end_seconds": 3.61
+        },
+        {
+          "token_id": "tok.0008",
+          "text": "was",
+          "source_start_seconds": 5.81,
+          "source_end_seconds": 6.36,
+          "chapter_start_seconds": 3.61,
+          "chapter_end_seconds": 4.16
+        },
+        {
+          "token_id": "tok.0009",
+          "text": "six,",
+          "source_start_seconds": 6.36,
+          "source_end_seconds": 7.06,
+          "chapter_start_seconds": 4.16,
+          "chapter_end_seconds": 4.86
+        },
+        {
+          "token_id": "tok.0010",
+          "text": "I",
+          "source_start_seconds": 7.16,
+          "source_end_seconds": 7.28,
+          "chapter_start_seconds": 4.96,
+          "chapter_end_seconds": 5.08
+        },
+        {
+          "token_id": "tok.0011",
+          "text": "found",
+          "source_start_seconds": 7.28,
+          "source_end_seconds": 7.9,
+          "chapter_start_seconds": 5.08,
+          "chapter_end_seconds": 5.7
+        },
+        {
+          "token_id": "tok.0012",
+          "text": "a",
+          "source_start_seconds": 7.9,
+          "source_end_seconds": 8.21,
+          "chapter_start_seconds": 5.7,
+          "chapter_end_seconds": 6.01
+        },
+        {
+          "token_id": "tok.0013",
+          "text": "picture",
+          "source_start_seconds": 8.21,
+          "source_end_seconds": 9.01,
+          "chapter_start_seconds": 6.01,
+          "chapter_end_seconds": 6.81
+        },
+        {
+          "token_id": "tok.0014",
+          "text": "I",
+          "source_start_seconds": 9.01,
+          "source_end_seconds": 9.07,
+          "chapter_start_seconds": 6.81,
+          "chapter_end_seconds": 6.87
+        },
+        {
+          "token_id": "tok.0015",
+          "text": "couldn't",
+          "source_start_seconds": 9.07,
+          "source_end_seconds": 9.74,
+          "chapter_start_seconds": 6.87,
+          "chapter_end_seconds": 7.54
+        },
+        {
+          "token_id": "tok.0016",
+          "text": "stop",
+          "source_start_seconds": 9.74,
+          "source_end_seconds": 10.11,
+          "chapter_start_seconds": 7.54,
+          "chapter_end_seconds": 7.91
+        },
+        {
+          "token_id": "tok.0017",
+          "text": "looking",
+          "source_start_seconds": 10.11,
+          "source_end_seconds": 10.75,
+          "chapter_start_seconds": 7.91,
+          "chapter_end_seconds": 8.55
+        },
+        {
+          "token_id": "tok.0018",
+          "text": "at.",
+          "source_start_seconds": 10.75,
+          "source_end_seconds": 10.93,
+          "chapter_start_seconds": 8.55,
+          "chapter_end_seconds": 8.73
+        },
+        {
+          "token_id": "tok.0019",
+          "text": "It",
+          "source_start_seconds": 12.14,
+          "source_end_seconds": 12.36,
+          "chapter_start_seconds": 9.94,
+          "chapter_end_seconds": 10.16
+        },
+        {
+          "token_id": "tok.0020",
+          "text": "was",
+          "source_start_seconds": 12.36,
+          "source_end_seconds": 12.360001,
+          "chapter_start_seconds": 10.16,
+          "chapter_end_seconds": 10.16
+        },
+        {
+          "token_id": "tok.0021",
+          "text": "in",
+          "source_start_seconds": 12.360001,
+          "source_end_seconds": 12.360002,
+          "chapter_start_seconds": 10.16,
+          "chapter_end_seconds": 10.16
+        },
+        {
+          "token_id": "tok.0022",
+          "text": "a",
+          "source_start_seconds": 12.360002,
+          "source_end_seconds": 12.6,
+          "chapter_start_seconds": 10.16,
+          "chapter_end_seconds": 10.4
+        },
+        {
+          "token_id": "tok.0023",
+          "text": "book",
+          "source_start_seconds": 12.6,
+          "source_end_seconds": 12.82,
+          "chapter_start_seconds": 10.4,
+          "chapter_end_seconds": 10.62
+        },
+        {
+          "token_id": "tok.0024",
+          "text": "about",
+          "source_start_seconds": 12.82,
+          "source_end_seconds": 13.37,
+          "chapter_start_seconds": 10.62,
+          "chapter_end_seconds": 11.17
+        },
+        {
+          "token_id": "tok.0025",
+          "text": "the",
+          "source_start_seconds": 13.37,
+          "source_end_seconds": 13.75,
+          "chapter_start_seconds": 11.17,
+          "chapter_end_seconds": 11.55
+        },
+        {
+          "token_id": "tok.0026",
+          "text": "forest:",
+          "source_start_seconds": 13.75,
+          "source_end_seconds": 14.51,
+          "chapter_start_seconds": 11.55,
+          "chapter_end_seconds": 12.31
+        },
+        {
+          "token_id": "tok.0027",
+          "text": "a",
+          "source_start_seconds": 14.97,
+          "source_end_seconds": 15.11,
+          "chapter_start_seconds": 12.77,
+          "chapter_end_seconds": 12.91
+        },
+        {
+          "token_id": "tok.0028",
+          "text": "huge",
+          "source_start_seconds": 15.11,
+          "source_end_seconds": 15.93,
+          "chapter_start_seconds": 12.91,
+          "chapter_end_seconds": 13.73
+        },
+        {
+          "token_id": "tok.0029",
+          "text": "snake",
+          "source_start_seconds": 15.93,
+          "source_end_seconds": 16.83,
+          "chapter_start_seconds": 13.73,
+          "chapter_end_seconds": 14.63
+        },
+        {
+          "token_id": "tok.0030",
+          "text": "swallowing",
+          "source_start_seconds": 16.83,
+          "source_end_seconds": 18.67,
+          "chapter_start_seconds": 14.63,
+          "chapter_end_seconds": 16.47
+        },
+        {
+          "token_id": "tok.0031",
+          "text": "an",
+          "source_start_seconds": 18.67,
+          "source_end_seconds": 19.58,
+          "chapter_start_seconds": 16.47,
+          "chapter_end_seconds": 17.38
+        },
+        {
+          "token_id": "tok.0032",
+          "text": "animal.",
+          "source_start_seconds": 19.58,
+          "source_end_seconds": 20.2,
+          "chapter_start_seconds": 17.38,
+          "chapter_end_seconds": 18.0
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.002",
+      "text": "The book said these snakes swallowed their food whole. After a meal, they couldn't move. They slept for six months!",
+      "words": [
+        {
+          "token_id": "tok.0033",
+          "text": "The",
+          "source_start_seconds": 21.13,
+          "source_end_seconds": 21.29,
+          "chapter_start_seconds": 18.93,
+          "chapter_end_seconds": 19.09
+        },
+        {
+          "token_id": "tok.0034",
+          "text": "book",
+          "source_start_seconds": 21.29,
+          "source_end_seconds": 21.81,
+          "chapter_start_seconds": 19.09,
+          "chapter_end_seconds": 19.61
+        },
+        {
+          "token_id": "tok.0035",
+          "text": "said",
+          "source_start_seconds": 21.81,
+          "source_end_seconds": 22.53,
+          "chapter_start_seconds": 19.61,
+          "chapter_end_seconds": 20.33
+        },
+        {
+          "token_id": "tok.0036",
+          "text": "these",
+          "source_start_seconds": 22.53,
+          "source_end_seconds": 23.06,
+          "chapter_start_seconds": 20.33,
+          "chapter_end_seconds": 20.86
+        },
+        {
+          "token_id": "tok.0037",
+          "text": "snakes",
+          "source_start_seconds": 23.06,
+          "source_end_seconds": 23.96,
+          "chapter_start_seconds": 20.86,
+          "chapter_end_seconds": 21.76
+        },
+        {
+          "token_id": "tok.0038",
+          "text": "swallowed",
+          "source_start_seconds": 23.96,
+          "source_end_seconds": 24.69,
+          "chapter_start_seconds": 21.76,
+          "chapter_end_seconds": 22.49
+        },
+        {
+          "token_id": "tok.0039",
+          "text": "their",
+          "source_start_seconds": 24.69,
+          "source_end_seconds": 25.41,
+          "chapter_start_seconds": 22.49,
+          "chapter_end_seconds": 23.21
+        },
+        {
+          "token_id": "tok.0040",
+          "text": "food",
+          "source_start_seconds": 25.41,
+          "source_end_seconds": 25.98,
+          "chapter_start_seconds": 23.21,
+          "chapter_end_seconds": 23.78
+        },
+        {
+          "token_id": "tok.0041",
+          "text": "whole.",
+          "source_start_seconds": 25.98,
+          "source_end_seconds": 26.72,
+          "chapter_start_seconds": 23.78,
+          "chapter_end_seconds": 24.52
+        },
+        {
+          "token_id": "tok.0042",
+          "text": "After",
+          "source_start_seconds": 26.97,
+          "source_end_seconds": 27.72,
+          "chapter_start_seconds": 24.77,
+          "chapter_end_seconds": 25.52
+        },
+        {
+          "token_id": "tok.0043",
+          "text": "a",
+          "source_start_seconds": 27.72,
+          "source_end_seconds": 27.86,
+          "chapter_start_seconds": 25.52,
+          "chapter_end_seconds": 25.66
+        },
+        {
+          "token_id": "tok.0044",
+          "text": "meal,",
+          "source_start_seconds": 27.86,
+          "source_end_seconds": 28.61,
+          "chapter_start_seconds": 25.66,
+          "chapter_end_seconds": 26.41
+        },
+        {
+          "token_id": "tok.0045",
+          "text": "they",
+          "source_start_seconds": 28.77,
+          "source_end_seconds": 29.08,
+          "chapter_start_seconds": 26.57,
+          "chapter_end_seconds": 26.88
+        },
+        {
+          "token_id": "tok.0046",
+          "text": "couldn't",
+          "source_start_seconds": 29.08,
+          "source_end_seconds": 29.82,
+          "chapter_start_seconds": 26.88,
+          "chapter_end_seconds": 27.62
+        },
+        {
+          "token_id": "tok.0047",
+          "text": "move.",
+          "source_start_seconds": 29.82,
+          "source_end_seconds": 30.17,
+          "chapter_start_seconds": 27.62,
+          "chapter_end_seconds": 27.97
+        },
+        {
+          "token_id": "tok.0048",
+          "text": "They",
+          "source_start_seconds": 30.45,
+          "source_end_seconds": 30.96,
+          "chapter_start_seconds": 28.25,
+          "chapter_end_seconds": 28.76
+        },
+        {
+          "token_id": "tok.0049",
+          "text": "slept",
+          "source_start_seconds": 30.96,
+          "source_end_seconds": 31.58,
+          "chapter_start_seconds": 28.76,
+          "chapter_end_seconds": 29.38
+        },
+        {
+          "token_id": "tok.0050",
+          "text": "for",
+          "source_start_seconds": 31.58,
+          "source_end_seconds": 32.09,
+          "chapter_start_seconds": 29.38,
+          "chapter_end_seconds": 29.89
+        },
+        {
+          "token_id": "tok.0051",
+          "text": "six",
+          "source_start_seconds": 32.09,
+          "source_end_seconds": 32.36,
+          "chapter_start_seconds": 29.89,
+          "chapter_end_seconds": 30.16
+        },
+        {
+          "token_id": "tok.0052",
+          "text": "months!",
+          "source_start_seconds": 32.36,
+          "source_end_seconds": 33.15,
+          "chapter_start_seconds": 30.16,
+          "chapter_end_seconds": 30.95
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.003",
+      "text": "Six months! I kept thinking about that snake and all the adventures in the forest. At last, I took my pencil and began to draw.",
+      "words": [
+        {
+          "token_id": "tok.0053",
+          "text": "Six",
+          "source_start_seconds": 34.27,
+          "source_end_seconds": 34.39,
+          "chapter_start_seconds": 32.07,
+          "chapter_end_seconds": 32.19
+        },
+        {
+          "token_id": "tok.0054",
+          "text": "months!",
+          "source_start_seconds": 34.39,
+          "source_end_seconds": 35.14,
+          "chapter_start_seconds": 32.19,
+          "chapter_end_seconds": 32.94
+        },
+        {
+          "token_id": "tok.0055",
+          "text": "I",
+          "source_start_seconds": 35.14,
+          "source_end_seconds": 35.26,
+          "chapter_start_seconds": 32.94,
+          "chapter_end_seconds": 33.06
+        },
+        {
+          "token_id": "tok.0056",
+          "text": "kept",
+          "source_start_seconds": 35.26,
+          "source_end_seconds": 36.27,
+          "chapter_start_seconds": 33.06,
+          "chapter_end_seconds": 34.07
+        },
+        {
+          "token_id": "tok.0057",
+          "text": "thinking",
+          "source_start_seconds": 36.27,
+          "source_end_seconds": 36.78,
+          "chapter_start_seconds": 34.07,
+          "chapter_end_seconds": 34.58
+        },
+        {
+          "token_id": "tok.0058",
+          "text": "about",
+          "source_start_seconds": 36.78,
+          "source_end_seconds": 37.4,
+          "chapter_start_seconds": 34.58,
+          "chapter_end_seconds": 35.2
+        },
+        {
+          "token_id": "tok.0059",
+          "text": "that",
+          "source_start_seconds": 37.4,
+          "source_end_seconds": 37.97,
+          "chapter_start_seconds": 35.2,
+          "chapter_end_seconds": 35.77
+        },
+        {
+          "token_id": "tok.0060",
+          "text": "snake",
+          "source_start_seconds": 37.97,
+          "source_end_seconds": 39.05,
+          "chapter_start_seconds": 35.77,
+          "chapter_end_seconds": 36.85
+        },
+        {
+          "token_id": "tok.0061",
+          "text": "and",
+          "source_start_seconds": 39.05,
+          "source_end_seconds": 39.22,
+          "chapter_start_seconds": 36.85,
+          "chapter_end_seconds": 37.02
+        },
+        {
+          "token_id": "tok.0062",
+          "text": "all",
+          "source_start_seconds": 39.22,
+          "source_end_seconds": 39.62,
+          "chapter_start_seconds": 37.02,
+          "chapter_end_seconds": 37.42
+        },
+        {
+          "token_id": "tok.0063",
+          "text": "the",
+          "source_start_seconds": 39.62,
+          "source_end_seconds": 39.82,
+          "chapter_start_seconds": 37.42,
+          "chapter_end_seconds": 37.62
+        },
+        {
+          "token_id": "tok.0064",
+          "text": "adventures",
+          "source_start_seconds": 39.82,
+          "source_end_seconds": 40.82,
+          "chapter_start_seconds": 37.62,
+          "chapter_end_seconds": 38.62
+        },
+        {
+          "token_id": "tok.0065",
+          "text": "in",
+          "source_start_seconds": 40.82,
+          "source_end_seconds": 40.98,
+          "chapter_start_seconds": 38.62,
+          "chapter_end_seconds": 38.78
+        },
+        {
+          "token_id": "tok.0066",
+          "text": "the",
+          "source_start_seconds": 40.98,
+          "source_end_seconds": 41.1,
+          "chapter_start_seconds": 38.78,
+          "chapter_end_seconds": 38.9
+        },
+        {
+          "token_id": "tok.0067",
+          "text": "forest.",
+          "source_start_seconds": 41.1,
+          "source_end_seconds": 43.02,
+          "chapter_start_seconds": 38.9,
+          "chapter_end_seconds": 40.82
+        },
+        {
+          "token_id": "tok.0068",
+          "text": "At",
+          "source_start_seconds": 43.14,
+          "source_end_seconds": 43.41,
+          "chapter_start_seconds": 40.94,
+          "chapter_end_seconds": 41.21
+        },
+        {
+          "token_id": "tok.0069",
+          "text": "last,",
+          "source_start_seconds": 43.41,
+          "source_end_seconds": 43.91,
+          "chapter_start_seconds": 41.21,
+          "chapter_end_seconds": 41.71
+        },
+        {
+          "token_id": "tok.0070",
+          "text": "I",
+          "source_start_seconds": 43.91,
+          "source_end_seconds": 44.04,
+          "chapter_start_seconds": 41.71,
+          "chapter_end_seconds": 41.84
+        },
+        {
+          "token_id": "tok.0071",
+          "text": "took",
+          "source_start_seconds": 44.04,
+          "source_end_seconds": 44.55,
+          "chapter_start_seconds": 41.84,
+          "chapter_end_seconds": 42.35
+        },
+        {
+          "token_id": "tok.0072",
+          "text": "my",
+          "source_start_seconds": 44.55,
+          "source_end_seconds": 45.39,
+          "chapter_start_seconds": 42.35,
+          "chapter_end_seconds": 43.19
+        },
+        {
+          "token_id": "tok.0073",
+          "text": "pencil",
+          "source_start_seconds": 45.39,
+          "source_end_seconds": 45.62,
+          "chapter_start_seconds": 43.19,
+          "chapter_end_seconds": 43.42
+        },
+        {
+          "token_id": "tok.0074",
+          "text": "and",
+          "source_start_seconds": 45.62,
+          "source_end_seconds": 46.04,
+          "chapter_start_seconds": 43.42,
+          "chapter_end_seconds": 43.84
+        },
+        {
+          "token_id": "tok.0075",
+          "text": "began",
+          "source_start_seconds": 46.04,
+          "source_end_seconds": 46.61,
+          "chapter_start_seconds": 43.84,
+          "chapter_end_seconds": 44.41
+        },
+        {
+          "token_id": "tok.0076",
+          "text": "to",
+          "source_start_seconds": 46.61,
+          "source_end_seconds": 46.89,
+          "chapter_start_seconds": 44.41,
+          "chapter_end_seconds": 44.69
+        },
+        {
+          "token_id": "tok.0077",
+          "text": "draw.",
+          "source_start_seconds": 46.89,
+          "source_end_seconds": 47.38,
+          "chapter_start_seconds": 44.69,
+          "chapter_end_seconds": 45.18
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.004",
+      "text": "I called it Drawing Number One. To me, it was wonderful. Now I wanted to see what the grown-ups thought.",
+      "words": [
+        {
+          "token_id": "tok.0078",
+          "text": "I",
+          "source_start_seconds": 48.44,
+          "source_end_seconds": 48.66,
+          "chapter_start_seconds": 46.24,
+          "chapter_end_seconds": 46.46
+        },
+        {
+          "token_id": "tok.0079",
+          "text": "called",
+          "source_start_seconds": 48.66,
+          "source_end_seconds": 49.23,
+          "chapter_start_seconds": 46.46,
+          "chapter_end_seconds": 47.03
+        },
+        {
+          "token_id": "tok.0080",
+          "text": "it",
+          "source_start_seconds": 49.23,
+          "source_end_seconds": 49.5,
+          "chapter_start_seconds": 47.03,
+          "chapter_end_seconds": 47.3
+        },
+        {
+          "token_id": "tok.0081",
+          "text": "Drawing",
+          "source_start_seconds": 49.8,
+          "source_end_seconds": 50.53,
+          "chapter_start_seconds": 47.6,
+          "chapter_end_seconds": 48.33
+        },
+        {
+          "token_id": "tok.0082",
+          "text": "Number",
+          "source_start_seconds": 50.53,
+          "source_end_seconds": 51.33,
+          "chapter_start_seconds": 48.33,
+          "chapter_end_seconds": 49.13
+        },
+        {
+          "token_id": "tok.0083",
+          "text": "One.",
+          "source_start_seconds": 51.33,
+          "source_end_seconds": 51.73,
+          "chapter_start_seconds": 49.13,
+          "chapter_end_seconds": 49.53
+        },
+        {
+          "token_id": "tok.0084",
+          "text": "To",
+          "source_start_seconds": 52.31,
+          "source_end_seconds": 52.66,
+          "chapter_start_seconds": 50.11,
+          "chapter_end_seconds": 50.46
+        },
+        {
+          "token_id": "tok.0085",
+          "text": "me,",
+          "source_start_seconds": 52.66,
+          "source_end_seconds": 52.83,
+          "chapter_start_seconds": 50.46,
+          "chapter_end_seconds": 50.63
+        },
+        {
+          "token_id": "tok.0086",
+          "text": "it",
+          "source_start_seconds": 53.09,
+          "source_end_seconds": 53.35,
+          "chapter_start_seconds": 50.89,
+          "chapter_end_seconds": 51.15
+        },
+        {
+          "token_id": "tok.0087",
+          "text": "was",
+          "source_start_seconds": 53.35,
+          "source_end_seconds": 53.8,
+          "chapter_start_seconds": 51.15,
+          "chapter_end_seconds": 51.6
+        },
+        {
+          "token_id": "tok.0088",
+          "text": "wonderful.",
+          "source_start_seconds": 53.8,
+          "source_end_seconds": 54.91,
+          "chapter_start_seconds": 51.6,
+          "chapter_end_seconds": 52.71
+        },
+        {
+          "token_id": "tok.0089",
+          "text": "Now",
+          "source_start_seconds": 55.31,
+          "source_end_seconds": 55.7,
+          "chapter_start_seconds": 53.11,
+          "chapter_end_seconds": 53.5
+        },
+        {
+          "token_id": "tok.0090",
+          "text": "I",
+          "source_start_seconds": 55.7,
+          "source_end_seconds": 55.83,
+          "chapter_start_seconds": 53.5,
+          "chapter_end_seconds": 53.63
+        },
+        {
+          "token_id": "tok.0091",
+          "text": "wanted",
+          "source_start_seconds": 55.83,
+          "source_end_seconds": 56.79,
+          "chapter_start_seconds": 53.63,
+          "chapter_end_seconds": 54.59
+        },
+        {
+          "token_id": "tok.0092",
+          "text": "to",
+          "source_start_seconds": 56.79,
+          "source_end_seconds": 56.91,
+          "chapter_start_seconds": 54.59,
+          "chapter_end_seconds": 54.71
+        },
+        {
+          "token_id": "tok.0093",
+          "text": "see",
+          "source_start_seconds": 56.91,
+          "source_end_seconds": 57.31,
+          "chapter_start_seconds": 54.71,
+          "chapter_end_seconds": 55.11
+        },
+        {
+          "token_id": "tok.0094",
+          "text": "what",
+          "source_start_seconds": 57.31,
+          "source_end_seconds": 57.77,
+          "chapter_start_seconds": 55.11,
+          "chapter_end_seconds": 55.57
+        },
+        {
+          "token_id": "tok.0095",
+          "text": "the",
+          "source_start_seconds": 57.77,
+          "source_end_seconds": 58.11,
+          "chapter_start_seconds": 55.57,
+          "chapter_end_seconds": 55.91
+        },
+        {
+          "token_id": "tok.0096",
+          "text": "grown-ups",
+          "source_start_seconds": 58.11,
+          "source_end_seconds": 59.122,
+          "chapter_start_seconds": 55.91,
+          "chapter_end_seconds": 56.922
+        },
+        {
+          "token_id": "tok.0097",
+          "text": "thought.",
+          "source_start_seconds": 59.204,
+          "source_end_seconds": 59.67,
+          "chapter_start_seconds": 57.004,
+          "chapter_end_seconds": 57.47
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.005",
+      "text": "\"Are you frightened?\" I asked. \"Frightened? It's only a hat,\" they said.",
+      "words": [
+        {
+          "token_id": "tok.0098",
+          "text": "\"Are",
+          "source_start_seconds": 60.68,
+          "source_end_seconds": 60.8,
+          "chapter_start_seconds": 58.48,
+          "chapter_end_seconds": 58.6
+        },
+        {
+          "token_id": "tok.0099",
+          "text": "you",
+          "source_start_seconds": 60.8,
+          "source_end_seconds": 61.08,
+          "chapter_start_seconds": 58.6,
+          "chapter_end_seconds": 58.88
+        },
+        {
+          "token_id": "tok.0100",
+          "text": "frightened?\"",
+          "source_start_seconds": 61.08,
+          "source_end_seconds": 62.03,
+          "chapter_start_seconds": 58.88,
+          "chapter_end_seconds": 59.83
+        },
+        {
+          "token_id": "tok.0101",
+          "text": "I",
+          "source_start_seconds": 62.45,
+          "source_end_seconds": 62.59,
+          "chapter_start_seconds": 60.25,
+          "chapter_end_seconds": 60.39
+        },
+        {
+          "token_id": "tok.0102",
+          "text": "asked.",
+          "source_start_seconds": 62.59,
+          "source_end_seconds": 63.37,
+          "chapter_start_seconds": 60.39,
+          "chapter_end_seconds": 61.17
+        },
+        {
+          "token_id": "tok.0103",
+          "text": "\"Frightened?",
+          "source_start_seconds": 64.1,
+          "source_end_seconds": 65.22,
+          "chapter_start_seconds": 61.9,
+          "chapter_end_seconds": 63.02
+        },
+        {
+          "token_id": "tok.0104",
+          "text": "It's",
+          "source_start_seconds": 65.77,
+          "source_end_seconds": 65.98,
+          "chapter_start_seconds": 63.57,
+          "chapter_end_seconds": 63.78
+        },
+        {
+          "token_id": "tok.0105",
+          "text": "only",
+          "source_start_seconds": 65.98,
+          "source_end_seconds": 66.42,
+          "chapter_start_seconds": 63.78,
+          "chapter_end_seconds": 64.22
+        },
+        {
+          "token_id": "tok.0106",
+          "text": "a",
+          "source_start_seconds": 66.42,
+          "source_end_seconds": 66.53,
+          "chapter_start_seconds": 64.22,
+          "chapter_end_seconds": 64.33
+        },
+        {
+          "token_id": "tok.0107",
+          "text": "hat,\"",
+          "source_start_seconds": 66.53,
+          "source_end_seconds": 66.86,
+          "chapter_start_seconds": 64.33,
+          "chapter_end_seconds": 64.66
+        },
+        {
+          "token_id": "tok.0108",
+          "text": "they",
+          "source_start_seconds": 67.31,
+          "source_end_seconds": 67.84,
+          "chapter_start_seconds": 65.11,
+          "chapter_end_seconds": 65.64
+        },
+        {
+          "token_id": "tok.0109",
+          "text": "said.",
+          "source_start_seconds": 67.84,
+          "source_end_seconds": 68.37,
+          "chapter_start_seconds": 65.64,
+          "chapter_end_seconds": 66.17
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.006",
+      "text": "A hat? It wasn't a hat at all. My snake had an elephant inside! But the grown-ups could only see the outside.",
+      "words": [
+        {
+          "token_id": "tok.0110",
+          "text": "A",
+          "source_start_seconds": 69.32,
+          "source_end_seconds": 69.36,
+          "chapter_start_seconds": 67.12,
+          "chapter_end_seconds": 67.16
+        },
+        {
+          "token_id": "tok.0111",
+          "text": "hat?",
+          "source_start_seconds": 69.36,
+          "source_end_seconds": 70.93,
+          "chapter_start_seconds": 67.16,
+          "chapter_end_seconds": 68.73
+        },
+        {
+          "token_id": "tok.0112",
+          "text": "It",
+          "source_start_seconds": 71.08,
+          "source_end_seconds": 71.43,
+          "chapter_start_seconds": 68.88,
+          "chapter_end_seconds": 69.23
+        },
+        {
+          "token_id": "tok.0113",
+          "text": "wasn't",
+          "source_start_seconds": 71.43,
+          "source_end_seconds": 72.63,
+          "chapter_start_seconds": 69.23,
+          "chapter_end_seconds": 70.43
+        },
+        {
+          "token_id": "tok.0114",
+          "text": "a",
+          "source_start_seconds": 72.63,
+          "source_end_seconds": 72.65,
+          "chapter_start_seconds": 70.43,
+          "chapter_end_seconds": 70.45
+        },
+        {
+          "token_id": "tok.0115",
+          "text": "hat",
+          "source_start_seconds": 72.65,
+          "source_end_seconds": 73.17,
+          "chapter_start_seconds": 70.45,
+          "chapter_end_seconds": 70.97
+        },
+        {
+          "token_id": "tok.0116",
+          "text": "at",
+          "source_start_seconds": 73.17,
+          "source_end_seconds": 73.88,
+          "chapter_start_seconds": 70.97,
+          "chapter_end_seconds": 71.68
+        },
+        {
+          "token_id": "tok.0117",
+          "text": "all.",
+          "source_start_seconds": 73.88,
+          "source_end_seconds": 74.17,
+          "chapter_start_seconds": 71.68,
+          "chapter_end_seconds": 71.97
+        },
+        {
+          "token_id": "tok.0118",
+          "text": "My",
+          "source_start_seconds": 74.38,
+          "source_end_seconds": 74.58,
+          "chapter_start_seconds": 72.18,
+          "chapter_end_seconds": 72.38
+        },
+        {
+          "token_id": "tok.0119",
+          "text": "snake",
+          "source_start_seconds": 74.58,
+          "source_end_seconds": 75.27,
+          "chapter_start_seconds": 72.38,
+          "chapter_end_seconds": 73.07
+        },
+        {
+          "token_id": "tok.0120",
+          "text": "had",
+          "source_start_seconds": 75.27,
+          "source_end_seconds": 75.4,
+          "chapter_start_seconds": 73.07,
+          "chapter_end_seconds": 73.2
+        },
+        {
+          "token_id": "tok.0121",
+          "text": "an",
+          "source_start_seconds": 75.4,
+          "source_end_seconds": 75.67,
+          "chapter_start_seconds": 73.2,
+          "chapter_end_seconds": 73.47
+        },
+        {
+          "token_id": "tok.0122",
+          "text": "elephant",
+          "source_start_seconds": 75.67,
+          "source_end_seconds": 76.42,
+          "chapter_start_seconds": 73.47,
+          "chapter_end_seconds": 74.22
+        },
+        {
+          "token_id": "tok.0123",
+          "text": "inside!",
+          "source_start_seconds": 76.42,
+          "source_end_seconds": 77.07,
+          "chapter_start_seconds": 74.22,
+          "chapter_end_seconds": 74.87
+        },
+        {
+          "token_id": "tok.0124",
+          "text": "But",
+          "source_start_seconds": 77.37,
+          "source_end_seconds": 78.14,
+          "chapter_start_seconds": 75.17,
+          "chapter_end_seconds": 75.94
+        },
+        {
+          "token_id": "tok.0125",
+          "text": "the",
+          "source_start_seconds": 78.14,
+          "source_end_seconds": 78.18,
+          "chapter_start_seconds": 75.94,
+          "chapter_end_seconds": 75.98
+        },
+        {
+          "token_id": "tok.0126",
+          "text": "grown-ups",
+          "source_start_seconds": 78.18,
+          "source_end_seconds": 79.42,
+          "chapter_start_seconds": 75.98,
+          "chapter_end_seconds": 77.22
+        },
+        {
+          "token_id": "tok.0127",
+          "text": "could",
+          "source_start_seconds": 79.42,
+          "source_end_seconds": 79.64,
+          "chapter_start_seconds": 77.22,
+          "chapter_end_seconds": 77.44
+        },
+        {
+          "token_id": "tok.0128",
+          "text": "only",
+          "source_start_seconds": 79.64,
+          "source_end_seconds": 80.12,
+          "chapter_start_seconds": 77.44,
+          "chapter_end_seconds": 77.92
+        },
+        {
+          "token_id": "tok.0129",
+          "text": "see",
+          "source_start_seconds": 80.12,
+          "source_end_seconds": 80.48,
+          "chapter_start_seconds": 77.92,
+          "chapter_end_seconds": 78.28
+        },
+        {
+          "token_id": "tok.0130",
+          "text": "the",
+          "source_start_seconds": 80.48,
+          "source_end_seconds": 81.49,
+          "chapter_start_seconds": 78.28,
+          "chapter_end_seconds": 79.29
+        },
+        {
+          "token_id": "tok.0131",
+          "text": "outside.",
+          "source_start_seconds": 81.49,
+          "source_end_seconds": 81.72,
+          "chapter_start_seconds": 79.29,
+          "chapter_end_seconds": 79.52
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.007",
+      "text": "So I drew another picture. This time, I showed the inside of the snake, with the elephant in its big round body. Drawing Number Two.",
+      "words": [
+        {
+          "token_id": "tok.0132",
+          "text": "So",
+          "source_start_seconds": 82.48,
+          "source_end_seconds": 82.52,
+          "chapter_start_seconds": 80.28,
+          "chapter_end_seconds": 80.32
+        },
+        {
+          "token_id": "tok.0133",
+          "text": "I",
+          "source_start_seconds": 82.7,
+          "source_end_seconds": 82.8,
+          "chapter_start_seconds": 80.5,
+          "chapter_end_seconds": 80.6
+        },
+        {
+          "token_id": "tok.0134",
+          "text": "drew",
+          "source_start_seconds": 82.8,
+          "source_end_seconds": 83.32,
+          "chapter_start_seconds": 80.6,
+          "chapter_end_seconds": 81.12
+        },
+        {
+          "token_id": "tok.0135",
+          "text": "another",
+          "source_start_seconds": 83.32,
+          "source_end_seconds": 84.03,
+          "chapter_start_seconds": 81.12,
+          "chapter_end_seconds": 81.83
+        },
+        {
+          "token_id": "tok.0136",
+          "text": "picture.",
+          "source_start_seconds": 84.03,
+          "source_end_seconds": 84.84,
+          "chapter_start_seconds": 81.83,
+          "chapter_end_seconds": 82.64
+        },
+        {
+          "token_id": "tok.0137",
+          "text": "This",
+          "source_start_seconds": 86.1,
+          "source_end_seconds": 86.5,
+          "chapter_start_seconds": 83.9,
+          "chapter_end_seconds": 84.3
+        },
+        {
+          "token_id": "tok.0138",
+          "text": "time,",
+          "source_start_seconds": 86.5,
+          "source_end_seconds": 87.1,
+          "chapter_start_seconds": 84.3,
+          "chapter_end_seconds": 84.9
+        },
+        {
+          "token_id": "tok.0139",
+          "text": "I",
+          "source_start_seconds": 87.16,
+          "source_end_seconds": 87.2,
+          "chapter_start_seconds": 84.96,
+          "chapter_end_seconds": 85.0
+        },
+        {
+          "token_id": "tok.0140",
+          "text": "showed",
+          "source_start_seconds": 87.2,
+          "source_end_seconds": 87.81,
+          "chapter_start_seconds": 85.0,
+          "chapter_end_seconds": 85.61
+        },
+        {
+          "token_id": "tok.0141",
+          "text": "the",
+          "source_start_seconds": 87.81,
+          "source_end_seconds": 88.09,
+          "chapter_start_seconds": 85.61,
+          "chapter_end_seconds": 85.89
+        },
+        {
+          "token_id": "tok.0142",
+          "text": "inside",
+          "source_start_seconds": 88.09,
+          "source_end_seconds": 88.72,
+          "chapter_start_seconds": 85.89,
+          "chapter_end_seconds": 86.52
+        },
+        {
+          "token_id": "tok.0143",
+          "text": "of",
+          "source_start_seconds": 88.72,
+          "source_end_seconds": 88.91,
+          "chapter_start_seconds": 86.52,
+          "chapter_end_seconds": 86.71
+        },
+        {
+          "token_id": "tok.0144",
+          "text": "the",
+          "source_start_seconds": 88.91,
+          "source_end_seconds": 89.55,
+          "chapter_start_seconds": 86.71,
+          "chapter_end_seconds": 87.35
+        },
+        {
+          "token_id": "tok.0145",
+          "text": "snake,",
+          "source_start_seconds": 89.55,
+          "source_end_seconds": 89.78,
+          "chapter_start_seconds": 87.35,
+          "chapter_end_seconds": 87.58
+        },
+        {
+          "token_id": "tok.0146",
+          "text": "with",
+          "source_start_seconds": 90.02,
+          "source_end_seconds": 90.25,
+          "chapter_start_seconds": 87.82,
+          "chapter_end_seconds": 88.05
+        },
+        {
+          "token_id": "tok.0147",
+          "text": "the",
+          "source_start_seconds": 90.25,
+          "source_end_seconds": 90.42,
+          "chapter_start_seconds": 88.05,
+          "chapter_end_seconds": 88.22
+        },
+        {
+          "token_id": "tok.0148",
+          "text": "elephant",
+          "source_start_seconds": 90.42,
+          "source_end_seconds": 90.9,
+          "chapter_start_seconds": 88.22,
+          "chapter_end_seconds": 88.7
+        },
+        {
+          "token_id": "tok.0149",
+          "text": "in",
+          "source_start_seconds": 90.9,
+          "source_end_seconds": 91.25,
+          "chapter_start_seconds": 88.7,
+          "chapter_end_seconds": 89.05
+        },
+        {
+          "token_id": "tok.0150",
+          "text": "its",
+          "source_start_seconds": 91.25,
+          "source_end_seconds": 91.77,
+          "chapter_start_seconds": 89.05,
+          "chapter_end_seconds": 89.57
+        },
+        {
+          "token_id": "tok.0151",
+          "text": "big",
+          "source_start_seconds": 91.77,
+          "source_end_seconds": 92.28,
+          "chapter_start_seconds": 89.57,
+          "chapter_end_seconds": 90.08
+        },
+        {
+          "token_id": "tok.0152",
+          "text": "round",
+          "source_start_seconds": 92.62,
+          "source_end_seconds": 93.8,
+          "chapter_start_seconds": 90.42,
+          "chapter_end_seconds": 91.6
+        },
+        {
+          "token_id": "tok.0153",
+          "text": "body.",
+          "source_start_seconds": 93.8,
+          "source_end_seconds": 94.19,
+          "chapter_start_seconds": 91.6,
+          "chapter_end_seconds": 91.99
+        },
+        {
+          "token_id": "tok.0154",
+          "text": "Drawing",
+          "source_start_seconds": 94.74,
+          "source_end_seconds": 95.29,
+          "chapter_start_seconds": 92.54,
+          "chapter_end_seconds": 93.09
+        },
+        {
+          "token_id": "tok.0155",
+          "text": "Number",
+          "source_start_seconds": 95.29,
+          "source_end_seconds": 95.8,
+          "chapter_start_seconds": 93.09,
+          "chapter_end_seconds": 93.6
+        },
+        {
+          "token_id": "tok.0156",
+          "text": "Two.",
+          "source_start_seconds": 95.8,
+          "source_end_seconds": 96.0,
+          "chapter_start_seconds": 93.6,
+          "chapter_end_seconds": 93.8
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.008",
+      "text": "Now they could see the elephant. I waited. \"Put those snakes away,\" they said. \"Study geography, history, math, and grammar instead.\"",
+      "words": [
+        {
+          "token_id": "tok.0157",
+          "text": "Now",
+          "source_start_seconds": 96.81,
+          "source_end_seconds": 96.85,
+          "chapter_start_seconds": 94.61,
+          "chapter_end_seconds": 94.65
+        },
+        {
+          "token_id": "tok.0158",
+          "text": "they",
+          "source_start_seconds": 97.04,
+          "source_end_seconds": 97.54,
+          "chapter_start_seconds": 94.84,
+          "chapter_end_seconds": 95.34
+        },
+        {
+          "token_id": "tok.0159",
+          "text": "could",
+          "source_start_seconds": 97.54,
+          "source_end_seconds": 97.93,
+          "chapter_start_seconds": 95.34,
+          "chapter_end_seconds": 95.73
+        },
+        {
+          "token_id": "tok.0160",
+          "text": "see",
+          "source_start_seconds": 97.93,
+          "source_end_seconds": 98.23,
+          "chapter_start_seconds": 95.73,
+          "chapter_end_seconds": 96.03
+        },
+        {
+          "token_id": "tok.0161",
+          "text": "the",
+          "source_start_seconds": 98.23,
+          "source_end_seconds": 98.63,
+          "chapter_start_seconds": 96.03,
+          "chapter_end_seconds": 96.43
+        },
+        {
+          "token_id": "tok.0162",
+          "text": "elephant.",
+          "source_start_seconds": 98.63,
+          "source_end_seconds": 99.34,
+          "chapter_start_seconds": 96.43,
+          "chapter_end_seconds": 97.14
+        },
+        {
+          "token_id": "tok.0163",
+          "text": "I",
+          "source_start_seconds": 99.79,
+          "source_end_seconds": 100.05,
+          "chapter_start_seconds": 97.59,
+          "chapter_end_seconds": 97.85
+        },
+        {
+          "token_id": "tok.0164",
+          "text": "waited.",
+          "source_start_seconds": 100.05,
+          "source_end_seconds": 100.48,
+          "chapter_start_seconds": 97.85,
+          "chapter_end_seconds": 98.28
+        },
+        {
+          "token_id": "tok.0165",
+          "text": "\"Put",
+          "source_start_seconds": 101.05,
+          "source_end_seconds": 101.15,
+          "chapter_start_seconds": 98.85,
+          "chapter_end_seconds": 98.95
+        },
+        {
+          "token_id": "tok.0166",
+          "text": "those",
+          "source_start_seconds": 101.15,
+          "source_end_seconds": 101.78,
+          "chapter_start_seconds": 98.95,
+          "chapter_end_seconds": 99.58
+        },
+        {
+          "token_id": "tok.0167",
+          "text": "snakes",
+          "source_start_seconds": 101.78,
+          "source_end_seconds": 102.14,
+          "chapter_start_seconds": 99.58,
+          "chapter_end_seconds": 99.94
+        },
+        {
+          "token_id": "tok.0168",
+          "text": "away,\"",
+          "source_start_seconds": 102.14,
+          "source_end_seconds": 102.5,
+          "chapter_start_seconds": 99.94,
+          "chapter_end_seconds": 100.3
+        },
+        {
+          "token_id": "tok.0169",
+          "text": "they",
+          "source_start_seconds": 102.87,
+          "source_end_seconds": 103.2,
+          "chapter_start_seconds": 100.67,
+          "chapter_end_seconds": 101.0
+        },
+        {
+          "token_id": "tok.0170",
+          "text": "said.",
+          "source_start_seconds": 103.2,
+          "source_end_seconds": 103.6,
+          "chapter_start_seconds": 101.0,
+          "chapter_end_seconds": 101.4
+        },
+        {
+          "token_id": "tok.0171",
+          "text": "\"Study",
+          "source_start_seconds": 103.93,
+          "source_end_seconds": 104.41,
+          "chapter_start_seconds": 101.73,
+          "chapter_end_seconds": 102.21
+        },
+        {
+          "token_id": "tok.0172",
+          "text": "geography,",
+          "source_start_seconds": 104.41,
+          "source_end_seconds": 105.27,
+          "chapter_start_seconds": 102.21,
+          "chapter_end_seconds": 103.07
+        },
+        {
+          "token_id": "tok.0173",
+          "text": "history,",
+          "source_start_seconds": 105.46,
+          "source_end_seconds": 106.13,
+          "chapter_start_seconds": 103.26,
+          "chapter_end_seconds": 103.93
+        },
+        {
+          "token_id": "tok.0174",
+          "text": "math,",
+          "source_start_seconds": 106.31,
+          "source_end_seconds": 106.71,
+          "chapter_start_seconds": 104.11,
+          "chapter_end_seconds": 104.51
+        },
+        {
+          "token_id": "tok.0175",
+          "text": "and",
+          "source_start_seconds": 106.86,
+          "source_end_seconds": 107.26,
+          "chapter_start_seconds": 104.66,
+          "chapter_end_seconds": 105.06
+        },
+        {
+          "token_id": "tok.0176",
+          "text": "grammar",
+          "source_start_seconds": 107.504,
+          "source_end_seconds": 107.84,
+          "chapter_start_seconds": 105.304,
+          "chapter_end_seconds": 105.64
+        },
+        {
+          "token_id": "tok.0177",
+          "text": "instead.\"",
+          "source_start_seconds": 107.84,
+          "source_end_seconds": 108.65,
+          "chapter_start_seconds": 105.64,
+          "chapter_end_seconds": 106.45
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.009",
+      "text": "I was only six, and already I was giving up my life as an artist. I put down my pencil.",
+      "words": [
+        {
+          "token_id": "tok.0178",
+          "text": "I",
+          "source_start_seconds": 109.59,
+          "source_end_seconds": 109.65,
+          "chapter_start_seconds": 107.39,
+          "chapter_end_seconds": 107.45
+        },
+        {
+          "token_id": "tok.0179",
+          "text": "was",
+          "source_start_seconds": 109.65,
+          "source_end_seconds": 110.13,
+          "chapter_start_seconds": 107.45,
+          "chapter_end_seconds": 107.93
+        },
+        {
+          "token_id": "tok.0180",
+          "text": "only",
+          "source_start_seconds": 110.13,
+          "source_end_seconds": 110.84,
+          "chapter_start_seconds": 107.93,
+          "chapter_end_seconds": 108.64
+        },
+        {
+          "token_id": "tok.0181",
+          "text": "six,",
+          "source_start_seconds": 110.84,
+          "source_end_seconds": 111.41,
+          "chapter_start_seconds": 108.64,
+          "chapter_end_seconds": 109.21
+        },
+        {
+          "token_id": "tok.0182",
+          "text": "and",
+          "source_start_seconds": 112.37,
+          "source_end_seconds": 112.46,
+          "chapter_start_seconds": 110.17,
+          "chapter_end_seconds": 110.26
+        },
+        {
+          "token_id": "tok.0183",
+          "text": "already",
+          "source_start_seconds": 112.46,
+          "source_end_seconds": 113.84,
+          "chapter_start_seconds": 110.26,
+          "chapter_end_seconds": 111.64
+        },
+        {
+          "token_id": "tok.0184",
+          "text": "I",
+          "source_start_seconds": 113.84,
+          "source_end_seconds": 113.9,
+          "chapter_start_seconds": 111.64,
+          "chapter_end_seconds": 111.7
+        },
+        {
+          "token_id": "tok.0185",
+          "text": "was",
+          "source_start_seconds": 113.9,
+          "source_end_seconds": 114.18,
+          "chapter_start_seconds": 111.7,
+          "chapter_end_seconds": 111.98
+        },
+        {
+          "token_id": "tok.0186",
+          "text": "giving",
+          "source_start_seconds": 114.18,
+          "source_end_seconds": 114.86,
+          "chapter_start_seconds": 111.98,
+          "chapter_end_seconds": 112.66
+        },
+        {
+          "token_id": "tok.0187",
+          "text": "up",
+          "source_start_seconds": 114.86,
+          "source_end_seconds": 115.2,
+          "chapter_start_seconds": 112.66,
+          "chapter_end_seconds": 113.0
+        },
+        {
+          "token_id": "tok.0188",
+          "text": "my",
+          "source_start_seconds": 115.2,
+          "source_end_seconds": 115.41,
+          "chapter_start_seconds": 113.0,
+          "chapter_end_seconds": 113.21
+        },
+        {
+          "token_id": "tok.0189",
+          "text": "life",
+          "source_start_seconds": 115.41,
+          "source_end_seconds": 116.21,
+          "chapter_start_seconds": 113.21,
+          "chapter_end_seconds": 114.01
+        },
+        {
+          "token_id": "tok.0190",
+          "text": "as",
+          "source_start_seconds": 116.21,
+          "source_end_seconds": 116.29,
+          "chapter_start_seconds": 114.01,
+          "chapter_end_seconds": 114.09
+        },
+        {
+          "token_id": "tok.0191",
+          "text": "an",
+          "source_start_seconds": 116.29,
+          "source_end_seconds": 116.65,
+          "chapter_start_seconds": 114.09,
+          "chapter_end_seconds": 114.45
+        },
+        {
+          "token_id": "tok.0192",
+          "text": "artist.",
+          "source_start_seconds": 116.65,
+          "source_end_seconds": 117.4,
+          "chapter_start_seconds": 114.45,
+          "chapter_end_seconds": 115.2
+        },
+        {
+          "token_id": "tok.0193",
+          "text": "I",
+          "source_start_seconds": 117.4,
+          "source_end_seconds": 118.410001,
+          "chapter_start_seconds": 115.2,
+          "chapter_end_seconds": 116.21
+        },
+        {
+          "token_id": "tok.0194",
+          "text": "put",
+          "source_start_seconds": 118.410001,
+          "source_end_seconds": 118.65,
+          "chapter_start_seconds": 116.21,
+          "chapter_end_seconds": 116.45
+        },
+        {
+          "token_id": "tok.0195",
+          "text": "down",
+          "source_start_seconds": 118.65,
+          "source_end_seconds": 118.89,
+          "chapter_start_seconds": 116.45,
+          "chapter_end_seconds": 116.69
+        },
+        {
+          "token_id": "tok.0196",
+          "text": "my",
+          "source_start_seconds": 118.89,
+          "source_end_seconds": 119.36,
+          "chapter_start_seconds": 116.69,
+          "chapter_end_seconds": 117.16
+        },
+        {
+          "token_id": "tok.0197",
+          "text": "pencil.",
+          "source_start_seconds": 119.36,
+          "source_end_seconds": 120.41,
+          "chapter_start_seconds": 117.16,
+          "chapter_end_seconds": 118.21
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.010",
+      "text": "Grown-ups need so many explanations. And when you're six, explaining everything, again and again, is very tiring.",
+      "words": [
+        {
+          "token_id": "tok.0198",
+          "text": "Grown-ups",
+          "source_start_seconds": 121.29,
+          "source_end_seconds": 122.54,
+          "chapter_start_seconds": 119.09,
+          "chapter_end_seconds": 120.34
+        },
+        {
+          "token_id": "tok.0199",
+          "text": "need",
+          "source_start_seconds": 122.54,
+          "source_end_seconds": 123.17,
+          "chapter_start_seconds": 120.34,
+          "chapter_end_seconds": 120.97
+        },
+        {
+          "token_id": "tok.0200",
+          "text": "so",
+          "source_start_seconds": 123.17,
+          "source_end_seconds": 123.48,
+          "chapter_start_seconds": 120.97,
+          "chapter_end_seconds": 121.28
+        },
+        {
+          "token_id": "tok.0201",
+          "text": "many",
+          "source_start_seconds": 123.48,
+          "source_end_seconds": 124.21,
+          "chapter_start_seconds": 121.28,
+          "chapter_end_seconds": 122.01
+        },
+        {
+          "token_id": "tok.0202",
+          "text": "explanations.",
+          "source_start_seconds": 124.21,
+          "source_end_seconds": 126.27,
+          "chapter_start_seconds": 122.01,
+          "chapter_end_seconds": 124.07
+        },
+        {
+          "token_id": "tok.0203",
+          "text": "And",
+          "source_start_seconds": 126.44,
+          "source_end_seconds": 126.71,
+          "chapter_start_seconds": 124.24,
+          "chapter_end_seconds": 124.51
+        },
+        {
+          "token_id": "tok.0204",
+          "text": "when",
+          "source_start_seconds": 126.71,
+          "source_end_seconds": 126.83,
+          "chapter_start_seconds": 124.51,
+          "chapter_end_seconds": 124.63
+        },
+        {
+          "token_id": "tok.0205",
+          "text": "you're",
+          "source_start_seconds": 126.83,
+          "source_end_seconds": 127.06,
+          "chapter_start_seconds": 124.63,
+          "chapter_end_seconds": 124.86
+        },
+        {
+          "token_id": "tok.0206",
+          "text": "six,",
+          "source_start_seconds": 127.06,
+          "source_end_seconds": 128.17,
+          "chapter_start_seconds": 124.86,
+          "chapter_end_seconds": 125.97
+        },
+        {
+          "token_id": "tok.0207",
+          "text": "explaining",
+          "source_start_seconds": 128.29,
+          "source_end_seconds": 129.1,
+          "chapter_start_seconds": 126.09,
+          "chapter_end_seconds": 126.9
+        },
+        {
+          "token_id": "tok.0208",
+          "text": "everything,",
+          "source_start_seconds": 129.1,
+          "source_end_seconds": 130.26,
+          "chapter_start_seconds": 126.9,
+          "chapter_end_seconds": 128.06
+        },
+        {
+          "token_id": "tok.0209",
+          "text": "again",
+          "source_start_seconds": 130.26,
+          "source_end_seconds": 131.14,
+          "chapter_start_seconds": 128.06,
+          "chapter_end_seconds": 128.94
+        },
+        {
+          "token_id": "tok.0210",
+          "text": "and",
+          "source_start_seconds": 131.14,
+          "source_end_seconds": 131.51,
+          "chapter_start_seconds": 128.94,
+          "chapter_end_seconds": 129.31
+        },
+        {
+          "token_id": "tok.0211",
+          "text": "again,",
+          "source_start_seconds": 131.51,
+          "source_end_seconds": 132.12,
+          "chapter_start_seconds": 129.31,
+          "chapter_end_seconds": 129.92
+        },
+        {
+          "token_id": "tok.0212",
+          "text": "is",
+          "source_start_seconds": 132.12,
+          "source_end_seconds": 132.46,
+          "chapter_start_seconds": 129.92,
+          "chapter_end_seconds": 130.26
+        },
+        {
+          "token_id": "tok.0213",
+          "text": "very",
+          "source_start_seconds": 132.46,
+          "source_end_seconds": 132.89,
+          "chapter_start_seconds": 130.26,
+          "chapter_end_seconds": 130.69
+        },
+        {
+          "token_id": "tok.0214",
+          "text": "tiring.",
+          "source_start_seconds": 132.89,
+          "source_end_seconds": 133.58,
+          "chapter_start_seconds": 130.69,
+          "chapter_end_seconds": 131.38
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.011",
+      "text": "Years passed. I chose a different life and learned to fly planes. Since then, I've flown over many parts of the world.",
+      "words": [
+        {
+          "token_id": "tok.0215",
+          "text": "Years",
+          "source_start_seconds": 134.79,
+          "source_end_seconds": 135.25,
+          "chapter_start_seconds": 132.59,
+          "chapter_end_seconds": 133.05
+        },
+        {
+          "token_id": "tok.0216",
+          "text": "passed.",
+          "source_start_seconds": 135.25,
+          "source_end_seconds": 136.09,
+          "chapter_start_seconds": 133.05,
+          "chapter_end_seconds": 133.89
+        },
+        {
+          "token_id": "tok.0217",
+          "text": "I",
+          "source_start_seconds": 136.61,
+          "source_end_seconds": 136.84,
+          "chapter_start_seconds": 134.41,
+          "chapter_end_seconds": 134.64
+        },
+        {
+          "token_id": "tok.0218",
+          "text": "chose",
+          "source_start_seconds": 136.84,
+          "source_end_seconds": 137.38,
+          "chapter_start_seconds": 134.64,
+          "chapter_end_seconds": 135.18
+        },
+        {
+          "token_id": "tok.0219",
+          "text": "a",
+          "source_start_seconds": 137.38,
+          "source_end_seconds": 137.51,
+          "chapter_start_seconds": 135.18,
+          "chapter_end_seconds": 135.31
+        },
+        {
+          "token_id": "tok.0220",
+          "text": "different",
+          "source_start_seconds": 137.51,
+          "source_end_seconds": 138.61,
+          "chapter_start_seconds": 135.31,
+          "chapter_end_seconds": 136.41
+        },
+        {
+          "token_id": "tok.0221",
+          "text": "life",
+          "source_start_seconds": 138.61,
+          "source_end_seconds": 139.47,
+          "chapter_start_seconds": 136.41,
+          "chapter_end_seconds": 137.27
+        },
+        {
+          "token_id": "tok.0222",
+          "text": "and",
+          "source_start_seconds": 139.47,
+          "source_end_seconds": 139.61,
+          "chapter_start_seconds": 137.27,
+          "chapter_end_seconds": 137.41
+        },
+        {
+          "token_id": "tok.0223",
+          "text": "learned",
+          "source_start_seconds": 139.61,
+          "source_end_seconds": 140.27,
+          "chapter_start_seconds": 137.41,
+          "chapter_end_seconds": 138.07
+        },
+        {
+          "token_id": "tok.0224",
+          "text": "to",
+          "source_start_seconds": 140.27,
+          "source_end_seconds": 140.55,
+          "chapter_start_seconds": 138.07,
+          "chapter_end_seconds": 138.35
+        },
+        {
+          "token_id": "tok.0225",
+          "text": "fly",
+          "source_start_seconds": 140.55,
+          "source_end_seconds": 140.7,
+          "chapter_start_seconds": 138.35,
+          "chapter_end_seconds": 138.5
+        },
+        {
+          "token_id": "tok.0226",
+          "text": "planes.",
+          "source_start_seconds": 140.7,
+          "source_end_seconds": 141.26,
+          "chapter_start_seconds": 138.5,
+          "chapter_end_seconds": 139.06
+        },
+        {
+          "token_id": "tok.0227",
+          "text": "Since",
+          "source_start_seconds": 141.54,
+          "source_end_seconds": 142.61,
+          "chapter_start_seconds": 139.34,
+          "chapter_end_seconds": 140.41
+        },
+        {
+          "token_id": "tok.0228",
+          "text": "then,",
+          "source_start_seconds": 142.61,
+          "source_end_seconds": 143.18,
+          "chapter_start_seconds": 140.41,
+          "chapter_end_seconds": 140.98
+        },
+        {
+          "token_id": "tok.0229",
+          "text": "I've",
+          "source_start_seconds": 143.46,
+          "source_end_seconds": 144.19,
+          "chapter_start_seconds": 141.26,
+          "chapter_end_seconds": 141.99
+        },
+        {
+          "token_id": "tok.0230",
+          "text": "flown",
+          "source_start_seconds": 144.19,
+          "source_end_seconds": 144.67,
+          "chapter_start_seconds": 141.99,
+          "chapter_end_seconds": 142.47
+        },
+        {
+          "token_id": "tok.0231",
+          "text": "over",
+          "source_start_seconds": 144.67,
+          "source_end_seconds": 144.94,
+          "chapter_start_seconds": 142.47,
+          "chapter_end_seconds": 142.74
+        },
+        {
+          "token_id": "tok.0232",
+          "text": "many",
+          "source_start_seconds": 144.94,
+          "source_end_seconds": 145.69,
+          "chapter_start_seconds": 142.74,
+          "chapter_end_seconds": 143.49
+        },
+        {
+          "token_id": "tok.0233",
+          "text": "parts",
+          "source_start_seconds": 145.69,
+          "source_end_seconds": 146.28,
+          "chapter_start_seconds": 143.49,
+          "chapter_end_seconds": 144.08
+        },
+        {
+          "token_id": "tok.0234",
+          "text": "of",
+          "source_start_seconds": 146.28,
+          "source_end_seconds": 146.53,
+          "chapter_start_seconds": 144.08,
+          "chapter_end_seconds": 144.33
+        },
+        {
+          "token_id": "tok.0235",
+          "text": "the",
+          "source_start_seconds": 146.53,
+          "source_end_seconds": 146.9,
+          "chapter_start_seconds": 144.33,
+          "chapter_end_seconds": 144.7
+        },
+        {
+          "token_id": "tok.0236",
+          "text": "world.",
+          "source_start_seconds": 146.9,
+          "source_end_seconds": 147.54,
+          "chapter_start_seconds": 144.7,
+          "chapter_end_seconds": 145.34
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.012",
+      "text": "And yes, geography has helped. One look, and I know: China or Arizona. That's useful when you're lost in the dark.",
+      "words": [
+        {
+          "token_id": "tok.0237",
+          "text": "And",
+          "source_start_seconds": 147.93,
+          "source_end_seconds": 148.12,
+          "chapter_start_seconds": 145.73,
+          "chapter_end_seconds": 145.92
+        },
+        {
+          "token_id": "tok.0238",
+          "text": "yes,",
+          "source_start_seconds": 148.12,
+          "source_end_seconds": 148.55,
+          "chapter_start_seconds": 145.92,
+          "chapter_end_seconds": 146.35
+        },
+        {
+          "token_id": "tok.0239",
+          "text": "geography",
+          "source_start_seconds": 148.83,
+          "source_end_seconds": 150.16,
+          "chapter_start_seconds": 146.63,
+          "chapter_end_seconds": 147.96
+        },
+        {
+          "token_id": "tok.0240",
+          "text": "has",
+          "source_start_seconds": 150.16,
+          "source_end_seconds": 150.55,
+          "chapter_start_seconds": 147.96,
+          "chapter_end_seconds": 148.35
+        },
+        {
+          "token_id": "tok.0241",
+          "text": "helped.",
+          "source_start_seconds": 150.55,
+          "source_end_seconds": 151.69,
+          "chapter_start_seconds": 148.35,
+          "chapter_end_seconds": 149.49
+        },
+        {
+          "token_id": "tok.0242",
+          "text": "One",
+          "source_start_seconds": 151.69,
+          "source_end_seconds": 152.06,
+          "chapter_start_seconds": 149.49,
+          "chapter_end_seconds": 149.86
+        },
+        {
+          "token_id": "tok.0243",
+          "text": "look,",
+          "source_start_seconds": 152.06,
+          "source_end_seconds": 152.56,
+          "chapter_start_seconds": 149.86,
+          "chapter_end_seconds": 150.36
+        },
+        {
+          "token_id": "tok.0244",
+          "text": "and",
+          "source_start_seconds": 152.8,
+          "source_end_seconds": 153.15,
+          "chapter_start_seconds": 150.6,
+          "chapter_end_seconds": 150.95
+        },
+        {
+          "token_id": "tok.0245",
+          "text": "I",
+          "source_start_seconds": 153.15,
+          "source_end_seconds": 153.53,
+          "chapter_start_seconds": 150.95,
+          "chapter_end_seconds": 151.33
+        },
+        {
+          "token_id": "tok.0246",
+          "text": "know:",
+          "source_start_seconds": 153.53,
+          "source_end_seconds": 153.79,
+          "chapter_start_seconds": 151.33,
+          "chapter_end_seconds": 151.59
+        },
+        {
+          "token_id": "tok.0247",
+          "text": "China",
+          "source_start_seconds": 154.19,
+          "source_end_seconds": 155.03,
+          "chapter_start_seconds": 151.99,
+          "chapter_end_seconds": 152.83
+        },
+        {
+          "token_id": "tok.0248",
+          "text": "or",
+          "source_start_seconds": 155.03,
+          "source_end_seconds": 155.21,
+          "chapter_start_seconds": 152.83,
+          "chapter_end_seconds": 153.01
+        },
+        {
+          "token_id": "tok.0249",
+          "text": "Arizona.",
+          "source_start_seconds": 155.21,
+          "source_end_seconds": 156.23,
+          "chapter_start_seconds": 153.01,
+          "chapter_end_seconds": 154.03
+        },
+        {
+          "token_id": "tok.0250",
+          "text": "That's",
+          "source_start_seconds": 156.69,
+          "source_end_seconds": 157.23,
+          "chapter_start_seconds": 154.49,
+          "chapter_end_seconds": 155.03
+        },
+        {
+          "token_id": "tok.0251",
+          "text": "useful",
+          "source_start_seconds": 157.23,
+          "source_end_seconds": 157.77,
+          "chapter_start_seconds": 155.03,
+          "chapter_end_seconds": 155.57
+        },
+        {
+          "token_id": "tok.0252",
+          "text": "when",
+          "source_start_seconds": 157.77,
+          "source_end_seconds": 158.13,
+          "chapter_start_seconds": 155.57,
+          "chapter_end_seconds": 155.93
+        },
+        {
+          "token_id": "tok.0253",
+          "text": "you're",
+          "source_start_seconds": 158.13,
+          "source_end_seconds": 158.69,
+          "chapter_start_seconds": 155.93,
+          "chapter_end_seconds": 156.49
+        },
+        {
+          "token_id": "tok.0254",
+          "text": "lost",
+          "source_start_seconds": 158.69,
+          "source_end_seconds": 158.94,
+          "chapter_start_seconds": 156.49,
+          "chapter_end_seconds": 156.74
+        },
+        {
+          "token_id": "tok.0255",
+          "text": "in",
+          "source_start_seconds": 158.94,
+          "source_end_seconds": 159.06,
+          "chapter_start_seconds": 156.74,
+          "chapter_end_seconds": 156.86
+        },
+        {
+          "token_id": "tok.0256",
+          "text": "the",
+          "source_start_seconds": 159.06,
+          "source_end_seconds": 159.24,
+          "chapter_start_seconds": 156.86,
+          "chapter_end_seconds": 157.04
+        },
+        {
+          "token_id": "tok.0257",
+          "text": "dark.",
+          "source_start_seconds": 159.24,
+          "source_end_seconds": 159.49,
+          "chapter_start_seconds": 157.04,
+          "chapter_end_seconds": 157.29
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.013",
+      "text": "I've met many grown-ups in different countries. I've listened to all their important talk. And I still remember why I put down my pencil.",
+      "words": [
+        {
+          "token_id": "tok.0258",
+          "text": "I've",
+          "source_start_seconds": 160.52,
+          "source_end_seconds": 160.91,
+          "chapter_start_seconds": 158.32,
+          "chapter_end_seconds": 158.71
+        },
+        {
+          "token_id": "tok.0259",
+          "text": "met",
+          "source_start_seconds": 160.91,
+          "source_end_seconds": 161.3,
+          "chapter_start_seconds": 158.71,
+          "chapter_end_seconds": 159.1
+        },
+        {
+          "token_id": "tok.0260",
+          "text": "many",
+          "source_start_seconds": 161.3,
+          "source_end_seconds": 161.82,
+          "chapter_start_seconds": 159.1,
+          "chapter_end_seconds": 159.62
+        },
+        {
+          "token_id": "tok.0261",
+          "text": "grown-ups",
+          "source_start_seconds": 161.82,
+          "source_end_seconds": 163.0,
+          "chapter_start_seconds": 159.62,
+          "chapter_end_seconds": 160.8
+        },
+        {
+          "token_id": "tok.0262",
+          "text": "in",
+          "source_start_seconds": 163.0,
+          "source_end_seconds": 163.02,
+          "chapter_start_seconds": 160.8,
+          "chapter_end_seconds": 160.82
+        },
+        {
+          "token_id": "tok.0263",
+          "text": "different",
+          "source_start_seconds": 163.02,
+          "source_end_seconds": 163.67,
+          "chapter_start_seconds": 160.82,
+          "chapter_end_seconds": 161.47
+        },
+        {
+          "token_id": "tok.0264",
+          "text": "countries.",
+          "source_start_seconds": 163.67,
+          "source_end_seconds": 164.37,
+          "chapter_start_seconds": 161.47,
+          "chapter_end_seconds": 162.17
+        },
+        {
+          "token_id": "tok.0265",
+          "text": "I've",
+          "source_start_seconds": 165.12,
+          "source_end_seconds": 165.44,
+          "chapter_start_seconds": 162.92,
+          "chapter_end_seconds": 163.24
+        },
+        {
+          "token_id": "tok.0266",
+          "text": "listened",
+          "source_start_seconds": 165.44,
+          "source_end_seconds": 166.25,
+          "chapter_start_seconds": 163.24,
+          "chapter_end_seconds": 164.05
+        },
+        {
+          "token_id": "tok.0267",
+          "text": "to",
+          "source_start_seconds": 166.25,
+          "source_end_seconds": 166.46,
+          "chapter_start_seconds": 164.05,
+          "chapter_end_seconds": 164.26
+        },
+        {
+          "token_id": "tok.0268",
+          "text": "all",
+          "source_start_seconds": 166.46,
+          "source_end_seconds": 166.87,
+          "chapter_start_seconds": 164.26,
+          "chapter_end_seconds": 164.67
+        },
+        {
+          "token_id": "tok.0269",
+          "text": "their",
+          "source_start_seconds": 166.87,
+          "source_end_seconds": 167.43,
+          "chapter_start_seconds": 164.67,
+          "chapter_end_seconds": 165.23
+        },
+        {
+          "token_id": "tok.0270",
+          "text": "important",
+          "source_start_seconds": 167.43,
+          "source_end_seconds": 168.19,
+          "chapter_start_seconds": 165.23,
+          "chapter_end_seconds": 165.99
+        },
+        {
+          "token_id": "tok.0271",
+          "text": "talk.",
+          "source_start_seconds": 168.19,
+          "source_end_seconds": 169.83,
+          "chapter_start_seconds": 165.99,
+          "chapter_end_seconds": 167.63
+        },
+        {
+          "token_id": "tok.0272",
+          "text": "And",
+          "source_start_seconds": 169.83,
+          "source_end_seconds": 170.18,
+          "chapter_start_seconds": 167.63,
+          "chapter_end_seconds": 167.98
+        },
+        {
+          "token_id": "tok.0273",
+          "text": "I",
+          "source_start_seconds": 170.18,
+          "source_end_seconds": 170.29,
+          "chapter_start_seconds": 167.98,
+          "chapter_end_seconds": 168.09
+        },
+        {
+          "token_id": "tok.0274",
+          "text": "still",
+          "source_start_seconds": 170.29,
+          "source_end_seconds": 170.93,
+          "chapter_start_seconds": 168.09,
+          "chapter_end_seconds": 168.73
+        },
+        {
+          "token_id": "tok.0275",
+          "text": "remember",
+          "source_start_seconds": 170.93,
+          "source_end_seconds": 171.8,
+          "chapter_start_seconds": 168.73,
+          "chapter_end_seconds": 169.6
+        },
+        {
+          "token_id": "tok.0276",
+          "text": "why",
+          "source_start_seconds": 171.8,
+          "source_end_seconds": 172.15,
+          "chapter_start_seconds": 169.6,
+          "chapter_end_seconds": 169.95
+        },
+        {
+          "token_id": "tok.0277",
+          "text": "I",
+          "source_start_seconds": 172.15,
+          "source_end_seconds": 172.26,
+          "chapter_start_seconds": 169.95,
+          "chapter_end_seconds": 170.06
+        },
+        {
+          "token_id": "tok.0278",
+          "text": "put",
+          "source_start_seconds": 172.26,
+          "source_end_seconds": 172.61,
+          "chapter_start_seconds": 170.06,
+          "chapter_end_seconds": 170.41
+        },
+        {
+          "token_id": "tok.0279",
+          "text": "down",
+          "source_start_seconds": 172.61,
+          "source_end_seconds": 173.11,
+          "chapter_start_seconds": 170.41,
+          "chapter_end_seconds": 170.91
+        },
+        {
+          "token_id": "tok.0280",
+          "text": "my",
+          "source_start_seconds": 173.11,
+          "source_end_seconds": 173.3,
+          "chapter_start_seconds": 170.91,
+          "chapter_end_seconds": 171.1
+        },
+        {
+          "token_id": "tok.0281",
+          "text": "pencil.",
+          "source_start_seconds": 173.3,
+          "source_end_seconds": 174.02,
+          "chapter_start_seconds": 171.1,
+          "chapter_end_seconds": 171.82
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.014",
+      "text": "But sometimes I meet someone and think, \"Perhaps this one will understand.\" I still have Drawing Number One. So I show it to them.",
+      "words": [
+        {
+          "token_id": "tok.0282",
+          "text": "But",
+          "source_start_seconds": 174.87,
+          "source_end_seconds": 175.04,
+          "chapter_start_seconds": 172.67,
+          "chapter_end_seconds": 172.84
+        },
+        {
+          "token_id": "tok.0283",
+          "text": "sometimes",
+          "source_start_seconds": 175.45,
+          "source_end_seconds": 176.82,
+          "chapter_start_seconds": 173.25,
+          "chapter_end_seconds": 174.62
+        },
+        {
+          "token_id": "tok.0284",
+          "text": "I",
+          "source_start_seconds": 176.9,
+          "source_end_seconds": 176.96,
+          "chapter_start_seconds": 174.7,
+          "chapter_end_seconds": 174.76
+        },
+        {
+          "token_id": "tok.0285",
+          "text": "meet",
+          "source_start_seconds": 176.96,
+          "source_end_seconds": 177.51,
+          "chapter_start_seconds": 174.76,
+          "chapter_end_seconds": 175.31
+        },
+        {
+          "token_id": "tok.0286",
+          "text": "someone",
+          "source_start_seconds": 177.51,
+          "source_end_seconds": 178.59,
+          "chapter_start_seconds": 175.31,
+          "chapter_end_seconds": 176.39
+        },
+        {
+          "token_id": "tok.0287",
+          "text": "and",
+          "source_start_seconds": 178.59,
+          "source_end_seconds": 178.89,
+          "chapter_start_seconds": 176.39,
+          "chapter_end_seconds": 176.69
+        },
+        {
+          "token_id": "tok.0288",
+          "text": "think,",
+          "source_start_seconds": 178.89,
+          "source_end_seconds": 179.76,
+          "chapter_start_seconds": 176.69,
+          "chapter_end_seconds": 177.56
+        },
+        {
+          "token_id": "tok.0289",
+          "text": "\"Perhaps",
+          "source_start_seconds": 179.91,
+          "source_end_seconds": 180.67,
+          "chapter_start_seconds": 177.71,
+          "chapter_end_seconds": 178.47
+        },
+        {
+          "token_id": "tok.0290",
+          "text": "this",
+          "source_start_seconds": 180.67,
+          "source_end_seconds": 181.03,
+          "chapter_start_seconds": 178.47,
+          "chapter_end_seconds": 178.83
+        },
+        {
+          "token_id": "tok.0291",
+          "text": "one",
+          "source_start_seconds": 181.03,
+          "source_end_seconds": 181.56,
+          "chapter_start_seconds": 178.83,
+          "chapter_end_seconds": 179.36
+        },
+        {
+          "token_id": "tok.0292",
+          "text": "will",
+          "source_start_seconds": 181.56,
+          "source_end_seconds": 181.84,
+          "chapter_start_seconds": 179.36,
+          "chapter_end_seconds": 179.64
+        },
+        {
+          "token_id": "tok.0293",
+          "text": "understand.\"",
+          "source_start_seconds": 181.84,
+          "source_end_seconds": 183.98,
+          "chapter_start_seconds": 179.64,
+          "chapter_end_seconds": 181.78
+        },
+        {
+          "token_id": "tok.0294",
+          "text": "I",
+          "source_start_seconds": 184.01,
+          "source_end_seconds": 184.25,
+          "chapter_start_seconds": 181.81,
+          "chapter_end_seconds": 182.05
+        },
+        {
+          "token_id": "tok.0295",
+          "text": "still",
+          "source_start_seconds": 184.25,
+          "source_end_seconds": 184.84,
+          "chapter_start_seconds": 182.05,
+          "chapter_end_seconds": 182.64
+        },
+        {
+          "token_id": "tok.0296",
+          "text": "have",
+          "source_start_seconds": 184.84,
+          "source_end_seconds": 185.11,
+          "chapter_start_seconds": 182.64,
+          "chapter_end_seconds": 182.91
+        },
+        {
+          "token_id": "tok.0297",
+          "text": "Drawing",
+          "source_start_seconds": 185.11,
+          "source_end_seconds": 186.28,
+          "chapter_start_seconds": 182.91,
+          "chapter_end_seconds": 184.08
+        },
+        {
+          "token_id": "tok.0298",
+          "text": "Number",
+          "source_start_seconds": 186.28,
+          "source_end_seconds": 186.54,
+          "chapter_start_seconds": 184.08,
+          "chapter_end_seconds": 184.34
+        },
+        {
+          "token_id": "tok.0299",
+          "text": "One.",
+          "source_start_seconds": 186.54,
+          "source_end_seconds": 186.89,
+          "chapter_start_seconds": 184.34,
+          "chapter_end_seconds": 184.69
+        },
+        {
+          "token_id": "tok.0300",
+          "text": "So",
+          "source_start_seconds": 187.09,
+          "source_end_seconds": 187.31,
+          "chapter_start_seconds": 184.89,
+          "chapter_end_seconds": 185.11
+        },
+        {
+          "token_id": "tok.0301",
+          "text": "I",
+          "source_start_seconds": 187.31,
+          "source_end_seconds": 187.42,
+          "chapter_start_seconds": 185.11,
+          "chapter_end_seconds": 185.22
+        },
+        {
+          "token_id": "tok.0302",
+          "text": "show",
+          "source_start_seconds": 187.42,
+          "source_end_seconds": 187.97,
+          "chapter_start_seconds": 185.22,
+          "chapter_end_seconds": 185.77
+        },
+        {
+          "token_id": "tok.0303",
+          "text": "it",
+          "source_start_seconds": 187.97,
+          "source_end_seconds": 188.08,
+          "chapter_start_seconds": 185.77,
+          "chapter_end_seconds": 185.88
+        },
+        {
+          "token_id": "tok.0304",
+          "text": "to",
+          "source_start_seconds": 188.08,
+          "source_end_seconds": 188.28,
+          "chapter_start_seconds": 185.88,
+          "chapter_end_seconds": 186.08
+        },
+        {
+          "token_id": "tok.0305",
+          "text": "them.",
+          "source_start_seconds": 188.28,
+          "source_end_seconds": 189.09,
+          "chapter_start_seconds": 186.08,
+          "chapter_end_seconds": 186.89
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.015",
+      "text": "I wait for their answer. \"A hat,\" they say. Always a hat.",
+      "words": [
+        {
+          "token_id": "tok.0306",
+          "text": "I",
+          "source_start_seconds": 189.79,
+          "source_end_seconds": 189.96,
+          "chapter_start_seconds": 187.59,
+          "chapter_end_seconds": 187.76
+        },
+        {
+          "token_id": "tok.0307",
+          "text": "wait",
+          "source_start_seconds": 189.96,
+          "source_end_seconds": 190.25,
+          "chapter_start_seconds": 187.76,
+          "chapter_end_seconds": 188.05
+        },
+        {
+          "token_id": "tok.0308",
+          "text": "for",
+          "source_start_seconds": 190.25,
+          "source_end_seconds": 190.49,
+          "chapter_start_seconds": 188.05,
+          "chapter_end_seconds": 188.29
+        },
+        {
+          "token_id": "tok.0309",
+          "text": "their",
+          "source_start_seconds": 190.49,
+          "source_end_seconds": 190.99,
+          "chapter_start_seconds": 188.29,
+          "chapter_end_seconds": 188.79
+        },
+        {
+          "token_id": "tok.0310",
+          "text": "answer.",
+          "source_start_seconds": 190.99,
+          "source_end_seconds": 191.59,
+          "chapter_start_seconds": 188.79,
+          "chapter_end_seconds": 189.39
+        },
+        {
+          "token_id": "tok.0311",
+          "text": "\"A",
+          "source_start_seconds": 192.37,
+          "source_end_seconds": 192.38,
+          "chapter_start_seconds": 190.17,
+          "chapter_end_seconds": 190.18
+        },
+        {
+          "token_id": "tok.0312",
+          "text": "hat,\"",
+          "source_start_seconds": 192.38,
+          "source_end_seconds": 192.93,
+          "chapter_start_seconds": 190.18,
+          "chapter_end_seconds": 190.73
+        },
+        {
+          "token_id": "tok.0313",
+          "text": "they",
+          "source_start_seconds": 193.51,
+          "source_end_seconds": 194.02,
+          "chapter_start_seconds": 191.31,
+          "chapter_end_seconds": 191.82
+        },
+        {
+          "token_id": "tok.0314",
+          "text": "say.",
+          "source_start_seconds": 194.02,
+          "source_end_seconds": 194.69,
+          "chapter_start_seconds": 191.82,
+          "chapter_end_seconds": 192.49
+        },
+        {
+          "token_id": "tok.0315",
+          "text": "Always",
+          "source_start_seconds": 195.16,
+          "source_end_seconds": 195.81,
+          "chapter_start_seconds": 192.96,
+          "chapter_end_seconds": 193.61
+        },
+        {
+          "token_id": "tok.0316",
+          "text": "a",
+          "source_start_seconds": 195.81,
+          "source_end_seconds": 196.09,
+          "chapter_start_seconds": 193.61,
+          "chapter_end_seconds": 193.89
+        },
+        {
+          "token_id": "tok.0317",
+          "text": "hat.",
+          "source_start_seconds": 196.09,
+          "source_end_seconds": 196.38,
+          "chapter_start_seconds": 193.89,
+          "chapter_end_seconds": 194.18
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.016",
+      "text": "After that, I say nothing more about snakes, forests, or stars. We talk about work instead. About money. About clothes.",
+      "words": [
+        {
+          "token_id": "tok.0318",
+          "text": "After",
+          "source_start_seconds": 197.9,
+          "source_end_seconds": 198.24,
+          "chapter_start_seconds": 195.7,
+          "chapter_end_seconds": 196.04
+        },
+        {
+          "token_id": "tok.0319",
+          "text": "that,",
+          "source_start_seconds": 198.24,
+          "source_end_seconds": 198.7,
+          "chapter_start_seconds": 196.04,
+          "chapter_end_seconds": 196.5
+        },
+        {
+          "token_id": "tok.0320",
+          "text": "I",
+          "source_start_seconds": 198.95,
+          "source_end_seconds": 199.22,
+          "chapter_start_seconds": 196.75,
+          "chapter_end_seconds": 197.02
+        },
+        {
+          "token_id": "tok.0321",
+          "text": "say",
+          "source_start_seconds": 199.22,
+          "source_end_seconds": 199.4,
+          "chapter_start_seconds": 197.02,
+          "chapter_end_seconds": 197.2
+        },
+        {
+          "token_id": "tok.0322",
+          "text": "nothing",
+          "source_start_seconds": 199.4,
+          "source_end_seconds": 200.22,
+          "chapter_start_seconds": 197.2,
+          "chapter_end_seconds": 198.02
+        },
+        {
+          "token_id": "tok.0323",
+          "text": "more",
+          "source_start_seconds": 200.22,
+          "source_end_seconds": 200.74,
+          "chapter_start_seconds": 198.02,
+          "chapter_end_seconds": 198.54
+        },
+        {
+          "token_id": "tok.0324",
+          "text": "about",
+          "source_start_seconds": 200.74,
+          "source_end_seconds": 201.15,
+          "chapter_start_seconds": 198.54,
+          "chapter_end_seconds": 198.95
+        },
+        {
+          "token_id": "tok.0325",
+          "text": "snakes,",
+          "source_start_seconds": 201.15,
+          "source_end_seconds": 201.5,
+          "chapter_start_seconds": 198.95,
+          "chapter_end_seconds": 199.3
+        },
+        {
+          "token_id": "tok.0326",
+          "text": "forests,",
+          "source_start_seconds": 201.66,
+          "source_end_seconds": 203.0,
+          "chapter_start_seconds": 199.46,
+          "chapter_end_seconds": 200.8
+        },
+        {
+          "token_id": "tok.0327",
+          "text": "or",
+          "source_start_seconds": 203.38,
+          "source_end_seconds": 203.76,
+          "chapter_start_seconds": 201.18,
+          "chapter_end_seconds": 201.56
+        },
+        {
+          "token_id": "tok.0328",
+          "text": "stars.",
+          "source_start_seconds": 203.76,
+          "source_end_seconds": 205.24,
+          "chapter_start_seconds": 201.56,
+          "chapter_end_seconds": 203.04
+        },
+        {
+          "token_id": "tok.0329",
+          "text": "We",
+          "source_start_seconds": 205.3,
+          "source_end_seconds": 205.54,
+          "chapter_start_seconds": 203.1,
+          "chapter_end_seconds": 203.34
+        },
+        {
+          "token_id": "tok.0330",
+          "text": "talk",
+          "source_start_seconds": 205.54,
+          "source_end_seconds": 205.88,
+          "chapter_start_seconds": 203.34,
+          "chapter_end_seconds": 203.68
+        },
+        {
+          "token_id": "tok.0331",
+          "text": "about",
+          "source_start_seconds": 205.88,
+          "source_end_seconds": 206.35,
+          "chapter_start_seconds": 203.68,
+          "chapter_end_seconds": 204.15
+        },
+        {
+          "token_id": "tok.0332",
+          "text": "work",
+          "source_start_seconds": 206.35,
+          "source_end_seconds": 206.86,
+          "chapter_start_seconds": 204.15,
+          "chapter_end_seconds": 204.66
+        },
+        {
+          "token_id": "tok.0333",
+          "text": "instead.",
+          "source_start_seconds": 206.86,
+          "source_end_seconds": 207.44,
+          "chapter_start_seconds": 204.66,
+          "chapter_end_seconds": 205.24
+        },
+        {
+          "token_id": "tok.0334",
+          "text": "About",
+          "source_start_seconds": 207.69,
+          "source_end_seconds": 208.38,
+          "chapter_start_seconds": 205.49,
+          "chapter_end_seconds": 206.18
+        },
+        {
+          "token_id": "tok.0335",
+          "text": "money.",
+          "source_start_seconds": 208.38,
+          "source_end_seconds": 209.08,
+          "chapter_start_seconds": 206.18,
+          "chapter_end_seconds": 206.88
+        },
+        {
+          "token_id": "tok.0336",
+          "text": "About",
+          "source_start_seconds": 209.38,
+          "source_end_seconds": 209.624,
+          "chapter_start_seconds": 207.18,
+          "chapter_end_seconds": 207.424
+        },
+        {
+          "token_id": "tok.0337",
+          "text": "clothes.",
+          "source_start_seconds": 209.71,
+          "source_end_seconds": 210.435,
+          "chapter_start_seconds": 207.51,
+          "chapter_end_seconds": 208.235
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.017",
+      "text": "And now they're pleased with me. Such a sensible man! We understand each other so well. At least, that's what they think.",
+      "words": [
+        {
+          "token_id": "tok.0338",
+          "text": "And",
+          "source_start_seconds": 211.4,
+          "source_end_seconds": 211.66,
+          "chapter_start_seconds": 209.2,
+          "chapter_end_seconds": 209.46
+        },
+        {
+          "token_id": "tok.0339",
+          "text": "now",
+          "source_start_seconds": 211.66,
+          "source_end_seconds": 212.17,
+          "chapter_start_seconds": 209.46,
+          "chapter_end_seconds": 209.97
+        },
+        {
+          "token_id": "tok.0340",
+          "text": "they're",
+          "source_start_seconds": 212.17,
+          "source_end_seconds": 213.36,
+          "chapter_start_seconds": 209.97,
+          "chapter_end_seconds": 211.16
+        },
+        {
+          "token_id": "tok.0341",
+          "text": "pleased",
+          "source_start_seconds": 213.36,
+          "source_end_seconds": 214.54,
+          "chapter_start_seconds": 211.16,
+          "chapter_end_seconds": 212.34
+        },
+        {
+          "token_id": "tok.0342",
+          "text": "with",
+          "source_start_seconds": 214.54,
+          "source_end_seconds": 215.23,
+          "chapter_start_seconds": 212.34,
+          "chapter_end_seconds": 213.03
+        },
+        {
+          "token_id": "tok.0343",
+          "text": "me.",
+          "source_start_seconds": 215.23,
+          "source_end_seconds": 215.85,
+          "chapter_start_seconds": 213.03,
+          "chapter_end_seconds": 213.65
+        },
+        {
+          "token_id": "tok.0344",
+          "text": "Such",
+          "source_start_seconds": 216.2,
+          "source_end_seconds": 216.65,
+          "chapter_start_seconds": 214.0,
+          "chapter_end_seconds": 214.45
+        },
+        {
+          "token_id": "tok.0345",
+          "text": "a",
+          "source_start_seconds": 216.65,
+          "source_end_seconds": 216.7,
+          "chapter_start_seconds": 214.45,
+          "chapter_end_seconds": 214.5
+        },
+        {
+          "token_id": "tok.0346",
+          "text": "sensible",
+          "source_start_seconds": 216.7,
+          "source_end_seconds": 217.47,
+          "chapter_start_seconds": 214.5,
+          "chapter_end_seconds": 215.27
+        },
+        {
+          "token_id": "tok.0347",
+          "text": "man!",
+          "source_start_seconds": 217.47,
+          "source_end_seconds": 217.77,
+          "chapter_start_seconds": 215.27,
+          "chapter_end_seconds": 215.57
+        },
+        {
+          "token_id": "tok.0348",
+          "text": "We",
+          "source_start_seconds": 218.1,
+          "source_end_seconds": 219.62,
+          "chapter_start_seconds": 215.9,
+          "chapter_end_seconds": 217.42
+        },
+        {
+          "token_id": "tok.0349",
+          "text": "understand",
+          "source_start_seconds": 219.62,
+          "source_end_seconds": 220.3,
+          "chapter_start_seconds": 217.42,
+          "chapter_end_seconds": 218.1
+        },
+        {
+          "token_id": "tok.0350",
+          "text": "each",
+          "source_start_seconds": 220.3,
+          "source_end_seconds": 220.62,
+          "chapter_start_seconds": 218.1,
+          "chapter_end_seconds": 218.42
+        },
+        {
+          "token_id": "tok.0351",
+          "text": "other",
+          "source_start_seconds": 220.62,
+          "source_end_seconds": 221.29,
+          "chapter_start_seconds": 218.42,
+          "chapter_end_seconds": 219.09
+        },
+        {
+          "token_id": "tok.0352",
+          "text": "so",
+          "source_start_seconds": 221.29,
+          "source_end_seconds": 221.56,
+          "chapter_start_seconds": 219.09,
+          "chapter_end_seconds": 219.36
+        },
+        {
+          "token_id": "tok.0353",
+          "text": "well.",
+          "source_start_seconds": 221.56,
+          "source_end_seconds": 223.51,
+          "chapter_start_seconds": 219.36,
+          "chapter_end_seconds": 221.31
+        },
+        {
+          "token_id": "tok.0354",
+          "text": "At",
+          "source_start_seconds": 223.62,
+          "source_end_seconds": 223.96,
+          "chapter_start_seconds": 221.42,
+          "chapter_end_seconds": 221.76
+        },
+        {
+          "token_id": "tok.0355",
+          "text": "least,",
+          "source_start_seconds": 223.96,
+          "source_end_seconds": 224.18,
+          "chapter_start_seconds": 221.76,
+          "chapter_end_seconds": 221.98
+        },
+        {
+          "token_id": "tok.0356",
+          "text": "that's",
+          "source_start_seconds": 224.34,
+          "source_end_seconds": 224.82,
+          "chapter_start_seconds": 222.14,
+          "chapter_end_seconds": 222.62
+        },
+        {
+          "token_id": "tok.0357",
+          "text": "what",
+          "source_start_seconds": 224.82,
+          "source_end_seconds": 225.14,
+          "chapter_start_seconds": 222.62,
+          "chapter_end_seconds": 222.94
+        },
+        {
+          "token_id": "tok.0358",
+          "text": "they",
+          "source_start_seconds": 225.14,
+          "source_end_seconds": 225.46,
+          "chapter_start_seconds": 222.94,
+          "chapter_end_seconds": 223.26
+        },
+        {
+          "token_id": "tok.0359",
+          "text": "think.",
+          "source_start_seconds": 225.46,
+          "source_end_seconds": 225.95,
+          "chapter_start_seconds": 223.26,
+          "chapter_end_seconds": 223.75
+        }
+      ]
+    },
+    {
+      "paragraph_id": "para.c01.018",
+      "text": "There were people all around me. But no one I could really talk to.",
+      "words": [
+        {
+          "token_id": "tok.0360",
+          "text": "There",
+          "source_start_seconds": 226.98,
+          "source_end_seconds": 227.4,
+          "chapter_start_seconds": 224.78,
+          "chapter_end_seconds": 225.2
+        },
+        {
+          "token_id": "tok.0361",
+          "text": "were",
+          "source_start_seconds": 227.4,
+          "source_end_seconds": 227.93,
+          "chapter_start_seconds": 225.2,
+          "chapter_end_seconds": 225.73
+        },
+        {
+          "token_id": "tok.0362",
+          "text": "people",
+          "source_start_seconds": 227.93,
+          "source_end_seconds": 228.73,
+          "chapter_start_seconds": 225.73,
+          "chapter_end_seconds": 226.53
+        },
+        {
+          "token_id": "tok.0363",
+          "text": "all",
+          "source_start_seconds": 228.73,
+          "source_end_seconds": 229.21,
+          "chapter_start_seconds": 226.53,
+          "chapter_end_seconds": 227.01
+        },
+        {
+          "token_id": "tok.0364",
+          "text": "around",
+          "source_start_seconds": 229.21,
+          "source_end_seconds": 229.88,
+          "chapter_start_seconds": 227.01,
+          "chapter_end_seconds": 227.68
+        },
+        {
+          "token_id": "tok.0365",
+          "text": "me.",
+          "source_start_seconds": 229.88,
+          "source_end_seconds": 230.27,
+          "chapter_start_seconds": 227.68,
+          "chapter_end_seconds": 228.07
+        },
+        {
+          "token_id": "tok.0366",
+          "text": "But",
+          "source_start_seconds": 230.72,
+          "source_end_seconds": 231.3,
+          "chapter_start_seconds": 228.52,
+          "chapter_end_seconds": 229.1
+        },
+        {
+          "token_id": "tok.0367",
+          "text": "no",
+          "source_start_seconds": 231.3,
+          "source_end_seconds": 231.5,
+          "chapter_start_seconds": 229.1,
+          "chapter_end_seconds": 229.3
+        },
+        {
+          "token_id": "tok.0368",
+          "text": "one",
+          "source_start_seconds": 231.5,
+          "source_end_seconds": 231.8,
+          "chapter_start_seconds": 229.3,
+          "chapter_end_seconds": 229.6
+        },
+        {
+          "token_id": "tok.0369",
+          "text": "I",
+          "source_start_seconds": 231.8,
+          "source_end_seconds": 231.92,
+          "chapter_start_seconds": 229.6,
+          "chapter_end_seconds": 229.72
+        },
+        {
+          "token_id": "tok.0370",
+          "text": "could",
+          "source_start_seconds": 231.92,
+          "source_end_seconds": 232.6,
+          "chapter_start_seconds": 229.72,
+          "chapter_end_seconds": 230.4
+        },
+        {
+          "token_id": "tok.0371",
+          "text": "really",
+          "source_start_seconds": 232.6,
+          "source_end_seconds": 233.41,
+          "chapter_start_seconds": 230.4,
+          "chapter_end_seconds": 231.21
+        },
+        {
+          "token_id": "tok.0372",
+          "text": "talk",
+          "source_start_seconds": 233.41,
+          "source_end_seconds": 234.0,
+          "chapter_start_seconds": 231.21,
+          "chapter_end_seconds": 231.8
+        },
+        {
+          "token_id": "tok.0373",
+          "text": "to.",
+          "source_start_seconds": 234.0,
+          "source_end_seconds": 234.25,
+          "chapter_start_seconds": 231.8,
+          "chapter_end_seconds": 232.05
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "after": "para.c00.000",
+      "before": "para.c01.000",
+      "cut_source_seconds": 2.2,
+      "silence_start_seconds": 1.617234,
+      "silence_end_seconds": 2.406213
+    },
+    {
+      "after": "para.c01.000",
+      "before": "para.c01.001",
+      "cut_source_seconds": 4.773,
+      "silence_start_seconds": 4.386077,
+      "silence_end_seconds": 5.160544
+    },
+    {
+      "after": "para.c01.001",
+      "before": "para.c01.002",
+      "cut_source_seconds": 20.741,
+      "silence_start_seconds": 20.352834,
+      "silence_end_seconds": 21.137415
+    },
+    {
+      "after": "para.c01.002",
+      "before": "para.c01.003",
+      "cut_source_seconds": 33.869,
+      "silence_start_seconds": 33.480862,
+      "silence_end_seconds": 34.25712
+    },
+    {
+      "after": "para.c01.003",
+      "before": "para.c01.004",
+      "cut_source_seconds": 48.114,
+      "silence_start_seconds": 47.78898,
+      "silence_end_seconds": 48.550816
+    },
+    {
+      "after": "para.c01.004",
+      "before": "para.c01.005",
+      "cut_source_seconds": 60.282,
+      "silence_start_seconds": 59.88771,
+      "silence_end_seconds": 60.675828
+    },
+    {
+      "after": "para.c01.005",
+      "before": "para.c01.006",
+      "cut_source_seconds": 68.929,
+      "silence_start_seconds": 68.537868,
+      "silence_end_seconds": 69.327528
+    },
+    {
+      "after": "para.c01.006",
+      "before": "para.c01.007",
+      "cut_source_seconds": 82.117,
+      "silence_start_seconds": 81.753016,
+      "silence_end_seconds": 82.504104
+    },
+    {
+      "after": "para.c01.007",
+      "before": "para.c01.008",
+      "cut_source_seconds": 96.398,
+      "silence_start_seconds": 96.002812,
+      "silence_end_seconds": 96.794127
+    },
+    {
+      "after": "para.c01.008",
+      "before": "para.c01.009",
+      "cut_source_seconds": 109.229,
+      "silence_start_seconds": 108.867982,
+      "silence_end_seconds": 109.651837
+    },
+    {
+      "after": "para.c01.009",
+      "before": "para.c01.010",
+      "cut_source_seconds": 120.944,
+      "silence_start_seconds": 120.598095,
+      "silence_end_seconds": 121.380726
+    },
+    {
+      "after": "para.c01.010",
+      "before": "para.c01.011",
+      "cut_source_seconds": 134.393,
+      "silence_start_seconds": 133.998231,
+      "silence_end_seconds": 134.787596
+    },
+    {
+      "after": "para.c01.011",
+      "before": "para.c01.012",
+      "cut_source_seconds": 147.717,
+      "silence_start_seconds": 147.154989,
+      "silence_end_seconds": 147.894603
+    },
+    {
+      "after": "para.c01.012",
+      "before": "para.c01.013",
+      "cut_source_seconds": 160.182,
+      "silence_start_seconds": 159.84415,
+      "silence_end_seconds": 160.6139
+    },
+    {
+      "after": "para.c01.013",
+      "before": "para.c01.014",
+      "cut_source_seconds": 174.486,
+      "silence_start_seconds": 174.102018,
+      "silence_end_seconds": 174.871905
+    },
+    {
+      "after": "para.c01.014",
+      "before": "para.c01.015",
+      "cut_source_seconds": 189.44,
+      "silence_start_seconds": 189.047914,
+      "silence_end_seconds": 189.824535
+    },
+    {
+      "after": "para.c01.015",
+      "before": "para.c01.016",
+      "cut_source_seconds": 197.441,
+      "silence_start_seconds": 196.981429,
+      "silence_end_seconds": 197.901565
+    },
+    {
+      "after": "para.c01.016",
+      "before": "para.c01.017",
+      "cut_source_seconds": 210.831,
+      "silence_start_seconds": 210.434739,
+      "silence_end_seconds": 211.227166
+    },
+    {
+      "after": "para.c01.017",
+      "before": "para.c01.018",
+      "cut_source_seconds": 226.577,
+      "silence_start_seconds": 226.18161,
+      "silence_end_seconds": 226.971655
+    },
+    {
+      "after": "para.c01.018",
+      "before": "para.c02.000",
+      "cut_source_seconds": 234.704,
+      "silence_start_seconds": 234.313583,
+      "silence_end_seconds": 235.094036
+    }
+  ],
+  "chapter_source_start_seconds": 2.2,
+  "chapter_source_end_seconds": 234.704,
+  "chapter_duration_seconds": 232.504,
+  "excerpt": {
+    "path": "production/chapter-01/animation/seedance-2.5/audio/Chapter_1_Narration.wav",
+    "sha256": "cabdfa727bffdcfafefa22f4abf15fceb6008661d01eb6a5b7d83fff6db15d70",
+    "sample_rate": 44100,
+    "start_sample_in_source": 97020,
+    "end_sample_in_source": 10350446,
+    "decoded_sample_count": 10253426,
+    "decoded_duration_seconds": 232.50399092970522,
+    "processing": "Decoded to PCM16 mono at the original 44100 Hz; no time-stretch, normalization, voice replacement or internal splice. One continuous chapter excerpt."
+  },
+  "boundary_method": "Each cut lies within both the adjacent aligned paragraph gap and a measured silence interval at -38 dB for at least 0.1 s. Rounded to milliseconds for the edit plan; excerpt endpoints use nearest original sample.",
+  "independent_transcript_check": {
+    "method": "Local whisper.cpp small.en, one continuous 236-second decode",
+    "result": "Chapter title and all 18 paragraphs occur in the supplied recording in the expected order. Machine transcript reviewed against canonical passages; punctuation and past/passed are recognition variants, not edits to the recording.",
+    "segments": [
+      {
+        "source_start_seconds": 0.0,
+        "source_end_seconds": 4.16,
+        "text": "The Little Prince My first drawing."
+      },
+      {
+        "source_start_seconds": 5.04,
+        "source_end_seconds": 14.88,
+        "text": "When I was six, I found a picture I couldn't stop looking at. It was in a book about the forest."
+      },
+      {
+        "source_start_seconds": 15.92,
+        "source_end_seconds": 26.24,
+        "text": "A huge snake swallowing an animal. The book said these snakes swallowed their food whole."
+      },
+      {
+        "source_start_seconds": 27.36,
+        "source_end_seconds": 33.2,
+        "text": "After a meal, they couldn't move. They slept for six months."
+      },
+      {
+        "source_start_seconds": 34.32,
+        "source_end_seconds": 41.6,
+        "text": "Six months, I kept thinking about that snake and all the adventures in the forest."
+      },
+      {
+        "source_start_seconds": 42.88,
+        "source_end_seconds": 51.6,
+        "text": "At last, I took my pencil and began to draw. I called it drawing number one."
+      },
+      {
+        "source_start_seconds": 52.72,
+        "source_end_seconds": 59.6,
+        "text": "To me, it was wonderful. Now, I wanted to see what the grown-ups thought."
+      },
+      {
+        "source_start_seconds": 60.56,
+        "source_end_seconds": 66.8,
+        "text": "\"Are you frightened?\" I asked. \"Frightened? It's only a hat.\""
+      },
+      {
+        "source_start_seconds": 67.44,
+        "source_end_seconds": 77.04,
+        "text": "They said, \"A hat? It wasn't a hat at all. My snake had an elephant inside."
+      },
+      {
+        "source_start_seconds": 78.0,
+        "source_end_seconds": 84.8,
+        "text": "But the grown-ups could only see the outside.\" So, I drew another picture."
+      },
+      {
+        "source_start_seconds": 85.92,
+        "source_end_seconds": 93.12,
+        "text": "This time, I showed the inside of the snake, with the elephant in its big, round body."
+      },
+      {
+        "source_start_seconds": 94.24,
+        "source_end_seconds": 101.12,
+        "text": "Drawing number two. Now, they could see the elephant. I waited."
+      },
+      {
+        "source_start_seconds": 101.12,
+        "source_end_seconds": 106.0,
+        "text": "\"Put those snakes away,\" they said. \"Study geography, history,"
+      },
+      {
+        "source_start_seconds": 106.72,
+        "source_end_seconds": 113.76,
+        "text": "math, and grammar instead.\" I was only six, and already,"
+      },
+      {
+        "source_start_seconds": 113.76,
+        "source_end_seconds": 125.2,
+        "text": "I was giving up my life as an artist. I put down my pencil. Grown-ups need so many explanations,"
+      },
+      {
+        "source_start_seconds": 126.32,
+        "source_end_seconds": 133.84,
+        "text": "and when you're six, explaining everything again and again is very tiring."
+      },
+      {
+        "source_start_seconds": 134.8,
+        "source_end_seconds": 145.68,
+        "text": "Years past, I chose a different life and learned to fly planes. Since then, I've flown over many"
+      },
+      {
+        "source_start_seconds": 145.68,
+        "source_end_seconds": 156.48,
+        "text": "parts of the world. And, yes, geography has helped. One look, and I know. China or Arizona."
+      },
+      {
+        "source_start_seconds": 157.28,
+        "source_end_seconds": 164.16,
+        "text": "That's useful when you're lost in the dark. I've met many grown-ups in different countries."
+      },
+      {
+        "source_start_seconds": 165.04,
+        "source_end_seconds": 174.0,
+        "text": "I've listened to all their important talk, and I still remember why I put down my pencil."
+      },
+      {
+        "source_start_seconds": 174.8,
+        "source_end_seconds": 182.64,
+        "text": "But sometimes, I meet someone and think, \"Perhaps this one will understand.\""
+      },
+      {
+        "source_start_seconds": 183.92,
+        "source_end_seconds": 192.16,
+        "text": "I still have drawing number one, so I show it to them. I wait for their answer."
+      },
+      {
+        "source_start_seconds": 192.16,
+        "source_end_seconds": 204.08,
+        "text": "\"A hat,\" they say. \"Always a hat.\" After that, I say nothing more about snakes, forests, or stars."
+      },
+      {
+        "source_start_seconds": 205.04,
+        "source_end_seconds": 214.72,
+        "text": "We talk about work instead, about money, about clothes. And now they're pleased with me."
+      },
+      {
+        "source_start_seconds": 215.84,
+        "source_end_seconds": 225.92,
+        "text": "Such a sensible man. We understand each other so well. At least, that's what they think."
+      },
+      {
+        "source_start_seconds": 226.96,
+        "source_end_seconds": 235.76,
+        "text": "There were people all around me, but no one I could really talk to. Draw me."
+      }
+    ]
+  },
+  "limitations": "Original word alignment and the independent transcript are machine-derived, not a human listening certification. Silence checks support page boundaries. Action cues are phrase-level targets; confirm final video against the supplied sound."
+}

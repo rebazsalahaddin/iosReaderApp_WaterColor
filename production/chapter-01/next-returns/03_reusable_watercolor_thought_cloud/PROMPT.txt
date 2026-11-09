@@ -1,0 +1,28 @@
+Create ONE reusable watercolor thought-cloud component sheet for The Little Prince storybook.
+
+Use my established settings: Higgsfield / GPT Image 2.6 Flare / Medium quality / 4:3 landscape / 2K / one output.
+
+UPLOAD REFERENCES IN THIS ORDER:
+Image1: 01_watercolor_cloud_language.jpg. Visual language of the existing watercolor thought cloud: warm paper, soft blue-grey edge and handmade pigment. Borrow its organic shape and medium. Create a new BLANK cloud with a subtler, thinner broken edge. Exclude its sheep, ground, people, desert and fixed trail.
+Image2: 02_approved_watercolor_finish.png. Approved storybook paint handling, restrained palette and paper grain only. No people, table, room or drawings in the output.
+Image3: 03_chapter_01_palette.png. Current Chapter 1 palette and softness only: warm ivory, muted blue-grey and delicate ochre. No child, furniture, book or room in the output.
+Image4: 04_component_packing_guide.png. Packing and spacing only. Rectangles and words are technical instructions; do not reproduce them. All actual cloud silhouettes must be organic watercolor shapes.
+
+OUTPUT CONTENT — exactly FOUR separate painted components:
+1. ONE large wide EMPTY thought cloud across the upper part of the sheet. Its natural painted width is about 1.9 times its height. A gently asymmetric silhouette with a few broad, unequal rounded lobes, hand-painted rather than geometrically scalloped. No attached tail.
+2–4. Three separate small watercolor thought puffs in the lower band, increasing small/medium/large from left to right. Each is a gently irregular filled round puff in the identical palette and brushwork. These are standalone pieces that will later be arranged toward a thinking character. Do not connect them to the main cloud or one another.
+
+ART DIRECTION:
+An elegant, quiet picture-book watercolor thought cloud that belongs in the supplied illustrations. Warm ivory paper-colored center, subtle cool blue-grey and the faintest muted lavender pooling around parts of the edge, with a restrained touch of warm ochre. Broad soft washes, fine cold-press texture, delicate pigment blooms and a thin, softly broken local-color contour. Let sections of the contour dissolve into the painted wash. Light and airy, but clearly bounded enough to hold a separate imagined picture. It should feel painted on the same paper as the story, not pasted-on clip art. Keep pigment restrained and the center calm.
+
+EMPTY INTERIOR:
+Leave a broad, quiet, opaque warm-ivory interior occupying roughly the middle 70% of the cloud's width and 60% of its height. Very subtle grain only; no picture, snake, elephant, sheep, lettering, symbols, room, foliage or objects inside. This is a blank reusable container. The agent will insert the correct existing thought image later. No hollow hole, checkerboard or magenta inside the cloud or puffs.
+
+PACKING:
+Main cloud roughly x9–91%, y9–66% of the image; preserve a clean margin all around. Three separate puffs sit roughly across x23%, 49%, 76%, centered near y84%, with painted diameters around 6%, 8% and 10% of image height. Leave clean gutters between every component and at least 5% margin to the canvas edges. Image4 controls packing only, never artwork. No clipped lobes or touching pieces.
+
+ISOLATION:
+Outside the FOUR silhouettes, use completely flat uniform opaque #FF00FF magenta, including all gutters. Inside all cloud/puff silhouettes, preserve opaque painted ivory and colored washes. Softness comes from watercolor pigment inside the silhouette, not from a wide translucent magenta fog. No background grain, cast shadow, floor, glow, gradient or pink rim lighting. Preserve full original download.
+
+AVOID:
+No hard white rectangle or rounded rectangle; no thick comic outline, repetitive scallops, shiny 3D volume, bevel, grey drop shadow, cotton-ball realism, neon color, digital blur halo, sparkles or extra decorative clouds. No copied reference subjects. No words, labels, boxes, arrows or watermark. Do not make a whole story scene.

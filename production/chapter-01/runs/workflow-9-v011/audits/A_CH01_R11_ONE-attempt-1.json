@@ -1,0 +1,29 @@
+{
+  "node_id": "A_CH01_R11_ONE",
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/A_CH01_R11_ONE-attempt-1.png",
+  "source_sha256": "305fa7d2a96ec22bc64d464e2c58f975957501e83f7e03e950d7bdc127f64007",
+  "submitted_prompt": "Create ONE complete isolated object/editorial asset. a gently curled olive-ochre snake resting after a meal, one rounded swollen body and small closed eye; soft bounded forest-colour vignette on cream paper. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text. Keep exact single-state asset boundaries, dot-eye storybook watercolor discipline, and clean background handling.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T13:50:45+03:00",
+  "issues": [
+    {
+      "issue_id": "R11A01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        0,
+        45,
+        2322,
+        1699
+      ],
+      "observed": "Snake has an open mouth around an external sphere with a second snake tail protruding on the right, inherited from the A_CH01_R10_ONE swallowing silhouette.",
+      "expected": "Single continuous curled olive-ochre snake sleeping after its meal with closed mouth, small closed eye, one smooth swollen mid-body belly, and one tail.",
+      "precise_fix": "R11A01: Replace open-jawed snake attachment with pure watercolor style crop and specify one continuous curled sleeping olive-ochre snake with closed mouth, closed eye, one rounded swollen midsection, and one tapered tail.",
+      "recheck": "Verify exactly one head with closed mouth/eye, one continuous swollen body, and one tail, with nothing protruding from the mouth.",
+      "material_impact": "Two-tailed open-mouthed artifact cannot represent a sleeping boa digesting its meal on c01-s01-p03.",
+      "local_fix_ruled_out": "Source anatomy has an open mouth and duplicate tail rather than a closed sleeping snake with a swollen midsection."
+    }
+  ]
+}

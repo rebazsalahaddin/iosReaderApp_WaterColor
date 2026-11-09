@@ -1,0 +1,30 @@
+{
+  "id": "I_snake",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One identity sheet of a single slender gold-yellow desert snake in a loose low ring and a gentle extended S curve. Exactly same length/thickness, small dark dot eyes, closed small mouth and non-menacing neutral expression; restrained storybook watercolor. No legs, fangs or floor.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": null,
+  "candidate_role": "establish one slender gold-yellow snake identity with simple dark dot eyes, closed small mouth; audit consistent length/thickness from both views; no human posture",
+  "prompt_file": "production/reference-lineage/nodes/I_snake/PROMPT.txt",
+  "prompt": "One identity sheet of a single slender gold-yellow desert snake in a loose low ring and a gentle extended S curve. Exactly same length/thickness, small dark dot eyes, closed small mouth and non-menacing neutral expression; restrained storybook watercolor. No legs, fangs or floor. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "69b5390055b50cc207b09f58f3ef9df6de01127605682f32fa8b523fb8719a25",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_snake"
+}

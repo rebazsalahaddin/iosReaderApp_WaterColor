@@ -1,0 +1,141 @@
+{
+  "node_id": "N_child_standing_paper_left__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/N_child_standing_paper_left__soft_day_upper_left-attempt-2.png",
+  "source_sha256": "b4b5b3eaa53dd9b48b903a0919311cad11f836f6b5535154e563a9ca7cedd54e",
+  "source_dimensions": [
+    2336,
+    1744
+  ],
+  "format": "PNG",
+  "mode": "RGBA",
+  "attempt": 2,
+  "job_id": "b5f34fd3-9dbc-48c8-9fd6-bf4058d58f23",
+  "parents": [
+    {
+      "node_id": "I_child",
+      "path": "production/chapter-01/runs/workflow-8-v011/preflight/child-identity-three-quarter.png",
+      "sha256": "66189f88355625379751e442d48206c83534571565e9216d80164a28ed71a040"
+    }
+  ],
+  "submitted_prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Child standing three-quarter LEFT with both hands supporting one blank cream sheet toward adults off-frame LEFT; neutral face and balanced supported feet. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft neutral daylight from upper-left; preserve the established local colours. Include a very light soft attached watercolor contact shadow at visible ground supports, with graded alpha fading to full transparency. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.\n\nCORRECTION FOR REMAINING ATTEMPT\nS01: Remove every pale or cream floor patch beneath both boot soles; retain only a very light neutral warm-grey generated contact shadow with low graded alpha fading to zero, attached to both soles, with actual floor visible through it. Preserve the complete standing child, hands, blank sheet, boots, identity and camera.\nThe intact authority panel is the sole appearance and geometry authority. All diagnostic crops, dark backings, sketch and labels are instruction only; do not paint them. Preserve every other passing feature.\n",
+  "submitted_prompt_file": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/standing-attempt-2-prompt.txt",
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T22:35:51.438736+00:00",
+  "verdict": "BLOCKED",
+  "attempt_limit_exhausted": true,
+  "checks": {
+    "identity": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Chestnut tufted hair, small dot eyes, cream crew-neck shirt, tan cuffed trousers and brown boots retained. Child remains distinct from prince."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Small brown dot eyes retained without enlarged irises."
+    },
+    "native_geometry": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Complete left-facing balanced standing child and one blank cream sheet held by both hands; no missing foot or extra limb. Final measured source acceptance withheld because shadow fails."
+    },
+    "state_expression": {
+      "verdict": "PASS",
+      "evidence": "Quiet neutral face and leftward presentation setup; not a claimed final page expression."
+    },
+    "contacts": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Both hands support the same sheet and both boot soles meet the floor patch; shadow density fails."
+    },
+    "alpha": {
+      "verdict": "MATERIAL_FAIL",
+      "evidence": "Pale/neutral-grey floor patches remain conspicuous beneath both boots on dark and actual coral-rug backgrounds. Sample(1200,1630)=RGBA170,166,162,223; sample(1450,1600)=RGBA166,162,160,186. Fringe is graded but core remains too opaque and dense for the required very light generated shadow."
+    },
+    "shadow": {
+      "verdict": "MATERIAL_FAIL",
+      "evidence": "Pale/neutral-grey floor patches remain conspicuous beneath both boots on dark and actual coral-rug backgrounds. Sample(1200,1630)=RGBA170,166,162,223; sample(1450,1600)=RGBA166,162,160,186. Fringe is graded but core remains too opaque and dense for the required very light generated shadow."
+    },
+    "unchanged_regions": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Foundation retry from its accepted identity, not an expression edit."
+    }
+  },
+  "issues": [
+    {
+      "issue_id": "S01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        820,
+        1500,
+        780,
+        244
+      ],
+      "dimensions": [
+        2336,
+        1744
+      ],
+      "observed": "Pale/neutral-grey floor patches remain conspicuous beneath both boots on dark and actual coral-rug backgrounds. Sample(1200,1630)=RGBA170,166,162,223; sample(1450,1600)=RGBA166,162,160,186. Fringe is graded but core remains too opaque and dense for the required very light generated shadow.",
+      "expected": "Restrained low-alpha soft neutral warm-grey generated contact shadow, actual floor/rug visible through it, no dense pale island.",
+      "precise_fix": "Two-attempt cap reached: block this neutral and descendants. No renamed foundation or third generation.",
+      "material_impact": "A defective foundation would propagate dense floor patches to four presentation pages.",
+      "local_fix_ruled_out": "No accepted standing shadow exists to restore. Keying/erasing or programmatically reducing/rebuilding the generated shadow to disguise the source failure would not satisfy the accepted-neutral requirement."
+    }
+  ],
+  "second_attempt_recheck": [
+    {
+      "issue_id": "S01",
+      "result": "UNRESOLVED",
+      "evidence": "Pale/neutral-grey floor patches remain conspicuous beneath both boots on dark and actual coral-rug backgrounds. Sample(1200,1630)=RGBA170,166,162,223; sample(1450,1600)=RGBA166,162,160,186. Fringe is graded but core remains too opaque and dense for the required very light generated shadow."
+    },
+    {
+      "feature": "identity/dot eyes",
+      "result": "retained"
+    },
+    {
+      "feature": "one sheet and two hands",
+      "result": "retained"
+    },
+    {
+      "feature": "complete boots and stance",
+      "result": "retained"
+    },
+    {
+      "feature": "no diagnostic marks/scenery",
+      "result": "retained"
+    }
+  ],
+  "first_attempt_audit": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/standing-attempt-1-audit.json",
+  "correction_board": {
+    "path": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/standing-correction-board.png",
+    "sha256": "fff6deded24327c83dbed5915473185e09f71f4ecaf2a9b48c1c32441fbe943a",
+    "authority_parents": [
+      {
+        "node_id": "I_child",
+        "path": "production/chapter-01/runs/workflow-8-v011/preflight/child-identity-three-quarter.png",
+        "sha256": "66189f88355625379751e442d48206c83534571565e9216d80164a28ed71a040"
+      }
+    ],
+    "failed_source_sha256": "7ccae8a4fe7fd936d0de5703b8b43521262264c8c6d9993f4e5b51a88c771d03",
+    "issue_ids": [
+      "S01"
+    ],
+    "review_status": "approved_for_retry",
+    "reviewer": "Codex visual inspection",
+    "reviewed_at": "2026-11-07T22:19:39.212819+00:00",
+    "dominant_intact_authority": true,
+    "legible_at_upload_size": true,
+    "review_observations": "Complete2336x1744 board inspected at1824px width. Intact accepted authority dominates; source defect crops, precise requested state and all preservation instructions remain readable. No paid diagnostic generation. Foundation board retains exact identity and full failed posture as explicitly labelled geometry evidence."
+  },
+  "diagnostic_files": [
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/N_child_standing_paper_left__soft_day_upper_left-attempt-2-cream.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/N_child_standing_paper_left__soft_day_upper_left-attempt-2-dark.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/N_child_standing_paper_left__soft_day_upper_left-attempt-2-actual.jpg"
+  ],
+  "affected_pages": [
+    "c01-s02-p01",
+    "c01-s02-p02",
+    "c01-s02-p03",
+    "c01-s03-p02"
+  ],
+  "not_accepted": true
+}

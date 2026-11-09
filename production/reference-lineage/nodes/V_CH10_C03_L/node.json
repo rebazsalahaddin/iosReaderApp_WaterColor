@@ -1,0 +1,49 @@
+{
+  "id": "V_CH10_C03_L",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_prince_seated_ground_left__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_prince_seated_ground_left__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "prince seated on ground facing LEFT, knees supported, one hand covering a small tired yawn; no chair.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH10_C03",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c10-s03-p05",
+    "c10-s04-p02"
+  ],
+  "allowed_changes": "prince seated on ground facing LEFT, knees supported, one hand covering a small tired yawn; no chair.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "LEFT remains seated after the king allows him to sit; RIGHT is a genuine head/body direction variant, not a mirrored or replaced head.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH10_C03_L/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: prince seated on ground facing LEFT, knees supported, one hand covering a small tired yawn; no chair. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-10/pose-corrections/C03_prince_seated_yawn_and_looking_around/audit-contract.json",
+  "prompt_sha256": "3d4fc5286cad69056bebe8992ba89bf69b9d3a5d50e6ccf80ba926dc77c7d9c9",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH10_C03_L",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

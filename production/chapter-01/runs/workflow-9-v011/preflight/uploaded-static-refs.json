@@ -1,0 +1,83 @@
+{
+  "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png": {
+    "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+    "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+    "media_id": "850ad67f-cb14-4ee7-8f66-5d863ca10548"
+  },
+  "production/chapter-01/runs/workflow-8-v011/preflight/child-identity-three-quarter.png": {
+    "path": "production/chapter-01/runs/workflow-8-v011/preflight/child-identity-three-quarter.png",
+    "sha256": "66189f88355625379751e442d48206c83534571565e9216d80164a28ed71a040",
+    "media_id": "ef56c387-fe28-46ee-a854-ed4d2b6fb50a"
+  },
+  "production/chapter-01/runs/workflow-8-v011/preflight/child-room-furniture-geometry.png": {
+    "path": "production/chapter-01/runs/workflow-8-v011/preflight/child-room-furniture-geometry.png",
+    "sha256": "0d754c9cf33615ecf3b6cc59095fafd6591040275f2447ed80f7ed8b7a8c859e",
+    "media_id": "7d6ac8b7-bd91-4313-ab46-121ca15a5dcb"
+  },
+  "appearance-references/shared/LP_ref_char_grownup1_turnaround.png": {
+    "path": "appearance-references/shared/LP_ref_char_grownup1_turnaround.png",
+    "sha256": "2b9c4f26a0a3613f7cd58ee51674111e20db11af13f980a26128f4a7c1a58d79",
+    "media_id": "ba1833d6-9b6f-4f90-b2f0-df65b1fda248"
+  },
+  "appearance-references/shared/LP_ref_char_grownup2_turnaround.png": {
+    "path": "appearance-references/shared/LP_ref_char_grownup2_turnaround.png",
+    "sha256": "3ab08530209c18b023ea7ed91cff6cc4114f95cb930a43ac3dce4322ca0680b2",
+    "media_id": "4c38241c-d8a0-4f9d-8ad6-2be01454182c"
+  },
+  "appearance-references/shared/LP_ref_char_pilot_turnaround.png": {
+    "path": "appearance-references/shared/LP_ref_char_pilot_turnaround.png",
+    "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+    "media_id": "91bc2521-f9a6-41f0-a5a1-e9a1bcd5931d"
+  },
+  "appearance-references/chapter-01/LP_ref_char_grownup4_turnaround.png": {
+    "path": "appearance-references/chapter-01/LP_ref_char_grownup4_turnaround.png",
+    "sha256": "4802b0884b1fd288da9bdf998a0d2a79b40f41888ed1ab0d45d6056957fa7a61",
+    "media_id": "d6897790-6b45-4dcd-aa92-df9b8a863469"
+  },
+  "production/chapter-01/runs/workflow-9-v011/preflight/pilot-social-chair-geometry.png": {
+    "path": "production/chapter-01/runs/workflow-9-v011/preflight/pilot-social-chair-geometry.png",
+    "sha256": "0d73a20da248c594965119ca2c3d1d3bf22b96d057994154e8bef2f00ed25e5f",
+    "media_id": "9467c03d-39e1-4ecc-8f33-fef4e03d805b"
+  },
+  "production/chapter-01/runs/workflow-9-v011/preflight/younger-social-chair-geometry.png": {
+    "path": "production/chapter-01/runs/workflow-9-v011/preflight/younger-social-chair-geometry.png",
+    "sha256": "11d8284776e32ae842b2ed0de2e09dc67042a5dde038bb3333f0b96affe429c2",
+    "media_id": "9571b009-e5f9-463c-8e2c-b22bc6bd01bd"
+  },
+  "appearance-references/shared/plane_side_view.png": {
+    "path": "appearance-references/shared/plane_side_view.png",
+    "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+    "media_id": "12abb3d9-7916-42a3-a960-00c64d7f1b84"
+  },
+  "story-and-continuity/chapter-01/references/B10_childhood_room_without_foreground_furniture/reference-images/01_LP_ref_child_room.jpg": {
+    "path": "story-and-continuity/chapter-01/references/B10_childhood_room_without_foreground_furniture/reference-images/01_LP_ref_child_room.jpg",
+    "sha256": "39e0533078e2e4d695dd479f4538febe7e830a96dbdae2f9a45683f3a26e1c11",
+    "media_id": "7fbbfc86-71a6-4a4b-824a-bf16450691b8"
+  },
+  "story-and-continuity/chapter-01/references/B11_day_flight_landscape/reference-images/01_LP_ref_sahara_day.jpg": {
+    "path": "story-and-continuity/chapter-01/references/B11_day_flight_landscape/reference-images/01_LP_ref_sahara_day.jpg",
+    "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+    "media_id": "411c2734-fea0-475e-b10c-44dbbe32d0d5"
+  },
+  "story-and-continuity/chapter-01/references/B12_night_flight_landscape/reference-images/01_LP_ref_sahara_night.jpg": {
+    "path": "story-and-continuity/chapter-01/references/B12_night_flight_landscape/reference-images/01_LP_ref_sahara_night.jpg",
+    "sha256": "c99e972cf519b1be1804535072d92b5a7bad4b24a9f82dd56eb312abaac15bb7",
+    "media_id": "94103d3a-369d-4612-81af-cf4f1c1ab077"
+  },
+  "story-and-continuity/chapter-01/references/R10_forest_book_swallowing_picture/reference-images/01_LP_ref_child_book.png": {
+    "path": "story-and-continuity/chapter-01/references/R10_forest_book_swallowing_picture/reference-images/01_LP_ref_child_book.png",
+    "sha256": "eae9c508aeaaf02488093597bc9511f9f6381cfc0cd95730837e9691a6349c73",
+    "media_id": "7414fb82-2304-4117-a230-3749a237081f"
+  },
+  "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png": {
+    "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png",
+    "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+    "media_id": "623d10d4-adf1-446c-a008-ba170274485a"
+  },
+  "production/chapter-01/runs/workflow-9-v011/preflight/plane-starboard-geometry.png": {
+    "path": "production/chapter-01/runs/workflow-9-v011/preflight/plane-starboard-geometry.png",
+    "sha256": "ae748475b00fa70ca0c4ace91944edb49d413810cd4aec0deae6647b0f2999f5",
+    "media_id": "58740cfc-061d-4af6-8406-b957b5ec963d",
+    "role": "prop_geometry_authority"
+  }
+}

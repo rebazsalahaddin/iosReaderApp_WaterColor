@@ -1,0 +1,52 @@
+{
+  "id": "V_CH04_S01_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_pilot_room_desk__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_pilot_room_desk__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "approved seated-close adult pilot, complete visible table/chair and blank paper with pencils, drawing with quiet concentration. Preserve the exact camera and adult-to-table fit; legs remain naturally cropped as in the approved close anchor.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH04_S01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c04-s04-p04",
+    "c04-s05-p01",
+    "c04-s05-p02",
+    "c05-s04-p03",
+    "c05-s04-p04"
+  ],
+  "allowed_changes": "approved seated-close adult pilot, complete visible table/chair and blank paper with pencils, drawing with quiet concentration. Preserve the exact camera and adult-to-table fit; legs remain naturally cropped as in the approved close anchor.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "One coherent foreground group, no room walls. Head-height/table-width .31\u2013.37 for this camera only; do not claim full standing scale from hidden legs. Later portrait is graphite on paper, not a live prince. DIRECTION LOCK: Pilot seated at matching approved close camera, torso toward table, eyes DOWN to paper; table and chair perspective follow the single close anchor.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH04_S01_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: approved seated-close adult pilot, complete visible table/chair and blank paper with pencils, drawing with quiet concentration. Preserve the exact camera and adult-to-table fit; legs remain naturally cropped as in the approved close anchor. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-04/reusable-poses/S01_narrator_seated_drawing_and_reflecting/audit-contract.json",
+  "prompt_sha256": "8d294b1ba8179e8531989dc77f8769250c84c9e8635059ff453265db072b4084",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH04_S01_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

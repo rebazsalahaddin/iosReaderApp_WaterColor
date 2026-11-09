@@ -1,0 +1,99 @@
+{
+  "id": "N_rose_open__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_flower"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_flower"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Mature rooted living coral rose with two sage leaves and exactly four small thorns, same stem height and bloom structure, neutral calm face.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "rose_open",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c07-s03-p02",
+    "c08-s03-p01",
+    "c08-s03-p02",
+    "c08-s03-p03",
+    "c08-s03-p04",
+    "c08-s03-p05",
+    "c08-s03-p06",
+    "c08-s04-p02",
+    "c09-s01-p06",
+    "c09-s02-p01",
+    "c09-s02-p02",
+    "c09-s02-p03",
+    "c09-s02-p04",
+    "c09-s02-p05",
+    "c09-s02-p06",
+    "c09-s02-p07",
+    "c15-s03-p05",
+    "c19-s01-p09",
+    "c20-s02-p01",
+    "c21-s02-p03",
+    "c26-s05-p02"
+  ],
+  "legacy_tokens": [
+    "CH07_R02:L",
+    "CH07_R02:R",
+    "CH08_R03:L",
+    "CH08_R03:R"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-07/references/R02_living_special_rose/reference-images/02_LP_ch07_flower_scale_guide.png",
+      "sha256": "7964d694bc82a04a5bbc162e4ef375dc28f79924381dabc4decc893ceb46a9e7",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-07/references/R02_living_special_rose/reference-images/05_CH07_R02_PACKING_GUIDE.png",
+      "sha256": "26b971b3df7fc75121a76f27c7122e57ca7beada8a5c5dbf5ba3ecffa6836ad4",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-07/references/R02_living_special_rose/reference-images/06_c07-s03-p02_COMPOSITION_GUIDE.png",
+      "sha256": "64e152fad02fc5c381ab4cc54fc399770076f2721b30c1a22c2dc623744ec666",
+      "role": "TECHNICAL final-page placement for c07-s03-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-08/references/R03_rose_coughing_and_silent/reference-images/02_LP_ch08_growth_scale_guide.png",
+      "sha256": "78182037ca1d65853dbb6cebc489d4e6969d8277712c78421b5c0c3a5f784eb0",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-08/references/R03_rose_coughing_and_silent/reference-images/05_CH08_R03_PACKING_GUIDE.png",
+      "sha256": "dc77bc0d7b214ba89f1ed63f1ea0427be4d0a9b4585f38dec3fb9fe2afe84992",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-08/references/R03_rose_coughing_and_silent/reference-images/06_c08-s04-p01_COMPOSITION_GUIDE.png",
+      "sha256": "88fcda1496a98d8d84654dcbc1a122209a80a9f27a26c34a239fa2c37e9428bf",
+      "role": "TECHNICAL final-page placement for c08-s04-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_rose_open__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Mature rooted living coral rose with two sage leaves and exactly four small thorns, same stem height and bloom structure, neutral calm face. Preserve the exact plant identity, petal/leaf/thorn counts, stem proportions, colours and existing tiny facial features. No human anatomy or invented features. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "ff7419137ff307cbdc3be22b8387c206b6909356a62d08cd4e4ba53a0e89f0a7",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_rose_open__soft_day_upper_left"
+}

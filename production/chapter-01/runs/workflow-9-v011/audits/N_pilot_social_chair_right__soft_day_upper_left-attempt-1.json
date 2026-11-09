@@ -1,0 +1,40 @@
+{
+  "node_id": "N_pilot_social_chair_right__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "attempt": 1,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/N_pilot_social_chair_right__soft_day_upper_left-attempt-1.png",
+  "source_sha256": "b4e920f2001da1e02b2814e2da90a418ed658d2dcdc362e66ef36a42cc3a16f9",
+  "parents": [
+    {
+      "node_id": "I_pilot_civilian",
+      "path": "production/chapter-01/runs/workflow-9-v011/sources/I_pilot_civilian-attempt-2.png",
+      "sha256": "15f4577c4244a5ff624ffc8a4c8f652e66bbbc660d845f06d6f14447e7ad2854"
+    }
+  ],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T10:28:41.391763+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Single seated civilian pilot (I_pilot_civilian) on the wooden chair facing three-quarter right, cream button-down shirt, tan trousers, brown leather shoes, blank ivory sheet resting on lap beneath relaxed hands, complete chair legs and grounded shoes, clean transparent alpha on light and dark diagnostic plates."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/N_pilot_social_chair_right__soft_day_upper_left-attempt-1.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "PASS",
+      "evidence": "Soft translucent ground contact shadow verified on light and dark backgrounds with no opaque floor patch."
+    }
+  },
+  "issues": []
+}

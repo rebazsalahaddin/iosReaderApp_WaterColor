@@ -1,0 +1,46 @@
+{
+  "chapter": 23,
+  "method": "Pillow programmatic technical layout; thumbnails of existing source art plus explicitly schematic placement zones; no generative calls",
+  "programmatic_targets": [
+    "PROPOSED • unchanged child proportions",
+    [
+      [
+        "Seller body",
+        1.0
+      ],
+      [
+        "Prince height",
+        0.62
+      ]
+    ]
+  ],
+  "generated_guides": [
+    {
+      "path": "size-and-location-references/chapter-23/CH23_G01_size_and_sheet_layout.png",
+      "sha256": "75863736b4220d7b68af8f8797dcbacbb4c21c6c545c1e79f6f5e80f0914f0c4",
+      "pixels": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "size-and-location-references/chapter-23/CH23_L01_location_and_placement.png",
+      "sha256": "14b5e1487d52d39fa246dd67c519325d5a582507f2d6f8f6b24e880c08d38624",
+      "pixels": [
+        2400,
+        1792
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "source": "appearance-references/shared/LP_ref_char_prince_turnaround.png",
+      "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9"
+    },
+    {
+      "source": "appearance-references/shared/LP_ref_char_pillseller_turnaround.png",
+      "sha256": "f6514bf742e26de232707b72d6fde0cee185d37f214bf4d80e43b4d06cde074c"
+    }
+  ],
+  "status": "technical planning only; not final-art approval"
+}

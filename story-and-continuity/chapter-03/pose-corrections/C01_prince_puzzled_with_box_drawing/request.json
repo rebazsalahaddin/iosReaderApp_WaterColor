@@ -1,0 +1,111 @@
+{
+  "id": "CH03_C01",
+  "chapter": 3,
+  "code": "C01",
+  "title": "prince puzzled with box drawing",
+  "kind": "pose",
+  "cells": [
+    "ONE: standing prince at RIGHT, body and feet LEFT; head raised LEFT toward pilot, one blank sheet held securely at lower chest in both hands, puzzled earnest brows."
+  ],
+  "refs": [
+    "prince",
+    "standing",
+    "success_style",
+    "style"
+  ],
+  "details": "Use existing box drawing on paper; it is not a physical wooden box. Different from eyes-down examining pose.",
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "dependencies": [
+    "CH03_S02"
+  ],
+  "key": null,
+  "slug": "prince_puzzled_with_box_drawing",
+  "output": "CH03_C01_prince_puzzled_with_box_drawing.png",
+  "revision_origin": "required state planned during full-book review",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c03-s03-p02"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing",
+  "raw_output_folder": "production/chapter-03/props/raw",
+  "representative_page": "c03-s03-p02",
+  "placement_targets": [
+    {
+      "page": "c03-s03-p02",
+      "cell": "CH03_C01:ONE",
+      "box_px": [
+        1505,
+        920,
+        390,
+        610
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_char_prince_turnaround.png",
+      "role": "Prince identity: golden hair, rounded child face, sage coat, CORAL scarf, brass buttons and brown boots; never enlarge him to adult proportions.",
+      "path": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing/reference-images/01_LP_ref_char_prince_turnaround.png",
+      "status": "supplied",
+      "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+      "source_key": "prince"
+    },
+    {
+      "name": "02_LP_scale_prince_pilot_standing.png",
+      "role": "Same-depth prince/pilot standing height .61 (band .58\u2013.64); head HEIGHT .86 (band .81\u2013.91). Do not use for unrelated adults or seated-height comparisons.",
+      "path": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing/reference-images/02_LP_scale_prince_pilot_standing.png",
+      "status": "supplied",
+      "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+      "source_key": "standing"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_accepted_CH03_S02_prince_laughing_and_holding_drawing.png",
+      "role": "ACCEPTED CH03_S02: prince laughing and holding drawing. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing/reference-images/05_accepted_CH03_S02_prince_laughing_and_holding_drawing.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH03_S02",
+      "expected_raw": "production/chapter-03/props/raw/CH03_S02_prince_laughing_and_holding_drawing.png"
+    },
+    {
+      "name": "06_CH03_C01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing/reference-images/06_CH03_C01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "2430007675312374368428b9b4d0b14dd1b36fd114534ec4a569915e70790258"
+    },
+    {
+      "name": "07_c03-s03-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c03-s03-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing/reference-images/07_c03-s03-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "fca0b4f33da1a46ba76cc12af5d45eb51279e804215aa3b97d1baa1dc362035f"
+    }
+  ],
+  "readiness": "wait_for_listed_checked_dependencies",
+  "prompt": "CH03_C01 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: standing prince at RIGHT, body and feet LEFT; head raised LEFT toward pilot, one blank sheet held securely at lower chest in both hands, puzzled earnest brows.\n  Actual short payload: production/reference-lineage/nodes/V_CH03_C01_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "V_CH03_C01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

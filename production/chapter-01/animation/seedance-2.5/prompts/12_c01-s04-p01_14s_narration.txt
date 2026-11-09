@@ -1,0 +1,23 @@
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 14-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+The adult pilot is already airborne in the single-cockpit aircraft, nose pointing viewer left. Keep the complete aircraft and pilot at the reference size and position, with a level attitude.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–5.217 seconds: Begin steady level flight from the approved nose-left aircraft. The complete plane/pilot stays nearly fixed; the existing two-blade propeller has a continuous soft rotational blur.
+5.217–7.147 seconds: Maintain quiet forward-focused attention. Only distant terrain drifts toward viewer right, no more than two percent of frame width over the entire clip.
+7.147–12.7 seconds: The pilot gives one small blink and a tiny forward-focused eye adjustment. Slight hair-tip motion suggests airflow; hands remain inside the same cockpit.
+12.7–14 seconds: Maintain the same scale, level attitude and gentle speed through the end. No departure from frame.
+
+GENERATED SOUND: AMBIENCE ONLY
+Soft even piston-engine hum and gentle airflow, quiet beneath a later narration mix. No revving, radio, voices, wind gusts, navigation beeps or music. Thought pictures are silent.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+No bank, dive, takeoff, landing, camera orbit, zoom, gear retraction or additional cockpit. Preserve closed cowling, tail, windscreen, wings and two-blade design. Do not mirror the aircraft or introduce a map/cloud.
+
+END STATE
+All story movement finishes within the first 13.324 seconds; maintain a quiet stable hold through 14 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

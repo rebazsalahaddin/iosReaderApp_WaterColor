@@ -1,0 +1,28 @@
+{
+  "checked_date": "2026-11-07",
+  "evidence_tools": [
+    "models_search",
+    "models_get",
+    "estimate_image_cost"
+  ],
+  "model_id": "nano_banana_2_1",
+  "model_display_name": "Nano Banana 2.1",
+  "verified_settings": {
+    "resolution": "2k",
+    "thinking_level": "high",
+    "aspect_ratio": "4:3",
+    "count": 1
+  },
+  "reference_role": "image_references",
+  "cost_observation": {
+    "credits": 2,
+    "exact": 2,
+    "jobs_submitted": 0,
+    "future_price_guarantee": false
+  },
+  "service_batch_max_observed": 6,
+  "local_concurrency_cap": 3,
+  "jobs_wait_max_ids": 8,
+  "jobs_wait_max_seconds": 15,
+  "refresh_at_execution": true
+}

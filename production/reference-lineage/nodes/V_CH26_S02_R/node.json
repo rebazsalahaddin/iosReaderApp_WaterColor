@@ -1,0 +1,49 @@
+{
+  "id": "V_CH26_S02_R",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_snake_s_curve__evening_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_snake_s_curve__evening_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "same single snake extended in a retreating S curve toward RIGHT between small stones, no feet or extra coils.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH26_S02",
+  "legacy_cell": "R",
+  "affected_pages": [
+    "c26-s01-p07",
+    "c26-s01-p08"
+  ],
+  "allowed_changes": "same single snake extended in a retreating S curve toward RIGHT between small stones, no feet or extra coils.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Snake identity MUST follow accepted Chapter 17 A01. No fangs, strike or injury in this sheet.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH26_S02_R/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: same single snake extended in a retreating S curve toward RIGHT between small stones, no feet or extra coils. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-26/reusable-poses/S02_snake_revealed_and_retreating/audit-contract.json",
+  "prompt_sha256": "05572ce72c9f5936e507a42627f320b8e12724241af0dc755eb14dfee7d82f43",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH26_S02_R",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

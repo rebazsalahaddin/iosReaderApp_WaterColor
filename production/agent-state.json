@@ -1,0 +1,138 @@
+{
+  "workflow_version": 9,
+  "status": "awaiting_chapter_approval",
+  "active_chapter": null,
+  "recommended_next_chapter": 2,
+  "execution_authorizations": [
+    {
+      "chapter": 1,
+      "user_message": "Also revise the Chapter 1 images",
+      "recorded_at": "2026-11-07T00:33:53.995710+00:00",
+      "scope": "Add missing hat thoughts and pilot mental map; retain all accepted scene geometry."
+    },
+    {
+      "chapter": 1,
+      "user_message": "the hat is just too huge and does not match the style and the aesthetics of the illustrations and also the map is just too realistic and too detailed ... composite the whole plane page illustrations to make some more space for the map",
+      "recorded_at": "2026-11-07T00:59:59.490248+00:00",
+      "scope": "Correct hat/map source style within the remaining attempt and recompose three affected pages, including complete night aircraft/pilot group; update future guidance."
+    },
+    {
+      "chapter": 2,
+      "user_message": "I approve chapter 1 v009 and I would like you to proceed with the execution of Chapter 2 strictkly following the instructions",
+      "recorded_at": "2026-11-07T13:04:56.022320+00:00",
+      "scope": "Full Chapter 2 production under workflow 7: chapter dependency closure only, two attempts per reference, delivery then manual approval stop."
+    },
+    {
+      "chapter": 1,
+      "recorded_at": "2026-11-07T17:52:02.837996+00:00",
+      "user_message": "But when it comes to chapter one, I want you to fix it ... you have full authority to even generate new references ... for chapter one",
+      "scope": "Audit and revise Chapter 1 positions, unique visual beats, expressions, three-puff thoughts, attached grounding, measured relative scale and motivated framing. Chapter 2 audit/handoff only; no Chapter 2 generation or Chapter 3 execution."
+    },
+    {
+      "chapter": 1,
+      "recorded_at": "2026-11-07T21:53:43.339876+00:00",
+      "user_message": "now regenerate chapter 1 following he new revised prompt",
+      "scope": "Regenerate Chapter 1 only with workflow 8. Audit/reuse suitable identities and sources; preserve historical attempts, use approved neutral parents, stop for manual chapter approval."
+    },
+    {
+      "chapter": 1,
+      "recorded_at": "2026-11-07T22:19:39.212819+00:00",
+      "user_message": "continue with chapter one regeneration carefully where it stoped following the new revised version of the prompt",
+      "scope": "Resume the existing workflow-8-v011 Chapter1 regeneration only. Preserve existing attempts, exact neutral parents, retained v010 delivery and manual approval boundary."
+    },
+    {
+      "chapter": 1,
+      "recorded_at": "2026-11-07T22:31:50.856372+00:00",
+      "user_message": "continue",
+      "scope": "Resume the existing Chapter1 workflow-8 regeneration after Higgsfield tools are restored. Preserve both ledgers, attempt limits, neutral parent rules and manual approval stop."
+    },
+    {
+      "chapter": 1,
+      "user_message": "generate chapter one illustrations carefully following the instruction",
+      "recorded_at": "2026-11-08T12:45:00+03:00",
+      "scope": "Complete Workflow-9 fresh-start cleanup of Chapter 1 and Chapter 2 prior generated art/deliveries, then generate and compose all 19 Chapter 1 illustrations under Workflow 9 and stop at awaiting_chapter_approval."
+    }
+  ],
+  "chapter_approvals": [
+    {
+      "chapter": 1,
+      "edition": "v007",
+      "user_message": "now everything fixed very accurately the only thing left to do is to improve the generation prompts",
+      "recorded_at": "2026-11-07T00:33:53.995710+00:00",
+      "scope": "Existing version 7 geometry and art approved; new narrative additions require review.",
+      "approved_delivery_sha256": "aa4afeb8da0e4926de8b9bd02c4f20bc67f4c755ab474bdb88bf4d9356f29ab5"
+    },
+    {
+      "chapter": 1,
+      "edition": "v009",
+      "user_message": "I approve chapter 1 v009 and I would like you to proceed with the execution of Chapter 2 strictkly following the instructions",
+      "recorded_at": "2026-11-07T13:04:56.022320+00:00",
+      "scope": "Full v009 edition approved including the three hat/map thought revisions; authorizes proceeding to Chapter 2 only.",
+      "approved_delivery_sha256": "36d4e3a3ce9cde34d39561bfb6c03a4363988e607de419a538288e6eee81a7dc",
+      "continue_to_chapter": 2
+    }
+  ],
+  "chapter_runs": {
+    "1": {
+      "status": "awaiting_chapter_approval",
+      "edition": "v011",
+      "delivery": "production/chapter-01/delivery/chapter-01-v011",
+      "archive": "production/chapter-01/delivery/Chapter_01_Illustrations_v11.zip",
+      "delivery_sha256": "6c2361ba206f86a6fcea528ceb0e0969e2d41a424848dbe08a06453209051c01",
+      "page_manifest": "production/chapter-01/chapter-01-page-manifest.json",
+      "page_audits": [
+        "production/chapter-01/audits/pages/c01-s01-p01.json",
+        "production/chapter-01/audits/pages/c01-s01-p02.json",
+        "production/chapter-01/audits/pages/c01-s01-p03.json",
+        "production/chapter-01/audits/pages/c01-s01-p04.json",
+        "production/chapter-01/audits/pages/c01-s02-p01.json",
+        "production/chapter-01/audits/pages/c01-s02-p02.json",
+        "production/chapter-01/audits/pages/c01-s02-p03.json",
+        "production/chapter-01/audits/pages/c01-s03-p01.json",
+        "production/chapter-01/audits/pages/c01-s03-p02.json",
+        "production/chapter-01/audits/pages/c01-s03-p03.json",
+        "production/chapter-01/audits/pages/c01-s03-p04.json",
+        "production/chapter-01/audits/pages/c01-s04-p01.json",
+        "production/chapter-01/audits/pages/c01-s04-p02.json",
+        "production/chapter-01/audits/pages/c01-s04-p03.json",
+        "production/chapter-01/audits/pages/c01-s05-p01.json",
+        "production/chapter-01/audits/pages/c01-s05-p02.json",
+        "production/chapter-01/audits/pages/c01-s05-p03.json",
+        "production/chapter-01/audits/pages/c01-s06-p01.json",
+        "production/chapter-01/audits/pages/c01-s06-p02.json"
+      ]
+    },
+    "2": {
+      "status": "cleaned_pending_regeneration",
+      "purpose": "full chapter production",
+      "initial_sources": 12,
+      "estimated_initial_credits": 24,
+      "correction_reserve_credits": 2,
+      "next_chapter_authorized": false,
+      "delivery": null,
+      "archive": null,
+      "delivery_sha256": null,
+      "page_manifest": "production/chapter-02/chapter-02-page-manifest.json",
+      "page_audits": [],
+      "source_generations": 13,
+      "retries": 1,
+      "estimated_credits": 26,
+      "actual_credits": null,
+      "blocked_within_chapter": [
+        "CH02_S02:L asking-state (two attempts exhausted; direction not corrected; substitute CH02_S05:L used on 7 pages)"
+      ],
+      "v002_fix_cycle": {
+        "requested_at": "2026-11-07",
+        "trigger": "user review of v001 with page-level defect list",
+        "executed": "19 parallel page agents + master audit loop; local recomposition only; no new generation attempts",
+        "edition_dir": null,
+        "delivery_sha256": "b2df888d3ef152e87ba06a25d02d7a6c032f3af4e81fc182a2cea291cdf21731",
+        "prior_edition": "chapter-02-v001 (ebbc68c3...) retained until v002 approval",
+        "completed_at": "2026-11-07"
+      },
+      "pending_approval_for_edition": null,
+      "latest_user_findings": "Scale, internal proportions, shadows, expressive interaction and imagined sheep require correction; v002 is not a visual authority."
+    }
+  },
+  "note": "Workflow-9 fresh-start cleanup completed. Prior Chapter 1 and Chapter 2 generated art, layers, components, and deliveries retired in authorized-removal-inventory.json. Historical job records and attempt counts preserved."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "A_CH23_B01_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-23/references/B01_seller_empty_setting/reference-images/01_LP_ref_sahara_day.jpg",
+        "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+        "role": "Existing empty daytime Sahara plate. Preserve the full view and watercolor margins."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "sparse quiet open-air pale ochre ground with soft distant muted vegetation and open pale sky, no people, counter, signs, town or medicine advertising.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH23_B01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c23-s01-p02",
+    "c23-s01-p03",
+    "c23-s01-p04",
+    "c23-s01-p05",
+    "c23-s01-p06"
+  ],
+  "audit_only_details": "New understated location proposal; source does not specify a detailed town. Keep scenery modest and avoid Sahara machinery.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH23_B01_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. sparse quiet open-air pale ochre ground with soft distant muted vegetation and open pale sky, no people, counter, signs, town or medicine advertising. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-23/references/B01_seller_empty_setting/audit-contract.json",
+  "prompt_sha256": "874fbe81ad423eb53ed675b5b7e1d9928d421158e7b67d35412e0ad93c5f4634",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH23_B01_ONE"
+}

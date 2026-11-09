@@ -1,0 +1,84 @@
+{
+  "page": "c01-s01-p03",
+  "canvas": [
+    2400,
+    1792
+  ],
+  "edition": "v011",
+  "layers": [
+    {
+      "source": "production/chapter-01/current/layers/fae820ca3c6ead26aecf.png",
+      "sha256": "fae820ca3c6ead26aecf98bfe9a0bb97ee1e173bd6dfe784dd567e41383f7f9f",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/7a54c0090311dac4422a.png",
+      "sha256": "7a54c0090311dac4422aed41bc34a49deebefcc571a139d424f41f63d99d9826",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/7abc0ac9ad964a7d824c.png",
+      "sha256": "7abc0ac9ad964a7d824c8d9eb3e84dec7c6f632f33065737eb47507814e40369",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/2b6a990d1a57357a9604.png",
+      "sha256": "2b6a990d1a57357a9604ff69f2035d88d9a10f9220256ef70155e43678576f9d",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    }
+  ],
+  "thought_cloud": {
+    "decision": "thought_cloud",
+    "content_first": true,
+    "trail_count": 3,
+    "size": [
+      800,
+      500
+    ],
+    "interior_opacity": 1,
+    "content": {
+      "size": [
+        640,
+        384
+      ],
+      "strength": 1,
+      "strong_pigment_outside_safe_center": 0
+    },
+    "puffs": [
+      {
+        "size": [
+          42,
+          42
+        ]
+      },
+      {
+        "size": [
+          31,
+          31
+        ]
+      },
+      {
+        "size": [
+          22,
+          22
+        ]
+      }
+    ]
+  }
+}

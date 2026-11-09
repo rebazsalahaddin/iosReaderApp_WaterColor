@@ -1,0 +1,21 @@
+{
+  "path": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-correction-board.png",
+  "sha256": "7edde54323aaaeacf1db15c062868d47db94dcf1597a7d3bd1a1dbe1eed91c6a",
+  "authority_parents": [
+    {
+      "node_id": "N_child_table__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-2.png",
+      "sha256": "ba1a56b2874e952e190e6cc668d729ad091d1e5717cd8bc9e0df36728c9f7a7a"
+    }
+  ],
+  "failed_source_sha256": "8d94484a13c70a12fe0d1e2ada9673322cdbc879d76a55be2d0a05a70a3f3e7b",
+  "issue_ids": [
+    "E01"
+  ],
+  "review_status": "approved_for_retry",
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T22:19:39.212819+00:00",
+  "dominant_intact_authority": true,
+  "legible_at_upload_size": true,
+  "review_observations": "Complete2336x1744 board inspected at1824px width. Accepted full neutral is dominant; closed-book failure, instruction-only open-book sketch, failed pale shadows and exact accepted shadow target are readable. L01 explicitly local, not an extra paid correction."
+}

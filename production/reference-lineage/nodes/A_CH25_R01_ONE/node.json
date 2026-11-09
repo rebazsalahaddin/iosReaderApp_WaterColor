@@ -1,0 +1,44 @@
+{
+  "id": "A_CH25_R01_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-25/references/R01_muzzle_drawing_without_strap/reference-images/01_drawing_box_flat.png",
+        "sha256": "b51658be2e65c00e7c5b42e776bb8be27f538f75d5e158d2504e36fb28f2fe62",
+        "role": "Existing box drawing with holes. Sheep remains unseen inside; not a physical box or a visible sleeping lamb."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "on one plain cream paper sheet, a simple thin grey-black pen drawing of a small sheep muzzle basket with NO strap, tie, fastening loop or cord. No sheep, words or instructions.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH25_R01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c25-s02-p06",
+    "c27-s02-p01"
+  ],
+  "audit_only_details": "New single canonical in-world drawing, not wearable hardware. Muzzle omission must remain identical in Chapters 25–27; no apparent strap in linework.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH25_R01_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. on one plain cream paper sheet, a simple thin grey-black pen drawing of a small sheep muzzle basket with NO strap, tie, fastening loop or cord. No sheep, words or instructions. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-25/references/R01_muzzle_drawing_without_strap/audit-contract.json",
+  "prompt_sha256": "3ed985d7347f673ba0de96fe108e5ae6410516b616226031362eaf45ab7fd8bf",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH25_R01_ONE"
+}

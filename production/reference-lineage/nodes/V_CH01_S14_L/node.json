@@ -1,0 +1,48 @@
+{
+  "id": "V_CH01_S14_L",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_older_standing_right__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_older_standing_right__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "same older man standing body and feet RIGHT, head down-right, one modest hand indicating schoolwork off-frame, serious ordinary expression.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_S14",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c01-s03-p02"
+  ],
+  "allowed_changes": "same older man standing body and feet RIGHT, head down-right, one modest hand indicating schoolwork off-frame, serious ordinary expression.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Same identities and scale as S13; no aggression or actual schoolbooks invented.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH01_S14_L/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: same older man standing body and feet RIGHT, head down-right, one modest hand indicating schoolwork off-frame, serious ordinary expression. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/audit-contract.json",
+  "prompt_sha256": "3114264b7685d8e9c874010a3996c7ce483d462d58c24ac73f8a9ad7dcb461eb",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH01_S14_L",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

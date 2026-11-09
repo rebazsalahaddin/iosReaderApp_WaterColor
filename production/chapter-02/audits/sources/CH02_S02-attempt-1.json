@@ -1,0 +1,155 @@
+{
+ "request_id": "CH02_S02",
+ "attempt": 1,
+ "job_id": "d8400859-d9e4-44ea-9ae9-f78760a8318e",
+ "source_file": "production/chapter-02/props/raw/CH02_S02_prince_requesting_and_inspecting.png",
+ "source_sha256": "3ccab0c1cb06052584f3e25c199da6a3e652a9d528eb825fada9b29a41617fc8",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "b7602cfa68ec0f745af2117ba91004dcd985c1da38471b77bd74075403123379",
+ "attachments": [],
+ "cells": [
+  "L",
+  "R"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Same child both cells: golden messy hair, rounded face, sage coat, CORAL scarf, three brass buttons, brown boots; child proportions preserved (no adult enlargement); soft watercolor with thin warm contours."
+  },
+  "orientation_expression": {
+   "verdict": "MATERIAL_FAIL",
+   "evidence": "RIGHT cell PASS: leans from hips toward viewer-LEFT, thoughtful serious face, both hands behind back, empty hands. LEFT cell FAIL: figure stands three-quarter facing viewer-RIGHT (boot toes, button-line offset, nearer left shoulder, rightward pupils; raised open palm extends viewer-RIGHT) while contract requires three-quarter facing LEFT with the small open-hand gesture toward the pilot positioned page-left on all ten L-state pages."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "Exactly two single-child cells; no papers/props/chairs/labels anywhere; RIGHT cell confirms no paper in hands."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "Clean flat #FF00FF-family key (253,0,253) through all gaps between legs/under hem/between arms and body; no spill; no clipping at canvas edges (scarf tails well inside frame)."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Left cell painted [154,151,1072,1636], right [1382,207,2229,1641]; 309px clear gutter; standing figures ~1350-1480px tall support 610px final standing height at scale ~0.44."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "PENDING_EXTRACTION",
+   "evidence": "Only applicable to accepted RIGHT cell; standard magenta keying."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Both poses read clearly at reading size; LEFT reads as asking but toward the wrong side, breaking the recipient connection on staged pages."
+  },
+  "second_contract_check": {
+   "verdict": "MATERIAL_FAIL",
+   "evidence": "Focused re-inspection of left-cell crop confirms three-quarter viewer-RIGHT facing on five independent cues (toes, button line, shoulder plane, pupils, palm extension); first-pass \"near-frontal\" reading also fails the required three-quarter LEFT lock. Mirroring is prohibited; no planned alternative complete asking-state exists (CH02_S05:L is a different quiet-attentive state)."
+  }
+ },
+ "issues": [
+  {
+   "issue_id": "CH02_S02-L-DIRECTION",
+   "request_id": "CH02_S02",
+   "attempt": 1,
+   "cell": "L",
+   "affected_pages": [
+    "c02-s02-p01",
+    "c02-s02-p04",
+    "c02-s02-p05",
+    "c02-s02-p06",
+    "c02-s03-p01",
+    "c02-s03-p02",
+    "c02-s03-p05",
+    "c02-s04-p01",
+    "c02-s04-p03"
+   ],
+   "coordinate_space": "source",
+   "image_dimensions": [
+    2400,
+    1792
+   ],
+   "bbox_xywh": [
+    154,
+    151,
+    918,
+    1486
+   ],
+   "evidence_file": "production/chapter-02/audits/sources/CH02_S02_attempt-1_leftcell_evidence.png",
+   "evidence_sha256": "6cd94250be0dfcd4fd62c097521dc333bce757d57ce4238793912de647fcfcd1",
+   "expected": "LEFT cell: prince standing three-quarter facing viewer-LEFT, calm intent eyes, gently asking, one small open-hand gesture directed toward the pilot placed page-left.",
+   "contract_reference": "audit-contract.json expected_cells[0]; PROMPT.txt REQUESTED CONTENT/LEFT; page layouts c02-s02-p01 etc.",
+   "observed": "LEFT cell figure stands three-quarter facing viewer-RIGHT: both boot toes angle right, coat button placket offset right, left shoulder nearer viewer, pupils right of eye centers, raised open palm extends viewer-right.",
+   "material_impact": "Reverses the prince-to-pilot addressing direction on nine pages; the request gesture points away from the pilot, breaking the visible recipient connection required by the narrative staging gate.",
+   "cause": "source",
+   "local_or_existing_source_option": "None: mirroring the figure is prohibited (asymmetric scarf/hair); no accepted compatible asking-state source exists; CH02_S05:L is a different state.",
+   "decision": "MATERIAL_FAIL",
+   "precise_fix": "Second and final attempt: re-create the complete two-cell sheet per the original prompt with the LEFT cell corrected to three-quarter viewer-LEFT (toes/knees/hips/torso/button-line toward viewer-left, gaze toward viewer-left, open-hand gesture extending viewer-left); preserve RIGHT cell exactly as returned along with identity, costume, packing, key isolation and style; attach failed return last as diagnostic only.",
+   "recheck": "Post-return focused left-cell inspection on the same five cues plus full second-pass contract check.",
+   "resolved": false
+  }
+ ],
+ "verdict": "PARTIALLY_ACCEPTED",
+ "accepted_cells": [
+  "R"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "cell_audits": {
+  "R": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[R] Same child both cells: golden messy hair, rounded face, sage coat, CORAL scarf, three brass buttons, brown boots; child proportions preserved (no adult enlargement); soft watercolor with thin warm contours."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[R] RIGHT cell PASS: leans from hips toward viewer-LEFT, thoughtful serious face, both hands behind back, empty hands. LEFT cell FAIL: figure stands three-quarter facing viewer-RIGHT (boot toes, button-line offset, nearer left shoulder, rightward pupils; raised open palm extends viewer-RIGHT) while contract requires three-quarter facing LEFT with the small open-hand gesture toward the pilot positioned page-left on all ten L-state pages."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[R] Exactly two single-child cells; no papers/props/chairs/labels anywhere; RIGHT cell confirms no paper in hands."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[R] Clean flat #FF00FF-family key (253,0,253) through all gaps between legs/under hem/between arms and body; no spill; no clipping at canvas edges (scarf tails well inside frame)."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[R] Left cell painted [154,151,1072,1636], right [1382,207,2229,1641]; 309px clear gutter; standing figures ~1350-1480px tall support 610px final standing height at scale ~0.44."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[R] Only applicable to accepted RIGHT cell; standard magenta keying."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[R] Both poses read clearly at reading size; LEFT reads as asking but toward the wrong side, breaking the recipient connection on staged pages."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[R] Focused re-inspection of left-cell crop confirms three-quarter viewer-RIGHT facing on five independent cues (toes, button line, shoulder plane, pupils, palm extension); first-pass \"near-frontal\" reading also fails the required three-quarter LEFT lock. Mirroring is prohibited; no planned alternative complete asking-state exists (CH02_S05:L is a different quiet-attentive state)."
+    }
+   },
+   "summary": "Cell R of CH02_S02: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "RIGHT cell accepted. LEFT cell material direction failure consolidated for the single permitted correction attempt.",
+ "reviewed_at": "2026-11-07T14:50:00.000000+00:00",
+ "cell_details": [
+  {
+   "cell": "R",
+   "bounds_source_px": [
+    1382,
+    207,
+    2229,
+    1641
+   ],
+   "source_file": "production/chapter-02/props/raw/CH02_S02_prince_requesting_and_inspecting.png",
+   "source_sha256": "3ccab0c1cb06052584f3e25c199da6a3e652a9d528eb825fada9b29a41617fc8"
+  }
+ ]
+}

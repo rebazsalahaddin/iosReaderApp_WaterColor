@@ -1,0 +1,48 @@
+{
+  "id": "V_CH01_E03_R",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_younger_social_chair_left__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_younger_social_chair_left__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "younger adult in grey sweater sits three-quarter LEFT looking toward the pilot to his LEFT, leaning forward slightly, relaxed eyebrows, warm small open smile with subtle lifted cheek. One open palm rises in a small welcoming agreement gesture LEFT, other hand rests on knee. Do not make him childlike.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_E03",
+  "legacy_cell": "R",
+  "affected_pages": [
+    "c01-s06-p01"
+  ],
+  "allowed_changes": "younger adult in grey sweater sits three-quarter LEFT looking toward the pilot to his LEFT, leaning forward slightly, relaxed eyebrows, warm small open smile with subtle lifted cheek. One open palm rises in a small welcoming agreement gesture LEFT, other hand rests on knee. Do not make him childlike.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Two independently complete person/chair groups, older man left cell and younger man right cell. Preserve their individual adult anatomy from the references, comparable same-depth adult heads and chair seats; do not scale the younger adult like a child. Both chairs, torsos, knees, boots/shoes and noses angle LEFT. Express friendly satisfaction, not ridicule or exaggerated laughter. No sheets, tables, hats, other people or words.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH01_E03_R/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: younger adult in grey sweater sits three-quarter LEFT looking toward the pilot to his LEFT, leaning forward slightly, relaxed eyebrows, warm small open smile with subtle lifted cheek. One open palm rises in a small welcoming agreement gesture LEFT, other hand rests on knee. Do not make him childlike. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/audit-contract.json",
+  "prompt_sha256": "73776c3985350584118df89c6fd8b5fe301143f85f55375eb80b4458b6c06ce6",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH01_E03_R",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

@@ -1,0 +1,114 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH25_R01",
+  "prompt_file": "story-and-continuity/chapter-25/references/R01_muzzle_drawing_without_strap/PROMPT.txt",
+  "prompt_sha256": "c1e40ad0a862e2db5bf8bacd65727712ca4a1d317a94ce916dec8fde570127a1",
+  "expected_cells": [
+    "ONE: on one plain cream paper sheet, a simple thin grey-black pen drawing of a small sheep muzzle basket with NO strap, tie, fastening loop or cord. No sheep, words or instructions."
+  ],
+  "required_state_direction_contact": "New single canonical in-world drawing, not wearable hardware. Muzzle omission must remain identical in Chapters 25\u201327; no apparent strap in linework.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_drawing_box_flat.png",
+      "role": "Existing box drawing with holes. Sheep remains unseen inside; not a physical box or a visible sleeping lamb.",
+      "path": "story-and-continuity/chapter-25/references/R01_muzzle_drawing_without_strap/reference-images/01_drawing_box_flat.png",
+      "status": "supplied",
+      "sha256": "b51658be2e65c00e7c5b42e776bb8be27f538f75d5e158d2504e36fb28f2fe62",
+      "source_key": "box"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-25/references/R01_muzzle_drawing_without_strap/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-25/references/R01_muzzle_drawing_without_strap/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_CH25_R01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-25/references/R01_muzzle_drawing_without_strap/reference-images/04_CH25_R01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "37aa37045aa594f77e2fed6c4c453eea7537595316b53564a40a06ab0b481c1d"
+    },
+    {
+      "name": "05_c27-s02-p01_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c27-s02-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-25/references/R01_muzzle_drawing_without_strap/reference-images/05_c27-s02-p01_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "97a5639e26aa6280beb4cb94aafc9ad1fc175e5962a5df5ca7e8d45d16fa1422"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "A_CH25_R01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c25-s02-p06",
+    "c27-s02-p01"
+  ],
+  "placement_targets": [
+    {
+      "page": "c25-s02-p06",
+      "cell": "CH25_R01:ONE",
+      "box_px": [
+        500,
+        980,
+        620,
+        400
+      ],
+      "anchor": "measured_paper_quad"
+    },
+    {
+      "page": "c27-s02-p01",
+      "cell": "CH25_R01:ONE",
+      "box_px": [
+        580,
+        470,
+        1240,
+        900
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-25/references/R01_muzzle_drawing_without_strap/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

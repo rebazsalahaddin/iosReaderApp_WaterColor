@@ -1,0 +1,48 @@
+{
+  "id": "A_CH02_R01_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/reference-images/01_plane_side_view.png",
+        "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+        "role": "Current plane identity: one cockpit, one seat/headrest, one windscreen, TWO opposite propeller blades, cream/blue low-wing body. Retired plane turnaround is excluded."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "complete parked aircraft, side view nose RIGHT; upper cowling supported open as in the lower-right reference view; cockpit empty, TWO stopped vertical blades.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH02_R01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c02-s01-p02",
+    "c03-s01-p03",
+    "c03-s01-p04",
+    "c03-s02-p02",
+    "c05-s01-p02",
+    "c24-s01-p02"
+  ],
+  "audit_only_details": "No people, crash dents, smoke, detached parts or ground. Preserve machine geometry; do not mirror a finished image to fake the opposite view.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH02_R01_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. complete parked aircraft, side view nose RIGHT; upper cowling supported open as in the lower-right reference view; cockpit empty, TWO stopped vertical blades. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/audit-contract.json",
+  "prompt_sha256": "c52bb6206cc1f197c421f7a75edf663a7771d60f24978f6308a152c8fe202cd2",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH02_R01_ONE"
+}

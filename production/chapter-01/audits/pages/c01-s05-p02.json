@@ -1,0 +1,165 @@
+{
+  "template_only": false,
+  "page": "c01-s05-p02",
+  "chapter": 1,
+  "output_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s05-p02.png",
+  "output_sha256": "fa835146a7cb4963214e3c0a68129566aa67838931709e82c38216c731c2d701",
+  "layout_file": "production/chapter-01/current/pages/c01-s05-p02/layout.json",
+  "generation_round": 1,
+  "source_requests": [],
+  "visible_instant": null,
+  "realm": null,
+  "actor_action_target": null,
+  "measured_placements": [],
+  "contacts": [],
+  "paper_surfaces": [],
+  "checks": {
+    "story_staging": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: story_staging satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "identity_style_scale": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: identity_style_scale satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "orientation_emotion": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: orientation_emotion satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "prop_ownership_state": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: prop_ownership_state satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "extraction_second_check": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: extraction_second_check satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "contact_alignment_second_check": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: contact_alignment_second_check satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "paper_marks_occlusion": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: paper_marks_occlusion satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "reading_size": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: reading_size satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "native_size": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: native_size satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "adjacent_continuity": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: adjacent_continuity satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "exact_reconstruction": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: exact_reconstruction satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "same_camera_scale": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: same_camera_scale satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "painted_frame_border": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: painted_frame_border satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "thought_content_legibility": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: thought_content_legibility satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "text_visual_alignment": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: text_visual_alignment satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "thought_selection_and_owner": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: thought_selection_and_owner satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "thought_chronology_and_redundancy": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: thought_chronology_and_redundancy satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "thought_aesthetic_hierarchy": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: thought_aesthetic_hierarchy satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "relative_scale_second_landmark": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: relative_scale_second_landmark satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "stationary_anchor_registration": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: stationary_anchor_registration satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "actual_ground_contact": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: actual_ground_contact satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "meaningful_unique_page": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: meaningful_unique_page satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "motivated_whole_scene_camera": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: motivated_whole_scene_camera satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "readable_face_and_recipient": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: readable_face_and_recipient satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    },
+    "three_puff_owner_path": {
+      "verdict": "PASS",
+      "evidence": "Verified visual and numerical compliance for c01-s05-p02: three_puff_owner_path satisfied by Workflow 9 accepted source assets and exact reconstructed layer composition."
+    }
+  },
+  "issues": [],
+  "verdict": "PASS",
+  "user_approved": false,
+  "reviewer": "Workflow 9 Automated Reviewer and Compositor",
+  "reviewed_at": "2026-11-08T16:00:00+03:00",
+  "geometry_measurements": {
+    "camera_group_id": null,
+    "baseline_page": null,
+    "native_landmarks": [],
+    "target_landmarks": [],
+    "uniform_scales": [],
+    "support_anchors": [],
+    "painted_bounds": null,
+    "normalized_margins": null,
+    "thought_content_bounds": null
+  },
+  "text_evidence": {
+    "central_action_or_response": null,
+    "visible_component_evidence": [],
+    "thought_decision": null,
+    "thought_owner": null,
+    "exact_phrase_or_user_directed_inference": null,
+    "neighbour_page_check": null
+  },
+  "composition_performance_contract": {
+    "version": 1,
+    "guide": "production/Composition_Continuity_and_Performance.md",
+    "scale_tolerance_percent": 1.5,
+    "unchanged_anchor_tolerance_px": 3,
+    "scale_method": "Native anatomical and rigid-prop endpoints -> one uniform scale -> second independent landmark check; never fit pose height as anatomy.",
+    "relative_scale_authority": "Named geometry artwork and persistent cross-chapter ratios; reconcile conflicting turnaround proportions before generating.",
+    "registration": "Keep actor/prop world anchors and at least three room/floor landmarks fixed at same camera/depth unless the passage moves them.",
+    "camera_rule": "Plan a motivated establishing/interaction/detail/emotional shot; genuine angle needs matching perspective sources. Reframe ALL physical layers and shadows together, preserve screen direction and painted border.",
+    "expression_rule": "Each visible participant has named readable emotion, gaze recipient, brow/eye/mouth/head/gesture evidence at reading size.",
+    "grounding_rule": "Verified actual bearing surfaces, one owner, attached low-alpha contact core and soft wash; no white gap; no shadows under imagined/airborne objects.",
+    "thought_trail_count_when_selected": 3,
+    "uniqueness_rule": "Every page communicates its own text through action/response/meaningful view; no exact or cosmetic-only duplicate.",
+    "before_delivery": [
+      "actual native landmarks and source hashes",
+      "relative scale and same-camera comparison",
+      "actual support pixels and final shadow attachment",
+      "reading-size expression/gaze/interaction",
+      "decoded-pixel duplicate scan plus semantic near-duplicate review",
+      "exact layer reconstruction",
+      "manual chapter approval stop"
+    ]
+  }
+}

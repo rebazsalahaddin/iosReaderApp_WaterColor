@@ -1,0 +1,51 @@
+{
+  "id": "V_CH24_S01_L",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_pilot_canteen__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_pilot_canteen__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "pilot standing with one small canteen tilted to his lips, tired face, finishing last water; no spill.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH24_S01",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c24-s01-p02",
+    "c24-s01-p03",
+    "c24-s01-p04",
+    "c24-s01-p05"
+  ],
+  "allowed_changes": "pilot standing with one small canteen tilted to his lips, tired face, finishing last water; no spill.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Canteen opaque and plain, no implied new water after emptying; do not show simultaneous speech and drinking. DIRECTION LOCK: Both adult bodies RIGHT; LEFT head tipped to canteen for drink, RIGHT head RIGHT toward child with canteen lowered.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH24_S01_L/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: pilot standing with one small canteen tilted to his lips, tired face, finishing last water; no spill. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-24/reusable-poses/S01_pilot_drinking_last_water/audit-contract.json",
+  "prompt_sha256": "0df5012772de7e3dfb87b53436b6779ef91f3e36b402f2f551e118612d5b5248",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH24_S01_L",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

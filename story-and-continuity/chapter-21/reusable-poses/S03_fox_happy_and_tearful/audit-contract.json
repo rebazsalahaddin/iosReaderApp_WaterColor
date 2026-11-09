@@ -1,0 +1,140 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH21_S03",
+  "prompt_file": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/PROMPT.txt",
+  "prompt_sha256": "7a43642b97f57f65fc9bd5b5baee2e27daae2611c19962f85c407c9f9898d42f",
+  "expected_cells": [
+    "LEFT: same fox standing with a small eager lift of head and one front paw slightly raised, happy anticipation, no human jumping pose.",
+    "RIGHT: fox seated facing RIGHT with restrained wet eyes, quiet sad affection, unchanged anatomy."
+  ],
+  "required_state_direction_contact": "No enormous tear streams or grin. These are later emotional states, not the first wary meeting. DIRECTION LOCK: Both fox states face RIGHT toward prince: torso and muzzle RIGHT, naturally grounded paws.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_LP_ref_char_fox_turnaround.png",
+      "role": "One orange fox, cream muzzle/chest/tail tip, dark paws; preserve its four-legged anatomy and reference face.",
+      "path": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/reference-images/01_LP_ref_char_fox_turnaround.png",
+      "status": "supplied",
+      "sha256": "ac7aab6e1c69a16755e4a20f0e1e5f101686d5b25d1fac82ce5c71abc41c4b5d",
+      "source_key": "fox"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_CH21_S03_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/reference-images/04_CH21_S03_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "79515370b3dffdfe7677bef871effa3ffebc2dcbbb10ec895555d036a893b9db"
+    },
+    {
+      "name": "05_c21-s03-p05_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c21-s03-p05. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/reference-images/05_c21-s03-p05_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "9deb7401bc6952a702da385edbf688e01596daead4c68a1a035f9af98d65aa3f"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "L": "V_CH21_S03_L",
+    "R": "V_CH21_S03_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c21-s03-p05",
+    "c21-s04-p01",
+    "c21-s04-p02",
+    "c21-s04-p03"
+  ],
+  "placement_targets": [
+    {
+      "page": "c21-s03-p05",
+      "cell": "CH21_S03:L",
+      "box_px": [
+        370,
+        1190,
+        560,
+        340
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c21-s04-p01",
+      "cell": "CH21_S03:R",
+      "box_px": [
+        370,
+        1190,
+        560,
+        340
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c21-s04-p02",
+      "cell": "CH21_S03:R",
+      "box_px": [
+        370,
+        1190,
+        560,
+        340
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c21-s04-p03",
+      "cell": "CH21_S03:R",
+      "box_px": [
+        370,
+        1190,
+        560,
+        340
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

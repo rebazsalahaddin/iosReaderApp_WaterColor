@@ -1,0 +1,488 @@
+{
+  "request_id": "CH03_C02",
+  "source_content_only": [
+    "ONE: standing prince three-quarter LEFT, hands lowered, head slightly down-left, sad quiet closed mouth and lowered brows; no tears or smile."
+  ],
+  "source_details": "Reusable emotional state for daylight sadness, regret and loneliness; do not reinterpret a neutral smile as sadness.",
+  "page_contracts": {
+    "c03-s03-p04": {
+      "source_text": "Then his voice changed. There was a little sadness in it now. \"On my planet, you can't go very far in a straight line.\"",
+      "source_lines": [
+        237,
+        240
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Quiet child close view.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+        "selected_evidence": "Quiet child close view.",
+        "realm_caution": "Questions about home and imagined tying do not establish a visible sheep, rope or new planet."
+      },
+      "chapter_story_locks": "Questions about home and imagined tying do not establish a visible sheep, rope or new planet.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c06-s02-p04": {
+      "source_text": "\"Were you very sad that day? The day of the forty-four sunsets?\" The little prince did not answer.",
+      "source_lines": [
+        443,
+        446
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Return to morning Sahara; no chair.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+        "selected_evidence": "Return to morning Sahara; no chair.",
+        "realm_caution": "One home-chair thought on the mistaken-home beat; later home scenes are full memories, not clouds."
+      },
+      "chapter_story_locks": "One home-chair thought on the mistaken-home beat; later home scenes are full memories, not clouds.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c08-s04-p01": {
+      "source_text": "He loved her, but he began to doubt her words. Small things made him unhappy. Later, he spoke to me very differently.",
+      "source_lines": [
+        603,
+        606
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Use the exact selected source states and this page’s passage; retain established scene, time and prop state.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "Adjacent pages already establish this thought; return attention to the expression and conversation.",
+        "selected_evidence": "Use the exact selected source states and this page’s passage; retain established scene, time and prop state.",
+        "realm_caution": "Use the living rose once for later regret; no thought flower before the bloom’s authorized reveal."
+      },
+      "chapter_story_locks": "Use the living rose once for later regret; no thought flower before the bloom’s authorized reveal.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c08-s04-p03": {
+      "source_text": "\"All that talk about claws! It was only her way of trying to be brave. I took it so seriously.\"",
+      "source_lines": [
+        611,
+        614
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Tender regret, no new departure or reunion.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+        "selected_evidence": "Tender regret, no new departure or reunion.",
+        "realm_caution": "Use the living rose once for later regret; no thought flower before the bloom’s authorized reveal."
+      },
+      "chapter_story_locks": "Use the living rose once for later regret; no thought flower before the bloom’s authorized reveal.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c08-s04-p04": {
+      "source_text": "\"I needed to look at her actions, not just her words. There was love behind those little tricks. I didn't understand. I should never have left her.\"",
+      "source_lines": [
+        615,
+        618
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Tender regret, no new departure or reunion.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+        "selected_evidence": "Tender regret, no new departure or reunion.",
+        "realm_caution": "Use the living rose once for later regret; no thought flower before the bloom’s authorized reveal."
+      },
+      "chapter_story_locks": "Use the living rose once for later regret; no thought flower before the bloom’s authorized reveal.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c08-s04-p05": {
+      "source_text": "\"I was too young to know how to love her.\"",
+      "source_lines": [
+        619,
+        622
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Tender regret, no new departure or reunion.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+        "selected_evidence": "Tender regret, no new departure or reunion.",
+        "realm_caution": "Use the living rose once for later regret; no thought flower before the bloom’s authorized reveal."
+      },
+      "chapter_story_locks": "Use the living rose once for later regret; no thought flower before the bloom’s authorized reveal.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c19-s01-p08": {
+      "source_text": "He thought Earth was a strange place: dry, sharp, and hard. Its people only repeated things. They had no ideas of their own.",
+      "source_lines": [
+        1273,
+        1276
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Remembering his flower, not a physical rose arriving on the ridge.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+        "selected_evidence": "Remembering his flower, not a physical rose arriving on the ridge.",
+        "realm_caution": "One flower memory contrasts with echo; never add duplicate people to visualize repeated voices."
+      },
+      "chapter_story_locks": "One flower memory contrasts with echo; never add duplicate people to visualize repeated voices.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c19-s01-p09": {
+      "source_text": "At home, his flower had always been the first to speak.",
+      "source_lines": [
+        1277,
+        1280
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Contrasts his familiar speaking flower with the empty mountain echoes. Actual scene and physical paper/contact states remain intact.",
+      "thought": {
+        "decision": "thought_cloud",
+        "owner": "little prince",
+        "content": "his familiar living coral rose with exactly four thorns",
+        "why": "Contrasts his familiar speaking flower with the empty mountain echoes.",
+        "content_assets": [
+          "CH07_R02:R"
+        ],
+        "frame_envelope_px": [
+          1300,
+          200,
+          600,
+          590
+        ],
+        "basis": "explicit passage",
+        "do_not_depict": "No actual rose at this location, no dead flower, no resolved return or reunion.",
+        "max_cloud_bodies": 1,
+        "trail_rule": "Three small painted puffs toward the named thinker; no tail toward the listener or narrator by default. For a shared adult interpretation use one cloud near the responding adult, not duplicate hats.",
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "content_width_fraction": [
+          0.78,
+          0.85
+        ],
+        "actual_owner_head_and_trail_to_measure": true,
+        "protected_regions": "faces, showing hands, paper/drawing, key contacts and fixed page border",
+        "content_pipeline": "reuse accepted canonical originals; otherwise preplanned source requests only; no full-page regeneration"
+      },
+      "chapter_story_locks": "One flower memory contrasts with echo; never add duplicate people to visualize repeated voices.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c20-s02-p01": {
+      "source_text": "How upset she would be! She would cough and pretend to be dying, just so nobody could laugh at her.",
+      "source_lines": [
+        1309,
+        1312
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Clarifies that her imagined reaction differs from the real garden roses. Actual scene and physical paper/contact states remain intact.",
+      "thought": {
+        "decision": "thought_cloud",
+        "owner": "little prince",
+        "content": "his own living rose with her existing small coughing expression",
+        "why": "Clarifies that her imagined reaction differs from the real garden roses.",
+        "content_assets": [
+          "CH08_R03:L"
+        ],
+        "frame_envelope_px": [
+          1400,
+          160,
+          580,
+          580
+        ],
+        "basis": "explicit hypothetical reaction",
+        "do_not_depict": "A hypothetical complaint, never a dead/wilted flower or actual arrival in the garden.",
+        "max_cloud_bodies": 1,
+        "trail_rule": "Three small painted puffs toward the named thinker; no tail toward the listener or narrator by default. For a shared adult interpretation use one cloud near the responding adult, not duplicate hats.",
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "content_width_fraction": [
+          0.78,
+          0.85
+        ],
+        "actual_owner_head_and_trail_to_measure": true,
+        "protected_regions": "faces, showing hands, paper/drawing, key contacts and fixed page border",
+        "content_pipeline": "reuse accepted canonical originals; otherwise preplanned source requests only; no full-page regeneration"
+      },
+      "chapter_story_locks": "One living coughing rose in a conditional thought; actual garden stays ordinary roses; no death.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c20-s02-p02": {
+      "source_text": "He would have to act as if he were helping her get well. If he didn't, to make him feel sorry, she might really let herself die.",
+      "source_lines": [
+        1313,
+        1316
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Imagined response stays in narration; living rose not declared dead.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+        "selected_evidence": "Imagined response stays in narration; living rose not declared dead.",
+        "realm_caution": "One living coughing rose in a conditional thought; actual garden stays ordinary roses; no death."
+      },
+      "chapter_story_locks": "One living coughing rose in a conditional thought; actual garden stays ordinary roses; no death.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c20-s02-p03": {
+      "source_text": "\"I thought I owned a flower no one else had. But she's an ordinary rose. And my three volcanoes only reach my knees. One may never burn again.\"",
+      "source_lines": [
+        1317,
+        1320
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Imagined response stays in narration; living rose not declared dead.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+        "selected_evidence": "Imagined response stays in narration; living rose not declared dead.",
+        "realm_caution": "One living coughing rose in a conditional thought; actual garden stays ordinary roses; no death."
+      },
+      "chapter_story_locks": "One living coughing rose in a conditional thought; actual garden stays ordinary roses; no death.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    },
+    "c20-s02-p04": {
+      "source_text": "\"That doesn't make me much of a prince.\"",
+      "source_lines": [
+        1321,
+        1324
+      ],
+      "chapter_opening": false,
+      "visible_story_evidence": "Imagined response stays in narration; living rose not declared dead.",
+      "thought": {
+        "decision": "no_cloud",
+        "owner": null,
+        "content_assets": [],
+        "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+        "selected_evidence": "Imagined response stays in narration; living rose not declared dead.",
+        "realm_caution": "One living coughing rose in a conditional thought; actual garden stays ordinary roses; no death."
+      },
+      "chapter_story_locks": "One living coughing rose in a conditional thought; actual garden stays ordinary roses; no death.",
+      "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+      "acceptance": [
+        "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+        "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+        "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+        "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+      ],
+      "thought_aesthetics": {
+        "guide": "production/Text_to_Illustration_Alignment.md",
+        "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+        "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+        "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+        "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+        "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+        "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+      }
+    }
+  },
+  "generation_note": "Use only the active chapter’s pages; this reference context is not authorization to generate later chapters.",
+  "thought_aesthetics": {
+    "guide": "production/Text_to_Illustration_Alignment.md",
+    "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+    "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+    "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+    "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+    "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+    "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+  },
+  "composition_performance_contract": {
+    "version": 1,
+    "guide": "production/Composition_Continuity_and_Performance.md",
+    "scale_tolerance_percent": 1.5,
+    "unchanged_anchor_tolerance_px": 3,
+    "scale_method": "Native anatomical and rigid-prop endpoints -> one uniform scale -> second independent landmark check; never fit pose height as anatomy.",
+    "relative_scale_authority": "Named geometry artwork and persistent cross-chapter ratios; reconcile conflicting turnaround proportions before generating.",
+    "registration": "Keep actor/prop world anchors and at least three room/floor landmarks fixed at same camera/depth unless the passage moves them.",
+    "camera_rule": "Plan a motivated establishing/interaction/detail/emotional shot; genuine angle needs matching perspective sources. Reframe ALL physical layers and shadows together, preserve screen direction and painted border.",
+    "expression_rule": "Each visible participant has named readable emotion, gaze recipient, brow/eye/mouth/head/gesture evidence at reading size.",
+    "grounding_rule": "Verified actual bearing surfaces, one owner, attached low-alpha contact core and soft wash; no white gap; no shadows under imagined/airborne objects.",
+    "thought_trail_count_when_selected": 3,
+    "uniqueness_rule": "Every page communicates its own text through action/response/meaningful view; no exact or cosmetic-only duplicate.",
+    "before_delivery": [
+      "actual native landmarks and source hashes",
+      "relative scale and same-camera comparison",
+      "actual support pixels and final shadow attachment",
+      "reading-size expression/gaze/interaction",
+      "decoded-pixel duplicate scan plus semantic near-duplicate review",
+      "exact layer reconstruction",
+      "manual chapter approval stop"
+    ]
+  }
+}

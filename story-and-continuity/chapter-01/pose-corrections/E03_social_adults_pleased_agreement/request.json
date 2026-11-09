@@ -1,0 +1,77 @@
+{
+  "id": "CH01_E03",
+  "chapter": 1,
+  "code": "E03",
+  "title": "two social adults visibly pleased by sensible conversation",
+  "kind": "pose",
+  "cells": [
+    "LEFT: the older moustached man sits three-quarter LEFT, looking toward the off-sheet pilot on his LEFT. His eyes warmly engaged, eyebrows relaxed, clear friendly smile with a slightly open mouth as he approves the sensible conversation. One hand lightly touches his chest in pleased agreement, other hand on knee. A modest forward head inclination reads as an approving nod.",
+    "RIGHT: younger adult in grey sweater sits three-quarter LEFT looking toward the pilot to his LEFT, leaning forward slightly, relaxed eyebrows, warm small open smile with subtle lifted cheek. One open palm rises in a small welcoming agreement gesture LEFT, other hand rests on knee. Do not make him childlike."
+  ],
+  "refs": [],
+  "details": "Two independently complete person/chair groups, older man left cell and younger man right cell. Preserve their individual adult anatomy from the references, comparable same-depth adult heads and chair seats; do not scale the younger adult like a child. Both chairs, torsos, knees, boots/shoes and noses angle LEFT. Express friendly satisfaction, not ridicule or exaggerated laughter. No sheets, tables, hats, other people or words.",
+  "light": "Soft diffuse upper-left warm light.",
+  "dependencies": [],
+  "key": null,
+  "slug": "social_adults_pleased_agreement",
+  "output": "CH01_E03_social_adults_pleased_agreement.png",
+  "status": "partially_accepted_reuse_alternative",
+  "uses": [
+    "c01-s06-p01"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement",
+  "raw_output_folder": "production/chapter-01/props/raw",
+  "representative_page": "c01-s06-p01",
+  "placement_targets": [
+    {
+      "page": "c01-s06-p01",
+      "cell": "CH01_E03:R",
+      "box_px": [
+        1660,
+        450,
+        680,
+        1180
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_CH01_S04_grownup3_talk_reply.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces LEFT. Change only the requested coherent expression/gesture state, preserving design and support geometry.",
+      "status": "supplied",
+      "sha256": "80ecd925cb7d12fd9807023e74913dfa79437fe1fe40d72c14e1e469aac260da"
+    },
+    {
+      "name": "02_CH01_S05_grownup4_listen_reply.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/02_CH01_S05_grownup4_listen_reply.png",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces LEFT. Change only the requested coherent expression/gesture state, preserving design and support geometry.",
+      "status": "supplied",
+      "sha256": "f7482945be69292db3e5918c2f87fac69a48cf172ecffcbd37aea04da8825cad"
+    },
+    {
+      "name": "03_CH01_E03_direction_and_packing.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/03_CH01_E03_direction_and_packing.png",
+      "role": "INSTRUCTION ONLY: cell identity, independent facing arrows and complete silhouette packing. It is not an art, anatomy, face or colour reference. Do not copy labels or diagrams into output.",
+      "status": "supplied",
+      "sha256": "57a5d4b9c63d057f9a1033dec174405b6a2e781d588a2ba91537008df5b9b65f"
+    }
+  ],
+  "readiness": "ready_after_preflight",
+  "prompt": "CH01_E03 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- L: the older moustached man sits three-quarter LEFT, looking toward the off-sheet pilot on his LEFT. His eyes warmly engaged, eyebrows relaxed, clear friendly smile with a slightly open mouth as he approves the sensible conversation. One hand lightly touches his chest in pleased agreement, other hand on knee. A modest forward head inclination reads as an approving nod.\n  Actual short payload: production/reference-lineage/nodes/V_CH01_E03_L/PROMPT.txt\n- R: younger adult in grey sweater sits three-quarter LEFT looking toward the pilot to his LEFT, leaning forward slightly, relaxed eyebrows, warm small open smile with subtle lifted cheek. One open palm rises in a small welcoming agreement gesture LEFT, other hand rests on knee. Do not make him childlike.\n  Actual short payload: production/reference-lineage/nodes/V_CH01_E03_R/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "revision_origin": "2026-11-07 user expressly requests visibly stronger expressions, meaningful distinct pages and interactive performance; existing accepted identities remain authoritative. Not an alias for an exhausted failed source.",
+  "accepted_source": "production/chapter-01/props/raw/CH01_E03_social_adults_pleased_agreement.png",
+  "accepted_source_sha256": "b02f40bcc3c0558aa86556f89dde1b7b8348b4dbafa9041eadb3e3671e6430c6",
+  "attempts_used": 1,
+  "remaining_attempts": 1,
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "L": "V_CH01_E03_L",
+    "R": "V_CH01_E03_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

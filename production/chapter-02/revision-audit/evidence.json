@@ -1,0 +1,2480 @@
+{
+  "edition": "v002",
+  "audit_only_art_unchanged": true,
+  "pages": [
+    {
+      "page": "c02-s01-p01",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s01-p01.png",
+      "sha256": "5a54fd8c2ebd369a122abeb280c7e3cfede6173736b77a03b81522aae6f1b4c5",
+      "decoded_pixel_sha256": "7bb9a6fdffee8eaf919b5cac3f081dc1166601061b394c3e1c143baf5722deda",
+      "story_text": "",
+      "beat": "Editorial opening",
+      "observed": "The isolated canonical Drawing One remains appropriate. Painted field occupies much less of the page than full desert scenes; align cover border, keep drawing marks unchanged.",
+      "required_action": "Local framing; no character regeneration.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s01-p01/layout.json",
+      "placements": {
+        "paper_base": {
+          "rect": [
+            0,
+            0,
+            2400,
+            1792
+          ],
+          "scale": 1.0
+        },
+        "B00_wash_plate": {
+          "source": "production/chapter-02/components/prepared-v2/CH02_B00_cover_field.png",
+          "rect": [
+            200,
+            149,
+            1800,
+            1344,
+            0.75
+          ],
+          "fit_box": [
+            200,
+            149,
+            2000,
+            1493
+          ],
+          "method": "full 2400x1792 wash plate uniform-fit onto paper base"
+        },
+        "draw1_hero_direct": {
+          "centre": [
+            1200,
+            860
+          ],
+          "size": [
+            1070,
+            441
+          ],
+          "scale": 1.0,
+          "method": "relative-pigment direct multiply; original strength"
+        }
+      }
+    },
+    {
+      "page": "c02-s01-p02",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s01-p02.png",
+      "sha256": "204c70fd7ef12deeb31665b516523398a5903bbfdb6d7b2c7a787af62ed8b7fa",
+      "decoded_pixel_sha256": "917e2785a49785627a4502f058e730715212a846ac8f7a2368edd3f2fb591202",
+      "story_text": "Six years ago, my plane broke down in the Sahara Desert. There was no one with me. No passengers. No one to help with the engine.",
+      "beat": "Alone beside broken plane",
+      "observed": "Standing pilot and separate plane have inconsistent projected scale relative to repair view; visible detached pilot shadow. Wheel, pilot sole and floor do not share a measured depth model.",
+      "required_action": "Calibrate plane using side-view fuselage/cockpit/wheel ratios and pilot head/standing H; set fixed parking anchors and individual contact shadows.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s01-p02/layout.json",
+      "placements": {
+        "canvas": [
+          2400,
+          1792
+        ],
+        "edition": "v002",
+        "subjects": {
+          "plane": {
+            "cell": "plane",
+            "cell_file": "production/chapter-02/components/prepared-v2/CH02_R01_plane__rgba.png",
+            "content_bounds": [
+              238,
+              437,
+              2219,
+              1425
+            ],
+            "native_content": [
+              1982,
+              989
+            ],
+            "box": [
+              350,
+              342,
+              1982,
+              989
+            ],
+            "rect_px_py_nw_nh_scale": [
+              350,
+              342,
+              1982,
+              989,
+              1.0
+            ],
+            "scale": 1.0,
+            "mirrored": false,
+            "ground_y": 1331,
+            "depth": "rear, own ground line above foreground band",
+            "shadow": {
+              "method": "silhouette-derived contact_shadow composited BEFORE subject",
+              "squash": 0.05,
+              "source_frac": 0.3,
+              "blur": 14,
+              "color": [
+                105,
+                76,
+                55
+              ],
+              "max_alpha": 44,
+              "dx": 3,
+              "dy": 3
+            },
+            "scale_rule": "plane_w = 2.2 x plane-local adult standing height; at native 1982px width the plane-local adult is ~901px (foreground pilot 1000px is closer to camera, plane slightly behind)"
+          },
+          "pilot_listen": {
+            "cell": "pilot_listen",
+            "cell_file": "production/chapter-02/components/prepared-v2/CH03S01_pilot_listen__rgba.png",
+            "content_bounds": [
+              283,
+              209,
+              741,
+              1708
+            ],
+            "native_content": [
+              459,
+              1500
+            ],
+            "box": [
+              360,
+              540,
+              340,
+              1000
+            ],
+            "rect_px_py_nw_nh_scale": [
+              377,
+              540,
+              306,
+              1000,
+              0.6666666666666666
+            ],
+            "scale": 0.6666666666666666,
+            "mirrored": false,
+            "rendered_height": 1000,
+            "standing_equivalent": 1000,
+            "ground_y": 1540,
+            "faces": "RIGHT toward his plane (native orientation, no flip)",
+            "draw_order": "AFTER plane (foreground, in front of plane tail)",
+            "shadow": {
+              "method": "silhouette-derived contact_shadow composited BEFORE subject",
+              "squash": 0.07,
+              "source_frac": 0.3,
+              "blur": 9,
+              "color": [
+                105,
+                76,
+                55
+              ],
+              "max_alpha": 56,
+              "dx": 3,
+              "dy": 3
+            }
+          }
+        },
+        "draw_order": [
+          "base_day_plate",
+          "plane_contact_shadow",
+          "plane_native_full_width",
+          "pilot_contact_shadow",
+          "pilot_listen_foreground"
+        ],
+        "v001_defects_addressed": {
+          "plane_looked_like_toy": "plane restored to native 1982px width (scale 1.0); plane_w/2.2 = 901px plane-local adult vs 1000px foreground pilot",
+          "flat_bg_above_wheel_between_cowlings": "v2 chroma-projection cells used unmodified; verified in audit",
+          "magenta_halo": "v2 5px edge-despill cells; verified in audit",
+          "shadow_over_character": "both contact shadows composited BEFORE their subjects",
+          "blob_shadows": "both shadows silhouette-derived from each subject own alpha"
+        }
+      }
+    },
+    {
+      "page": "c02-s01-p03",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s01-p03.png",
+      "sha256": "7aaebd27829a8259b7092361ee9782a582d0312f165256c4769db3589460871b",
+      "decoded_pixel_sha256": "44f08ba9d010ddc516b077f1235a5aac5da7bdd960a9f085ffbdf0ab65ef48c2",
+      "story_text": "I had to repair it myself. My water could last only a week. Out there, getting the engine to work meant staying alive.",
+      "beat": "Urgent engine repair",
+      "observed": "Integrated source is labelled authoritative without checking its internal ratio. Pilot head/torso appear larger relative to aircraft than on preceding page; wheel and boot grounding remain weak. The active repair gesture itself is useful.",
+      "required_action": "Measure internal ratio before resizing. If incompatible, use remaining CH02_C02 attempt with actual annotated source and approved ratio target; preserve useful repair contacts.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s01-p03/layout.json",
+      "placements": {
+        "day_plate": {
+          "plate": "production/shared/backgrounds/LP_ref_sahara_day.jpg",
+          "rect": [
+            0,
+            0,
+            2400,
+            1792
+          ],
+          "scale": 1.0
+        },
+        "repair_group": {
+          "cell": "repair_group",
+          "cell_file": "production/chapter-02/components/prepared-v2/CH02_C02_repair_group__rgba.png",
+          "content_bounds": [
+            238,
+            361,
+            2222,
+            1538
+          ],
+          "native_content": [
+            1985,
+            1178
+          ],
+          "box_x_y_w_h": [
+            290,
+            420,
+            1800,
+            1070
+          ],
+          "rect_px_py_nw_nh_scale": [
+            290,
+            422,
+            1800,
+            1068,
+            0.906801007556675
+          ],
+          "scale": 0.906801007556675,
+          "mirrored": false,
+          "uniform_fit": true,
+          "ratio_source": "integrated painting; authoritative plane:pilot ratio preserved",
+          "draw_order": "AFTER mass shadow (foreground)"
+        },
+        "repair_group_mass_shadow": {
+          "method": "silhouette-derived contact_shadow bands anchored at the receding painted ground line; merged (max, clipped) into ONE layer; composited BEFORE subject layer",
+          "derived_from": "subject_layer.png (full-canvas group layer)",
+          "params": {
+            "squash": 0.06,
+            "source_frac": 0.3,
+            "blur": 11,
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "max_alpha": 60,
+            "dx": 3,
+            "dy": 3
+          },
+          "regions": [
+            {
+              "region": "tail_tailwheel",
+              "x_range": [
+                340,
+                660
+              ],
+              "local_contact_y": 1147,
+              "band_max_alpha": 42,
+              "peak_alpha_raw": 42,
+              "peak_equalized_to": 56
+            },
+            {
+              "region": "pilot_boots",
+              "x_range": [
+                700,
+                1250
+              ],
+              "local_contact_y": 1488,
+              "band_max_alpha": 60,
+              "peak_alpha_raw": 60,
+              "peak_equalized_to": 56
+            },
+            {
+              "region": "wheel_nose_prop",
+              "x_range": [
+                1250,
+                2100
+              ],
+              "local_contact_y": 1388,
+              "band_max_alpha": 56,
+              "peak_alpha_raw": 56,
+              "peak_equalized_to": 56
+            }
+          ],
+          "scope": "one wide soft mass shadow under the whole pilot+plane group",
+          "master_fix_v002_1": "strengthened from squash .055/blur 12/max_alpha 44 after master visual pass (shadow read missing-to-faint, group floating)",
+          "master_fix_v002_2": "region-anchored pooling so shadow meets each measured contact (tailwheel/wheel/boots) on the receding ground line"
+        },
+        "draw_order": [
+          "day_plate",
+          "repair_group_mass_shadow",
+          "repair_group"
+        ],
+        "v001_defects_addressed": {
+          "bg_leftovers_above_wheel_between_hoods": "v2 repair_group cell (ch1 projection matte) used unmodified; wheel-well and cowling gaps transparent, interior alpha verified in audit",
+          "inaccurate_border_stroke": "v2 5px edge-band despill cell; no re-extraction, no redraw; verified in audit"
+        },
+        "reconstruction": {
+          "recipe": "composite(day_plate, shadow_layer, subject_layer) -> RGB",
+          "inputs": [
+            "/tmp/lp-fix/agents/c02-s01-p03/shadow_layer.png",
+            "/tmp/lp-fix/agents/c02-s01-p03/subject_layer.png"
+          ],
+          "note": "day_plate = first pushed layer record; exact pixel replay verified in audit"
+        }
+      }
+    },
+    {
+      "page": "c02-s01-p04",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s01-p04.png",
+      "sha256": "0781d133e402681ec172e1c6c2a9e15d713c4f5e96b9d6c527f351c9f3c8ca81",
+      "decoded_pixel_sha256": "f45ce2c04b58f98524022adbfdb82a6e0346a05e300f5869270824cf694414dc",
+      "story_text": "That first night, I slept on the sand, a thousand miles from any town. A sailor alone in the middle of the ocean could hardly feel farther from home.",
+      "beat": "Lonely first night",
+      "observed": "Sleeping head remains large relative to preceding standing pilot. Parked plane shifts upward and changes width. Bent sleeping length was incorrectly used as standing-equivalent evidence.",
+      "required_action": "Measure head and torso, preserve parking world coordinates under night lighting, support hip/shoulder/boots where actually touching. No new cloud.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s01-p04/layout.json",
+      "placements": {
+        "plane": {
+          "rect_px_py_nw_nh_scale": [
+            420,
+            270,
+            1884,
+            940,
+            0.9504550050556118
+          ],
+          "night_grade": 0.62,
+          "luminance_before": {
+            "mean_rgb": [
+              183.4,
+              167.5,
+              164.1
+            ],
+            "mean_lum": 171.6,
+            "opaque_px": 886684
+          },
+          "luminance_after": {
+            "mean_rgb": [
+              103.3,
+              99.5,
+              112.0
+            ],
+            "mean_lum": 104.9,
+            "opaque_px": 886684
+          },
+          "shadow": {
+            "color": [
+              70,
+              80,
+              110
+            ],
+            "max_alpha": 40,
+            "squash": 0.05,
+            "blur": 14,
+            "dx": 3,
+            "dy": 3,
+            "method": "silhouette-derived, composited before subject"
+          }
+        },
+        "pilot_asleep": {
+          "rect_px_py_nw_nh_scale": [
+            480,
+            1182,
+            1049,
+            338,
+            0.5390749601275917
+          ],
+          "night_grade": 0.62,
+          "luminance_before": {
+            "mean_rgb": [
+              192.6,
+              141.1,
+              114.9
+            ],
+            "mean_lum": 149.5,
+            "opaque_px": 744541
+          },
+          "luminance_after": {
+            "mean_rgb": [
+              106.4,
+              84.1,
+              80.7
+            ],
+            "mean_lum": 90.4,
+            "opaque_px": 744541
+          },
+          "lying_length_px": 1049,
+          "standing_equivalent_px": 1000,
+          "shadow": {
+            "color": [
+              70,
+              80,
+              110
+            ],
+            "max_alpha": 40,
+            "squash": 0.07,
+            "blur": 10,
+            "dx": 3,
+            "dy": 3,
+            "method": "silhouette-derived, composited before subject"
+          }
+        }
+      }
+    },
+    {
+      "page": "c02-s02-p01",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s02-p01.png",
+      "sha256": "a7184c57f5b65ac48db8d7ffa991c89d2557bb2855b3a5c0c6fc758fb09df1de",
+      "decoded_pixel_sha256": "d64a0aa21fe5835ca5ace24e9ebb16bfb6d9c955e366b0a69f1a2fc204cc9b37",
+      "story_text": "At sunrise, a small voice woke me. \"Please, draw me a sheep.\" I sat up. \"What?\" \"Draw me a sheep.\"",
+      "beat": "Startled awakening and request",
+      "observed": "Surprise is readable, but figures extend below the small painted sunrise plate, with detached shadows on bare margin. Quiet prince does not visibly make the request.",
+      "required_action": "Expand/recompose supporting field coherently, attach actual supports; convey serious spoken request with compatible accepted state or report exhausted state limit.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s02-p01/layout.json",
+      "placements": {
+        "canvas": [
+          2400,
+          1792
+        ],
+        "edition": "v002",
+        "background": {
+          "plate": "production/chapter-02/components/prepared-v2/CH02_B01_sunrise_plate.png",
+          "fit_box": [
+            200,
+            149,
+            1800,
+            1344
+          ],
+          "method": "uniform fit (scale 0.75), bottom_center anchor",
+          "rect_px_py_nw_nh_scale": [
+            200,
+            149,
+            1800,
+            1344,
+            0.75
+          ]
+        },
+        "subjects": [
+          {
+            "cell": "pilot_awaken",
+            "source": "production/chapter-02/components/prepared-v2/CH02_S03_pilot_awaken__rgba.png",
+            "cell_painted_bounds": [
+              365,
+              160,
+              2034,
+              1629
+            ],
+            "box": [
+              330,
+              760,
+              900,
+              780
+            ],
+            "mirrored": false,
+            "rect_px_py_nw_nh_scale": [
+              337,
+              760,
+              886,
+              780,
+              0.5306122448979592
+            ],
+            "rendered_height_px": 780,
+            "bottom_y": 1540,
+            "shadow": {
+              "squash": 0.07,
+              "source_frac": 0.3,
+              "blur": 9,
+              "color": [
+                105,
+                76,
+                55
+              ],
+              "max_alpha": 56,
+              "dx": 3,
+              "dy": 3,
+              "method": "silhouette-derived contact shadow from lowest 30% of subject, composited before subject"
+            }
+          },
+          {
+            "cell": "prince_quiet",
+            "source": "production/chapter-02/components/prepared-v2/CH02_S05_prince_quiet__rgba.png",
+            "cell_painted_bounds": [
+              266,
+              123,
+              876,
+              1648
+            ],
+            "box": [
+              1230,
+              830,
+              560,
+              700
+            ],
+            "mirrored": true,
+            "mirror_reason": "user-directed orientation fix",
+            "bounds_after_mirror": [
+              273,
+              123,
+              883,
+              1648
+            ],
+            "rect_px_py_nw_nh_scale": [
+              1370,
+              830,
+              280,
+              700,
+              0.45871559633027525
+            ],
+            "rendered_height_px": 700,
+            "bottom_y": 1530,
+            "shadow": {
+              "squash": 0.07,
+              "source_frac": 0.3,
+              "blur": 9,
+              "color": [
+                105,
+                76,
+                55
+              ],
+              "max_alpha": 56,
+              "dx": 3,
+              "dy": 3,
+              "method": "silhouette-derived contact shadow from lowest 30% of subject, composited before subject"
+            }
+          }
+        ],
+        "staging": {
+          "beat": "wide beat — prince has just arrived; close conversation is c02-s02-p04 (not duplicated here)",
+          "gap_px_between_figures": 20
+        }
+      }
+    },
+    {
+      "page": "c02-s02-p02",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s02-p02.png",
+      "sha256": "55eda5411f00972c0777521901607dd1d5abb0bb3b58b052fb1b9eaaf32804b4",
+      "decoded_pixel_sha256": "d30935ce6f03b021717198d3289491cafdc5d5e8361cf03366d1bf33c5e87e05",
+      "story_text": "A little boy stood there, watching me very seriously. He did not look lost, hungry, thirsty, or afraid. But there was nothing around us except sand.",
+      "beat": "The composed mysterious boy",
+      "observed": "Single prince uses same quiet pose; isolation fits the narrator inspecting him, but oversized head and visible floating feet need repair.",
+      "required_action": "Use a motivated pilot point-of-view medium frame, calibrated whole child proportions, present calm serious eye contact without adding hunger/fear.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s02-p02/layout.json",
+      "placements": {
+        "sunrise_plate": {
+          "rect": [
+            200,
+            149,
+            1800,
+            1344
+          ],
+          "scale": 0.75,
+          "source": "production/chapter-02/components/prepared-v2/CH02_B01_sunrise_plate.png",
+          "fit": "uniform-fit into box [200,149,2000,1493]; no upscale"
+        },
+        "prince_quiet": {
+          "rect": [
+            1540,
+            830,
+            280,
+            700
+          ],
+          "scale": 0.4587,
+          "rendered_height_px": 700,
+          "ground_band_y": 1530,
+          "cell": "prince_quiet (CH02_S05, native faces RIGHT)",
+          "mirrored": true,
+          "mirror_reason": "user-directed orientation fix",
+          "note": "solo portrait; faces LEFT toward off-frame pilot; same camera/scale group as c02-s02-p01/p04 (prince h=700)"
+        },
+        "grounding_shadow": {
+          "method": "silhouette-derived contact shadow composited BEFORE subject",
+          "color": [
+            105,
+            76,
+            55
+          ],
+          "squash": 0.07,
+          "blur": 9,
+          "max_alpha": 56
+        }
+      }
+    },
+    {
+      "page": "c02-s02-p03",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s02-p03.png",
+      "sha256": "6182d59b701bbb6d8716c02305f3ed5008d118bc984accbfe78e4b7608d2311b",
+      "decoded_pixel_sha256": "8342419174e6bb2ea9b36d7d641ac20158a7c625896151f77df5862f228e0abd",
+      "story_text": "I have tried to draw him for you. My picture is not nearly as lovely as he was. Remember, the grown-ups stopped my drawing lessons when I was six.",
+      "beat": "Narrator’s later portrait",
+      "observed": "Graphite portrait is an editorial drawing, not a physical figure in the desert. Its full-body sketch is appropriate.",
+      "required_action": "Keep marks; align painted field/cover framing. No physical ground shadow or invented cloud.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s02-p03/layout.json",
+      "placements": {
+        "wash_plate": {
+          "source": "production/chapter-02/components/prepared-v2/CH02_B00_cover_field.png",
+          "box": [
+            200,
+            149,
+            2000,
+            1493
+          ],
+          "fitted_size": [
+            1800,
+            1344
+          ],
+          "scale": 0.75,
+          "paste_xy": [
+            200,
+            149
+          ],
+          "resample": "LANCZOS",
+          "method": "uniform fit (no upscale), alpha paste on paper base"
+        },
+        "portrait_pigment": {
+          "centre": [
+            1200,
+            900
+          ],
+          "size": [
+            696,
+            1389
+          ],
+          "scale": 1.0,
+          "method": "relative-pigment direct multiply; original strength",
+          "native": [
+            696,
+            1389
+          ],
+          "defect_fixed": "v001 pasted cream sheet card -> v002 multiplies graphite line work directly onto the wash; no card, no sheet block, no shadow, no alpha wash, original strength"
+        }
+      }
+    },
+    {
+      "page": "c02-s02-p04",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s02-p04.png",
+      "sha256": "d1bc936f4a43daa770bb29e6ab6bfb39ac4de365f0285591ca6722faad0059e7",
+      "decoded_pixel_sha256": "3111df19af8897888a14f1443f69b4f635967c7ef207daab76d11f1ea2a795e1",
+      "story_text": "\"What are you doing here?\" He answered slowly, as if nothing could be more important. \"Please. Draw me a sheep.\"",
+      "beat": "Pilot asks, prince repeats request",
+      "observed": "Same surprised pilot/quiet prince staging as waking page despite a later exchange. Sunrise field is 1801x1345 inside 2400x1792; prince quiet sprite begins x1449.",
+      "required_action": "Maintain conversational anchors, reduce Prince head proportion by complete compatible source if needed; express reply, not neutral statue. Genuine closer two-shot may distinguish the exchange.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s02-p04/layout.json",
+      "placements": [
+        {
+          "step": "paper_base",
+          "method": "fixlib.paper_base",
+          "canvas": [
+            2400,
+            1792
+          ]
+        },
+        {
+          "step": "B01_sunrise_plate",
+          "source": "production/chapter-02/components/prepared-v2/CH02_B01_sunrise_plate.png",
+          "bounds": [
+            0,
+            0,
+            2399,
+            1791
+          ],
+          "box": [
+            200,
+            149,
+            1801,
+            1345
+          ],
+          "anchor": "bottom_center",
+          "rect": [
+            200,
+            149,
+            1801,
+            1345,
+            0.7504166666666666
+          ],
+          "scale": 0.750417
+        },
+        {
+          "step": "pilot_awaken_contact_shadow",
+          "subject": "pilot_awaken",
+          "method": "fixlib.contact_shadow BEFORE subject",
+          "params": {
+            "squash": 0.07,
+            "source_frac": 0.3,
+            "blur": 9,
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3
+          },
+          "subject_layer_from_crop_at": [
+            392,
+            760,
+            886,
+            780
+          ]
+        },
+        {
+          "step": "pilot_awaken",
+          "cell": "pilot_awaken",
+          "cell_file": "production/chapter-02/components/prepared-v2/CH02_S03_pilot_awaken__rgba.png",
+          "bounds": [
+            365,
+            160,
+            2034,
+            1629
+          ],
+          "box": [
+            385,
+            760,
+            900,
+            780
+          ],
+          "anchor": "bottom_center",
+          "rect": [
+            392,
+            760,
+            886,
+            780,
+            0.5306122448979592
+          ],
+          "scale": 0.530612,
+          "mirrored": false,
+          "note": "shifted slightly right vs c02-s02-p01 guide; faces RIGHT toward prince"
+        },
+        {
+          "step": "prince_quiet_contact_shadow",
+          "subject": "prince_quiet_mirrored",
+          "method": "fixlib.contact_shadow BEFORE subject",
+          "params": {
+            "squash": 0.07,
+            "source_frac": 0.3,
+            "blur": 9,
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3
+          },
+          "subject_layer_from_crop_at": [
+            1449,
+            830,
+            280,
+            700
+          ]
+        },
+        {
+          "step": "prince_quiet_mirrored",
+          "cell": "prince_quiet",
+          "cell_file": "production/chapter-02/components/prepared-v2/CH02_S05_prince_quiet__rgba.png",
+          "bounds": [
+            273,
+            123,
+            883,
+            1648
+          ],
+          "box": [
+            1309,
+            830,
+            560,
+            700
+          ],
+          "anchor": "bottom_center",
+          "rect": [
+            1449,
+            830,
+            280,
+            700,
+            0.45871559633027525
+          ],
+          "scale": 0.458716,
+          "mirrored": true,
+          "mirror_reason": "user-directed orientation fix",
+          "note": "flipped to face LEFT toward pilot; stepped in closer than c02-s02-p01"
+        },
+        {
+          "step": "geometry_report",
+          "measurements": {
+            "pilot_rect": [
+              392,
+              760,
+              886,
+              780,
+              0.5306122448979592
+            ],
+            "pilot_height": 780,
+            "pilot_bottom": 1540,
+            "prince_rect": [
+              1449,
+              830,
+              280,
+              700,
+              0.45871559633027525
+            ],
+            "prince_height": 700,
+            "prince_bottom": 1530,
+            "bbox_gap_px": 171
+          }
+        }
+      ]
+    },
+    {
+      "page": "c02-s02-p05",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s02-p05.png",
+      "sha256": "baf1413f2b42ef5a4778c9f426a17338b75a1665849937938139cdf6c820db4c",
+      "decoded_pixel_sha256": "3368fc54d8789891d805186d0cd0119dd30a752e06ad47db8c0b1979105eec1c",
+      "story_text": "There I was, with a broken plane and hardly any water. But I took out my paper and pen. What else could I do with such a strange little visitor?",
+      "beat": "Takes out paper and pen",
+      "observed": "Seated pilot is fit to 630px envelope while prince stays700px; pilot anatomy shrinks. Prince jumps109px left without movement. Large empty upper area and disconnected shadow intensify mismatch.",
+      "required_action": "Set uniform scale from comparable head/torso, retain prince world anchor, use blank paper/pencil action and measured contact shadow.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s02-p05/layout.json",
+      "placements": [
+        {
+          "name": "pilot",
+          "cell": "CH02_S01_pilot_drawing__rgba.png",
+          "cell_bounds": [
+            161,
+            343,
+            1078,
+            1640
+          ],
+          "box": [
+            345,
+            900,
+            550,
+            630
+          ],
+          "anchor": "bottom_center",
+          "rect": [
+            397,
+            900,
+            446,
+            630
+          ],
+          "scale": 0.485362,
+          "mirrored": false,
+          "shadow": {
+            "squash": 0.07,
+            "source_frac": 0.3,
+            "blur": 9,
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3,
+            "method": "silhouette contact shadow composited before subject"
+          },
+          "layer_height_px": 630
+        },
+        {
+          "name": "prince",
+          "cell": "CH02_S05_prince_quiet__rgba.png",
+          "cell_bounds": [
+            273,
+            123,
+            883,
+            1648
+          ],
+          "box": [
+            1200,
+            830,
+            560,
+            700
+          ],
+          "anchor": "bottom_center",
+          "rect": [
+            1340,
+            830,
+            280,
+            700
+          ],
+          "scale": 0.458716,
+          "mirrored": true,
+          "mirror_reason": "user-directed orientation fix",
+          "shadow": {
+            "squash": 0.07,
+            "source_frac": 0.3,
+            "blur": 9,
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3,
+            "method": "silhouette contact shadow composited before subject"
+          },
+          "layer_height_px": 700
+        }
+      ]
+    },
+    {
+      "page": "c02-s02-p06",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s02-p06.png",
+      "sha256": "b851c1777bd7eb37cfdf0273333cbda8bd20b097b4d95e6ceca33b5466ade5e3",
+      "decoded_pixel_sha256": "0f417daf72634cd7c46974d7556d8ce04777421d0d8db8cc7cfb791ef42fb134",
+      "story_text": "\"I studied geography, history, math, and grammar,\" I said. \"I don't know how to draw.\" \"That doesn't matter. Draw me a sheep.\"",
+      "beat": "Admits he cannot draw",
+      "observed": "Pilot stands and points to empty space; prince remains neutral. Passage supplies a spoken admission, not a new distant object.",
+      "required_action": "Use a coherent hesitant conversational gesture with gaze to prince; do not force a stand/point because that source exists. Preserve paper and scene chronology.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s02-p06/layout.json",
+      "placements": {
+        "pilot_point": {
+          "cell": "pilot_point",
+          "file": "production/chapter-02/components/prepared-v2/CH03S01_pilot_point__rgba.png",
+          "mirrored": true,
+          "mirror_reason": "master-directed orientation fix under the user v002 review directive (characters must face each other); no separate user approval was obtained for this pilot mirror",
+          "painted_bounds_native": [
+            105,
+            215,
+            932,
+            1710
+          ],
+          "painted_bounds_used": [
+            217,
+            215,
+            1044,
+            1710
+          ],
+          "box": [
+            350,
+            540,
+            600,
+            1000
+          ],
+          "rect": [
+            373,
+            540,
+            553,
+            1000,
+            0.6684491978609626
+          ],
+          "rendered_h": 1000,
+          "bottom": 1540,
+          "shadow": {
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "squash": 0.07,
+            "source_frac": 0.3,
+            "blur": 9,
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3,
+            "order": "before subject"
+          }
+        },
+        "prince_quiet": {
+          "cell": "prince_quiet",
+          "file": "production/chapter-02/components/prepared-v2/CH02_S05_prince_quiet__rgba.png",
+          "mirrored": true,
+          "mirror_reason": "user-directed orientation fix",
+          "painted_bounds_native": [
+            266,
+            123,
+            876,
+            1648
+          ],
+          "painted_bounds_used": [
+            273,
+            123,
+            883,
+            1648
+          ],
+          "box": [
+            1060,
+            830,
+            560,
+            700
+          ],
+          "rect": [
+            1200,
+            830,
+            280,
+            700,
+            0.45871559633027525
+          ],
+          "rendered_h": 700,
+          "bottom": 1530,
+          "shadow": {
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "squash": 0.07,
+            "source_frac": 0.3,
+            "blur": 9,
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3,
+            "order": "before subject"
+          }
+        }
+      }
+    },
+    {
+      "page": "c02-s03-p01",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s03-p01.png",
+      "sha256": "a1b97d65d2891fa3f1e9798814ffbd024de5c2fee2abff307fa1bc4a5c9a33b6",
+      "decoded_pixel_sha256": "0a64145e68f33e7bf24076b3db87e0fe3ca48ae79e53ea315c547ecba4edf0e9",
+      "story_text": "I had never drawn a sheep. So I drew the picture I knew best: my snake from the outside. \"No, no! I don't want an elephant inside a snake!\"",
+      "beat": "Shows Drawing One; rejection",
+      "observed": "Canonical paper is correct but seated pilot is miniature beside quiet large-headed child; rejection not expressed.",
+      "required_action": "Calibrate pair, preserve fingers and paper quad, show prince politely refusing the snake and pilot listening; no extra cloud yet.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s03-p01/layout.json",
+      "placements": {
+        "page": "c02-s03-p01",
+        "pilot_present": {
+          "cell": "CH02_S01_pilot_presenting__rgba.png",
+          "content_bounds": [
+            0,
+            319,
+            1014,
+            1643
+          ],
+          "box": [
+            345,
+            900,
+            550,
+            630
+          ],
+          "rect": [
+            378,
+            900,
+            483,
+            630,
+            0.47547169811320755
+          ],
+          "anchor": "bottom_center",
+          "faces": "RIGHT",
+          "drawing_on_paper": {
+            "master": "draw1",
+            "quad": [
+              569,
+              774,
+              1010,
+              1169
+            ],
+            "placed": [
+              586,
+              888,
+              406,
+              167
+            ],
+            "scale": 0.3792,
+            "method": "ch1 pigment multiply onto measured paper quad; original strength; fingers/outline protected by alpha>240 + significance masks"
+          }
+        },
+        "prince_quiet": {
+          "cell": "CH02_S05_prince_quiet__rgba.png",
+          "content_bounds": [
+            266,
+            123,
+            876,
+            1648
+          ],
+          "flipped_content_bounds": [
+            273,
+            123,
+            883,
+            1648
+          ],
+          "box": [
+            1150,
+            830,
+            560,
+            700
+          ],
+          "rect": [
+            1290,
+            830,
+            280,
+            700,
+            0.45871559633027525
+          ],
+          "anchor": "bottom_center",
+          "faces": "LEFT (after mirror)",
+          "mirrored": true,
+          "mirror_reason": "user-directed orientation fix"
+        },
+        "shadows": {
+          "pilot": {
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "squash": 0.07,
+            "blur": 9,
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3,
+            "method": "silhouette-derived contact shadow composited BEFORE subject"
+          },
+          "prince": {
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "squash": 0.07,
+            "blur": 9,
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3,
+            "method": "silhouette-derived contact shadow composited BEFORE subject"
+          },
+          "order": "each shadow composited before its subject"
+        }
+      }
+    },
+    {
+      "page": "c02-s03-p02",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s03-p02.png",
+      "sha256": "a5aac8199297185e27bafdda53e26fc036790100b579f7e9bf07a543de7c97bc",
+      "decoded_pixel_sha256": "2335d2427d1dc743b8f6f5cc2d6c59f002b0168a5129273420fc869ccff4773c",
+      "story_text": "\"That snake is dangerous, and the elephant is much too big. Where I live, everything is very small. I need a sheep.\" At last, someone could see my elephant.",
+      "beat": "Understands elephant within snake",
+      "observed": "This page ALREADY has a thought cloud. Existing two puffs and large frame need adjustment; body scale remains wrong.",
+      "required_action": "Keep canonical elephant marks, use three small owner-linked puffs, minimal frame and readable content after recomposing the pair.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s03-p02/layout.json",
+      "placements": {
+        "background": {
+          "source": "production/shared/backgrounds/LP_ref_sahara_day.jpg",
+          "canvas": [
+            2400,
+            1792
+          ],
+          "method": "full_plate LANCZOS to 2400x1792"
+        },
+        "pilot_shadow": {
+          "color": [
+            105,
+            76,
+            55
+          ],
+          "squash": 0.07,
+          "blur": 9,
+          "max_alpha": 56,
+          "composited_before_subject": true,
+          "method": "silhouette-derived contact shadow (fixlib)"
+        },
+        "pilot_present": {
+          "cell": "pilot_present",
+          "faces": "RIGHT",
+          "box": [
+            345,
+            900,
+            550,
+            630
+          ],
+          "rect": [
+            378,
+            900,
+            483,
+            630
+          ],
+          "scale": 0.4755,
+          "bottom": 1530,
+          "paper_drawing": {
+            "master": "draw1",
+            "quad": [
+              569,
+              774,
+              1010,
+              1169
+            ],
+            "placed": [
+              586,
+              888,
+              406,
+              167
+            ],
+            "scale": 0.3792,
+            "method": "ch1 pigment multiply onto measured paper quad; original strength; fingers/outline protected by alpha>240 + significance masks"
+          },
+          "mirrored": false
+        },
+        "prince_shadow": {
+          "color": [
+            105,
+            76,
+            55
+          ],
+          "squash": 0.07,
+          "blur": 9,
+          "max_alpha": 56,
+          "composited_before_subject": true,
+          "method": "silhouette-derived contact shadow (fixlib)"
+        },
+        "prince_quiet": {
+          "cell": "prince_quiet",
+          "faces": "LEFT (mirrored)",
+          "box": [
+            1250,
+            830,
+            560,
+            700
+          ],
+          "rect": [
+            1390,
+            830,
+            280,
+            700
+          ],
+          "scale": 0.4587,
+          "bottom": 1530,
+          "mirrored": true,
+          "mirror_reason": "user-directed orientation fix"
+        },
+        "thought_inset": {
+          "content_first": true,
+          "frame_prepared": "production/shared/thought-clouds/prepared/puff-large.png",
+          "frame_size": [
+            840,
+            410
+          ],
+          "position": [
+            1330,
+            170
+          ],
+          "frame_only_aspect_adaptation": true,
+          "rim_opacity": 0.68,
+          "interior_opacity": 1,
+          "content": {
+            "prepared": "production/chapter-02/components/prepared-v2/pigment/draw2-relative.png",
+            "position": [
+              1444,
+              207
+            ],
+            "size": [
+              650,
+              298
+            ],
+            "uniform_scale": 0.5126182965299685,
+            "strength": 1,
+            "strong_pigment_outside_safe_center": 0,
+            "clipped_subject_pixels": 0
+          }
+        }
+      }
+    },
+    {
+      "page": "c02-s03-p03",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s03-p03.png",
+      "sha256": "718adc90a991e5e4f1f0ae7f555c979c1003962c24e2cdc314cc976183eee223",
+      "decoded_pixel_sha256": "94da9ccb1a39a5152307ad99ed43b471aa0804f08cc4077b43255385842325ff",
+      "story_text": "I tried to draw a sheep. The little prince studied it. \"No. This one looks sick. Please draw another.\"",
+      "beat": "Rejects sick sheep",
+      "observed": "Leaning Prince is fitted to same700px height as upright variant; oversized overall child/head relative to pilot. Paper sick-sheep marks are retained correctly.",
+      "required_action": "Measure head and torso, keep feet anchor, express concern without enlarged anatomy; use actual source contacts.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s03-p03/layout.json",
+      "placements": {
+        "page": "c02-s03-p03",
+        "background": {
+          "source": "production/shared/backgrounds/LP_ref_sahara_day.jpg",
+          "method": "full_plate LANCZOS to 2400x1792"
+        },
+        "pilot_present": {
+          "cell": "CH02_S01_pilot_presenting__rgba.png",
+          "content_bounds": [
+            0,
+            319,
+            1014,
+            1643
+          ],
+          "box": [
+            365,
+            900,
+            550,
+            630
+          ],
+          "anchor": "bottom_center",
+          "faces": "RIGHT",
+          "mirror": false,
+          "drawing_on_paper": {
+            "master": "sick",
+            "quad": [
+              569,
+              774,
+              1010,
+              1169
+            ],
+            "placed": [
+              602,
+              790,
+              375,
+              363
+            ],
+            "scale": 0.4794,
+            "method": "ch1 pigment multiply onto measured paper quad; original strength; fingers/outline protected by alpha>240 + significance masks"
+          },
+          "rect": [
+            398,
+            900,
+            483,
+            630,
+            0.47547169811320755
+          ]
+        },
+        "prince_inspect": {
+          "cell": "CH02_S02_prince_inspecting__rgba.png",
+          "content_bounds": [
+            132,
+            207,
+            982,
+            1643
+          ],
+          "box": [
+            1050,
+            830,
+            560,
+            700
+          ],
+          "anchor": "bottom_center",
+          "faces": "LEFT (native, NO flip/mirror)",
+          "mirror": false,
+          "rect": [
+            1122,
+            830,
+            415,
+            700,
+            0.4871259568545581
+          ]
+        }
+      }
+    },
+    {
+      "page": "c02-s03-p04",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s03-p04.png",
+      "sha256": "799ea778d59c70c2f8787ae6a1ea4620acd22db95d78112fa1d38a32d8a89e8e",
+      "decoded_pixel_sha256": "bcfac0f149910051a944e70c2ec34608bbe762a7b7894694277ca60c7d2cbef5",
+      "story_text": "I tried again. This time he smiled. \"That's a ram. Look at its horns.\" So I began a third drawing.",
+      "beat": "Smiles at the ram’s horns",
+      "observed": "Same inspecting face as previous page although text explicitly says he smiled. Changed drawing alone misses this response.",
+      "required_action": "Use a compatible complete smiling inspection state. Preserve canonical ram/horns and measured pair geometry; do not replace head alone.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s03-p04/layout.json",
+      "placements": {
+        "canvas": [
+          2400,
+          1792
+        ],
+        "ram_annotation": {
+          "master": "ram",
+          "quad": [
+            569,
+            774,
+            1010,
+            1169
+          ],
+          "placed": [
+            637,
+            790,
+            305,
+            363
+          ],
+          "scale": 0.4807,
+          "method": "ch1 pigment multiply onto measured paper quad; original strength; fingers/outline protected by alpha>240 + significance masks"
+        },
+        "pilot": {
+          "cell": "pilot_present",
+          "box": [
+            385,
+            900,
+            550,
+            630
+          ],
+          "rect": [
+            418,
+            900,
+            483,
+            630,
+            0.47547169811320755
+          ],
+          "flip": false
+        },
+        "prince": {
+          "cell": "prince_inspect",
+          "box": [
+            1030,
+            830,
+            560,
+            700
+          ],
+          "rect": [
+            1102,
+            830,
+            415,
+            700,
+            0.4871259568545581
+          ],
+          "flip": false,
+          "standing_equivalent": 700
+        }
+      }
+    },
+    {
+      "page": "c02-s03-p05",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s03-p05.png",
+      "sha256": "b837ffc4b379228e940e1185a89ebcbcd9d955c5281bbb1e3bbb4f4d03829b64",
+      "decoded_pixel_sha256": "34c21466143ba6d62ae1ec4119eb4f624104c10034be352c5b7ffecf321666d4",
+      "story_text": "\"This one is too old,\" he said. \"I want a sheep that will live a long time.\" Three drawings. Still no sheep.",
+      "beat": "Rejects old sheep",
+      "observed": "Source gesture repeats previous inspections and pilot still looks pleasantly neutral despite repeated failure. Canonical old sheep is distinct.",
+      "required_action": "Use a meaningful later response and growing restrained frustration, without a duplicate scene or invented physical animal.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s03-p05/layout.json",
+      "placements": {
+        "background": {
+          "plate": "production/shared/backgrounds/LP_ref_sahara_day.jpg",
+          "time": "day",
+          "resize": [
+            2400,
+            1792
+          ]
+        },
+        "pilot_present_old": {
+          "cell": "CH02_S01_pilot_presenting__rgba.png",
+          "faces": "RIGHT",
+          "box": [
+            395,
+            900,
+            550,
+            630
+          ],
+          "rect": [
+            428,
+            900,
+            483,
+            630,
+            0.47547169811320755
+          ],
+          "bottom_row": 1529,
+          "annotation": {
+            "master": "old",
+            "quad": [
+              569,
+              774,
+              1010,
+              1169
+            ],
+            "placed": [
+              586,
+              828,
+              406,
+              287
+            ],
+            "scale": 0.7772,
+            "method": "ch1 pigment multiply onto measured paper quad; original strength; fingers/outline protected by alpha>240 + significance masks"
+          }
+        },
+        "prince_inspect": {
+          "cell": "CH02_S02_prince_inspecting__rgba.png",
+          "faces": "LEFT",
+          "mirrored": false,
+          "box": [
+            1070,
+            830,
+            560,
+            700
+          ],
+          "rect": [
+            1142,
+            830,
+            415,
+            700,
+            0.4871259568545581
+          ],
+          "bottom_row": 1529
+        },
+        "shadow_policy": {
+          "method": "silhouette-derived contact shadow composited BEFORE subject",
+          "squash": 0.07,
+          "source_frac": 0.3,
+          "blur": 9,
+          "color": [
+            105,
+            76,
+            55
+          ],
+          "max_alpha": 56,
+          "dx": 3,
+          "dy": 3
+        }
+      }
+    },
+    {
+      "page": "c02-s04-p01",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s04-p01.png",
+      "sha256": "a7687a534c20b2dc24498c164b6e33ced4580c00f7cbad343cf7cebf2c0e5591",
+      "decoded_pixel_sha256": "a53884fd33c969abd37e28fa8071f838e325686f06922ff8f00b472e663c228d",
+      "story_text": "My engine was waiting. I was losing patience. I drew a box, with a few holes in its side. \"There. Your sheep is inside.\"",
+      "beat": "Impatient box solution",
+      "observed": "Impatient pilot is visible and canonical three-hole box remains right; same scale/shadow defects persist.",
+      "required_action": "Retain useful expression, recalibrate whole group and fixed anchors, keep box paper intact.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s04-p01/layout.json",
+      "placements": {
+        "page": "c02-s04-p01",
+        "canvas": [
+          2400,
+          1792
+        ],
+        "subjects": [
+          {
+            "name": "pilot_box",
+            "cell": "CH02_C01_pilot_box__rgba.png",
+            "cell_sha256": "cf25ede5a472d1e36b09f1856d2b61b86182f9621e6c7efa8c4028eb5bc0cc50",
+            "cell_note": "centrally cleaned cell (twin fragment x<70 erased); single connected component verified",
+            "painted_bounds": [
+              85,
+              321,
+              1117,
+              1643
+            ],
+            "target_box": [
+              345,
+              900,
+              550,
+              630
+            ],
+            "placed_rect": [
+              374,
+              900,
+              492,
+              630,
+              0.47619047619047616
+            ],
+            "scale": 0.47619047619047616,
+            "height_px": 630,
+            "bottom_y": 1530,
+            "facing": "RIGHT",
+            "paper_annotation": {
+              "master": "box",
+              "quad": [
+                672,
+                776,
+                1112,
+                1170
+              ],
+              "placed": [
+                725,
+                792,
+                333,
+                362
+              ],
+              "scale": 0.2839,
+              "method": "ch1 pigment multiply onto measured paper quad; original strength; fingers/outline protected by alpha>240 + significance masks"
+            },
+            "shadow": {
+              "method": "silhouette contact shadow under subject, composited before subject",
+              "color": [
+                105,
+                76,
+                55
+              ],
+              "squash": 0.07,
+              "blur": 9,
+              "max_alpha": 56
+            }
+          },
+          {
+            "name": "prince_quiet",
+            "cell": "CH02_S05_prince_quiet__rgba.png",
+            "cell_sha256": "de2c51b179ded8e187aab95a871014d98bb4d01dc0be27bc78cc62837d47a3f5",
+            "mirrored": true,
+            "mirror_reason": "user-directed orientation fix",
+            "painted_bounds": [
+              273,
+              123,
+              883,
+              1648
+            ],
+            "target_box": [
+              1080,
+              830,
+              560,
+              700
+            ],
+            "placed_rect": [
+              1220,
+              830,
+              280,
+              700,
+              0.45871559633027525
+            ],
+            "scale": 0.45871559633027525,
+            "height_px": 700,
+            "bottom_y": 1530,
+            "facing": "LEFT",
+            "shadow": {
+              "method": "silhouette contact shadow under subject, composited before subject",
+              "color": [
+                105,
+                76,
+                55
+              ],
+              "squash": 0.07,
+              "blur": 9,
+              "max_alpha": 56
+            }
+          }
+        ],
+        "background": {
+          "source": "production/shared/backgrounds/LP_ref_sahara_day.jpg",
+          "method": "full_plate LANCZOS to 2400x1792"
+        }
+      }
+    },
+    {
+      "page": "c02-s04-p02",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s04-p02.png",
+      "sha256": "6b412df988db0f12b2f7a4cf0cb6ed465ab57924464c9571ec41bcde48c38531",
+      "decoded_pixel_sha256": "39600dc26eee0d1467dd52036bfe3e8a8a369558bf82d7b8082e637d7b4fcd0f",
+      "story_text": "His whole face brightened. \"Yes! That's just what I wanted. Do you think it needs much grass?\" \"Why?\" \"Because my home is very small.\"",
+      "beat": "Prince brightens and imagines sheep",
+      "observed": "Delight is visible but child still too large; requested mental sheep absent under the older no-cloud contract.",
+      "required_action": "Use revised explicit thought decision and planned CH02_R02:ONE simple imagined lamb, three puffs to prince. Physical paper stays canonical closed box; no factual reveal.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s04-p02/layout.json",
+      "placements": {
+        "background": {
+          "source": "production/shared/backgrounds/LP_ref_sahara_day.jpg",
+          "method": "full_plate LANCZOS to 2400x1792"
+        },
+        "box_annotation": {
+          "master": "box",
+          "quad": [
+            569,
+            774,
+            1010,
+            1169
+          ],
+          "placed": [
+            622,
+            790,
+            334,
+            363
+          ],
+          "scale": 0.2846,
+          "method": "ch1 pigment multiply onto measured paper quad; original strength; fingers/outline protected by alpha>240 + significance masks"
+        },
+        "pilot_present": {
+          "cell": "pilot_present",
+          "cell_bounds": [
+            0,
+            319,
+            1014,
+            1643
+          ],
+          "box": [
+            385,
+            900,
+            550,
+            630
+          ],
+          "rect": [
+            418,
+            900,
+            483,
+            630,
+            0.47547169811320755
+          ],
+          "faces": "RIGHT (no flip)",
+          "seated_height_px": 630
+        },
+        "prince_delight": {
+          "cell": "prince_delight",
+          "cell_bounds": [
+            288,
+            122,
+            901,
+            1648
+          ],
+          "box": [
+            916,
+            830,
+            560,
+            700
+          ],
+          "rect": [
+            1055,
+            830,
+            281,
+            700,
+            0.45841519318926
+          ],
+          "faces": "LEFT (no flip - canonical)",
+          "standing_height_px": 700
+        },
+        "moment": {
+          "gap_px": 155,
+          "target": "130-180 close joyful moment",
+          "both_bottoms": [
+            1530,
+            1530
+          ]
+        },
+        "shadows": {
+          "params": {
+            "squash": 0.07,
+            "source_frac": 0.3,
+            "blur": 9,
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3
+          },
+          "order": "each shadow composited BEFORE its subject"
+        }
+      }
+    },
+    {
+      "page": "c02-s04-p03",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s04-p03.png",
+      "sha256": "bd809c94c4a538ea6499e8bc2378d29f753fae07a4cd9a83ae74182dee1e283f",
+      "decoded_pixel_sha256": "2fe85b734fe7dcf821b7a68b1f9ed428ebf00b6ff59af45a885a763676b4bc64",
+      "story_text": "\"There will be enough,\" I said. \"I've given you a very small sheep.\" He bent over the picture. \"Not so very small. Look! It's asleep.\"",
+      "beat": "Bends to see sleeping sheep",
+      "observed": "Leaning state broadly suits inspection, but head/relative scale remain excessive and bent pose shifts feet.",
+      "required_action": "Scale by head/torso not silhouette height, hold feet unless story movement shown; subtle absorbed expression, box unchanged. Do not repeat mental cloud automatically.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s04-p03/layout.json",
+      "placements": {
+        "paper_art_box": {
+          "master": "box",
+          "quad": [
+            569,
+            774,
+            1010,
+            1169
+          ],
+          "placed": [
+            622,
+            790,
+            334,
+            363
+          ],
+          "scale": 0.2846,
+          "method": "ch1 pigment multiply onto measured paper quad; original strength; fingers/outline protected by alpha>240 + significance masks"
+        },
+        "pilot_presenting": {
+          "rect": [
+            398,
+            900,
+            483,
+            630,
+            0.47547169811320755
+          ],
+          "box": [
+            365,
+            900,
+            550,
+            630
+          ],
+          "faces": "RIGHT (native, no flip)"
+        },
+        "prince_inspecting": {
+          "rect": [
+            1105,
+            830,
+            415,
+            700,
+            0.4871259568545581
+          ],
+          "box": [
+            1033,
+            830,
+            560,
+            700
+          ],
+          "faces": "LEFT (native, no flip)"
+        },
+        "spacing": {
+          "painted_horizontal_gap_px": 225,
+          "min_pixel_distance_px": 283.2,
+          "target": "medium distance gap ~200-250px (distinct from p02 close / p04 calm)",
+          "note": "prince box x tuned 1100->1033 (spec boxes marked approximate) to land painted gap at 225"
+        },
+        "shadows": {
+          "method": "fixlib.contact_shadow silhouette-derived, composited BEFORE subject",
+          "params": {
+            "color": [
+              105,
+              76,
+              55
+            ],
+            "squash": 0.07,
+            "blur": 9,
+            "max_alpha": 56,
+            "dx": 3,
+            "dy": 3
+          }
+        }
+      }
+    },
+    {
+      "page": "c02-s04-p04",
+      "output": "production/chapter-02/delivery/chapter-02-v002/illustrations/c02-s04-p04.png",
+      "sha256": "e4f531ace87d4d907fc0adaaf590a2e5e57052541f216de455da3192ea8a5a11",
+      "decoded_pixel_sha256": "82ad23ec8ae74daec75d8bb1cbacbdddfe09e69a8cc766d5ed402ef982fd89dd",
+      "story_text": "And that was how I met the little prince.",
+      "beat": "The beginning of friendship",
+      "observed": "Quiet standing Prince and presenting pilot return to near-repeated staging; emotional connection is weak.",
+      "required_action": "Give a warm mutual gaze/relaxed response or coherent closing medium two-shot while preserving proportions and screen direction. No next-chapter facts.",
+      "review_scope": "Actual delivery inspected at reading size, recurring source shapes and cited defects at native crop; source/layout provenance traced.",
+      "status": "revision_required",
+      "layout": "production/chapter-02/current/pages/c02-s04-p04/layout.json",
+      "placements": {
+        "page": "c02-s04-p04",
+        "canvas": [
+          2400,
+          1792
+        ],
+        "subjects": [
+          {
+            "name": "pilot_present",
+            "cell": "CH02_S01_pilot_presenting__rgba.png",
+            "painted_bounds": [
+              0,
+              319,
+              1014,
+              1643
+            ],
+            "target_box": [
+              415,
+              900,
+              550,
+              630
+            ],
+            "placed_rect": [
+              448,
+              900,
+              483,
+              630,
+              0.47547169811320755
+            ],
+            "scale": 0.47547169811320755,
+            "height_px": 630,
+            "bottom_y": 1530,
+            "facing": "RIGHT",
+            "paper_annotation": {
+              "master": "box",
+              "quad": [
+                569,
+                774,
+                1010,
+                1169
+              ],
+              "placed": [
+                622,
+                790,
+                334,
+                363
+              ],
+              "scale": 0.2846,
+              "method": "ch1 pigment multiply onto measured paper quad; original strength; fingers/outline protected by alpha>240 + significance masks"
+            },
+            "shadow": {
+              "method": "silhouette contact shadow under subject, composited before subject",
+              "color": [
+                105,
+                76,
+                55
+              ],
+              "squash": 0.07,
+              "blur": 9,
+              "max_alpha": 56
+            }
+          },
+          {
+            "name": "prince_quiet",
+            "cell": "CH02_S05_prince_quiet__rgba.png",
+            "mirrored": true,
+            "mirror_reason": "user-directed orientation fix",
+            "painted_bounds": [
+              273,
+              123,
+              883,
+              1648
+            ],
+            "target_box": [
+              1180,
+              830,
+              560,
+              700
+            ],
+            "placed_rect": [
+              1320,
+              830,
+              280,
+              700,
+              0.45871559633027525
+            ],
+            "scale": 0.45871559633027525,
+            "height_px": 700,
+            "bottom_y": 1530,
+            "facing": "LEFT",
+            "shadow": {
+              "method": "silhouette contact shadow under subject, composited before subject",
+              "color": [
+                105,
+                76,
+                55
+              ],
+              "squash": 0.07,
+              "blur": 9,
+              "max_alpha": 56
+            }
+          }
+        ],
+        "composition": {
+          "pilot_box": [
+            415,
+            900,
+            550,
+            630
+          ],
+          "prince_box": [
+            1180,
+            830,
+            560,
+            700
+          ],
+          "pilot_placed_right_edge": 931,
+          "prince_placed_left_edge": 1320,
+          "staging_gap_pilot_placed_right_to_prince_box_left": 249,
+          "box_edge_gap": 215,
+          "silhouette_bbox_gap": 389,
+          "spec": "calm spacing gap ~220-280 (staging gap); prince h exactly 700; both bottoms 1530"
+        }
+      }
+    }
+  ],
+  "shadow_samples": [
+    {
+      "page": "c02-s01-p02",
+      "subject": "plane_native_full_width / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s01-p02-ab2898c4a652ed0f.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s01-p02-7624ead680f3ff3b.png",
+      "sample_xy": [
+        1737,
+        1330
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 2.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s01-p02",
+      "subject": "pilot_listen_foreground / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s01-p02-39bd1808c2a7d712.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s01-p02-cac25feb6a1e7b31.png",
+      "sample_xy": [
+        505,
+        1539
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 13.0,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s01-p03",
+      "subject": "repair_group / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s01-p03-643f7c70c9267f70.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s01-p03-784371327feed4f5.png",
+      "sample_xy": [
+        931,
+        1489
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 11.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s01-p04",
+      "subject": "plane_night_graded / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s01-p04-35fe652d739e5a9c.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s01-p04-a6aa735aa27cf02f.png",
+      "sample_xy": [
+        1739,
+        1209
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 1.0,
+      "first_visible_shadow_rows_below_support": 10,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s01-p04",
+      "subject": "pilot_night_graded / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s01-p04-409a15b5056f906a.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s01-p04-a07f43ca70445784.png",
+      "sample_xy": [
+        757,
+        1519
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 6.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p01",
+      "subject": "pilot_awaken / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p01-43173eca6a6e48f6.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p01-7bda56c6749286fc.png",
+      "sample_xy": [
+        1066,
+        1539
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 13.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p01",
+      "subject": "prince_quiet_mirrored / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p01-af449221c04f7317.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p01-29ecc76445e7414f.png",
+      "sample_xy": [
+        1502,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p02",
+      "subject": "prince_quiet_mirrored / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p02-54aea3eb8b78450a.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p02-1d17e9ce0613aca9.png",
+      "sample_xy": [
+        1672,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p04",
+      "subject": "pilot_awaken / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p04-c3559b47667c3159.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p04-f3073a39c0810a77.png",
+      "sample_xy": [
+        1121,
+        1539
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 13.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p04",
+      "subject": "pilot_awaken / left palm",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p04-c3559b47667c3159.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p04-f3073a39c0810a77.png",
+      "sample_xy": [
+        430,
+        1491
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 0.0,
+      "first_visible_shadow_rows_below_support": 69,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p04",
+      "subject": "pilot_awaken / seated hip",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p04-c3559b47667c3159.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p04-f3073a39c0810a77.png",
+      "sample_xy": [
+        767,
+        1471
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 0.0,
+      "first_visible_shadow_rows_below_support": 59,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p04",
+      "subject": "prince_quiet_mirrored / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p04-5c427c2c449ea213.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p04-c2c31cc4d106dc8a.png",
+      "sample_xy": [
+        1581,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p05",
+      "subject": "pilot_pilot_draw / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p05-4b898ba42c4ce28b.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p05-83a1fad9d20a5912.png",
+      "sample_xy": [
+        596,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.33,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p05",
+      "subject": "prince_prince_quiet_mirrored / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p05-31aaa3d31addbd75.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p05-ed397cabd4f2b126.png",
+      "sample_xy": [
+        1472,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.33,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p06",
+      "subject": "pilot_point_standing_mirrored / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p06-339ee842cc91ad07.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p06-0491da95a7d3577a.png",
+      "sample_xy": [
+        500,
+        1539
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 11.0,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s02-p06",
+      "subject": "prince_quiet_flipped / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s02-p06-20895c39ef654d59.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s02-p06-593e870d9079e171.png",
+      "sample_xy": [
+        1332,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p01",
+      "subject": "pilot_present annotated with draw1 placed LEFT [345,900,550,630], faces RIGHT / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s03-p01-58dffd5bc2cb45a9.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s03-p01-05dd559328c66e23.png",
+      "sample_xy": [
+        557,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.0,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p01",
+      "subject": "prince_quiet MIRRORED placed RIGHT [1150,830,560,700] h=700, faces LEFT toward paper / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s03-p01-79fdd141066940ea.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s03-p01-86dec89dc36f6960.png",
+      "sample_xy": [
+        1422,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p02",
+      "subject": "pilot-present-draw1 / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02s03p02-58dffd5bc2cb45a9.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02s03p02-05dd559328c66e23.png",
+      "sample_xy": [
+        557,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.0,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p02",
+      "subject": "prince-quiet-mirrored / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02s03p02-afbd8039680235c3.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02s03p02-7b5ef888e2afef6c.png",
+      "sample_xy": [
+        1522,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.33,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p03",
+      "subject": "pilot_present annotated with sick placed LEFT [365,900,550,630] bottom 1530, faces RIGHT / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s03-p03-a18b660b6e2730cf.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s03-p03-32aa244e4c1ba396.png",
+      "sample_xy": [
+        577,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.33,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p03",
+      "subject": "prince_inspect NO-mirror placed RIGHT [1050,830,560,700] h=700 bottom 1530, faces LEFT toward paper / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s03-p03-e447257a5b4ccbc7.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s03-p03-1083e4f0f9c4fe2e.png",
+      "sample_xy": [
+        1368,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p04",
+      "subject": "pilot_present + ram drawing on held paper (faces RIGHT) / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s03-p04-c630ae06a9bf4625.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s03-p04-b29b3a70d2522ac2.png",
+      "sample_xy": [
+        597,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.33,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p04",
+      "subject": "prince_inspect (NO flip; faces LEFT; hands behind back, critical) / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s03-p04-f5dd1dc7b3d1309d.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s03-p04-2ac3714c31625408.png",
+      "sample_xy": [
+        1348,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.33,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p05",
+      "subject": "pilot-present-old-sheep / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s03-p05-92923136a1aaedaf.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s03-p05-482d61811f3bec05.png",
+      "sample_xy": [
+        607,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.0,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s03-p05",
+      "subject": "prince-inspect / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s03-p05-9c4bb61c6d6a61b5.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s03-p05-7c0e9d93561105f5.png",
+      "sample_xy": [
+        1388,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s04-p01",
+      "subject": "pilot_box annotated with box drawing, faces RIGHT / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s04-p01-6593c834aff4ecf6.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s04-p01-b0a4eb3da903c861.png",
+      "sample_xy": [
+        561,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.0,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s04-p01",
+      "subject": "prince_quiet MIRRORED faces LEFT, h=700 / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s04-p01-336c6a6006409d56.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s04-p01-fc2e7c20c4369f7b.png",
+      "sample_xy": [
+        1352,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s04-p02",
+      "subject": "pilot-presenting-box / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s04-p02-6b91b7a91e3aaa16.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s04-p02-b29b3a70d2522ac2.png",
+      "sample_xy": [
+        597,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.33,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s04-p02",
+      "subject": "prince-delight / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s04-p02-6b8e1b7dda2d16d7.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s04-p02-60ad0646be3c8b75.png",
+      "sample_xy": [
+        1192,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.67,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s04-p03",
+      "subject": "pilot-present-box / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s04-p03-cefa310360de3573.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s04-p03-8c030ff2e32b721a.png",
+      "sample_xy": [
+        579,
+        1597
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 159.0,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s04-p03",
+      "subject": "prince-inspect / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s04-p03-7f1db04b25e20dd7.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s04-p03-c7506f54cc0a1a46.png",
+      "sample_xy": [
+        1356,
+        1601
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": -78.67,
+      "first_visible_shadow_rows_below_support": null,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s04-p04",
+      "subject": "pilot_present annotated with box drawing, faces RIGHT / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s04-p04-d3585478b509d955.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s04-p04-13c16bf12583afac.png",
+      "sample_xy": [
+        627,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 12.0,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    },
+    {
+      "page": "c02-s04-p04",
+      "subject": "prince_quiet MIRRORED faces LEFT, h=700 (final) / lowest silhouette support",
+      "subject_layer": "production/chapter-02/current/layers/c02-s04-p04-9a3f78802632995a.png",
+      "shadow_layer": "production/chapter-02/current/layers/c02-s04-p04-d33e5f271a2404e0.png",
+      "sample_xy": [
+        1452,
+        1529
+      ],
+      "measurement": "Actual RGB change between retained cumulative opaque snapshots; subject max-channel difference>12, visible shadow mean darkening>=3 of255.",
+      "shadow_darkening_at_support": 10.33,
+      "first_visible_shadow_rows_below_support": 0,
+      "note": "Sample only, not every support. Alpha cannot be measured from these cumulative opaque snapshots; use the native prepared RGBA and transforms for corrected contact work."
+    }
+  ],
+  "exact_duplicate_groups": [],
+  "ledger_attempts": {
+    "CH02_B00": 1,
+    "CH02_R01": 1,
+    "CH02_S01": 1,
+    "CH02_S02": 2,
+    "CH02_S03": 1,
+    "CH02_S04": 1,
+    "CH02_S05": 1,
+    "CH02_C01": 1,
+    "CH02_C02": 1,
+    "CH02_B01": 1,
+    "CH02_R02": 0
+  },
+  "guide": "production/Composition_Continuity_and_Performance.md"
+}

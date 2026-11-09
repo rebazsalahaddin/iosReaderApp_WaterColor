@@ -1,0 +1,31 @@
+{
+  "id": "I_anonymous_lamplighter",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One clean identity turnaround of the SAME anonymous lamplighter: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": "appearance-references/shared/LP_ref_char_lamplighter_turnaround.png",
+  "candidate_role": "period costume/style seed only; establish one distinct anonymous adult identity turnaround, then reuse it",
+  "prompt_file": "production/reference-lineage/nodes/I_anonymous_lamplighter/PROMPT.txt",
+  "candidate_sha256": "b783a1c504df0aa09ddcf5c2d48de53222cfd7a9224ad8d41b28cf8837e50aeb",
+  "prompt": "One clean identity turnaround of the SAME anonymous lamplighter: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "62ae458bbc2608090d8d752064b23bf030f30d4289f9681a91d2835d4d20bfbc",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_anonymous_lamplighter"
+}

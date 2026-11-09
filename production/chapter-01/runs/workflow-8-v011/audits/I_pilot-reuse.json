@@ -1,0 +1,33 @@
+{
+  "node_id": "I_pilot",
+  "stage": "identity_turnaround",
+  "source_file": "appearance-references/shared/LP_ref_char_pilot_turnaround.png",
+  "source_sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+  "parents": [],
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T21:53:43.339876+00:00",
+  "verdict": "PASS_WITH_NOTE",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Four standing views retain slim adult stature, narrow face/long simple nose, brown hair and dot eyes; brown flight jacket, cream button shirt, tan trousers, high brown boots and goggles on forehead. Appropriate identity for flight scenes."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Small simple brown/dark dot/oval eyes; no detailed irises or anime eyes."
+    },
+    "native_geometry": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "2048x2048 original complete standing turnaround; full head/body/feet and consistent costume across four views. Per-posture numerical landmarks must be measured on each actual new neutral."
+    },
+    "alpha": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Retained RGB identity sheet on opaque cream paper is appearance authority only, not a transparent compositing asset; new neutral outputs require actual transparent alpha."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Identity views are appearance references, not a physical page group. Attached shadow must be checked on new neutral sources."
+    }
+  },
+  "issues": []
+}

@@ -1,0 +1,120 @@
+{
+  "id": "CH13_C02",
+  "chapter": 13,
+  "code": "C02",
+  "title": "businessman unable to answer",
+  "kind": "contact",
+  "cells": [
+    "ONE: exactly the locked-drawer group, no working sheet visible, key in closed drawer, pencil resting front-right, both stacks and cold cigarette fixed; businessman looks RIGHT, mouth slightly open, unable to reply."
+  ],
+  "refs": [
+    "business",
+    "LP_ch13_desk_scale_guide",
+    "LP_ch13_desk_state_guide",
+    "success_style",
+    "style"
+  ],
+  "details": "Final reaction only; keep desk state identical to accepted locked state.",
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "dependencies": [
+    "CH13_S02"
+  ],
+  "key": null,
+  "slug": "businessman_unable_to_answer",
+  "output": "CH13_C02_businessman_unable_to_answer.png",
+  "revision_origin": "required state planned during full-book review",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c13-s03-p07"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer",
+  "raw_output_folder": "production/chapter-13/props/raw",
+  "representative_page": "c13-s03-p07",
+  "placement_targets": [
+    {
+      "page": "c13-s03-p07",
+      "cell": "CH13_C02:ONE",
+      "box_px": [
+        290,
+        420,
+        1250,
+        1110
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_char_businessman_turnaround.png",
+      "role": "Blue-waistcoated businessman, wooden desk and chair; use the specified desk state.",
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/01_LP_ref_char_businessman_turnaround.png",
+      "status": "supplied",
+      "sha256": "5a49cfb0cca48051c9f3fbcbcb7cf404bc79b15df3b946afe987acb30d43a6ea",
+      "source_key": "business"
+    },
+    {
+      "name": "02_LP_ch13_desk_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/02_LP_ch13_desk_scale_guide.png",
+      "status": "supplied",
+      "sha256": "0764e07901c5b717b6d6edf155f3f8569c12e053a286f332c559cb5f2b1227af",
+      "source_key": "LP_ch13_desk_scale_guide"
+    },
+    {
+      "name": "03_LP_ch13_desk_state_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/03_LP_ch13_desk_state_guide.png",
+      "status": "supplied",
+      "sha256": "75093c7fa14329f3093bd2659c3d43f0a73784771322d87ce9e40665e72e3c7f",
+      "source_key": "LP_ch13_desk_state_guide"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_accepted_CH13_S02_businessman_locked_drawer_silence.png",
+      "role": "ACCEPTED CH13_S02: businessman locked drawer silence. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/06_accepted_CH13_S02_businessman_locked_drawer_silence.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH13_S02",
+      "expected_raw": "production/chapter-13/props/raw/CH13_S02_businessman_locked_drawer_silence.png"
+    },
+    {
+      "name": "07_CH13_C02_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/07_CH13_C02_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "6bb513340e805575ff070bf7fa03929ab3c8e6f8b2360d81df62c5e4cec8f9ba"
+    },
+    {
+      "name": "08_c13-s03-p07_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c13-s03-p07. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-13/pose-corrections/C02_businessman_unable_to_answer/reference-images/08_c13-s03-p07_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "69a817f5d5b7c356fdd32a4c8bac8ac81cc46158eef15cfcc097ed3f8de76ae6"
+    }
+  ],
+  "readiness": "wait_for_listed_checked_dependencies",
+  "prompt": "CH13_C02 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: exactly the locked-drawer group, no working sheet visible, key in closed drawer, pencil resting front-right, both stacks and cold cigarette fixed; businessman looks RIGHT, mouth slightly open, unable to reply.\n  Actual short payload: production/reference-lineage/nodes/V_CH13_C02_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "V_CH13_C02_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "N_pilot_social_chair_right__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_pilot_civilian"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_pilot_civilian"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+        "candidate_sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Adult civilian pilot seated on the SAME social wooden chair three-quarter RIGHT, supported shoes, neutral face, one blank landscape ivory sheet resting on lap beneath relaxed hands. Never turn the chair away.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "pilot_social_chair_right",
+  "light": "Soft diffuse upper-left warm light.",
+  "affected_pages": [
+    "c01-s05-p01",
+    "c01-s05-p02",
+    "c01-s05-p03",
+    "c01-s06-p01",
+    "c01-s06-p02"
+  ],
+  "legacy_tokens": [
+    "CH01_E01:L",
+    "CH01_E01:R",
+    "CH01_E02:L",
+    "CH01_E02:R"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [],
+  "prompt_file": "production/reference-lineage/nodes/N_pilot_social_chair_right__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Adult civilian pilot seated on the SAME social wooden chair three-quarter RIGHT, supported shoes, neutral face, one blank landscape ivory sheet resting on lap beneath relaxed hands. Never turn the chair away. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft diffuse upper-left warm light. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "194e4ec3b244e9f090f8c517692604f2154288b84ec84907dcb04d0e05e79739",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_pilot_social_chair_right__soft_day_upper_left"
+}

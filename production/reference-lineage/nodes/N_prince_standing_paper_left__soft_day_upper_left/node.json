@@ -1,0 +1,78 @@
+{
+  "id": "N_prince_standing_paper_left__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_prince"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_prince"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Prince standing three-quarter LEFT, both hands securely holding one blank cream paper at lower chest; neutral face, supported boots.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "prince_standing_paper_left",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c03-s01-p05",
+    "c03-s02-p03",
+    "c03-s03-p01",
+    "c03-s03-p02",
+    "c03-s03-p03",
+    "c05-s01-p03",
+    "c05-s01-p04",
+    "c05-s01-p05",
+    "c05-s01-p06",
+    "c06-s01-p04",
+    "c25-s02-p03",
+    "c25-s02-p04"
+  ],
+  "legacy_tokens": [
+    "CH03_S02:R",
+    "CH03_C01:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-03/reusable-poses/S02_prince_laughing_and_holding_drawing/reference-images/05_CH03_S02_PACKING_GUIDE.png",
+      "sha256": "7824c99b383969ba050cf376fd6dcfa737932772380d2212389a33f502520e89",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-03/reusable-poses/S02_prince_laughing_and_holding_drawing/reference-images/06_c03-s01-p05_COMPOSITION_GUIDE.png",
+      "sha256": "fa0dcdf9811602f3d5c5fffd86feae219754a1ddbf49d02689d23d79a19b8afe",
+      "role": "TECHNICAL final-page placement for c03-s01-p05. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing/reference-images/06_CH03_C01_PACKING_GUIDE.png",
+      "sha256": "2430007675312374368428b9b4d0b14dd1b36fd114534ec4a569915e70790258",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-03/pose-corrections/C01_prince_puzzled_with_box_drawing/reference-images/07_c03-s03-p02_COMPOSITION_GUIDE.png",
+      "sha256": "fca0b4f33da1a46ba76cc12af5d45eb51279e804215aa3b97d1baa1dc362035f",
+      "role": "TECHNICAL final-page placement for c03-s03-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_prince_standing_paper_left__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Prince standing three-quarter LEFT, both hands securely holding one blank cream paper at lower chest; neutral face, supported boots. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "fd74897ed8f195bcb8c4fcd4bf1d9b598d0d7efe608fc43a9570236ac6b2a244",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_prince_standing_paper_left__soft_day_upper_left"
+}

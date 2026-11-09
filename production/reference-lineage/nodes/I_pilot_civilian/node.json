@@ -1,0 +1,31 @@
+{
+  "id": "I_pilot_civilian",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One clean identity turnaround of the SAME pilot civilian: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+  "candidate_role": "single civilian identity seed; first prepare/audit turnaround if none suitable",
+  "prompt_file": "production/reference-lineage/nodes/I_pilot_civilian/PROMPT.txt",
+  "candidate_sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+  "prompt": "One clean identity turnaround of the SAME pilot civilian: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "c508c24de65ba9671f384c166003c170e4f409781177a9eb155c95ed8dc676ae",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_pilot_civilian"
+}

@@ -1,0 +1,7 @@
+{
+  "node_id": "V_CH01_CHILD_IMAGINING",
+  "workflow_version": 9,
+  "method_changed_since_both_failures": true,
+  "no_cost_feasibility_passed": true,
+  "analysis": "Prior attempts for V_CH01_CHILD_IMAGINING used either multi-cell sheet packing or an uploaded diagnostic collage on Flare. Under Workflow 9, V_CH01_CHILD_IMAGINING switches to Sunburst (gpt_image_2_6) and uploads only the clean accepted single-state Workflow-9 neutral parent while keeping diagnostic boards offline."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "A_CH25_R02_L",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-25/references/R02_imperfect_tree_and_fox_drawings/reference-images/01_LP_ref_tree_baobab.jpg",
+        "sha256": "f6b45892a9a77e2cef28d83b00dc924f55e02a88180fe456efdd0b31bcad36b7",
+        "role": "Baobab bark and foliage only; the three-tree warning requires three separate trunks, not this single branched tree."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "one cream paper sheet with a simple pen drawing of three baobabs whose rounded crowns look cabbage-like; recognisable trees, no writing.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH25_R02",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c25-s02-p03",
+    "c25-s02-p04"
+  ],
+  "audit_only_details": "Narrator’s imperfect paper drawings only; no replacement of approved tree/fox anatomy or the Chapter 5 carefully finished warning picture.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH25_R02_L/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. one cream paper sheet with a simple pen drawing of three baobabs whose rounded crowns look cabbage-like; recognisable trees, no writing. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-25/references/R02_imperfect_tree_and_fox_drawings/audit-contract.json",
+  "prompt_sha256": "78fdce41aeea63a7c6ad35a9ed0fe4048c70512f05245e9a7671b7fce435ccc1",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH25_R02_L"
+}

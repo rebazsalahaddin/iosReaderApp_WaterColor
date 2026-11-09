@@ -1,0 +1,43 @@
+{
+  "id": "A_CH11_R01_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-11/references/R01_blue_hat_opening_prop/reference-images/01_LP_ref_vain_man_turnaround.png",
+        "sha256": "cb6fc23d139334772f2ebca04f538d48920cfe96ff385cc3568f9d989a20bba6",
+        "role": "Vain man identity and the one tall blue hat with cream band."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "the same tall blue hat with cream band, empty and upright in matching three-quarter camera, complete brim visible.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH11_R01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c11-s01-p01"
+  ],
+  "audit_only_details": "One isolated hat for opening; no cropped scalp, hand or second hat.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH11_R01_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. the same tall blue hat with cream band, empty and upright in matching three-quarter camera, complete brim visible. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-11/references/R01_blue_hat_opening_prop/audit-contract.json",
+  "prompt_sha256": "3e9f0b477a48a0bc312892baa4c8aaaa347b8b46bf3ec1ecfb39885948f5cb0b",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH11_R01_ONE"
+}

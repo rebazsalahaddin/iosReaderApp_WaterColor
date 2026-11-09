@@ -1,0 +1,23 @@
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 9-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+Pilot is already downcast and visibly lonely in the closer supplied view, hands on lap paper, body/chair still toward the group. Other adults are already softly blurred. Preserve the existing sadness without a chair turn, extra blur or new camera move.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–1.353 seconds: Pilot is already downcast and visibly lonely in the closer supplied view, hands on lap paper, body/chair still toward the group. Other adults are already softly blurred. Preserve the existing sadness without a chair turn, extra blur or new camera move.
+1.353–4.143 seconds: Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.
+4.143–6.1 seconds: Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.
+6.1–9 seconds: Let movement settle into a stable hold, preserving the supplied expression, composition and all contacts.
+
+GENERATED SOUND: AMBIENCE ONLY
+Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+No chair rotation, sliding away, shrinking narrator, emptying the room, heavy new blur or rack focus. Preserve the existing small distances and the narrator’s sharpness. No tears, new cloud, waving goodbye or physical abandonment.
+
+END STATE
+All story movement finishes within the first 8.127 seconds; maintain a quiet stable hold through 9 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

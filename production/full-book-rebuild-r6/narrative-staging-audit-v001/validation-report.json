@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "chapter_plans_checked": 27,
+  "page_contracts_checked": 442,
+  "missing_recipient_recipe_fixes": 11,
+  "obsolete_crop_rule_fixes": 3,
+  "errors": [],
+  "scope": "Structural planning regression checks; inspect actual returned sources and final page images separately."
+}

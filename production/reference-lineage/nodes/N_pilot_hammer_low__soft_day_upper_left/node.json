@@ -1,0 +1,85 @@
+{
+  "id": "N_pilot_hammer_low__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_pilot"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_pilot"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Flight pilot upright at LEFT facing RIGHT, one hammer held LOW by side, neutral face, empty other hand, grounded boots.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "pilot_hammer_low",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c07-s01-p02",
+    "c07-s01-p03",
+    "c07-s01-p05",
+    "c07-s01-p06",
+    "c07-s01-p07",
+    "c07-s02-p01",
+    "c07-s02-p02",
+    "c07-s02-p03",
+    "c07-s02-p04",
+    "c07-s02-p05",
+    "c07-s03-p01",
+    "c07-s03-p02",
+    "c07-s03-p03",
+    "c07-s03-p04"
+  ],
+  "legacy_tokens": [
+    "CH07_S01:R",
+    "CH07_C01:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-07/reusable-poses/S01_pilot_repairing_and_frustrated/reference-images/02_LP_ch07_tools_scale_guide.png",
+      "sha256": "63375b8726d891f0e2e756dbe2192e7b57bb09e16b84de27ae2b3b2aacdbb4b9",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-07/reusable-poses/S01_pilot_repairing_and_frustrated/reference-images/05_CH07_S01_PACKING_GUIDE.png",
+      "sha256": "c1d9ab74af291fd1f2d9cde981f84c449919dd64e3048cd07c12e0d35ff6db3b",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-07/reusable-poses/S01_pilot_repairing_and_frustrated/reference-images/06_c07-s01-p02_COMPOSITION_GUIDE.png",
+      "sha256": "1ec9bf7651884464d347feb44fecd0536e69f207fb14b44d011c22f9bc3bf5df",
+      "role": "TECHNICAL final-page placement for c07-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/reference-images/06_CH07_C01_PACKING_GUIDE.png",
+      "sha256": "b5f28837561b9e79a25d1badd5ac4357b06ad73cc9ecff29706c871188fb127c",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/reference-images/07_c07-s02-p03_COMPOSITION_GUIDE.png",
+      "sha256": "7c31a9e19b3f57d6c67cd96a94a11d96708b9d3baea647f0c04eead33bbe8bec",
+      "role": "TECHNICAL final-page placement for c07-s02-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_pilot_hammer_low__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Flight pilot upright at LEFT facing RIGHT, one hammer held LOW by side, neutral face, empty other hand, grounded boots. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "2611d95c3983c499077e2f0731f30a27e6fb1ae82aeab927a9937357ed5e6616",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_pilot_hammer_low__soft_day_upper_left"
+}

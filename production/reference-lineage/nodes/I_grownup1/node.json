@@ -1,0 +1,31 @@
+{
+  "id": "I_grownup1",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One clean identity turnaround of the SAME grownup1: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": "appearance-references/shared/LP_ref_char_grownup1_turnaround.png",
+  "candidate_role": "existing identity turnaround or plant stages; inspect and accept before use",
+  "prompt_file": "production/reference-lineage/nodes/I_grownup1/PROMPT.txt",
+  "candidate_sha256": "2b9c4f26a0a3613f7cd58ee51674111e20db11af13f980a26128f4a7c1a58d79",
+  "prompt": "One clean identity turnaround of the SAME grownup1: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "3c3b9ad5bf1a41c614ba3d2e63edcb712229d450feeaa50d9d99a430e62497da",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_grownup1"
+}

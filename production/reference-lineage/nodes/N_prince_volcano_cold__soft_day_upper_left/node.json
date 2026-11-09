@@ -1,0 +1,68 @@
+{
+  "id": "N_prince_volcano_cold__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_prince"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_prince"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "size-and-location-references/shared/LP_ch09_volcano_scale_guide.png",
+        "candidate_sha256": "b2ef29f0d2db9753706e4a93b0202781e99239f22909cf3ea23a33f741032f1a",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Same prince and cleaning tool beside the ONE cold third cone, dark opening without flame/smoke; supported body and neutral face.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "prince_volcano_cold",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c09-s01-p03",
+    "c09-s01-p04"
+  ],
+  "legacy_tokens": [
+    "CH09_S01:R"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-09/reusable-poses/S01_prince_cleaning_volcanoes/reference-images/02_LP_ch09_volcano_scale_guide.png",
+      "sha256": "b2ef29f0d2db9753706e4a93b0202781e99239f22909cf3ea23a33f741032f1a",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-09/reusable-poses/S01_prince_cleaning_volcanoes/reference-images/05_CH09_S01_PACKING_GUIDE.png",
+      "sha256": "be7d4bf468b4daf7defd8d8f2cb0528f37e2b34df5feda802ec40ecee082376d",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-09/reusable-poses/S01_prince_cleaning_volcanoes/reference-images/06_c09-s01-p03_COMPOSITION_GUIDE.png",
+      "sha256": "eb62d0c26b532ddc56e86e3f3d15f1b75a1d73cc372a5a84e025288901cf11f1",
+      "role": "TECHNICAL final-page placement for c09-s01-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_prince_volcano_cold__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Same prince and cleaning tool beside the ONE cold third cone, dark opening without flame/smoke; supported body and neutral face. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "154f144ef9956d1fd301f96066dbd2aeecaffbfeb08162fd0dc526ab00edba4b",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_prince_volcano_cold__soft_day_upper_left"
+}

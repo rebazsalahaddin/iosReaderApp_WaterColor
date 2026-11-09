@@ -1,0 +1,31 @@
+{
+  "id": "I_fox",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One clean turnaround of the SAME fox: front, three-quarter, side and back, complete body and tail, neutral gentle face and consistent scale. Preserve identity, dot eyes, muzzle, ears, fur colours and proportions. No human hands, costume or redesign.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": "appearance-references/shared/LP_ref_char_fox_turnaround.png",
+  "candidate_role": "existing identity turnaround or plant stages; inspect and accept before use",
+  "prompt_file": "production/reference-lineage/nodes/I_fox/PROMPT.txt",
+  "candidate_sha256": "ac7aab6e1c69a16755e4a20f0e1e5f101686d5b25d1fac82ce5c71abc41c4b5d",
+  "prompt": "One clean turnaround of the SAME fox: front, three-quarter, side and back, complete body and tail, neutral gentle face and consistent scale. Preserve identity, dot eyes, muzzle, ears, fur colours and proportions. No human hands, costume or redesign. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "783f80fcbc66b6c8e91bc071be61534389c0394490cd53ecd65f9841e2f750ea",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_fox"
+}

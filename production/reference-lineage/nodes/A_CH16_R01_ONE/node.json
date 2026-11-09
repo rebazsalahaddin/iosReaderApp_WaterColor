@@ -1,0 +1,51 @@
+{
+  "id": "A_CH16_R01_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-16/references/R01_earth_editorial_globe/reference-images/02_c01-s05-p01.png",
+        "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+        "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "one softly painted Earth, Asia/Pacific-facing orientation as guide, recognizable simplified continents and blue oceans, no clouds hiding all shapes, no labels, stand, stars with faces or people.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH16_R01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c04-s01-p03",
+    "c06-s02-p01",
+    "c16-s01-p01",
+    "c16-s01-p02",
+    "c16-s02-p01",
+    "c17-s01-p01",
+    "c17-s01-p02",
+    "c17-s01-p03",
+    "c17-s01-p04"
+  ],
+  "audit_only_details": "An editorial globe, not a current political map or scale comparison to asteroid residents.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH16_R01_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. one softly painted Earth, Asia/Pacific-facing orientation as guide, recognizable simplified continents and blue oceans, no clouds hiding all shapes, no labels, stand, stars with faces or people. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-16/references/R01_earth_editorial_globe/audit-contract.json",
+  "prompt_sha256": "53ea68c9df220be4f1af6bc5dc03e1f3c5dfbac8687682d9c63a4607c5244d13",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH16_R01_ONE"
+}

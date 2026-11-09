@@ -1,0 +1,33 @@
+{
+  "node_id": "I_grownup2",
+  "stage": "identity_turnaround",
+  "source_file": "appearance-references/shared/LP_ref_char_grownup2_turnaround.png",
+  "source_sha256": "3ab08530209c18b023ea7ed91cff6cc4114f95cb930a43ac3dce4322ca0680b2",
+  "parents": [],
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T21:53:43.339876+00:00",
+  "verdict": "PASS_WITH_NOTE",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Four full standing views retain silver side-parted hair and bun, small dot eyes, long blue-grey belted dress and low brown shoes. Same adult face/age and complete supported anatomy across views."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Small simple brown/dark dot/oval eyes; no detailed irises or anime eyes."
+    },
+    "native_geometry": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "2048x2048 original complete standing turnaround; full head/body/feet and consistent costume across four views. Per-posture numerical landmarks must be measured on each actual new neutral."
+    },
+    "alpha": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Retained RGB identity sheet on opaque cream paper is appearance authority only, not a transparent compositing asset; new neutral outputs require actual transparent alpha."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Identity views are appearance references, not a physical page group. Attached shadow must be checked on new neutral sources."
+    }
+  },
+  "issues": []
+}

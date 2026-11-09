@@ -1,0 +1,81 @@
+{
+  "id": "N_king_robe_close__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_king"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_king"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "size-and-location-references/shared/LP_ch10_coat_book_guide.png",
+        "candidate_sha256": "73737c9ceab7be9c3d2fc3821d86eaa95c8c561e7cf43a34ccb9a41b190c6243",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Same seated king/throne facing RIGHT, robe drawn closer leaving ground RIGHT clear, hands at rest, neutral face; no book.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "king_robe_close",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c10-s02-p01",
+    "c10-s02-p02",
+    "c10-s02-p03",
+    "c10-s02-p04",
+    "c10-s02-p05",
+    "c10-s02-p06",
+    "c10-s02-p07",
+    "c10-s03-p01",
+    "c10-s03-p02",
+    "c10-s03-p03"
+  ],
+  "legacy_tokens": [
+    "CH10_S02_L:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-10/reusable-poses/S02_L_king_coat_moved_and_book_first_state/reference-images/02_LP_ch10_king_scale_guide.png",
+      "sha256": "1bc414f0581c188348ad9f6c745ef63421116a6e043a367ecc8a8d63f3bf5f8d",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/reusable-poses/S02_L_king_coat_moved_and_book_first_state/reference-images/03_LP_ch10_coat_book_guide.png",
+      "sha256": "73737c9ceab7be9c3d2fc3821d86eaa95c8c561e7cf43a34ccb9a41b190c6243",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/reusable-poses/S02_L_king_coat_moved_and_book_first_state/reference-images/07_CH10_S02_L_PACKING_GUIDE.png",
+      "sha256": "538f961f056291bfc3873733e83e9caa22cd6872b1f77d17c65c0e7ca0b3cb03",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/reusable-poses/S02_L_king_coat_moved_and_book_first_state/reference-images/08_c10-s02-p01_COMPOSITION_GUIDE.png",
+      "sha256": "9c5c15ee74a11237189274af39902a219ee547ce1a50bab08d005fd7e66967b9",
+      "role": "TECHNICAL final-page placement for c10-s02-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_king_robe_close__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Same seated king/throne facing RIGHT, robe drawn closer leaving ground RIGHT clear, hands at rest, neutral face; no book. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "9aff4c9d425b951ddc8c24dedb64487bc2e8799b077561d8a4acef6ba524db2b",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_king_robe_close__soft_day_upper_left"
+}

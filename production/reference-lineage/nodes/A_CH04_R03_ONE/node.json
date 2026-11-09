@@ -1,0 +1,43 @@
+{
+  "id": "A_CH04_R03_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-04/references/R03_small_asteroid_editorial_motif/reference-images/02_c01-s05-p01.png",
+        "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+        "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "a single small pale ochre irregular rounded asteroid, simple quiet surface, no people, labels, buildings or Earth continents.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH04_R03",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c04-s01-p04"
+  ],
+  "audit_only_details": "Use as editorial asteroid cue beside telescope; not Earth, not a numbered chart and not a claim of astronomical measurement.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH04_R03_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. a single small pale ochre irregular rounded asteroid, simple quiet surface, no people, labels, buildings or Earth continents. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-04/references/R03_small_asteroid_editorial_motif/audit-contract.json",
+  "prompt_sha256": "10cf658922555c3ac69f8fa7378a16e96e908c48c9b234979bdb3f16bf769ea7",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH04_R03_ONE"
+}

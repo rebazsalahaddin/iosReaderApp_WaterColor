@@ -1,0 +1,26 @@
+[
+  {
+    "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/01_CH01_S13_childhood_adults_questioning.png",
+    "original_source": "production/chapter-01/props/raw/CH01_S13_childhood_adults_questioning.png",
+    "source_sha256": "eb3121b1a7ef943bc373dce041e373e7e5cb6d18c96b588832165bff89d34358",
+    "crop_ltrb": [
+      0,
+      0,
+      1200,
+      1792
+    ],
+    "operation": "Exact native crop only, no resampling/mirroring"
+  },
+  {
+    "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/02_woman_both_states_facing_right.png",
+    "original_source": "production/chapter-01/props/raw/woman_both_states_facing_right.png",
+    "source_sha256": "29ffdbe679e502f0b7bb4a7d8176c62b39e4ae68d579737ad84b9396a8d70d0b",
+    "crop_ltrb": [
+      0,
+      0,
+      800,
+      1792
+    ],
+    "operation": "Exact native crop only, no resampling/mirroring"
+  }
+]

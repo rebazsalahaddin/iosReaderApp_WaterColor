@@ -1,0 +1,83 @@
+{
+  "id": "N_pilot_room_standing__night_window_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_pilot_civilian"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_pilot_civilian"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Civilian pilot full body in familiar standing-WIDE room camera, body three-quarter RIGHT near window position, neutral face and hands low. Background omitted.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "pilot_room_standing",
+  "light": "Soft cool night window light from LEFT; preserve adult clothing colours.",
+  "affected_pages": [
+    "c26-s03-p07",
+    "c27-s01-p04",
+    "c27-s02-p02",
+    "c27-s02-p03",
+    "c27-s02-p04",
+    "c27-s02-p05"
+  ],
+  "legacy_tokens": [
+    "CH26_S08:ONE",
+    "CH27_S01:L",
+    "CH27_S01:R"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/reference-images/01_LP_ref_pilot_room_standing_ch04.png",
+      "sha256": "565aec88e81db8b99c2c56d8eb81136b04db08df1f77fd801a99e3f1c2604d36",
+      "role": "Approved adult-room standing camera/fit: crown-to-sole 60–65% of original frame height, head/full-standing about .21–.22. Do not copy visitors or card."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/reference-images/05_CH26_S08_PACKING_GUIDE.png",
+      "sha256": "cbe3a55cbec700add86c4523a1dafb838931d13ab6472d247a03df2172fa89b2",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/reference-images/06_c26-s03-p07_COMPOSITION_GUIDE.png",
+      "sha256": "e4ea1af8051ba235baef5ba7a86ff7a3cd7b2e57203185d30288174e2a48d94a",
+      "role": "TECHNICAL final-page placement for c26-s03-p07. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-27/reusable-poses/S01_narrator_remembering_at_night/reference-images/02_LP_ref_pilot_room_standing_ch04.png",
+      "sha256": "565aec88e81db8b99c2c56d8eb81136b04db08df1f77fd801a99e3f1c2604d36",
+      "role": "Approved adult-room standing camera/fit: crown-to-sole 60–65% of original frame height, head/full-standing about .21–.22. Do not copy visitors or card."
+    },
+    {
+      "path": "story-and-continuity/chapter-27/reusable-poses/S01_narrator_remembering_at_night/reference-images/05_CH27_S01_PACKING_GUIDE.png",
+      "sha256": "251740f1dd9fff2ed547bff63a6c3466fcb0d97a6b67fbd93e073b8d8cc45b47",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-27/reusable-poses/S01_narrator_remembering_at_night/reference-images/06_c27-s01-p04_COMPOSITION_GUIDE.png",
+      "sha256": "64269f291492c4bfff540a64a0d7d18b0be91ee9a7bb4dbacaf2f98585852e87",
+      "role": "TECHNICAL final-page placement for c27-s01-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_pilot_room_standing__night_window_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Civilian pilot full body in familiar standing-WIDE room camera, body three-quarter RIGHT near window position, neutral face and hands low. Background omitted. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft cool night window light from LEFT; preserve adult clothing colours. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "c40fcb1fdde9b496391b38ca35e5f019af1e054f28a0bb26704b6e6756e5b824",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_pilot_room_standing__night_window_left"
+}

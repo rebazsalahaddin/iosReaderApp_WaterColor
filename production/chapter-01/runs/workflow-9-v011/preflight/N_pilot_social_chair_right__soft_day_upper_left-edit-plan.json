@@ -1,0 +1,47 @@
+{
+  "workflow_version": 9,
+  "node_id": "N_pilot_social_chair_right__soft_day_upper_left",
+  "parents": [
+    {
+      "node_id": "I_pilot_civilian",
+      "path": "production/chapter-01/runs/workflow-9-v011/sources/I_pilot_civilian-attempt-2.png",
+      "sha256": "15f4577c4244a5ff624ffc8a4c8f652e66bbbc660d845f06d6f14447e7ad2854"
+    }
+  ],
+  "route": "whole_contact_candidate",
+  "why_registered_edit_not_feasible": "Neutral posture master establishes the complete seated civilian pilot and armchair contact group from the accepted civilian turnaround and chair geometry authority.",
+  "all_features_reaudit": true,
+  "target_state": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Adult civilian pilot seated on the SAME social wooden chair three-quarter RIGHT, supported shoes, neutral face, one blank landscape ivory sheet resting on lap beneath relaxed hands. Never turn the chair away. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft diffuse upper-left warm light. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "submission_contract": "Keep exact single-state asset boundaries, dot-eye storybook watercolor discipline, and clean background handling.",
+  "identity_features": [
+    "dot eyes without irises",
+    "tousled dark-brown hair",
+    "soft slate-blue blazer over cream collared shirt, taupe trousers, dark brown shoes"
+  ],
+  "geometry_checks": [
+    "4:3 2K native canvas",
+    "complete seated pilot and armchair silhouette with margin",
+    "consistent three-quarter right camera"
+  ],
+  "contacts": "Complete seated body in warm-brown wooden armchair with cream cushions and four chair legs plus both shoes grounded with restrained translucent contact shadow.",
+  "background_review": "Inspect on cream, dark charcoal, and social room background before acceptance.",
+  "pixel_budget": "Native 2336x1744 2K canvas exceeds target page placement boxes at scale <= 1.0.",
+  "reuse_decision": "Requires fresh Workflow-9 generation from the newly accepted I_pilot_civilian turnaround.",
+  "local_repair_decision": "Safe reversible shadow-only matte preparation permitted after visual review if core subject is intact.",
+  "object_inventory": [
+    {
+      "id": "pilot_and_chair",
+      "before_count": 2,
+      "after_count": 1,
+      "before_state": "civilian identity turnaround + chair geometry crop",
+      "after_state": "complete seated civilian pilot in armchair",
+      "contact": "seated in armchair with four chair legs and shoes grounded"
+    }
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Antigravity visual inspection",
+    "reviewed_at": "2026-11-08T13:26:00+03:00",
+    "observations": "Reviewed Workflow-9 edit plan and reference inputs for N_pilot_social_chair_right__soft_day_upper_left."
+  }
+}

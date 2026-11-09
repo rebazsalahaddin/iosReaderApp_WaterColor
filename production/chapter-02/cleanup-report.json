@@ -1,0 +1,27 @@
+{
+ "performed_at": "2026-11-07",
+ "trigger": "v002 edition replaces v001 (Workflow 7 + Cleanup_Instructions; user pre-authorized routine cleanup)",
+ "actions": [
+  {
+   "action": "moved (retained for rollback pending v002 approval)",
+   "from": "production/chapter-02/superseded-editions/chapter-02-v001",
+   "to": "production/chapter-02/superseded-editions/chapter-02-v001"
+  },
+  {
+   "action": "moved (retained)",
+   "from": "production/chapter-02/superseded-editions/Chapter_02_Illustrations_v1.zip",
+   "to": "production/chapter-02/superseded-editions/Chapter_02_Illustrations_v1.zip"
+  },
+  {
+   "action": "deleted unreferenced layer snapshots superseded by v002 pid-prefixed layers",
+   "count": 210,
+   "note": "all 19 current layouts reference only retained files; reconstruction verified exact before deletion"
+  }
+ ],
+ "kept": [
+  "chapter-02-v002 delivery + Chapter_02_Illustrations_v2.zip",
+  "prepared-v2 components + pigment",
+  "all accepted raw sources",
+  "v001 superseded copies retained under superseded-editions/ until user approval of v002"
+ ]
+}

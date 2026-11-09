@@ -1,0 +1,3115 @@
+[
+  {
+    "page": "c01-s01-p01",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s01-p01/layout.json",
+    "components": 2,
+    "current_composition": "production/chapter-01/current/pages/c01-s01-p01/layout.json"
+  },
+  {
+    "page": "c01-s01-p02",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s01-p02/layout.json",
+    "components": 3,
+    "current_composition": "production/chapter-01/current/pages/c01-s01-p02/layout.json"
+  },
+  {
+    "page": "c01-s01-p03",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s01-p03/layout.json",
+    "components": 4,
+    "current_composition": "production/chapter-01/current/pages/c01-s01-p03/layout.json"
+  },
+  {
+    "page": "c01-s01-p04",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s01-p04/layout.json",
+    "components": 3,
+    "current_composition": "production/chapter-01/current/pages/c01-s01-p04/layout.json"
+  },
+  {
+    "page": "c01-s02-p01",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s02-p01/layout.json",
+    "components": 5,
+    "current_composition": "production/chapter-01/current/pages/c01-s02-p01/layout.json"
+  },
+  {
+    "page": "c01-s02-p02",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s02-p02/layout.json",
+    "components": 5,
+    "current_composition": "production/chapter-01/current/pages/c01-s02-p02/layout.json"
+  },
+  {
+    "page": "c01-s02-p03",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s02-p03/layout.json",
+    "components": 6,
+    "current_composition": "production/chapter-01/current/pages/c01-s02-p03/layout.json"
+  },
+  {
+    "page": "c01-s03-p01",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s03-p01/layout.json",
+    "components": 3,
+    "current_composition": "production/chapter-01/current/pages/c01-s03-p01/layout.json"
+  },
+  {
+    "page": "c01-s03-p02",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s03-p02/layout.json",
+    "components": 5,
+    "current_composition": "production/chapter-01/current/pages/c01-s03-p02/layout.json"
+  },
+  {
+    "page": "c01-s03-p03",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s03-p03/layout.json",
+    "components": 3,
+    "current_composition": "production/chapter-01/current/pages/c01-s03-p03/layout.json"
+  },
+  {
+    "page": "c01-s03-p04",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s03-p04/layout.json",
+    "components": 3,
+    "current_composition": "production/chapter-01/current/pages/c01-s03-p04/layout.json"
+  },
+  {
+    "page": "c01-s04-p01",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s04-p01/layout.json",
+    "components": 2,
+    "current_composition": "production/chapter-01/current/pages/c01-s04-p01/layout.json"
+  },
+  {
+    "page": "c01-s04-p02",
+    "chapter": 1,
+    "status": "component_composed_checked_pending_user_review",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s04-p02/layout.json",
+    "components": 2,
+    "current_composition": "production/chapter-01/current/pages/c01-s04-p02/layout.json"
+  },
+  {
+    "page": "c01-s04-p03",
+    "chapter": 1,
+    "status": "approved_component_composition",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s04-p03/layout.json",
+    "components": 6,
+    "current_composition": "production/chapter-01/current/pages/c01-s04-p03/layout.json"
+  },
+  {
+    "page": "c01-s05-p01",
+    "chapter": 1,
+    "status": "approved_component_composition",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s05-p01/layout.json",
+    "components": 6,
+    "current_composition": "production/chapter-01/current/pages/c01-s05-p01/layout.json"
+  },
+  {
+    "page": "c01-s05-p02",
+    "chapter": 1,
+    "status": "approved_component_composition",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s05-p02/layout.json",
+    "components": 6,
+    "current_composition": "production/chapter-01/current/pages/c01-s05-p02/layout.json"
+  },
+  {
+    "page": "c01-s05-p03",
+    "chapter": 1,
+    "status": "approved_component_composition",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s05-p03/layout.json",
+    "components": 6,
+    "current_composition": "production/chapter-01/current/pages/c01-s05-p03/layout.json"
+  },
+  {
+    "page": "c01-s06-p01",
+    "chapter": 1,
+    "status": "approved_component_composition",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s06-p01/layout.json",
+    "components": 6,
+    "current_composition": "production/chapter-01/current/pages/c01-s06-p01/layout.json"
+  },
+  {
+    "page": "c01-s06-p02",
+    "chapter": 1,
+    "status": "approved_component_composition",
+    "recipe": "story-and-continuity/chapter-01/page-compositions/c01-s06-p02/layout.json",
+    "components": 6,
+    "current_composition": "production/chapter-01/current/pages/c01-s06-p02/layout.json"
+  },
+  {
+    "page": "c02-s01-p01",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c02-s01-p02",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c02-s01-p03",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s01-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c02-s01-p04",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s01-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c02-s02-p01",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c02-s02-p02",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s02-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c02-s02-p03",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s02-p03/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c02-s02-p04",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s02-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c02-s02-p05",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s02-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c02-s02-p06",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s02-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c02-s03-p01",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s03-p01/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c02-s03-p02",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s03-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c02-s03-p03",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s03-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c02-s03-p04",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s03-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c02-s03-p05",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s03-p05/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c02-s04-p01",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s04-p01/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c02-s04-p02",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s04-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c02-s04-p03",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s04-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c02-s04-p04",
+    "chapter": 2,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-02/page-compositions/c02-s04-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c03-s01-p01",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c03-s01-p02",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c03-s01-p03",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s01-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c03-s01-p04",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s01-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c03-s01-p05",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c03-s02-p01",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c03-s02-p02",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s02-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c03-s02-p03",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s02-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c03-s03-p01",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s03-p01/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c03-s03-p02",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s03-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c03-s03-p03",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s03-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c03-s03-p04",
+    "chapter": 3,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-03/page-compositions/c03-s03-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c04-s01-p01",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c04-s01-p02",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s01-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c04-s01-p03",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s01-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c04-s01-p04",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s01-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c04-s02-p01",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s02-p02",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s02-p03",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s02-p04",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s02-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s03-p01",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s03-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s03-p02",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s03-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s03-p03",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s03-p03/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c04-s03-p04",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s03-p04/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c04-s03-p05",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s03-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s03-p06",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s03-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s04-p01",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s04-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s04-p02",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s04-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s04-p03",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s04-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s04-p04",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s04-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c04-s05-p01",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s05-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s05-p02",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s05-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c04-s05-p03",
+    "chapter": 4,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-04/page-compositions/c04-s05-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c05-s01-p01",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c05-s01-p02",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s01-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c05-s01-p03",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c05-s01-p04",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c05-s01-p05",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c05-s01-p06",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s01-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c05-s02-p01",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s02-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c05-s02-p02",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s02-p02/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c05-s02-p03",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c05-s02-p04",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s02-p04/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c05-s03-p01",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s03-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c05-s03-p02",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s03-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c05-s03-p03",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s03-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c05-s04-p01",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s04-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c05-s04-p02",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s04-p02/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c05-s04-p03",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s04-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c05-s04-p04",
+    "chapter": 5,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-05/page-compositions/c05-s04-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c06-s01-p01",
+    "chapter": 6,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-06/page-compositions/c06-s01-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c06-s01-p02",
+    "chapter": 6,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-06/page-compositions/c06-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c06-s01-p03",
+    "chapter": 6,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-06/page-compositions/c06-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c06-s01-p04",
+    "chapter": 6,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-06/page-compositions/c06-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c06-s02-p01",
+    "chapter": 6,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-06/page-compositions/c06-s02-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c06-s02-p02",
+    "chapter": 6,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-06/page-compositions/c06-s02-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c06-s02-p03",
+    "chapter": 6,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-06/page-compositions/c06-s02-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c06-s02-p04",
+    "chapter": 6,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-06/page-compositions/c06-s02-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s01-p01",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c07-s01-p02",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s01-p03",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s01-p04",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s01-p04/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c07-s01-p05",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s01-p06",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s01-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s01-p07",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s01-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s02-p01",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s02-p02",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s02-p03",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s02-p04",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s02-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s02-p05",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s02-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s03-p01",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s03-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s03-p02",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s03-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c07-s03-p03",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s03-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c07-s03-p04",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s03-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c07-s03-p05",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s03-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c07-s04-p01",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s04-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c07-s04-p02",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s04-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c07-s04-p03",
+    "chapter": 7,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-07/page-compositions/c07-s04-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c08-s01-p01",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c08-s01-p02",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s01-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c08-s01-p03",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s01-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c08-s01-p04",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s01-p05",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s02-p01",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s02-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c08-s02-p02",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s02-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c08-s02-p03",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s02-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c08-s02-p04",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s02-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c08-s03-p01",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s03-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s03-p02",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s03-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s03-p03",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s03-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s03-p04",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s03-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s03-p05",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s03-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s03-p06",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s03-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s04-p01",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s04-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s04-p02",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s04-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c08-s04-p03",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s04-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s04-p04",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s04-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c08-s04-p05",
+    "chapter": 8,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-08/page-compositions/c08-s04-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c09-s01-p01",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c09-s01-p02",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s01-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c09-s01-p03",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s01-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c09-s01-p04",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s01-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c09-s01-p05",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s01-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c09-s01-p06",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s01-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c09-s02-p01",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c09-s02-p02",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c09-s02-p03",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c09-s02-p04",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s02-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c09-s02-p05",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s02-p05/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c09-s02-p06",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s02-p06/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c09-s02-p07",
+    "chapter": 9,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-09/page-compositions/c09-s02-p07/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c10-s01-p01",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c10-s01-p02",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s01-p02/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c10-s01-p03",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s01-p04",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s01-p05",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s01-p06",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s01-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s01-p07",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s01-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s01-p08",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s01-p08/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s02-p01",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s02-p02",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s02-p03",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s02-p04",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s02-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s02-p05",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s02-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s02-p06",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s02-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s02-p07",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s02-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s03-p01",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s03-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s03-p02",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s03-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s03-p03",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s03-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s03-p04",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s03-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s03-p05",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s03-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s04-p01",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s04-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s04-p02",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s04-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s04-p03",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s04-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s04-p04",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s04-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s04-p05",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s04-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s04-p06",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s04-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s04-p07",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s04-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c10-s04-p08",
+    "chapter": 10,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-10/page-compositions/c10-s04-p08/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c11-s01-p01",
+    "chapter": 11,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-11/page-compositions/c11-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c11-s01-p02",
+    "chapter": 11,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-11/page-compositions/c11-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c11-s01-p03",
+    "chapter": 11,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-11/page-compositions/c11-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c11-s01-p04",
+    "chapter": 11,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-11/page-compositions/c11-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c11-s01-p05",
+    "chapter": 11,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-11/page-compositions/c11-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c11-s02-p01",
+    "chapter": 11,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-11/page-compositions/c11-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c11-s02-p02",
+    "chapter": 11,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-11/page-compositions/c11-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c11-s02-p03",
+    "chapter": 11,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-11/page-compositions/c11-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c12-s01-p01",
+    "chapter": 12,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-12/page-compositions/c12-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c12-s01-p02",
+    "chapter": 12,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-12/page-compositions/c12-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c12-s01-p03",
+    "chapter": 12,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-12/page-compositions/c12-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c12-s01-p04",
+    "chapter": 12,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-12/page-compositions/c12-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c12-s01-p05",
+    "chapter": 12,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-12/page-compositions/c12-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c12-s01-p06",
+    "chapter": 12,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-12/page-compositions/c12-s01-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c12-s01-p07",
+    "chapter": 12,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-12/page-compositions/c12-s01-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c12-s01-p08",
+    "chapter": 12,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-12/page-compositions/c12-s01-p08/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s01-p01",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c13-s01-p02",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s01-p03",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s01-p04",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s01-p05",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s01-p06",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s01-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s01-p07",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s01-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s02-p01",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s02-p02",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s02-p03",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s02-p04",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s02-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s02-p05",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s02-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s02-p06",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s02-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s02-p07",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s02-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s03-p01",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s03-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s03-p02",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s03-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s03-p03",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s03-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s03-p04",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s03-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s03-p05",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s03-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s03-p06",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s03-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c13-s03-p07",
+    "chapter": 13,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-13/page-compositions/c13-s03-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c14-s01-p01",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c14-s01-p02",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s01-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s01-p03",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s01-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s01-p04",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s01-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s01-p05",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s01-p05/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s01-p06",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s01-p06/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s02-p01",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s02-p01/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s02-p02",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s02-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s02-p03",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s02-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s02-p04",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s02-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s02-p05",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s02-p05/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s03-p01",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s03-p01/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s03-p02",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s03-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s03-p03",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s03-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s03-p04",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s03-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c14-s03-p05",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s03-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c14-s03-p06",
+    "chapter": 14,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-14/page-compositions/c14-s03-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c15-s01-p01",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c15-s01-p02",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s01-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s01-p03",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s01-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s01-p04",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s01-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s01-p05",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s01-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s01-p06",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s01-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s02-p01",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s02-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s02-p02",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s02-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s02-p03",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s02-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s02-p04",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s02-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s02-p05",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s02-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s03-p01",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s03-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s03-p02",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s03-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s03-p03",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s03-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s03-p04",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s03-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s03-p05",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s03-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s03-p06",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s03-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c15-s03-p07",
+    "chapter": 15,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-15/page-compositions/c15-s03-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c16-s01-p01",
+    "chapter": 16,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-16/page-compositions/c16-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c16-s01-p02",
+    "chapter": 16,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-16/page-compositions/c16-s01-p02/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c16-s01-p03",
+    "chapter": 16,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-16/page-compositions/c16-s01-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c16-s01-p04",
+    "chapter": 16,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-16/page-compositions/c16-s01-p04/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c16-s02-p01",
+    "chapter": 16,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-16/page-compositions/c16-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c16-s02-p02",
+    "chapter": 16,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-16/page-compositions/c16-s02-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c16-s02-p03",
+    "chapter": 16,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-16/page-compositions/c16-s02-p03/layout.json",
+    "components": 6
+  },
+  {
+    "page": "c16-s02-p04",
+    "chapter": 16,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-16/page-compositions/c16-s02-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c17-s01-p01",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c17-s01-p02",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s01-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c17-s01-p03",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s01-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c17-s01-p04",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s01-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c17-s02-p01",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c17-s02-p02",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c17-s02-p03",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c17-s02-p04",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s02-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c17-s02-p05",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s02-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c17-s02-p06",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s02-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c17-s03-p01",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s03-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c17-s03-p02",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s03-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c17-s03-p03",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s03-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c17-s03-p04",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s03-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c17-s03-p05",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s03-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c17-s03-p06",
+    "chapter": 17,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-17/page-compositions/c17-s03-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c18-s01-p01",
+    "chapter": 18,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-18/page-compositions/c18-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c18-s01-p02",
+    "chapter": 18,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-18/page-compositions/c18-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c18-s01-p03",
+    "chapter": 18,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-18/page-compositions/c18-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c18-s01-p04",
+    "chapter": 18,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-18/page-compositions/c18-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c18-s01-p05",
+    "chapter": 18,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-18/page-compositions/c18-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c18-s01-p06",
+    "chapter": 18,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-18/page-compositions/c18-s01-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c19-s01-p01",
+    "chapter": 19,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-19/page-compositions/c19-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c19-s01-p02",
+    "chapter": 19,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-19/page-compositions/c19-s01-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c19-s01-p03",
+    "chapter": 19,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-19/page-compositions/c19-s01-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c19-s01-p04",
+    "chapter": 19,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-19/page-compositions/c19-s01-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c19-s01-p05",
+    "chapter": 19,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-19/page-compositions/c19-s01-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c19-s01-p06",
+    "chapter": 19,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-19/page-compositions/c19-s01-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c19-s01-p07",
+    "chapter": 19,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-19/page-compositions/c19-s01-p07/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c19-s01-p08",
+    "chapter": 19,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-19/page-compositions/c19-s01-p08/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c19-s01-p09",
+    "chapter": 19,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-19/page-compositions/c19-s01-p09/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s01-p01",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c20-s01-p02",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s01-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s01-p03",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s01-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s01-p04",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s01-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s01-p05",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s01-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s01-p06",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s01-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s02-p01",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s02-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s02-p02",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s02-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s02-p03",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s02-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s02-p04",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s02-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c20-s02-p05",
+    "chapter": 20,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-20/page-compositions/c20-s02-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c21-s01-p01",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c21-s01-p02",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s01-p03",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s01-p04",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s01-p05",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s01-p06",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s01-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s02-p01",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s02-p02",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s02-p03",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s02-p04",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s02-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s02-p05",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s02-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s02-p06",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s02-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s02-p07",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s02-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s02-p08",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s02-p08/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s03-p01",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s03-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s03-p02",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s03-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s03-p03",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s03-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s03-p04",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s03-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s03-p05",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s03-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s03-p06",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s03-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s03-p07",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s03-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s03-p08",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s03-p08/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s04-p01",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s04-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s04-p02",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s04-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s04-p03",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s04-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s04-p04",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s04-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s05-p01",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s05-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c21-s05-p02",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s05-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c21-s05-p03",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s05-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c21-s05-p04",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s05-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c21-s05-p05",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s05-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c21-s06-p01",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s06-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s06-p02",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s06-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s06-p03",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s06-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s06-p04",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s06-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c21-s06-p05",
+    "chapter": 21,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-21/page-compositions/c21-s06-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c22-s01-p01",
+    "chapter": 22,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-22/page-compositions/c22-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c22-s01-p02",
+    "chapter": 22,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-22/page-compositions/c22-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c22-s01-p03",
+    "chapter": 22,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-22/page-compositions/c22-s01-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c22-s01-p04",
+    "chapter": 22,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-22/page-compositions/c22-s01-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c22-s01-p05",
+    "chapter": 22,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-22/page-compositions/c22-s01-p05/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c22-s01-p06",
+    "chapter": 22,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-22/page-compositions/c22-s01-p06/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c22-s02-p01",
+    "chapter": 22,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-22/page-compositions/c22-s02-p01/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c22-s02-p02",
+    "chapter": 22,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-22/page-compositions/c22-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c23-s01-p01",
+    "chapter": 23,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-23/page-compositions/c23-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c23-s01-p02",
+    "chapter": 23,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-23/page-compositions/c23-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c23-s01-p03",
+    "chapter": 23,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-23/page-compositions/c23-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c23-s01-p04",
+    "chapter": 23,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-23/page-compositions/c23-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c23-s01-p05",
+    "chapter": 23,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-23/page-compositions/c23-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c23-s01-p06",
+    "chapter": 23,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-23/page-compositions/c23-s01-p06/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c24-s01-p01",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c24-s01-p02",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s01-p02/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c24-s01-p03",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s01-p04",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s01-p05",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s01-p06",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s01-p06/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s02-p01",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s02-p02",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s02-p03",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s02-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s02-p04",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s02-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s02-p05",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s02-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s02-p06",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s02-p06/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c24-s02-p07",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s02-p07/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c24-s02-p08",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s02-p08/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c24-s03-p01",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s03-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c24-s03-p02",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s03-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c24-s03-p03",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s03-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c24-s03-p04",
+    "chapter": 24,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-24/page-compositions/c24-s03-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c25-s01-p01",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c25-s01-p02",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s01-p03",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p03/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s01-p04",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p04/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s01-p05",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p05/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s01-p06",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c25-s01-p07",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p07/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c25-s01-p08",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p08/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c25-s01-p09",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p09/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s01-p10",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s01-p10/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s02-p01",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p01/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s02-p02",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s02-p03",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p03/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c25-s02-p04",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p04/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c25-s02-p05",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p05/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c25-s02-p06",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p06/layout.json",
+    "components": 4
+  },
+  {
+    "page": "c25-s02-p07",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s02-p08",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p08/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s02-p09",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p09/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s02-p10",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p10/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c25-s02-p11",
+    "chapter": 25,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-25/page-compositions/c25-s02-p11/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c26-s01-p01",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c26-s01-p02",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s01-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s01-p03",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s01-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s01-p04",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s01-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s01-p05",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s01-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s01-p06",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s01-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s01-p07",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s01-p07/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c26-s01-p08",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s01-p08/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c26-s01-p09",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s01-p09/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s02-p01",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s02-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s02-p02",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s02-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s02-p03",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s02-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s02-p04",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s02-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s02-p05",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s02-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s02-p06",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s02-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s02-p07",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s02-p07/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s02-p08",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s02-p08/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s03-p01",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s03-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s03-p02",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s03-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s03-p03",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s03-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s03-p04",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s03-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s03-p05",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s03-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s03-p06",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s03-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s03-p07",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s03-p07/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s03-p08",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s03-p08/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s04-p01",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s04-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s04-p02",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s04-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s04-p03",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s04-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s04-p04",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s04-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s04-p05",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s04-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s04-p06",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s04-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s04-p07",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s04-p07/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s04-p08",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s04-p08/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s05-p01",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s05-p01/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s05-p02",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s05-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s05-p03",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s05-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s05-p04",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s05-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s05-p05",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s05-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c26-s05-p06",
+    "chapter": 26,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-26/page-compositions/c26-s05-p06/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c27-s01-p01",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s01-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c27-s01-p02",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s01-p02/layout.json",
+    "components": 3
+  },
+  {
+    "page": "c27-s01-p03",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s01-p03/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c27-s01-p04",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s01-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c27-s02-p01",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s02-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c27-s02-p02",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s02-p02/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c27-s02-p03",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s02-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c27-s02-p04",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s02-p04/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c27-s02-p05",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s02-p05/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c27-s03-p01",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s03-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c27-s03-p02",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s03-p02/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c27-s04-p01",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s04-p01/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c27-s04-p02",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s04-p02/layout.json",
+    "components": 1
+  },
+  {
+    "page": "c27-s04-p03",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s04-p03/layout.json",
+    "components": 2
+  },
+  {
+    "page": "c27-s04-p04",
+    "chapter": 27,
+    "status": "required_component_rebuild_not_generated",
+    "recipe": "story-and-continuity/chapter-27/page-compositions/c27-s04-p04/layout.json",
+    "components": 1
+  }
+]

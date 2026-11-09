@@ -1,0 +1,100 @@
+{
+  "template_only": true,
+  "request_id": null,
+  "attempt": null,
+  "job_id": null,
+  "source_file": null,
+  "source_sha256": null,
+  "actual_format": null,
+  "actual_dimensions": null,
+  "prompt_sha256": null,
+  "attachments": [],
+  "parameters": {},
+  "cells": [],
+  "checks": {
+    "identity_style": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "orientation_expression": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "count_state_realm": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "contact_support": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "native_pixel_budget": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "extraction_light_dark_intended": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "reading_size": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "second_contract_check": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    }
+  },
+  "issues": [
+    {
+      "issue_id": null,
+      "request_id": null,
+      "attempt": null,
+      "cell": null,
+      "affected_pages": [],
+      "coordinate_space": null,
+      "image_dimensions": null,
+      "bbox_xywh": null,
+      "evidence_file": null,
+      "evidence_sha256": null,
+      "expected": null,
+      "contract_reference": null,
+      "observed": null,
+      "material_impact": null,
+      "cause": null,
+      "local_or_existing_source_option": null,
+      "decision": null,
+      "precise_fix": null,
+      "recheck": null,
+      "resolved": false
+    }
+  ],
+  "verdict": "NOT_CHECKED",
+  "accepted_cells": [],
+  "credits_estimated": null,
+  "credits_actual": null,
+  "reviewer": null,
+  "reviewed_at": null,
+  "cell_audits": {},
+  "second_attempt_recheck": {
+    "original_guide": null,
+    "issues": [
+      {
+        "issue_id": null,
+        "outcome": "NOT_CHECKED",
+        "source_file": null,
+        "source_sha256": null,
+        "image_dimensions": null,
+        "bbox_xywh": null,
+        "evidence_file": null,
+        "evidence_sha256": null,
+        "expected": null,
+        "observed": null,
+        "verdict": "NOT_CHECKED",
+        "local_repair_record": null
+      }
+    ],
+    "previously_passing_features_regression_check": null,
+    "note": "For attempt 2, replace the placeholder with EVERY original issue ID; outcome is corrected, still_failed or locally_repaired, with actual second-return coordinates/evidence and verdict. For attempt 1 leave this section unused. Do not fill before observing the return."
+  }
+}

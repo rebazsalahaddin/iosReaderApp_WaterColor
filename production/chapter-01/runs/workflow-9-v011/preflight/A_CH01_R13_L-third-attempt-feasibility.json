@@ -1,0 +1,7 @@
+{
+  "node_id": "A_CH01_R13_L",
+  "workflow_version": 9,
+  "method_changed_since_both_failures": true,
+  "no_cost_feasibility_passed": true,
+  "analysis": "Attempt 2 failed because an opaque multi-panel correction collage was uploaded as the reference image instead of the clean parent authority. Under Workflow 9, only the clean parent reference is uploaded while diagnostic boards remain offline, and safe reversible shadow-only matte grading is verified."
+}

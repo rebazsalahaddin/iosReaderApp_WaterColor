@@ -1,0 +1,43 @@
+{
+  "id": "A_CH10_R01_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-10/references/R01_six_neighbouring_worlds/reference-images/02_c01-s05-p01.png",
+        "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+        "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "six distinct small worlds arranged as the supplied six-world editorial guide, differing softly in colour; no people, labels or planet numbers.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH10_R01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c10-s01-p02"
+  ],
+  "audit_only_details": "Diagram informs order and palette only. Render as a soft watercolor editorial overview, not scientific scale or a scene containing six residents together.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH10_R01_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. six distinct small worlds arranged as the supplied six-world editorial guide, differing softly in colour; no people, labels or planet numbers. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-10/references/R01_six_neighbouring_worlds/audit-contract.json",
+  "prompt_sha256": "4f69433993bb90e2ef06ada84c3324188be3406d59ba0d41959b65b4e311f95c",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH10_R01_ONE"
+}

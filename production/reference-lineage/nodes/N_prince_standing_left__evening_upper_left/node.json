@@ -1,0 +1,69 @@
+{
+  "id": "N_prince_standing_left__evening_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_prince"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_prince"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Prince standing three-quarter LEFT, feet supported, neutral face, relaxed shoulders and empty hands low. Preserve his approved small-child anatomy, gold hair, coral scarf and dot eyes.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "prince_standing_left",
+  "light": "Soft late-day to dusk light from upper-left; keep skin clear and pale.",
+  "affected_pages": [
+    "c07-s01-p05",
+    "c07-s01-p06",
+    "c07-s01-p07",
+    "c07-s02-p01",
+    "c07-s02-p02",
+    "c07-s02-p03",
+    "c07-s02-p04",
+    "c07-s02-p05",
+    "c07-s03-p01",
+    "c07-s03-p02",
+    "c07-s03-p03",
+    "c07-s03-p04",
+    "c07-s03-p05"
+  ],
+  "legacy_tokens": [
+    "CH07_S02:L",
+    "CH07_S02:R"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-07/reusable-poses/S02_prince_upset_and_crying/reference-images/05_CH07_S02_PACKING_GUIDE.png",
+      "sha256": "a5b3deb5de8965eb4831b07def7816e6720ac499d51a937b6f06012fcfc55705",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-07/reusable-poses/S02_prince_upset_and_crying/reference-images/06_c07-s01-p05_COMPOSITION_GUIDE.png",
+      "sha256": "6b30753fdb1ab09df0932440c78f9afa9b100eda42c66d716169ed3eff59f643",
+      "role": "TECHNICAL final-page placement for c07-s01-p05. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_prince_standing_left__evening_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Prince standing three-quarter LEFT, feet supported, neutral face, relaxed shoulders and empty hands low. Preserve his approved small-child anatomy, gold hair, coral scarf and dot eyes. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft late-day to dusk light from upper-left; keep skin clear and pale. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "70bf47014dfbf524bac065c3970aa79022fa6ab32233b1f1047b0b1f42ccbaed",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_prince_standing_left__evening_upper_left"
+}

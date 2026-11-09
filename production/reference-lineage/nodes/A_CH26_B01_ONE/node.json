@@ -1,0 +1,52 @@
+{
+  "id": "A_CH26_B01_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-26/references/B01_broken_wall_near_well/reference-images/01_LP_ref_well_turnaround.png",
+        "sha256": "06283689f481a7f364d89f8f86a87c7ac8194457eb5c228a1e952de8c0c35ea7",
+        "role": "Stone village well, wooden uprights/crossbar, wheel, rope and bucket; one fixed design, no village added."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "same desert well distant back-left, low broken warm stone wall in foreground middle, empty sand approach from LEFT, warm late-evening sky. No people, snake, snake shadow, weapons or words.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH26_B01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c26-s01-p01",
+    "c26-s01-p09",
+    "c26-s02-p01",
+    "c26-s02-p02",
+    "c26-s02-p03",
+    "c26-s02-p04",
+    "c26-s02-p05",
+    "c26-s02-p06",
+    "c26-s02-p07",
+    "c26-s02-p08"
+  ],
+  "audit_only_details": "Match accepted CH25_B01 well design. Proposed wall top .45 pilot H, broad enough for child to sit, feet dangling; stones offer real occlusion for hidden speaker. No second well.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH26_B01_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. same desert well distant back-left, low broken warm stone wall in foreground middle, empty sand approach from LEFT, warm late-evening sky. No people, snake, snake shadow, weapons or words. Warm late evening from upper-left. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-26/references/B01_broken_wall_near_well/audit-contract.json",
+  "prompt_sha256": "b1e8f0e5715d1f60f5e976d31c19c92d9435354e2ca4fac0b9dc697578019f16",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH26_B01_ONE"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "N_king_open_book__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_king"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_king"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "size-and-location-references/shared/LP_ch10_coat_book_guide.png",
+        "candidate_sha256": "73737c9ceab7be9c3d2fc3821d86eaa95c8c561e7cf43a34ccb9a41b190c6243",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Same seated king/throne facing RIGHT and robe drawn closer; one thick open book supported on lap with one hand; other hand at rest, neutral face, blank nonverbal pages.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "king_open_book",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c10-s03-p04",
+    "c10-s03-p05",
+    "c10-s04-p01",
+    "c10-s04-p02",
+    "c10-s04-p03",
+    "c10-s04-p04",
+    "c10-s04-p05",
+    "c10-s04-p06",
+    "c10-s04-p07",
+    "c10-s04-p08"
+  ],
+  "legacy_tokens": [
+    "CH10_S02_R:ONE",
+    "CH10_C02:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-10/reusable-poses/S02_R_king_coat_moved_and_book_second_state/reference-images/02_LP_ch10_king_scale_guide.png",
+      "sha256": "1bc414f0581c188348ad9f6c745ef63421116a6e043a367ecc8a8d63f3bf5f8d",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/reusable-poses/S02_R_king_coat_moved_and_book_second_state/reference-images/03_LP_ch10_coat_book_guide.png",
+      "sha256": "73737c9ceab7be9c3d2fc3821d86eaa95c8c561e7cf43a34ccb9a41b190c6243",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/reusable-poses/S02_R_king_coat_moved_and_book_second_state/reference-images/07_CH10_S02_R_PACKING_GUIDE.png",
+      "sha256": "ce58b26fedfd30353467eeb2775db4e1270807ceaad4a1c1bde97bf72aeb26a3",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/reusable-poses/S02_R_king_coat_moved_and_book_second_state/reference-images/08_c10-s03-p04_COMPOSITION_GUIDE.png",
+      "sha256": "08440ca077a527ad85ca53bd36a0ce9f8e70a04766f2d0480f5eb467e12012df",
+      "role": "TECHNICAL final-page placement for c10-s03-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/pose-corrections/C02_king_asking_visitor_to_stay/reference-images/02_LP_ch10_king_scale_guide.png",
+      "sha256": "1bc414f0581c188348ad9f6c745ef63421116a6e043a367ecc8a8d63f3bf5f8d",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/pose-corrections/C02_king_asking_visitor_to_stay/reference-images/03_LP_ch10_coat_book_guide.png",
+      "sha256": "73737c9ceab7be9c3d2fc3821d86eaa95c8c561e7cf43a34ccb9a41b190c6243",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/pose-corrections/C02_king_asking_visitor_to_stay/reference-images/07_CH10_C02_PACKING_GUIDE.png",
+      "sha256": "f9dc3244e895b2ddf70db2e3a4dbab8602b36586abf87053de2283aa2fb1c565",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-10/pose-corrections/C02_king_asking_visitor_to_stay/reference-images/08_c10-s04-p01_COMPOSITION_GUIDE.png",
+      "sha256": "acab20ece79bab172492a3439877a96c6e620c581c1a142ef1d352d8fafd3337",
+      "role": "TECHNICAL final-page placement for c10-s04-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_king_open_book__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Same seated king/throne facing RIGHT and robe drawn closer; one thick open book supported on lap with one hand; other hand at rest, neutral face, blank nonverbal pages. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "67b8a0669233709e3e333f51f48d32e596b0a6b49088d6464be3b91d396a6c17",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_king_open_book__soft_day_upper_left"
+}

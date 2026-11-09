@@ -1,0 +1,939 @@
+{
+  "workflow_version": 9,
+  "chapter": 10,
+  "title": "The King",
+  "page_count": 28,
+  "page_order": [
+    "c10-s01-p01",
+    "c10-s01-p02",
+    "c10-s01-p03",
+    "c10-s01-p04",
+    "c10-s01-p05",
+    "c10-s01-p06",
+    "c10-s01-p07",
+    "c10-s01-p08",
+    "c10-s02-p01",
+    "c10-s02-p02",
+    "c10-s02-p03",
+    "c10-s02-p04",
+    "c10-s02-p05",
+    "c10-s02-p06",
+    "c10-s02-p07",
+    "c10-s03-p01",
+    "c10-s03-p02",
+    "c10-s03-p03",
+    "c10-s03-p04",
+    "c10-s03-p05",
+    "c10-s04-p01",
+    "c10-s04-p02",
+    "c10-s04-p03",
+    "c10-s04-p04",
+    "c10-s04-p05",
+    "c10-s04-p06",
+    "c10-s04-p07",
+    "c10-s04-p08"
+  ],
+  "status": "plan_only_check_current_overlays_and_accepted_sources",
+  "chapter_notes": "King\u2019s purple robe spreads over the little world; use GREEN isolation for purple subjects. He gives orders, but no soldier becomes a bird and no rat is killed. The thick book appears at 3.4. Exact times/planet numbers remain app text. One representative sunset memory only; no hundreds of simultaneous suns.",
+  "manual_approval_required_after_delivery": true,
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "scale_and_anchor_registry_required_before_composition": true,
+  "decoded_pixel_and_semantic_duplicate_checks_required": true,
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_requires_reviewed_graphics": true,
+  "direct_source_requests": [
+    "CH02_B00",
+    "CH02_S05",
+    "CH03_S03",
+    "CH06_B01",
+    "CH06_C01",
+    "CH10_B01",
+    "CH10_C01",
+    "CH10_C02",
+    "CH10_C03",
+    "CH10_R01",
+    "CH10_R02",
+    "CH10_S01",
+    "CH10_S02_L",
+    "CH10_S02_R",
+    "CH10_S03"
+  ],
+  "dependency_order": [
+    "CH02_B00",
+    "CH02_S05",
+    "CH03_S03",
+    "CH04_B01",
+    "CH06_C01",
+    "CH10_R02",
+    "CH10_R01",
+    "CH10_B01",
+    "CH10_S01",
+    "CH10_S03",
+    "CH10_C03",
+    "CH06_B01",
+    "CH10_C01",
+    "CH10_S02_L",
+    "CH10_S02_R",
+    "CH10_C02"
+  ],
+  "later_owned_required_sources": [],
+  "possible_initial_jobs_before_reuse": 26,
+  "max_total_submissions_if_all_sources_were_new": 78,
+  "budget_note": "Theoretical upper bound only. Not a spending budget. Reuse first, subtract both ledgers, require bounded spend window and exceptional third-attempt evidence.",
+  "generation_requests": [
+    {
+      "request_id": "CH02_B00",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH02_S05",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s01-p03",
+        "c10-s01-p04"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH03_S03",
+      "owner_chapter": 3,
+      "prompt_file": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s01-p07",
+        "c10-s01-p08",
+        "c10-s04-p01",
+        "c10-s04-p03",
+        "c10-s04-p04",
+        "c10-s04-p05",
+        "c10-s04-p06",
+        "c10-s04-p07",
+        "c10-s04-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH04_B01",
+      "owner_chapter": 4,
+      "prompt_file": "story-and-continuity/chapter-04/references/B01_b612_empty_daylight_ground/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-04/references/B01_b612_empty_daylight_ground/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [],
+      "dependency_only": true
+    },
+    {
+      "request_id": "CH06_C01",
+      "owner_chapter": 6,
+      "prompt_file": "story-and-continuity/chapter-06/pose-corrections/C01_empty_sunset_chair/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-06/pose-corrections/C01_empty_sunset_chair/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s02-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_R02",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/references/R02_crown_opening_still_life/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/references/R02_crown_opening_still_life/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_R01",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/references/R01_six_neighbouring_worlds/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/references/R01_six_neighbouring_worlds/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s01-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_B01",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/references/B01_king_world_empty_ground/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s01-p03",
+        "c10-s01-p04",
+        "c10-s01-p05",
+        "c10-s01-p06",
+        "c10-s01-p07",
+        "c10-s01-p08",
+        "c10-s02-p01",
+        "c10-s02-p02",
+        "c10-s02-p03",
+        "c10-s02-p04",
+        "c10-s02-p05",
+        "c10-s02-p06",
+        "c10-s02-p07",
+        "c10-s03-p01",
+        "c10-s03-p02",
+        "c10-s03-p03",
+        "c10-s03-p04",
+        "c10-s03-p05",
+        "c10-s04-p01",
+        "c10-s04-p02",
+        "c10-s04-p03",
+        "c10-s04-p04",
+        "c10-s04-p05",
+        "c10-s04-p06",
+        "c10-s04-p07",
+        "c10-s04-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_S01",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/reusable-poses/S01_king_coat_spread/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/reusable-poses/S01_king_coat_spread/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s01-p03",
+        "c10-s01-p04",
+        "c10-s01-p05",
+        "c10-s01-p06"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_S03",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/reusable-poses/S03_prince_yawning_and_seated/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/reusable-poses/S03_prince_yawning_and_seated/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s01-p05",
+        "c10-s01-p06",
+        "c10-s02-p01",
+        "c10-s02-p02",
+        "c10-s02-p03",
+        "c10-s02-p04",
+        "c10-s02-p05",
+        "c10-s02-p06",
+        "c10-s02-p07",
+        "c10-s03-p01",
+        "c10-s03-p02",
+        "c10-s03-p03",
+        "c10-s03-p04"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_C03",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/pose-corrections/C03_prince_seated_yawn_and_looking_around/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/pose-corrections/C03_prince_seated_yawn_and_looking_around/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c10-s03-p05",
+        "c10-s04-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH06_B01",
+      "owner_chapter": 6,
+      "prompt_file": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/audit-contract.json",
+      "dependencies": [
+        "CH04_B01"
+      ],
+      "active_page_uses": [
+        "c10-s02-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_C01",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/pose-corrections/C01_king_puzzled_with_spread_robe/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/pose-corrections/C01_king_puzzled_with_spread_robe/audit-contract.json",
+      "dependencies": [
+        "CH10_S01"
+      ],
+      "active_page_uses": [
+        "c10-s01-p07",
+        "c10-s01-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_S02_L",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/reusable-poses/S02_L_king_coat_moved_and_book_first_state/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/reusable-poses/S02_L_king_coat_moved_and_book_first_state/audit-contract.json",
+      "dependencies": [
+        "CH10_S01"
+      ],
+      "active_page_uses": [
+        "c10-s02-p01",
+        "c10-s02-p02",
+        "c10-s02-p03",
+        "c10-s02-p04",
+        "c10-s02-p05",
+        "c10-s02-p06",
+        "c10-s02-p07",
+        "c10-s03-p01",
+        "c10-s03-p02",
+        "c10-s03-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_S02_R",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/reusable-poses/S02_R_king_coat_moved_and_book_second_state/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/reusable-poses/S02_R_king_coat_moved_and_book_second_state/audit-contract.json",
+      "dependencies": [
+        "CH10_S02_L"
+      ],
+      "active_page_uses": [
+        "c10-s03-p04",
+        "c10-s03-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH10_C02",
+      "owner_chapter": 10,
+      "prompt_file": "story-and-continuity/chapter-10/pose-corrections/C02_king_asking_visitor_to_stay/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-10/pose-corrections/C02_king_asking_visitor_to_stay/audit-contract.json",
+      "dependencies": [
+        "CH10_S02_R"
+      ],
+      "active_page_uses": [
+        "c10-s04-p01",
+        "c10-s04-p02",
+        "c10-s04-p03",
+        "c10-s04-p04",
+        "c10-s04-p05",
+        "c10-s04-p06",
+        "c10-s04-p07",
+        "c10-s04-p08"
+      ],
+      "dependency_only": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "c10-s01-p01",
+      "assets": [
+        "CH02_B00:ONE",
+        "CH10_R02:ONE"
+      ],
+      "story_text": "",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s01-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s01-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s01-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p01/layout.json",
+      "reference_lineage": {
+        "CH02_B00:ONE": "A_CH02_B00_ONE",
+        "CH10_R02:ONE": "A_CH10_R02_ONE"
+      }
+    },
+    {
+      "page": "c10-s01-p02",
+      "assets": [
+        "CH10_R01:ONE"
+      ],
+      "story_text": "Six small planets lay near his own: 325, 326, 327, 328, 329, and 330. The little prince decided to visit them. Perhaps he could learn something.",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s01-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s01-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s01-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p02/layout.json",
+      "reference_lineage": {
+        "CH10_R01:ONE": "A_CH10_R01_ONE"
+      }
+    },
+    {
+      "page": "c10-s01-p03",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S01:ONE",
+        "CH02_S05:L"
+      ],
+      "story_text": "A king lived on the first planet. His long purple coat, with white fur along its edges, spread around his great chair. \"Ah! Someone for me to rule!\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s01-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s01-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s01-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p03/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S01:ONE": "V_CH10_S01_ONE",
+        "CH02_S05:L": "V_CH02_S05_L"
+      }
+    },
+    {
+      "page": "c10-s01-p04",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S01:ONE",
+        "CH02_S05:L"
+      ],
+      "story_text": "How could the king know him already? The little prince did not understand that, to a king, everyone is a person to rule. \"Come closer. Let me see you.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s01-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s01-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s01-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p04/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S01:ONE": "V_CH10_S01_ONE",
+        "CH02_S05:L": "V_CH02_S05_L"
+      }
+    },
+    {
+      "page": "c10-s01-p05",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S01:ONE",
+        "CH10_S03:L"
+      ],
+      "story_text": "There was nowhere to sit. The king's coat covered almost everything. Tired from his journey, the little prince yawned. \"You must not yawn before a king!\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s01-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s01-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s01-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p05/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S01:ONE": "V_CH10_S01_ONE",
+        "CH10_S03:L": "V_CH10_S03_L"
+      }
+    },
+    {
+      "page": "c10-s01-p06",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S01:ONE",
+        "CH10_S03:L"
+      ],
+      "story_text": "\"I can't help it. I've traveled a long way without sleeping.\" \"Then I order you to yawn. I haven't seen a yawn for years. Go on!\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s01-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s01-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s01-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p06/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S01:ONE": "V_CH10_S01_ONE",
+        "CH10_S03:L": "V_CH10_S03_L"
+      }
+    },
+    {
+      "page": "c10-s01-p07",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C01:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "\"Now I'm too nervous. I can't.\" \"Then I order you to yawn sometimes, and sometimes to...\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s01-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s01-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s01-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p07/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C01:ONE": "V_CH10_C01_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c10-s01-p08",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C01:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "The king stopped. This was becoming difficult.",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s01-p08/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s01-p08/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s01-p08/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p08/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s01-p08/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C01:ONE": "V_CH10_C01_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c10-s02-p01",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "\"May I sit down?\" \"I order you to sit.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s02-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s02-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s02-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p01/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s02-p02",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "At last, the king moved his coat. He wanted everyone to obey, but he tried to give sensible orders.",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s02-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s02-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s02-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p02/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s02-p03",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "\"If I tell a soldier to become a bird and he cannot, who is wrong? Me. I must ask people to do things they can do.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s02-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s02-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s02-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p03/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s02-p04",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "\"May I ask a question?\" \"I order you to ask.\" \"What do you rule?\" \"Everything.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s02-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s02-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s02-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p04/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s02-p05",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "The king pointed at his planet, the other planets, and the stars. \"All of that? And the stars obey you?\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s02-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s02-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s02-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p05/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s02-p06",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "\"At once. I allow nothing else.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s02-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s02-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s02-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p06/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s02-p07",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R",
+        "CH06_B01:ONE",
+        "CH06_C01:ONE"
+      ],
+      "story_text": "Such power! With it, the little prince could watch seventy-two sunsets, or a hundred, or two hundred, without moving his chair. He thought of home.",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s02-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s02-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s02-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s02-p07/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R",
+        "CH06_B01:ONE": "A_CH06_B01_ONE",
+        "CH06_C01:ONE": "A_CH06_C01_ONE"
+      }
+    },
+    {
+      "page": "c10-s03-p01",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "\"Please order the sun to set.\" \"Suppose I order a soldier to fly like a butterfly, write a sad play, or become a bird. If he fails, who is wrong?\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s03-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s03-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s03-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p01/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s03-p02",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "\"You are.\" \"Exactly. If I order people into the sea, they will fight me. My orders must make sense. That is why people obey me.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s03-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s03-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s03-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p02/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s03-p03",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_L:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "\"And my sunset?\" \"You shall have it. When the time is right.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s03-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s03-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s03-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p03/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_L:ONE": "V_CH10_S02_L_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s03-p04",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_R:ONE",
+        "CH10_S03:R"
+      ],
+      "story_text": "He opened a thick book. \"At about seven forty this evening. You'll see how well the sun obeys.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s03-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s03-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s03-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p04/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_R:ONE": "V_CH10_S02_R_ONE",
+        "CH10_S03:R": "V_CH10_S03_R"
+      }
+    },
+    {
+      "page": "c10-s03-p05",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_S02_R:ONE",
+        "CH10_C03:L"
+      ],
+      "story_text": "The little prince yawned. He was missing his sunset, and this visit was getting boring. \"There is nothing more for me to do here. I think I'll go.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s03-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s03-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s03-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s03-p05/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_S02_R:ONE": "V_CH10_S02_R_ONE",
+        "CH10_C03:L": "V_CH10_C03_L"
+      }
+    },
+    {
+      "page": "c10-s04-p01",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C02:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "\"Don't go! I'll give you an important job.\" \"What job?\" \"You can judge people.\" \"But there is nobody here.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s04-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s04-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s04-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p01/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C02:ONE": "V_CH10_C02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c10-s04-p02",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C02:ONE",
+        "CH10_C03:R"
+      ],
+      "story_text": "\"I haven't looked everywhere. I'm old. Walking tires me, and there's no room for a carriage.\" The little prince looked around the other side. Nobody.",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s04-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s04-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s04-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p02/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C02:ONE": "V_CH10_C02_ONE",
+        "CH10_C03:R": "V_CH10_C03_R"
+      }
+    },
+    {
+      "page": "c10-s04-p03",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C02:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "\"Then judge yourself. That is much harder than judging other people. Do it well, and you will understand yourself.\" \"But I can do that anywhere.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s04-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s04-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s04-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p03/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C02:ONE": "V_CH10_C02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c10-s04-p04",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C02:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "\"I think there is an old rat here. I hear him at night. You can order his death, then let him live each time. We have only one rat. We must keep him.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s04-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s04-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s04-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p04/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C02:ONE": "V_CH10_C02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c10-s04-p05",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C02:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "\"I don't want to order anyone's death. I would rather go.\" \"No.\"",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s04-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s04-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s04-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p05/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C02:ONE": "V_CH10_C02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c10-s04-p06",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C02:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "The little prince was ready to leave, but he did not want to hurt the old king.",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s04-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s04-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s04-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p06/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C02:ONE": "V_CH10_C02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c10-s04-p07",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C02:ONE",
+        "CH03_S03:L"
+      ],
+      "story_text": "\"You could order me to leave within one minute. That would be a sensible order. The time seems right.\" The king said nothing.",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s04-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s04-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s04-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p07/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C02:ONE": "V_CH10_C02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c10-s04-p08",
+      "assets": [
+        "CH10_B01:ONE",
+        "CH10_C02:ONE",
+        "CH03_S03:R"
+      ],
+      "story_text": "The little prince waited, then left. \"You will speak for me in every place you visit!\" The king still sounded very important. The little prince thought that grown-ups were very strange.",
+      "assembly_instructions": "story-and-continuity/chapter-10/page-compositions/c10-s04-p08/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-10/page-compositions/c10-s04-p08/layout.json",
+      "placement_guide": "story-and-continuity/chapter-10/page-compositions/c10-s04-p08/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p08/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-10/page-compositions/c10-s04-p08/layout.json",
+      "reference_lineage": {
+        "CH10_B01:ONE": "A_CH10_B01_ONE",
+        "CH10_C02:ONE": "V_CH10_C02_ONE",
+        "CH03_S03:R": "V_CH03_S03_R"
+      }
+    }
+  ],
+  "policy": "production/agent-policy.json",
+  "audit_template": "production/agent-workflow/templates/page-audit.json",
+  "lineage_execution_order": [
+    "I_prince",
+    "I_king",
+    "N_prince_standing_left__soft_day_upper_left",
+    "N_prince_walk_right__soft_day_upper_left",
+    "N_king_spread_robe__soft_day_upper_left",
+    "N_king_robe_close__soft_day_upper_left",
+    "N_king_open_book__soft_day_upper_left",
+    "N_prince_seated_ground_left__soft_day_upper_left",
+    "V_CH02_S05_L",
+    "V_CH03_S03_L",
+    "V_CH03_S03_R",
+    "A_CH06_B01_ONE",
+    "A_CH10_B01_ONE",
+    "V_CH10_S01_ONE",
+    "V_CH10_S03_L",
+    "V_CH10_S03_R",
+    "A_CH10_R01_ONE",
+    "A_CH06_C01_ONE",
+    "V_CH10_C01_ONE",
+    "V_CH10_C02_ONE",
+    "V_CH10_C03_L",
+    "V_CH10_C03_R",
+    "V_CH10_S02_L_ONE",
+    "V_CH10_S02_R_ONE",
+    "A_CH10_R02_ONE",
+    "A_CH02_B00_ONE"
+  ],
+  "generation_route": "lineage_nodes_only",
+  "legacy_dependency_usage": "offline_audit_and_historical_attempt_traceability",
+  "lineage_catalog": "production/reference-lineage/catalog.json",
+  "workflow_process": "production/workflow-9/PROCESS.md",
+  "family_canaries": {
+    "N_prince_standing_left__soft_day_upper_left": "V_CH02_S05_L",
+    "N_prince_walk_right__soft_day_upper_left": "V_CH03_S03_R",
+    "N_king_spread_robe__soft_day_upper_left": "V_CH10_S01_ONE",
+    "N_prince_seated_ground_left__soft_day_upper_left": "V_CH10_S03_R",
+    "N_king_open_book__soft_day_upper_left": "V_CH10_C02_ONE",
+    "N_king_robe_close__soft_day_upper_left": "V_CH10_S02_L_ONE"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "A_CH01_B10_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-01/references/B10_childhood_room_without_foreground_furniture/reference-images/01_LP_ref_child_room.jpg",
+        "sha256": "39e0533078e2e4d695dd479f4538febe7e830a96dbdae2f9a45683f3a26e1c11",
+        "role": "Empty familiar room: furniture, window and layout. Original child scale does not govern adult figures."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "empty childhood room, window LEFT, plant left-of-centre, rear honey bookshelves, coral rug and wooden floor; remove the foreground round table and its RIGHT chair, all people, papers and books on that table.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_B10",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c01-s01-p02",
+    "c01-s01-p03",
+    "c01-s01-p04",
+    "c01-s02-p01",
+    "c01-s02-p02",
+    "c01-s02-p03",
+    "c01-s03-p01",
+    "c01-s03-p02",
+    "c01-s03-p03",
+    "c01-s03-p04"
+  ],
+  "audit_only_details": "Preserve the reference camera and landmarks. The foreground furniture will be supplied exactly once by the child/table contact group. Clear foreground for x=25–82% round-table footprint. Never mirror the room.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH01_B10_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. empty childhood room, window LEFT, plant left-of-centre, rear honey bookshelves, coral rug and wooden floor; remove the foreground round table and its RIGHT chair, all people, papers and books on that table. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-01/references/B10_childhood_room_without_foreground_furniture/audit-contract.json",
+  "prompt_sha256": "a40c35a679e7e228d4d6826d1dee48f990639243d60b486506f5d008c2c75067",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH01_B10_ONE"
+}

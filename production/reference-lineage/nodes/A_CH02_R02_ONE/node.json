@@ -1,0 +1,43 @@
+{
+  "id": "A_CH02_R02_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-02/references/R02_prince_imagined_small_sheep/reference-images/01_watercolor_style_crop.png",
+        "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+        "role": "STYLE ONLY: native crop of the approved Chapter 1 watercolor paper/pencil/wood, for pigment grain, local contour and opaque cream tone. Do not copy its pencil, drawing, wood surface or composition."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "one small healthy gentle lamb, curled comfortably with tucked legs, calm closed eyes, tiny ears, simple cream fleece and no horns. Sparse warm contours and broad watercolor wash; no realistic wool texture.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH02_R02",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c02-s04-p02"
+  ],
+  "audit_only_details": "A subjective thought picture only, not a physical reveal of the sheep inside the box. No box, cutaway, grass field, people, paper, frame, trail, scenery or lettering. Do not alter the canonical box drawing. Keep the complete simple lamb isolated and readable at about 360px final width.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH02_R02_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. one small healthy gentle lamb, curled comfortably with tucked legs, calm closed eyes, tiny ears, simple cream fleece and no horns. Sparse warm contours and broad watercolor wash; no realistic wool texture. Soft neutral upper-left illumination; opaque pale interiors, restrained luminous watercolor. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-02/references/R02_prince_imagined_small_sheep/audit-contract.json",
+  "prompt_sha256": "f7c5e2e35417a2695e98f124e56df6ff07bddb04a16c5ee7a657342a2ccbfaea",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH02_R02_ONE"
+}

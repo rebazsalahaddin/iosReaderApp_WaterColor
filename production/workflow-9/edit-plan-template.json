@@ -1,0 +1,38 @@
+{
+  "template_only": true,
+  "workflow_version": 9,
+  "node_id": null,
+  "parents": [],
+  "route": null,
+  "target_state": null,
+  "submission_contract": null,
+  "identity_features": [],
+  "geometry_checks": [],
+  "contacts": null,
+  "background_review": null,
+  "pixel_budget": null,
+  "reuse_decision": null,
+  "local_repair_decision": null,
+  "object_inventory": [
+    {
+      "id": null,
+      "before_count": null,
+      "after_count": null,
+      "before_state": null,
+      "after_state": null,
+      "contact": null,
+      "replaces_or_moves": false,
+      "old_bbox_xywh": null,
+      "new_bbox_xywh": null,
+      "vacated_surface": null
+    }
+  ],
+  "edit_mask": {"path": null, "sha256": null},
+  "support_mask": {"path": null, "sha256": null},
+  "registration": {"landmarks": [], "max_residual_native_px": null},
+  "boundary_and_occlusion_review": null,
+  "protected_pixels_method": "copy_parent_outside_binary_mask",
+  "why_registered_edit_not_feasible": null,
+  "all_features_reaudit": false,
+  "review": {"status": "pending", "reviewer": null, "reviewed_at": null, "observations": null}
+}

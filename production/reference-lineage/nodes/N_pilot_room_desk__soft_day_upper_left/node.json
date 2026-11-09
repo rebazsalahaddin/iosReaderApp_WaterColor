@@ -1,0 +1,89 @@
+{
+  "id": "N_pilot_room_desk__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_pilot_civilian"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_pilot_civilian"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "appearance-references/shared/LP_ref_pilot_room_seated_close_ch04.png",
+        "candidate_sha256": "9799b2e0271577589cca143f107cddfbf0bf1a3690d5896c0431ef25b273ec62",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Civilian pilot in the approved seated-CLOSE room camera with complete same table/chair and blank drawing paper, pencil resting, hands at rest and neutral face. Match the approved adult-to-table fit and intentional lower-leg crop.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "pilot_room_desk",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c04-s04-p03",
+    "c04-s04-p04",
+    "c04-s05-p01",
+    "c04-s05-p02",
+    "c04-s05-p03",
+    "c05-s04-p03",
+    "c05-s04-p04"
+  ],
+  "legacy_tokens": [
+    "CH04_S01:ONE",
+    "CH04_C01:ONE"
+  ],
+  "shadow_mode": "none_airborne_or_close_crop",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-04/reusable-poses/S01_narrator_seated_drawing_and_reflecting/reference-images/01_LP_ref_pilot_room_seated_close_ch04.png",
+      "sha256": "9799b2e0271577589cca143f107cddfbf0bf1a3690d5896c0431ef25b273ec62",
+      "role": "Approved adult-room seated CLOSE camera/fit: head height/table width target .34, band .31–.37. Cropped legs supply no full-body measurement."
+    },
+    {
+      "path": "story-and-continuity/chapter-04/reusable-poses/S01_narrator_seated_drawing_and_reflecting/reference-images/05_CH04_S01_PACKING_GUIDE.png",
+      "sha256": "3a0a39b55670f741a85c92c094c841b0db7bfdc41aaadf897f88e9e4d7060b9f",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-04/reusable-poses/S01_narrator_seated_drawing_and_reflecting/reference-images/06_c04-s04-p04_COMPOSITION_GUIDE.png",
+      "sha256": "67507c10a4d21571b59373b056537cf163c62d9f536d27cfe324bc331d5053ad",
+      "role": "TECHNICAL final-page placement for c04-s04-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-04/pose-corrections/C01_narrator_pausing_over_portrait/reference-images/02_LP_ref_pilot_room_seated_close_ch04.png",
+      "sha256": "9799b2e0271577589cca143f107cddfbf0bf1a3690d5896c0431ef25b273ec62",
+      "role": "Approved adult-room seated CLOSE camera/fit: head height/table width target .34, band .31–.37. Cropped legs supply no full-body measurement."
+    },
+    {
+      "path": "story-and-continuity/chapter-04/pose-corrections/C01_narrator_pausing_over_portrait/reference-images/06_CH04_C01_PACKING_GUIDE.png",
+      "sha256": "e7b678f9c5a55cda5ab45b4de19e75b35b878fe3c946e350a1f167950bce62bb",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-04/pose-corrections/C01_narrator_pausing_over_portrait/reference-images/07_c04-s04-p03_COMPOSITION_GUIDE.png",
+      "sha256": "f7239667e4030deac321cd7219dd0f1501aa7872b0c9e698a316fedc811ffffb",
+      "role": "TECHNICAL final-page placement for c04-s04-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_pilot_room_desk__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Civilian pilot in the approved seated-CLOSE room camera with complete same table/chair and blank drawing paper, pencil resting, hands at rest and neutral face. Match the approved adult-to-table fit and intentional lower-leg crop. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Keep transparent surroundings and opaque subject interiors; no physical floor or floor shadow in this airborne/close-cropped asset. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "8f1520141492fcdf7b7a1dab169ef856d656307429fe39fda03d73a6d7c9b954",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_pilot_room_desk__soft_day_upper_left"
+}

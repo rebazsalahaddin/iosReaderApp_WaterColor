@@ -1,0 +1,170 @@
+{
+  "template_only": false,
+  "request_id": "CH01_E04",
+  "attempt": 1,
+  "job_id": "84b371e6-1fbb-44b9-9610-2350a90acedf",
+  "source_file": "production/chapter-01/props/raw/CH01_E04_childhood_adults_engaged_hat_response.png",
+  "source_sha256": "d8481fe533c712ffbb365b3b8381f52a3713ea2d971632b4c4b3f30bd43671a7",
+  "actual_format": "PNG",
+  "actual_dimensions": [
+    2400,
+    1792
+  ],
+  "prompt_sha256": "d267fb5e20693f90ef1dead9f14c159af447a7fbd14a70fe3dd08d10dcedad55",
+  "attachments": [
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/01_CH01_S13_childhood_adults_questioning.png",
+      "sha256": "a97ab55db17f19a359b12995f81642006245c65230a049ed7a44c967cd787a16",
+      "media_id": "aef7cc1b-f337-4e4c-8cda-88b76b0e4909"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/02_woman_both_states_facing_right.png",
+      "sha256": "b2a6e085cf9d4254d9815cdab6bb9acd17a49bb36252720f84463d4b1c1f35a6",
+      "media_id": "758177a6-39fa-4212-b8ee-f7a1e9eda747"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/03_CH01_E04_direction_and_packing.png",
+      "sha256": "7d9e2ed2398ee519c8ebee999d54a42a57236b8bc554d132835b0cd3051242cd",
+      "media_id": "3c8aceba-931e-4b68-a0b6-afb5f84fd2c3"
+    }
+  ],
+  "parameters": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "high",
+    "aspect_ratio": "4:3",
+    "count": 1
+  },
+  "accepted_cells": [
+    "L",
+    "R"
+  ],
+  "issues": [],
+  "verdict": "PASS",
+  "reviewer": "Codex actual source / light-dark-room matte / placed-scene inspection",
+  "reviewed_at": "2026-11-07T18:23:19.559963+00:00",
+  "cell_audits": {
+    "L": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS",
+          "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Older bespectacled man stands RIGHT with kind speaking smile and open hand toward the child. Full shoes, spectacles and fingers; no actual hat."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Native prepared crop 724x1557; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS_WITH_NOTE",
+          "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Older bespectacled man stands RIGHT with kind speaking smile and open hand toward the child. Full shoes, spectacles and fingers; no actual hat. This performance remains readable in the reduced component review and chapter composite."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+        }
+      },
+      "source_crop": [
+        213,
+        146,
+        937,
+        1703
+      ],
+      "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E04_L__rgba-performance-v010.png"
+    },
+    "R": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS",
+          "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Woman faces RIGHT, one hand to chin, gently lifted inner brow and small quizzical smile. Grey bun, long blue-grey dress and low shoes match the exact intended source crop."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Native prepared crop 470x1599; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS_WITH_NOTE",
+          "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Woman faces RIGHT, one hand to chin, gently lifted inner brow and small quizzical smile. Grey bun, long blue-grey dress and low shoes match the exact intended source crop. This performance remains readable in the reduced component review and chapter composite."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+        }
+      },
+      "source_crop": [
+        1551,
+        140,
+        2021,
+        1739
+      ],
+      "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E04_R__rgba-performance-v010.png"
+    }
+  },
+  "credits_estimated": 2,
+  "credits_actual": null,
+  "checks": {
+    "identity_style": {
+      "verdict": "PASS",
+      "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+    },
+    "orientation_expression": {
+      "verdict": "PASS",
+      "evidence": "Older bespectacled man stands RIGHT with kind speaking smile and open hand toward the child. Full shoes, spectacles and fingers; no actual hat."
+    },
+    "count_state_realm": {
+      "verdict": "PASS",
+      "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+    },
+    "contact_support": {
+      "verdict": "PASS",
+      "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+    },
+    "native_pixel_budget": {
+      "verdict": "PASS",
+      "evidence": "Native prepared crop 724x1557; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+    },
+    "extraction_light_dark_intended": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+    },
+    "reading_size": {
+      "verdict": "PASS",
+      "evidence": "Older bespectacled man stands RIGHT with kind speaking smile and open hand toward the child. Full shoes, spectacles and fingers; no actual hat. This performance remains readable in the reduced component review and chapter composite."
+    },
+    "second_contract_check": {
+      "verdict": "PASS",
+      "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+    }
+  }
+}

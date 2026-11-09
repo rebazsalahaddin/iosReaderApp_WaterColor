@@ -1,0 +1,54 @@
+{
+  "id": "V_CH07_C01_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_pilot_hammer_low__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_pilot_hammer_low__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "pilot upright at LEFT, feet and torso RIGHT, head down-right toward child, one hammer held low at side, softened brows and regretful closed mouth, no raised swing.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH07_C01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c07-s02-p03",
+    "c07-s02-p04",
+    "c07-s02-p05",
+    "c07-s03-p01",
+    "c07-s03-p02",
+    "c07-s03-p03",
+    "c07-s03-p04"
+  ],
+  "allowed_changes": "pilot upright at LEFT, feet and torso RIGHT, head down-right toward child, one hammer held low at side, softened brows and regretful closed mouth, no raised swing.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Retain dirty hands and flight clothes; exact tool design matches S01. A regret state is required after the outburst.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH07_C01_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: pilot upright at LEFT, feet and torso RIGHT, head down-right toward child, one hammer held low at side, softened brows and regretful closed mouth, no raised swing. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/audit-contract.json",
+  "prompt_sha256": "7e4e01ae5ddb14120cd32d1e8577c53648abb391f97a62bfc072531051157d48",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH07_C01_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

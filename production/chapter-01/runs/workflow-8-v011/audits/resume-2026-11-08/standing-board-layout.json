@@ -1,0 +1,47 @@
+{
+  "intact_identity": {
+    "box": [
+      40,
+      150,
+      1230,
+      1430
+    ],
+    "rendered_xywh": [
+      415,
+      150,
+      479,
+      1430
+    ],
+    "uniform_scale": 1.1818181818181819
+  },
+  "failed_complete_setup": {
+    "box": [
+      1330,
+      230,
+      940,
+      660
+    ],
+    "rendered_xywh": [
+      1358,
+      230,
+      884,
+      660
+    ],
+    "uniform_scale": 0.37844036697247707
+  },
+  "failed_support_crop": {
+    "box": [
+      1330,
+      1033,
+      940,
+      260
+    ],
+    "rendered_xywh": [
+      1388,
+      1033,
+      823,
+      260
+    ],
+    "uniform_scale": 1.0833333333333333
+  }
+}

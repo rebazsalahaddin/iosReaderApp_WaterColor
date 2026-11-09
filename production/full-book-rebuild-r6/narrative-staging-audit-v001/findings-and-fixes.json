@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-07",
+  "page_recipe_corrections": {
+    "c01-s02-p01": "Missing recipients: added the existing questioning man and corrected right-facing woman.",
+    "c04-s02-p01": "Missing audience: use both existing CH04_S04 listeners; remove the unrelated telescope inset from the meeting.",
+    "c04-s02-p02": "Missing audience: use both existing CH04_S04 listeners; remove the unrelated telescope inset from the meeting.",
+    "c07-s02-p04": "Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.",
+    "c07-s02-p05": "Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.",
+    "c07-s03-p01": "Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.",
+    "c07-s03-p02": "Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.",
+    "c07-s03-p03": "Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.",
+    "c07-s03-p04": "Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.",
+    "c12-s01-p05": "Contradictory instruction: removed obsolete off-frame prince crop from an ongoing question/answer scene.",
+    "c12-s01-p06": "Contradictory instruction: removed obsolete off-frame prince crop from an ongoing question/answer scene.",
+    "c12-s01-p07": "Contradictory instruction: removed obsolete off-frame prince crop from an ongoing question/answer scene.",
+    "c25-s01-p04": "Missing companion during direct address: add the already planned compatible observer; verify actual free space before compositing.",
+    "c25-s01-p05": "Missing companion during direct address: add the already planned compatible observer; verify actual free space before compositing."
+  },
+  "explicit_exception_contracts": {
+    "c02-s01-p02": "Solitary engine-inspection beat: the pilot looks toward the visible aircraft nose/engine to his right. Do not present this as a conversation or add the prince before his arrival.",
+    "c26-s03-p02": "Intentional seated-child reaction vignette. The pilot is the already established listener immediately to the child’s left outside the selected view. The current small full-body envelope alone does NOT establish a close view: before assembly, author a coherent intimate vignette camera with measured native source pixels and matching adjacent-shot geography. Do not label empty wide scenery a close-up; if the source cannot support the declared framing without enlargement, use the prewritten complete-pose correction route. The gift is his laugh; no empty presenting hand and no literal bells.",
+    "c26-s03-p05": "Intentional seated-child reaction vignette. The pilot is the already established listener immediately to the child’s left outside the selected view. The current small full-body envelope alone does NOT establish a close view: before assembly, author a coherent intimate vignette camera with measured native source pixels and matching adjacent-shot geography. Do not label empty wide scenery a close-up; if the source cannot support the declared framing without enlargement, use the prewritten complete-pose correction route. The gift is his laugh; no empty presenting hand and no literal bells.",
+    "c26-s03-p06": "Intentional seated-child reaction vignette. The pilot is the already established listener immediately to the child’s left outside the selected view. The current small full-body envelope alone does NOT establish a close view: before assembly, author a coherent intimate vignette camera with measured native source pixels and matching adjacent-shot geography. Do not label empty wide scenery a close-up; if the source cannot support the declared framing without enlargement, use the prewritten complete-pose correction route. The gift is his laugh; no empty presenting hand and no literal bells.",
+    "c26-s03-p08": "Intentional seated-child reaction vignette. The pilot is the already established listener immediately to the child’s left outside the selected view. The current small full-body envelope alone does NOT establish a close view: before assembly, author a coherent intimate vignette camera with measured native source pixels and matching adjacent-shot geography. Do not label empty wide scenery a close-up; if the source cannot support the declared framing without enlargement, use the prewritten complete-pose correction route. The gift is his laugh; no empty presenting hand and no literal bells.",
+    "c26-s01-p02": "Intentional concealed recipient: the prince addresses the snake below/beyond the wall, hidden from the narrator and reader. Direct his gaze toward the occluded ground; do not reveal or duplicate the snake before c26-s01-p07.",
+    "c26-s01-p03": "Intentional concealed recipient: the prince addresses the snake below/beyond the wall, hidden from the narrator and reader. Direct his gaze toward the occluded ground; do not reveal or duplicate the snake before c26-s01-p07.",
+    "c26-s01-p04": "Intentional concealed recipient: the prince addresses the snake below/beyond the wall, hidden from the narrator and reader. Direct his gaze toward the occluded ground; do not reveal or duplicate the snake before c26-s01-p07.",
+    "c26-s01-p05": "Intentional concealed recipient: the prince addresses the snake below/beyond the wall, hidden from the narrator and reader. Direct his gaze toward the occluded ground; do not reveal or duplicate the snake before c26-s01-p07.",
+    "c26-s01-p06": "Intentional concealed recipient: the prince addresses the snake below/beyond the wall, hidden from the narrator and reader. Direct his gaze toward the occluded ground; do not reveal or duplicate the snake before c26-s01-p07.",
+    "c26-s05-p01": "Intentional alone-before-farewell beat: the prince is seated and afraid; the pilot has not sat beside him yet. Do not pre-seat the pilot or fabricate another listener. The pair comes together on c26-s05-p03.",
+    "c26-s05-p02": "Intentional alone-before-farewell beat: the prince is seated and afraid; the pilot has not sat beside him yet. Do not pre-seat the pilot or fabricate another listener. The pair comes together on c26-s05-p03.",
+    "c07-s03-p05": "Intentional emotional reaction: the prince cries with hands close to his own face; no offering/pointing into empty space. Preserve the source’s dusk transition and established pilot nearby outside this selected private-reaction view."
+  },
+  "new_generation_requests_added": 0,
+  "all_existing_167_request_prompts_preserved": true,
+  "remaining_gate": "Inspect actual returned sources and measured compositions; no blanket image approval."
+}

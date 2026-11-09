@@ -1,0 +1,194 @@
+{
+ "request_id": "CH02_S01",
+ "attempt": 1,
+ "job_id": "0c83e500-da64-4b1b-9ca7-2272dbd8ed15",
+ "source_file": "production/chapter-02/props/raw/CH02_S01_pilot_drawing_and_presenting_paper.png",
+ "source_sha256": "541ed32ef9569e8322aad2fcdca960143ace435b5d4abb7ada0d3c39afd97ddd",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "75dcc0d98f1656c276d4f5a4968af20f3aea715fa137119381c64a2605fc8aba",
+ "attachments": [],
+ "cells": [
+  "L",
+  "R"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Same adult pilot both cells: brown flight jacket, cream shirt, tan trousers, brown boots, tousled brown hair, goggles on forehead; adult head/torso proportions per scale sheet; soft watercolor, thin warm contours."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "LEFT: cross-legged, pelvis/torso/knees three-quarter RIGHT, head tilted DOWN to sheet, serious concentration, right hand pen above sheet, left supports beneath. RIGHT: cross-legged, torso RIGHT, head lifted toward viewer-RIGHT with patient small smile, sheet held forward with both hands, all four corners visible."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "Two complete single-pilot cells; one blank cream sheet each; pen only in LEFT hand as specified; no invented marks, chairs, labels or extra props."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "Hands-paper registered as one group in both cells; clean key through leg/cross-limb gaps; no fringe."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Left cell subject bounds [160,342,1079,1640], right [1250,318,2265,1643]; outer margins >=5.6% width, clear gutter 171px (~7.1%); seated silhouettes ~1300px tall give ample pixels for 630px final cross-legged height (scale ~0.49)."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "PENDING_EXTRACTION",
+   "evidence": "Key field uniform LIGHT PINK rgb(254,202,253) border-ring std ~1.5 (see note); matte must key observed pink-family chroma and protect cream paper/pale skin; to be re-inspected after extraction."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Both poses readable as drawing vs presenting; expression contrast clear at reading size."
+  },
+  "second_contract_check": {
+   "verdict": "PASS",
+   "evidence": "Recheck vs contract: direction lock satisfied per-cell (torso RIGHT both; head down drawing / head right presenting); papers blank with quadrilateral inner surface; minor harmless deltas (hair mass slightly taller, goggle strap darker in RIGHT cell) recorded as watercolor variation, not identity break."
+  }
+ },
+ "issues": [
+  {
+   "issue_id": "CH02_S01-NOTE-KEYHUE",
+   "request_id": "CH02_S01",
+   "attempt": 1,
+   "cell": "L/R",
+   "affected_pages": [],
+   "coordinate_space": "source",
+   "image_dimensions": [
+    2400,
+    1792
+   ],
+   "bbox_xywh": [
+    0,
+    0,
+    2400,
+    1792
+   ],
+   "evidence_file": null,
+   "evidence_sha256": null,
+   "expected": "#FF00FF key field",
+   "contract_reference": "PROMPT.txt BACKGROUND/ISOLATION",
+   "observed": "Uniform light pink rgb(254,202,253) key, std ~1.5 across border ring; flat and single-hue.",
+   "material_impact": "None on subject; extraction must key observed pink chroma rather than exact #FF00FF; cream-paper/pale-skin protection still separable by hue.",
+   "cause": "source",
+   "local_or_existing_source_option": "Local matte tuned to observed distribution",
+   "decision": "PASS_WITH_NOTE",
+   "precise_fix": "Key on magenta-family hue with R~B>230 and G in 170-235 band; alpha-edge band handled per Background_Removal_Instructions.",
+   "recheck": "Extraction inspection on cream/dark/intended backgrounds before acceptance as prepared component.",
+   "resolved": true
+  }
+ ],
+ "verdict": "PASS",
+ "accepted_cells": [
+  "L",
+  "R"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "cell_audits": {
+  "L": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[L] Same adult pilot both cells: brown flight jacket, cream shirt, tan trousers, brown boots, tousled brown hair, goggles on forehead; adult head/torso proportions per scale sheet; soft watercolor, thin warm contours."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[L] LEFT: cross-legged, pelvis/torso/knees three-quarter RIGHT, head tilted DOWN to sheet, serious concentration, right hand pen above sheet, left supports beneath. RIGHT: cross-legged, torso RIGHT, head lifted toward viewer-RIGHT with patient small smile, sheet held forward with both hands, all four corners visible."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[L] Two complete single-pilot cells; one blank cream sheet each; pen only in LEFT hand as specified; no invented marks, chairs, labels or extra props."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[L] Hands-paper registered as one group in both cells; clean key through leg/cross-limb gaps; no fringe."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[L] Left cell subject bounds [160,342,1079,1640], right [1250,318,2265,1643]; outer margins >=5.6% width, clear gutter 171px (~7.1%); seated silhouettes ~1300px tall give ample pixels for 630px final cross-legged height (scale ~0.49)."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[L] Key field uniform LIGHT PINK rgb(254,202,253) border-ring std ~1.5 (see note); matte must key observed pink-family chroma and protect cream paper/pale skin; to be re-inspected after extraction."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[L] Both poses readable as drawing vs presenting; expression contrast clear at reading size."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[L] Recheck vs contract: direction lock satisfied per-cell (torso RIGHT both; head down drawing / head right presenting); papers blank with quadrilateral inner surface; minor harmless deltas (hair mass slightly taller, goggle strap darker in RIGHT cell) recorded as watercolor variation, not identity break."
+    }
+   },
+   "summary": "Cell L of CH02_S01: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  },
+  "R": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[R] Same adult pilot both cells: brown flight jacket, cream shirt, tan trousers, brown boots, tousled brown hair, goggles on forehead; adult head/torso proportions per scale sheet; soft watercolor, thin warm contours."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[R] LEFT: cross-legged, pelvis/torso/knees three-quarter RIGHT, head tilted DOWN to sheet, serious concentration, right hand pen above sheet, left supports beneath. RIGHT: cross-legged, torso RIGHT, head lifted toward viewer-RIGHT with patient small smile, sheet held forward with both hands, all four corners visible."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[R] Two complete single-pilot cells; one blank cream sheet each; pen only in LEFT hand as specified; no invented marks, chairs, labels or extra props."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[R] Hands-paper registered as one group in both cells; clean key through leg/cross-limb gaps; no fringe."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[R] Left cell subject bounds [160,342,1079,1640], right [1250,318,2265,1643]; outer margins >=5.6% width, clear gutter 171px (~7.1%); seated silhouettes ~1300px tall give ample pixels for 630px final cross-legged height (scale ~0.49)."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[R] Key field uniform LIGHT PINK rgb(254,202,253) border-ring std ~1.5 (see note); matte must key observed pink-family chroma and protect cream paper/pale skin; to be re-inspected after extraction."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[R] Both poses readable as drawing vs presenting; expression contrast clear at reading size."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[R] Recheck vs contract: direction lock satisfied per-cell (torso RIGHT both; head down drawing / head right presenting); papers blank with quadrilateral inner surface; minor harmless deltas (hair mass slightly taller, goggle strap darker in RIGHT cell) recorded as watercolor variation, not identity break."
+    }
+   },
+   "summary": "Cell R of CH02_S01: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "Accepted attempt 1 with key-hue note; no generation consumed for fixes.",
+ "reviewed_at": "2026-11-07T14:50:00.000000+00:00",
+ "cell_details": [
+  {
+   "cell": "L",
+   "bounds_source_px": [
+    160,
+    342,
+    1079,
+    1640
+   ],
+   "source_file": "production/chapter-02/props/raw/CH02_S01_pilot_drawing_and_presenting_paper.png",
+   "source_sha256": "541ed32ef9569e8322aad2fcdca960143ace435b5d4abb7ada0d3c39afd97ddd"
+  },
+  {
+   "cell": "R",
+   "bounds_source_px": [
+    1250,
+    318,
+    2265,
+    1643
+   ],
+   "source_file": "production/chapter-02/props/raw/CH02_S01_pilot_drawing_and_presenting_paper.png",
+   "source_sha256": "541ed32ef9569e8322aad2fcdca960143ace435b5d4abb7ada0d3c39afd97ddd"
+  }
+ ]
+}

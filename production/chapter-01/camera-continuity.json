@@ -1,0 +1,225 @@
+{
+  "chapter": 1,
+  "groups": {
+    "c01-s01-p01-opening-camera": [
+      "c01-s01-p01"
+    ],
+    "childhood_table-9feda8554e": [
+      "c01-s01-p02",
+      "c01-s01-p03",
+      "c01-s01-p04",
+      "c01-s03-p03",
+      "c01-s03-p04"
+    ],
+    "childhood_presentation-9feda8554e": [
+      "c01-s02-p01",
+      "c01-s02-p02",
+      "c01-s02-p03",
+      "c01-s03-p02"
+    ],
+    "flight-510f03df17": [
+      "c01-s04-p01"
+    ],
+    "flight-b3f9d72a30": [
+      "c01-s04-p02"
+    ],
+    "ch01-social-room-fixed-camera": [
+      "c01-s04-p03",
+      "c01-s05-p01",
+      "c01-s05-p02",
+      "c01-s05-p03",
+      "c01-s06-p01"
+    ],
+    "ch01-childhood-drawing-detail": [
+      "c01-s03-p01"
+    ],
+    "ch01-social-ending-emphasis": [
+      "c01-s06-p02"
+    ]
+  },
+  "status": "Current v010 shot groups; exact source placements and camera transforms in current pages and scale-and-anchor registry",
+  "guide": "production/Geometry_and_Frame_Continuity.md",
+  "baseline_pages": {
+    "c01-s01-p01-opening-camera": "c01-s01-p01",
+    "childhood_table-9feda8554e": "c01-s01-p02",
+    "childhood_presentation-9feda8554e": "c01-s02-p01",
+    "flight-510f03df17": "c01-s04-p01",
+    "flight-b3f9d72a30": "c01-s04-p02",
+    "ch01-social-room-fixed-camera": "c01-s04-p03",
+    "ch01-childhood-drawing-detail": "c01-s03-p01",
+    "ch01-social-ending-emphasis": "c01-s06-p02"
+  },
+  "authored_landmark_targets": {
+    "childhood_table-9feda8554e": [
+      {
+        "page": "c01-s01-p02",
+        "entity_role": "child_table",
+        "source_cell": "CH01_S10:ONE",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c01-s01-p03",
+        "entity_role": "child_table",
+        "source_cell": "CH01_S10:ONE",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c01-s01-p04",
+        "entity_role": "child_table",
+        "source_cell": "CH01_S11:ONE",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c01-s03-p01",
+        "entity_role": "child_table",
+        "source_cell": "CH01_S11:ONE",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c01-s03-p03",
+        "entity_role": "child_table",
+        "source_cell": "CH01_S15:ONE",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c01-s03-p04",
+        "entity_role": "child_table",
+        "source_cell": "CH01_S16:ONE",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      }
+    ],
+    "childhood_presentation-9feda8554e": [
+      {
+        "page": "c01-s02-p01",
+        "entity_role": "child",
+        "source_cell": "CH01_S12:L",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c01-s02-p02",
+        "entity_role": "child",
+        "source_cell": "CH01_S12:L",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c01-s02-p03",
+        "entity_role": "child",
+        "source_cell": "CH01_S12:R",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c01-s03-p02",
+        "entity_role": "child",
+        "source_cell": "CH01_S12:R",
+        "targets": {
+          "child_standing_equivalent_px": 700,
+          "older_adult_standing_equivalent_px": 1060,
+          "method": "Child/older adult .66; use child identity and own head/body ratio, never prince proportions. Maintain same child scale in seated contacts."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      }
+    ]
+  },
+  "measured_baselines": {
+    "ch01-social-room-fixed-camera": {
+      "pilot_equivalent_upright_seated": {
+        "camera_group": "ch01-social-room-fixed-camera",
+        "character": "adult narrator",
+        "reference_page": "c01-s06-p01",
+        "reference_pose": "pilot_conversing",
+        "reference_native_crown_y": 12,
+        "reference_native_ground_y": 1624,
+        "reference_uniform_scale": 0.765,
+        "target_crown_to_ground_px": 1233.18,
+        "source_native_crown_y": 12,
+        "source_native_ground_y": 1568,
+        "uniform_scale": 0.7925321336760925,
+        "ground_anchor_y": 1614.36,
+        "crosscheck_reference_head_height_px": 268.515,
+        "crosscheck_actual_head_height_px": 271.0459897172237,
+        "head_difference_percent": 0.9425878320479919,
+        "background_table_and_other_characters_unchanged": true,
+        "method": "Same upright seated posture: match crown-to-ground scale, crosscheck crown-to-chin, preserve complete person/chair and fixed floor; no independent anatomy changes."
+      }
+    },
+    "flight-b3f9d72a30": {
+      "page": "c01-s04-p02",
+      "group_source": "CH01_S18:ONE",
+      "uniform_scale": 0.76,
+      "position": [
+        340,
+        700
+      ],
+      "basis": "User-authorized night-view recomposition; complete plane/pilot intact, distinct opposite-facing camera from daytime, border unchanged."
+    }
+  },
+  "performance_continuity_contract": {
+    "version": 1,
+    "guide": "production/Composition_Continuity_and_Performance.md",
+    "scale_tolerance_percent": 1.5,
+    "unchanged_anchor_tolerance_px": 3,
+    "scale_method": "Native anatomical and rigid-prop endpoints -> one uniform scale -> second independent landmark check; never fit pose height as anatomy.",
+    "relative_scale_authority": "Named geometry artwork and persistent cross-chapter ratios; reconcile conflicting turnaround proportions before generating.",
+    "registration": "Keep actor/prop world anchors and at least three room/floor landmarks fixed at same camera/depth unless the passage moves them.",
+    "camera_rule": "Plan a motivated establishing/interaction/detail/emotional shot; genuine angle needs matching perspective sources. Reframe ALL physical layers and shadows together, preserve screen direction and painted border.",
+    "expression_rule": "Each visible participant has named readable emotion, gaze recipient, brow/eye/mouth/head/gesture evidence at reading size.",
+    "grounding_rule": "Verified actual bearing surfaces, one owner, attached low-alpha contact core and soft wash; no white gap; no shadows under imagined/airborne objects.",
+    "thought_trail_count_when_selected": 3,
+    "uniqueness_rule": "Every page communicates its own text through action/response/meaningful view; no exact or cosmetic-only duplicate.",
+    "before_delivery": [
+      "actual native landmarks and source hashes",
+      "relative scale and same-camera comparison",
+      "actual support pixels and final shadow attachment",
+      "reading-size expression/gaze/interaction",
+      "decoded-pixel duplicate scan plus semantic near-duplicate review",
+      "exact layer reconstruction",
+      "manual chapter approval stop"
+    ]
+  },
+  "source_landmarks_must_be_measured_not_inferred_from_boxes": true
+}

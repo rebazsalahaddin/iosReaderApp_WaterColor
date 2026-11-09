@@ -1,0 +1,104 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH01_R13",
+  "prompt_file": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/PROMPT.txt",
+  "prompt_sha256": "6459e2b89f1b098dee1a733d98284a75b3057f5de072eb38736a89c790295ce0",
+  "expected_cells": [
+    "LEFT / TOP: one simple low rounded pale tan ordinary hat, broad soft brim, one plain warm-brown band; delicate contour and broad watercolor wash. No buckle, detailed felt, sharp crown creases or wearer.",
+    "RIGHT / BOTTOM: one quiet watercolor map impression with broad muted sage landforms and pale blue water. No terrain partitions, folds, text, grid, political borders or route; avoid fine cartographic detail."
+  ],
+  "required_state_direction_contact": "Two wide horizontal bands, TOP hat and BOTTOM map, each independent and complete. These are pictures INSIDE future thought clouds, not real props added to the story. Keep all painted contours comfortably inside their cell with clean key-colour separation. No thought frame, trail, people, scenery, furniture or text. The hat is the adults\u2019 mistaken reading, not a replacement for canonical Drawing One. The map is a visual aid for mental geography, not an asserted flight route.",
+  "isolation_key": null,
+  "light": "Soft neutral upper-left illumination; opaque pale interiors, restrained luminous watercolor.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_watercolor_style_crop.png",
+      "role": "STYLE ONLY: native crop of the approved Chapter 1 watercolor paper/pencil/wood, for pigment grain, local contour and opaque cream tone. Do not copy its pencil, drawing, wood surface or composition.",
+      "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png",
+      "status": "supplied",
+      "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32"
+    },
+    {
+      "name": "02_approved_storybook_style.png",
+      "role": "STYLE ONLY: approved full Chapter 1 illustration. Match its simplified shapes, thin warm contours, quiet watercolor washes and low detail; do not copy cast, furniture, drawing or composition. This controls rendering simplicity over the texture-only first reference.",
+      "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/02_approved_storybook_style.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "L": "A_CH01_R13_L",
+    "R": "A_CH01_R13_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c01-s02-p02",
+    "c01-s04-p02",
+    "c01-s05-p02"
+  ],
+  "placement_targets": [
+    {
+      "page": "c01-s02-p02",
+      "cell": "CH01_R13:L",
+      "box_px": [
+        630,
+        199,
+        350,
+        181
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c01-s04-p02",
+      "cell": "CH01_R13:R",
+      "box_px": [
+        1390,
+        314,
+        450,
+        181
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c01-s05-p02",
+      "cell": "CH01_R13:L",
+      "box_px": [
+        1430,
+        149,
+        350,
+        181
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

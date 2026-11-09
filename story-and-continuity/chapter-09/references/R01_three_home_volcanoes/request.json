@@ -1,0 +1,116 @@
+{
+  "id": "CH09_R01",
+  "chapter": 9,
+  "code": "R01",
+  "title": "three home volcanoes",
+  "kind": "prop",
+  "cells": [
+    "LEFT: exactly TWO small active volcanic cones, low gentle fire within their openings, no lava outside.",
+    "RIGHT: the ONE cold third cone, dark quiet opening, no flame or smoke."
+  ],
+  "refs": [
+    "LP_ch09_volcano_scale_guide",
+    "success_style",
+    "style"
+  ],
+  "details": "Small home props: active .36 P high, cold .32 P. No Earth-sized mountain or merging the two active cones into one.",
+  "key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "slug": "three_home_volcanoes",
+  "output": "CH09_R01_three_home_volcanoes.png",
+  "raw_output_folder": "production/chapter-09/props/raw",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c09-s01-p01",
+    "c09-s01-p02"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes",
+  "representative_page": "c09-s01-p02",
+  "placement_targets": [
+    {
+      "page": "c09-s01-p01",
+      "cell": "CH09_R01:R",
+      "box_px": [
+        500,
+        360,
+        1400,
+        1072
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c09-s01-p02",
+      "cell": "CH09_R01:L",
+      "box_px": [
+        525,
+        1271,
+        650,
+        259
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c09-s01-p02",
+      "cell": "CH09_R01:R",
+      "box_px": [
+        1350,
+        1300,
+        300,
+        230
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ch09_volcano_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes/reference-images/01_LP_ch09_volcano_scale_guide.png",
+      "status": "supplied",
+      "sha256": "b2ef29f0d2db9753706e4a93b0202781e99239f22909cf3ea23a33f741032f1a",
+      "source_key": "LP_ch09_volcano_scale_guide"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_CH09_R01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes/reference-images/04_CH09_R01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "004d486702591ab6f688597c599de795d55a9b4afe914e853d4c3326e1ac0d3e"
+    },
+    {
+      "name": "05_c09-s01-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c09-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes/reference-images/05_c09-s01-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "64167096411a0d8191fbcaa41a32157266189e6fd8be083c48a209fe091bb238"
+    }
+  ],
+  "readiness": "ready_for_agent_generation",
+  "prompt": "CH09_R01 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- L: exactly TWO small active volcanic cones, low gentle fire within their openings, no lava outside.\n  Actual short payload: production/reference-lineage/nodes/A_CH09_R01_L/PROMPT.txt\n- R: the ONE cold third cone, dark quiet opening, no flame or smoke.\n  Actual short payload: production/reference-lineage/nodes/A_CH09_R01_R/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "L": "A_CH09_R01_L",
+    "R": "A_CH09_R01_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

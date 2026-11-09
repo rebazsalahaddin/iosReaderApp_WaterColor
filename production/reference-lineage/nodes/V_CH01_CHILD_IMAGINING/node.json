@@ -1,0 +1,45 @@
+{
+  "id": "V_CH01_CHILD_IMAGINING",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_child_table__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_child_table__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "Same seated child gently raises gaze in wonder, thoughtful brow and small softly parted mouth, hands resting beside the open book; he imagines its snake story. Keep thoughts out of the cutout.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "affected_pages": [
+    "c01-s01-p03"
+  ],
+  "allowed_changes": "Same seated child gently raises gaze in wonder, thoughtful brow and small softly parted mouth, hands resting beside the open book; he imagines its snake story. Keep thoughts out of the cutout.",
+  "shadow_mode": "preserve_parent",
+  "new_state_justification": "Preplanned distinct imagining beat; never used to renew an exhausted reading-state attempt.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH01_CHILD_IMAGINING/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: Same seated child gently raises gaze in wonder, thoughtful brow and small softly parted mouth, hands resting beside the open book; he imagines its snake story. Keep thoughts out of the cutout. Replace the existing CLOSED far-left blue book with that SAME single book OPEN near the hands; remove the old closed instance and reveal the tabletop beneath it. Exactly ONE blue book in total, one separate blank sheet and one pencil. Keep all hand/book contacts coherent. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "prompt_sha256": "5886d6eea5f7ad2360d227658a1fc5710d994284c93fff98336ea9078ebd8eee",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH01_CHILD_IMAGINING",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

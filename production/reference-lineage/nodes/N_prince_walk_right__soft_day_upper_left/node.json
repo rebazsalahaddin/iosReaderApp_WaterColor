@@ -1,0 +1,101 @@
+{
+  "id": "N_prince_walk_right__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_prince"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_prince"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Prince in one balanced grounded step RIGHT, arms relaxed and empty, neutral expression; complete body.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "prince_walk_right",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c03-s02-p02",
+    "c04-s01-p02",
+    "c04-s04-p01",
+    "c04-s04-p02",
+    "c08-s01-p04",
+    "c08-s01-p05",
+    "c08-s03-p05",
+    "c08-s03-p06",
+    "c08-s04-p02",
+    "c09-s01-p02",
+    "c09-s02-p04",
+    "c09-s02-p05",
+    "c09-s02-p06",
+    "c09-s02-p07",
+    "c10-s01-p07",
+    "c10-s01-p08",
+    "c10-s04-p01",
+    "c10-s04-p03",
+    "c10-s04-p04",
+    "c10-s04-p05",
+    "c10-s04-p06",
+    "c10-s04-p07",
+    "c10-s04-p08",
+    "c11-s02-p03",
+    "c12-s01-p04",
+    "c12-s01-p05",
+    "c12-s01-p06",
+    "c12-s01-p07",
+    "c12-s01-p08",
+    "c13-s03-p01",
+    "c13-s03-p02",
+    "c13-s03-p04",
+    "c13-s03-p05",
+    "c13-s03-p07",
+    "c14-s03-p05",
+    "c15-s03-p07",
+    "c18-s01-p06",
+    "c19-s01-p03",
+    "c21-s01-p02",
+    "c21-s01-p03",
+    "c21-s04-p04",
+    "c23-s01-p06",
+    "c24-s01-p06",
+    "c25-s02-p06",
+    "c25-s02-p10",
+    "c25-s02-p11"
+  ],
+  "legacy_tokens": [
+    "CH03_S03:R"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/reference-images/05_CH03_S03_PACKING_GUIDE.png",
+      "sha256": "6e65edd8b0f9583ac7334251a9a44c12ae915737cb7a967e2f2472653b1e906f",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/reference-images/06_c04-s01-p02_COMPOSITION_GUIDE.png",
+      "sha256": "8873d6800ecf76989e98c96dd867069d9438d70d5237b6e0dc22e43d70fc4a12",
+      "role": "TECHNICAL final-page placement for c04-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_prince_walk_right__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Prince in one balanced grounded step RIGHT, arms relaxed and empty, neutral expression; complete body. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "a046c30be3767f53d70f89140c7dae56a4f8bce500f12d652030522ed1bcacd6",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_prince_walk_right__soft_day_upper_left"
+}

@@ -1,0 +1,40 @@
+{
+  "node_id": "V_CH01_E04_L",
+  "stage": "expression_variant",
+  "attempt": 2,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/V_CH01_E04_L-attempt-2.png",
+  "source_sha256": "7f5a1d3c28cb327642f76726cb3f8e9961f34108e07918c158788b292a55ea1c",
+  "parents": [
+    {
+      "node_id": "N_older_standing_right__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-9-v011/sources/N_older_standing_right__soft_day_upper_left-attempt-1.png",
+      "sha256": "65c0de8a775e5ea79eeda3438e4b7204943ab85175a17d65c4f6fefe4e894efe"
+    }
+  ],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T11:47:58.174795+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Full standing older bespectacled man facing three-quarter right, head inclined slightly down-right with kindly bemused small speaking smile and one open hand gesture, dot eyes, preserved stance/wardrobe/shadow, clean transparent alpha."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/V_CH01_E04_L-attempt-2.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "PASS",
+      "evidence": "Soft translucent ground contact shadow verified on light and dark backgrounds with no opaque floor patch."
+    }
+  },
+  "issues": []
+}

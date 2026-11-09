@@ -1,0 +1,40 @@
+{
+  "node_id": "V_CH01_S14_R",
+  "stage": "expression_variant",
+  "attempt": 1,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/V_CH01_S14_R-attempt-1.png",
+  "source_sha256": "4202b1dc04fc2187e824797b096ca5a0c45c43d410fe271c041a90d381990a5a",
+  "parents": [
+    {
+      "node_id": "N_woman_standing_right__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-9-v011/sources/N_woman_standing_right__soft_day_upper_left-attempt-1.png",
+      "sha256": "e8ac2c7b118b4b2a3bb802baa813193776dda235f54b65141aa8a80b21a5fa3f"
+    }
+  ],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T11:41:56.524695+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Standing grey-haired woman facing right, head inclined down-right in a small reserved nod with relaxed hands, dot eyes, preserved stance/wardrobe/shadow, clean transparent alpha."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/V_CH01_S14_R-attempt-1.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "PASS",
+      "evidence": "Soft translucent ground contact shadow verified on light and dark backgrounds with no opaque floor patch."
+    }
+  },
+  "issues": []
+}

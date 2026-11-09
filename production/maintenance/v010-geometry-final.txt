@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "page_geometry_contracts": 442,
+  "source_geometry_prompts": 174,
+  "editorial_covers_with_shared_field": 16,
+  "measured_current_checks": {
+    "v010_normalized_head_measurements": 5,
+    "v010_final_shadow_contact_samples": 174,
+    "decoded_unique_chapter1_pages": 19,
+    "source_geometry_limitations": [
+      "Inherited hand-painted complete furniture groups have small contour/leg projection differences; fixed-transform registration is not proof that independently painted chair/table edges are geometrically identical.",
+      "Later giving-up/tired table contact groups retain their supplied wider furniture projection; their paired geometry is consistent. They should not be used as an exact rigid-table shape master for the earlier reading/drawing setup."
+    ],
+    "cover_border_difference_percentage_points": [
+      0.125,
+      0.167,
+      1.667,
+      0.167
+    ]
+  },
+  "errors": [],
+  "scope": "Planned geometry coverage plus installed measured corrections; future source landmarks still require actual visual measurement."
+}

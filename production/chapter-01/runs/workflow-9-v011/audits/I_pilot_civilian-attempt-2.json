@@ -1,0 +1,34 @@
+{
+  "node_id": "I_pilot_civilian",
+  "stage": "identity_turnaround",
+  "attempt": 2,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/I_pilot_civilian-attempt-2.png",
+  "source_sha256": "15f4577c4244a5ff624ffc8a4c8f652e66bbbc660d845f06d6f14447e7ad2854",
+  "parents": [],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T10:15:28.917471+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Four clean standing civilian pilot views (front, three-quarter, side, back) with chestnut hair, dot eyes, cream buttoned shirt, khaki trousers, brown shoes, and clean transparent alpha."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/I_pilot_civilian-attempt-2.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Non-grounded or plate/editorial asset per node contract."
+    }
+  },
+  "issues": []
+}

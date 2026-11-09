@@ -1,0 +1,94 @@
+{
+  "pages_checked": 442,
+  "scope": "All current page layout roles and realms; generated artwork outside Chapter 1 has not been reviewed.",
+  "matches": [
+    {
+      "page": "c01-s01-p03",
+      "layers": [
+        {
+          "asset": "CH01_R11:ONE",
+          "role": "imagined_snake",
+          "realm": "imagined_inset"
+        }
+      ],
+      "story_note": "Keep printed book picture; add sleeping snake in a separate upper-left bounded imagination inset, not on room floor."
+    },
+    {
+      "page": "c01-s02-p03",
+      "layers": [
+        {
+          "asset": "draw2",
+          "role": "paper_art",
+          "realm": "imagined_inset"
+        }
+      ],
+      "story_note": "Physical sheet still Drawing One. Drawing Two appears only as a separate bounded imagined cutaway; no second physical paper."
+    },
+    {
+      "page": "c04-s04-p01",
+      "layers": [
+        {
+          "asset": "box",
+          "role": "paper_art",
+          "realm": "editorial_inset"
+        }
+      ],
+      "story_note": "Editorial storybook recollection; box remains a drawing."
+    },
+    {
+      "page": "c04-s04-p02",
+      "layers": [
+        {
+          "asset": "box",
+          "role": "paper_art",
+          "realm": "editorial_inset"
+        }
+      ],
+      "story_note": "Editorial storybook recollection; box remains a drawing."
+    },
+    {
+      "page": "c22-s02-p01",
+      "layers": [
+        {
+          "asset": "CH22_R02_R:ONE",
+          "role": "doll",
+          "realm": "editorial_inset"
+        }
+      ],
+      "story_note": "Optional small separate doll thought motif; no real doll handed over."
+    },
+    {
+      "page": "c23-s01-p01",
+      "layers": [
+        {
+          "asset": "CH23_R01:ONE",
+          "role": "imagined_spring",
+          "realm": "imagined_inset"
+        }
+      ],
+      "story_note": "Fresh-water motif, not actual scene arrival."
+    },
+    {
+      "page": "c23-s01-p06",
+      "layers": [
+        {
+          "asset": "CH23_R01:ONE",
+          "role": "imagined_spring",
+          "realm": "imagined_inset"
+        }
+      ],
+      "story_note": "Spring in separate thought vignette only, no real relocation."
+    },
+    {
+      "page": "c27-s04-p03",
+      "layers": [
+        {
+          "asset": "CH27_C03:ONE",
+          "role": "prince",
+          "realm": "hypothetical_inset"
+        }
+      ],
+      "story_note": "Keep real desert empty. Place laughing child ONLY inside a separate soft-edged cream-paper imagined vignette, not at the desert ground line; narration remains conditional."
+    }
+  ]
+}

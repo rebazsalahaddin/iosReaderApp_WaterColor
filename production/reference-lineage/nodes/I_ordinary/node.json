@@ -1,0 +1,31 @@
+{
+  "id": "I_ordinary",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One identity sheet of the SAME small cream ordinary flower in front, three-quarter, side and back views. Preserve exactly three petals, slender stem, leaves, colours and watercolor design. No rose bloom, human limbs, hair, costume or invented facial features.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": "appearance-references/shared/LP_ref_flower_turnaround.png",
+  "candidate_role": "existing identity turnaround or plant stages; inspect and accept before use",
+  "prompt_file": "production/reference-lineage/nodes/I_ordinary/PROMPT.txt",
+  "candidate_sha256": "fa8a4d93384eb96affddc7cac089b7a42885f54b611868dc9bae86e971cc608e",
+  "prompt": "One identity sheet of the SAME small cream ordinary flower in front, three-quarter, side and back views. Preserve exactly three petals, slender stem, leaves, colours and watercolor design. No rose bloom, human limbs, hair, costume or invented facial features. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "480dba15e5bd56d6c53bda0d1bed075f6e150e34742d46d913eabca1b188e9c7",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_ordinary"
+}

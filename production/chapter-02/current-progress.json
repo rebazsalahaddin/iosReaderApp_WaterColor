@@ -1,0 +1,12 @@
+{
+  "chapter": 2,
+  "workflow_version": 9,
+  "status": "cleaned_pending_regeneration",
+  "raw_props_present": [],
+  "raw_props_missing": [],
+  "component_pages_complete": 0,
+  "component_pages_pending": 19,
+  "delivery_folder": null,
+  "delivery_archive": null,
+  "cleanup_inventory": "production/workflow-9/authorized-removal-inventory.json"
+}

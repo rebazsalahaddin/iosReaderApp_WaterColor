@@ -1,0 +1,43 @@
+{
+  "id": "A_CH01_B11_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-01/references/B11_day_flight_landscape/reference-images/01_LP_ref_sahara_day.jpg",
+        "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+        "role": "Existing empty daytime Sahara plate. Preserve the full view and watercolor margins."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "open pale sky above small sage fields, winding blue river and soft distant hills in the lowest quarter; no aircraft or people.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_B11",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c01-s04-p01"
+  ],
+  "audit_only_details": "Nearly side-on elevated flight camera. Keep the central sky empty for the separate aircraft.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH01_B11_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. open pale sky above small sage fields, winding blue river and soft distant hills in the lowest quarter; no aircraft or people. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-01/references/B11_day_flight_landscape/audit-contract.json",
+  "prompt_sha256": "a1452440bc4cce1d4084bbf6fec1781db3cffe71b850af3c35a14125f58a6729",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH01_B11_ONE"
+}

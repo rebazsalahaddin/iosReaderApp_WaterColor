@@ -1,0 +1,49 @@
+{
+  "id": "A_CH04_B02_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-04/references/B02_narrator_room_seated_close_empty_plate/reference-images/01_LP_ref_pilot_room_seated_close_ch04.png",
+        "sha256": "9799b2e0271577589cca143f107cddfbf0bf1a3690d5896c0431ef25b273ec62",
+        "role": "Approved adult-room seated CLOSE camera/fit: head height/table width target .34, band .31–.37. Cropped legs supply no full-body measurement."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "same familiar room seen at the approved seated-CLOSE camera, with matching window, wall and distant shelf geometry; remove the foreground pilot, paper, table and chair so the complete seated foreground group can be placed once. No people, drawings or new furniture.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH04_B02",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c04-s04-p03",
+    "c04-s04-p04",
+    "c04-s05-p01",
+    "c04-s05-p02",
+    "c04-s05-p03",
+    "c05-s04-p03",
+    "c05-s04-p04"
+  ],
+  "audit_only_details": "The approved close anchor controls camera and background scale. Do not substitute the wide child-room view. Removed foreground furniture belongs to CH04_S01, not to this plate.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH04_B02_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. same familiar room seen at the approved seated-CLOSE camera, with matching window, wall and distant shelf geometry; remove the foreground pilot, paper, table and chair so the complete seated foreground group can be placed once. No people, drawings or new furniture. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-04/references/B02_narrator_room_seated_close_empty_plate/audit-contract.json",
+  "prompt_sha256": "71c2866597cdc8ce7258edc3668299710df94d131c1b15b2ed0f44477b314a51",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH04_B02_ONE"
+}

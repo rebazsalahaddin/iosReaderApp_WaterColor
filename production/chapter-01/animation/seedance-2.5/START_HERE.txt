@@ -1,0 +1,60 @@
+CHAPTER 1 — ANIMATION FOLLOWING THE SUPPLIED NARRATION
+
+This replaces the earlier ambient-only pacing. The supplied narration is the timing authority and final primary soundtrack. Retain all recorded voices, words and pauses unchanged. Generated audio, if used, supplies quiet ambience only. Do not regenerate speech, add dialogue, imitate the voice, lip-sync the pictures or add music.
+
+19 illustrations; final chapter length 03:52.504 (232.504 seconds). The chapter title uses a 2.573-second local still hold. The other 18 shots need whole-second generation settings of 9–16 seconds, all below the 20-second maximum. Each is trimmed at its quiet end to its exact recorded passage length. An optional 4-second opening prompt is included but is not needed.
+
+1. Open Chapter_1_Animation_Guide.html. Each image has its own complete prompt, exact narration passage, local spoken-phrase cues, Play this passage button, generation duration and final trim length.
+2. Put audio/Chapter_1_Narration.wav at time zero on your editor's narration track. This self-contained excerpt covers source narration.m4a 00:02.200–03:54.704. It includes “My First Drawing” and all 18 Chapter 1 paragraphs. It excludes the separate full-book title and Chapter 2. Do not add the old six-second opening.
+3. Generate with Seedance 2.5, image/reference mode (MCP: omni_reference), matching final v010 PNG as start image, 4:3, 1080p, standard bitrate, draft off. Audio on only for ambience. Keep the full image with minimal warm-paper padding if needed; source images are 2400×1792, slightly wider than 4:3. No crop or stretch. Do not upload the whole audiobook as a generation reference or ask the model to recreate its voice.
+4. Set the whole-second GENERATE duration shown for the page. Copy its full prompt. All cue times in the prompt start at zero for that clip; source-file and assembled-chapter times are separate columns in the guide.
+5. Put the resulting shot at the listed CHAPTER start, then trim only its extra end to KEEP duration. Do not use generation durations as the edit schedule. Do not speed up the recording or gestures. Keep narration as one continuous track, with no individual paragraph fades or duplicated pauses.
+6. Keep the original recorded dialogue exactly as supplied. The illustrations use small reactions and eye/hand gestures rather than lip sync. If Seedance adds any voice or music, mute that generated track and use a clean low ambience bed locally; do not regenerate otherwise suitable pictures for an audio-only issue.
+7. Compare the generated motion with the recorded phrases using Play this passage. For example, the child-question/adult-answer clip places the man's gesture around his recorded answer; the night pilot glances ahead around “One look.” Drawing motions wait for their spoken drawing cues. If motion drifts, first use a local quiet hold or a safe cut before the gesture to move it into the phrase window. Keep scene and audio lengths fixed. Never retime the supplied voice. A small harmless blink offset is not a retry reason.
+
+SOUND MIX
+Keep narration at its original speed and use it as the foreground. Start ambience roughly 20 dB quieter than speech, then adjust by ear so every word remains clear; this is a starting balance, not a fixed loudness specification. Engine sound must not mask the pilot. Smooth only ambient-track joins with short crossfades contained within the existing timing. No narration crossfades, extra silence, music, new dialogue, subtitle generation or animal/cloud effects.
+
+PRESERVATION
+The approved still is the opening state. Do not open an already-open book, finish a partial canonical drawing, redraw the completed cutaway, or pick up the already-resting pencil just to put it down again. Convey those narrated passages through their supported pose and reaction. Existing thought pictures remain visible from frame zero, with no growth, reveal, pulse or animation; timed responses carry the narration while preserving the final art. Do not add new clouds. Keep the hat/map modest and watercolor, fixed same-camera scale, supported contacts and full painted border. Day and night flights face opposite directions; use a clean cut. The final narrator stays sharp, physically near and partly facing the blurred adults.
+
+REVIEW AND CREDIT CONTROL
+Test clip 05 first for faces, hands, held paper and matched scale; then review flight/thought clips for their extra risks. Watch each full return at normal speed with the original narration, then inspect first frame, cue gesture and ending. Check every spoken phrase has the intended picture; compare the thought owner, exact drawing, anatomy, contact, size, camera and sound. A prompt cannot guarantee precise preservation or timing. Use the original drawing as a tracked overlay if needed, or simplify motion locally. Suggested video limit: one initial job plus one narrowly justified material correction per clip, recorded separately from illustration-source attempts. Identify exact clip, interval, region, expected state and observed issue before a retry. No speculative variants. Keep one selected final video per illustration and leave illustration sources unchanged.
+
+PRECISION AND EVIDENCE
+All 19 passages match the illustration plan. The full audio hash matches its supplied alignment. Boundaries lie in measured silence gaps; an independent local transcription confirmed the chapter's sequence. Word timings are machine-derived, so phrase cues are editing targets, not a claim of human-audited phoneme timing or guaranteed frame-accurate generation. Milliseconds in this guide are edit positions; use the nearest video frame while leaving the continuous narration unchanged, and derive each boundary from its absolute chapter time to avoid drift. Audio excerpt is decoded PCM at original sample rate, without time-stretch or internal splicing. Source and sample evidence are in narration-alignment.json.
+
+FILES
+Chapter_1_Animation_Guide.html — illustrated guide with passage playback and copy buttons.
+prompts/ — 19 complete individual prompt files (opening optional).
+audio/Chapter_1_Narration.wav — one continuous Chapter 1 narration excerpt.
+animation-plan.json — exact picture/audio schedule and generation settings.
+narration-alignment.json — hashes, source offsets, word cues and measured silent cut intervals.
+validation-report.json — instruction/source validation, not generated-video approval.
+
+Model controls were checked through the live Higgsfield schema on 7 November 2026; recheck at execution. Capability record: model-capabilities.json. Official context: https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5
+
+No videos have been generated. This revision uses no generation credits and starts no other chapter.
+
+TIMING PLAN — KEEP IS EXACT EDIT LENGTH; GENERATE IS WHOLE SECONDS
+01  c01-s01-p01  chapter 00:00.000–00:02.573  KEEP 2.573s  STILL (optional 4s generation)
+02  c01-s01-p02  chapter 00:02.573–00:18.541  KEEP 15.968s  GENERATE 16s
+03  c01-s01-p03  chapter 00:18.541–00:31.669  KEEP 13.128s  GENERATE 14s
+04  c01-s01-p04  chapter 00:31.669–00:45.914  KEEP 14.245s  GENERATE 15s
+05  c01-s02-p01  chapter 00:45.914–00:58.082  KEEP 12.168s  GENERATE 13s
+06  c01-s02-p02  chapter 00:58.082–01:06.729  KEEP 8.647s  GENERATE 9s
+07  c01-s02-p03  chapter 01:06.729–01:19.917  KEEP 13.188s  GENERATE 14s
+08  c01-s03-p01  chapter 01:19.917–01:34.198  KEEP 14.281s  GENERATE 15s
+09  c01-s03-p02  chapter 01:34.198–01:47.029  KEEP 12.831s  GENERATE 13s
+10  c01-s03-p03  chapter 01:47.029–01:58.744  KEEP 11.715s  GENERATE 12s
+11  c01-s03-p04  chapter 01:58.744–02:12.193  KEEP 13.449s  GENERATE 14s
+12  c01-s04-p01  chapter 02:12.193–02:25.517  KEEP 13.324s  GENERATE 14s
+13  c01-s04-p02  chapter 02:25.517–02:37.982  KEEP 12.465s  GENERATE 13s
+14  c01-s04-p03  chapter 02:37.982–02:52.286  KEEP 14.304s  GENERATE 15s
+15  c01-s05-p01  chapter 02:52.286–03:07.240  KEEP 14.954s  GENERATE 15s
+16  c01-s05-p02  chapter 03:07.240–03:15.241  KEEP 8.001s  GENERATE 9s
+17  c01-s05-p03  chapter 03:15.241–03:28.631  KEEP 13.390s  GENERATE 14s
+18  c01-s06-p01  chapter 03:28.631–03:44.377  KEEP 15.746s  GENERATE 16s
+19  c01-s06-p02  chapter 03:44.377–03:52.504  KEEP 8.127s  GENERATE 9s
+
+The v010 start images await manual approval. Narration audio and every timing boundary are unchanged; image hashes and relevant starting-pose instructions have been updated. No video generation submitted.

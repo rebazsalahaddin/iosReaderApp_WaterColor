@@ -1,0 +1,48 @@
+{
+  "id": "V_CH24_S04_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_pilot_carry_prince__sunrise_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_pilot_carry_prince__sunrise_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "same supported carrying pose and identities as accepted S03, pilot pauses and looks toward well off-frame RIGHT, child still safely supported.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH24_S04",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c24-s03-p04"
+  ],
+  "allowed_changes": "same supported carrying pose and identities as accepted S03, pilot pauses and looks toward well off-frame RIGHT, child still safely supported.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Match carrying anatomy; change to warm dawn light, not a duplicate airborne child. DIRECTION LOCK: Same supported pair body RIGHT, adult head RIGHT toward well, no change to child support.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH24_S04_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: same supported carrying pose and identities as accepted S03, pilot pauses and looks toward well off-frame RIGHT, child still safely supported. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-24/reusable-poses/S04_pilot_carrying_prince_at_sunrise/audit-contract.json",
+  "prompt_sha256": "27cac09acfd90e14de76cc7f0dc3f80447c2a3dad495fa5f30d3155221913b9d",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH24_S04_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

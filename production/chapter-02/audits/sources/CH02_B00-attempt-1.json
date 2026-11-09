@@ -1,0 +1,108 @@
+{
+ "request_id": "CH02_B00",
+ "attempt": 1,
+ "job_id": "9acfed3d-2cd3-4217-ab88-506f2018d439",
+ "source_file": "production/chapter-02/props/raw/CH02_B00_shared_editorial_cover_wash.png",
+ "source_sha256": "c49931e6bf25a3d94196369dc11ee25233357619a7c178081a6a130a53f83342",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "ef7adce328467b4ffd609d21a6fa7547fbc2b87399275a3b809bab3b8b959ade",
+ "attachments": [],
+ "cells": [
+  "ONE"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Translucent overlapping washes, pigment granulation at edges, paper tooth; cream/pale peach/warm ochre palette consistent with storybook finish."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "Nonfigurative quiet field; gentle diagonal tonal band lower third reads as water pooling, not imagery."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "Empty: no scene/horizon/objects/characters/clouds/letters/frames/marks."
+  },
+  "contact_support": {
+   "verdict": "NOT_APPLICABLE",
+   "evidence": "Background plate; no subjects."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Wash ~93-96% of both dimensions; margins 2-5%; centred; 2400x1792 native supports all editorial covers."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "NOT_APPLICABLE",
+   "evidence": "Used whole; no keying."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Quiet spacious central 75%; no dark vignette."
+  },
+  "second_contract_check": {
+   "verdict": "PASS_WITH_NOTE",
+   "evidence": "Organic deckled edges all around, no hard panel; NOTE: border paper is pale cream so border/wash contrast is low (soft end of acceptable); slight bottom-weighted density - harmless watercolor variation."
+  }
+ },
+ "issues": [],
+ "verdict": "PASS",
+ "accepted_cells": [
+  "ONE"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "reviewed_at": "2026-11-07T14:46:00.000000+00:00",
+ "cell_audits": {
+  "ONE": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Translucent overlapping washes, pigment granulation at edges, paper tooth; cream/pale peach/warm ochre palette consistent with storybook finish."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Nonfigurative quiet field; gentle diagonal tonal band lower third reads as water pooling, not imagery."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Empty: no scene/horizon/objects/characters/clouds/letters/frames/marks."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Background plate; no subjects."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Wash ~93-96% of both dimensions; margins 2-5%; centred; 2400x1792 native supports all editorial covers."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Used whole; no keying."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Quiet spacious central 75%; no dark vignette."
+    },
+    "second_contract_check": {
+     "verdict": "PASS_WITH_NOTE",
+     "evidence": "[ONE] Organic deckled edges all around, no hard panel; NOTE: border paper is pale cream so border/wash contrast is low (soft end of acceptable); slight bottom-weighted density - harmless watercolor variation."
+    }
+   },
+   "summary": "Cell ONE of CH02_B00: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "Accepted attempt 1; one shared field for all compatible editorial covers.",
+ "cell_details": [
+  {
+   "cell": "ONE",
+   "bounds_source_px": null,
+   "source_file": "production/chapter-02/props/raw/CH02_B00_shared_editorial_cover_wash.png",
+   "source_sha256": "c49931e6bf25a3d94196369dc11ee25233357619a7c178081a6a130a53f83342"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "reviewed_at": "2026-11-07T22:35:51.438736+00:00",
+  "retained_delivery": "production/chapter-01/delivery/chapter-01-v010",
+  "basis": [
+    "production/chapter-01/source-review-r6.json",
+    "production/chapter-01/scale-and-anchor-registry.json",
+    "production/chapter-01/current/continuity-performance-review.json"
+  ],
+  "unchanged_delivery_pages": 19,
+  "existing_composition_sources_remain_available": true,
+  "legacy_child_presentation": "Existing CH01_S12:L/R complete states remain available for retained v010 composition; they are not native-alpha accepted neutral parents and do not erase failed new foundation attempts.",
+  "imagining_page": "Existing v010 uses the reading pose plus sleeping-snake thought. It is not the requested new upward-wonder/open-book state; no equivalent accepted complete source was found.",
+  "other_pending_nodes": "Other seated variants and social/flight masters are not newly submitted or auto-accepted. Further spending cannot repair the two blocked states; the chapter cannot be delivered complete under this revised-state plan.",
+  "scope": "Read-only reuse assessment and checkpoint, not a new visual approval."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "V_CH25_S01_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_prince_well_rope__sunrise_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_prince_well_rope__sunrise_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "prince at the referenced well, both hands pulling one taut rope linked over the same wheel to the bucket below the rim, effort but no fall. Include entire well and his body as one continuous contact group on a small matching sand patch.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH25_S01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c25-s01-p04"
+  ],
+  "allowed_changes": "prince at the referenced well, both hands pulling one taut rope linked over the same wheel to the bucket below the rim, effort but no fall. Include entire well and his body as one continuous contact group on a small matching sand patch.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "One wide group. No loose rope ending in air or second bucket on rim. Match accepted well location/camera, local patch replaces its well area without duplication. DIRECTION LOCK: Prince LEFT of well, body/head RIGHT toward wheel/rope; complete integrated mechanics.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH25_S01_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: prince at the referenced well, both hands pulling one taut rope linked over the same wheel to the bucket below the rim, effort but no fall. Include entire well and his body as one continuous contact group on a small matching sand patch. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-25/reusable-poses/S01_prince_pulling_well_rope/audit-contract.json",
+  "prompt_sha256": "4c6369b67ada4f6966e59508dfd3a419c6e69b35ef3fb0fded1a69eae2bc325d",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH25_S01_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

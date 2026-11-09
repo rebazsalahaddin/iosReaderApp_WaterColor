@@ -1,0 +1,126 @@
+{
+  "id": "CH08_R01",
+  "chapter": 8,
+  "code": "R01",
+  "title": "flower shoot and closed bud",
+  "kind": "prop",
+  "cells": [
+    "LEFT: one small special-flower green shoot, no bloom, no face exposed.",
+    "RIGHT: same plant matured to one closed coral bud with sage sepals, two leaves and four small thorns; no open face or petals."
+  ],
+  "refs": [
+    "flower",
+    "LP_ch08_growth_scale_guide",
+    "success_style",
+    "style"
+  ],
+  "details": "Shoot .12 P; closed mature bud .40 P. Both are different-time states, not two plants growing together.",
+  "key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "slug": "flower_shoot_and_closed_bud",
+  "output": "CH08_R01_flower_shoot_and_closed_bud.png",
+  "raw_output_folder": "production/chapter-08/props/raw",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c08-s01-p01",
+    "c08-s01-p04",
+    "c08-s01-p05"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-08/references/R01_flower_shoot_and_closed_bud",
+  "representative_page": "c08-s01-p04",
+  "placement_targets": [
+    {
+      "page": "c08-s01-p01",
+      "cell": "CH08_R01:R",
+      "box_px": [
+        500,
+        360,
+        1400,
+        1072
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c08-s01-p04",
+      "cell": "CH08_R01:R",
+      "box_px": [
+        630,
+        1242,
+        260,
+        288
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c08-s01-p05",
+      "cell": "CH08_R01:R",
+      "box_px": [
+        630,
+        1242,
+        260,
+        288
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_flower_stages.png",
+      "role": "Special flower: lower-left CORAL rose, two leaves and exactly four small thorns. Upper-left shoot and upper-right bud only when named. Lower-right supplies the plain bell cover; no knob or wooden base.",
+      "path": "story-and-continuity/chapter-08/references/R01_flower_shoot_and_closed_bud/reference-images/01_LP_ref_flower_stages.png",
+      "status": "supplied",
+      "sha256": "7bc7d5701b3937e437f670d1ea79c36e79e86cd19a072e2db2c26032d2f2e228",
+      "source_key": "flower"
+    },
+    {
+      "name": "02_LP_ch08_growth_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-08/references/R01_flower_shoot_and_closed_bud/reference-images/02_LP_ch08_growth_scale_guide.png",
+      "status": "supplied",
+      "sha256": "78182037ca1d65853dbb6cebc489d4e6969d8277712c78421b5c0c3a5f784eb0",
+      "source_key": "LP_ch08_growth_scale_guide"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-08/references/R01_flower_shoot_and_closed_bud/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-08/references/R01_flower_shoot_and_closed_bud/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_CH08_R01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-08/references/R01_flower_shoot_and_closed_bud/reference-images/05_CH08_R01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "d8eb2d6aea6ed95e381065643ba7ccc8a5088946f2fff7260ec812618ec3cbda"
+    },
+    {
+      "name": "06_c08-s01-p04_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c08-s01-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-08/references/R01_flower_shoot_and_closed_bud/reference-images/06_c08-s01-p04_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "04f26739e5641f9b07ea7f28894eafba7762a988f8a2d2d050df2093b64edc73"
+    }
+  ],
+  "readiness": "ready_for_agent_generation",
+  "prompt": "CH08_R01 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- L: one small special-flower green shoot, no bloom, no face exposed.\n  Actual short payload: production/reference-lineage/nodes/A_CH08_R01_L/PROMPT.txt\n- R: same plant matured to one closed coral bud with sage sepals, two leaves and four small thorns; no open face or petals.\n  Actual short payload: production/reference-lineage/nodes/A_CH08_R01_R/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "L": "A_CH08_R01_L",
+    "R": "A_CH08_R01_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

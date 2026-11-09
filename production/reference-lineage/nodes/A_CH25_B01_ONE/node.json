@@ -1,0 +1,55 @@
+{
+  "id": "A_CH25_B01_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-25/references/B01_desert_well_location/reference-images/01_LP_ref_well_turnaround.png",
+        "sha256": "06283689f481a7f364d89f8f86a87c7ac8194457eb5c228a1e952de8c0c35ea7",
+        "role": "Stone village well, wooden uprights/crossbar, wheel, rope and bucket; one fixed design, no village added."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "village-style stone well from reference centred around x=60% of an empty Sahara sunrise view, its footing around y=78%, wooden posts/crossbar, wheel, continuous rope and one bucket resting securely at rim. Clear foreground approach on LEFT and a smaller conversation area RIGHT. No people, village, wall, second bucket or lettering.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH25_B01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c24-s03-p04",
+    "c25-s01-p01",
+    "c25-s01-p02",
+    "c25-s01-p03",
+    "c25-s01-p09",
+    "c25-s01-p10",
+    "c25-s02-p01",
+    "c25-s02-p02",
+    "c25-s02-p07",
+    "c25-s02-p08",
+    "c25-s02-p09",
+    "c25-s02-p10",
+    "c25-s02-p11"
+  ],
+  "audit_only_details": "New location plate. Proposed rim height .48 pilot upright H, beam top 1.15 H; preserve well design. Empty foreground right for people. For pulling scenes use the coherent contact insert instead of adding a duplicate well.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH25_B01_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. village-style stone well from reference centred around x=60% of an empty Sahara sunrise view, its footing around y=78%, wooden posts/crossbar, wheel, continuous rope and one bucket resting securely at rim. Clear foreground approach on LEFT and a smaller conversation area RIGHT. No people, village, wall, second bucket or lettering. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-25/references/B01_desert_well_location/audit-contract.json",
+  "prompt_sha256": "618aea67db75e7e421aad3f1b07e24608c73e1877bdce7225795dc98c8b0aada",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH25_B01_ONE"
+}

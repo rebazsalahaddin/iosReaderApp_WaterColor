@@ -1,0 +1,23 @@
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 15-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+The adult narrator sits at viewer left, quietly listening to the two grown-ups across the round table. He is not displaying a drawing in this illustration.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–4.938 seconds: Hold the exact seated arrangement, with the narrator on the left quietly listening. He has no displayed drawing.
+4.938–9.648 seconds: The moustached man makes one small emphasis with his existing raised hand. The narrator attends to him; mouths retain the reference expressions without speech-shaped movement.
+9.648–13.7 seconds: Let the narrator become slightly more reflective, with one small blink and a restrained eye movement. The younger listener remains attentive.
+13.7–15 seconds: Settle the gestures close to their original positions. No added drawing or childhood flashback.
+
+GENERATED SOUND: AMBIENCE ONLY
+Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+Keep the narrator’s matched anatomical scale and chair angle. No drawing appears in his hands, no added guest or prop, no chair slide, table wobble, exaggerated nod or changed room zoom.
+
+END STATE
+All story movement finishes within the first 14.304 seconds; maintain a quiet stable hold through 15 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

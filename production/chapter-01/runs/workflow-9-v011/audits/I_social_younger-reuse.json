@@ -1,0 +1,33 @@
+{
+  "node_id": "I_social_younger",
+  "stage": "identity_turnaround",
+  "source_file": "appearance-references/chapter-01/LP_ref_char_grownup4_turnaround.png",
+  "source_sha256": "4802b0884b1fd288da9bdf998a0d2a79b40f41888ed1ab0d45d6056957fa7a61",
+  "parents": [],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T13:03:45+03:00",
+  "verdict": "PASS_WITH_NOTE",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Four complete standing views (front, three-quarter right, profile left, back) of the younger social adult: warm brown hair, small dot eyes, simple brows/nose/smile, muted grey-brown knit sweater over dark grey collar/hem, dusty blue jeans and grey low-top sneakers with white toe caps."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Small dark oval/dot eyes without anime highlights or detailed irises."
+    },
+    "native_geometry": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Complete standing turnaround on cream paper with consistent adult head-to-body ratio across all four views. Seated posture landmarks will be measured on N_younger_social_chair_left__soft_day_upper_left."
+    },
+    "alpha": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Canonical RGB identity sheet on cream paper serves as appearance authority; neutral posture output will be generated with native transparent alpha."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Identity reference turnaround; physical support shadow will be audited on N_younger_social_chair_left__soft_day_upper_left."
+    }
+  },
+  "issues": []
+}

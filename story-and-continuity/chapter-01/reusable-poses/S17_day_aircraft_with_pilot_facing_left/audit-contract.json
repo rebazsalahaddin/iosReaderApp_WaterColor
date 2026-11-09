@@ -1,0 +1,118 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH01_S17",
+  "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/PROMPT.txt",
+  "prompt_sha256": "fedb0e4fd0b86afd85cd41cbb3cfbe58d21593a724a32d29e691948a90c067a5",
+  "expected_cells": [
+    "ONE: complete cream-and-blue aircraft airborne nose LEFT, closed flush cowling, exactly one cockpit containing the adult pilot in flight jacket and forehead goggles; one windscreen ahead of him, one seat/headrest; both propeller blades form one restrained rotational sweep."
+  ],
+  "required_state_direction_contact": "Single coherent aircraft/pilot group; pilot torso and gaze LEFT along flight path, not right. Full wings, wheels and tail. Tail-to-spinner length about2.2 adult upright heights; cockpit head correctly scaled. Do not add detached pilot or copy a retired plane design. Local left daylight, no landscape baked in.",
+  "isolation_key": null,
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_plane_side_view.png",
+      "role": "Current plane identity: one cockpit, one seat/headrest, one windscreen, TWO opposite propeller blades, cream/blue low-wing body. Retired plane turnaround is excluded.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/01_plane_side_view.png",
+      "status": "supplied",
+      "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+      "source_key": "plane"
+    },
+    {
+      "name": "02_plane_scale_with_pilot.png",
+      "role": "Plane length about 2.2 adult upright heights at equal depth; not authority for painted pilot anatomy.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/02_plane_scale_with_pilot.png",
+      "status": "supplied",
+      "sha256": "7314e371a63cb5f0a263a3a180cab20386a5a6230bdb31fc8eab0e729bc723cd",
+      "source_key": "planescale"
+    },
+    {
+      "name": "03_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/03_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_CH01_S17_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/06_CH01_S17_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "9ccde62f71c161ccb09f0671d98969acfec7eb3ebcc7a7aaaad83fe76416c724"
+    },
+    {
+      "name": "07_c01-s04-p01_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c01-s04-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/07_c01-s04-p01_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "a7f0ea36c009713c0bed1423f4697386ff443f6cb95bcaf7c9ce269fc0c29ca8"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "V_CH01_S17_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c01-s04-p01"
+  ],
+  "placement_targets": [
+    {
+      "page": "c01-s04-p01",
+      "cell": "CH01_S17:ONE",
+      "box_px": [
+        288,
+        380,
+        1824,
+        900
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

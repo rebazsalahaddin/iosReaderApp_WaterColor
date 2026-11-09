@@ -1,0 +1,48 @@
+{
+  "id": "V_CH01_S18_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_pilot_flying_right__moonlight_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_pilot_flying_right__moonlight_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "same complete airborne aircraft now nose RIGHT, closed cowling; exactly one adult pilot in sole cockpit, torso and gaze RIGHT along flight path; same two-blade rotating propeller, one windscreen and headrest.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_S18",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c01-s04-p02"
+  ],
+  "allowed_changes": "same complete airborne aircraft now nose RIGHT, closed cowling; exactly one adult pilot in sole cockpit, torso and gaze RIGHT along flight path; same two-blade rotating propeller, one windscreen and headrest.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Draw a genuine opposite viewpoint, never flip the day artwork. Preserve asymmetric cockpit/clothing geometry and machine counts. This is a separate night navigation example, no map writing.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH01_S18_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: same complete airborne aircraft now nose RIGHT, closed cowling; exactly one adult pilot in sole cockpit, torso and gaze RIGHT along flight path; same two-blade rotating propeller, one windscreen and headrest. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-01/reusable-poses/S18_night_aircraft_with_pilot_facing_right/audit-contract.json",
+  "prompt_sha256": "aef155f31fd7a0a522aedad816b812743eb138fe74480714c838a1c81edd1803",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH01_S18_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

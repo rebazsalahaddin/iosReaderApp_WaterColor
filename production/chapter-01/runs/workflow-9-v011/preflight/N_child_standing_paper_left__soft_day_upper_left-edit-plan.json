@@ -1,0 +1,47 @@
+{
+  "workflow_version": 9,
+  "node_id": "N_child_standing_paper_left__soft_day_upper_left",
+  "parents": [
+    {
+      "node_id": "I_child",
+      "path": "production/chapter-01/runs/workflow-8-v011/preflight/child-identity-three-quarter.png",
+      "sha256": "66189f88355625379751e442d48206c83534571565e9216d80164a28ed71a040"
+    }
+  ],
+  "route": "whole_contact_candidate",
+  "target_state": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Child standing three-quarter LEFT with both hands supporting one blank cream sheet toward adults off-frame LEFT; neutral face and balanced supported feet. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft neutral daylight from upper-left; preserve the established local colours. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "submission_contract": "Keep exact single-state asset boundaries, dot-eye storybook watercolor discipline, and clean background handling.",
+  "identity_features": [
+    "dot eyes without irises",
+    "canonical hair and facial proportions",
+    "consistent storybook watercolor washes"
+  ],
+  "geometry_checks": [
+    "4:3 2K native canvas",
+    "complete subject silhouette with margin",
+    "consistent camera elevation and orientation"
+  ],
+  "contacts": "Complete support contact group preserved with restrained translucent ground shadow where applicable.",
+  "background_review": "Inspect on cream, dark charcoal, and intended scene background before acceptance.",
+  "pixel_budget": "Native 2336x1744 / 2400x1792 2K canvas exceeds all target page placement boxes at scale <= 1.0.",
+  "reuse_decision": "Audited existing canonical turnarounds reused; this node requires fresh Workflow-9 generation after user-authorized retirement.",
+  "local_repair_decision": "Safe reversible shadow-only matte preparation permitted after visual review if core subject is intact.",
+  "object_inventory": [
+    {
+      "id": "primary_subject",
+      "before_count": 1,
+      "after_count": 1,
+      "before_state": "canonical reference input",
+      "after_state": "complete single-state generated node",
+      "contact": "grounded or airborne per node contract"
+    }
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Antigravity visual inspection",
+    "reviewed_at": "2026-11-08T13:10:00+03:00",
+    "observations": "Reviewed Workflow-9 edit plan and reference inputs for N_child_standing_paper_left__soft_day_upper_left."
+  },
+  "why_registered_edit_not_feasible": "Neutral posture master establishes the complete seated/standing/airborne body-and-support contact group from an identity turnaround.",
+  "all_features_reaudit": true
+}

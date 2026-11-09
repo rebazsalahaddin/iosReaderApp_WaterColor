@@ -1,0 +1,13 @@
+{
+  "source": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s01-p01.png",
+  "source_sha256": "64a3e3b7b7d6bdb817ea5905021326817d2efc12955cb4ea98e3cebbfc828884",
+  "crop_xyxy": [
+    1570,
+    430,
+    2040,
+    1030
+  ],
+  "prepared": "appearance-references/shared/CH01_watercolor_paper_pencil_style_crop.png",
+  "prepared_sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+  "method": "Native crop, no resize/repaint; pigment/contour style only, no identity or scene authority."
+}

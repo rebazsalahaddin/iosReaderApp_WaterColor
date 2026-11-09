@@ -1,0 +1,20 @@
+{
+  "template_only": true,
+  "issue_ids": [],
+  "root_cause_evidence": null,
+  "changed_mechanism": null,
+  "semantic_prompt_diff": null,
+  "previous_prompt_sha256": null,
+  "protected_features": null,
+  "local_feasibility_evidence": null,
+  "diagnostic_board": {"path": null, "sha256": null},
+  "board_uploaded": false,
+  "diagnostic_review": {"status": "pending", "reviewer": null, "reviewed_at": null, "observations": null},
+  "review": {"status": "pending", "reviewer": null, "reviewed_at": null, "observations": null},
+  "third_attempt_exception": {
+    "method_changed_since_both_failures": false,
+    "no_cost_feasibility_passed": false,
+    "evidence_file": {"path": null, "sha256": null},
+    "review": {"status": "pending", "reviewer": null, "reviewed_at": null, "observations": null}
+  }
+}

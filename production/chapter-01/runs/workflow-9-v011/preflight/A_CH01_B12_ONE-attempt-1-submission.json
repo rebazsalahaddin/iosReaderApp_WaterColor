@@ -1,0 +1,10 @@
+{
+  "node_id": "A_CH01_B12_ONE",
+  "attempt": 1,
+  "reservation_id": "785c9290-c491-4cbc-95db-9d82bc26a2b9",
+  "job_id": "f1512973-e251-45d5-a8a9-be8561e3a7d1",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3LKujQNJ9OcF9YtnepRtjjePJsC/hf_20261108_104301_f1512973-e251-45d5-a8a9-be8561e3a7d1.png",
+  "original_file": "production/chapter-01/runs/workflow-9-v011/sources/A_CH01_B12_ONE-attempt-1.png",
+  "original_sha256": "d0e899e6e201ebce5f6b69815b87c38f0214d0b7dedc606ac0a7fa9b1287c6a2",
+  "completed_at": "2026-11-08T10:43:34.578441+00:00"
+}

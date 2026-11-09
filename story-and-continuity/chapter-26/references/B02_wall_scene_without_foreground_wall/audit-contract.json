@@ -1,0 +1,192 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH26_B02",
+  "prompt_file": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/PROMPT.txt",
+  "prompt_sha256": "f297813f2f587871a92ef7cdbf4fb6ec39029dd21f916b04c7c356f6ee30d91a",
+  "expected_cells": [
+    "ONE: accepted evening scene and distant well back-left, but remove ENTIRE foreground broken wall and its local shadow; continuous empty sand where complete wall-contact group will sit."
+  ],
+  "required_state_direction_contact": "Full wall comes from S01 or S03 exactly once. No snake, snake shadow or concealed tail.",
+  "isolation_key": null,
+  "light": "Warm late evening from upper-left.",
+  "dependencies": [
+    "CH26_B01"
+  ],
+  "references": [
+    {
+      "name": "01_LP_ref_sahara_day.jpg",
+      "role": "Existing empty daytime Sahara plate. Preserve the full view and watercolor margins.",
+      "path": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/reference-images/01_LP_ref_sahara_day.jpg",
+      "status": "supplied",
+      "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+      "source_key": "day"
+    },
+    {
+      "name": "02_LP_ref_well_turnaround.png",
+      "role": "Stone village well, wooden uprights/crossbar, wheel, rope and bucket; one fixed design, no village added.",
+      "path": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/reference-images/02_LP_ref_well_turnaround.png",
+      "status": "supplied",
+      "sha256": "06283689f481a7f364d89f8f86a87c7ac8194457eb5c228a1e952de8c0c35ea7",
+      "source_key": "well"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_accepted_CH26_B01_broken_wall_near_well.png",
+      "role": "ACCEPTED CH26_B01: broken wall near well. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/reference-images/05_accepted_CH26_B01_broken_wall_near_well.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH26_B01",
+      "expected_raw": "production/chapter-26/props/raw/CH26_B01_broken_wall_near_well.png"
+    },
+    {
+      "name": "06_CH26_B02_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/reference-images/06_CH26_B02_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "52aa9b619bce768e2419c42a66e459b278f9a0a18ca31cfac328e70c85821f96"
+    },
+    {
+      "name": "07_c26-s01-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c26-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/reference-images/07_c26-s01-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "59be57cc1dd7d773ec5010136716aa7328483e0a22df975e6db96f24569d684b"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "A_CH26_B02_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c26-s01-p02",
+    "c26-s01-p03",
+    "c26-s01-p04",
+    "c26-s01-p05",
+    "c26-s01-p06",
+    "c26-s01-p07",
+    "c26-s01-p08"
+  ],
+  "placement_targets": [
+    {
+      "page": "c26-s01-p02",
+      "cell": "CH26_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c26-s01-p03",
+      "cell": "CH26_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c26-s01-p04",
+      "cell": "CH26_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c26-s01-p05",
+      "cell": "CH26_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c26-s01-p06",
+      "cell": "CH26_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c26-s01-p07",
+      "cell": "CH26_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c26-s01-p08",
+      "cell": "CH26_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

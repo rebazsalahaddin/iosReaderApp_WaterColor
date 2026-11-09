@@ -1,0 +1,58 @@
+{
+  "id": "A_CH20_B01_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location/reference-images/01_LP_ref_flower_stages.png",
+        "sha256": "7bc7d5701b3937e437f670d1ea79c36e79e86cd19a072e2db2c26032d2f2e228",
+        "role": "Special flower: lower-left CORAL rose, two leaves and exactly four small thorns. Upper-left shoot and upper-right bud only when named. Lower-right supplies the plain bell cover; no knob or wooden base."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "garden densely filled with ordinary coral-pink roses resembling the special rose in petal structure, healthy bushes and foliage, path from RIGHT and a clear grass foreground. No characters, faces on every flower, house or lettering.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH20_B01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c20-s01-p01",
+    "c20-s01-p02",
+    "c20-s01-p03",
+    "c20-s01-p04",
+    "c20-s01-p05",
+    "c20-s01-p06",
+    "c20-s02-p01",
+    "c20-s02-p02",
+    "c20-s02-p03",
+    "c20-s02-p04",
+    "c20-s02-p05",
+    "c21-s05-p01",
+    "c21-s05-p02",
+    "c21-s05-p03",
+    "c21-s05-p04",
+    "c21-s05-p05"
+  ],
+  "audit_only_details": "Use lower-left flower stage for blossom family only; these are ordinary garden roses, not thousands of identical named characters. Suggest abundance without literal count or symmetrical cloning.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH20_B01_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. garden densely filled with ordinary coral-pink roses resembling the special rose in petal structure, healthy bushes and foliage, path from RIGHT and a clear grass foreground. No characters, faces on every flower, house or lettering. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location/audit-contract.json",
+  "prompt_sha256": "1b36e46dbd50d89e41c457a9692271a594fa8bb272c41c407c505ba034c8f283",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH20_B01_ONE"
+}

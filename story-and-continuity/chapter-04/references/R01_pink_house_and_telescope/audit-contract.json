@@ -1,0 +1,140 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH04_R01",
+  "prompt_file": "story-and-continuity/chapter-04/references/R01_pink_house_and_telescope/PROMPT.txt",
+  "prompt_sha256": "84ab61f4b9b13918a1b437ad7914c1a39e2dbe61820203916f788bb98f02bfca",
+  "expected_cells": [
+    "LEFT: a small pink house with flowers in its windows and birds perched on its roof, a single coherent editorial miniature.",
+    "RIGHT: one simple long brass telescope on a wooden tripod, no person or star chart."
+  ],
+  "required_state_direction_contact": "Different object scales in separate cells; do not claim the house and telescope share physical scale. No prices, numbers or text.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_LP_ch04_house_layout_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-04/references/R01_pink_house_and_telescope/reference-images/01_LP_ch04_house_layout_guide.png",
+      "status": "supplied",
+      "sha256": "96c8709475b471426549155871e67eea9ba4873b901c1739af36807b0a11fd03",
+      "source_key": "LP_ch04_house_layout_guide"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-04/references/R01_pink_house_and_telescope/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-04/references/R01_pink_house_and_telescope/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_CH04_R01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-04/references/R01_pink_house_and_telescope/reference-images/04_CH04_R01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "477fb19d434dd9c07984c9e9e5fbdf1f3fd5a4f246cdfb96a1f2c0d86120ceac"
+    },
+    {
+      "name": "05_c04-s03-p03_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c04-s03-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-04/references/R01_pink_house_and_telescope/reference-images/05_c04-s03-p03_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "24a66472023203e17fc9ad4ab0025e4cbc94d69974bf53823000a418bb8bbe75"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "L": "A_CH04_R01_L",
+    "R": "A_CH04_R01_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c04-s01-p03",
+    "c04-s01-p04",
+    "c04-s03-p03",
+    "c04-s03-p04"
+  ],
+  "placement_targets": [
+    {
+      "page": "c04-s01-p03",
+      "cell": "CH04_R01:R",
+      "box_px": [
+        1460,
+        690,
+        510,
+        790
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c04-s01-p04",
+      "cell": "CH04_R01:R",
+      "box_px": [
+        1460,
+        690,
+        510,
+        790
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c04-s03-p03",
+      "cell": "CH04_R01:L",
+      "box_px": [
+        520,
+        470,
+        1360,
+        980
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c04-s03-p04",
+      "cell": "CH04_R01:L",
+      "box_px": [
+        520,
+        470,
+        1360,
+        980
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-04/references/R01_pink_house_and_telescope/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

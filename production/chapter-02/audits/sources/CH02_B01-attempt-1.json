@@ -1,0 +1,108 @@
+{
+ "request_id": "CH02_B01",
+ "attempt": 1,
+ "job_id": "05b54bf9-ca06-4798-9e04-5d68e216e5b6",
+ "source_file": "production/chapter-02/props/raw/CH02_B01_sahara_sunrise_reusable_plate.png",
+ "source_sha256": "311c9fe48343df5fb80831d54a4d7f1907f81e53584a1fa0849ee9113878a203",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "5bd309ce7267ea7e3dc78edffe5d3156b9eeda67d6dd80ef730a69bff334e289",
+ "attachments": [],
+ "cells": [
+  "ONE"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Soft pastel watercolor with cold-press grain, cool violet shadows, warm peach lights; storybook-consistent with day reference finish."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "Same layered dune layout and eye-level panoramic camera as day reference; horizon slightly above center; left-midground crest dune and right rounded mound preserved."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "Empty plate: no people, aircraft, animals, props; exactly ONE sun; no new landmarks (no buildings/rocks/oasis)."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "N/A background plate - no subjects; no key colour anywhere."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "2400x1792 native plate; final 2000x1493 field at scale ~0.83; deckled edges complete."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "NOT_APPLICABLE",
+   "evidence": "Background plate used whole; no keying."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Quiet empty dawn landscape at reading size; sunrise warmth at LEFT as specified."
+  },
+  "second_contract_check": {
+   "verdict": "PASS",
+   "evidence": "Warm sunrise glow upper-left with amber halo in left sky; organic ragged painted rectangle inside cream near-white paper margins on all four sides; no letters/watermarks."
+  }
+ },
+ "issues": [],
+ "verdict": "PASS",
+ "accepted_cells": [
+  "ONE"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "cell_audits": {
+  "ONE": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Soft pastel watercolor with cold-press grain, cool violet shadows, warm peach lights; storybook-consistent with day reference finish."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Same layered dune layout and eye-level panoramic camera as day reference; horizon slightly above center; left-midground crest dune and right rounded mound preserved."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Empty plate: no people, aircraft, animals, props; exactly ONE sun; no new landmarks (no buildings/rocks/oasis)."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[ONE] N/A background plate - no subjects; no key colour anywhere."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[ONE] 2400x1792 native plate; final 2000x1493 field at scale ~0.83; deckled edges complete."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Background plate used whole; no keying."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Quiet empty dawn landscape at reading size; sunrise warmth at LEFT as specified."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Warm sunrise glow upper-left with amber halo in left sky; organic ragged painted rectangle inside cream near-white paper margins on all four sides; no letters/watermarks."
+    }
+   },
+   "summary": "Cell ONE of CH02_B01: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "",
+ "reviewed_at": "2026-11-07T14:50:00.000000+00:00",
+ "cell_details": [
+  {
+   "cell": "ONE",
+   "bounds_source_px": null,
+   "source_file": "production/chapter-02/props/raw/CH02_B01_sahara_sunrise_reusable_plate.png",
+   "source_sha256": "311c9fe48343df5fb80831d54a4d7f1907f81e53584a1fa0849ee9113878a203"
+  }
+ ]
+}

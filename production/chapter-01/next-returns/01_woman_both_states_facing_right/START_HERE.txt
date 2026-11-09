@@ -1,0 +1,6 @@
+RECEIVED AND USED
+
+Source: production/chapter-01/props/raw/woman_both_states_facing_right.png
+Use only the leftmost RIGHT-facing complete woman. Two LEFT-facing variants are unused.
+
+PROMPT.txt and reference-images remain the reusable source specification. Do not generate again unless a newly observed source defect requires the prepared correction route.

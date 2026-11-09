@@ -1,0 +1,11 @@
+MODEL ROUTE — WORKFLOW 9: Flare (gpt_image_2_6_flare) for foundations/assets; Sunburst (gpt_image_2_6) for expression/action edits. Both medium / 2K / 4:3 / one PNG. The exact node parameters govern. Both quoted 1 credit on 2026-11-08; recheck live before spending. The change never resets attempts.
+
+THE LITTLE PRINCE ILLUSTRATION PROJECT — WORKFLOW 9
+
+CHAPTERS 1 AND 2 CLEANUP IS INCOMPLETE: Resolve `production/workflow-9/cleanup-pending.json` before any generation; historical attempt limits remain in force.
+
+Independent project root: 27 chapters, 442 page plans. Start with production/MASTER_PROMPT.txt and production/workflow-9/PROCESS.md. Research findings: production/workflow-9/RESEARCH_AND_DECISIONS.md. Chapter 1 recovery: production/workflow-9/CHAPTER_01_RECOVERY.md.
+
+Use Flare foundations/assets and Sunburst expression/action edits, medium / 2K / 4:3 / one PNG. Reuse first, clean accepted neutral parents, explicit object replacement contracts, measured local edit boundaries and protected parent pixels. Correction boards stay offline. Three global attempts maximum, third conditional on a changed mechanism. One live job and a bounded spend window.
+
+This revision changes production controls, not artwork or approval history. Chapter 1 regeneration is incomplete; v010 and its original review status remain unchanged. Do not regenerate all planned nodes or start another chapter because instructions changed. Read both ledgers and current measured compositions. Preparing a prompt is never a visual approval. Run python3 production/validate_package.py before handoff.

@@ -1,0 +1,56 @@
+{
+  "id": "N_prince_lying_forearms__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_prince"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_prince"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Prince lying fully supported on side/front with face near folded forearms, complete horizontal body and boots, neutral resting face, no pillow.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "prince_lying_forearms",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c20-s02-p05"
+  ],
+  "legacy_tokens": [
+    "CH20_S02:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-20/reusable-poses/S02_prince_crying_in_grass/reference-images/04_CH20_S02_PACKING_GUIDE.png",
+      "sha256": "805d76f55b3f25bae174fef0ce843260227ea82082913ff2482d1d154fb6c59f",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-20/reusable-poses/S02_prince_crying_in_grass/reference-images/05_c20-s02-p05_COMPOSITION_GUIDE.png",
+      "sha256": "e1a6eb7b1cb2ed7322d7f5e2fb35c6a6a931dfe656bb4ec5652090a6b2db8cd3",
+      "role": "TECHNICAL final-page placement for c20-s02-p05. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_prince_lying_forearms__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Prince lying fully supported on side/front with face near folded forearms, complete horizontal body and boots, neutral resting face, no pillow. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "631b61af616caa8ba273d1e610adeca709c2e2a4bdd744029cc287c8c6b4646f",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_prince_lying_forearms__soft_day_upper_left"
+}

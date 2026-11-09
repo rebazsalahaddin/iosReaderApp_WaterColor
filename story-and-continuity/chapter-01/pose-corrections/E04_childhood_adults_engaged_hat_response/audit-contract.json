@@ -1,0 +1,144 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH01_E04",
+  "prompt_file": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/PROMPT.txt",
+  "prompt_sha256": "604eb0cf9b9689c2e9370e52a9aa8364f2174e58bf89b2b78805ba9866dbf0f8",
+  "expected_cells": [
+    "LEFT: full standing older bespectacled man, body and both shoes three-quarter RIGHT, head turned slightly DOWN and RIGHT toward the off-sheet child. He responds with mild kindly bemusement: eyebrows gently lifted, eyes interested through spectacles, small open speaking smile, one open hand toward the child. He is not frightened; he sincerely sees an ordinary hat, without mockery.",
+    "RIGHT: full standing older woman, body, shoes and face three-quarter RIGHT like the LEFTMOST woman reference. Head inclines slightly DOWN toward the off-sheet child; one eyebrow gently raised, soft quizzical smile, one hand lightly raised to chin in thoughtful curiosity, other at her side. Kind but uncomprehending; no angry scowl."
+  ],
+  "required_state_direction_contact": "Two complete independent standing adults, man in LEFT column and woman in RIGHT column; SAME depth, man height H, woman 0.96H. Both face RIGHT independently. These are the child narrator's listeners, never the adult pilot's social men. No child, chair, table, actual hat, drawn hat, cloud or words. Keep all fingers, glasses and shoe soles intact; enough quiet key-colour space around each figure.",
+  "isolation_key": null,
+  "light": "Soft diffuse upper-left warm light.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_CH01_S13_childhood_adults_questioning.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/01_CH01_S13_childhood_adults_questioning.png",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces RIGHT. Change only the requested coherent expression/gesture state, preserving design and support geometry.",
+      "status": "supplied",
+      "sha256": "a97ab55db17f19a359b12995f81642006245c65230a049ed7a44c967cd787a16"
+    },
+    {
+      "name": "02_woman_both_states_facing_right.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/02_woman_both_states_facing_right.png",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces RIGHT. Change only the requested coherent expression/gesture state, preserving design and support geometry.",
+      "status": "supplied",
+      "sha256": "b2a6e085cf9d4254d9815cdab6bb9acd17a49bb36252720f84463d4b1c1f35a6"
+    },
+    {
+      "name": "03_CH01_E04_direction_and_packing.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/03_CH01_E04_direction_and_packing.png",
+      "role": "INSTRUCTION ONLY: cell identity, independent facing arrows and complete silhouette packing. It is not an art, anatomy, face or colour reference. Do not copy labels or diagrams into output.",
+      "status": "supplied",
+      "sha256": "7d9e2ed2398ee519c8ebee999d54a42a57236b8bc554d132835b0cd3051242cd"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "L": "V_CH01_E04_L",
+    "R": "V_CH01_E04_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c01-s02-p01",
+    "c01-s02-p02",
+    "c01-s02-p03"
+  ],
+  "placement_targets": [
+    {
+      "page": "c01-s02-p01",
+      "cell": "CH01_E04:L",
+      "box_px": [
+        290,
+        450,
+        500,
+        1100
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p01",
+      "cell": "CH01_E04:R",
+      "box_px": [
+        850,
+        480,
+        470,
+        1050
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p02",
+      "cell": "CH01_E04:L",
+      "box_px": [
+        290,
+        450,
+        500,
+        1100
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p02",
+      "cell": "CH01_E04:R",
+      "box_px": [
+        850,
+        480,
+        470,
+        1050
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p03",
+      "cell": "CH01_E04:L",
+      "box_px": [
+        290,
+        450,
+        500,
+        1100
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p03",
+      "cell": "CH01_E04:R",
+      "box_px": [
+        850,
+        480,
+        470,
+        1050
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

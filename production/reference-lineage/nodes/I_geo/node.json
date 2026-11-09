@@ -1,0 +1,31 @@
+{
+  "id": "I_geo",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One clean identity turnaround of the SAME geo: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": "appearance-references/shared/LP_ref_char_geographer_turnaround.png",
+  "candidate_role": "existing identity turnaround or plant stages; inspect and accept before use",
+  "prompt_file": "production/reference-lineage/nodes/I_geo/PROMPT.txt",
+  "candidate_sha256": "f309c74e961216b35c481442d24d42252e1972ef8547f3be5997b874ac6fb309",
+  "prompt": "One clean identity turnaround of the SAME geo: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "1a4bddd8e50d72f69dfb31d1a590227b2ccd820bb5cb6e1871474e0c86bfb38d",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_geo"
+}

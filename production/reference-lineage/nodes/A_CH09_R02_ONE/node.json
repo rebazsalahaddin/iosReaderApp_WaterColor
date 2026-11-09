@@ -1,0 +1,46 @@
+{
+  "id": "A_CH09_R02_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-09/reusable-poses/R02_glass_set_aside_on_home_ground/reference-images/01_LP_ref_flower_stages.png",
+        "sha256": "7bc7d5701b3937e437f670d1ea79c36e79e86cd19a072e2db2c26032d2f2e228",
+        "role": "Special flower: lower-left CORAL rose, two leaves and exactly four small thorns. Upper-left shoot and upper-right bud only when named. Lower-right supplies the plain bell cover; no knob or wooden base."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "the same empty plain glass bell cover resting upright on a small ochre home-ground patch, no person or rose, soft matching refraction.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH09_R02",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c09-s02-p04",
+    "c09-s02-p05",
+    "c09-s02-p06",
+    "c09-s02-p07"
+  ],
+  "audit_only_details": "An opaque local insert, not universally transparent glass. The empty cover stays LEFT and away from the rose.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH09_R02_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. the same empty plain glass bell cover resting upright on a small ochre home-ground patch, no person or rose, soft matching refraction. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-09/reusable-poses/R02_glass_set_aside_on_home_ground/audit-contract.json",
+  "prompt_sha256": "90952d023c52a46c1c0d96600c26e9c5ca621ea37170c2013919fcb772186b0c",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH09_R02_ONE"
+}

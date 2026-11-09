@@ -1,0 +1,506 @@
+{
+  "workflow_version": 9,
+  "chapter": 9,
+  "title": "Goodbye",
+  "page_count": 13,
+  "page_order": [
+    "c09-s01-p01",
+    "c09-s01-p02",
+    "c09-s01-p03",
+    "c09-s01-p04",
+    "c09-s01-p05",
+    "c09-s01-p06",
+    "c09-s02-p01",
+    "c09-s02-p02",
+    "c09-s02-p03",
+    "c09-s02-p04",
+    "c09-s02-p05",
+    "c09-s02-p06",
+    "c09-s02-p07"
+  ],
+  "status": "plan_only_check_current_overlays_and_accepted_sources",
+  "chapter_notes": "Morning preparation and farewell. Exactly two active volcanoes and one cold; no eruption. Birds are narrator speculation, not a confirmed flight. One glass cover, no knob/base; do not key through glass as if its reflections were reusable alpha. Preserve the cover/hand/background relationship in a small integrated patch. The flower stays alive; insects are possible future visitors.",
+  "manual_approval_required_after_delivery": true,
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "scale_and_anchor_registry_required_before_composition": true,
+  "decoded_pixel_and_semantic_duplicate_checks_required": true,
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_requires_reviewed_graphics": true,
+  "direct_source_requests": [
+    "CH02_B00",
+    "CH03_S03",
+    "CH04_B01",
+    "CH05_S01",
+    "CH07_R02",
+    "CH08_R03",
+    "CH09_R01",
+    "CH09_R02",
+    "CH09_S01",
+    "CH09_S02"
+  ],
+  "dependency_order": [
+    "CH02_B00",
+    "CH03_S03",
+    "CH04_B01",
+    "CH05_S01",
+    "CH07_R02",
+    "CH08_R03",
+    "CH09_R01",
+    "CH09_S01",
+    "CH09_S02",
+    "CH09_R02"
+  ],
+  "later_owned_required_sources": [],
+  "possible_initial_jobs_before_reuse": 23,
+  "max_total_submissions_if_all_sources_were_new": 69,
+  "budget_note": "Theoretical upper bound only. Not a spending budget. Reuse first, subtract both ledgers, require bounded spend window and exceptional third-attempt evidence.",
+  "generation_requests": [
+    {
+      "request_id": "CH02_B00",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c09-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH03_S03",
+      "owner_chapter": 3,
+      "prompt_file": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c09-s01-p02",
+        "c09-s02-p04",
+        "c09-s02-p05",
+        "c09-s02-p06",
+        "c09-s02-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH04_B01",
+      "owner_chapter": 4,
+      "prompt_file": "story-and-continuity/chapter-04/references/B01_b612_empty_daylight_ground/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-04/references/B01_b612_empty_daylight_ground/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c09-s01-p02",
+        "c09-s01-p03",
+        "c09-s01-p04",
+        "c09-s01-p05",
+        "c09-s01-p06",
+        "c09-s02-p01",
+        "c09-s02-p02",
+        "c09-s02-p03",
+        "c09-s02-p04",
+        "c09-s02-p05",
+        "c09-s02-p06",
+        "c09-s02-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH05_S01",
+      "owner_chapter": 5,
+      "prompt_file": "story-and-continuity/chapter-05/reusable-poses/S01_prince_tending_seedlings/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-05/reusable-poses/S01_prince_tending_seedlings/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c09-s01-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH07_R02",
+      "owner_chapter": 7,
+      "prompt_file": "story-and-continuity/chapter-07/references/R02_living_special_rose/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-07/references/R02_living_special_rose/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c09-s02-p02",
+        "c09-s02-p03",
+        "c09-s02-p04",
+        "c09-s02-p05",
+        "c09-s02-p06"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH08_R03",
+      "owner_chapter": 8,
+      "prompt_file": "story-and-continuity/chapter-08/references/R03_rose_coughing_and_silent/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-08/references/R03_rose_coughing_and_silent/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c09-s01-p06",
+        "c09-s02-p01",
+        "c09-s02-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH09_R01",
+      "owner_chapter": 9,
+      "prompt_file": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c09-s01-p01",
+        "c09-s01-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH09_S01",
+      "owner_chapter": 9,
+      "prompt_file": "story-and-continuity/chapter-09/reusable-poses/S01_prince_cleaning_volcanoes/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-09/reusable-poses/S01_prince_cleaning_volcanoes/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c09-s01-p03",
+        "c09-s01-p04"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH09_S02",
+      "owner_chapter": 9,
+      "prompt_file": "story-and-continuity/chapter-09/reusable-poses/S02_prince_holding_glass_at_farewell/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-09/reusable-poses/S02_prince_holding_glass_at_farewell/audit-contract.json",
+      "dependencies": [
+        "CH04_B01"
+      ],
+      "active_page_uses": [
+        "c09-s01-p06",
+        "c09-s02-p01",
+        "c09-s02-p02",
+        "c09-s02-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH09_R02",
+      "owner_chapter": 9,
+      "prompt_file": "story-and-continuity/chapter-09/reusable-poses/R02_glass_set_aside_on_home_ground/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-09/reusable-poses/R02_glass_set_aside_on_home_ground/audit-contract.json",
+      "dependencies": [
+        "CH04_B01"
+      ],
+      "active_page_uses": [
+        "c09-s02-p04",
+        "c09-s02-p05",
+        "c09-s02-p06",
+        "c09-s02-p07"
+      ],
+      "dependency_only": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "c09-s01-p01",
+      "assets": [
+        "CH02_B00:ONE",
+        "CH09_R01:R"
+      ],
+      "story_text": "",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s01-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s01-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s01-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p01/layout.json",
+      "reference_lineage": {
+        "CH02_B00:ONE": "A_CH02_B00_ONE",
+        "CH09_R01:R": "A_CH09_R01_R"
+      }
+    },
+    {
+      "page": "c09-s01-p02",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_R01:L",
+        "CH09_R01:R",
+        "CH03_S03:L"
+      ],
+      "story_text": "I think he left with a group of wild birds as they traveled across the sky. But first, on the morning he left, he put his planet in order.",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s01-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s01-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s01-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p02/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_R01:L": "A_CH09_R01_L",
+        "CH09_R01:R": "A_CH09_R01_R",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c09-s01-p03",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_S01:L"
+      ],
+      "story_text": "He cleaned his two burning volcanoes. They were useful for warming breakfast. On his little world, careful cleaning kept their fires burning gently.",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s01-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s01-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s01-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p03/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_S01:L": "V_CH09_S01_L"
+      }
+    },
+    {
+      "page": "c09-s01-p04",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_S01:R"
+      ],
+      "story_text": "The third volcano was cold. He cleaned that one too. \"You never know.\" On Earth, of course, our volcanoes are much too big for such housework.",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s01-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s01-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s01-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p04/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_S01:R": "V_CH09_S01_R"
+      }
+    },
+    {
+      "page": "c09-s01-p05",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH05_S01:R"
+      ],
+      "story_text": "He pulled up the last little baobabs. He thought he was leaving forever. Suddenly, he loved each familiar job.",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s01-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s01-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s01-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p05/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH05_S01:R": "V_CH05_S01_R"
+      }
+    },
+    {
+      "page": "c09-s01-p06",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_S02:ONE",
+        "CH08_R03:R"
+      ],
+      "story_text": "He watered his flower and lifted her glass cover. It was the last time. He wanted to cry. \"Goodbye.\" She said nothing.",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s01-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s01-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s01-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s01-p06/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_S02:ONE": "V_CH09_S02_ONE",
+        "CH08_R03:R": "V_CH08_R03_R"
+      }
+    },
+    {
+      "page": "c09-s02-p01",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_S02:ONE",
+        "CH08_R03:L"
+      ],
+      "story_text": "He said goodbye again. She coughed, though she had no cold. \"I've been silly. I am sorry. Try to be happy.\"",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s02-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s02-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s02-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p01/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_S02:ONE": "V_CH09_S02_ONE",
+        "CH08_R03:L": "V_CH08_R03_L"
+      }
+    },
+    {
+      "page": "c09-s02-p02",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_S02:ONE",
+        "CH07_R02:R"
+      ],
+      "story_text": "He stood still, holding the glass. He had expected complaints, not kindness. \"Of course I love you. I should have told you.\"",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s02-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s02-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s02-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p02/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_S02:ONE": "V_CH09_S02_ONE",
+        "CH07_R02:R": "V_CH07_R02_R"
+      }
+    },
+    {
+      "page": "c09-s02-p03",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_S02:ONE",
+        "CH07_R02:R"
+      ],
+      "story_text": "\"We've both been silly. But never mind that now. Be happy. And leave the glass. I don't want it.\"",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s02-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s02-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s02-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p03/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_S02:ONE": "V_CH09_S02_ONE",
+        "CH07_R02:R": "V_CH07_R02_R"
+      }
+    },
+    {
+      "page": "c09-s02-p04",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_R02:ONE",
+        "CH03_S03:L",
+        "CH07_R02:R"
+      ],
+      "story_text": "\"But the wind...\" \"The cool air will do me good. I'm a flower.\" \"But the animals...\"",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s02-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s02-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s02-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p04/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_R02:ONE": "A_CH09_R02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L",
+        "CH07_R02:R": "V_CH07_R02_R"
+      }
+    },
+    {
+      "page": "c09-s02-p05",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_R02:ONE",
+        "CH03_S03:L",
+        "CH07_R02:R"
+      ],
+      "story_text": "\"Two or three caterpillars can stay if butterflies come later. Who else will visit me? You'll be far away.\"",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s02-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s02-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s02-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p05/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_R02:ONE": "A_CH09_R02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L",
+        "CH07_R02:R": "V_CH07_R02_R"
+      }
+    },
+    {
+      "page": "c09-s02-p06",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_R02:ONE",
+        "CH03_S03:L",
+        "CH07_R02:R"
+      ],
+      "story_text": "\"As for bigger animals, I have my claws.\" She showed him her four thorns.",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s02-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s02-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s02-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p06/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_R02:ONE": "A_CH09_R02_ONE",
+        "CH03_S03:L": "V_CH03_S03_L",
+        "CH07_R02:R": "V_CH07_R02_R"
+      }
+    },
+    {
+      "page": "c09-s02-p07",
+      "assets": [
+        "CH04_B01:ONE",
+        "CH09_R02:ONE",
+        "CH03_S03:R",
+        "CH08_R03:R"
+      ],
+      "story_text": "\"Don't wait like this. You've decided to go. Go.\" She did not want him to see her cry. She was such a proud flower.",
+      "assembly_instructions": "story-and-continuity/chapter-09/page-compositions/c09-s02-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-09/page-compositions/c09-s02-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-09/page-compositions/c09-s02-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-09/page-compositions/c09-s02-p07/layout.json",
+      "reference_lineage": {
+        "CH04_B01:ONE": "A_CH04_B01_ONE",
+        "CH09_R02:ONE": "A_CH09_R02_ONE",
+        "CH03_S03:R": "V_CH03_S03_R",
+        "CH08_R03:R": "V_CH08_R03_R"
+      }
+    }
+  ],
+  "policy": "production/agent-policy.json",
+  "audit_template": "production/agent-workflow/templates/page-audit.json",
+  "lineage_execution_order": [
+    "I_prince",
+    "I_flower",
+    "N_prince_standing_left__soft_day_upper_left",
+    "N_prince_walk_right__soft_day_upper_left",
+    "N_prince_crouched_seedling__soft_day_upper_left",
+    "N_rose_open__soft_day_upper_left",
+    "N_prince_volcano_active__soft_day_upper_left",
+    "N_prince_volcano_cold__soft_day_upper_left",
+    "N_prince_glass__soft_day_upper_left",
+    "V_CH03_S03_L",
+    "V_CH03_S03_R",
+    "A_CH04_B01_ONE",
+    "V_CH05_S01_R",
+    "V_CH07_R02_R",
+    "V_CH08_R03_L",
+    "V_CH08_R03_R",
+    "A_CH09_R01_L",
+    "A_CH09_R01_R",
+    "V_CH09_S01_L",
+    "V_CH09_S01_R",
+    "V_CH09_S02_ONE",
+    "A_CH09_R02_ONE",
+    "A_CH02_B00_ONE"
+  ],
+  "generation_route": "lineage_nodes_only",
+  "legacy_dependency_usage": "offline_audit_and_historical_attempt_traceability",
+  "lineage_catalog": "production/reference-lineage/catalog.json",
+  "workflow_process": "production/workflow-9/PROCESS.md",
+  "family_canaries": {
+    "N_prince_standing_left__soft_day_upper_left": "V_CH03_S03_L",
+    "N_prince_walk_right__soft_day_upper_left": "V_CH03_S03_R",
+    "N_prince_crouched_seedling__soft_day_upper_left": "V_CH05_S01_R",
+    "N_rose_open__soft_day_upper_left": "V_CH07_R02_R",
+    "N_prince_volcano_active__soft_day_upper_left": "V_CH09_S01_L",
+    "N_prince_volcano_cold__soft_day_upper_left": "V_CH09_S01_R",
+    "N_prince_glass__soft_day_upper_left": "V_CH09_S02_ONE"
+  }
+}

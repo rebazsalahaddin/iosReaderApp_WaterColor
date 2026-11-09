@@ -1,0 +1,13 @@
+{
+  "chapter": 1,
+  "illustration_edition": "v010",
+  "status": "awaiting_manual_approval",
+  "historical_v009_approval": {
+    "chapter": 1,
+    "illustration_edition": "v009",
+    "user_statement": "now chapter 1 illustrations are finished I would like to use these illustrations in seedance 2.5 to make animations",
+    "scope": "Use all nineteen existing final illustrations as approved animation inputs. This request prepares instructions only; no video generation or Chapter 2 production authorized by this record.",
+    "recorded_date": "2026-11-07"
+  },
+  "scope": "Animation instructions migrated to revised current images, no video jobs; old approval does not approve new v010 artwork."
+}

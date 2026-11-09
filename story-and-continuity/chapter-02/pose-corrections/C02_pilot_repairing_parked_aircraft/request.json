@@ -1,0 +1,137 @@
+{
+  "id": "CH02_C02",
+  "chapter": 2,
+  "code": "C02",
+  "title": "pilot repairing parked aircraft",
+  "kind": "contact",
+  "cells": [
+    "ONE: parked aircraft nose RIGHT with open supported cowling; pilot in flight clothes leaning at its engine, one coherent hand/spanner/bolt contact, empty cockpit and two stationary opposite blades."
+  ],
+  "refs": [
+    "pilot",
+    "plane",
+    "openplane",
+    "planescale",
+    "success_style",
+    "style"
+  ],
+  "details": "Full integrated machine/pilot contact, no crash damage or loose extra hands. Match accepted parked aircraft exactly. No sand or broad shadow.",
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "dependencies": [
+    "CH02_R01"
+  ],
+  "key": null,
+  "slug": "pilot_repairing_parked_aircraft",
+  "output": "CH02_C02_pilot_repairing_parked_aircraft.png",
+  "revision_origin": "required state planned during full-book review",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c02-s01-p03"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft",
+  "raw_output_folder": "production/chapter-02/props/raw",
+  "representative_page": "c02-s01-p03",
+  "placement_targets": [
+    {
+      "page": "c02-s01-p03",
+      "cell": "CH02_C02:ONE",
+      "box_px": [
+        290,
+        430,
+        1800,
+        1120
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/01_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "02_plane_side_view.png",
+      "role": "Current plane identity: one cockpit, one seat/headrest, one windscreen, TWO opposite propeller blades, cream/blue low-wing body. Retired plane turnaround is excluded.",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/02_plane_side_view.png",
+      "status": "supplied",
+      "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+      "source_key": "plane"
+    },
+    {
+      "name": "03_plane_engin_hood_open.png",
+      "role": "LOWER-RIGHT SIDE VIEW ONLY for supported open upper cowling. Ignore angled views with conflicting four blades.",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/03_plane_engin_hood_open.png",
+      "status": "supplied",
+      "sha256": "095e22c15fb0244f4dab3f6e1bcf267a58f3b4b43404649242d409c1be85915c",
+      "source_key": "openplane"
+    },
+    {
+      "name": "04_plane_scale_with_pilot.png",
+      "role": "Plane length about 2.2 adult upright heights at equal depth; not authority for painted pilot anatomy.",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/04_plane_scale_with_pilot.png",
+      "status": "supplied",
+      "sha256": "7314e371a63cb5f0a263a3a180cab20386a5a6230bdb31fc8eab0e729bc723cd",
+      "source_key": "planescale"
+    },
+    {
+      "name": "05_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/05_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "06_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/06_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "07_accepted_CH02_R01_parked_aircraft_open_engine.png",
+      "role": "ACCEPTED CH02_R01: parked aircraft open engine. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/07_accepted_CH02_R01_parked_aircraft_open_engine.png",
+      "status": "supplied",
+      "dependency": "CH02_R01",
+      "expected_raw": "production/chapter-02/props/raw/CH02_R01_parked_aircraft_open_engine.png",
+      "sha256": "971cae872bc1172b690bb2090226ea7765264867241602a942ce6be117c72a10",
+      "dependency_metadata": {
+        "accepted_request_id": "CH02_R01",
+        "accepted_cells": [
+          "ONE"
+        ],
+        "accepted_source_sha256": "971cae872bc1172b690bb2090226ea7765264867241602a942ce6be117c72a10"
+      }
+    },
+    {
+      "name": "08_CH02_C02_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/08_CH02_C02_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "84091986e93cff5413a7cd3ab085ff7a29ff2ab982a4b13164de521219643d3b"
+    },
+    {
+      "name": "09_c02-s01-p03_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c02-s01-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-02/pose-corrections/C02_pilot_repairing_parked_aircraft/reference-images/09_c02-s01-p03_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "9d7ac3caaddbe66ddb68b7a8757060c3104a9fcd9041c6010b8e81fdcfc9afd0"
+    }
+  ],
+  "readiness": "wait_for_listed_checked_dependencies",
+  "prompt": "CH02_C02 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: parked aircraft nose RIGHT with open supported cowling; pilot in flight clothes leaning at its engine, one coherent hand/spanner/bolt contact, empty cockpit and two stationary opposite blades.\n  Actual short payload: production/reference-lineage/nodes/V_CH02_C02_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "V_CH02_C02_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

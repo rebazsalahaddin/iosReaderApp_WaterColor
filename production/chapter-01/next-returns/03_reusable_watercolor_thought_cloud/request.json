@@ -1,0 +1,70 @@
+{
+  "id": "SHARED_TH01",
+  "status": "received, inspected, prepared and used",
+  "date": "2026-11-07",
+  "output": "LP_SHARED_TH01_watercolor_thought_cloud.png",
+  "return_path": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+  "references": [
+    {
+      "name": "01_watercolor_cloud_language.jpg",
+      "source": "appearance-references/shared/c03-s010.jpg",
+      "role": "Visual language of the existing watercolor thought cloud: warm paper, soft blue-grey edge and handmade pigment. Borrow its organic shape and medium. Create a new BLANK cloud with a subtler, thinner broken edge. Exclude its sheep, ground, people, desert and fixed trail.",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3"
+    },
+    {
+      "name": "02_approved_watercolor_finish.png",
+      "source": "appearance-references/shared/CH01_approved_style_example.png",
+      "role": "Approved storybook paint handling, restrained palette and paper grain only. No people, table, room or drawings in the output.",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275"
+    },
+    {
+      "name": "03_chapter_01_palette.png",
+      "source": "production/chapter-01/next-returns/03_reusable_watercolor_thought_cloud/reference-images/03_chapter_01_palette.png",
+      "role": "Current Chapter 1 palette and softness only: warm ivory, muted blue-grey and delicate ochre. No child, furniture, book or room in the output.",
+      "sha256": "86f4fa17db9af49a619d9b718d26c9fe379919fae548ec41465ad6c0d816f4ee"
+    },
+    {
+      "name": "04_component_packing_guide.png",
+      "source": "production/chapter-01/next-returns/03_reusable_watercolor_thought_cloud/reference-images/04_component_packing_guide.png",
+      "sha256": "644a243c718a5277caad622e242f79d03ebaca567ba999484c71bf44c3352ab7",
+      "role": "Packing and spacing only. Rectangles and words are technical instructions; do not reproduce them. All actual cloud silhouettes must be organic watercolor shapes."
+    }
+  ],
+  "prompt": "Create ONE reusable watercolor thought-cloud component sheet for The Little Prince storybook.\n\nUse my established settings: Higgsfield / Nano Banana 2.1 / High Thinking / 4:3 landscape / 2K / one output.\n\nUPLOAD REFERENCES IN THIS ORDER:\nImage1: 01_watercolor_cloud_language.jpg. Visual language of the existing watercolor thought cloud: warm paper, soft blue-grey edge and handmade pigment. Borrow its organic shape and medium. Create a new BLANK cloud with a subtler, thinner broken edge. Exclude its sheep, ground, people, desert and fixed trail.\nImage2: 02_approved_watercolor_finish.png. Approved storybook paint handling, restrained palette and paper grain only. No people, table, room or drawings in the output.\nImage3: 03_chapter_01_palette.png. Current Chapter 1 palette and softness only: warm ivory, muted blue-grey and delicate ochre. No child, furniture, book or room in the output.\nImage4: 04_component_packing_guide.png. Packing and spacing only. Rectangles and words are technical instructions; do not reproduce them. All actual cloud silhouettes must be organic watercolor shapes.\n\nOUTPUT CONTENT — exactly FOUR separate painted components:\n1. ONE large wide EMPTY thought cloud across the upper part of the sheet. Its natural painted width is about 1.9 times its height. A gently asymmetric silhouette with a few broad, unequal rounded lobes, hand-painted rather than geometrically scalloped. No attached tail.\n2–4. Three separate small watercolor thought puffs in the lower band, increasing small/medium/large from left to right. Each is a gently irregular filled round puff in the identical palette and brushwork. These are standalone pieces that will later be arranged toward a thinking character. Do not connect them to the main cloud or one another.\n\nART DIRECTION:\nAn elegant, quiet picture-book watercolor thought cloud that belongs in the supplied illustrations. Warm ivory paper-colored center, subtle cool blue-grey and the faintest muted lavender pooling around parts of the edge, with a restrained touch of warm ochre. Broad soft washes, fine cold-press texture, delicate pigment blooms and a thin, softly broken local-color contour. Let sections of the contour dissolve into the painted wash. Light and airy, but clearly bounded enough to hold a separate imagined picture. It should feel painted on the same paper as the story, not pasted-on clip art. Keep pigment restrained and the center calm.\n\nEMPTY INTERIOR:\nLeave a broad, quiet, opaque warm-ivory interior occupying roughly the middle 70% of the cloud's width and 60% of its height. Very subtle grain only; no picture, snake, elephant, sheep, lettering, symbols, room, foliage or objects inside. This is a blank reusable container. The agent will insert the correct existing thought image later. No hollow hole, checkerboard or magenta inside the cloud or puffs.\n\nPACKING:\nMain cloud roughly x9–91%, y9–66% of the image; preserve a clean margin all around. Three separate puffs sit roughly across x23%, 49%, 76%, centered near y84%, with painted diameters around 6%, 8% and 10% of image height. Leave clean gutters between every component and at least 5% margin to the canvas edges. Image4 controls packing only, never artwork. No clipped lobes or touching pieces.\n\nISOLATION:\nOutside the FOUR silhouettes, use completely flat uniform opaque #FF00FF magenta, including all gutters. Inside all cloud/puff silhouettes, preserve opaque painted ivory and colored washes. Softness comes from watercolor pigment inside the silhouette, not from a wide translucent magenta fog. No background grain, cast shadow, floor, glow, gradient or pink rim lighting. Preserve full original download.\n\nAVOID:\nNo hard white rectangle or rounded rectangle; no thick comic outline, repetitive scallops, shiny 3D volume, bevel, grey drop shadow, cotton-ball realism, neon color, digital blur halo, sparkles or extra decorative clouds. No copied reference subjects. No words, labels, boxes, arrows or watermark. Do not make a whole story scene.\n",
+  "settings": {
+    "service": "Higgsfield",
+    "model": "Nano Banana 2.1",
+    "thinking": "High Thinking",
+    "aspect_ratio": "4:3",
+    "resolution": "2K",
+    "outputs": 1
+  },
+  "first_use": "c01-s01-p03",
+  "required_chapter_01_pages": [
+    "c01-s01-p03",
+    "c01-s02-p03"
+  ],
+  "components": [
+    "one blank wide watercolor cloud",
+    "small separate puff",
+    "medium separate puff",
+    "large separate puff"
+  ],
+  "assembly": "production/chapter-01/next-returns/03_reusable_watercolor_thought_cloud/ASSEMBLY_AFTER_RETURN.txt",
+  "user_generation_required": true,
+  "paid_generations_submitted": 0,
+  "automatic_generation_authorized": false,
+  "actual_output": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+  "actual_dimensions": [
+    2400,
+    1792
+  ],
+  "received_sha256": "e916dd74b1f35d9d6225c8faaae70659c97d3663a046409e88ef8d01c5d2350a",
+  "prepared_components": "production/shared/thought-clouds/prepared/components.json",
+  "used_on_pages": [
+    "c01-s01-p03",
+    "c01-s02-p03"
+  ],
+  "source_generation_pending": false,
+  "user_approved": false
+}

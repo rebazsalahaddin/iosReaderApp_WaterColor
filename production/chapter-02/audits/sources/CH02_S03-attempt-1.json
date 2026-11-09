@@ -1,0 +1,108 @@
+{
+ "request_id": "CH02_S03",
+ "attempt": 1,
+ "job_id": "de563c58-7453-438f-8310-d805ea078288",
+ "source_file": "production/chapter-02/props/raw/CH02_S03_pilot_awakening.png",
+ "source_sha256": "043e0a973ccdd81ff8128584667794e43477dbc5fa1b370dc0087cd6a979d6f3",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "0c90094ddfc0f811e5692ad83016aa5b949efe623d2ea4379c96274f39c598ae",
+ "attachments": [],
+ "cells": [
+  "ONE"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Same adult pilot: brown jacket, cream shirt, tan trousers, brown boots, goggles up; watercolor style consistent."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "Sitting up from sand-level footing; both hands braced on ground near hips (palms down, arms straight); knees bent; head lifted looking up toward viewer-RIGHT; surprised but not terrified (alert astonishment, no grimace)."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "Exactly one figure; no sand/ground/shadow/blanket/second figure; no letters."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "Flat magenta key clean between arms and torso, under legs, through knee gaps; no fringe; silhouette complete with comfortable margins."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Full-width sitting figure; supports final box 550x690 at scale<=1 (measured fit in composition step)."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "PENDING_EXTRACTION",
+   "evidence": "Standard magenta keying in preparation step."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Reads as pilot just woken, startled, looking up-right toward the prince position."
+  },
+  "second_contract_check": {
+   "verdict": "PASS",
+   "evidence": "Recheck vs contract ONE state: sitting up, hands braced near hips, knees bent, gaze up RIGHT, no sand included - all confirmed."
+  }
+ },
+ "issues": [],
+ "verdict": "PASS",
+ "accepted_cells": [
+  "ONE"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "cell_audits": {
+  "ONE": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Same adult pilot: brown jacket, cream shirt, tan trousers, brown boots, goggles up; watercolor style consistent."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Sitting up from sand-level footing; both hands braced on ground near hips (palms down, arms straight); knees bent; head lifted looking up toward viewer-RIGHT; surprised but not terrified (alert astonishment, no grimace)."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Exactly one figure; no sand/ground/shadow/blanket/second figure; no letters."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Flat magenta key clean between arms and torso, under legs, through knee gaps; no fringe; silhouette complete with comfortable margins."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Full-width sitting figure; supports final box 550x690 at scale<=1 (measured fit in composition step)."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Standard magenta keying in preparation step."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Reads as pilot just woken, startled, looking up-right toward the prince position."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Recheck vs contract ONE state: sitting up, hands braced near hips, knees bent, gaze up RIGHT, no sand included - all confirmed."
+    }
+   },
+   "summary": "Cell ONE of CH02_S03: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "",
+ "reviewed_at": "2026-11-07T14:50:00.000000+00:00",
+ "cell_details": [
+  {
+   "cell": "ONE",
+   "bounds_source_px": null,
+   "source_file": "production/chapter-02/props/raw/CH02_S03_pilot_awakening.png",
+   "source_sha256": "043e0a973ccdd81ff8128584667794e43477dbc5fa1b370dc0087cd6a979d6f3"
+  }
+ ]
+}

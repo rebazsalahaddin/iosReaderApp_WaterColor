@@ -1,0 +1,48 @@
+{
+  "id": "V_CH11_C01_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_vain_hat_held__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_vain_hat_held__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "vain man upright, torso and feet RIGHT, head RIGHT, self-satisfied face, LEFT anatomical hand holds the only blue hat above hair, right hand relaxed.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH11_C01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c11-s01-p05"
+  ],
+  "allowed_changes": "vain man upright, torso and feet RIGHT, head RIGHT, self-satisfied face, LEFT anatomical hand holds the only blue hat above hair, right hand relaxed.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Full raised-hat height, no second hat on head. This is the stopped-clapping state, distinct from the bow.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH11_C01_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: vain man upright, torso and feet RIGHT, head RIGHT, self-satisfied face, LEFT anatomical hand holds the only blue hat above hair, right hand relaxed. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/audit-contract.json",
+  "prompt_sha256": "d5c67f6a3ee6fd282d22d9e094d63df45b9e8a5a92fcccb64c08ec8243029a85",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH11_C01_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

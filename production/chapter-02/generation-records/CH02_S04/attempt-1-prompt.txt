@@ -1,0 +1,39 @@
+Create ONE reusable pose source for CH02_S04 — pilot first night asleep.
+
+OUTPUT: user-selected Higgsfield / Nano Banana2.1 / High Thinking / 4:3 landscape / 2K / one output. Preserve original download. Agent submits through Higgsfield MCP under workflow 7; at most two attempts per reference, only material-defect corrections, no upscale.
+
+REFERENCES — upload exactly these, in order:
+Image1: 01_LP_ref_char_pilot_turnaround.png. Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.
+Image2: 02_c01-s05-p01.png. Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.
+Image3: 03_c03-s010.jpg. Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.
+Image4: 04_CH02_S04_PACKING_GUIDE.png. Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.
+Image5: 05_c02-s01-p04_COMPOSITION_GUIDE.png. TECHNICAL final-page placement for c02-s01-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.
+
+SOURCE PACKING: ONE full-width complete asset, 5–7% clear margin. No extra views, duplicates or second cell.
+
+BACKGROUND / ISOLATION: One opaque, perfectly flat uniform contrasting key-colour field, #FF00FF, outside every requested silhouette and through all empty limb/chair gaps. No texture, paper grain, gradient, horizon, floor line, vignette, shadow, reflection or colour variation on this field. No key-colour rim light, spill or halo. Pale skin, cream paper, clothes and highlights stay fully painted and opaque. Keep internal contact shading only; external grounding shadows are added during assembly. This is NOT native transparency or a checkerboard. Opaque glass/local-background contact inserts keep their contents; never key through them.
+
+REQUESTED CONTENT — every cell is a separate complete state:
+ONE: pilot alone asleep on his side, knees gently bent, jacket on, one arm under his head; complete horizontal body.
+
+STATE, DIRECTION AND CONTACT LOCK: Single wide silhouette, no blanket or mattress invented.
+
+FINAL COMPOSITION TARGETS: The attached composition guide is a later2400×1792 page, not source-sheet framing. Generate the complete requested source at maximum useful size within its packing margins. Later assembly uses uniform scaling only. Selected target: {"page": "c02-s01-p04", "cell": "CH02_S04:ONE", "box_px": [540, 1150, 1200, 380], "anchor": "bottom_center", "scale_lock": {"adult_standing_equivalent_px": 1000, "adult_head_height_target_px": 220, "prince_standing_equivalent_px": null, "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."}}
+
+LIGHT: Quiet cool moonlight from upper-left; subdued local colours, no blue background painted into edges.
+
+Soft luminous picture-book watercolor, matching the approved Chapter1 assembled sample: translucent pigment washes within opaque painted forms, fine cold-press grain inside shapes, thin irregular darker LOCAL-colour contours, sparse interior lines, simplified rounded anatomy, pale warm skin and restrained blush. Identity references control faces, hair, age and wardrobe. No default broad grin. Backgrounds use broad soft outline-free washes and ragged deckled paper edges. No thick black contours, glossy3D, photorealism, plastic airbrush, vector clip-art or unnecessary detail. In-world graphite or pen pictures retain their specified medium.
+
+CHAPTER CONTINUITY (does not add extra content): First night alone precedes the sunrise meeting. The prince is calm, never a starving lost child. All sheep are drawings; the box contains an unseen sheep. Reuse the exact five drawing masters on blank paper. Keep the aircraft parked, one empty cockpit, two stopped blades and open supported hood.
+
+PREVENT THE CHAPTER1 FAILURE: check pelvis/torso, feet/chair, head and gaze SEPARATELY. A turned head is not a turned chair. Match actual left/right direction from the viewer; no mirroring of asymmetry. Emotion changes require the specified complete pose, not a replacement face. Retain all support contacts, correct hand occupancy and object counts.
+
+ONLY the requested content. No letters, writing, numbers, title, dialogue, signature, watermark, guide labels, arrows, rulers, duplicated reference figures or unexplained props. No generated drawing marks on a surface explicitly left blank for canonical artwork. No physical version of a metaphor or hypothetical event.
+
+MEASURED CONTINUITY AND FRAMING LOCK: all states of the same character/prop must keep identical anatomical proportions and shared furniture geometry. A changed pose is not a size/zoom change. Generate large complete sources; the compositor will use actual native landmarks and one uniform scale to match the same-location/camera/depth baseline, not a copied sheet percentage. Preserve the supplied geometry and enough useful pixels for the largest declared use. Opening close-ups must use a legible hero and chapter-matching painted field; do not turn them into tiny icons on white. Thought illustrations retain their own readable size and aspect ratio; any decorative frame must fit the image with minimal padding, never force the image smaller. These are production constraints and do not add unrequested objects to this source. See production/Geometry_and_Frame_Continuity.md.
+
+TEXT-TO-ILLUSTRATION ALIGNMENT: Read the exact affected-page passages and decisions in this request’s story-context.json before submission. Depict the requested complete source state so it can communicate the action/response, not merely the nouns. Prince recognizes elephant; sheep in the box remains unseen even in thought.
+THOUGHT OWNERSHIP: Thought pictures and frames are separate local layers. Do not bake clouds, extra imagined props or a second character into this source unless a requested cell explicitly IS thought content. No automatic cloud for every “think”, “remember”, dialogue noun or metaphor. Preserve unseen/conditional story facts.
+All unlisted page decisions remain no_cloud or their explicitly separate editorial/memory staging. Use production/Text_to_Illustration_Alignment.md.
+
+THOUGHT AESTHETICS AND SCENE HIERARCHY: For any requested thought-content cell, match the approved character art's simple shapes, delicate warm contours and restrained watercolor washes, not merely its paper texture. Use sparse broad paint shapes; no product-like modelling or atlas-like cartographic detail. A simple mental map uses generalized landforms without fine coasts, tiny islands, terrain, grids, labels or routes. Preserve exact canonical story drawing marks whenever those are the requested contents. Large source pixels supply clean reduction, not extra detail or a giant final prop. Final content size is chosen at whole-page reading size for clear recognition while faces/action stay primary; then fit only the empty painted frame. Plan quiet space around the selected inset before composing. Preserve same-camera scale locks; a documented separate view can recompose a complete contact group uniformly. This is conditional source-role guidance: do not add a thought picture/cloud to a pose/background that does not request one.

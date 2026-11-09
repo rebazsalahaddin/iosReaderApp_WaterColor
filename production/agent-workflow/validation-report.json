@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "workflow_version": 9,
+  "checks": {
+    "source_audit_contracts": 174,
+    "chapter_run_plans": 27,
+    "covered_pages": 442,
+    "new_delivered_pages_verified": 19,
+    "counted_mcp_attempts": 20
+  },
+  "errors": [],
+  "scope": "Handoff coverage, policy and recorded execution gates. Visual truth and genuine user approval require actual inspection/conversation evidence."
+}

@@ -1,0 +1,34 @@
+{
+  "node_id": "A_CH01_B12_ONE",
+  "stage": "background_plate",
+  "attempt": 1,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/A_CH01_B12_ONE-attempt-1.png",
+  "source_sha256": "d0e899e6e201ebce5f6b69815b87c38f0214d0b7dedc606ac0a7fa9b1287c6a2",
+  "parents": [],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T10:43:57.681512+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Dark indigo night sky with crescent moon upper-left and tiny stars above quiet dark landforms and a faint moonlit river below, no aircraft or people, soft storybook watercolor vignette on ivory paper."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/A_CH01_B12_ONE-attempt-1.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Opaque background plate per node contract."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Non-grounded or plate/editorial asset per node contract."
+    }
+  },
+  "issues": []
+}

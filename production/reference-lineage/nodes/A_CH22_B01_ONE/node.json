@@ -1,0 +1,49 @@
+{
+  "id": "A_CH22_B01_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-22/references/B01_railway_house_and_empty_tracks/reference-images/01_LP_ref_sahara_day.jpg",
+        "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+        "role": "Existing empty daytime Sahara plate. Preserve the full view and watercolor margins."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "modest small railway switch house at LEFT, two parallel tracks receding behind a safe empty foreground standing area, quiet neutral daylight. No trains or people.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH22_B01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c22-s01-p01",
+    "c22-s01-p02",
+    "c22-s01-p03",
+    "c22-s01-p04",
+    "c22-s01-p05",
+    "c22-s02-p01",
+    "c22-s02-p02"
+  ],
+  "audit_only_details": "New location proposal, no modern signage, logos, barriers across people, control-room screens or invented city skyline. Preserve rails’ perspective for train placement.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH22_B01_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. modest small railway switch house at LEFT, two parallel tracks receding behind a safe empty foreground standing area, quiet neutral daylight. No trains or people. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-22/references/B01_railway_house_and_empty_tracks/audit-contract.json",
+  "prompt_sha256": "c37472e6b473977a3f4ee6c3db6c529ea3e728f8ceb0f3ecf8c449409f601bab",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH22_B01_ONE"
+}

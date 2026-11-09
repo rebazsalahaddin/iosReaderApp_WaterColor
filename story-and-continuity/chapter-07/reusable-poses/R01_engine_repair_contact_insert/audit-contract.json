@@ -1,0 +1,126 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH07_R01",
+  "prompt_file": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/PROMPT.txt",
+  "prompt_sha256": "a758514adff26fa7663ab767d42da107a424237741e91b94050fa417818738e7",
+  "expected_cells": [
+    "ONE: close coherent view of one pilot right hand holding a spanner around the stuck hex bolt in the exposed engine bay, visible sleeve, correctly seated wrench."
+  ],
+  "required_state_direction_contact": "Mechanical insert only; preserve two-blade aircraft design outside the crop. No hammer strike or severed loose hand prop.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/01_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "02_plane_side_view.png",
+      "role": "Current plane identity: one cockpit, one seat/headrest, one windscreen, TWO opposite propeller blades, cream/blue low-wing body. Retired plane turnaround is excluded.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/02_plane_side_view.png",
+      "status": "supplied",
+      "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+      "source_key": "plane"
+    },
+    {
+      "name": "03_plane_engin_hood_open.png",
+      "role": "LOWER-RIGHT SIDE VIEW ONLY for supported open upper cowling. Ignore angled views with conflicting four blades.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/03_plane_engin_hood_open.png",
+      "status": "supplied",
+      "sha256": "095e22c15fb0244f4dab3f6e1bcf267a58f3b4b43404649242d409c1be85915c",
+      "source_key": "openplane"
+    },
+    {
+      "name": "04_LP_ch07_tools_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/04_LP_ch07_tools_scale_guide.png",
+      "status": "supplied",
+      "sha256": "63375b8726d891f0e2e756dbe2192e7b57bb09e16b84de27ae2b3b2aacdbb4b9",
+      "source_key": "LP_ch07_tools_scale_guide"
+    },
+    {
+      "name": "05_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/05_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "06_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/06_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "07_CH07_R01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/07_CH07_R01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "fa61ba794a8022f9ca47c8ccbfa9eb90119cee8dc5dbd303519240b857910627"
+    },
+    {
+      "name": "08_c07-s01-p04_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c07-s01-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/08_c07-s01-p04_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "74b1f74577c678e2adadf62c479fc140476a748aa004a1f5213705424b6d93cc"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "V_CH07_R01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c07-s01-p04"
+  ],
+  "placement_targets": [
+    {
+      "page": "c07-s01-p04",
+      "cell": "CH07_R01:ONE",
+      "box_px": [
+        400,
+        380,
+        1600,
+        1000
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

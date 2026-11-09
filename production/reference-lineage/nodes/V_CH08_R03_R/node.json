@@ -1,0 +1,53 @@
+{
+  "id": "V_CH08_R03_R",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_rose_open__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_rose_open__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "same rose quiet and composed, slightly turned away, alive and uninjured.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH08_R03",
+  "legacy_cell": "R",
+  "affected_pages": [
+    "c08-s03-p05",
+    "c08-s03-p06",
+    "c09-s01-p06",
+    "c09-s02-p01",
+    "c09-s02-p07",
+    "c20-s02-p01"
+  ],
+  "allowed_changes": "same rose quiet and composed, slightly turned away, alive and uninjured.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Mature height .40 P, bloom .22 P, four thorns. No hands, masks or wilted death.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH08_R03_R/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: same rose quiet and composed, slightly turned away, alive and uninjured. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-08/references/R03_rose_coughing_and_silent/audit-contract.json",
+  "prompt_sha256": "20a836c007cca639b5bae1f5d8db68dea7cfd5090f9b4bb0edb7db03bc193484",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH08_R03_R",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

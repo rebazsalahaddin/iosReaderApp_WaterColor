@@ -1,0 +1,350 @@
+{
+  "chapter": 1,
+  "date": "2026-11-07",
+  "all_original_requests_received": true,
+  "missing_original_requests": [],
+  "sources": [
+    {
+      "request": "CH01_B10",
+      "expected": "CH01_B10_childhood_room_without_foreground_furniture.png",
+      "actual": "H01_B10_childhood_room_without_foreground_furniture.png",
+      "alias": true,
+      "uses": [
+        "c01-s01-p02",
+        "c01-s01-p03",
+        "c01-s01-p04",
+        "c01-s02-p01",
+        "c01-s02-p02",
+        "c01-s02-p03",
+        "c01-s03-p01",
+        "c01-s03-p02",
+        "c01-s03-p03",
+        "c01-s03-p04"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "a48f26b2181862fde1cbc9598181ab61044a0712367e86e729c3727ae74a3e8f",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_B11",
+      "expected": "CH01_B11_day_flight_landscape.png",
+      "actual": "CH01_B11_day_flight_landscape.png",
+      "alias": false,
+      "uses": [
+        "c01-s04-p01"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "6289981d48a676e908f3ece3a2ec19177daaa2e03907220953d4333e01ca4652",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_B12",
+      "expected": "CH01_B12_night_flight_landscape.png",
+      "actual": "CH01_B12_night_flight_landscape.png",
+      "alias": false,
+      "uses": [
+        "c01-s04-p02"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "30d42daf0076fd234dbf9858bc0f0a541268f60234f17d2d564c88b14ec8c54c",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_R10",
+      "expected": "CH01_R10_forest_book_swallowing_picture.png",
+      "actual": "CH01_R10_forest_book_swallowing_picture.png",
+      "alias": false,
+      "uses": [
+        "c01-s01-p02",
+        "c01-s01-p03"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "d550b247385939c5e599e602658cf175f76bb167601082ce2eb017a0b129f628",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_R11",
+      "expected": "CH01_R11_sleeping_snake_imagination.png",
+      "actual": "CH01_R11_sleeping_snake_imagination.png",
+      "alias": false,
+      "uses": [
+        "c01-s01-p03"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "0a35462d413782b8f07603007828a4bf39d9367298e33d18962dbd5adda192d0",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_R12",
+      "expected": "CH01_R12_opening_blank_paper_and_pencil.png",
+      "actual": "CH01_R12_opening_blank_paper_and_pencil.png",
+      "alias": false,
+      "uses": [
+        "c01-s01-p01"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "37ef45d1c01fc7e2e8f6e69fc052c730643133ef5cc5dc7d6f5750a9b6051379",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_S10",
+      "expected": "CH01_S10_child_reading_at_round_table.png",
+      "actual": "CH01_S10_child_reading_at_round_table.png",
+      "alias": false,
+      "uses": [
+        "c01-s01-p02",
+        "c01-s01-p03"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "85dab7dadb86fe79e4a25a17eb5e9a092867cc496962edee47bdfce7bab0c82a",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_S11",
+      "expected": "CH01_S11_child_drawing_at_round_table.png",
+      "actual": "CH01_S11_child_drawing_at_round_table.png",
+      "alias": false,
+      "uses": [
+        "c01-s01-p04",
+        "c01-s03-p01"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "67b50478f867878528a5490af8b6ad90dacbb3ffbc32817fd63c041a492ce5f7",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_S12",
+      "expected": "CH01_S12_child_presenting_and_explaining.png",
+      "actual": "CH01_S12_child_presenting_and_explaining.png",
+      "alias": false,
+      "uses": [
+        "c01-s02-p01",
+        "c01-s02-p02",
+        "c01-s02-p03",
+        "c01-s03-p02"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "b9072cd44ce26ebfd9c5ad1afbfc64834d26ec961e959dc382752df46f6fcad5",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_S13",
+      "expected": "CH01_S13_childhood_adults_questioning.png",
+      "actual": "CH01_S13_childhood_adults_questioning.png",
+      "alias": false,
+      "uses": [
+        "c01-s02-p01",
+        "c01-s02-p02",
+        "c01-s02-p03"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "eb3121b1a7ef943bc373dce041e373e7e5cb6d18c96b588832165bff89d34358",
+      "status": "male cell used; original woman superseded by correction",
+      "inspection": "Original LEFT male cell used without mirroring. Original RIGHT female cell excluded. Only the leftmost RIGHT-facing woman from the correction sheet is used as a quiet observer; the man supplies the change of gesture.",
+      "correction_source": "production/chapter-01/props/raw/woman_both_states_facing_right.png"
+    },
+    {
+      "request": "CH01_S14",
+      "expected": "CH01_S14_childhood_adults_redirecting.png",
+      "actual": "CH01_S14_childhood_adults_redirecting.png",
+      "alias": false,
+      "uses": [
+        "c01-s03-p02"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "353a971c93ba3234e0a4f29be1aeb7b9d3678884aedcbd51d7c3e7b54a98ab37",
+      "status": "male cell used; original woman superseded by correction",
+      "inspection": "Original LEFT male cell used without mirroring. Original RIGHT female cell excluded. Only the leftmost RIGHT-facing woman from the correction sheet is used as a quiet observer; the man supplies the change of gesture.",
+      "correction_source": "production/chapter-01/props/raw/woman_both_states_facing_right.png"
+    },
+    {
+      "request": "CH01_S15",
+      "expected": "CH01_S15_child_putting_pencil_down.png",
+      "actual": "CH01_S15_child_putting_pencil_down.png",
+      "alias": false,
+      "uses": [
+        "c01-s03-p03"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "e091a643565bf0a6713be76e44d367942281d1b4500b0478bd808cd8b0397d6e",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_S16",
+      "expected": "CH01_S16_child_tired_of_explaining.png",
+      "actual": "CH01_S16_child_tired_of_explaining.png",
+      "alias": false,
+      "uses": [
+        "c01-s03-p04"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "092c6f69c07375810e8c09b392c5071200c09cb5e00cce6db8d83fe8cc70ffd7",
+      "status": "original superseded by received correction",
+      "inspection": "Original wrong-side/open-book group preserved unused. Corrected tired-child group keeps the child on the RIGHT facing LEFT, closed book at far LEFT and sheet exposed; used on c01-s03-p04.",
+      "correction_source": "production/chapter-01/props/raw/tired_child_same_table.png"
+    },
+    {
+      "request": "CH01_S17",
+      "expected": "CH01_S17_day_aircraft_with_pilot_facing_left.png",
+      "actual": "H01_S17_day_aircraft_with_pilot_facing_left.png",
+      "alias": true,
+      "uses": [
+        "c01-s04-p01"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "e47abae31838df4b5d8c391910981429fe7dcbe899b3cc042d95db2da5d424bc",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    },
+    {
+      "request": "CH01_S18",
+      "expected": "CH01_S18_night_aircraft_with_pilot_facing_right.png",
+      "actual": "CH01_S18_night_aircraft_with_pilot_facing_right.png",
+      "alias": false,
+      "uses": [
+        "c01-s04-p02"
+      ],
+      "format": "PNG",
+      "size": [
+        2400,
+        1792
+      ],
+      "sha256": "f3082287bde03a815403aaf54895b5facf2fbea7514574b76ad9674be5936d32",
+      "status": "inspected_usable_for_planned_state",
+      "inspection": "Identity, pose/content and full source inspected; original preserved."
+    }
+  ],
+  "new_correction_requests": [
+    {
+      "request": "CH01_C03",
+      "output": "CH01_C03_woman_questioning_redirecting_right.png",
+      "instructions": "production/chapter-01/next-returns/01_woman_both_states_facing_right/START_HERE.txt",
+      "status": "received, inspected and used",
+      "actual": "woman_both_states_facing_right.png",
+      "sha256": "29ffdbe679e502f0b7bb4a7d8176c62b39e4ae68d579737ad84b9396a8d70d0b"
+    },
+    {
+      "request": "CH01_S16_v2",
+      "output": "CH01_S16_child_tired_of_explaining_v2.png",
+      "instructions": "production/chapter-01/next-returns/02_tired_child_same_table/START_HERE.txt",
+      "status": "received, inspected and used",
+      "actual": "tired_child_same_table.png",
+      "sha256": "689682ad2716d642d8905b6065df1359936214c2b16d1912c05c9596142e2e67"
+    }
+  ],
+  "new_compositions": [
+    "c01-s01-p01",
+    "c01-s01-p02",
+    "c01-s01-p03",
+    "c01-s01-p04",
+    "c01-s02-p01",
+    "c01-s02-p02",
+    "c01-s02-p03",
+    "c01-s03-p01",
+    "c01-s03-p02",
+    "c01-s03-p03",
+    "c01-s03-p04",
+    "c01-s04-p01",
+    "c01-s04-p02"
+  ],
+  "pending_pages": {},
+  "paid_generations_submitted": 0,
+  "visual_approval_of_new_pages": "pending user review",
+  "source_note": "Two H01 filenames mapped to CH01 request IDs without altering originals.",
+  "status": "All needed sources received, inspected and used; no source corrections pending",
+  "pending_correction_requests": [],
+  "corrected_sources_received": [
+    {
+      "source": "production/chapter-01/props/raw/woman_both_states_facing_right.png",
+      "sha256": "29ffdbe679e502f0b7bb4a7d8176c62b39e4ae68d579737ad84b9396a8d70d0b",
+      "returned_figures": 3,
+      "used_figures": 1,
+      "selected": "leftmost RIGHT-facing complete woman",
+      "unused": "middle and rightmost LEFT-facing women",
+      "assessment": "Leftmost RIGHT-facing complete woman only, as quiet observer in c01-s02-p01, c01-s02-p02, c01-s02-p03 and c01-s03-p02. Other two variants unused; man carries the changes of response."
+    },
+    {
+      "source": "production/chapter-01/props/raw/tired_child_same_table.png",
+      "sha256": "689682ad2716d642d8905b6065df1359936214c2b16d1912c05c9596142e2e67",
+      "assessment": "Correct child/chair side, closed book, resting pencil, clear blank sheet and supported cheeks; suitable for tired-child page."
+    }
+  ],
+  "shared_source_registry": "production/shared/thought-clouds/registry.json",
+  "shared_source_received": {
+    "source": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+    "sha256": "e916dd74b1f35d9d6225c8faaae70659c97d3663a046409e88ef8d01c5d2350a",
+    "prepared_components": "production/shared/thought-clouds/prepared/components.json",
+    "used_pages": [
+      "c01-s01-p03",
+      "c01-s02-p03"
+    ]
+  },
+  "delivery": "production/chapter-01/delivery/chapter-01-v010",
+  "current_layouts": "production/chapter-01/current/pages"
+}

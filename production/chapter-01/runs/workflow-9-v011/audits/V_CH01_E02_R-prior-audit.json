@@ -1,0 +1,29 @@
+{
+  "node_id": "V_CH01_E02_R",
+  "source_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast__attempt-2.png",
+  "source_sha256": "987b4a7b56801a74f0d29a8a570b957255289f3ee8c260c56862c9ccb7b119b4",
+  "submitted_prompt": "Previous attempt prompt for V_CH01_E02_R before Workflow-9 revision.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T14:01:00+03:00",
+  "issues": [
+    {
+      "issue_id": "E02R01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        1180,
+        100,
+        1050,
+        1500
+      ],
+      "observed": "Prior legacy multi-cell pose sheet packed two states together and was retired under user fresh-start cleanup.",
+      "expected": "Single seated civilian pilot on the same wooden chair still facing three-quarter RIGHT, chin lowered, gaze down at blank sheet on lap under both still hands in quiet inward loneliness.",
+      "precise_fix": "E02R01: Generate single-state expression/action edit on Sunburst (gpt_image_2_6) directly from the clean accepted Workflow-9 seated pilot neutral master.",
+      "recheck": "Verify single-state anatomy, prop count, dot eyes, preserved support geometry, and clean alpha/shadow.",
+      "material_impact": "Cannot compose target Chapter 1 pages without an accepted Workflow-9 variant.",
+      "local_fix_ruled_out": "Prior source was retired under user fresh-start cleanup; new generation from Workflow-9 neutral master required."
+    }
+  ]
+}

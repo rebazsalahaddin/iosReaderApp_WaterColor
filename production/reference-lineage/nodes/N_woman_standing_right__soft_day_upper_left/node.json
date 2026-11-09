@@ -1,0 +1,91 @@
+{
+  "id": "N_woman_standing_right__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_grownup2"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_grownup2"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Grey-haired woman standing three-quarter RIGHT, shoes RIGHT, neutral face, hands low; child eye line below-right.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "woman_standing_right",
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "affected_pages": [
+    "c01-s02-p01",
+    "c01-s02-p02",
+    "c01-s02-p03",
+    "c01-s03-p02"
+  ],
+  "legacy_tokens": [
+    "CH01_S13:R",
+    "CH01_S14:R",
+    "CH01_E04:R"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S13_childhood_adults_questioning/reference-images/03_LP_scale_child_grownups.png",
+      "sha256": "64af22820bab6a44b0252a6c1e5b9da849d7ecd425dd8658f34a7e4ba387f34f",
+      "role": "Childhood size authority: older man H=1000, woman .96H, six-year-old narrator .66H; preserve own anatomy, compare standing equivalents, never visible seated height."
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S13_childhood_adults_questioning/reference-images/06_CH01_S13_PACKING_GUIDE.png",
+      "sha256": "9959830ab141334b339e106c2b71065ea097a08404264f9758b7e68a26ced619",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S13_childhood_adults_questioning/reference-images/07_c01-s02-p02_COMPOSITION_GUIDE.png",
+      "sha256": "67cd4b9ee5a5c4445c77152eed07e0ab04433e015feb4c4221b3d56bac6ceda9",
+      "role": "TECHNICAL final-page placement for c01-s02-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/03_LP_scale_child_grownups.png",
+      "sha256": "64af22820bab6a44b0252a6c1e5b9da849d7ecd425dd8658f34a7e4ba387f34f",
+      "role": "Childhood size authority: older man H=1000, woman .96H, six-year-old narrator .66H; preserve own anatomy, compare standing equivalents, never visible seated height."
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/07_CH01_S14_PACKING_GUIDE.png",
+      "sha256": "93bc426fd2a30e72cde89e85580fb11318539fcc9b2ba46fc9b81d1090ac339c",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/reference-images/08_c01-s03-p02_COMPOSITION_GUIDE.png",
+      "sha256": "1157248f9715d013ec65fd37c82e77f43712a33b2040fa930e419a63d87bce91",
+      "role": "TECHNICAL final-page placement for c01-s03-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/01_CH01_S13_childhood_adults_questioning.png",
+      "sha256": "a97ab55db17f19a359b12995f81642006245c65230a049ed7a44c967cd787a16",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces RIGHT. Change only the requested coherent expression/gesture state, preserving design and support geometry."
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/02_woman_both_states_facing_right.png",
+      "sha256": "b2a6e085cf9d4254d9815cdab6bb9acd17a49bb36252720f84463d4b1c1f35a6",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces RIGHT. Change only the requested coherent expression/gesture state, preserving design and support geometry."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_woman_standing_right__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Grey-haired woman standing three-quarter RIGHT, shoes RIGHT, neutral face, hands low; child eye line below-right. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft neutral daylight from upper-left; preserve the established local colours. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "54c7e3106169c30f743290b3169c70e351d7c3aac7b8ee3d306c97c03566b06e",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_woman_standing_right__soft_day_upper_left"
+}

@@ -1,0 +1,11 @@
+{
+  "chapter": 1,
+  "workflow_version": 9,
+  "status": "delivered",
+  "current_edition": "v011",
+  "component_pages_complete": 19,
+  "component_pages_pending": 0,
+  "delivery_folder": "production/chapter-01/delivery/chapter-01-v011",
+  "delivery_archive": "production/chapter-01/delivery/Chapter_01_Illustrations_v11.zip",
+  "cleanup_inventory": "production/workflow-9/authorized-removal-inventory.json"
+}

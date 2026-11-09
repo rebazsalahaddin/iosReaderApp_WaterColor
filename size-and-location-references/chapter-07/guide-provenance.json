@@ -1,0 +1,50 @@
+{
+  "chapter": 7,
+  "method": "Pillow programmatic technical layout; thumbnails of existing source art plus explicitly schematic placement zones; no generative calls",
+  "programmatic_targets": null,
+  "generated_guides": [
+    {
+      "path": "size-and-location-references/chapter-07/CH07_G01_size_and_sheet_layout.png",
+      "sha256": "4e9637a05c856a02ca41048473782316b2572c7462b7d70aaef320226797eb0f",
+      "pixels": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "size-and-location-references/chapter-07/CH07_L01_location_and_placement.png",
+      "sha256": "5317e784b03a10598a8ee112d073728fc6d2900fdd2ca886c83aaf155880d864",
+      "pixels": [
+        2400,
+        1792
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "source": "size-and-location-references/shared/LP_scale_prince_pilot_standing.png",
+      "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c"
+    },
+    {
+      "source": "size-and-location-references/shared/LP_ch07_tools_scale_guide.png",
+      "sha256": "63375b8726d891f0e2e756dbe2192e7b57bb09e16b84de27ae2b3b2aacdbb4b9"
+    },
+    {
+      "source": "size-and-location-references/shared/LP_ch07_embrace_scale_guide.png",
+      "sha256": "75841b8e6ab99dc1008782e6f12ba759a79feeeae5a00fb4e411d4dd83971b49"
+    },
+    {
+      "source": "size-and-location-references/shared/LP_ch07_flower_scale_guide.png",
+      "sha256": "7964d694bc82a04a5bbc162e4ef375dc28f79924381dabc4decc893ceb46a9e7"
+    },
+    {
+      "source": "production/shared/backgrounds/LP_ref_sahara_day.jpg",
+      "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da"
+    },
+    {
+      "source": "production/shared/backgrounds/LP_ref_sahara_night.jpg",
+      "sha256": "c99e972cf519b1be1804535072d92b5a7bad4b24a9f82dd56eb312abaac15bb7"
+    }
+  ],
+  "status": "technical planning only; not final-art approval"
+}

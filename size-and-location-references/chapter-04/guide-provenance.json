@@ -1,0 +1,46 @@
+{
+  "chapter": 4,
+  "method": "Pillow programmatic technical layout; thumbnails of existing source art plus explicitly schematic placement zones; no generative calls",
+  "programmatic_targets": null,
+  "generated_guides": [
+    {
+      "path": "size-and-location-references/chapter-04/CH04_G01_size_and_sheet_layout.png",
+      "sha256": "e4a059b9051da8fc0ffd339cf4cb226291e1bb1486b78935ae32b0b049320248",
+      "pixels": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "size-and-location-references/chapter-04/CH04_L01_location_and_placement.png",
+      "sha256": "1c8a64e3a9747fed0388b379ff8b5bf7345f9dd5d153101d7a5eda54b3245e13",
+      "pixels": [
+        2400,
+        1792
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "source": "appearance-references/shared/LP_ref_pilot_room_seated_wide_ch04.png",
+      "sha256": "84a998873c12c79d40582bd09eea3759fc72c363da606229ffda37d1412bcf23"
+    },
+    {
+      "source": "appearance-references/shared/LP_ref_pilot_room_seated_close_ch04.png",
+      "sha256": "9799b2e0271577589cca143f107cddfbf0bf1a3690d5896c0431ef25b273ec62"
+    },
+    {
+      "source": "appearance-references/shared/LP_ref_pilot_room_standing_ch04.png",
+      "sha256": "565aec88e81db8b99c2c56d8eb81136b04db08df1f77fd801a99e3f1c2604d36"
+    },
+    {
+      "source": "size-and-location-references/shared/LP_scale_astronomer_costumes.png",
+      "sha256": "f3a6d783f22457742cbcb93f80fea7454dac740b3d30c551565abe70b0dce747"
+    },
+    {
+      "source": "size-and-location-references/shared/LP_ch04_planet_scale_guide.png",
+      "sha256": "c9d6479c252c5f54547cef4d324840ab68464f670e2ff7944f864e5b857581e6"
+    }
+  ],
+  "status": "technical planning only; not final-art approval"
+}

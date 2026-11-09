@@ -1,0 +1,30 @@
+{
+  "imagining": {
+    "scale": 0.3860714260516076,
+    "position": [
+      1053,
+      927
+    ],
+    "purpose": "Diagnostic backing only. No accepted page, no delivery export, no changed camera authority.",
+    "background": "production/chapter-01/props/raw/H01_B10_childhood_room_without_foreground_furniture.png"
+  },
+  "standing": {
+    "scale": 0.42,
+    "position": [
+      900,
+      790
+    ],
+    "purpose": "Diagnostic backing only. No accepted page, no delivery export, no changed camera authority.",
+    "background": "production/chapter-01/props/raw/H01_B10_childhood_room_without_foreground_furniture.png"
+  },
+  "local_repair_test": {
+    "file": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-support-restore-test.png",
+    "accepted": false,
+    "scope": "Only protected unchanged parent support/shadow pixels copied; no anatomy generated or hand/head swaps.",
+    "protected_pixel_count": 1504384,
+    "protected_rgba_equal_fraction_before": 0.12287953075810432,
+    "protected_rgba_equal_fraction_after": 1.0,
+    "book_roi_unchanged": true,
+    "conclusion": "Support/shadow restoration is local and uses no paid attempt; the closed book persists and cannot be opened by this repair. Test not accepted as a final source."
+  }
+}

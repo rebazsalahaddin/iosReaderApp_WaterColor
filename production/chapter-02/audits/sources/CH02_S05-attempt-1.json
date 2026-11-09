@@ -1,0 +1,163 @@
+{
+ "request_id": "CH02_S05",
+ "attempt": 1,
+ "job_id": "d84f7cb6-1094-4885-a0cd-46331b952caf",
+ "source_file": "production/chapter-02/props/raw/CH02_S05_prince_listening_and_delighted.png",
+ "source_sha256": "1f88776fe8c271e1d90e48bba2a63b9b61bf799dba25a287dadd0d5b40ef482d",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "1464fff45b4ff9761ffa502195212d7057a6b86dd78c507ee90791bde3c25f33",
+ "attachments": [],
+ "cells": [
+  "L",
+  "R"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Same prince both cells: golden messy hair, sage coat, coral scarf, brass buttons, brown boots, child proportions; watercolor style consistent."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "LEFT: three-quarter facing viewer-LEFT (toes/placket/shoulder/pupils leftward), quiet attentive closed-mouth, hands relaxed at sides. RIGHT: three-quarter facing viewer-LEFT, delighted gentle closed-mouth smile, hands relaxed, no gesture toward nonexistent prop."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "Two single-child cells; no props/papers/labels; clean separation gutter."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "Flat #FF00FF-family key (corner 254,11,253) through gaps; no fringe; no clipping (L bounds [267,126,875,1647], R [1539,125,2150,1648])."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Standing figures ~1520px tall; final 610px standing height at scale ~0.40; ample pixels."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "PENDING_EXTRACTION",
+   "evidence": "Standard magenta keying in preparation step."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Both emotional beats read clearly at reading size."
+  },
+  "second_contract_check": {
+   "verdict": "PASS",
+   "evidence": "Focused five-cue direction recheck on both cell crops confirms viewer-LEFT facing; contract states match exactly; also confirms suitability as substitute for blocked S02:L asking pages."
+  }
+ },
+ "issues": [],
+ "verdict": "PASS",
+ "accepted_cells": [
+  "L",
+  "R"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "cell_audits": {
+  "L": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[L] Same prince both cells: golden messy hair, sage coat, coral scarf, brass buttons, brown boots, child proportions; watercolor style consistent."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[L] LEFT: three-quarter facing viewer-LEFT (toes/placket/shoulder/pupils leftward), quiet attentive closed-mouth, hands relaxed at sides. RIGHT: three-quarter facing viewer-LEFT, delighted gentle closed-mouth smile, hands relaxed, no gesture toward nonexistent prop."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[L] Two single-child cells; no props/papers/labels; clean separation gutter."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[L] Flat #FF00FF-family key (corner 254,11,253) through gaps; no fringe; no clipping (L bounds [267,126,875,1647], R [1539,125,2150,1648])."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[L] Standing figures ~1520px tall; final 610px standing height at scale ~0.40; ample pixels."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[L] Standard magenta keying in preparation step."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[L] Both emotional beats read clearly at reading size."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[L] Focused five-cue direction recheck on both cell crops confirms viewer-LEFT facing; contract states match exactly; also confirms suitability as substitute for blocked S02:L asking pages."
+    }
+   },
+   "summary": "Cell L of CH02_S05: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  },
+  "R": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[R] Same prince both cells: golden messy hair, sage coat, coral scarf, brass buttons, brown boots, child proportions; watercolor style consistent."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[R] LEFT: three-quarter facing viewer-LEFT (toes/placket/shoulder/pupils leftward), quiet attentive closed-mouth, hands relaxed at sides. RIGHT: three-quarter facing viewer-LEFT, delighted gentle closed-mouth smile, hands relaxed, no gesture toward nonexistent prop."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[R] Two single-child cells; no props/papers/labels; clean separation gutter."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[R] Flat #FF00FF-family key (corner 254,11,253) through gaps; no fringe; no clipping (L bounds [267,126,875,1647], R [1539,125,2150,1648])."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[R] Standing figures ~1520px tall; final 610px standing height at scale ~0.40; ample pixels."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[R] Standard magenta keying in preparation step."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[R] Both emotional beats read clearly at reading size."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[R] Focused five-cue direction recheck on both cell crops confirms viewer-LEFT facing; contract states match exactly; also confirms suitability as substitute for blocked S02:L asking pages."
+    }
+   },
+   "summary": "Cell R of CH02_S05: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "Left cell additionally designated substitute for the seven blocked S02:L pages per ledger plan.",
+ "reviewed_at": "2026-11-07T14:50:00.000000+00:00",
+ "cell_details": [
+  {
+   "cell": "L",
+   "bounds_source_px": [
+    267,
+    126,
+    875,
+    1647
+   ],
+   "source_file": "production/chapter-02/props/raw/CH02_S05_prince_listening_and_delighted.png",
+   "source_sha256": "1f88776fe8c271e1d90e48bba2a63b9b61bf799dba25a287dadd0d5b40ef482d"
+  },
+  {
+   "cell": "R",
+   "bounds_source_px": [
+    1539,
+    125,
+    2150,
+    1648
+   ],
+   "source_file": "production/chapter-02/props/raw/CH02_S05_prince_listening_and_delighted.png",
+   "source_sha256": "1f88776fe8c271e1d90e48bba2a63b9b61bf799dba25a287dadd0d5b40ef482d"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "V_CH01_E01_L",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_pilot_social_chair_right__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_pilot_social_chair_right__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "same adult pilot, seated three-quarter RIGHT, leaning forward slightly from his hips, eyes directed at the off-sheet adults to his RIGHT, raised expectant eyebrows, a warm open hopeful smile. Both hands extend one blank ivory landscape sheet invitingly toward RIGHT at mid-chest. This is an active hopeful offer, not passive holding.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_E01",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c01-s05-p01",
+    "c01-s05-p02"
+  ],
+  "allowed_changes": "same adult pilot, seated three-quarter RIGHT, leaning forward slightly from his hips, eyes directed at the off-sheet adults to his RIGHT, raised expectant eyebrows, a warm open hopeful smile. Both hands extend one blank ivory landscape sheet invitingly toward RIGHT at mid-chest. This is an active hopeful offer, not passive holding.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Each cell contains one complete coherent adult pilot, the SAME wooden chair, both boots and exactly one blank paper. Chair, pelvis and feet remain angled RIGHT; the right cell is NOT mirrored. Keep matching head dimensions, seat height, chair geometry and foot contacts between states; all changes above the hips. Sheet visible front plane wide enough for the original graphite drawing to be composited later, hands on margins. Do not draw a hat or snake. Chairs stay in the same projected position in both cells.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH01_E01_L/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: same adult pilot, seated three-quarter RIGHT, leaning forward slightly from his hips, eyes directed at the off-sheet adults to his RIGHT, raised expectant eyebrows, a warm open hopeful smile. Both hands extend one blank ivory landscape sheet invitingly toward RIGHT at mid-chest. This is an active hopeful offer, not passive holding. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/audit-contract.json",
+  "prompt_sha256": "ab546ac48f6349342b217fc6eaf969f3f3f197f012e82acab9a7e8c766658d1e",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH01_E01_L",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

@@ -1,0 +1,510 @@
+{
+  "id": "CH03_S01",
+  "chapter": 3,
+  "code": "S01",
+  "title": "pilot explaining and pointing",
+  "kind": "pose",
+  "cells": [
+    "LEFT: pilot standing facing RIGHT, mildly concerned listening face, arms relaxed.",
+    "RIGHT: same standing pilot pointing with his right arm toward an aircraft off-frame LEFT, glancing toward child at RIGHT, modest pride."
+  ],
+  "refs": [
+    "pilot",
+    "standing",
+    "success_style",
+    "style"
+  ],
+  "details": " DIRECTION LOCK: LEFT: feet/torso/head RIGHT. RIGHT: feet/torso RIGHT, pointing anatomical right arm across toward aircraft LEFT, head turned RIGHT toward child. Do not turn the whole pilot left.",
+  "key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "slug": "pilot_explaining_and_pointing",
+  "output": "CH03_S01_pilot_explaining_and_pointing.png",
+  "raw_output_folder": "production/chapter-03/props/raw",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c02-s01-p02",
+    "c03-s01-p02",
+    "c03-s01-p03",
+    "c03-s01-p04",
+    "c03-s01-p05",
+    "c03-s02-p01",
+    "c03-s02-p02",
+    "c03-s02-p03",
+    "c03-s03-p01",
+    "c03-s03-p02",
+    "c03-s03-p03",
+    "c05-s01-p02",
+    "c05-s01-p03",
+    "c05-s01-p04",
+    "c05-s01-p05",
+    "c05-s01-p06",
+    "c05-s03-p03",
+    "c06-s01-p02",
+    "c06-s01-p03",
+    "c06-s01-p04",
+    "c06-s02-p04",
+    "c08-s04-p02",
+    "c08-s04-p03",
+    "c08-s04-p04",
+    "c08-s04-p05",
+    "c25-s01-p02",
+    "c25-s01-p03",
+    "c25-s01-p04",
+    "c25-s01-p09",
+    "c25-s01-p10",
+    "c25-s02-p01",
+    "c25-s02-p02",
+    "c25-s02-p07",
+    "c25-s02-p08",
+    "c25-s02-p09"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing",
+  "representative_page": "c02-s01-p02",
+  "placement_targets": [
+    {
+      "page": "c02-s01-p02",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s01-p02",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s01-p03",
+      "cell": "CH03_S01:R",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s01-p04",
+      "cell": "CH03_S01:R",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s01-p05",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s02-p01",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s02-p02",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s02-p03",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s03-p01",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s03-p02",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c03-s03-p03",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c05-s01-p02",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c05-s01-p03",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c05-s01-p04",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c05-s01-p05",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c05-s01-p06",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c05-s03-p03",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c06-s01-p02",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c06-s01-p03",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c06-s01-p04",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c06-s02-p04",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c08-s04-p02",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c08-s04-p03",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c08-s04-p04",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c08-s04-p05",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s01-p02",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        310,
+        530,
+        420,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s01-p03",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        310,
+        530,
+        420,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s01-p04",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        120,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s01-p09",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        310,
+        530,
+        420,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s01-p10",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        310,
+        530,
+        420,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s02-p01",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        310,
+        530,
+        420,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s02-p02",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        310,
+        530,
+        420,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s02-p07",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        310,
+        530,
+        420,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s02-p08",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        310,
+        530,
+        420,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c25-s02-p09",
+      "cell": "CH03_S01:L",
+      "box_px": [
+        310,
+        530,
+        420,
+        1000
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/01_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "02_LP_scale_prince_pilot_standing.png",
+      "role": "Same-depth prince/pilot standing height .61 (band .58\u2013.64); head HEIGHT .86 (band .81\u2013.91). Do not use for unrelated adults or seated-height comparisons.",
+      "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/02_LP_scale_prince_pilot_standing.png",
+      "status": "supplied",
+      "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+      "source_key": "standing"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_CH03_S01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/05_CH03_S01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "cb024c6ff5e6fe7be5a93ac43e9d2243a55ea90c00d3f3d9df8bfe47314faa39"
+    },
+    {
+      "name": "06_c02-s01-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c02-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-03/reusable-poses/S01_pilot_explaining_and_pointing/reference-images/06_c02-s01-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "b287aa2e99f267731a0f9e8d7b6aaf3e4286283f7a13177fe1b0ed43f0d3ce02"
+    }
+  ],
+  "readiness": "ready_for_agent_generation",
+  "prompt": "CH03_S01 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- L: pilot standing facing RIGHT, mildly concerned listening face, arms relaxed.\n  Actual short payload: production/reference-lineage/nodes/V_CH03_S01_L/PROMPT.txt\n- R: same standing pilot pointing with his right arm toward an aircraft off-frame LEFT, glancing toward child at RIGHT, modest pride.\n  Actual short payload: production/reference-lineage/nodes/V_CH03_S01_R/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "L": "V_CH03_S01_L",
+    "R": "V_CH03_S01_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "A_CH05_R01_L",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-05/references/R01_seedlings_and_soil_explanation/reference-images/02_LP_ref_flower_stages.png",
+        "sha256": "7bc7d5701b3937e437f670d1ea79c36e79e86cd19a072e2db2c26032d2f2e228",
+        "role": "Special flower: lower-left CORAL rose, two leaves and exactly four small thorns. Upper-left shoot and upper-right bud only when named. Lower-right supplies the plain bell cover; no knob or wooden base."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "four separately spaced small plant studies: ambiguous early shoot, recognisable young baobab, young rose shoot, low vegetable rosette. No grown rose bloom.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH05_R01",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c05-s01-p01",
+    "c05-s02-p01",
+    "c05-s02-p02",
+    "c05-s02-p03"
+  ],
+  "audit_only_details": "Editorial botany, not a scientific identification chart; omit labels. Treat this as small props, not four full-body figures. No seed monsters or roots breaking B-612.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH05_R01_L/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. four separately spaced small plant studies: ambiguous early shoot, recognisable young baobab, young rose shoot, low vegetable rosette. No grown rose bloom. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-05/references/R01_seedlings_and_soil_explanation/audit-contract.json",
+  "prompt_sha256": "eceffa2377289bc97e722835d63390e3ebbc5237c66f7963a7ac4bdfeb8b7cb5",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH05_R01_L"
+}

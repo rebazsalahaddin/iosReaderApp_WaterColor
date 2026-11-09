@@ -1,0 +1,76 @@
+{
+  "id": "CH17_A01",
+  "chapter": 17,
+  "code": "A01",
+  "title": "snake appearance reference",
+  "kind": "appearance",
+  "cells": [
+    "LEFT: one slender gold-yellow desert snake in a loose low ring, closed small mouth, simple dark eyes, quiet non-menacing expression.",
+    "RIGHT: same snake in an extended gentle S curve at the same body thickness and total length."
+  ],
+  "refs": [
+    "prince",
+    "success_style",
+    "style"
+  ],
+  "details": "NEW PROPOSED IDENTITY: no existing snake master supplied. Watercolor style matches book; body about .75 P long, thickness about .025 P as explicit production choices, not measured zoology. No hood, legs, rattle, crown, jewellery or visible fangs. Approve one consistent appearance before dependent contacts.",
+  "key": null,
+  "light": "Neutral soft light for an identity reference; no environmental cast.",
+  "dependencies": [],
+  "slug": "snake_appearance_reference",
+  "output": "CH17_A01_snake_appearance_reference.png",
+  "raw_output_folder": "production/chapter-17/props/raw",
+  "status": "planned_required_not_generated",
+  "uses": [],
+  "referenced_by_requests": [
+    "CH17_S02",
+    "CH26_S02",
+    "CH26_R01",
+    "CH17_S03"
+  ],
+  "required": true,
+  "folder": "story-and-continuity/chapter-17/references/A01_snake_appearance_reference",
+  "placement_targets": [],
+  "attachments": [
+    {
+      "name": "01_LP_ref_char_prince_turnaround.png",
+      "role": "Prince identity: golden hair, rounded child face, sage coat, CORAL scarf, brass buttons and brown boots; never enlarge him to adult proportions.",
+      "path": "story-and-continuity/chapter-17/references/A01_snake_appearance_reference/reference-images/01_LP_ref_char_prince_turnaround.png",
+      "status": "supplied",
+      "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+      "source_key": "prince"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-17/references/A01_snake_appearance_reference/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-17/references/A01_snake_appearance_reference/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_CH17_A01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-17/references/A01_snake_appearance_reference/reference-images/04_CH17_A01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "6df23bd157b23558bd778c02decb00729ac13117869c2d5f723cc063ce6852ee"
+    }
+  ],
+  "readiness": "ready_for_agent_generation",
+  "prompt": "CH17_A01 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- L: one slender gold-yellow desert snake in a loose low ring, closed small mouth, simple dark eyes, quiet non-menacing expression.\n  Actual short payload: production/reference-lineage/nodes/V_CH17_A01_L/PROMPT.txt\n- R: same snake in an extended gentle S curve at the same body thickness and total length.\n  Actual short payload: production/reference-lineage/nodes/V_CH17_A01_R/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "L": "V_CH17_A01_L",
+    "R": "V_CH17_A01_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

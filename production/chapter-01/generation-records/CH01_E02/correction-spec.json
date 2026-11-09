@@ -1,0 +1,41 @@
+{
+  "template_only": false,
+  "source_audit": "production/chapter-01/generation-records/CH01_E02/attempt-1-audit.json",
+  "first_attempt_prompt_file": "production/chapter-01/generation-records/CH01_E02/attempt-1-prompt.txt",
+  "first_attempt_prompt_sha256": "35cd286b79e94b0d95a5d4b627ca78be70e7c9e93d9cb72ba1c3a6cb55512285",
+  "issues_per_sheet": 1,
+  "preserve": [
+    "Keep accepted LEFT speaking group from attempt 1 untouched; only R requires another complete source.",
+    "R sad brows, downturned mouth, cream/tan wardrobe, chair identity, blank lap paper and watercolor rendering already pass.",
+    "One new complete R contact group, full feet and chair; same 4:3 /2K/high settings. Do not mirror or combine loose anatomy."
+  ],
+  "issues": [
+    {
+      "issue_id": "E02-R-DIRECTION",
+      "display": {
+        "observed": "R chair, knees, boots and nose face LEFT. That would turn him away from the group.",
+        "expected": "Complete sad pilot faces RIGHT, like the target orientation. Keep him among the adults.",
+        "precise_fix": "Output ONE complete R group only. Chair back LEFT; knees, toes and nose RIGHT; both hands on lap paper. Keep sad face. Retain L from attempt 1.",
+        "recheck": "Check chair, pelvis, boots, nose separately; sad face; full silhouette, intact paper and hands."
+      },
+      "target": {
+        "mode": "approved_crop",
+        "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/02_CH01_C01_pilot_conversing_and_isolated.png",
+        "sha256": "843389b2cd2b10f76cad6df7900893908fc60b4cd361588903450228f1c41613",
+        "crop_xywh": [
+          0,
+          0,
+          1200,
+          1792
+        ],
+        "feature_bbox_xywh": [
+          120,
+          110,
+          930,
+          1630
+        ],
+        "authority": "Accepted original CH01_C01 LEFT cell controls complete RIGHT-facing seating orientation only. Do not copy its neutral face or lifted-hand gesture; use both hands on lap and sad expression from the requested R state."
+      }
+    }
+  ]
+}

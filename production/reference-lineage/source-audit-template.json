@@ -1,0 +1,81 @@
+{
+  "template_only": true,
+  "node_id": null,
+  "stage": null,
+  "source_file": null,
+  "source_sha256": null,
+  "parents": [],
+  "reviewer": null,
+  "reviewed_at": null,
+  "verdict": null,
+  "checks": {
+    "identity": {
+      "verdict": null,
+      "evidence": null
+    },
+    "dot_eye_design": {
+      "verdict": null,
+      "evidence": null
+    },
+    "native_geometry": {
+      "verdict": null,
+      "evidence": null
+    },
+    "state_expression": {
+      "verdict": null,
+      "evidence": null
+    },
+    "contacts": {
+      "verdict": null,
+      "evidence": null
+    },
+    "alpha": {
+      "verdict": null,
+      "evidence": null
+    },
+    "shadow": {
+      "verdict": null,
+      "evidence": null
+    },
+    "unchanged_regions": {
+      "verdict": null,
+      "evidence": null
+    },
+    "pixel_budget": {
+      "verdict": null,
+      "evidence": null
+    },
+    "text_alignment": {
+      "verdict": null,
+      "evidence": null
+    },
+    "actual_background": {
+      "verdict": null,
+      "evidence": null
+    },
+    "reading_size": {
+      "verdict": null,
+      "evidence": null
+    },
+    "object_count_state": {
+      "verdict": null,
+      "evidence": null
+    },
+    "boundary_and_occlusion": {
+      "verdict": null,
+      "evidence": null
+    }
+  },
+  "allowed_change_regions": [],
+  "issues": [],
+  "workflow_version": 9,
+  "raw_source_file": null,
+  "raw_source_sha256": null,
+  "preparation_record": null,
+  "edit_plan": null,
+  "object_inventory_recheck": [],
+  "registration_evidence": null,
+  "protected_pixels_comparison": null,
+  "derivative_is_new_acceptance": false,
+  "attempt_recheck": []
+}

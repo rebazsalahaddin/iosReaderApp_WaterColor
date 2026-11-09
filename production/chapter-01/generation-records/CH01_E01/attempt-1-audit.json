@@ -1,0 +1,170 @@
+{
+  "template_only": false,
+  "request_id": "CH01_E01",
+  "attempt": 1,
+  "job_id": "aa5dfe50-9318-4c52-b623-d61280703441",
+  "source_file": "production/chapter-01/props/raw/CH01_E01_pilot_reaching_hope_and_withdrawn_disappointment.png",
+  "source_sha256": "f48d8f72bac13193aa5ccde9923afb29158491a15543628046f3535a74ae8400",
+  "actual_format": "PNG",
+  "actual_dimensions": [
+    2400,
+    1792
+  ],
+  "prompt_sha256": "416013de162cb9eb5b89072faf2a95b49b953c4b15e4e26a9d97a59a79cbab73",
+  "attachments": [
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+      "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+      "media_id": "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/02_CH01_S02_pilot_drawing_hope_disappointed.png",
+      "sha256": "475f48380c564fa324a9fe41109ec326b4164b87f306d717b043a9349b0f6de7",
+      "media_id": "0b9c1934-a883-44ce-8934-c52add180ee5"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/reference-images/03_CH01_E01_direction_and_packing.png",
+      "sha256": "cc6b5237fc344b1f9ee7745131a113f6a22ca03738e7ac8df573358463fc9994",
+      "media_id": "15a7b05b-00b7-4323-b518-f315d109f4c6"
+    }
+  ],
+  "parameters": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "high",
+    "aspect_ratio": "4:3",
+    "count": 1
+  },
+  "accepted_cells": [
+    "L",
+    "R"
+  ],
+  "issues": [],
+  "verdict": "PASS",
+  "reviewer": "Codex actual source / light-dark-room matte / placed-scene inspection",
+  "reviewed_at": "2026-11-07T18:23:19.559963+00:00",
+  "cell_audits": {
+    "L": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS",
+          "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Both hands reach the blank sheet to the RIGHT, eyebrows raised, eyes toward listeners and open hopeful smile. Full chair and both boots face right."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Native prepared crop 1060x1496; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS_WITH_NOTE",
+          "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Both hands reach the blank sheet to the RIGHT, eyebrows raised, eyes toward listeners and open hopeful smile. Full chair and both boots face right. This performance remains readable in the reduced component review and chapter composite."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+        }
+      },
+      "source_crop": [
+        96,
+        243,
+        1156,
+        1739
+      ],
+      "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E01_L__rgba-performance-v010.png"
+    },
+    "R": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS",
+          "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Paper withdrawn toward chest, downcast eyes, raised inner brows and downturned mouth. Chair and boots still face right. Blank paper has clear inner corners and fingers along margins."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Native prepared crop 862x1468; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS_WITH_NOTE",
+          "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Paper withdrawn toward chest, downcast eyes, raised inner brows and downturned mouth. Chair and boots still face right. Blank paper has clear inner corners and fingers along margins. This performance remains readable in the reduced component review and chapter composite."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+        }
+      },
+      "source_crop": [
+        1244,
+        265,
+        2106,
+        1733
+      ],
+      "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E01_R__rgba-performance-v010.png"
+    }
+  },
+  "credits_estimated": 2,
+  "credits_actual": null,
+  "checks": {
+    "identity_style": {
+      "verdict": "PASS",
+      "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+    },
+    "orientation_expression": {
+      "verdict": "PASS",
+      "evidence": "Both hands reach the blank sheet to the RIGHT, eyebrows raised, eyes toward listeners and open hopeful smile. Full chair and both boots face right."
+    },
+    "count_state_realm": {
+      "verdict": "PASS",
+      "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+    },
+    "contact_support": {
+      "verdict": "PASS",
+      "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+    },
+    "native_pixel_budget": {
+      "verdict": "PASS",
+      "evidence": "Native prepared crop 1060x1496; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+    },
+    "extraction_light_dark_intended": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+    },
+    "reading_size": {
+      "verdict": "PASS",
+      "evidence": "Both hands reach the blank sheet to the RIGHT, eyebrows raised, eyes toward listeners and open hopeful smile. Full chair and both boots face right. This performance remains readable in the reduced component review and chapter composite."
+    },
+    "second_contract_check": {
+      "verdict": "PASS",
+      "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+    }
+  }
+}

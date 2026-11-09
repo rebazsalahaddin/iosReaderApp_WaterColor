@@ -1,0 +1,113 @@
+{
+ "request_id": "CH02_S04",
+ "attempt": 1,
+ "job_id": "61c3b75b-99ec-47c6-9ed6-6f37f06977da",
+ "source_file": "production/chapter-02/props/raw/CH02_S04_pilot_first_night_asleep.png",
+ "source_sha256": "795d151bec06f789683f774a4fa8ac680f35165c4026d0a3e20c4fd21d4e25aa",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "fc91dfca214905ba53ce6716770f4ee554f08b5ba10db4e5bede99e4316fdbc2",
+ "attachments": [],
+ "cells": [
+  "ONE"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Single adult pilot: goggles on forehead, brown flight jacket over cream shirt, tan trousers, brown boots; quiet storybook watercolor, thin warm contours."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "Asleep on his side, head toward viewer-left, eyes closed peaceful, knees gently bent, one arm under head, other hand near chin; complete horizontal body head-to-boots."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "No blanket/mattress/pillow/ground/sand/second figure; night realm conveyed by pose only, local colors neutral."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "Clean flat magenta key under body and through chin/arm and knee gaps; no fringe; subject bounds [253,583,2194,1207]; margins 10.5/8.6/32.5/32.6% - generous, nothing clipped."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Subject 1941x624px; final box 1200x380 at uniform scale 0.609 (fits, <=1); ample native pixels."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "PENDING_EXTRACTION",
+   "evidence": "Standard magenta keying; to be inspected in preparation step."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Reads clearly as a lone sleeping pilot at reading size."
+  },
+  "second_contract_check": {
+   "verdict": "PASS_WITH_NOTE",
+   "evidence": "Contract state fully met despite attempt-1 process deviation (guides omitted): packing margins exceed the 5-7% minimum, pose/state/identity all conform. Deviation remains recorded in ledger."
+  }
+ },
+ "issues": [],
+ "verdict": "PASS",
+ "accepted_cells": [
+  "ONE"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "cell_audits": {
+  "ONE": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Single adult pilot: goggles on forehead, brown flight jacket over cream shirt, tan trousers, brown boots; quiet storybook watercolor, thin warm contours."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Asleep on his side, head toward viewer-left, eyes closed peaceful, knees gently bent, one arm under head, other hand near chin; complete horizontal body head-to-boots."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[ONE] No blanket/mattress/pillow/ground/sand/second figure; night realm conveyed by pose only, local colors neutral."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Clean flat magenta key under body and through chin/arm and knee gaps; no fringe; subject bounds [253,583,2194,1207]; margins 10.5/8.6/32.5/32.6% - generous, nothing clipped."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Subject 1941x624px; final box 1200x380 at uniform scale 0.609 (fits, <=1); ample native pixels."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Standard magenta keying; to be inspected in preparation step."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Reads clearly as a lone sleeping pilot at reading size."
+    },
+    "second_contract_check": {
+     "verdict": "PASS_WITH_NOTE",
+     "evidence": "[ONE] Contract state fully met despite attempt-1 process deviation (guides omitted): packing margins exceed the 5-7% minimum, pose/state/identity all conform. Deviation remains recorded in ledger."
+    }
+   },
+   "summary": "Cell ONE of CH02_S04: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "Attempt-1 submitted with recorded process deviation (abbreviated prompt, packing/composition guides omitted, guard sequence skipped); return nonetheless satisfies every contract requirement; no correction needed or spent.",
+ "reviewed_at": "2026-11-07T14:50:00.000000+00:00",
+ "cell_details": [
+  {
+   "cell": "ONE",
+   "bounds_source_px": [
+    253,
+    583,
+    2194,
+    1207
+   ],
+   "source_file": "production/chapter-02/props/raw/CH02_S04_pilot_first_night_asleep.png",
+   "source_sha256": "795d151bec06f789683f774a4fa8ac680f35165c4026d0a3e20c4fd21d4e25aa"
+  }
+ ]
+}

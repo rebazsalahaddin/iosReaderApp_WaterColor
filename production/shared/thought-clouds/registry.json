@@ -1,0 +1,114 @@
+{
+  "id": "SHARED_TH01",
+  "status": "received, technically inspected, prepared and used; page appearance awaits user review",
+  "request": "production/chapter-01/next-returns/03_reusable_watercolor_thought_cloud/request.json",
+  "instructions": "production/chapter-01/next-returns/03_reusable_watercolor_thought_cloud/START_HERE.txt",
+  "source_expected": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+  "prepared_source": "production/shared/thought-clouds/prepared/puff-large.png",
+  "accepted_source_sha256": "e916dd74b1f35d9d6225c8faaae70659c97d3663a046409e88ef8d01c5d2350a",
+  "policy": "A thought supports the action: match simple source shapes and quiet watercolor; choose readable subordinate content size, then a minimal opaque painted frame and three owner-linked puffs.",
+  "required_now": [],
+  "future_required": [
+    "c02-s03-p02",
+    "c02-s04-p02",
+    "c06-s01-p04",
+    "c07-s03-p02",
+    "c08-s04-p02",
+    "c10-s02-p07",
+    "c13-s02-p05",
+    "c14-s03-p01",
+    "c15-s03-p05",
+    "c19-s01-p09",
+    "c20-s02-p01",
+    "c21-s02-p03",
+    "c23-s01-p06",
+    "c26-s05-p02"
+  ],
+  "future_optional": {},
+  "exceptions": {
+    "c26-s03-p07": "Whole imagined future scene, not a personal thought-bubble overlay.",
+    "c27-s04-p03": "Tall hypothetical reader-facing inset; no invented thinker or trail, no forced stretching of wide cloud.",
+    "c22-s02-p01": "General editorial doll vignette only, no owned thought trail.",
+    "c23-s01-p01": "Opening spring motif, no thinker or thought trail.",
+    "c24-s02-p06": "Whole childhood-house memory, no cloud needed.",
+    "c25-s01-p08": "Whole Christmas recollection, no extra cloud."
+  },
+  "instructions_after_return": "production/chapter-01/next-returns/03_reusable_watercolor_thought_cloud/ASSEMBLY_AFTER_RETURN.txt",
+  "source_actual": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+  "prepared_components": "production/shared/thought-clouds/prepared/components.json",
+  "pending_required_now": [],
+  "completed_uses": [
+    "c01-s01-p03",
+    "c01-s02-p02",
+    "c01-s02-p03",
+    "c01-s04-p02",
+    "c01-s05-p02"
+  ],
+  "first_inspected_on": "2026-11-07",
+  "user_approved": false,
+  "acceptance_basis": "Agent visual and pixel-preservation inspection; no user approval inferred.",
+  "latest_review": "production/chapter-01/current",
+  "latest_delivery": "production/chapter-01/delivery/chapter-01-v010",
+  "style_profile": {
+    "name": "content-first minimal painted thought frame",
+    "reference_canvas": [
+      2400,
+      1792
+    ],
+    "size_authority": "Content-specific recognition AND whole-page visual balance; simple motifs can be smaller than canonical snake/elephant pictures.",
+    "target_content_width_fraction": [
+      0.78,
+      0.85
+    ],
+    "current_picture_widths_px": {
+      "c01-s01-p03": 640,
+      "c01-s02-p03": 650,
+      "c01-s02-p02": 350,
+      "c01-s04-p02": 450,
+      "c01-s05-p02": 350
+    },
+    "current_frame_sizes_px": {
+      "c01-s01-p03": [
+        800,
+        500
+      ],
+      "c01-s02-p03": [
+        800,
+        380
+      ],
+      "c01-s02-p02": [
+        450,
+        280
+      ],
+      "c01-s04-p02": [
+        590,
+        310
+      ],
+      "c01-s05-p02": [
+        450,
+        280
+      ]
+    },
+    "preferred_empty_frame": "production/shared/thought-clouds/prepared/puff-large.png",
+    "frame_only_aspect_adaptation_allowed": true,
+    "content_uniform_scale_only": true,
+    "rim_opacity": 0.68,
+    "interior_opacity": 1,
+    "trail_puffs": 3,
+    "puff_widths_px": [
+      42,
+      31,
+      22
+    ],
+    "content_strength": 1,
+    "rule": "Minimize empty framing without shrinking the image; inspect safe interior, opaque picture backing and reading-size clarity. Keep source pigment unchanged.",
+    "trail_opacity": 0.92
+  },
+  "current_layouts": [
+    "production/chapter-01/current/pages/c01-s01-p03/layout.json",
+    "production/chapter-01/current/pages/c01-s02-p03/layout.json"
+  ],
+  "safe_interior_policy": "Derive from actual fitted frame alpha >240 eroded 8px, before rim fade; verify all significant original pigment inside.",
+  "text_alignment_review": "production/text-illustration-alignment.json",
+  "trail_count": 3
+}

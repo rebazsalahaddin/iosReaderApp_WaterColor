@@ -1,0 +1,43 @@
+{
+  "id": "A_CH01_R11_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-01/references/R11_sleeping_snake_imagination/reference-images/01_LP_ref_child_book.png",
+        "sha256": "eae9c508aeaaf02488093597bc9511f9f6381cfc0cd95730837e9691a6349c73",
+        "role": "Dusty blue binding, cream paper and central gutter ONLY. Requested pages are blank for later insertion of the correct printed forest picture; do not copy its existing swollen-snake content."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "a gently curled olive-ochre snake resting after a meal, one rounded swollen body and small closed eye; soft bounded forest-colour vignette on cream paper.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_R11",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c01-s01-p03"
+  ],
+  "audit_only_details": "This is an imagined sleeping snake, not a physical snake in the room and not an elephant cutaway. No writing or six moons. Same snake colour as the accepted printed picture.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH01_R11_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. a gently curled olive-ochre snake resting after a meal, one rounded swollen body and small closed eye; soft bounded forest-colour vignette on cream paper. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-01/references/R11_sleeping_snake_imagination/audit-contract.json",
+  "prompt_sha256": "3d9525cf2638f8f354117125fac149f29c079777d6a56833228670be149d20d9",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH01_R11_ONE"
+}

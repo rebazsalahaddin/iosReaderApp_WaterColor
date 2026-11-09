@@ -1,0 +1,160 @@
+{
+  "node_id": "V_CH01_CHILD_IMAGINING",
+  "stage": "expression_variant",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/V_CH01_CHILD_IMAGINING-attempt-2.png",
+  "source_sha256": "f275cca699e28fd5b9976f452bbd11bec097b2f68e36f198c890427f7bc919c3",
+  "source_dimensions": [
+    2336,
+    1744
+  ],
+  "format": "PNG",
+  "mode": "RGBA",
+  "attempt": 2,
+  "job_id": "2216e2a0-6cbc-4222-aada-656705703f81",
+  "parents": [
+    {
+      "node_id": "N_child_table__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-2.png",
+      "sha256": "ba1a56b2874e952e190e6cc668d729ad091d1e5717cd8bc9e0df36728c9f7a7a"
+    }
+  ],
+  "submitted_prompt": "Edit the ONE supplied approved neutral posture. Required change: Same seated child gently raises gaze in wonder, thoughtful brow and small softly parted mouth, hands resting beside the open book; he imagines its snake story. Keep thoughts out of the cutout. Only change the named expression and necessary head/hand/arm or named prop action; preserve the support/camera setup. Keep identical identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair, skin, costume, head/body size, furniture dimensions, camera, registration and watercolor style. Keep the parent support footprint and its shadow EXACTLY: shape, position, hue, softness, alpha and intensity. No added shadow, new floor or matte. One complete state, 4:3, 2K native transparent PNG. Blank paper stays blank for later canonical marks; no labels or thought clouds in this asset.\n\nCORRECTION FOR REMAINING ATTEMPT\nE01: Open the same single dusty-blue book on the table to show blank cream inner pages, with both hands resting beside the open book; preserve the separate blank sheet and pencil, the complete support/camera geometry and identity. Keep the accepted neutral support footprint and shadow exactly unchanged.\nThe intact authority panel is the sole appearance and geometry authority. All diagnostic crops, dark backings, sketch and labels are instruction only; do not paint them. Preserve every other passing feature.\n",
+  "submitted_prompt_file": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-attempt-2-prompt.txt",
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T22:35:51.438736+00:00",
+  "verdict": "BLOCKED",
+  "attempt_limit_exhausted": true,
+  "checks": {
+    "identity": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Chestnut hair, small dot eyes, child age, cream top/tan trousers/brown boots remain recognizable; appearance is not acceptance of altered geometry."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Small brown dot/oval eyes without irises retained."
+    },
+    "state_expression": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Upward wonder and small speaking/open mouth visible. Open-book request is supplied by adding another book, which fails prop count."
+    },
+    "native_geometry": {
+      "verdict": "MATERIAL_FAIL",
+      "evidence": "Complete group is present but table/chair/support registration differs from exact neutral; book count increases to two."
+    },
+    "alpha": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "RGBA native2336x1744; actual cream/dark/room previews inspected. Transparent surround exists; missing required shadow is separately rejected."
+    },
+    "shadow": {
+      "verdict": "MATERIAL_FAIL",
+      "evidence": "The return removes much of the accepted support shadow and changes support placement/complete furniture geometry. Of119760parent pixels with alpha1..179 in the protected region,48.9704% are fully transparent in the return; full protected RGBA match is12.55497%."
+    },
+    "contacts": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Hands meet open book/table; connected child/chair/table remain intact in raw image, but the parent support registration is not preserved."
+    },
+    "unchanged_regions": {
+      "verdict": "MATERIAL_FAIL",
+      "evidence": "The return removes much of the accepted support shadow and changes support placement/complete furniture geometry. Of119760parent pixels with alpha1..179 in the protected region,48.9704% are fully transparent in the return; full protected RGBA match is12.55497%."
+    }
+  },
+  "issues": [
+    {
+      "issue_id": "E02",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        350,
+        740,
+        1120,
+        230
+      ],
+      "dimensions": [
+        2336,
+        1744
+      ],
+      "observed": "A newly opened blue book is added beside the original closed blue book: two distinct complete books are visible. The parent contains one book; opening it must not duplicate it.",
+      "expected": "One dusty-blue book, now open with blank cream inner pages; one separate blank sheet and one pencil.",
+      "precise_fix": "No further generation permitted: preserve evidence and reuse only a genuinely compatible accepted complete state.",
+      "material_impact": "Wrong physical prop count and chronology.",
+      "local_fix_ruled_out": "Removing the extra closed book leaves a hole in the tabletop. No matching unoccluded table pixels exist under it in the accepted neutral; repair would require repainting or invented geometry."
+    },
+    {
+      "issue_id": "E03",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        170,
+        1250,
+        1950,
+        450
+      ],
+      "dimensions": [
+        2336,
+        1744
+      ],
+      "observed": "The return removes much of the accepted support shadow and changes support placement/complete furniture geometry. Of119760parent pixels with alpha1..179 in the protected region,48.9704% are fully transparent in the return; full protected RGBA match is12.55497%.",
+      "expected": "Exactly preserved neutral support footprint and generated shadow, with complete group registration unchanged.",
+      "precise_fix": "No further generation permitted. Do not rebuild anatomy/furniture or move detached shadows.",
+      "material_impact": "Cannot maintain exact same-camera furniture/support registration and parent shadow.",
+      "local_fix_ruled_out": "The first-return test proves exact restoration for an unchanged support arrangement only. The second return moves/repaints supports; blindly restoring the lower parent region would splice incompatible legs/body and fail the complete-group contract."
+    }
+  ],
+  "second_attempt_recheck": [
+    {
+      "issue_id": "E01",
+      "result": "PARTIALLY_RESOLVED_WITH_REGRESSION",
+      "evidence": "An open blank book now exists, but original closed book remains: new E02."
+    },
+    {
+      "issue_id": "L01",
+      "result": "REGRESSION",
+      "evidence": "Shadow is mostly absent and support placement changes; local restoration cannot certify the complete returned group."
+    },
+    {
+      "feature": "identity/dot eyes",
+      "result": "retained"
+    },
+    {
+      "feature": "prop count",
+      "result": "failed: two books"
+    },
+    {
+      "feature": "no diagnostic marks/scenery",
+      "result": "retained"
+    }
+  ],
+  "first_attempt_audit": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-attempt-1-audit.json",
+  "correction_board": {
+    "path": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-correction-board.png",
+    "sha256": "7edde54323aaaeacf1db15c062868d47db94dcf1597a7d3bd1a1dbe1eed91c6a",
+    "authority_parents": [
+      {
+        "node_id": "N_child_table__soft_day_upper_left",
+        "path": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-2.png",
+        "sha256": "ba1a56b2874e952e190e6cc668d729ad091d1e5717cd8bc9e0df36728c9f7a7a"
+      }
+    ],
+    "failed_source_sha256": "8d94484a13c70a12fe0d1e2ada9673322cdbc879d76a55be2d0a05a70a3f3e7b",
+    "issue_ids": [
+      "E01"
+    ],
+    "review_status": "approved_for_retry",
+    "reviewer": "Codex visual inspection",
+    "reviewed_at": "2026-11-07T22:19:39.212819+00:00",
+    "dominant_intact_authority": true,
+    "legible_at_upload_size": true,
+    "review_observations": "Complete2336x1744 board inspected at1824px width. Accepted full neutral is dominant; closed-book failure, instruction-only open-book sketch, failed pale shadows and exact accepted shadow target are readable. L01 explicitly local, not an extra paid correction."
+  },
+  "diagnostic_files": [
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/V_CH01_CHILD_IMAGINING-attempt-2-cream.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/V_CH01_CHILD_IMAGINING-attempt-2-dark.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/V_CH01_CHILD_IMAGINING-attempt-2-actual.jpg"
+  ],
+  "affected_pages": [
+    "c01-s01-p03"
+  ],
+  "not_accepted": true
+}

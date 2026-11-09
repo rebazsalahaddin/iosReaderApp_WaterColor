@@ -1,0 +1,39 @@
+Create ONE reusable illustration source for CH04_R02 — narrator graphite prince portrait.
+
+OUTPUT: user-selected Higgsfield / Nano Banana2.1 / High Thinking / 4:3 landscape / 2K / one output. Preserve original download. Agent submits through Higgsfield MCP under workflow 7; at most two attempts per reference, only material-defect corrections, no upscale.
+
+REFERENCES — upload exactly these, in order:
+Image1: 01_LP_ref_char_prince_turnaround.png. Prince identity: golden hair, rounded child face, sage coat, CORAL scarf, brass buttons and brown boots; never enlarge him to adult proportions.
+Image2: 02_c01-s05-p01.png. Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.
+Image3: 03_c03-s010.jpg. Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.
+Image4: 04_CH04_R02_PACKING_GUIDE.png. Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.
+Image5: 05_c02-s02-p03_COMPOSITION_GUIDE.png. TECHNICAL final-page placement for c02-s02-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.
+
+SOURCE PACKING: ONE full-width complete asset, 5–7% clear margin. No extra views, duplicates or second cell.
+
+BACKGROUND / ISOLATION: A single nonverbal illustration on warm cream paper, with clean generous margins; retain the specified graphite/pen/watercolor medium. No key colour unless the requested content explicitly requires an isolated prop.
+
+REQUESTED CONTENT — every cell is a separate complete state:
+ONE: a simple tender graphite portrait of the same little prince on one cream paper sheet, head and full familiar coat/boots, recognisable golden-hair silhouette translated into graphite shading. No writing or live scenery.
+
+STATE, DIRECTION AND CONTACT LOCK: One canonical in-world drawing, not a replacement character identity. Grey graphite with sparse imperfect hand-drawn contours; no colored watercolor inside this drawing, no photorealism. Reuse its marks on the narrator’s blank paper.
+
+FINAL COMPOSITION TARGETS: The attached composition guide is a later2400×1792 page, not source-sheet framing. Generate the complete requested source at maximum useful size within its packing margins. Later assembly uses uniform scaling only. Selected target: {"page": "c02-s02-p03", "cell": "CH04_R02:ONE", "box_px": [580, 470, 1240, 900], "anchor": "center", "scale_lock": null}
+
+LIGHT: Neutral soft upper-left daylight, without environment-colour spill.
+
+Soft luminous picture-book watercolor, matching the approved Chapter1 assembled sample: translucent pigment washes within opaque painted forms, fine cold-press grain inside shapes, thin irregular darker LOCAL-colour contours, sparse interior lines, simplified rounded anatomy, pale warm skin and restrained blush. Identity references control faces, hair, age and wardrobe. No default broad grin. Backgrounds use broad soft outline-free washes and ragged deckled paper edges. No thick black contours, glossy3D, photorealism, plastic airbrush, vector clip-art or unnecessary detail. In-world graphite or pen pictures retain their specified medium.
+
+CHAPTER CONTINUITY (does not add extra content): Narrator passages, historical astronomer passages and editorial examples are distinct tracks. Preserve the Turkish astronomer as one person in two outfits. Do not treat the source dates or cruel clothing decree as independently verified history. No execution scene. Adult-room scale follows one matching approved Chapter 4 camera; no child-room scaling of the adult.
+
+PREVENT THE CHAPTER1 FAILURE: check pelvis/torso, feet/chair, head and gaze SEPARATELY. A turned head is not a turned chair. Match actual left/right direction from the viewer; no mirroring of asymmetry. Emotion changes require the specified complete pose, not a replacement face. Retain all support contacts, correct hand occupancy and object counts.
+
+ONLY the requested content. No letters, writing, numbers, title, dialogue, signature, watermark, guide labels, arrows, rulers, duplicated reference figures or unexplained props. No generated drawing marks on a surface explicitly left blank for canonical artwork. No physical version of a metaphor or hypothetical event.
+
+MEASURED CONTINUITY AND FRAMING LOCK: all states of the same character/prop must keep identical anatomical proportions and shared furniture geometry. A changed pose is not a size/zoom change. Generate large complete sources; the compositor will use actual native landmarks and one uniform scale to match the same-location/camera/depth baseline, not a copied sheet percentage. Preserve the supplied geometry and enough useful pixels for the largest declared use. Opening close-ups must use a legible hero and chapter-matching painted field; do not turn them into tiny icons on white. Thought illustrations retain their own readable size and aspect ratio; any decorative frame must fit the image with minimal padding, never force the image smaller. These are production constraints and do not add unrequested objects to this source. See production/Geometry_and_Frame_Continuity.md.
+
+TEXT-TO-ILLUSTRATION ALIGNMENT: Read the exact affected-page passages and decisions in this request’s story-context.json before submission. Depict the requested complete source state so it can communicate the action/response, not merely the nouns. Separate editorial examples and memories from actual visitors; a house adults fail to imagine must not be assigned to their thought cloud.
+THOUGHT OWNERSHIP: Thought pictures and frames are separate local layers. Do not bake clouds, extra imagined props or a second character into this source unless a requested cell explicitly IS thought content. No automatic cloud for every “think”, “remember”, dialogue noun or metaphor. Preserve unseen/conditional story facts.
+All unlisted page decisions remain no_cloud or their explicitly separate editorial/memory staging. Use production/Text_to_Illustration_Alignment.md.
+
+THOUGHT AESTHETICS AND SCENE HIERARCHY: For any requested thought-content cell, match the approved character art's simple shapes, delicate warm contours and restrained watercolor washes, not merely its paper texture. Use sparse broad paint shapes; no product-like modelling or atlas-like cartographic detail. A simple mental map uses generalized landforms without fine coasts, tiny islands, terrain, grids, labels or routes. Preserve exact canonical story drawing marks whenever those are the requested contents. Large source pixels supply clean reduction, not extra detail or a giant final prop. Final content size is chosen at whole-page reading size for clear recognition while faces/action stay primary; then fit only the empty painted frame. Plan quiet space around the selected inset before composing. Preserve same-camera scale locks; a documented separate view can recompose a complete contact group uniformly. This is conditional source-role guidance: do not add a thought picture/cloud to a pose/background that does not request one.

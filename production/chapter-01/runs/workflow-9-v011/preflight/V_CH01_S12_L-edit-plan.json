@@ -1,0 +1,47 @@
+{
+  "workflow_version": 9,
+  "node_id": "V_CH01_S12_L",
+  "parents": [
+    {
+      "node_id": "N_child_standing_paper_left__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-9-v011/sources/N_child_standing_paper_left__soft_day_upper_left-attempt-3.png",
+      "sha256": "7569c2c108f224a803af1745c5d56f84a3eaa0afccf3163190cc575eda4525af"
+    }
+  ],
+  "route": "whole_contact_candidate",
+  "why_registered_edit_not_feasible": "Expression and connected head/arm/hand/prop action crosses upper torso and prop boundaries; full candidate re-audit against parent geometry and identity is required.",
+  "all_features_reaudit": true,
+  "target_state": "Edit the supplied clean neutral image. Target state: child standing, body and feet three-quarter LEFT, head LEFT toward adult at left; both hands hold one blank sheet upright and facing the viewer-left adults, hopeful proud small smile. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "submission_contract": "Preserve parent identity, dot-eye design, wardrobe colours, support geometry, and clean transparent alpha.",
+  "identity_features": [
+    "dot eyes without irises",
+    "exact parent facial structure, hair, and wardrobe colours",
+    "consistent storybook watercolor finish"
+  ],
+  "geometry_checks": [
+    "4:3 2K native canvas matching parent scale",
+    "preserved chair/table/plane/foot support geometry",
+    "complete silhouette with margin"
+  ],
+  "contacts": "Preserves exact parent support/chair/table/cockpit contact and ground shadow.",
+  "background_review": "Inspect on cream, dark charcoal, and target scene background before acceptance.",
+  "pixel_budget": "Native 2336x1744 2K canvas exceeds all target page placement boxes at scale <= 1.0.",
+  "reuse_decision": "Derived directly from newly accepted Workflow-9 neutral posture master.",
+  "local_repair_decision": "Safe reversible shadow-only matte preparation permitted after visual review if core subject is intact.",
+  "object_inventory": [
+    {
+      "id": "character_and_support",
+      "before_count": 1,
+      "after_count": 1,
+      "before_state": "clean neutral parent N_child_standing_paper_left__soft_day_upper_left",
+      "after_state": "edited expression/action state V_CH01_S12_L",
+      "contact": "preserves parent support/ground/cockpit contact"
+    }
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewer": "Antigravity visual inspection",
+    "reviewed_at": "2026-11-08T14:01:00+03:00",
+    "observations": "Reviewed Workflow-9 edit plan and clean parent authority N_child_standing_paper_left__soft_day_upper_left for V_CH01_S12_L."
+  }
+}

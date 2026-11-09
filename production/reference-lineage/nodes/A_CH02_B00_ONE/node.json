@@ -1,0 +1,58 @@
+{
+  "id": "A_CH02_B00_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/reference-images/01_c01-s05-p01.png",
+        "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+        "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character. For watercolor finish and edge softness only; omit ALL depicted objects, people, room geometry and thought clouds."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "a complete empty warm watercolor vignette field with quiet cream/ochre pigment and subtle deckled edges. No object, horizon or location.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH02_B00",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c02-s01-p01",
+    "c03-s01-p01",
+    "c05-s01-p01",
+    "c07-s01-p01",
+    "c08-s01-p01",
+    "c09-s01-p01",
+    "c10-s01-p01",
+    "c11-s01-p01",
+    "c12-s01-p01",
+    "c13-s01-p01",
+    "c14-s01-p01",
+    "c15-s01-p01",
+    "c16-s01-p01",
+    "c17-s01-p01",
+    "c18-s01-p01",
+    "c23-s01-p01"
+  ],
+  "audit_only_details": "NONFIGURATIVE BACKGROUND ONLY. Broad painted coverage and thin even paper margins matching full-scene illustrations. Direction is not applicable; no arrows or labels. Keep the central field quiet for a large existing canonical drawing/prop, not a tiny icon.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH02_B00_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. a complete empty warm watercolor vignette field with quiet cream/ochre pigment and subtle deckled edges. No object, horizon or location. Diffuse warm paper; no object lighting, directional cast shadow or hard horizon. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/audit-contract.json",
+  "prompt_sha256": "187696e3de6013cc935a50917146ff3d35722426ac4a95ccb8190e221944b78f",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH02_B00_ONE"
+}

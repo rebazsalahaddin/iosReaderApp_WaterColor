@@ -1,0 +1,172 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH06_B01",
+  "prompt_file": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/PROMPT.txt",
+  "prompt_sha256": "7985d722f0bd947fca8a1bbb353a6f7a8a1bafcf1030d672bdbbaf102b13c495",
+  "expected_cells": [
+    "ONE: same intact pale ochre B-612 curved ground, one low sunset at left, peach-lavender sky, no character or chair."
+  ],
+  "required_state_direction_contact": "Match accepted CH04_B01 ground silhouette/camera; change only light and sky. No forty-four suns.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [
+    "CH04_B01"
+  ],
+  "references": [
+    {
+      "name": "01_LP_ch04_planet_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/reference-images/01_LP_ch04_planet_scale_guide.png",
+      "status": "supplied",
+      "sha256": "c9d6479c252c5f54547cef4d324840ab68464f670e2ff7944f864e5b857581e6",
+      "source_key": "LP_ch04_planet_scale_guide"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_accepted_CH04_B01_b612_empty_daylight_ground.png",
+      "role": "ACCEPTED CH04_B01: B612 empty daylight ground. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/reference-images/04_accepted_CH04_B01_b612_empty_daylight_ground.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH04_B01",
+      "expected_raw": "production/chapter-04/props/raw/CH04_B01_b612_empty_daylight_ground.png"
+    },
+    {
+      "name": "05_CH06_B01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/reference-images/05_CH06_B01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "26aed8b56f267c150d8c3501c22662a22a29866e7c116f599b3f19459160a747"
+    },
+    {
+      "name": "06_c06-s02-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c06-s02-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/reference-images/06_c06-s02-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "6c0c1d8c593356f87956b30226504a855ff8e008a2751888e9956741e12cc949"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "A_CH06_B01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c06-s01-p01",
+    "c06-s01-p04",
+    "c06-s02-p02",
+    "c06-s02-p03",
+    "c10-s02-p07",
+    "c14-s03-p01"
+  ],
+  "placement_targets": [
+    {
+      "page": "c06-s01-p01",
+      "cell": "CH06_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c06-s01-p04",
+      "cell": "CH06_B01:ONE",
+      "box_px": [
+        1344,
+        230,
+        672,
+        400
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c06-s02-p02",
+      "cell": "CH06_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c06-s02-p03",
+      "cell": "CH06_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s02-p07",
+      "cell": "CH06_B01:ONE",
+      "box_px": [
+        1414,
+        250,
+        672,
+        400
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c14-s03-p01",
+      "cell": "CH06_B01:ONE",
+      "box_px": [
+        1522,
+        223,
+        576,
+        344
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-06/references/B01_b612_sunset_plate/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

@@ -1,0 +1,24 @@
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 15-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+Use the supplied closer drawing-detail composition from frame zero; the whole scene is already reframed. Do not add another zoom or change paper/hand contacts.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–0.683 seconds: Use the supplied closer drawing-detail composition from frame zero; the whole scene is already reframed. Do not add another zoom or change paper/hand contacts.
+0.683–2.8 seconds: Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.
+2.8–8.133 seconds: Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.
+8.133–12.623 seconds: Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.
+12.623–15 seconds: Let movement settle into a stable hold, preserving the supplied expression, composition and all contacts.
+
+GENERATED SOUND: AMBIENCE ONLY
+Quiet room tone. One very faint graphite contact only during the small checking stroke around 0.7–2.8 seconds. No other event sound, voice or music.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+Do not erase and redraw the elephant, invent lines, move its anatomy, turn the paper, open the book or create a thought cloud. The reference already contains the completed drawing.
+
+END STATE
+All story movement finishes within the first 14.281 seconds; maintain a quiet stable hold through 15 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

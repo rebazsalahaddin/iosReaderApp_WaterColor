@@ -1,0 +1,43 @@
+{
+  "id": "A_CH22_R02_R_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-22/references/R02_R_passenger_windows_and_cloth_doll_second_state/reference-images/01_LP_ref_char_child_turnaround.png",
+        "sha256": "c93cf9a9dec750fe6e30847dfd92d85d8f0f3c88bea3f1fb6cb88e3d65db93f6",
+        "role": "Six-year-old narrator identity, distinct from both the adult pilot and the prince."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "one modest worn cloth doll, soft stitched fabric and simple face, isolated as an editorial object; no child hand pulling it.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH22_R02_R",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c22-s02-p01"
+  ],
+  "audit_only_details": "Window insert includes local carriage panel and glass as an opaque group. Do not key glass interiors. Doll is a separate illustrative thought, not an event at the station.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH22_R02_R_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. one modest worn cloth doll, soft stitched fabric and simple face, isolated as an editorial object; no child hand pulling it. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-22/references/R02_R_passenger_windows_and_cloth_doll_second_state/audit-contract.json",
+  "prompt_sha256": "4c1cbf5624bf07095b28d45b175ecd022845b24e261cb3f8390d931a7d60d152",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH22_R02_R_ONE"
+}

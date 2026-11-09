@@ -1,0 +1,71 @@
+{
+  "status": "complete; post-cleanup validation passed",
+  "removed_file_count": 3122,
+  "removed_bytes": 2109803695,
+  "categories": {
+    "Finder cache": 57,
+    "Preparation consolidated into current component set or superseded": 35,
+    "Superseded snapshot or backup": 2228,
+    "Obsolete record or duplicate; active dependencies migrated and checked": 52,
+    "Superseded delivery edition or archive": 101,
+    "Obsolete proof/candidate; required current data consolidated": 627,
+    "Retired one-off workflow or cache": 22
+  },
+  "before": {
+    "files": 6925,
+    "bytes": 4812523559
+  },
+  "retained_delivery": "production/chapter-01/delivery/chapter-01-v010",
+  "final_images_unchanged": 19,
+  "old_parent_project_modified": false,
+  "relocation_test": "production/maintenance/relocation-test.json",
+  "after": {
+    "files": 3966,
+    "bytes": 2792234511
+  },
+  "net_bytes_reclaimed": 2020289048,
+  "verification": "production/self-contained-validation.json",
+  "last_revision_cleanup": {
+    "edition": "v009",
+    "date": "2026-11-07T01:14:47.753801+00:00",
+    "removed_file_count": 86,
+    "removed_bytes": 229306379,
+    "scope": "Whole project dependency scan; retired v008, all local temporary work and unreferenced layers removed. Rejected source evidence and immutable generation receipts retained for pending manual review.",
+    "final_images_unchanged_by_cleanup": 19,
+    "pre_cleanup_validation": "All six package validators passed; 19 exact reconstructions; 16 generation-guard cases passed.",
+    "post_cleanup_validation": "All six validators passed after removing temporary files; final dependency/reconstruction check repeated after removal of unused frame.",
+    "old_parent_project_modified": false
+  },
+  "last_instruction_pack_cleanup": {
+    "date": "2026-11-07T13:53:38.145806+00:00",
+    "pack": "production/chapter-01/animation/seedance-2.5",
+    "revision": "narration-synchronized",
+    "removed_files": 206,
+    "removed_bytes": 11562720,
+    "retained": "One current illustrated guide, 19 narration-timed prompts, one continuous Chapter 1 narration excerpt, exact audio alignment/timing/evidence and validation records; original illustration PNGs reused",
+    "illustration_files_modified": 0,
+    "external_source_files_modified": 0,
+    "post_cleanup_validation": "All six package validators passed; 19 exact illustration reconstructions; narration and instruction checks passed."
+  },
+  "last_graphical_retry_update_cleanup": {
+    "date": "2026-11-07T14:41:41.076253+00:00",
+    "removed_files": 13,
+    "removed_bytes": 608680,
+    "retained": "Mandatory graphical retry guide, local board builder, templates, updated guard/contracts and one clearly labelled synthetic teaching example",
+    "generation_jobs_submitted": 0,
+    "illustration_files_modified": 0,
+    "post_cleanup_validation": "Graphical retry checks and self-contained/19-illustration reconstruction checks passed. Full execution-record validation cannot pass until in-progress Chapter 2 accepted-source preparation fields are completed."
+  },
+  "last_performance_revision_cleanup": {
+    "edition": "v010",
+    "files_removed": 382,
+    "bytes_removed": 441504259,
+    "unreferenced_intermediate_layers": 86,
+    "exact_current_pages_verified_before_removal": 19,
+    "archive_crc_verified": true,
+    "canonical_style_source_preserved": true,
+    "chapter2_art_untouched": true,
+    "status": "complete; all six package validators passed after cleanup",
+    "verification": "production/maintenance/v010-final-validation.txt"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "reuse_checked": true,
+  "canonical_aliases_checked": true,
+  "references_visually_checked": true,
+  "page_contracts_checked": true,
+  "pixel_budget_checked": true,
+  "directions_contacts_checked": true,
+  "text_alignment_checked": true,
+  "alpha_shadow_plan_checked": true,
+  "live_schema_checked": true,
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "estimated_credits": 1,
+  "estimate_checked_at": "2026-11-07T21:57:50.703442+00:00",
+  "prompt_file": "production/reference-lineage/nodes/N_child_standing_paper_left__soft_day_upper_left/PROMPT.txt",
+  "prompt_sha256": "f0ab2bfa26bd1a0e371aac1191365024d318c58aa77fa171f1cf66906bca3a25",
+  "parents": [
+    {
+      "node_id": "I_child",
+      "path": "production/chapter-01/runs/workflow-8-v011/preflight/child-identity-three-quarter.png",
+      "sha256": "66189f88355625379751e442d48206c83534571565e9216d80164a28ed71a040"
+    }
+  ],
+  "attachments": [
+    {
+      "path": "production/chapter-01/runs/workflow-8-v011/preflight/child-identity-three-quarter.png",
+      "sha256": "66189f88355625379751e442d48206c83534571565e9216d80164a28ed71a040",
+      "media_id": "4fb3a0b2-2744-43ae-afc7-5e1de3fb966a"
+    }
+  ],
+  "input_roles_justified": true,
+  "evidence": "Same accepted complete child identity crop. Establish separate balanced standing posture LEFT with one blank cream sheet supported in both hands. Complete boots and light attached shadow. No furniture authority needed for this setup; no prior expression is used."
+}

@@ -1,0 +1,23 @@
+{
+  "workflow_version": 9,
+  "date": "2026-11-08",
+  "changed_preexisting_control_or_validation_files": 2098,
+  "new_generation_jobs": 0,
+  "credits_spent_this_revision": 0,
+  "artwork_edited": false,
+  "chapter_1_regeneration_complete": false,
+  "chapter_approval_created": false,
+  "execution_resumed": false,
+  "historical_block_reports_preserved": true,
+  "next_step": "Zero-credit visual feasibility of safe shadow preparation and connected one-book edit; conditional third attempt only after full gate.",
+  "expression_model": "gpt_image_2_6",
+  "foundation_model": "gpt_image_2_6_flare",
+  "live_medium_2k_quote_each": 1,
+  "offline_behavioral_tests_passed": 22,
+  "package_validation": "pass",
+  "protected_files_unchanged": 2540,
+  "status": "workflow_revision_complete_no_generation_performed",
+  "user_authority": "8 November 2026 request to research and revise all workflow weaknesses, permitting at most three attempts with limited credits.",
+  "limitations": "No workflow-9 illustration generated or visually accepted. Chapter 1 remains incomplete. Historical execution state and both ledgers unchanged; future jobs require fresh workflow-9 preflight.",
+  "cleanup_status": "completed"
+}

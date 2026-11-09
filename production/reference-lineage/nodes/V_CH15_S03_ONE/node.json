@@ -1,0 +1,55 @@
+{
+  "id": "V_CH15_S03_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_geographer_with_prince__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_geographer_with_prince__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "same shared group, geographer RIGHT hand holds pencil over open book for preliminary account, pen resting. Prince remains on right-front tabletop bay, quiet and concerned about his flower.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH15_S03",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c15-s02-p04",
+    "c15-s02-p05",
+    "c15-s03-p01",
+    "c15-s03-p02",
+    "c15-s03-p03",
+    "c15-s03-p04",
+    "c15-s03-p05",
+    "c15-s03-p06"
+  ],
+  "allowed_changes": "same shared group, geographer RIGHT hand holds pencil over open book for preliminary account, pen resting. Prince remains on right-front tabletop bay, quiet and concerned about his flower.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Pencil, not ink; no verified geography invented. Same table and spread. DIRECTION LOCK: Same shared group; adult looks down-right at pencil/book, child faces LEFT with concern.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH15_S03_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: same shared group, geographer RIGHT hand holds pencil over open book for preliminary account, pen resting. Prince remains on right-front tabletop bay, quiet and concerned about his flower. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-15/reusable-poses/S03_geographer_taking_pencil_account/audit-contract.json",
+  "prompt_sha256": "db60dd6cf1ba3d54fcd8106113d1f2b8ab737154ac531cb7c5ef4f2506de902b",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH15_S03_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

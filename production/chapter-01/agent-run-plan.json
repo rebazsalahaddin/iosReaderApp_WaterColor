@@ -1,0 +1,816 @@
+{
+  "workflow_version": 9,
+  "chapter": 1,
+  "title": "My First Drawing",
+  "page_count": 19,
+  "page_order": [
+    "c01-s01-p01",
+    "c01-s01-p02",
+    "c01-s01-p03",
+    "c01-s01-p04",
+    "c01-s02-p01",
+    "c01-s02-p02",
+    "c01-s02-p03",
+    "c01-s03-p01",
+    "c01-s03-p02",
+    "c01-s03-p03",
+    "c01-s03-p04",
+    "c01-s04-p01",
+    "c01-s04-p02",
+    "c01-s04-p03",
+    "c01-s05-p01",
+    "c01-s05-p02",
+    "c01-s05-p03",
+    "c01-s06-p01",
+    "c01-s06-p02"
+  ],
+  "status": "plan_only_check_current_overlays_and_accepted_sources",
+  "chapter_notes": "Childhood narrator and adult pilot are the same person at different ages; neither is the little prince. Child/grown-up upright ratio .66; adult social figures are comparable adults. Childhood room: child and chair RIGHT, window LEFT. Drawing Two first becomes a physical drawing at c01-s03-p01. Flight day faces LEFT, night RIGHT, one occupied cockpit and closed cowling. The six approved social compositions are the quality reference; final loneliness is emotional, with chair angled toward the others and the other men softly blurred.",
+  "manual_approval_required_after_delivery": true,
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "scale_and_anchor_registry_required_before_composition": true,
+  "decoded_pixel_and_semantic_duplicate_checks_required": true,
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_requires_reviewed_graphics": true,
+  "direct_source_requests": [
+    "CH01_B10",
+    "CH01_B11",
+    "CH01_B12",
+    "CH01_E01",
+    "CH01_E02",
+    "CH01_E03",
+    "CH01_E04",
+    "CH01_R10",
+    "CH01_R11",
+    "CH01_R12",
+    "CH01_R13",
+    "CH01_S10",
+    "CH01_S11",
+    "CH01_S12",
+    "CH01_S13",
+    "CH01_S14",
+    "CH01_S15",
+    "CH01_S16",
+    "CH01_S17",
+    "CH01_S18"
+  ],
+  "dependency_order": [
+    "CH01_R12",
+    "CH01_B10",
+    "CH01_R10",
+    "CH01_S10",
+    "CH01_S12",
+    "CH01_S13",
+    "CH01_B11",
+    "CH01_S17",
+    "CH01_B12",
+    "CH01_R11",
+    "CH01_S11",
+    "CH01_S14",
+    "CH01_S18",
+    "CH01_S15",
+    "CH01_S16",
+    "CH01_R13",
+    "CH01_E01",
+    "CH01_E02",
+    "CH01_E03",
+    "CH01_E04"
+  ],
+  "later_owned_required_sources": [],
+  "possible_initial_jobs_before_reuse": 42,
+  "max_total_submissions_if_all_sources_were_new": 126,
+  "budget_note": "Theoretical upper bound only. Not a spending budget. Reuse first, subtract both ledgers, require bounded spend window and exceptional third-attempt evidence.",
+  "generation_requests": [
+    {
+      "request_id": "CH01_R12",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/references/R12_opening_blank_paper_and_pencil/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/references/R12_opening_blank_paper_and_pencil/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_B10",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/references/B10_childhood_room_without_foreground_furniture/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/references/B10_childhood_room_without_foreground_furniture/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s01-p02",
+        "c01-s01-p03",
+        "c01-s01-p04",
+        "c01-s02-p01",
+        "c01-s02-p02",
+        "c01-s02-p03",
+        "c01-s03-p01",
+        "c01-s03-p02",
+        "c01-s03-p03",
+        "c01-s03-p04"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_R10",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/references/R10_forest_book_swallowing_picture/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/references/R10_forest_book_swallowing_picture/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s01-p02",
+        "c01-s01-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_S10",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S10_child_reading_at_round_table/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/reusable-poses/S10_child_reading_at_round_table/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s01-p02",
+        "c01-s01-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_S12",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S12_child_presenting_and_explaining/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/reusable-poses/S12_child_presenting_and_explaining/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s02-p01",
+        "c01-s02-p02",
+        "c01-s02-p03",
+        "c01-s03-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_S13",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S13_childhood_adults_questioning/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/reusable-poses/S13_childhood_adults_questioning/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s02-p01",
+        "c01-s02-p02",
+        "c01-s02-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_B11",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/references/B11_day_flight_landscape/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/references/B11_day_flight_landscape/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s04-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_S17",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s04-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_B12",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/references/B12_night_flight_landscape/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/references/B12_night_flight_landscape/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s04-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_R11",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/references/R11_sleeping_snake_imagination/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/references/R11_sleeping_snake_imagination/audit-contract.json",
+      "dependencies": [
+        "CH01_R10"
+      ],
+      "active_page_uses": [
+        "c01-s01-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_S11",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/audit-contract.json",
+      "dependencies": [
+        "CH01_S10"
+      ],
+      "active_page_uses": [
+        "c01-s01-p04",
+        "c01-s03-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_S14",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/audit-contract.json",
+      "dependencies": [
+        "CH01_S13"
+      ],
+      "active_page_uses": [
+        "c01-s03-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_S18",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S18_night_aircraft_with_pilot_facing_right/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/reusable-poses/S18_night_aircraft_with_pilot_facing_right/audit-contract.json",
+      "dependencies": [
+        "CH01_S17"
+      ],
+      "active_page_uses": [
+        "c01-s04-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_S15",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S15_child_putting_pencil_down/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/reusable-poses/S15_child_putting_pencil_down/audit-contract.json",
+      "dependencies": [
+        "CH01_S11"
+      ],
+      "active_page_uses": [
+        "c01-s03-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_S16",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/reusable-poses/S16_child_tired_of_explaining/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/reusable-poses/S16_child_tired_of_explaining/audit-contract.json",
+      "dependencies": [
+        "CH01_S15"
+      ],
+      "active_page_uses": [
+        "c01-s03-p04"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_R13",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s02-p02",
+        "c01-s04-p02",
+        "c01-s05-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_E01",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/pose-corrections/E01_pilot_reaching_hope_and_withdrawn_disappointment/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s05-p01",
+        "c01-s05-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_E02",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s05-p03",
+        "c01-s06-p01",
+        "c01-s06-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_E03",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s06-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH01_E04",
+      "owner_chapter": 1,
+      "prompt_file": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c01-s02-p01",
+        "c01-s02-p02",
+        "c01-s02-p03"
+      ],
+      "dependency_only": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "c01-s01-p01",
+      "assets": [
+        "CH01_R12:ONE",
+        "draw1"
+      ],
+      "story_text": "",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s01-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s01-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s01-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s01-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s01-p01/layout.json",
+      "reference_lineage": {
+        "CH01_R12:ONE": "A_CH01_R12_ONE"
+      }
+    },
+    {
+      "page": "c01-s01-p02",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S10:ONE",
+        "CH01_R10:ONE"
+      ],
+      "story_text": "When I was six, I found a picture I couldn't stop looking at. It was in a book about the forest: a huge snake swallowing an animal.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s01-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s01-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s01-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s01-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s01-p02/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S10:ONE": "V_CH01_S10_ONE",
+        "CH01_R10:ONE": "A_CH01_R10_ONE"
+      }
+    },
+    {
+      "page": "c01-s01-p03",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S10:ONE",
+        "CH01_R10:ONE",
+        "CH01_R11:ONE"
+      ],
+      "story_text": "The book said these snakes swallowed their food whole. After a meal, they couldn't move. They slept for six months!",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s01-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s01-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s01-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s01-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s01-p03/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S10:ONE": "V_CH01_CHILD_IMAGINING",
+        "CH01_R10:ONE": "A_CH01_R10_ONE",
+        "CH01_R11:ONE": "A_CH01_R11_ONE"
+      }
+    },
+    {
+      "page": "c01-s01-p04",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S11:ONE",
+        "draw1"
+      ],
+      "story_text": "Six months! I kept thinking about that snake and all the adventures in the forest. At last, I took my pencil and began to draw.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s01-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s01-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s01-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s01-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s01-p04/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S11:ONE": "V_CH01_S11_ONE"
+      }
+    },
+    {
+      "page": "c01-s02-p01",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S12:L",
+        "CH01_S13:L",
+        "CH01_S13:R",
+        "draw1",
+        "CH01_E04:L",
+        "CH01_E04:R"
+      ],
+      "story_text": "I called it Drawing Number One. To me, it was wonderful. Now I wanted to see what the grown-ups thought.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s02-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s02-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s02-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s02-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s02-p01/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S12:L": "V_CH01_S12_L",
+        "CH01_S13:L": "V_CH01_S13_L",
+        "CH01_S13:R": "V_CH01_S13_R",
+        "CH01_E04:L": "V_CH01_E04_L",
+        "CH01_E04:R": "V_CH01_E04_R"
+      }
+    },
+    {
+      "page": "c01-s02-p02",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S12:L",
+        "CH01_S13:L",
+        "CH01_S13:R",
+        "draw1",
+        "CH01_R13:L",
+        "CH01_E04:L",
+        "CH01_E04:R"
+      ],
+      "story_text": "\"Are you frightened?\" I asked. \"Frightened? It's only a hat,\" they said.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s02-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s02-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s02-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s02-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s02-p02/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S12:L": "V_CH01_S12_L",
+        "CH01_S13:L": "V_CH01_S13_L",
+        "CH01_S13:R": "V_CH01_S13_R",
+        "CH01_R13:L": "A_CH01_R13_L",
+        "CH01_E04:L": "V_CH01_E04_L",
+        "CH01_E04:R": "V_CH01_E04_R"
+      }
+    },
+    {
+      "page": "c01-s02-p03",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S12:R",
+        "CH01_S13:L",
+        "CH01_S13:R",
+        "draw1",
+        "draw2",
+        "CH01_E04:L",
+        "CH01_E04:R"
+      ],
+      "story_text": "A hat? It wasn't a hat at all. My snake had an elephant inside! But the grown-ups could only see the outside.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s02-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s02-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s02-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s02-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s02-p03/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S12:R": "V_CH01_S12_R",
+        "CH01_S13:L": "V_CH01_S13_L",
+        "CH01_S13:R": "V_CH01_S13_R",
+        "CH01_E04:L": "V_CH01_E04_L",
+        "CH01_E04:R": "V_CH01_E04_R"
+      }
+    },
+    {
+      "page": "c01-s03-p01",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S11:ONE",
+        "draw2"
+      ],
+      "story_text": "So I drew another picture. This time, I showed the inside of the snake, with the elephant in its big round body. Drawing Number Two.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s03-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s03-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s03-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s03-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s03-p01/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S11:ONE": "V_CH01_S11_ONE"
+      }
+    },
+    {
+      "page": "c01-s03-p02",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S12:R",
+        "CH01_S14:L",
+        "CH01_S14:R",
+        "draw2"
+      ],
+      "story_text": "Now they could see the elephant. I waited. \"Put those snakes away,\" they said. \"Study geography, history, math, and grammar instead.\"",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s03-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s03-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s03-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s03-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s03-p02/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S12:R": "V_CH01_S12_R",
+        "CH01_S14:L": "V_CH01_S14_L",
+        "CH01_S14:R": "V_CH01_S14_R"
+      }
+    },
+    {
+      "page": "c01-s03-p03",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S15:ONE",
+        "draw2"
+      ],
+      "story_text": "I was only six, and already I was giving up my life as an artist. I put down my pencil.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s03-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s03-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s03-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s03-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s03-p03/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S15:ONE": "V_CH01_S15_ONE"
+      }
+    },
+    {
+      "page": "c01-s03-p04",
+      "assets": [
+        "CH01_B10:ONE",
+        "CH01_S16:ONE",
+        "draw2"
+      ],
+      "story_text": "Grown-ups need so many explanations. And when you're six, explaining everything, again and again, is very tiring.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s03-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s03-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s03-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s03-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s03-p04/layout.json",
+      "reference_lineage": {
+        "CH01_B10:ONE": "A_CH01_B10_ONE",
+        "CH01_S16:ONE": "V_CH01_S16_ONE"
+      }
+    },
+    {
+      "page": "c01-s04-p01",
+      "assets": [
+        "CH01_B11:ONE",
+        "CH01_S17:ONE"
+      ],
+      "story_text": "Years passed. I chose a different life and learned to fly planes. Since then, I've flown over many parts of the world.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s04-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s04-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s04-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s04-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s04-p01/layout.json",
+      "reference_lineage": {
+        "CH01_B11:ONE": "A_CH01_B11_ONE",
+        "CH01_S17:ONE": "V_CH01_S17_ONE"
+      }
+    },
+    {
+      "page": "c01-s04-p02",
+      "assets": [
+        "CH01_B12:ONE",
+        "CH01_S18:ONE",
+        "CH01_R13:R"
+      ],
+      "story_text": "And yes, geography has helped. One look, and I know: China or Arizona. That's useful when you're lost in the dark.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s04-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s04-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s04-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s04-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s04-p02/layout.json",
+      "reference_lineage": {
+        "CH01_B12:ONE": "A_CH01_B12_ONE",
+        "CH01_S18:ONE": "V_CH01_S18_ONE",
+        "CH01_R13:R": "A_CH01_R13_R"
+      }
+    },
+    {
+      "page": "c01-s04-p03",
+      "assets": [
+        "c01_s04_p03_layer_0",
+        "c01_s04_p03_layer_1",
+        "c01_s04_p03_layer_2",
+        "c01_s04_p03_layer_3",
+        "c01_s04_p03_layer_4",
+        "c01_s04_p03_layer_5"
+      ],
+      "story_text": "I've met many grown-ups in different countries. I've listened to all their important talk. And I still remember why I put down my pencil.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s04-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s04-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s04-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s04-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s04-p03/layout.json",
+      "reference_lineage": {}
+    },
+    {
+      "page": "c01-s05-p01",
+      "assets": [
+        "c01_s05_p01_layer_0",
+        "c01_s05_p01_layer_1",
+        "c01_s05_p01_layer_2",
+        "c01_s05_p01_layer_3",
+        "c01_s05_p01_layer_4",
+        "c01_s05_p01_layer_5",
+        "CH01_E01:L"
+      ],
+      "story_text": "But sometimes I meet someone and think, \"Perhaps this one will understand.\" I still have Drawing Number One. So I show it to them.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s05-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s05-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s05-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s05-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s05-p01/layout.json",
+      "reference_lineage": {
+        "CH01_E01:L": "V_CH01_E01_L"
+      }
+    },
+    {
+      "page": "c01-s05-p02",
+      "assets": [
+        "c01_s05_p02_layer_0",
+        "c01_s05_p02_layer_1",
+        "c01_s05_p02_layer_2",
+        "c01_s05_p02_layer_3",
+        "c01_s05_p02_layer_4",
+        "c01_s05_p02_layer_5",
+        "CH01_R13:L",
+        "CH01_E01:R"
+      ],
+      "story_text": "I wait for their answer. \"A hat,\" they say. Always a hat.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s05-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s05-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s05-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s05-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s05-p02/layout.json",
+      "reference_lineage": {
+        "CH01_R13:L": "A_CH01_R13_L",
+        "CH01_E01:R": "V_CH01_E01_R"
+      }
+    },
+    {
+      "page": "c01-s05-p03",
+      "assets": [
+        "c01_s05_p03_layer_0",
+        "c01_s05_p03_layer_1",
+        "c01_s05_p03_layer_2",
+        "c01_s05_p03_layer_3",
+        "c01_s05_p03_layer_4",
+        "c01_s05_p03_layer_5",
+        "CH01_E02:L"
+      ],
+      "story_text": "After that, I say nothing more about snakes, forests, or stars. We talk about work instead. About money. About clothes.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s05-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s05-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s05-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s05-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s05-p03/layout.json",
+      "reference_lineage": {
+        "CH01_E02:L": "V_CH01_E02_L"
+      }
+    },
+    {
+      "page": "c01-s06-p01",
+      "assets": [
+        "c01_s06_p01_layer_0",
+        "c01_s06_p01_layer_1",
+        "c01_s06_p01_layer_2",
+        "c01_s06_p01_layer_3",
+        "c01_s06_p01_layer_4",
+        "c01_s06_p01_layer_5",
+        "CH01_E02:L",
+        "CH01_E03:R"
+      ],
+      "story_text": "And now they're pleased with me. Such a sensible man! We understand each other so well. At least, that's what they think.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s06-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s06-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s06-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s06-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s06-p01/layout.json",
+      "reference_lineage": {
+        "CH01_E02:L": "V_CH01_E02_L",
+        "CH01_E03:R": "V_CH01_E03_R"
+      }
+    },
+    {
+      "page": "c01-s06-p02",
+      "assets": [
+        "c01_s06_p02_layer_0",
+        "c01_s06_p02_layer_1",
+        "c01_s06_p02_layer_2",
+        "c01_s06_p02_layer_3",
+        "c01_s06_p02_layer_4",
+        "c01_s06_p02_layer_5",
+        "CH01_E02:R"
+      ],
+      "story_text": "There were people all around me. But no one I could really talk to.",
+      "assembly_instructions": "story-and-continuity/chapter-01/page-compositions/c01-s06-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-01/page-compositions/c01-s06-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-01/page-compositions/c01-s06-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-01/page-compositions/c01-s06-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-01/page-compositions/c01-s06-p02/layout.json",
+      "reference_lineage": {
+        "CH01_E02:R": "V_CH01_E02_R"
+      }
+    }
+  ],
+  "policy": "production/agent-policy.json",
+  "audit_template": "production/agent-workflow/templates/page-audit.json",
+  "lineage_execution_order": [
+    "I_child",
+    "I_pilot",
+    "I_grownup1",
+    "I_grownup2",
+    "I_pilot_civilian",
+    "I_social_younger",
+    "N_child_table__soft_day_upper_left",
+    "N_child_standing_paper_left__soft_day_upper_left",
+    "N_older_standing_right__soft_day_upper_left",
+    "N_woman_standing_right__soft_day_upper_left",
+    "N_pilot_social_chair_right__soft_day_upper_left",
+    "N_younger_social_chair_left__soft_day_upper_left",
+    "N_pilot_flying_left__soft_day_upper_left",
+    "N_pilot_flying_right__moonlight_upper_left",
+    "A_CH01_B10_ONE",
+    "A_CH01_B11_ONE",
+    "A_CH01_B12_ONE",
+    "A_CH01_R10_ONE",
+    "A_CH01_R11_ONE",
+    "A_CH01_R12_ONE",
+    "V_CH01_S10_ONE",
+    "V_CH01_S11_ONE",
+    "V_CH01_S12_L",
+    "V_CH01_S12_R",
+    "V_CH01_S13_L",
+    "V_CH01_S13_R",
+    "V_CH01_S14_L",
+    "V_CH01_S14_R",
+    "V_CH01_S15_ONE",
+    "V_CH01_S16_ONE",
+    "V_CH01_S17_ONE",
+    "V_CH01_S18_ONE",
+    "A_CH01_R13_L",
+    "A_CH01_R13_R",
+    "V_CH01_E01_L",
+    "V_CH01_E01_R",
+    "V_CH01_E02_L",
+    "V_CH01_E02_R",
+    "V_CH01_E03_R",
+    "V_CH01_E04_L",
+    "V_CH01_E04_R",
+    "V_CH01_CHILD_IMAGINING"
+  ],
+  "generation_route": "lineage_nodes_only",
+  "legacy_dependency_usage": "offline_audit_and_historical_attempt_traceability",
+  "lineage_catalog": "production/reference-lineage/catalog.json",
+  "workflow_process": "production/workflow-9/PROCESS.md",
+  "family_canaries": {
+    "N_child_table__soft_day_upper_left": "V_CH01_CHILD_IMAGINING",
+    "N_child_standing_paper_left__soft_day_upper_left": "V_CH01_S12_L",
+    "N_older_standing_right__soft_day_upper_left": "V_CH01_S13_L",
+    "N_woman_standing_right__soft_day_upper_left": "V_CH01_S13_R",
+    "N_pilot_flying_left__soft_day_upper_left": "V_CH01_S17_ONE",
+    "N_pilot_flying_right__moonlight_upper_left": "V_CH01_S18_ONE",
+    "N_pilot_social_chair_right__soft_day_upper_left": "V_CH01_E01_L",
+    "N_younger_social_chair_left__soft_day_upper_left": "V_CH01_E03_R"
+  }
+}

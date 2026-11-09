@@ -1,0 +1,24 @@
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 13-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+The complete plane and pilot are already lower in the composition, flying nose-right. The small map thought occupies its reserved upper-right sky space; the moon and painted page border stay in place.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–1.113 seconds: Begin steady nose-right night flight with the map thought already visible in its reserved sky space. Keep the complete plane/pilot group at exactly its source scale.
+1.113–3.973 seconds: Hold the calm navigation composition. Map, cloud rim, three puffs, moon and stars remain stationary.
+3.973–6.3 seconds: Give the pilot one tiny eye/head adjustment toward the route ahead, then settle by 6.3 seconds. The thought trail stays anchored near his head.
+6.3–11.9 seconds: Hold quiet recognition and steady flight; distant terrain drifts slightly viewer-left, no more than two percent of frame width over the whole clip. No real map handling or atlas animation.
+11.9–13 seconds: Keep the map readable and flight steady through the end.
+
+GENERATED SOUND: AMBIENCE ONLY
+Soft even piston-engine hum and gentle airflow, quiet beneath a later narration mix. No revving, radio, voices, wind gusts, navigation beeps or music. Thought pictures are silent.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+Keep map contours, size, pigment, cloud padding and position unchanged. No labels, route lines, animated atlas zoom, extra islands, pulsing rim, moving moon or scintillating stars. No aircraft growth or movement into the cloud.
+
+END STATE
+All story movement finishes within the first 12.465 seconds; maintain a quiet stable hold through 13 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

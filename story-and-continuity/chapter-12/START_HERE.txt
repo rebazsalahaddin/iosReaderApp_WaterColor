@@ -1,0 +1,6 @@
+MODEL ROUTE — WORKFLOW 9: Flare (gpt_image_2_6_flare) for foundations/assets; Sunburst (gpt_image_2_6) for expression/action edits. Both medium / 2K / 4:3 / one PNG. The exact node parameters govern. Both quoted 1 credit on 2026-11-08; recheck live before spending. The change never resets attempts.
+
+WORKFLOW 9 CONTROL AUTHORITY: production/workflow-9/PROCESS.md supersedes older retry/input mechanics below.
+
+CHAPTER 12 — WORKFLOW 9
+Read production/MASTER_PROMPT.txt and production/Reference_Lineage_Workflow.md from project root. Use production/chapter-12/agent-run-plan.json and its lineage_execution_order. GPT Image 2.6 Flare for foundations/assets and Sunburst for expression/action edits, quality medium, 2K, 4:3, one PNG; transparent isolated references. Turnaround → audited neutral posture with soft shadow → each expression from ONE same neutral. Existing sources are reused after audit. All page layouts and exact texts remain authoritative. Three attempts (third conditional) including history; stop after one chapter for approval. Preparing prompts changes no artwork.

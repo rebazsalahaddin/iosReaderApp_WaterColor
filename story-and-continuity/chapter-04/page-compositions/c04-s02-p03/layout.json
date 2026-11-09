@@ -1,0 +1,275 @@
+{
+  "page": "c04-s02-p03",
+  "canvas": [
+    2400,
+    1792
+  ],
+  "status": "planned component rebuild; not generated",
+  "stage": "editorial",
+  "coordinate_authority": "authored numeric production targets; ungenerated assets require measured fit verification",
+  "safe_frame_px": [
+    120,
+    90,
+    2160,
+    1612
+  ],
+  "paper_rgb_hex": "#FDFAF3",
+  "layers": [
+    {
+      "asset": "CH04_S03:R",
+      "role": "adult",
+      "target_box_px": [
+        400,
+        530,
+        500,
+        1000
+      ],
+      "target_box_percent": [
+        16.667,
+        29.576,
+        20.833,
+        55.804
+      ],
+      "z": 20,
+      "realm": "actual",
+      "anchor": "bottom_center",
+      "transform": "uniform scale down only; preserve all painted subject bounds; no mirroring or nonuniform stretch",
+      "placement_rule": "Fit complete painted bounds inside the target box, align to its stated anchor; boxes are envelopes, not permission to distort anatomy.",
+      "notes": "",
+      "source_state": "RIGHT: the same man with identical face/body in European outfit, matching explaining gesture and expression. Costume comparison only; no moral/ethnic caricature, extra audience or telescope built into his body. Both costumes: body and feet RIGHT, head RIGHT toward audience; keep same face, age and stature.",
+      "scale_lock": {
+        "adult_standing_equivalent_px": 1000,
+        "adult_head_height_target_px": null,
+        "prince_standing_equivalent_px": null,
+        "method": "Use this character\u2019s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child.",
+        "head_proportion_authority": "Preserve the specific adult identity/technical guide; no generic pilot head fraction."
+      }
+    },
+    {
+      "asset": "CH04_S04:L",
+      "role": "adult",
+      "target_box_px": [
+        1180,
+        530,
+        500,
+        1000
+      ],
+      "target_box_percent": [
+        49.167,
+        29.576,
+        20.833,
+        55.804
+      ],
+      "z": 21,
+      "realm": "actual",
+      "anchor": "bottom_center",
+      "transform": "uniform scale down only; preserve all painted subject bounds; no mirroring or nonuniform stretch",
+      "placement_rule": "Fit complete painted bounds inside the target box, align to its stated anchor; boxes are envelopes, not permission to distort anatomy.",
+      "notes": "",
+      "source_state": "LEFT: older bespectacled adult full body, feet and torso LEFT, head LEFT toward narrator/astronomer, reserved listening face. Two different adults, one per cell; no money, scales or demographic labels.",
+      "scale_lock": {
+        "adult_standing_equivalent_px": 1000,
+        "adult_head_height_target_px": null,
+        "prince_standing_equivalent_px": null,
+        "method": "Use this character\u2019s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child.",
+        "head_proportion_authority": "Preserve the specific adult identity/technical guide; no generic pilot head fraction."
+      }
+    },
+    {
+      "asset": "CH04_S04:R",
+      "role": "adult",
+      "target_box_px": [
+        1710,
+        530,
+        500,
+        1000
+      ],
+      "target_box_percent": [
+        71.25,
+        29.576,
+        20.833,
+        55.804
+      ],
+      "z": 22,
+      "realm": "actual",
+      "anchor": "bottom_center",
+      "transform": "uniform scale down only; preserve all painted subject bounds; no mirroring or nonuniform stretch",
+      "placement_rule": "Fit complete painted bounds inside the target box, align to its stated anchor; boxes are envelopes, not permission to distort anatomy.",
+      "notes": "",
+      "source_state": "RIGHT: grey-haired woman full body, feet and torso LEFT, head LEFT toward same speaker, reserved listening face. Two different adults, one per cell; no money, scales or demographic labels.",
+      "scale_lock": {
+        "adult_standing_equivalent_px": 1000,
+        "adult_head_height_target_px": null,
+        "prince_standing_equivalent_px": null,
+        "method": "Use this character\u2019s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child.",
+        "head_proportion_authority": "Preserve the specific adult identity/technical guide; no generic pilot head fraction."
+      }
+    }
+  ],
+  "story_note": "Same astronomer; no invented official insignia or execution.",
+  "source_text": "In 1920, the astronomer explained his discovery again, wearing European clothes. This time, everyone believed him. The little planet had not changed at all.",
+  "assembly_notes": [
+    "Each box is a proposed placement envelope; actual asset alpha bounds and internal landmarks must be measured after return. A numeric guide is not proof that an ungenerated asset fits.",
+    "Keep page camera fixed after its first accepted assembly. For the same scene, change only named state or declared time/realm transition; never zoom to conceal a missing pose.",
+    "Preserve the neutral master's generated soft contact shadow with its complete group; no separate added shadow. Inspect actual sole/chair/prop supports and alpha after the uniform transform. Only accepted legacy keyed sources follow their retained measured local-grounding recipe; no floor shadow for paper art or imagined/editorial/airborne assets.",
+    "Save final measured scale, x/y, painted bounds, floor contacts, head/body ratio and paper corners in an as-built layout.json. Never auto-approve from this plan."
+  ],
+  "drawing_protocol": "Preserve master marks and medium. Derive pigment relative to paper, fit uniformly in local paper plane, perspective warp, multiply only protected paper interior, retain fingers above. No redraw, contrast boost or live animal substituted.",
+  "delivery_name": "c04-s02-p03.png",
+  "required_checks": [
+    "source story and realm",
+    "identity and costume",
+    "separate body/head/chair directions",
+    "prop count and state",
+    "floor/support contacts",
+    "useful source pixel dimensions",
+    "mask interiors and enclosed holes",
+    "native-size edge spill",
+    "reading-size emotion",
+    "all442 page coverage",
+    "visible action recipient or justified story-specific omission",
+    "gaze and gesture meet the intended target",
+    "one coherent instant and adjacent-page continuity",
+    "same-camera measured character/prop scale",
+    "chapter-matching painted frame and border",
+    "thought content readable before frame sizing",
+    "exact passage-to-visible-evidence alignment",
+    "selective thought owner, readable content and chronology"
+  ],
+  "narrative_staging": {
+    "review_scope": "Manuscript and planned staging reviewed; generated sources and final composition still require visual inspection.",
+    "story_text": "In 1920, the astronomer explained his discovery again, wearing European clothes. This time, everyone believed him. The little planet had not changed at all.",
+    "selected_moment": "Same astronomer; no invented official insignia or execution.",
+    "chapter_continuity": "The astronomer explains to visible listeners. Keep the same listeners for the costume comparison. House, planet and numerical comparisons remain editorial, not a literal shared location; the clothing decree stays in narration.",
+    "page_specific_exception_or_correction": "No additional staging change identified in this planning review.",
+    "visible_components": [
+      {
+        "asset": "CH04_S03:R",
+        "role": "adult",
+        "realm": "actual",
+        "state": "RIGHT: the same man with identical face/body in European outfit, matching explaining gesture and expression. Costume comparison only; no moral/ethnic caricature, extra audience or telescope built into his body. Both costumes: body and feet RIGHT, head RIGHT toward audience; keep same face, age and stature."
+      },
+      {
+        "asset": "CH04_S04:L",
+        "role": "adult",
+        "realm": "actual",
+        "state": "LEFT: older bespectacled adult full body, feet and torso LEFT, head LEFT toward narrator/astronomer, reserved listening face. Two different adults, one per cell; no money, scales or demographic labels."
+      },
+      {
+        "asset": "CH04_S04:R",
+        "role": "adult",
+        "realm": "actual",
+        "state": "RIGHT: grey-haired woman full body, feet and torso LEFT, head LEFT toward same speaker, reserved listening face. Two different adults, one per cell; no money, scales or demographic labels."
+      }
+    ],
+    "before_assembly_required_fields": [
+      "visible instant",
+      "actor and action",
+      "recipient or target",
+      "target-containing component/background",
+      "head/body/hand/gaze directions",
+      "off-frame reason if any",
+      "one-owner prop/contact inventory",
+      "adjacent-page continuity"
+    ],
+    "delivery_gate": [
+      "State one visible instant and name actor, action, recipient/target, story realm, and pose evidence before assembling.",
+      "An offering, showing, pointing, helping or speaking pose needs its visible recipient/target, including recipients integrated in a contact group/background. An exception needs a page-specific story/framing reason, not a generic off-frame excuse.",
+      "Trace body, hand, head and gaze directions to the intended target at reading size. Both sides must be understandable without reading the caption.",
+      "Check face emotion, occupied hands, actual paper face, full-body proportions, supporting contacts and one-owner prop counts against the preceding and following pages.",
+      "Distinguish actual participants from memory, thought, metaphor, editorial illustration and hypothesis; do not add a character merely because dialogue mentions them.",
+      "Verify actual source pixels, measured placements, non-overlap and scene camera. A numerical envelope or a close-up label is not visual evidence.",
+      "Record a reading-size scene verdict and a native-size contact/edge verdict. Fix failed staging with compatible complete components or the prepared whole-state correction before delivery; no head swaps, mirrors, hidden upscaling or renewed routine permission."
+    ],
+    "visual_status": "Not auto-approved by this planning review."
+  },
+  "geometry_continuity": {
+    "camera_group_id": "c04-s02-p03-editorial-camera",
+    "chapter_opening": false,
+    "coordinate_authority": "planned group; actual source landmarks/painted bounds must be measured before acceptance",
+    "scale_rule": "Same location/camera/depth: fixed physical size; use native anatomical/prop landmarks, one uniform scale, then compare at identical display zoom.",
+    "comparable_landmark_tolerance_percent": 1.5,
+    "unchanged_support_anchor_tolerance_px": 3,
+    "frame_rule": "Match measured full-scene painted bounds and paper borders; openings cannot be tiny icons on blank white.",
+    "border_delta_limit_percentage_points": 2,
+    "thought_rule": "Readable content first; original aspect/pigment preserved; fit only empty painted frame with small padding. No fixed 650px frame cap.",
+    "required_evidence": [
+      "baseline page and camera/background transform",
+      "native and final anatomical/prop landmarks",
+      "scale calculation and independent landmark crosscheck",
+      "floor/seat/hand contacts after resize",
+      "painted field bounds and normalized margins",
+      "thought image size and safe interior, when present",
+      "actual source second-landmark comparison and support contact pixels"
+    ],
+    "unchanged_anchor_tolerance_px": 3
+  },
+  "text_alignment": {
+    "source_text": "In 1920, the astronomer explained his discovery again, wearing European clothes. This time, everyone believed him. The little planet had not changed at all.",
+    "source_lines": [
+      269,
+      272
+    ],
+    "chapter_opening": false,
+    "visible_story_evidence": "Same astronomer; no invented official insignia or execution.",
+    "thought": {
+      "decision": "no_cloud",
+      "owner": null,
+      "content_assets": [],
+      "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+      "selected_evidence": "Same astronomer; no invented official insignia or execution.",
+      "realm_caution": "Separate editorial examples and memories from actual visitors; a house adults fail to imagine must not be assigned to their thought cloud."
+    },
+    "chapter_story_locks": "Separate editorial examples and memories from actual visitors; a house adults fail to imagine must not be assigned to their thought cloud.",
+    "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+    "acceptance": [
+      "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+      "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+      "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+      "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+    ],
+    "thought_aesthetics": {
+      "guide": "production/Text_to_Illustration_Alignment.md",
+      "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+      "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+      "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+      "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+      "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+      "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+    }
+  },
+  "composition_performance_contract": {
+    "version": 1,
+    "guide": "production/Composition_Continuity_and_Performance.md",
+    "scale_tolerance_percent": 1.5,
+    "unchanged_anchor_tolerance_px": 3,
+    "scale_method": "Native anatomical and rigid-prop endpoints -> one uniform scale -> second independent landmark check; never fit pose height as anatomy.",
+    "relative_scale_authority": "Named geometry artwork and persistent cross-chapter ratios; reconcile conflicting turnaround proportions before generating.",
+    "registration": "Keep actor/prop world anchors and at least three room/floor landmarks fixed at same camera/depth unless the passage moves them.",
+    "camera_rule": "Plan a motivated establishing/interaction/detail/emotional shot; genuine angle needs matching perspective sources. Reframe ALL physical layers and shadows together, preserve screen direction and painted border.",
+    "expression_rule": "Each visible participant has named readable emotion, gaze recipient, brow/eye/mouth/head/gesture evidence at reading size.",
+    "grounding_rule": "Inspect the generated neutral shadow at actual bearing surfaces; preserve its exact shape, position, hue, softness, alpha and intensity in each variant. One owner, no white gap or extra shadow. Legacy keyed sources retain their measured preparation recipe; imagined/airborne assets have no floor shadow.",
+    "thought_trail_count_when_selected": 3,
+    "uniqueness_rule": "Every page communicates its own text through action/response/meaningful view; no exact or cosmetic-only duplicate.",
+    "before_delivery": [
+      "actual native landmarks and source hashes",
+      "relative scale and same-camera comparison",
+      "actual support pixels and final shadow attachment",
+      "reading-size expression/gaze/interaction",
+      "decoded-pixel duplicate scan plus semantic near-duplicate review",
+      "exact layer reconstruction",
+      "manual chapter approval stop"
+    ]
+  },
+  "reference_lineage": {
+    "workflow_version": 8,
+    "planned_only": true,
+    "asset_nodes": {
+      "CH04_S03:R": "V_CH04_S03_R",
+      "CH04_S04:L": "V_CH04_S04_L",
+      "CH04_S04:R": "V_CH04_S04_R"
+    },
+    "preserve_current_as_built": true,
+    "guide": "production/Reference_Lineage_Workflow.md"
+  }
+}

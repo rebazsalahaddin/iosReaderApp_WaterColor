@@ -1,0 +1,23 @@
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 15-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+The boy is already holding the pencil over the partially drawn sheet; the blue book is already closed. Keep the exact incomplete Drawing One visible on the paper.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–9.271 seconds: Hold a thoughtful downward gaze over the existing partial drawing. The pencil is already in his hand; do not pick it up, open the book or draw early.
+9.271–11.521 seconds: Refocus his eyes toward the pencil tip while keeping the grip and paper steady.
+11.521–13.1 seconds: Make one tiny supported tracing motion along an already-existing short line, through approximately 13.0 seconds. Do not complete or add any line.
+13.1–15 seconds: Pause the tip at the original paper position and hold the concentrated expression through the end.
+
+GENERATED SOUND: AMBIENCE ONLY
+Quiet room tone. One very faint graphite sound only during actual pencil contact around 11.1–13.0 seconds. No other event sound, voice or music.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+No new line, filled shape, elephant, handwriting, erasure or complete Drawing One reveal. No second pencil, changing grip, growing fingers, sliding paper or opening the closed book.
+
+END STATE
+All story movement finishes within the first 14.245 seconds; maintain a quiet stable hold through 15 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

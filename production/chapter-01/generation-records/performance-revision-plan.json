@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-11-07T17:52:02.837996+00:00",
+  "status": "preflight",
+  "requests": [
+    "CH01_E01",
+    "CH01_E02",
+    "CH01_E03",
+    "CH01_E04"
+  ],
+  "initial_estimated_credits": 8,
+  "material_correction_reserve_credits": 8,
+  "note": "User-directed new performance states. Never resets any old request attempt count. Review each family before batching."
+}

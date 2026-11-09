@@ -1,0 +1,62 @@
+{
+  "id": "N_pilot_flying_left__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_pilot"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_pilot"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "appearance-references/shared/plane_side_view.png",
+        "candidate_sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Complete cream-and-blue plane airborne nose LEFT, closed cowling, one cockpit/seat/headrest/windscreen, pilot in flight clothes and forehead goggles looking LEFT, neutral face, two-blade propeller. No floor shadow.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "pilot_flying_left",
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "affected_pages": [
+    "c01-s04-p01"
+  ],
+  "legacy_tokens": [
+    "CH01_S17:ONE"
+  ],
+  "shadow_mode": "none_airborne_or_close_crop",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/06_CH01_S17_PACKING_GUIDE.png",
+      "sha256": "9ccde62f71c161ccb09f0671d98969acfec7eb3ebcc7a7aaaad83fe76416c724",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/07_c01-s04-p01_COMPOSITION_GUIDE.png",
+      "sha256": "a7f0ea36c009713c0bed1423f4697386ff443f6cb95bcaf7c9ce269fc0c29ca8",
+      "role": "TECHNICAL final-page placement for c01-s04-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_pilot_flying_left__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Complete cream-and-blue plane airborne nose LEFT, closed cowling, one cockpit/seat/headrest/windscreen, pilot in flight clothes and forehead goggles looking LEFT, neutral face, two-blade propeller. No floor shadow. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft neutral daylight from upper-left; preserve the established local colours. Keep transparent surroundings and opaque subject interiors; no physical floor or floor shadow in this airborne/close-cropped asset. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "3d2a723c149d1dcbc3bb663aa90b5eb8938f0168d6196fa227b415a6d27864ff",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_pilot_flying_left__soft_day_upper_left"
+}

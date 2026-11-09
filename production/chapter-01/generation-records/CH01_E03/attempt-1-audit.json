@@ -1,0 +1,153 @@
+{
+  "template_only": false,
+  "request_id": "CH01_E03",
+  "attempt": 1,
+  "job_id": "606dcf5b-4bab-4fac-bb98-6f4a8b1a67f5",
+  "source_file": "production/chapter-01/props/raw/CH01_E03_social_adults_pleased_agreement.png",
+  "source_sha256": "b02f40bcc3c0558aa86556f89dde1b7b8348b4dbafa9041eadb3e3671e6430c6",
+  "actual_format": "PNG",
+  "actual_dimensions": [
+    2400,
+    1792
+  ],
+  "prompt_sha256": "5fba7977d599fbbecc629d127943ebc3c82e731f3ce41283b7f279195c9ce840",
+  "attachments": [
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+      "sha256": "80ecd925cb7d12fd9807023e74913dfa79437fe1fe40d72c14e1e469aac260da",
+      "media_id": "0fcdd7e8-92b9-4a86-8b59-760c50782757"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/02_CH01_S05_grownup4_listen_reply.png",
+      "sha256": "f7482945be69292db3e5918c2f87fac69a48cf172ecffcbd37aea04da8825cad",
+      "media_id": "0f672f92-29b9-43aa-9fae-8b1788233c77"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/03_CH01_E03_direction_and_packing.png",
+      "sha256": "57a5d4b9c63d057f9a1033dec174405b6a2e781d588a2ba91537008df5b9b65f",
+      "media_id": "23abd318-f857-44cd-b697-f7d7842d5e40"
+    }
+  ],
+  "parameters": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "high",
+    "aspect_ratio": "4:3",
+    "count": 1
+  },
+  "accepted_cells": [
+    "R"
+  ],
+  "issues": [
+    {
+      "issue_id": "E03-L-DIRECTION",
+      "cell": "L",
+      "coordinate_space": "source pixels",
+      "image_dimensions": [
+        2400,
+        1792
+      ],
+      "bbox_xywh": [
+        65,
+        112,
+        904,
+        1626
+      ],
+      "decision": "MATERIAL_FAIL",
+      "cause": "source",
+      "observed": "Older man in L faces RIGHT despite the requested LEFT-facing seating.",
+      "expected": "A complete pleased older adult facing LEFT toward the pilot.",
+      "resolved": true,
+      "resolution": "Rejected L from use. Reused the already accepted friendly LEFT-facing older adult, whose warm open speaking mouth and palm suit pleased agreement; new E03:R supplies a distinct active response. No mirroring, no unnecessary paid retry.",
+      "replacement": "production/chapter-01/components/prepared/CH01_grownup3_talking_left__rgba-v007.png"
+    }
+  ],
+  "verdict": "PARTIALLY_ACCEPTED",
+  "reviewer": "Codex actual source / light-dark-room matte / placed-scene inspection",
+  "reviewed_at": "2026-11-07T18:23:19.559963+00:00",
+  "cell_audits": {
+    "R": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS",
+          "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Younger adult faces LEFT with warm open smile and welcoming palm, seated coherently, other hand on knee. Complete chair/sneakers, grey sweater and blue trousers remain the established adult design."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Native prepared crop 917x1559; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS_WITH_NOTE",
+          "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Younger adult faces LEFT with warm open smile and welcoming palm, seated coherently, other hand on knee. Complete chair/sneakers, grey sweater and blue trousers remain the established adult design. This performance remains readable in the reduced component review and chapter composite."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+        }
+      },
+      "source_crop": [
+        1457,
+        180,
+        2374,
+        1739
+      ],
+      "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E03_R__rgba-performance-v010.png"
+    }
+  },
+  "credits_estimated": 2,
+  "credits_actual": null,
+  "checks": {
+    "identity_style": {
+      "verdict": "PASS",
+      "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+    },
+    "orientation_expression": {
+      "verdict": "PASS",
+      "evidence": "Younger adult faces LEFT with warm open smile and welcoming palm, seated coherently, other hand on knee. Complete chair/sneakers, grey sweater and blue trousers remain the established adult design."
+    },
+    "count_state_realm": {
+      "verdict": "PASS",
+      "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+    },
+    "contact_support": {
+      "verdict": "PASS",
+      "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+    },
+    "native_pixel_budget": {
+      "verdict": "PASS",
+      "evidence": "Native prepared crop 917x1559; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+    },
+    "extraction_light_dark_intended": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+    },
+    "reading_size": {
+      "verdict": "PASS",
+      "evidence": "Younger adult faces LEFT with warm open smile and welcoming palm, seated coherently, other hand on knee. Complete chair/sneakers, grey sweater and blue trousers remain the established adult design. This performance remains readable in the reduced component review and chapter composite."
+    },
+    "second_contract_check": {
+      "verdict": "PASS",
+      "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+    }
+  },
+  "rejected_cells": [
+    "L"
+  ],
+  "retry_not_needed": "Compatible complete older state already exists; the final page has a distinct younger-man reaction and narrative meaning."
+}

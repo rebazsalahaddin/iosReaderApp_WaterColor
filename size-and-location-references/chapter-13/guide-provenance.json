@@ -1,0 +1,34 @@
+{
+  "chapter": 13,
+  "method": "Pillow programmatic technical layout; thumbnails of existing source art plus explicitly schematic placement zones; no generative calls",
+  "programmatic_targets": null,
+  "generated_guides": [
+    {
+      "path": "size-and-location-references/chapter-13/CH13_G01_size_and_sheet_layout.png",
+      "sha256": "8ef2ca6800ea2f960f0740bc49ad27887fd5e5d66d1b9c85561690ee66d1b178",
+      "pixels": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "size-and-location-references/chapter-13/CH13_L01_location_and_placement.png",
+      "sha256": "f8023d612c8fd22a62da6298bb179ffde6aa7f887bafc57d577b5fe20836b1e6",
+      "pixels": [
+        2400,
+        1792
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "source": "size-and-location-references/shared/LP_ch13_desk_scale_guide.png",
+      "sha256": "0764e07901c5b717b6d6edf155f3f8569c12e053a286f332c559cb5f2b1227af"
+    },
+    {
+      "source": "size-and-location-references/shared/LP_ch13_desk_state_guide.png",
+      "sha256": "75093c7fa14329f3093bd2659c3d43f0a73784771322d87ce9e40665e72e3c7f"
+    }
+  ],
+  "status": "technical planning only; not final-art approval"
+}

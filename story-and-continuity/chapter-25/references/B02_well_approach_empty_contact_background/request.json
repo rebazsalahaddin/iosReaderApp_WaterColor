@@ -1,0 +1,123 @@
+{
+  "id": "CH25_B02",
+  "chapter": 25,
+  "code": "B02",
+  "title": "well approach empty contact background",
+  "kind": "background",
+  "cells": [
+    "ONE: exactly the accepted sunrise well camera and sand landmarks, but remove the ENTIRE well, uprights, wheel, rope, bucket and local cast shadow; leave continuous empty sand."
+  ],
+  "refs": [
+    "day",
+    "well",
+    "success_style",
+    "style"
+  ],
+  "details": "Clean component plate for full well-contact groups, so no double well, bucket or erased holes are needed later.",
+  "light": "Warm sunrise from upper-left.",
+  "dependencies": [
+    "CH25_B01"
+  ],
+  "key": null,
+  "slug": "well_approach_empty_contact_background",
+  "output": "CH25_B02_well_approach_empty_contact_background.png",
+  "revision_origin": "required state planned during full-book review",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c25-s01-p04",
+    "c25-s01-p05"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-25/references/B02_well_approach_empty_contact_background",
+  "raw_output_folder": "production/chapter-25/props/raw",
+  "representative_page": "c25-s01-p04",
+  "placement_targets": [
+    {
+      "page": "c25-s01-p04",
+      "cell": "CH25_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c25-s01-p05",
+      "cell": "CH25_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_sahara_day.jpg",
+      "role": "Existing empty daytime Sahara plate. Preserve the full view and watercolor margins.",
+      "path": "story-and-continuity/chapter-25/references/B02_well_approach_empty_contact_background/reference-images/01_LP_ref_sahara_day.jpg",
+      "status": "supplied",
+      "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+      "source_key": "day"
+    },
+    {
+      "name": "02_LP_ref_well_turnaround.png",
+      "role": "Stone village well, wooden uprights/crossbar, wheel, rope and bucket; one fixed design, no village added.",
+      "path": "story-and-continuity/chapter-25/references/B02_well_approach_empty_contact_background/reference-images/02_LP_ref_well_turnaround.png",
+      "status": "supplied",
+      "sha256": "06283689f481a7f364d89f8f86a87c7ac8194457eb5c228a1e952de8c0c35ea7",
+      "source_key": "well"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-25/references/B02_well_approach_empty_contact_background/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-25/references/B02_well_approach_empty_contact_background/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_accepted_CH25_B01_desert_well_location.png",
+      "role": "ACCEPTED CH25_B01: desert well location. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-25/references/B02_well_approach_empty_contact_background/reference-images/05_accepted_CH25_B01_desert_well_location.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH25_B01",
+      "expected_raw": "production/chapter-25/props/raw/CH25_B01_desert_well_location.png"
+    },
+    {
+      "name": "06_CH25_B02_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-25/references/B02_well_approach_empty_contact_background/reference-images/06_CH25_B02_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "a0740e8f882f3a9fe767108d15bf8c3c078bd1e579d7396d419b27a0bd99693f"
+    },
+    {
+      "name": "07_c25-s01-p04_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c25-s01-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-25/references/B02_well_approach_empty_contact_background/reference-images/07_c25-s01-p04_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "c80cfaf4cdf8149ef9e55c73fc917f690a16800f5b1a219c0d2c103392fd1252"
+    }
+  ],
+  "readiness": "wait_for_listed_checked_dependencies",
+  "prompt": "CH25_B02 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: exactly the accepted sunrise well camera and sand landmarks, but remove the ENTIRE well, uprights, wheel, rope, bucket and local cast shadow; leave continuous empty sand.\n  Actual short payload: production/reference-lineage/nodes/A_CH25_B02_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "A_CH25_B02_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

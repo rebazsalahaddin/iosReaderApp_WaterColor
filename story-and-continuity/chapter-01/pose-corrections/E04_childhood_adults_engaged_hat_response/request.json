@@ -1,0 +1,134 @@
+{
+  "id": "CH01_E04",
+  "chapter": 1,
+  "code": "E04",
+  "title": "childhood adults engaged but mistaken about the drawing",
+  "kind": "pose",
+  "cells": [
+    "LEFT: full standing older bespectacled man, body and both shoes three-quarter RIGHT, head turned slightly DOWN and RIGHT toward the off-sheet child. He responds with mild kindly bemusement: eyebrows gently lifted, eyes interested through spectacles, small open speaking smile, one open hand toward the child. He is not frightened; he sincerely sees an ordinary hat, without mockery.",
+    "RIGHT: full standing older woman, body, shoes and face three-quarter RIGHT like the LEFTMOST woman reference. Head inclines slightly DOWN toward the off-sheet child; one eyebrow gently raised, soft quizzical smile, one hand lightly raised to chin in thoughtful curiosity, other at her side. Kind but uncomprehending; no angry scowl."
+  ],
+  "refs": [],
+  "details": "Two complete independent standing adults, man in LEFT column and woman in RIGHT column; SAME depth, man height H, woman 0.96H. Both face RIGHT independently. These are the child narrator's listeners, never the adult pilot's social men. No child, chair, table, actual hat, drawn hat, cloud or words. Keep all fingers, glasses and shoe soles intact; enough quiet key-colour space around each figure.",
+  "light": "Soft diffuse upper-left warm light.",
+  "dependencies": [],
+  "key": null,
+  "slug": "childhood_adults_engaged_hat_response",
+  "output": "CH01_E04_childhood_adults_engaged_hat_response.png",
+  "status": "accepted_current_source",
+  "uses": [
+    "c01-s02-p01",
+    "c01-s02-p02",
+    "c01-s02-p03"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response",
+  "raw_output_folder": "production/chapter-01/props/raw",
+  "representative_page": "c01-s02-p01",
+  "placement_targets": [
+    {
+      "page": "c01-s02-p01",
+      "cell": "CH01_E04:L",
+      "box_px": [
+        290,
+        450,
+        500,
+        1100
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p01",
+      "cell": "CH01_E04:R",
+      "box_px": [
+        850,
+        480,
+        470,
+        1050
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p02",
+      "cell": "CH01_E04:L",
+      "box_px": [
+        290,
+        450,
+        500,
+        1100
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p02",
+      "cell": "CH01_E04:R",
+      "box_px": [
+        850,
+        480,
+        470,
+        1050
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p03",
+      "cell": "CH01_E04:L",
+      "box_px": [
+        290,
+        450,
+        500,
+        1100
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    },
+    {
+      "page": "c01-s02-p03",
+      "cell": "CH01_E04:R",
+      "box_px": [
+        850,
+        480,
+        470,
+        1050
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_CH01_S13_childhood_adults_questioning.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/01_CH01_S13_childhood_adults_questioning.png",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces RIGHT. Change only the requested coherent expression/gesture state, preserving design and support geometry.",
+      "status": "supplied",
+      "sha256": "a97ab55db17f19a359b12995f81642006245c65230a049ed7a44c967cd787a16"
+    },
+    {
+      "name": "02_woman_both_states_facing_right.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/02_woman_both_states_facing_right.png",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces RIGHT. Change only the requested coherent expression/gesture state, preserving design and support geometry.",
+      "status": "supplied",
+      "sha256": "b2a6e085cf9d4254d9815cdab6bb9acd17a49bb36252720f84463d4b1c1f35a6"
+    },
+    {
+      "name": "03_CH01_E04_direction_and_packing.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/reference-images/03_CH01_E04_direction_and_packing.png",
+      "role": "INSTRUCTION ONLY: cell identity, independent facing arrows and complete silhouette packing. It is not an art, anatomy, face or colour reference. Do not copy labels or diagrams into output.",
+      "status": "supplied",
+      "sha256": "7d9e2ed2398ee519c8ebee999d54a42a57236b8bc554d132835b0cd3051242cd"
+    }
+  ],
+  "readiness": "ready_after_preflight",
+  "prompt": "CH01_E04 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- L: full standing older bespectacled man, body and both shoes three-quarter RIGHT, head turned slightly DOWN and RIGHT toward the off-sheet child. He responds with mild kindly bemusement: eyebrows gently lifted, eyes interested through spectacles, small open speaking smile, one open hand toward the child. He is not frightened; he sincerely sees an ordinary hat, without mockery.\n  Actual short payload: production/reference-lineage/nodes/V_CH01_E04_L/PROMPT.txt\n- R: Full standing older woman, body and shoes three-quarter RIGHT. Head inclines slightly DOWN-RIGHT toward the child; one eyebrow gently raised, soft quizzical smile, one hand lightly raised to chin, other at her side. Kind but uncomprehending; no angry scowl.\n  Actual short payload: production/reference-lineage/nodes/V_CH01_E04_R/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "revision_origin": "2026-11-07 user expressly requests visibly stronger expressions, meaningful distinct pages and interactive performance; existing accepted identities remain authoritative. Not an alias for an exhausted failed source.",
+  "accepted_source": "production/chapter-01/props/raw/CH01_E04_childhood_adults_engaged_hat_response.png",
+  "accepted_source_sha256": "d8481fe533c712ffbb365b3b8381f52a3713ea2d971632b4c4b3f30bd43671a7",
+  "attempts_used": 1,
+  "remaining_attempts": 1,
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "L": "V_CH01_E04_L",
+    "R": "V_CH01_E04_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

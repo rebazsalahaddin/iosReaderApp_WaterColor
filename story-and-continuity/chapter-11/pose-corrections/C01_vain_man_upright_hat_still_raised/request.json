@@ -1,0 +1,120 @@
+{
+  "id": "CH11_C01",
+  "chapter": 11,
+  "code": "C01",
+  "title": "vain man upright hat still raised",
+  "kind": "pose",
+  "cells": [
+    "ONE: vain man upright, torso and feet RIGHT, head RIGHT, self-satisfied face, LEFT anatomical hand holds the only blue hat above hair, right hand relaxed."
+  ],
+  "refs": [
+    "vain",
+    "LP_ch11_hat_action_guide",
+    "LP_ch11_man_hat_scale_guide",
+    "success_style",
+    "style"
+  ],
+  "details": "Full raised-hat height, no second hat on head. This is the stopped-clapping state, distinct from the bow.",
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "dependencies": [
+    "CH11_S01"
+  ],
+  "key": null,
+  "slug": "vain_man_upright_hat_still_raised",
+  "output": "CH11_C01_vain_man_upright_hat_still_raised.png",
+  "revision_origin": "required state planned during full-book review",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c11-s01-p05"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised",
+  "raw_output_folder": "production/chapter-11/props/raw",
+  "representative_page": "c11-s01-p05",
+  "placement_targets": [
+    {
+      "page": "c11-s01-p05",
+      "cell": "CH11_C01:ONE",
+      "box_px": [
+        375.0,
+        270,
+        550,
+        1260
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_vain_man_turnaround.png",
+      "role": "Vain man identity and the one tall blue hat with cream band.",
+      "path": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/reference-images/01_LP_ref_vain_man_turnaround.png",
+      "status": "supplied",
+      "sha256": "cb6fc23d139334772f2ebca04f538d48920cfe96ff385cc3568f9d989a20bba6",
+      "source_key": "vain"
+    },
+    {
+      "name": "02_LP_ch11_hat_action_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/reference-images/02_LP_ch11_hat_action_guide.png",
+      "status": "supplied",
+      "sha256": "fe763f4d9aa64192e68e95b5f349faa9e27c50a9105cf3a3e6a4c70969540f29",
+      "source_key": "LP_ch11_hat_action_guide"
+    },
+    {
+      "name": "03_LP_ch11_man_hat_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/reference-images/03_LP_ch11_man_hat_scale_guide.png",
+      "status": "supplied",
+      "sha256": "c0e684b6ad1f7e10709e52f66e9121b3611a412d0dfb72555a70caa37af64a29",
+      "source_key": "LP_ch11_man_hat_scale_guide"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_accepted_CH11_S01_vain_man_hat_worn_and_lifted.png",
+      "role": "ACCEPTED CH11_S01: vain man hat worn and lifted. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/reference-images/06_accepted_CH11_S01_vain_man_hat_worn_and_lifted.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH11_S01",
+      "expected_raw": "production/chapter-11/props/raw/CH11_S01_vain_man_hat_worn_and_lifted.png"
+    },
+    {
+      "name": "07_CH11_C01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/reference-images/07_CH11_C01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "d1db7a34d3712e39b468752eae02fe562d9cbcefd2240097312130b1ff313096"
+    },
+    {
+      "name": "08_c11-s01-p05_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c11-s01-p05. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/reference-images/08_c11-s01-p05_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "1e0817a4a7f870c2be18585528d1cd5610a233eae722dbfd8399950d48e03f86"
+    }
+  ],
+  "readiness": "wait_for_listed_checked_dependencies",
+  "prompt": "CH11_C01 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: vain man upright, torso and feet RIGHT, head RIGHT, self-satisfied face, LEFT anatomical hand holds the only blue hat above hair, right hand relaxed.\n  Actual short payload: production/reference-lineage/nodes/V_CH11_C01_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "V_CH11_C01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

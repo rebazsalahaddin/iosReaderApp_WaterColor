@@ -1,0 +1,100 @@
+{
+  "id": "CH26_S08",
+  "chapter": 26,
+  "code": "S08",
+  "title": "narrator at future open window",
+  "kind": "pose",
+  "cells": [
+    "ONE: adult pilot standing in the approved familiar room camera, full body looking toward open window upper-left with a quiet bittersweet smile, hands low."
+  ],
+  "refs": [
+    "roomstand",
+    "pilot",
+    "success_style",
+    "style"
+  ],
+  "details": "Future imagined narrator, not real-time teleportation. At original room camera standing height 60\u201365% frame height and head/full height .21\u2013.22. Do not copy visitors/card.",
+  "key": null,
+  "light": "Soft cool night window light from LEFT; preserve adult clothing colours.",
+  "dependencies": [],
+  "slug": "narrator_at_future_open_window",
+  "output": "CH26_S08_narrator_at_future_open_window.png",
+  "raw_output_folder": "production/chapter-26/props/raw",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c26-s03-p07"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window",
+  "representative_page": "c26-s03-p07",
+  "placement_targets": [
+    {
+      "page": "c26-s03-p07",
+      "cell": "CH26_S08:ONE",
+      "box_px": [
+        425,
+        410,
+        550,
+        1120
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_pilot_room_standing_ch04.png",
+      "role": "Approved adult-room standing camera/fit: crown-to-sole 60\u201365% of original frame height, head/full-standing about .21\u2013.22. Do not copy visitors or card.",
+      "path": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/reference-images/01_LP_ref_pilot_room_standing_ch04.png",
+      "status": "supplied",
+      "sha256": "565aec88e81db8b99c2c56d8eb81136b04db08df1f77fd801a99e3f1c2604d36",
+      "source_key": "roomstand"
+    },
+    {
+      "name": "02_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/reference-images/02_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_CH26_S08_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/reference-images/05_CH26_S08_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "cbe3a55cbec700add86c4523a1dafb838931d13ab6472d247a03df2172fa89b2"
+    },
+    {
+      "name": "06_c26-s03-p07_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c26-s03-p07. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/reference-images/06_c26-s03-p07_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "e4ea1af8051ba235baef5ba7a86ff7a3cd7b2e57203185d30288174e2a48d94a"
+    }
+  ],
+  "readiness": "ready_for_agent_generation",
+  "prompt": "CH26_S08 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: adult pilot standing in the approved familiar room camera, full body looking toward open window upper-left with a quiet bittersweet smile, hands low.\n  Actual short payload: production/reference-lineage/nodes/V_CH26_S08_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "V_CH26_S08_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

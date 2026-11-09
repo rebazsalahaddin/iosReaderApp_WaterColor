@@ -1,0 +1,73 @@
+{
+  "id": "N_prince_seated_ground_left__moonlight_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_prince"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_prince"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Prince seated on ground facing LEFT with knees/boots supported, hands resting on knees, neutral calm face, no chair.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "prince_seated_ground_left",
+  "light": "Cool soft moonlight from upper-left.",
+  "affected_pages": [
+    "c26-s03-p02",
+    "c26-s03-p05",
+    "c26-s03-p06",
+    "c26-s03-p08",
+    "c26-s05-p01",
+    "c26-s05-p02"
+  ],
+  "legacy_tokens": [
+    "CH26_S09:L",
+    "CH26_S09:R",
+    "CH26_C01:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-26/reusable-poses/S09_prince_laughing_at_night/reference-images/04_CH26_S09_PACKING_GUIDE.png",
+      "sha256": "206d1f028c6f1807b99b0e47ced37b0511d30622f62db60b4b9eb10c92c3a8bd",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/reusable-poses/S09_prince_laughing_at_night/reference-images/05_c26-s03-p02_COMPOSITION_GUIDE.png",
+      "sha256": "96fa890f7e69fbe7e3dab98af5f3d17c6d8d0023041f990314c3bffa3232f236",
+      "role": "TECHNICAL final-page placement for c26-s03-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/pose-corrections/C01_prince_seated_afraid_alone/reference-images/05_CH26_C01_PACKING_GUIDE.png",
+      "sha256": "5b466a63fe693145c236f79728eb49261c1d0d5bd590daef79b62ec01c2bd00a",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/pose-corrections/C01_prince_seated_afraid_alone/reference-images/06_c26-s05-p01_COMPOSITION_GUIDE.png",
+      "sha256": "b7267447368f56df6d5b229dd363c1e90ee4adc9c17cd0709f9ab97e98c2f1f7",
+      "role": "TECHNICAL final-page placement for c26-s05-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_prince_seated_ground_left__moonlight_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Prince seated on ground facing LEFT with knees/boots supported, hands resting on knees, neutral calm face, no chair. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Cool soft moonlight from upper-left. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "a54884f3378a36fdddf6bf18e8fe9c6f69f630e46b64b11ddc78434331228976",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_prince_seated_ground_left__moonlight_upper_left"
+}

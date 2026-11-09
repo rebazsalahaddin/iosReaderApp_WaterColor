@@ -1,0 +1,61 @@
+{
+  "id": "N_prince_snake_ankle__moonlight_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_prince",
+    "I_snake"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_prince",
+      "I_snake"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Prince standing supported, one continuous thin gold-yellow snake loosely encircling ONE ankle like bracelet, child looking down with neutral face, both complete anatomy.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "prince_snake_ankle",
+  "light": "Cool moonlight from upper-left.",
+  "affected_pages": [
+    "c17-s03-p03",
+    "c17-s03-p04",
+    "c17-s03-p05",
+    "c17-s03-p06"
+  ],
+  "legacy_tokens": [
+    "CH17_S02:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-17/reusable-poses/S02_prince_and_snake_ankle_contact/reference-images/05_CH17_S02_PACKING_GUIDE.png",
+      "sha256": "4c52784e9929cffc59e49b3e8eac01f4ac1836d5f4ea10f50159a12ef051079e",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-17/reusable-poses/S02_prince_and_snake_ankle_contact/reference-images/06_c17-s03-p03_COMPOSITION_GUIDE.png",
+      "sha256": "793d22929f7723a17bd9914e7246167d55412385e21cf654b98ed3e44b8a9f3b",
+      "role": "TECHNICAL final-page placement for c17-s03-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_prince_snake_ankle__moonlight_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Prince standing supported, one continuous thin gold-yellow snake loosely encircling ONE ankle like bracelet, child looking down with neutral face, both complete anatomy. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Cool moonlight from upper-left. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "b750b4437ad502d9719ff2ec274bec4b8b981a7616e2cb3f8aaade345bf1d2f7",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_prince_snake_ankle__moonlight_upper_left"
+}

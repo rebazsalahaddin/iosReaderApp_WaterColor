@@ -1,0 +1,58 @@
+{
+  "id": "V_CH03_S02_R",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_prince_standing_paper_left__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_prince_standing_paper_left__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "prince facing LEFT, head lowered thoughtfully toward one blank cream sheet held securely in both hands; paper plane visible.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH03_S02",
+  "legacy_cell": "R",
+  "affected_pages": [
+    "c03-s01-p05",
+    "c03-s02-p03",
+    "c03-s03-p01",
+    "c03-s03-p03",
+    "c05-s01-p03",
+    "c05-s01-p04",
+    "c05-s01-p05",
+    "c05-s01-p06",
+    "c06-s01-p04",
+    "c25-s02-p03",
+    "c25-s02-p04"
+  ],
+  "allowed_changes": "prince facing LEFT, head lowered thoughtfully toward one blank cream sheet held securely in both hands; paper plane visible.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Only RIGHT carries paper; composite the same existing box drawing onto it without changing his fingers.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH03_S02_R/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: prince facing LEFT, head lowered thoughtfully toward one blank cream sheet held securely in both hands; paper plane visible. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-03/reusable-poses/S02_prince_laughing_and_holding_drawing/audit-contract.json",
+  "prompt_sha256": "8199557ba41a6975473e55ddb4e2e436d5bf6c442b8921543f4f8bd35de73524",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH03_S02_R",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

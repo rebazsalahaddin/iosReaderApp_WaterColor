@@ -1,0 +1,60 @@
+{
+  "reuse_checked": true,
+  "canonical_aliases_checked": true,
+  "references_visually_checked": true,
+  "page_contracts_checked": true,
+  "pixel_budget_checked": true,
+  "directions_contacts_checked": true,
+  "text_alignment_checked": true,
+  "alpha_shadow_plan_checked": true,
+  "live_schema_checked": true,
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "estimated_credits": 1,
+  "estimate_checked_at": "2026-11-07T22:05:58.217369+00:00",
+  "prompt_file": "production/reference-lineage/nodes/V_CH01_CHILD_IMAGINING/PROMPT.txt",
+  "prompt_sha256": "522db58682d3cb20093ca225de053307ac003620170b08fac2b1490ebe8d7b41",
+  "parents": [
+    {
+      "node_id": "N_child_table__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-2.png",
+      "sha256": "ba1a56b2874e952e190e6cc668d729ad091d1e5717cd8bc9e0df36728c9f7a7a"
+    }
+  ],
+  "attachments": [
+    {
+      "path": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-2.png",
+      "sha256": "ba1a56b2874e952e190e6cc668d729ad091d1e5717cd8bc9e0df36728c9f7a7a",
+      "media_id": "10b5918a-ece4-4b78-a108-1ce403f4c017"
+    }
+  ],
+  "allowed_change_regions": [
+    {
+      "name": "head/gaze/brow/mouth",
+      "bbox_xywh": [
+        1200,
+        0,
+        800,
+        620
+      ]
+    },
+    {
+      "name": "arms/hands and opening blue book",
+      "bbox_xywh": [
+        300,
+        570,
+        1650,
+        480
+      ]
+    }
+  ],
+  "shadow_preservation_plan": "Preserve accepted parent lower region y1100..1744 and its support/shadow mask byte-for-byte. Compare raw return, then restore only unchanged parent pixels outside approved edit regions if necessary and seam/occlusion checks pass. No anatomy recombination or drawn replacement shadow.",
+  "evidence": "Preplanned genuinely new imagining beat on c01-s01-p03. Existing excited-reading source cannot supply distinct upward wonder/gaze. No inherited prior sheet submission for this new state. Exactly the same accepted neutral as future seated siblings; no expressive parent."
+}

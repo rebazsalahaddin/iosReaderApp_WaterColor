@@ -1,0 +1,26 @@
+{
+  "request": "C02_younger_listener_facing_left",
+  "status": "received, prepared and used in completed chapter",
+  "output_filename": "CH01_C02_younger_listening_left.png",
+  "output_directory": "production/chapter-01/props/raw",
+  "references": [
+    {
+      "file": "01_younger_original_identity.png",
+      "source": "appearance-references/chapter-01/LP_ref_char_grownup4_turnaround.png",
+      "sha256": "4802b0884b1fd288da9bdf998a0d2a79b40f41888ed1ab0d45d6056957fa7a61"
+    },
+    {
+      "file": "02_younger_seated_facing_left.png",
+      "source": "production/chapter-01/components/prepared/CH01_grownup4_uncomprehending__rgba-v006.png",
+      "sha256": "6bdab36ee82d7f1f88530069e5b500c3cab27c2c389298a96d5b4a19e2e91c8c"
+    },
+    {
+      "file": "03_approved_social_page.png",
+      "source": "appearance-references/shared/CH01_approved_style_example.png",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275"
+    }
+  ],
+  "automatic_generation_authorized": false,
+  "received_file": "production/chapter-01/props/raw/CH01_C02_younger_listening_left.png",
+  "received_sha256": "7cdaec2b6c38ba5b2e0d45c422fa3666b8b5903c0e3c5594d55424af3539b29b"
+}

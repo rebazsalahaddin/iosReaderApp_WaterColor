@@ -1,0 +1,138 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH06_C01",
+  "prompt_file": "story-and-continuity/chapter-06/pose-corrections/C01_empty_sunset_chair/PROMPT.txt",
+  "prompt_sha256": "a20cd0d380ce3295324bb2cf8098a8eb36eb2844e7ed1e507401b655562654b5",
+  "expected_cells": [
+    "ONE: empty small wooden chair, three-quarter facing LEFT, four legs, two back slats, no arms or cushion; full silhouette."
+  ],
+  "required_state_direction_contact": "Seat .25 upright prince P, overall .62P. Same chair as the occupied/moving states; standalone prop avoids cutting a child out of a contact pose.",
+  "isolation_key": null,
+  "light": "Soft peach sunset light from upper-left.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_LP_ch06_chair_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-06/pose-corrections/C01_empty_sunset_chair/reference-images/01_LP_ch06_chair_scale_guide.png",
+      "status": "supplied",
+      "sha256": "e904b3c4c2a56da30b61d5ae04dbbed894bfe6a8225c605a076db73f55d01a96",
+      "source_key": "LP_ch06_chair_scale_guide"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-06/pose-corrections/C01_empty_sunset_chair/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-06/pose-corrections/C01_empty_sunset_chair/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_CH06_C01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-06/pose-corrections/C01_empty_sunset_chair/reference-images/04_CH06_C01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "c0a46c289bba806cb853471104cf90e18d97dd669e1101ef342a625d38f1a8ea"
+    },
+    {
+      "name": "05_c06-s01-p01_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c06-s01-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-06/pose-corrections/C01_empty_sunset_chair/reference-images/05_c06-s01-p01_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "5ef94bab9209ca9d7dab076390aae37edd059194eba28f9ef2e889b874cc04c1"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "A_CH06_C01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c06-s01-p01",
+    "c06-s01-p04",
+    "c10-s02-p07",
+    "c14-s03-p01"
+  ],
+  "placement_targets": [
+    {
+      "page": "c06-s01-p01",
+      "cell": "CH06_C01:ONE",
+      "box_px": [
+        1190,
+        1085,
+        400,
+        445
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c06-s01-p04",
+      "cell": "CH06_C01:ONE",
+      "box_px": [
+        1697,
+        380,
+        202,
+        215
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c10-s02-p07",
+      "cell": "CH06_C01:ONE",
+      "box_px": [
+        1767,
+        400,
+        202,
+        215
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c14-s03-p01",
+      "cell": "CH06_C01:ONE",
+      "box_px": [
+        1824,
+        352,
+        173,
+        185
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-06/pose-corrections/C01_empty_sunset_chair/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

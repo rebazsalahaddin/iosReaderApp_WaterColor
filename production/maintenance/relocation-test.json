@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "tested_from_separate_temporary_location": true,
+  "tested_after_project_folder_rename": true,
+  "old_project_file_reads_explicitly_blocked": true,
+  "validation_suites": [
+    "all-book manuscript/reference/layout checks",
+    "442 narrative staging contracts",
+    "self-containment and exact final-page reconstruction"
+  ],
+  "original_project_modified_during_test": false
+}

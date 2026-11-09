@@ -1,0 +1,255 @@
+{
+  "page": "c26-s01-p07",
+  "canvas": [
+    2400,
+    1792
+  ],
+  "status": "planned component rebuild; not generated",
+  "stage": "well_wall_contact",
+  "coordinate_authority": "authored numeric production targets; ungenerated assets require measured fit verification",
+  "safe_frame_px": [
+    120,
+    90,
+    2160,
+    1612
+  ],
+  "paper_rgb_hex": "#FDFAF3",
+  "layers": [
+    {
+      "asset": "CH26_B02:ONE",
+      "role": "background",
+      "target_box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "target_box_percent": [
+        8.333,
+        8.315,
+        83.333,
+        83.315
+      ],
+      "z": 0,
+      "realm": "actual",
+      "anchor": "center",
+      "transform": "uniform scale down only; preserve all painted subject bounds; no mirroring or nonuniform stretch",
+      "placement_rule": "Fit complete painted bounds inside the target box, align to its stated anchor; boxes are envelopes, not permission to distort anatomy.",
+      "notes": "New 2K plate fits a 2000\u00d71493 region on matched warm paper; preserve full field and deckled edges, never enlarge or crop.",
+      "source_state": "ONE: accepted evening scene and distant well back-left, but remove ENTIRE foreground broken wall and its local shadow; continuous empty sand where complete wall-contact group will sit. Full wall comes from S01 or S03 exactly once. No snake, snake shadow or concealed tail."
+    },
+    {
+      "asset": "CH26_S01:ONE",
+      "role": "environment_contact",
+      "target_box_px": [
+        300,
+        350,
+        1800,
+        1200
+      ],
+      "target_box_percent": [
+        12.5,
+        19.531,
+        75.0,
+        66.964
+      ],
+      "z": 21,
+      "realm": "actual",
+      "anchor": "bottom_center",
+      "transform": "uniform scale down only; preserve all painted subject bounds; no mirroring or nonuniform stretch",
+      "placement_rule": "Fit complete painted bounds inside the target box, align to its stated anchor; boxes are envelopes, not permission to distort anatomy.",
+      "notes": "Owns entire visible well or wall. Use the clean background with that structure absent. Register structure footprint against its technical guide; one mechanism/wall only.",
+      "source_state": "ONE: prince seated on the top of a matching broken wall segment, legs dangling, looking down toward an unseen speaker below-right, quiet serious expression. Include the entire visible low broken wall span beneath him, no snake or shadow. Use accepted B01 masonry/camera. Match wall height .45 H; no foot support invented under dangling boots. One local opaque stone insert. Full wall span is one coherent group, not a patch over a second wall. DIRECTION LOCK: Child seated facing front-right on wall, head DOWN-RIGHT toward hidden speaker, boots dangling; no visible snake before reveal.",
+      "scale_lock": {
+        "adult_standing_equivalent_px": null,
+        "adult_head_height_target_px": null,
+        "prince_standing_equivalent_px": 610,
+        "method": "Use this character\u2019s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child.",
+        "prince_head_height_target_px": 189
+      }
+    },
+    {
+      "asset": "CH26_S02:L",
+      "role": "snake",
+      "target_box_px": [
+        590,
+        1420,
+        460,
+        110
+      ],
+      "target_box_percent": [
+        24.583,
+        79.241,
+        19.167,
+        6.138
+      ],
+      "z": 22,
+      "realm": "actual",
+      "anchor": "bottom_center",
+      "transform": "uniform scale down only; preserve all painted subject bounds; no mirroring or nonuniform stretch",
+      "placement_rule": "Fit complete painted bounds inside the target box, align to its stated anchor; boxes are envelopes, not permission to distort anatomy.",
+      "notes": "Continuous snake body about .75P, thickness .025P; never stretch or redraw coils.",
+      "source_state": "LEFT: accepted thin yellow snake lying low beside a few small stones, clearly visible, head slightly raised, closed mouth. Snake identity MUST follow accepted Chapter 17 A01. No fangs, strike or injury in this sheet."
+    }
+  ],
+  "story_note": "First visible yellow snake. Pilot\u2019s reach for gun stays narrated, no firearm asset necessary.",
+  "source_text": "Then I saw it: a yellow snake next to the wall. I knew it could kill. I reached into my pocket for my gun and ran toward them.",
+  "assembly_notes": [
+    "Each box is a proposed placement envelope; actual asset alpha bounds and internal landmarks must be measured after return. A numeric guide is not proof that an ungenerated asset fits.",
+    "Keep page camera fixed after its first accepted assembly. For the same scene, change only named state or declared time/realm transition; never zoom to conceal a missing pose.",
+    "Preserve the neutral master's generated soft contact shadow with its complete group; no separate added shadow. Inspect actual sole/chair/prop supports and alpha after the uniform transform. Only accepted legacy keyed sources follow their retained measured local-grounding recipe; no floor shadow for paper art or imagined/editorial/airborne assets.",
+    "Save final measured scale, x/y, painted bounds, floor contacts, head/body ratio and paper corners in an as-built layout.json. Never auto-approve from this plan."
+  ],
+  "drawing_protocol": "Preserve master marks and medium. Derive pigment relative to paper, fit uniformly in local paper plane, perspective warp, multiply only protected paper interior, retain fingers above. No redraw, contrast boost or live animal substituted.",
+  "delivery_name": "c26-s01-p07.png",
+  "required_checks": [
+    "source story and realm",
+    "identity and costume",
+    "separate body/head/chair directions",
+    "prop count and state",
+    "floor/support contacts",
+    "useful source pixel dimensions",
+    "mask interiors and enclosed holes",
+    "native-size edge spill",
+    "reading-size emotion",
+    "all442 page coverage",
+    "visible action recipient or justified story-specific omission",
+    "gaze and gesture meet the intended target",
+    "one coherent instant and adjacent-page continuity",
+    "same-camera measured character/prop scale",
+    "chapter-matching painted frame and border",
+    "thought content readable before frame sizing",
+    "exact passage-to-visible-evidence alignment",
+    "selective thought owner, readable content and chronology"
+  ],
+  "narrative_staging": {
+    "review_scope": "Manuscript and planned staging reviewed; generated sources and final composition still require visual inspection.",
+    "story_text": "Then I saw it: a yellow snake next to the wall. I knew it could kill. I reached into my pocket for my gun and ran toward them.",
+    "selected_moment": "First visible yellow snake. Pilot\u2019s reach for gun stays narrated, no firearm asset necessary.",
+    "chapter_continuity": "Keep the snake hidden through c26-s01-p06; the first reveal is p07. Seated laughter can use an explicitly framed reaction vignette, not a small figure apparently addressing empty wide scenery. Catching, drinking, handholding and farewell contacts stay intact. The request to go alone is intentional, not a missing listener.",
+    "page_specific_exception_or_correction": "No additional staging change identified in this planning review.",
+    "visible_components": [
+      {
+        "asset": "CH26_S01:ONE",
+        "role": "environment_contact",
+        "realm": "actual",
+        "state": "ONE: prince seated on the top of a matching broken wall segment, legs dangling, looking down toward an unseen speaker below-right, quiet serious expression. Include the entire visible low broken wall span beneath him, no snake or shadow. Use accepted B01 masonry/camera. Match wall height .45 H; no foot support invented under dangling boots. One local opaque stone insert. Full wall span is one coherent group, not a patch over a second wall. DIRECTION LOCK: Child seated facing front-right on wall, head DOWN-RIGHT toward hidden speaker, boots dangling; no visible snake before reveal."
+      },
+      {
+        "asset": "CH26_S02:L",
+        "role": "snake",
+        "realm": "actual",
+        "state": "LEFT: accepted thin yellow snake lying low beside a few small stones, clearly visible, head slightly raised, closed mouth. Snake identity MUST follow accepted Chapter 17 A01. No fangs, strike or injury in this sheet."
+      }
+    ],
+    "before_assembly_required_fields": [
+      "visible instant",
+      "actor and action",
+      "recipient or target",
+      "target-containing component/background",
+      "head/body/hand/gaze directions",
+      "off-frame reason if any",
+      "one-owner prop/contact inventory",
+      "adjacent-page continuity"
+    ],
+    "delivery_gate": [
+      "State one visible instant and name actor, action, recipient/target, story realm, and pose evidence before assembling.",
+      "An offering, showing, pointing, helping or speaking pose needs its visible recipient/target, including recipients integrated in a contact group/background. An exception needs a page-specific story/framing reason, not a generic off-frame excuse.",
+      "Trace body, hand, head and gaze directions to the intended target at reading size. Both sides must be understandable without reading the caption.",
+      "Check face emotion, occupied hands, actual paper face, full-body proportions, supporting contacts and one-owner prop counts against the preceding and following pages.",
+      "Distinguish actual participants from memory, thought, metaphor, editorial illustration and hypothesis; do not add a character merely because dialogue mentions them.",
+      "Verify actual source pixels, measured placements, non-overlap and scene camera. A numerical envelope or a close-up label is not visual evidence.",
+      "Record a reading-size scene verdict and a native-size contact/edge verdict. Fix failed staging with compatible complete components or the prepared whole-state correction before delivery; no head swaps, mirrors, hidden upscaling or renewed routine permission."
+    ],
+    "visual_status": "Not auto-approved by this planning review."
+  },
+  "geometry_continuity": {
+    "camera_group_id": "well_wall_contact-3bf529a4a4",
+    "chapter_opening": false,
+    "coordinate_authority": "planned group; actual source landmarks/painted bounds must be measured before acceptance",
+    "scale_rule": "Same location/camera/depth: fixed physical size; use native anatomical/prop landmarks, one uniform scale, then compare at identical display zoom.",
+    "comparable_landmark_tolerance_percent": 1.5,
+    "unchanged_support_anchor_tolerance_px": 3,
+    "frame_rule": "Match measured full-scene painted bounds and paper borders; openings cannot be tiny icons on blank white.",
+    "border_delta_limit_percentage_points": 2,
+    "thought_rule": "Readable content first; original aspect/pigment preserved; fit only empty painted frame with small padding. No fixed 650px frame cap.",
+    "required_evidence": [
+      "baseline page and camera/background transform",
+      "native and final anatomical/prop landmarks",
+      "scale calculation and independent landmark crosscheck",
+      "floor/seat/hand contacts after resize",
+      "painted field bounds and normalized margins",
+      "thought image size and safe interior, when present",
+      "actual source second-landmark comparison and support contact pixels"
+    ],
+    "unchanged_anchor_tolerance_px": 3
+  },
+  "text_alignment": {
+    "source_text": "Then I saw it: a yellow snake next to the wall. I knew it could kill. I reached into my pocket for my gun and ran toward them.",
+    "source_lines": [
+      1739,
+      1742
+    ],
+    "chapter_opening": false,
+    "visible_story_evidence": "First visible yellow snake. Pilot\u2019s reach for gun stays narrated, no firearm asset necessary.",
+    "thought": {
+      "decision": "no_cloud",
+      "owner": null,
+      "content_assets": [],
+      "why": "The selected physical action, expression, in-world artwork or separately staged editorial/memory scene carries this beat; a cloud would repeat it or invent an unsupported mental picture.",
+      "selected_evidence": "First visible yellow snake. Pilot\u2019s reach for gun stays narrated, no firearm asset necessary.",
+      "realm_caution": "One living-rose thought at responsibility beat; never reveal snake early, literal bells/wells or confirmed homecoming."
+    },
+    "chapter_story_locks": "One living-rose thought at responsibility beat; never reveal snake early, literal bells/wells or confirmed homecoming.",
+    "review": "Passage and plan reviewed; future returned art still requires reading-size and native inspection.",
+    "acceptance": [
+      "Show the key action, response or mental contrast; naming the right props alone is insufficient.",
+      "Keep fact, perception, memory, hypothetical and metaphor distinct.",
+      "Thought owner and readable contents must match the exact passage; absent thoughts require the recorded reason.",
+      "Check preceding/following pages for premature answers, duplicate clouds and silent location changes."
+    ],
+    "thought_aesthetics": {
+      "guide": "production/Text_to_Illustration_Alignment.md",
+      "hierarchy": "The main action, faces and physical drawing remain primary. A thought must clarify the text without becoming a competing hero object.",
+      "source_style": "Use the same simplified shape language, thin warm local-colour contours and quiet watercolor washes as the approved characters. Match detail density as well as medium and palette.",
+      "detail_limit": "Simple recognition motifs use broad shapes and sparse internal detail. A mental map has broad generalized landforms, no fine coastline, terrain, grid, labels, political borders or route. Preserve canonical story drawing marks exactly.",
+      "size_method": "Choose the smallest content size that remains clearly recognizable at intended reading size, then fit the minimal empty frame. Do not inherit a fixed 640px minimum from complex canonical drawings or fill every frame envelope.",
+      "space_method": "Plan a quiet region before generation. On an explicitly separate camera, recompose a complete interacting group uniformly when needed; record the changed camera and preserve background border. Same-camera groups retain measured physical scale.",
+      "visual_gate": "Inspect the entire page at 800px width alongside the approved scene style, then native details. Reject overlap, crowding at the border, ambiguous ownership, excessive contrast/detail, giant prop silhouettes or tiny unreadable content. Numeric fit alone is insufficient."
+    }
+  },
+  "composition_performance_contract": {
+    "version": 1,
+    "guide": "production/Composition_Continuity_and_Performance.md",
+    "scale_tolerance_percent": 1.5,
+    "unchanged_anchor_tolerance_px": 3,
+    "scale_method": "Native anatomical and rigid-prop endpoints -> one uniform scale -> second independent landmark check; never fit pose height as anatomy.",
+    "relative_scale_authority": "Named geometry artwork and persistent cross-chapter ratios; reconcile conflicting turnaround proportions before generating.",
+    "registration": "Keep actor/prop world anchors and at least three room/floor landmarks fixed at same camera/depth unless the passage moves them.",
+    "camera_rule": "Plan a motivated establishing/interaction/detail/emotional shot; genuine angle needs matching perspective sources. Reframe ALL physical layers and shadows together, preserve screen direction and painted border.",
+    "expression_rule": "Each visible participant has named readable emotion, gaze recipient, brow/eye/mouth/head/gesture evidence at reading size.",
+    "grounding_rule": "Inspect the generated neutral shadow at actual bearing surfaces; preserve its exact shape, position, hue, softness, alpha and intensity in each variant. One owner, no white gap or extra shadow. Legacy keyed sources retain their measured preparation recipe; imagined/airborne assets have no floor shadow.",
+    "thought_trail_count_when_selected": 3,
+    "uniqueness_rule": "Every page communicates its own text through action/response/meaningful view; no exact or cosmetic-only duplicate.",
+    "before_delivery": [
+      "actual native landmarks and source hashes",
+      "relative scale and same-camera comparison",
+      "actual support pixels and final shadow attachment",
+      "reading-size expression/gaze/interaction",
+      "decoded-pixel duplicate scan plus semantic near-duplicate review",
+      "exact layer reconstruction",
+      "manual chapter approval stop"
+    ]
+  },
+  "reference_lineage": {
+    "workflow_version": 8,
+    "planned_only": true,
+    "asset_nodes": {
+      "CH26_B02:ONE": "A_CH26_B02_ONE",
+      "CH26_S01:ONE": "V_CH26_S01_ONE",
+      "CH26_S02:L": "V_CH26_S02_L"
+    },
+    "preserve_current_as_built": true,
+    "guide": "production/Reference_Lineage_Workflow.md"
+  }
+}

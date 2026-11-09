@@ -1,0 +1,112 @@
+{
+  "id": "CH01_S17",
+  "chapter": 1,
+  "code": "S17",
+  "title": "day aircraft with pilot facing left",
+  "kind": "contact",
+  "cells": [
+    "ONE: complete cream-and-blue aircraft airborne nose LEFT, closed flush cowling, exactly one cockpit containing the adult pilot in flight jacket and forehead goggles; one windscreen ahead of him, one seat/headrest; both propeller blades form one restrained rotational sweep."
+  ],
+  "refs": [
+    "plane",
+    "planescale",
+    "pilot",
+    "success_style",
+    "style"
+  ],
+  "details": "Single coherent aircraft/pilot group; pilot torso and gaze LEFT along flight path, not right. Full wings, wheels and tail. Tail-to-spinner length about2.2 adult upright heights; cockpit head correctly scaled. Do not add detached pilot or copy a retired plane design. Local left daylight, no landscape baked in.",
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "dependencies": [],
+  "key": null,
+  "slug": "day_aircraft_with_pilot_facing_left",
+  "output": "CH01_S17_day_aircraft_with_pilot_facing_left.png",
+  "revision_origin": "required state planned during full-book review",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c01-s04-p01"
+  ],
+  "referenced_by_requests": [
+    "CH01_S18"
+  ],
+  "required": true,
+  "folder": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left",
+  "raw_output_folder": "production/chapter-01/props/raw",
+  "representative_page": "c01-s04-p01",
+  "placement_targets": [
+    {
+      "page": "c01-s04-p01",
+      "cell": "CH01_S17:ONE",
+      "box_px": [
+        288,
+        380,
+        1824,
+        900
+      ],
+      "anchor": "center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_plane_side_view.png",
+      "role": "Current plane identity: one cockpit, one seat/headrest, one windscreen, TWO opposite propeller blades, cream/blue low-wing body. Retired plane turnaround is excluded.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/01_plane_side_view.png",
+      "status": "supplied",
+      "sha256": "07cd9ab83927b71b448d392b93c840f83c30fc3d03059c64f90989f69ae49594",
+      "source_key": "plane"
+    },
+    {
+      "name": "02_plane_scale_with_pilot.png",
+      "role": "Plane length about 2.2 adult upright heights at equal depth; not authority for painted pilot anatomy.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/02_plane_scale_with_pilot.png",
+      "status": "supplied",
+      "sha256": "7314e371a63cb5f0a263a3a180cab20386a5a6230bdb31fc8eab0e729bc723cd",
+      "source_key": "planescale"
+    },
+    {
+      "name": "03_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/03_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_CH01_S17_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/06_CH01_S17_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "9ccde62f71c161ccb09f0671d98969acfec7eb3ebcc7a7aaaad83fe76416c724"
+    },
+    {
+      "name": "07_c01-s04-p01_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c01-s04-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/reference-images/07_c01-s04-p01_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "a7f0ea36c009713c0bed1423f4697386ff443f6cb95bcaf7c9ce269fc0c29ca8"
+    }
+  ],
+  "readiness": "ready_for_agent_generation",
+  "prompt": "CH01_S17 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: complete cream-and-blue aircraft airborne nose LEFT, closed flush cowling, exactly one cockpit containing the adult pilot in flight jacket and forehead goggles; one windscreen ahead of him, one seat/headrest; both propeller blades form one restrained rotational sweep.\n  Actual short payload: production/reference-lineage/nodes/V_CH01_S17_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "V_CH01_S17_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

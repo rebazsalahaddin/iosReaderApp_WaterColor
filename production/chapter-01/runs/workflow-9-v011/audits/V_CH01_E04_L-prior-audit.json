@@ -1,0 +1,29 @@
+{
+  "node_id": "V_CH01_E04_L",
+  "source_file": "production/chapter-01/props/raw/CH01_E04_childhood_adults_engaged_hat_response.png",
+  "source_sha256": "d8481fe533c712ffbb365b3b8381f52a3713ea2d971632b4c4b3f30bd43671a7",
+  "submitted_prompt": "Previous attempt prompt for V_CH01_E04_L before Workflow-9 revision.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T14:01:00+03:00",
+  "issues": [
+    {
+      "issue_id": "E04L01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        80,
+        100,
+        1050,
+        1500
+      ],
+      "observed": "Prior legacy multi-cell pose sheet packed two adults together and was retired under user fresh-start cleanup.",
+      "expected": "Single full standing older bespectacled man facing three-quarter RIGHT, head inclined slightly down-right with kindly bemused small speaking smile and one open hand gesture.",
+      "precise_fix": "E04L01: Generate single-state expression/action edit on Sunburst (gpt_image_2_6) directly from the clean accepted Workflow-9 standing older man neutral master.",
+      "recheck": "Verify single-state anatomy, prop count, dot eyes, preserved support geometry, and clean alpha/shadow.",
+      "material_impact": "Cannot compose target Chapter 1 pages without an accepted Workflow-9 variant.",
+      "local_fix_ruled_out": "Prior source was retired under user fresh-start cleanup; new generation from Workflow-9 neutral master required."
+    }
+  ]
+}

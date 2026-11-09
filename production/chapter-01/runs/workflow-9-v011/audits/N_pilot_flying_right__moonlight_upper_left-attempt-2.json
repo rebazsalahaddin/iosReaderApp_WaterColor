@@ -1,0 +1,40 @@
+{
+  "node_id": "N_pilot_flying_right__moonlight_upper_left",
+  "stage": "neutral_posture",
+  "attempt": 2,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/N_pilot_flying_right__moonlight_upper_left-attempt-2.png",
+  "source_sha256": "239028c971e11a39e5964e51c1e95bd2ac5023a293eaf496e442a21af90d75ec",
+  "parents": [
+    {
+      "node_id": "I_pilot",
+      "path": "appearance-references/shared/LP_ref_char_pilot_turnaround.png",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2"
+    }
+  ],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T10:37:33.595670+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Complete cream-and-blue monoplane airborne facing rightward with wooden two-blade propeller and closed cowling on the right, tail fin on the left, windscreen ahead of cockpit, adult pilot (I_pilot) in flight jacket and forehead goggles facing and looking right toward the nose, no floor shadow, clean transparent alpha on light and dark diagnostic plates."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/N_pilot_flying_right__moonlight_upper_left-attempt-2.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "PASS",
+      "evidence": "Soft translucent ground contact shadow verified on light and dark backgrounds with no opaque floor patch."
+    }
+  },
+  "issues": []
+}

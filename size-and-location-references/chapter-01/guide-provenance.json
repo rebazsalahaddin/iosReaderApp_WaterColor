@@ -1,0 +1,97 @@
+{
+  "operation": "programmatic technical annotation only; no new painting, AI generation or background removal",
+  "canvas": [
+    2400,
+    1792
+  ],
+  "source_files": [
+    {
+      "path": "size-and-location-references/chapter-01/source-images/c01-s04-p03.png",
+      "sha256": "cf5bff8dd6d736eed8dea56faf09193ea8f354f6bb0da52bb360e2e541044c6a"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/L01_social_location/reference-images/social-room__wide-left-window__background-v002.png",
+      "sha256": "6d2bee60424fff701935afb419893a4bdc4ea185d80a9d6c46543a2ddcf18b61"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "size-and-location-references/chapter-01/CH01_G01_social_size_camera.png",
+      "sha256": "222741e65a8d87b94d8b670d0a9931825cb24b60187e7b6bf86d3a6aec9d0377"
+    },
+    {
+      "path": "size-and-location-references/chapter-01/CH01_L01_social_location.png",
+      "sha256": "eaeca4bb819b8c3416e4d21bdf91b78ca8ea046ebb728c7d856dad16f810eaa5"
+    }
+  ],
+  "reference_windows_source_pixels": {
+    "Pilot": [
+      [
+        250,
+        300,
+        970,
+        1600
+      ],
+      "#326d89"
+    ],
+    "Moustached adult": [
+      [
+        1000,
+        320,
+        1720,
+        1620
+      ],
+      "#ad6b28"
+    ],
+    "Younger adult": [
+      [
+        1570,
+        340,
+        2260,
+        1620
+      ],
+      "#787299"
+    ]
+  },
+  "location_zones_normalized_proposals": {
+    "Pilot": [
+      [
+        0.11,
+        0.18,
+        0.28,
+        0.73
+      ],
+      "#326d89"
+    ],
+    "Adult 3": [
+      [
+        0.49,
+        0.2,
+        0.23,
+        0.7
+      ],
+      "#ad6b28"
+    ],
+    "Adult 4": [
+      [
+        0.73,
+        0.21,
+        0.21,
+        0.69
+      ],
+      "#787299"
+    ]
+  },
+  "table_zone_normalized_proposal": [
+    0.32,
+    0.66,
+    0.43,
+    0.29
+  ],
+  "limitations": [
+    "Reference windows are not segmentation masks.",
+    "Occluded anatomy and exact adult height ratios are unmeasured.",
+    "Location zones are staging proposals, not approved final placements.",
+    "Original identities and civilian wardrobe references remain authoritative."
+  ]
+}

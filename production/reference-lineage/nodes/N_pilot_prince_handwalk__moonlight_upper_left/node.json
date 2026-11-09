@@ -1,0 +1,73 @@
+{
+  "id": "N_pilot_prince_handwalk__moonlight_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_pilot",
+    "I_prince"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_pilot",
+      "I_prince"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Flight pilot and prince walking RIGHT hand in hand, correctly joined fingers, adult lower hand meets child's raised hand, same depth, grounded strides, neutral faces.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "pilot_prince_handwalk",
+  "light": "Cool soft moonlight from upper-left.",
+  "affected_pages": [
+    "c26-s04-p04",
+    "c26-s04-p05",
+    "c26-s04-p06",
+    "c26-s04-p07",
+    "c26-s04-p08"
+  ],
+  "legacy_tokens": [
+    "CH26_S06:ONE",
+    "CH26_C02:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-26/reusable-poses/S06_walking_hand_in_hand_at_night/reference-images/06_CH26_S06_PACKING_GUIDE.png",
+      "sha256": "c8e177d95cf1c632260c6c2c7c1f0fe8c3339fd50aaab3f2aac8eee2b898d436",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/reusable-poses/S06_walking_hand_in_hand_at_night/reference-images/07_c26-s04-p04_COMPOSITION_GUIDE.png",
+      "sha256": "94b8d647b402d7a7003a11ea98190a2c8d57ad42efeab4373b930c2c7f91f637",
+      "role": "TECHNICAL final-page placement for c26-s04-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/07_CH26_C02_PACKING_GUIDE.png",
+      "sha256": "c50ee48290bc443fb2de85c696d0da45b6f92c71fe9debc8ac6dd9d5c35ab281",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/reference-images/08_c26-s04-p08_COMPOSITION_GUIDE.png",
+      "sha256": "429e5e8fb84e1811be0f22c151d0b0880ed998f18a7f24b7a3b0eecaf4782b45",
+      "role": "TECHNICAL final-page placement for c26-s04-p08. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_pilot_prince_handwalk__moonlight_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Flight pilot and prince walking RIGHT hand in hand, correctly joined fingers, adult lower hand meets child's raised hand, same depth, grounded strides, neutral faces. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. At equal depth the prince's standing-equivalent height is 0.61 of the pilot's, head-height ratio 0.86; preserve these anatomical ratios through the pose. Establish the specified camera and support arrangement; keep the complete contact group intact. Cool soft moonlight from upper-left. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "5787f9c11ace987c632a3ccc9ba066ea1cf6465e9e6be28cefe6987a7f61e8ae",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_pilot_prince_handwalk__moonlight_upper_left"
+}

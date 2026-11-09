@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "checks": {
+    "chapters": 27,
+    "page_plans": 442,
+    "canonical_assets": 106,
+    "source_requests": 174,
+    "supplied_reference_files": 1037,
+    "declared_future_reference_slots": 45,
+    "current_pages_reconstructed_exactly": 19,
+    "local_document_links": 3318,
+    "structured_internal_references": 20486,
+    "current_delivery_editions": 1,
+    "current_archive_illustrations": 19
+  },
+  "errors": [],
+  "scope": "Self-contained manuscript, plans, references, current layers and final edition. Future sources remain explicitly declared generation dependencies. No new visual approval is implied."
+}

@@ -1,0 +1,94 @@
+{
+  "status": "blocked_source_attempt_limits",
+  "recorded_at": "2026-11-07T22:19:39.212819+00:00",
+  "active_chapter": 1,
+  "request": "continue with chapter one regeneration carefully where it stoped following the new revised version of the prompt",
+  "prior_pause_record": "production/chapter-01/runs/workflow-8-v011/PAUSED.json",
+  "recovered_source": "production/chapter-01/runs/workflow-8-v011/sources/V_CH01_CHILD_IMAGINING-attempt-1.png",
+  "sources_reviewed": [
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/standing-attempt-1-audit.json",
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-attempt-1-audit.json"
+  ],
+  "reviewed_boards": [
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/standing-correction-board-review.json",
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-correction-board-review.json"
+  ],
+  "paid_jobs_before": 5,
+  "paid_jobs_after": 7,
+  "new_paid_jobs": 2,
+  "live_or_unknown_jobs": 0,
+  "unresolved_sources": [
+    "N_child_standing_paper_left__soft_day_upper_left",
+    "V_CH01_CHILD_IMAGINING"
+  ],
+  "remaining_attempts_each": 0,
+  "blocker": "Material source failures remain after the maximum two canonical attempts; no further generation permitted for those states.",
+  "next_step": "Report incomplete revised chapter and preserve the existing v010 delivery. Do not invent approval or reset attempt counts.",
+  "retained_delivery": "production/chapter-01/delivery/chapter-01-v010",
+  "retained_archive_sha256": "00a10919c879dec759c76bbe5cc62b11f95d0153d4bfa65c2a40c90e5d2395cc",
+  "immutable_historical_ledger_sha256": "bd14a30c3841e2cead15475b17b02a0ba5d8ae284e6bb9a891cce8aa316d7cac",
+  "chapter_complete": false,
+  "next_chapter_authorized": false,
+  "validation": {
+    "command": "python3 production/validate_package.py",
+    "status": "pass",
+    "verified_at": "2026-11-07T22:20:19.610496+00:00",
+    "retained_v010_pages_reconstructed_exactly": 19,
+    "new_visual_delivery_approved": false
+  },
+  "pre_submission_guards": {
+    "nodes": [
+      "V_CH01_CHILD_IMAGINING",
+      "N_child_standing_paper_left__soft_day_upper_left"
+    ],
+    "status": "blocked_expected",
+    "reasons": [
+      "Execution status intentionally waiting for Higgsfield tools (real resume authorization is recorded).",
+      "Live schema not checked.",
+      "Live cost estimate unavailable.",
+      "Reviewed correction boards not uploaded; no media IDs."
+    ]
+  },
+  "connection_checks": [
+    {
+      "at": "2026-11-07T22:26:36.273239+00:00",
+      "user_request": "continue",
+      "available_higgsfield_tools": 0,
+      "plugin_status": "installed_enabled",
+      "workspace_mcp_enabled": true,
+      "cli_mcp_list_auth": "OAuth",
+      "config_changed": false,
+      "settings_ui_attempt": "denied by computer-use safety restriction for com.openai.codex; no bypass attempted",
+      "next_action": "User: Settings > MCP servers > Higgsfield > Restart; authenticate if prompted. Then return to this chat.",
+      "new_paid_jobs": 0
+    }
+  ],
+  "tools_available": true,
+  "estimated_credits_this_resume": 2,
+  "actual_credits": null,
+  "blocked_sources": [
+    {
+      "node_id": "V_CH01_CHILD_IMAGINING",
+      "audit": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/V_CH01_CHILD_IMAGINING-attempt-2-audit.json",
+      "affected_pages": [
+        "c01-s01-p03"
+      ],
+      "status": "blocked",
+      "remaining_attempts": 0
+    },
+    {
+      "node_id": "N_child_standing_paper_left__soft_day_upper_left",
+      "audit": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/N_child_standing_paper_left__soft_day_upper_left-attempt-2-audit.json",
+      "affected_pages": [
+        "c01-s02-p01",
+        "c01-s02-p02",
+        "c01-s02-p03",
+        "c01-s03-p02"
+      ],
+      "status": "blocked",
+      "remaining_attempts": 0
+    }
+  ],
+  "new_delivery_created": false,
+  "block_report": "production/chapter-01/runs/workflow-8-v011/BLOCKED_2026-11-08.md"
+}

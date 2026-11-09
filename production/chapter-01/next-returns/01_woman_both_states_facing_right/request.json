@@ -1,0 +1,51 @@
+{
+  "output": "CH01_C03_woman_questioning_redirecting_right.png",
+  "pages": [
+    "c01-s02-p02",
+    "c01-s02-p03",
+    "c01-s03-p02"
+  ],
+  "references": [
+    {
+      "name": "01_LP_ref_char_grownup2_turnaround.png",
+      "role": "Identity, high grey bun, face and blue-grey dress. Preserve this exact woman.",
+      "sha256": "3ab08530209c18b023ea7ed91cff6cc4114f95cb930a43ac3dce4322ca0680b2"
+    },
+    {
+      "name": "02_LP_scale_child_grownups.png",
+      "role": "Relative proportions only. No child or man in the output.",
+      "sha256": "64af22820bab6a44b0252a6c1e5b9da849d7ecd425dd8658f34a7e4ba387f34f"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Watercolor finish only; do not copy social cast, furniture or room.",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling only; do not copy subject matter.",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3"
+    },
+    {
+      "name": "05_CH01_S13_childhood_adults_questioning.png",
+      "role": "Failed questioning source: retain wardrobe/style only. Woman faces the WRONG direction; do NOT copy that direction or the low bun.",
+      "sha256": "eb3121b1a7ef943bc373dce041e373e7e5cb6d18c96b588832165bff89d34358"
+    },
+    {
+      "name": "06_CH01_S14_childhood_adults_redirecting.png",
+      "role": "Failed redirecting source: correct woman identity and emotion reference, but her LEFT-facing direction is WRONG.",
+      "sha256": "353a971c93ba3234e0a4f29be1aeb7b9d3678884aedcbd51d7c3e7b54a98ab37"
+    },
+    {
+      "name": "07_CORRECTION_GUIDE.png",
+      "role": "Technical correction guide only: direction/arrangement. No labels, arrows or boxes in final output.",
+      "sha256": "5daf5e16afb2b1b1cd7290245e152d58796245893797c64c706213905e554acf"
+    }
+  ],
+  "prompt": "Use the same Higgsfield model and settings: Nano Banana 2.1 / High Thinking / 4:3 / 2K / one output.\n\nNUMBERED REFERENCES:\nImage1: 01_LP_ref_char_grownup2_turnaround.png. Identity, high grey bun, face and blue-grey dress. Preserve this exact woman.\nImage2: 02_LP_scale_child_grownups.png. Relative proportions only. No child or man in the output.\nImage3: 03_c01-s05-p01.png. Watercolor finish only; do not copy social cast, furniture or room.\nImage4: 04_c03-s010.jpg. Paint handling only; do not copy subject matter.\nImage5: 05_CH01_S13_childhood_adults_questioning.png. Failed questioning source: retain wardrobe/style only. Woman faces the WRONG direction; do NOT copy that direction or the low bun.\nImage6: 06_CH01_S14_childhood_adults_redirecting.png. Failed redirecting source: correct woman identity and emotion reference, but her LEFT-facing direction is WRONG.\nImage7: 07_CORRECTION_GUIDE.png. Technical correction guide only: direction/arrangement. No labels, arrows or boxes in final output.\n\nCreate ONE reusable two-cell sheet containing ONLY the same grey-haired woman, one complete standing figure in each tall column. No man or child. Both figures must face screen-RIGHT: nose points RIGHT, torso and pelvis three-quarter RIGHT, toes RIGHT, eyes down-RIGHT toward an unseen small child. Her hair bun must match the identity reference, in both cells.\n\nLEFT CELL: quietly puzzled neutral expression, relaxed hands, listening to the child presenting his drawing. No smile or ridicule.\nRIGHT CELL: same right-facing body, slight reserved nod, gently dismissive ordinary expression, hands relaxed. No anger, pointing finger, book or school props.\n\nThese are two full coherent women, never a flipped left-facing image, cropped body or replaced head. Both cells use identical anatomy, height, dress, lighting and camera, with clear gutter and 6% margins. Keep floor level and standing camera consistent. No chairs.\n\nISOLATION: Completely flat uniform opaque #FF00FF outside silhouettes and in all genuine gaps. No cast shadows, floor, gradients, grain or magenta rim light in background. Pale skin, cream paper, wood and clothing stay opaque. Internal contact shading stays intact.\n\nLIGHT: soft neutral daylight from upper-left.\n\nSoft luminous picture-book watercolor, matching the approved Chapter1 assembled sample: translucent pigment washes within opaque painted forms, fine cold-press grain inside shapes, thin irregular darker LOCAL-colour contours, sparse interior lines, simplified rounded anatomy, pale warm skin and restrained blush. Identity references control faces, hair, age and wardrobe. No default broad grin. Backgrounds use broad soft outline-free washes and ragged deckled paper edges. No thick black contours, glossy3D, photorealism, plastic airbrush, vector clip-art or unnecessary detail. In-world graphite or pen pictures retain their specified medium.\n\nNo lettering, numbers, arrows, labels, watermarks, extra cast or invented props. Preserve the complete original file.\n",
+  "status": "received, inspected, prepared and used; no further generation needed",
+  "actual_output": "woman_both_states_facing_right.png",
+  "actual_source": "production/chapter-01/props/raw/woman_both_states_facing_right.png",
+  "received_sha256": "29ffdbe679e502f0b7bb4a7d8176c62b39e4ae68d579737ad84b9396a8d70d0b",
+  "usage": "Leftmost right-facing complete figure only, as quiet observer in c01-s02-p02, c01-s02-p03 and c01-s03-p02. The two left-facing variants remain unused. Man gestures distinguish the responses."
+}

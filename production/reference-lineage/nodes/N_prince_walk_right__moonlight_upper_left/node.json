@@ -1,0 +1,74 @@
+{
+  "id": "N_prince_walk_right__moonlight_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_prince"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_prince"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Prince in one balanced grounded step RIGHT, arms relaxed and empty, neutral expression; complete body.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "prince_walk_right",
+  "light": "Cool moonlight from upper-left, subdued local colours.",
+  "affected_pages": [
+    "c24-s02-p01",
+    "c24-s02-p02",
+    "c24-s02-p03",
+    "c24-s02-p04",
+    "c24-s02-p05",
+    "c24-s02-p08",
+    "c26-s05-p04",
+    "c26-s05-p06"
+  ],
+  "legacy_tokens": [
+    "CH24_S02:R",
+    "CH26_S07:L"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-24/reusable-poses/S02_pilot_and_prince_walking_at_night/reference-images/06_CH24_S02_PACKING_GUIDE.png",
+      "sha256": "62a470d11b6eac0c323e5307f5e6494bfa2eb0d63bdd917ef709b95e46026c6d",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-24/reusable-poses/S02_pilot_and_prince_walking_at_night/reference-images/07_c24-s02-p01_COMPOSITION_GUIDE.png",
+      "sha256": "e782733c8a37e57956ba867149b7c44f68c4c2015b73e35ce616e4b176b36380",
+      "role": "TECHNICAL final-page placement for c24-s02-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/reusable-poses/S07_prince_final_step_and_falling/reference-images/04_CH26_S07_PACKING_GUIDE.png",
+      "sha256": "4a146016de1e9a3eee9c49c596e577756f424bf6785b4d5df7f6541abe8d55a1",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-26/reusable-poses/S07_prince_final_step_and_falling/reference-images/05_c26-s05-p06_COMPOSITION_GUIDE.png",
+      "sha256": "7af83c4a39385188d67313f3c9776c9f7db48dbdec0f938c8a8c624077ae6a57",
+      "role": "TECHNICAL final-page placement for c26-s05-p06. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_prince_walk_right__moonlight_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Prince in one balanced grounded step RIGHT, arms relaxed and empty, neutral expression; complete body. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Cool moonlight from upper-left, subdued local colours. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "74f278e4dabbb9c3c8a86a1269c87e165c49c1fbe48ab382dfad1b692aeea3bf",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_prince_walk_right__moonlight_upper_left"
+}

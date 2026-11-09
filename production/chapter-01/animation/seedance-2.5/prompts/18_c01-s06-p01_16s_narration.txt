@@ -1,0 +1,24 @@
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 16-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+Distinct pleased-agreement image: younger adult is already smiling with an open palm toward the pilot, older adult is friendly. Maintain this response and current seating; do not recreate the previous page.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–2.529 seconds: Distinct pleased-agreement image: younger adult is already smiling with an open palm toward the pilot, older adult is friendly. Maintain this response and current seating; do not recreate the previous page.
+2.529–5.369 seconds: Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.
+5.369–12.789 seconds: Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.
+12.789–15.2 seconds: Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.
+15.2–16 seconds: Let movement settle into a stable hold, preserving the supplied expression, composition and all contacts.
+
+GENERATED SOUND: AMBIENCE ONLY
+Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+No thought cloud, text reading sensible, new props or exaggerated grin. Do not repeat the narrator’s previous broad action, change his size, alter the drawing’s existing rest position or move the camera.
+
+END STATE
+All story movement finishes within the first 15.746 seconds; maintain a quiet stable hold through 16 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

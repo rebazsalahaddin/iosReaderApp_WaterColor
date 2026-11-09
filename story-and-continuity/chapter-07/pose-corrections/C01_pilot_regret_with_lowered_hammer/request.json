@@ -1,0 +1,183 @@
+{
+  "id": "CH07_C01",
+  "chapter": 7,
+  "code": "C01",
+  "title": "pilot regret with lowered hammer",
+  "kind": "pose",
+  "cells": [
+    "ONE: pilot upright at LEFT, feet and torso RIGHT, head down-right toward child, one hammer held low at side, softened brows and regretful closed mouth, no raised swing."
+  ],
+  "refs": [
+    "pilot",
+    "standing",
+    "success_style",
+    "style"
+  ],
+  "details": "Retain dirty hands and flight clothes; exact tool design matches S01. A regret state is required after the outburst.",
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "dependencies": [
+    "CH07_S01"
+  ],
+  "key": null,
+  "slug": "pilot_regret_with_lowered_hammer",
+  "output": "CH07_C01_pilot_regret_with_lowered_hammer.png",
+  "revision_origin": "required state planned during full-book review",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c07-s02-p03",
+    "c07-s02-p04",
+    "c07-s02-p05",
+    "c07-s03-p01",
+    "c07-s03-p02",
+    "c07-s03-p03",
+    "c07-s03-p04"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer",
+  "raw_output_folder": "production/chapter-07/props/raw",
+  "representative_page": "c07-s02-p03",
+  "placement_targets": [
+    {
+      "page": "c07-s02-p03",
+      "cell": "CH07_C01:ONE",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c07-s02-p04",
+      "cell": "CH07_C01:ONE",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c07-s02-p05",
+      "cell": "CH07_C01:ONE",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c07-s03-p01",
+      "cell": "CH07_C01:ONE",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c07-s03-p02",
+      "cell": "CH07_C01:ONE",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c07-s03-p03",
+      "cell": "CH07_C01:ONE",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c07-s03-p04",
+      "cell": "CH07_C01:ONE",
+      "box_px": [
+        345,
+        530,
+        550,
+        1000
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/reference-images/01_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "02_LP_scale_prince_pilot_standing.png",
+      "role": "Same-depth prince/pilot standing height .61 (band .58\u2013.64); head HEIGHT .86 (band .81\u2013.91). Do not use for unrelated adults or seated-height comparisons.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/reference-images/02_LP_scale_prince_pilot_standing.png",
+      "status": "supplied",
+      "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c",
+      "source_key": "standing"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_accepted_CH07_S01_pilot_repairing_and_frustrated.png",
+      "role": "ACCEPTED CH07_S01: pilot repairing and frustrated. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/reference-images/05_accepted_CH07_S01_pilot_repairing_and_frustrated.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH07_S01",
+      "expected_raw": "production/chapter-07/props/raw/CH07_S01_pilot_repairing_and_frustrated.png"
+    },
+    {
+      "name": "06_CH07_C01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/reference-images/06_CH07_C01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "b5f28837561b9e79a25d1badd5ac4357b06ad73cc9ecff29706c871188fb127c"
+    },
+    {
+      "name": "07_c07-s02-p03_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c07-s02-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C01_pilot_regret_with_lowered_hammer/reference-images/07_c07-s02-p03_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "7c31a9e19b3f57d6c67cd96a94a11d96708b9d3baea647f0c04eead33bbe8bec"
+    }
+  ],
+  "readiness": "wait_for_listed_checked_dependencies",
+  "prompt": "CH07_C01 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: pilot upright at LEFT, feet and torso RIGHT, head down-right toward child, one hammer held low at side, softened brows and regretful closed mouth, no raised swing.\n  Actual short payload: production/reference-lineage/nodes/V_CH07_C01_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "V_CH07_C01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

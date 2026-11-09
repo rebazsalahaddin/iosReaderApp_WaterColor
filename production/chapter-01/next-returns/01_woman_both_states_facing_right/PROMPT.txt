@@ -1,0 +1,25 @@
+Use the same Higgsfield model and settings: GPT Image 2.6 Flare / Medium quality / 4:3 / 2K / one output.
+
+NUMBERED REFERENCES:
+Image1: 01_LP_ref_char_grownup2_turnaround.png. Identity, high grey bun, face and blue-grey dress. Preserve this exact woman.
+Image2: 02_LP_scale_child_grownups.png. Relative proportions only. No child or man in the output.
+Image3: 03_c01-s05-p01.png. Watercolor finish only; do not copy social cast, furniture or room.
+Image4: 04_c03-s010.jpg. Paint handling only; do not copy subject matter.
+Image5: 05_CH01_S13_childhood_adults_questioning.png. Failed questioning source: retain wardrobe/style only. Woman faces the WRONG direction; do NOT copy that direction or the low bun.
+Image6: 06_CH01_S14_childhood_adults_redirecting.png. Failed redirecting source: correct woman identity and emotion reference, but her LEFT-facing direction is WRONG.
+Image7: 07_CORRECTION_GUIDE.png. Technical correction guide only: direction/arrangement. No labels, arrows or boxes in final output.
+
+Create ONE reusable two-cell sheet containing ONLY the same grey-haired woman, one complete standing figure in each tall column. No man or child. Both figures must face screen-RIGHT: nose points RIGHT, torso and pelvis three-quarter RIGHT, toes RIGHT, eyes down-RIGHT toward an unseen small child. Her hair bun must match the identity reference, in both cells.
+
+LEFT CELL: quietly puzzled neutral expression, relaxed hands, listening to the child presenting his drawing. No smile or ridicule.
+RIGHT CELL: same right-facing body, slight reserved nod, gently dismissive ordinary expression, hands relaxed. No anger, pointing finger, book or school props.
+
+These are two full coherent women, never a flipped left-facing image, cropped body or replaced head. Both cells use identical anatomy, height, dress, lighting and camera, with clear gutter and 6% margins. Keep floor level and standing camera consistent. No chairs.
+
+ISOLATION: Completely flat uniform opaque #FF00FF outside silhouettes and in all genuine gaps. No cast shadows, floor, gradients, grain or magenta rim light in background. Pale skin, cream paper, wood and clothing stay opaque. Internal contact shading stays intact.
+
+LIGHT: soft neutral daylight from upper-left.
+
+Soft luminous picture-book watercolor, matching the approved Chapter1 assembled sample: translucent pigment washes within opaque painted forms, fine cold-press grain inside shapes, thin irregular darker LOCAL-colour contours, sparse interior lines, simplified rounded anatomy, pale warm skin and restrained blush. Identity references control faces, hair, age and wardrobe. No default broad grin. Backgrounds use broad soft outline-free washes and ragged deckled paper edges. No thick black contours, glossy3D, photorealism, plastic airbrush, vector clip-art or unnecessary detail. In-world graphite or pen pictures retain their specified medium.
+
+No lettering, numbers, arrows, labels, watermarks, extra cast or invented props. Preserve the complete original file.

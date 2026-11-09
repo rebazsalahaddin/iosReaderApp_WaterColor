@@ -1,0 +1,110 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH07_C02",
+  "prompt_file": "story-and-continuity/chapter-07/pose-corrections/C02_pilot_setting_down_tools/PROMPT.txt",
+  "prompt_sha256": "4af5df4db884b301485227f7e9b2f50be98d9faf57ef8003bf97f673fa7e3611",
+  "expected_cells": [
+    "ONE: pilot kneeling at LEFT, body RIGHT, right hand just released one hammer onto ground level beside one resting spanner, left hand braced on own knee, concerned face toward crying child RIGHT."
+  ],
+  "required_state_direction_contact": "One integrated tool-placement group; no detached hands. Both tools are on the ground and neither is in the later embrace.",
+  "isolation_key": null,
+  "light": "Soft cool early-night moonlight from upper-left.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C02_pilot_setting_down_tools/reference-images/01_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "02_LP_scale_seated_pilot_prince.png",
+      "role": "Pilot cross-legged sitting fit with unchanged adult head and torso, not a small adult.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C02_pilot_setting_down_tools/reference-images/02_LP_scale_seated_pilot_prince.png",
+      "status": "supplied",
+      "sha256": "78511a8cdab89d764e4fb6d50b44af1bef946502acddc62182e0d57ac25b38a1",
+      "source_key": "seated"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C02_pilot_setting_down_tools/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C02_pilot_setting_down_tools/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_CH07_C02_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C02_pilot_setting_down_tools/reference-images/05_CH07_C02_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "5c9d39d4beea1d281e13ee2c355a95459591bb2c2e123b790351c046a34b1c5c"
+    },
+    {
+      "name": "06_c07-s04-p01_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c07-s04-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-07/pose-corrections/C02_pilot_setting_down_tools/reference-images/06_c07-s04-p01_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "424d05535b81bf9f4895b234c23dad4491aad5f64ec2a96724f0e5978fdf3101"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "V_CH07_C02_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c07-s04-p01"
+  ],
+  "placement_targets": [
+    {
+      "page": "c07-s04-p01",
+      "cell": "CH07_C02:ONE",
+      "box_px": [
+        345,
+        840,
+        550,
+        690
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-07/pose-corrections/C02_pilot_setting_down_tools/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

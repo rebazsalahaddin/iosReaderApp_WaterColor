@@ -1,0 +1,29 @@
+{
+  "node_id": "I_pilot_civilian",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/I_pilot_civilian-attempt-1.png",
+  "source_sha256": "04bf0efe78e2c68410e0a2fd1f82c7a666b066337ea13216257314a13f8cb72a",
+  "submitted_prompt": "Previous attempt prompt for I_pilot_civilian before Workflow-9 revision.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T13:10:00+03:00",
+  "issues": [
+    {
+      "issue_id": "IC01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        100,
+        100,
+        2136,
+        1544
+      ],
+      "observed": "Prior workflow-8 civilian turnaround retired under user fresh-start directive to establish a clean Workflow-9 civilian identity turnaround.",
+      "expected": "Four well-separated full-body civilian views (front, three-quarter, side, back) on transparent PNG with dot eyes and consistent proportions.",
+      "precise_fix": "IC01: Generate fresh 4-view civilian pilot turnaround from the single clean three-quarter seed without diagnostic collage.",
+      "recheck": "Verify complete subject geometry, dot eyes, and clean alpha/shadow on light, dark, and scene backgrounds.",
+      "material_impact": "Cannot assemble Chapter 1 pages without an accepted Workflow-9 source.",
+      "local_fix_ruled_out": "Prior source was retired under user fresh-start cleanup; new generation required."
+    }
+  ]
+}

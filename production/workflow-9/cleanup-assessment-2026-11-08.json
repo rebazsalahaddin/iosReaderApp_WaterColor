@@ -1,0 +1,100 @@
+{
+  "status": "inventory_only_no_deletions",
+  "chapter": 1,
+  "groups": {
+    "runs/workflow-8-v011": {
+      "file_count": 80,
+      "size_bytes": 47299203,
+      "extensions": {
+        ".md": 2,
+        ".json": 28,
+        ".jpg": 24,
+        ".png": 23,
+        ".txt": 3
+      }
+    },
+    "delivery": {
+      "file_count": 25,
+      "size_bytes": 201596098,
+      "extensions": {
+        "(none)": 2,
+        ".zip": 1,
+        ".jpg": 1,
+        ".json": 1,
+        ".txt": 1,
+        ".png": 19
+      }
+    },
+    "current": {
+      "file_count": 120,
+      "size_bytes": 67571077,
+      "extensions": {
+        ".json": 24,
+        ".png": 96
+      }
+    },
+    "components": {
+      "file_count": 103,
+      "size_bytes": 55823415,
+      "extensions": {
+        "(none)": 1,
+        ".png": 70,
+        ".json": 32
+      }
+    },
+    "props": {
+      "file_count": 34,
+      "size_bytes": 162900515,
+      "extensions": {
+        "(none)": 1,
+        ".png": 33
+      }
+    },
+    "next-returns": {
+      "file_count": 28,
+      "size_bytes": 48729565,
+      "extensions": {
+        ".txt": 8,
+        ".json": 3,
+        ".png": 14,
+        ".jpg": 3
+      }
+    },
+    "audits": {
+      "file_count": 46,
+      "size_bytes": 10312503,
+      "extensions": {
+        ".jpg": 21,
+        ".json": 21,
+        ".png": 4
+      }
+    },
+    "generation-records": {
+      "file_count": 27,
+      "size_bytes": 5581733,
+      "extensions": {
+        ".json": 9,
+        ".txt": 8,
+        ".png": 1,
+        ".jpg": 9
+      }
+    },
+    "animation": {
+      "file_count": 27,
+      "size_bytes": 20841338,
+      "extensions": {
+        ".json": 5,
+        ".txt": 20,
+        ".html": 1,
+        ".wav": 1
+      }
+    }
+  },
+  "dependency_warnings": [
+    "workflow-8-v011 includes the accepted child/table neutral, child identity crop, civilian-pilot identity, failed attempts and evidence; deleting all invalidates active source ledger entries and workflow-9 recovery instructions.",
+    "v010 delivery and current component layers support 19 exact reconstructions, an archive, and animation references. Removing them invalidates existing current-progress/manifest and dependent validation.",
+    "Canonical shared identity and geometry references appear outside production/chapter-01 and may be used by other chapters; ownership and generation provenance must be established individually.",
+    "Historical job records and canonical attempt counts must remain even if their image paths are intentionally removed; do not represent removed files as available or accepted.",
+    "Before deletions resolve whole-project file and cross-chapter dependencies, update active instructions/ledgers/validators, and record exact removed assets and hashes without claiming regenerated art or approval."
+  ]
+}

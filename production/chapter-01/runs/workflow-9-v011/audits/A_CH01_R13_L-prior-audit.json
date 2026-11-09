@@ -1,0 +1,29 @@
+{
+  "node_id": "A_CH01_R13_L",
+  "source_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts__attempt-2.png",
+  "source_sha256": "6459906408283457fbbe311ee4147a460a3aa36fe54c87bbb1558a5ae5c9fbbc",
+  "submitted_prompt": "Previous attempt prompt for A_CH01_R13_L before Workflow-9 revision.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T13:10:00+03:00",
+  "issues": [
+    {
+      "issue_id": "R13L01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        80,
+        200,
+        1000,
+        1200
+      ],
+      "observed": "Prior multi-cell sheet packed hat and map together and was retired under user fresh-start cleanup.",
+      "expected": "Single isolated ordinary pale-tan hat with soft brim and warm-brown band in soft storybook watercolor on transparent PNG.",
+      "precise_fix": "R13L01: Generate single-state isolated ordinary hat asset on Flare 2K 4:3 with only the clean watercolor style crop.",
+      "recheck": "Verify complete subject geometry, dot eyes, and clean alpha/shadow on light, dark, and scene backgrounds.",
+      "material_impact": "Cannot assemble Chapter 1 pages without an accepted Workflow-9 source.",
+      "local_fix_ruled_out": "Prior source was retired under user fresh-start cleanup; new generation required."
+    }
+  ]
+}

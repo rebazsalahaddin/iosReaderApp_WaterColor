@@ -1,0 +1,91 @@
+NARRATIVE STAGING REVIEW — 7 NOVEMBER 2026
+
+Reviewed all 442 manuscript/page plans across Chapters 1–27 in order. This is a planning review, not a claim that future generated art has been visually approved. Chapter 1 c01-s02-p01 has separately been recomposed with two visible recipients.
+
+11 page recipes received missing recipients (Chapter 1: 1; Chapter 4: 2; Chapter 7: 6; Chapter 25: 2). Three Chapter 12 recipes had an obsolete crop instruction removed. Every page now has a narrative-staging contract and a final visual gate. Existing source requests cover these recipients; no new generation request was added.
+
+REQUIRED CHECKS
+
+1. State one visible instant and name actor, action, recipient/target, story realm, and pose evidence before assembling.
+2. An offering, showing, pointing, helping or speaking pose needs its visible recipient/target, including recipients integrated in a contact group/background. An exception needs a page-specific story/framing reason, not a generic off-frame excuse.
+3. Trace body, hand, head and gaze directions to the intended target at reading size. Both sides must be understandable without reading the caption.
+4. Check face emotion, occupied hands, actual paper face, full-body proportions, supporting contacts and one-owner prop counts against the preceding and following pages.
+5. Distinguish actual participants from memory, thought, metaphor, editorial illustration and hypothesis; do not add a character merely because dialogue mentions them.
+6. Verify actual source pixels, measured placements, non-overlap and scene camera. A numerical envelope or a close-up label is not visual evidence.
+7. Record a reading-size scene verdict and a native-size contact/edge verdict. Fix failed staging with compatible complete components or the prepared whole-state correction before delivery; no head swaps, mirrors, hidden upscaling or renewed routine permission.
+
+CHAPTER FINDINGS
+
+Chapter 1 (19 pages): Childhood drawing presentations need visible adults facing the paper; private drawing and tired reflection may be solitary. Keep canonical Drawing One/Two, the registered table, corrected woman, painted thought clouds and the approved emotionally isolated ending.
+
+Chapter 2 (19 pages): The stranded pilot is alone before the prince arrives. Sheep requests and drawing responses link pilot, prince and the held paper; no literal sheep inside the box. A declared serious-child reaction vignette may omit the established pilot.
+
+Chapter 3 (12 pages): Keep pilot and prince facing each other during questions about the aircraft and home; pointing targets the actual aircraft. The final quiet child reaction may be solitary. Home-world insets are memories, not objects beside the plane.
+
+Chapter 4 (21 pages): The astronomer explains to visible listeners. Keep the same listeners for the costume comparison. House, planet and numerical comparisons remain editorial, not a literal shared location; the clothing decree stays in narration.
+
+Chapter 5 (17 pages): The home-world tending pose already includes its plant. Do not add a duplicate shoot or put the desert pilot on the home planet. Sheep/baobab explanation and destructive tree diagrams have distinct narrative realms.
+
+Chapter 6 (8 pages): The sunset chair looks toward the sun. Moving the chair belongs to the small home-world memory; the pilot is not a physical audience inside it. Solitary sunsets are intentional.
+
+Chapter 7 (20 pages): The prince speaks left toward a visible pilot during the argument and flower explanation. The pilot lowers the hammer and listens after regret. Keep rose/sheep insets imaginary; crying and tools-down reaction beats may be solitary; the embrace is one contact group.
+
+Chapter 8 (20 pages): Bud, shoot and rose states follow chronology. The kneeling inspection source already contains the tiny plant. Child/rose care groups own the shared contacts; regret memories are separate from the desert conversation.
+
+Chapter 9 (13 pages): Goodbye links prince and rose on their actual planet. Track glass held versus set aside, volcano cleaning and departure in order. Do not put the glass back over the rose after she asks to be free.
+
+Chapter 10 (28 pages): King and prince share a legible audience arrangement. Crown, throne, robe and later book remain consistent. An open hand is not proof of a visible commanded event; no literal star obedience or new prisoner.
+
+Chapter 11 (8 pages): The vain man receives applause from the prince. Hat-worn, hat-lifted and upright raised-hat states are distinct; keep their supporting hands and gaze coherent.
+
+Chapter 12 (8 pages): Keep the prince visible for questions and replies to the drinker. Withdrawal and looking down are intentional emotion, not missing conversation. Bottles stay in their correct held/returned positions; no obsolete instruction cropping the prince away.
+
+Chapter 13 (21 pages): The businessman and prince remain in the desk conversation. Track pencil, hands, papers and drawer states. Ownership examples are spoken ideas, not literal new islands, diamonds or stars on the desk.
+
+Chapter 14 (17 pages): Princely questions have the lamplighter as recipient. Lamp on/off follows the stated instant. The slow-walking solution need not be acted out; departure and the final lone lamplighter are intentional.
+
+Chapter 15 (18 pages): The desk pair source contains both geographer and prince. Respect seated scale and shared tabletop contacts. Exploration examples and memories do not physically enter the office.
+
+Chapter 16 (8 pages): Category portraits and geographic lighting diagrams are editorial. Select the named separate portrait crop from the shared sheet; do not repeat the whole sheet or invent a physical crowd meeting.
+
+Chapter 17 (16 pages): Snake and prince are actual conversation partners. The ankle contact group already includes both. Stars are a real gaze target; preserve the snake’s scale and avoid duplicates.
+
+Chapter 18 (6 pages): The three-petalled flower is the prince’s actual conversation partner. Preserve its rooted contact and scale; references to people and roots do not introduce an absent crowd.
+
+Chapter 19 (9 pages): An empty rocky valley is essential: the reply is an echo. Aim the call into the valley; do not invent a listener, second prince, speaking face or speech bubble.
+
+Chapter 20 (11 pages): The garden roses in the background are actual recipients. Use the correct entrance direction. Later grief is a private reaction, so a solitary prince is intentional; do not add the fox early.
+
+Chapter 21 (36 pages): Fox/prince eyelines and distance evolve from meeting through taming to farewell. The prince addresses the real roses in the garden; do not move the fox into that garden or literalise the invisible bond.
+
+Chapter 22 (8 pages): Switchman and prince converse on the safe platform. A child seen through a train window is an illustrative cutaway, not a stranger placed on the tracks. Doll imagery is optional editorial content, not a physical handover.
+
+Chapter 23 (6 pages): Seller and prince are present for the pill conversation. The spring is a thought image with the shared cloud where specified; do not relocate the characters or literally add saved minutes.
+
+Chapter 24 (18 pages): Night walk and carrying sources own both bodies and contacts. The remembered house may be empty. Do not reveal the well before the final sunrise beat.
+
+Chapter 25 (21 pages): Well mechanics belong to one intact contact group; the other character remains a visible nearby listener/helper in the rope and bucket beats. One well, one rope path, one bucket. Preserve drawing and departure chronology.
+
+Chapter 26 (39 pages): Keep the snake hidden through c26-s01-p06; the first reveal is p07. Seated laughter can use an explicitly framed reaction vignette, not a small figure apparently addressing empty wide scenery. Catching, drinking, handholding and farewell contacts stay intact. The request to go alone is intentional, not a missing listener.
+
+Chapter 27 (15 pages): Solitary narration and empty desert are intentional. Stars are the gaze target. Memories and the possible return remain visibly conditional; do not manufacture a reunion or resolve the rose’s fate.
+
+CORRECTED RECIPES
+
+c01-s02-p01: Missing recipients: added the existing questioning man and corrected right-facing woman.
+c04-s02-p01: Missing audience: use both existing CH04_S04 listeners; remove the unrelated telescope inset from the meeting.
+c04-s02-p02: Missing audience: use both existing CH04_S04 listeners; remove the unrelated telescope inset from the meeting.
+c07-s02-p04: Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.
+c07-s02-p05: Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.
+c07-s03-p01: Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.
+c07-s03-p02: Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.
+c07-s03-p03: Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.
+c07-s03-p04: Missing listener: retain existing CH07_C01 pilot throughout the uninterrupted speech.
+c12-s01-p05: Contradictory instruction: removed obsolete off-frame prince crop from an ongoing question/answer scene.
+c12-s01-p06: Contradictory instruction: removed obsolete off-frame prince crop from an ongoing question/answer scene.
+c12-s01-p07: Contradictory instruction: removed obsolete off-frame prince crop from an ongoing question/answer scene.
+c25-s01-p04: Missing companion during direct address: add the already planned compatible observer; verify actual free space before compositing.
+c25-s01-p05: Missing companion during direct address: add the already planned compatible observer; verify actual free space before compositing.
+
+READING ORDER
+Current authored page recipes and measured current layouts are the source of truth; use the self-contained package validator.

@@ -1,0 +1,46 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This tool provides an auto-updating generation widget for these jobs. Do not call job_display, show_generations, or show_generation_by_ids to display these jobs again, either before or after completion, unless the user explicitly requests a separate display. If you need to await completion, use jobs_wait with timeout_seconds <= 15. Use job_display only if the user explicitly requests a separate re-display of one specific job."
+    },
+    {
+      "type": "text",
+      "text": "Note: adjustments applied — medias[0].role: \"image\" → \"image_references\" (GPT Image 2.6 Flare backend expects schema-key media roles).\n\nSubmitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- 0d9f972a-8ab8-4275-80c4-f8079ed313fa  \"One clean identity turnaround of the SAME pilot civilian: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.\""
+    },
+    {
+      "type": "text",
+      "text": "If the user requests a combined display of multiple generations, including jobs submitted through separate generate_* calls, collect all requested job IDs, wait for the complete set with jobs_wait, then call show_generation_by_ids with jobs: [{\"index\":0,\"job_id\":\"<first actual job ID>\"},{\"index\":1,\"job_id\":\"<second actual job ID>\"}, ...]. job_display accepts only one id: never pass ids to it or loop over it to show a group. Do not create an extra display when the existing generation widgets already satisfy the request."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "id": "0d9f972a-8ab8-4275-80c4-f8079ed313fa",
+        "type": "image",
+        "status": "pending",
+        "model": "gpt_image_2_6_flare",
+        "params": {
+          "prompt": "One clean identity turnaround of the SAME pilot civilian: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+          "aspect_ratio": "4:3",
+          "reference_images": [
+            "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff"
+          ],
+          "quality": "medium",
+          "resolution": "2k",
+          "batch_size": 1,
+          "output_format": "png",
+          "background": "transparent"
+        }
+      }
+    ],
+    "adjustments": {
+      "medias[0].role": {
+        "requested": "image",
+        "used": "image_references",
+        "reason": "GPT Image 2.6 Flare backend expects schema-key media roles"
+      }
+    }
+  },
+  "isError": false
+}

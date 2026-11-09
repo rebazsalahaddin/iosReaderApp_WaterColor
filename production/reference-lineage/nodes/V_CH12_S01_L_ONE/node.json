@@ -1,0 +1,48 @@
+{
+  "id": "V_CH12_S01_L_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_drinker_six_bottles__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_drinker_six_bottles__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "weary man seated on backless stool behind table, bottle A held low upright at its central tabletop slot, head raised toward RIGHT; all six bottles in their fixed neutral-master positions.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH12_S01_L",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c12-s01-p02"
+  ],
+  "allowed_changes": "weary man seated on backless stool behind table, bottle A held low upright at its central tabletop slot, head raised toward RIGHT; all six bottles in their fixed neutral-master positions.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "This state has its own full-width output, planned before generation; never upscale. Keep glass interiors painted with tabletop/local ground, never magenta. DIRECTION LOCK: Man/stool body three-quarter RIGHT, head RIGHT toward child; table stays in fixed camera.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH12_S01_L_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: weary man seated on backless stool behind table, bottle A held low upright at its central tabletop slot, head raised toward RIGHT; all six bottles in their fixed neutral-master positions. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-12/reusable-poses/S01_L_drinker_listening_and_drinking_first_state/audit-contract.json",
+  "prompt_sha256": "19251266ad4790d991e377ffb12f9dc84bace673d6d4360d8b6550a67ae6a9df",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH12_S01_L_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "V_CH07_S01_R",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_pilot_hammer_low__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_pilot_hammer_low__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "pilot upright, holding hammer LOW by his side, frustrated face toward child off-frame RIGHT; no raised swing or impact.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH07_S01",
+  "legacy_cell": "R",
+  "affected_pages": [
+    "c07-s01-p02",
+    "c07-s01-p03",
+    "c07-s01-p05",
+    "c07-s01-p06",
+    "c07-s01-p07",
+    "c07-s02-p01",
+    "c07-s02-p02"
+  ],
+  "allowed_changes": "pilot upright, holding hammer LOW by his side, frustrated face toward child off-frame RIGHT; no raised swing or impact.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Use open-plane asset as separate layer only when there is no physical hand/engine contact. A repair contact close-up needs the coherent R01 insert. DIRECTION LOCK: LEFT body bends LEFT toward engine, head LEFT/down, adult remains left of child. RIGHT feet/torso/head RIGHT toward child with hammer LOW.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH07_S01_R/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: pilot upright, holding hammer LOW by his side, frustrated face toward child off-frame RIGHT; no raised swing or impact. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-07/reusable-poses/S01_pilot_repairing_and_frustrated/audit-contract.json",
+  "prompt_sha256": "d5ce3c0984a236a56f2553e357bcd4c795e77ea0b6e4f34fc2de6c3c5bf5042e",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH07_S01_R",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

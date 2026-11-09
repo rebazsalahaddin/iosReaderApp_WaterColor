@@ -1,0 +1,38 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Submitted 2/2 image generations.\n- index 0: 2216e2a0-6cbc-4222-aada-656705703f81 (pending)\n- index 1: b5f34fd3-9dbc-48c8-9fd6-bf4058d58f23 (pending)\nWait for the complete requested set with jobs_wait, then show it together with show_generation_by_ids using the collected indexed jobs. This includes jobs submitted across separate calls. job_display accepts only one id and cannot display a group; do not pass ids or call it once per job."
+    }
+  ],
+  "structuredContent": {
+    "jobs": [
+      {
+        "index": 0,
+        "job_id": "2216e2a0-6cbc-4222-aada-656705703f81",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.6 Flare backend expects schema-key media roles"
+          }
+        }
+      },
+      {
+        "index": 1,
+        "job_id": "b5f34fd3-9dbc-48c8-9fd6-bf4058d58f23",
+        "status": "pending",
+        "adjustments": {
+          "medias[0].role": {
+            "requested": "image",
+            "used": "image_references",
+            "reason": "GPT Image 2.6 Flare backend expects schema-key media roles"
+          }
+        }
+      }
+    ],
+    "submitted_count": 2,
+    "failed_count": 0
+  }
+}

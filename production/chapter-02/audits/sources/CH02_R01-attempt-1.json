@@ -1,0 +1,113 @@
+{
+ "request_id": "CH02_R01",
+ "attempt": 1,
+ "job_id": "15cc9d04-b587-48b1-bb5b-87085dc314fb",
+ "source_file": "production/chapter-02/props/raw/CH02_R01_parked_aircraft_open_engine.png",
+ "source_sha256": "971cae872bc1172b690bb2090226ea7765264867241602a942ce6be117c72a10",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "f472f3be20e8c7d704545e8cba9bc651640f6825c2c11e9081aeb514f6984d41",
+ "attachments": [],
+ "cells": [
+  "ONE"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "One cream/blue low-wing monoplane, one cockpit with single seat/headrest fairing and one windscreen, two-blade prop with spinner; thin warm sepia contours and soft watercolor washes matching approved Chapter-1 sample; no letters/labels/watermarks."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "Side view nose RIGHT (prop/spinner at right, tail left); two stopped vertical blades (one up, one down); empty cockpit, no pilot."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "Exactly one aircraft; no people, ground, horizon, smoke, crash damage or detached parts; upper cowling open and propped on two support rods exposing engine."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "No grounding shadows; key field passes cleanly through gear struts, under fuselage, around tailwheel and between propeller blades; no key spill on subject."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Painted bounds [239,438,2218,1425] on 2400x1792: full-width asset with 10.0%/7.6%/24.4%/20.5% L/R/T/B clear margins; ~1980px usable length supports final box width 1300px at scale<=1 (0.66)."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "PENDING_EXTRACTION",
+   "evidence": "Key field uniform near-magenta rgb(253,34,251), border-ring std<4; extraction to be performed and re-inspected in preparation step."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Coherent gentle storybook watercolor machine at reading size; proportions consistent with 2.2 adult-height scale reference."
+  },
+  "second_contract_check": {
+   "verdict": "PASS",
+   "evidence": "Independent recheck against audit-contract expected_cells/ONE: parked state, open supported cowling per lower-right reference view, TWO stopped vertical blades, no mirroring artifacts (spinner and exhaust on right, tail left)."
+  }
+ },
+ "issues": [],
+ "verdict": "PASS",
+ "accepted_cells": [
+  "ONE"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "cell_audits": {
+  "ONE": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[ONE] One cream/blue low-wing monoplane, one cockpit with single seat/headrest fairing and one windscreen, two-blade prop with spinner; thin warm sepia contours and soft watercolor washes matching approved Chapter-1 sample; no letters/labels/watermarks."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Side view nose RIGHT (prop/spinner at right, tail left); two stopped vertical blades (one up, one down); empty cockpit, no pilot."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Exactly one aircraft; no people, ground, horizon, smoke, crash damage or detached parts; upper cowling open and propped on two support rods exposing engine."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[ONE] No grounding shadows; key field passes cleanly through gear struts, under fuselage, around tailwheel and between propeller blades; no key spill on subject."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Painted bounds [239,438,2218,1425] on 2400x1792: full-width asset with 10.0%/7.6%/24.4%/20.5% L/R/T/B clear margins; ~1980px usable length supports final box width 1300px at scale<=1 (0.66)."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Key field uniform near-magenta rgb(253,34,251), border-ring std<4; extraction to be performed and re-inspected in preparation step."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Coherent gentle storybook watercolor machine at reading size; proportions consistent with 2.2 adult-height scale reference."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[ONE] Independent recheck against audit-contract expected_cells/ONE: parked state, open supported cowling per lower-right reference view, TWO stopped vertical blades, no mirroring artifacts (spinner and exhaust on right, tail left)."
+    }
+   },
+   "summary": "Cell ONE of CH02_R01: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "Accepted attempt 1. Key hue slightly softer than pure #FF00FF (G~34) - matte thresholds tuned to observed distribution per Background_Removal_Instructions.",
+ "reviewed_at": "2026-11-07T14:50:00.000000+00:00",
+ "cell_details": [
+  {
+   "cell": "ONE",
+   "bounds_source_px": [
+    239,
+    438,
+    2218,
+    1425
+   ],
+   "source_file": "production/chapter-02/props/raw/CH02_R01_parked_aircraft_open_engine.png",
+   "source_sha256": "971cae872bc1172b690bb2090226ea7765264867241602a942ce6be117c72a10"
+  }
+ ]
+}

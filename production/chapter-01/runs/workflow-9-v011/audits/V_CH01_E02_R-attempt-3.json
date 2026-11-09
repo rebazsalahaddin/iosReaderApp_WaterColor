@@ -1,0 +1,40 @@
+{
+  "node_id": "V_CH01_E02_R",
+  "stage": "expression_variant",
+  "attempt": 3,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/V_CH01_E02_R-attempt-3.png",
+  "source_sha256": "b6e971dbbe50f4c324d1cdb4220f4018c74ad6054e0b925da25de93b6fabbd94",
+  "parents": [
+    {
+      "node_id": "N_pilot_social_chair_right__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-9-v011/sources/N_pilot_social_chair_right__soft_day_upper_left-attempt-1.png",
+      "sha256": "b4e920f2001da1e02b2814e2da90a418ed658d2dcdc362e66ef36a42cc3a16f9"
+    }
+  ],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T11:46:40.316360+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Seated civilian pilot on wooden chair facing three-quarter right, chin lowered, gaze down at blank ivory sheet on lap under both still hands in quiet inward loneliness, dot eyes, preserved chair/wardrobe/shadow, clean transparent alpha."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/V_CH01_E02_R-attempt-3.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "PASS",
+      "evidence": "Soft translucent ground contact shadow verified on light and dark backgrounds with no opaque floor patch."
+    }
+  },
+  "issues": []
+}

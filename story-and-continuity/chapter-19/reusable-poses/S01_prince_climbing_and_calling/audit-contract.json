@@ -1,0 +1,150 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH19_S01",
+  "prompt_file": "story-and-continuity/chapter-19/reusable-poses/S01_prince_climbing_and_calling/PROMPT.txt",
+  "prompt_sha256": "b2d21e05fb8bd8e4dd732a5930002805c74c6908299f5b8689a609c80b06384b",
+  "expected_cells": [
+    "LEFT: prince in grounded uphill step RIGHT, one boot higher, balanced arms and concentrated face; include one small coherent rocky step patch beneath both soles, matching B01, no floating boot.",
+    "RIGHT: prince standing facing LEFT, one hand cupped near mouth, calling with a small open mouth, then listening posture readable."
+  ],
+  "required_state_direction_contact": "For climbing, align both soles to the planned rock footing; never float him over a flat background. No speech lettering or echo duplicates.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [
+    "CH19_B01"
+  ],
+  "references": [
+    {
+      "name": "01_LP_ref_char_prince_turnaround.png",
+      "role": "Prince identity: golden hair, rounded child face, sage coat, CORAL scarf, brass buttons and brown boots; never enlarge him to adult proportions.",
+      "path": "story-and-continuity/chapter-19/reusable-poses/S01_prince_climbing_and_calling/reference-images/01_LP_ref_char_prince_turnaround.png",
+      "status": "supplied",
+      "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+      "source_key": "prince"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-19/reusable-poses/S01_prince_climbing_and_calling/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-19/reusable-poses/S01_prince_climbing_and_calling/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_accepted_CH19_B01_high_mountain_empty_ridge.png",
+      "role": "ACCEPTED CH19_B01: high mountain empty ridge. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-19/reusable-poses/S01_prince_climbing_and_calling/reference-images/04_accepted_CH19_B01_high_mountain_empty_ridge.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH19_B01",
+      "expected_raw": "production/chapter-19/props/raw/CH19_B01_high_mountain_empty_ridge.png"
+    },
+    {
+      "name": "05_CH19_S01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-19/reusable-poses/S01_prince_climbing_and_calling/reference-images/05_CH19_S01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "98b9d4145a6a3db14c70b8cb9222a48a35a49db0be1ec81d33fc60a203332f74"
+    },
+    {
+      "name": "06_c19-s01-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c19-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-19/reusable-poses/S01_prince_climbing_and_calling/reference-images/06_c19-s01-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "042ba39166d6d56ba04bbda3dc25daf7a12f62c9af6ef776e5c2e71091563d6c"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "L": "V_CH19_S01_L",
+    "R": "V_CH19_S01_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c19-s01-p02",
+    "c19-s01-p04",
+    "c19-s01-p05",
+    "c19-s01-p07"
+  ],
+  "placement_targets": [
+    {
+      "page": "c19-s01-p02",
+      "cell": "CH19_S01:L",
+      "box_px": [
+        1225,
+        920,
+        390,
+        610
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c19-s01-p04",
+      "cell": "CH19_S01:R",
+      "box_px": [
+        1225,
+        920,
+        390,
+        610
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c19-s01-p05",
+      "cell": "CH19_S01:R",
+      "box_px": [
+        1225,
+        920,
+        390,
+        610
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c19-s01-p07",
+      "cell": "CH19_S01:R",
+      "box_px": [
+        1225,
+        920,
+        390,
+        610
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-19/reusable-poses/S01_prince_climbing_and_calling/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

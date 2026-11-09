@@ -1,0 +1,49 @@
+{
+  "id": "V_CH09_S01_L",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_prince_volcano_active__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_prince_volcano_active__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "prince leaning safely beside one small active cone, using the cleaning rod with a coherent grip; gentle fire deep inside, no burns.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH09_S01",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c09-s01-p03",
+    "c09-s01-p04"
+  ],
+  "allowed_changes": "prince leaning safely beside one small active cone, using the cleaning rod with a coherent grip; gentle fire deep inside, no burns.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Include the contacted cone in each group. Do not add a duplicate at the same position during composition. DIRECTION LOCK: Both cells: child RIGHT of cone, torso/head LEFT toward cone, rod coherently inserted; no crossing the support silhouette.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH09_S01_L/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: prince leaning safely beside one small active cone, using the cleaning rod with a coherent grip; gentle fire deep inside, no burns. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-09/reusable-poses/S01_prince_cleaning_volcanoes/audit-contract.json",
+  "prompt_sha256": "1788d39dabb2bf1d13b2b9daa054243b84eddd5059a902a35421a0fd6d366307",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH09_S01_L",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

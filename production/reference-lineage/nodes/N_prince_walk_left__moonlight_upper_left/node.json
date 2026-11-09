@@ -1,0 +1,56 @@
+{
+  "id": "N_prince_walk_left__moonlight_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_prince"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_prince"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Prince in gentle grounded step LEFT, body/head LEFT, empty hands, neutral face.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "prince_walk_left",
+  "light": "Soft cool starlight from upper-left.",
+  "affected_pages": [
+    "c27-s04-p03"
+  ],
+  "legacy_tokens": [
+    "CH27_C03:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-27/pose-corrections/C03_possible_laughing_child_approaching/reference-images/05_CH27_C03_PACKING_GUIDE.png",
+      "sha256": "2942c508877041f24bc3eeefe51b0894d6e54f8d8be2228f157b6949f4b0f047",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-27/pose-corrections/C03_possible_laughing_child_approaching/reference-images/06_c27-s04-p03_COMPOSITION_GUIDE.png",
+      "sha256": "4ea376c6976f5cab3cac6d04f73b092fb6e32db67d171edf071d085f7e7870e5",
+      "role": "TECHNICAL final-page placement for c27-s04-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_prince_walk_left__moonlight_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Prince in gentle grounded step LEFT, body/head LEFT, empty hands, neutral face. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft cool starlight from upper-left. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "01eaa7bf6c1e02109ef6b49a022e5d2ce261bfe1c6bfe2643426d352447fa13b",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_prince_walk_left__moonlight_upper_left"
+}

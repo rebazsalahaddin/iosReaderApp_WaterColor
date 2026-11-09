@@ -1,0 +1,195 @@
+{
+  "template_only": false,
+  "request_id": "CH01_E02",
+  "attempt": 1,
+  "job_id": "c9ca8ba6-ec4d-405c-8782-07362ef09ebe",
+  "source_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast.png",
+  "source_sha256": "1a46298f458e8177ecca40b374d4e12bd1407facc17fca4ec84f3022cada1ca2",
+  "actual_format": "PNG",
+  "actual_dimensions": [
+    2400,
+    1792
+  ],
+  "prompt_sha256": "35cd286b79e94b0d95a5d4b627ca78be70e7c9e93d9cb72ba1c3a6cb55512285",
+  "attachments": [
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+      "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+      "media_id": "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/02_CH01_C01_pilot_conversing_and_isolated.png",
+      "sha256": "843389b2cd2b10f76cad6df7900893908fc60b4cd361588903450228f1c41613",
+      "media_id": "9824a24b-edac-4bcd-a730-e9bf41013b96"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/03_CH01_E02_direction_and_packing.png",
+      "sha256": "b184cf5d17ea948ab6bf08d9fda9c738d14cc764f80101dff83ccf149982551f",
+      "media_id": "14e932e5-4fea-40d5-be04-d82d39126c0b"
+    }
+  ],
+  "parameters": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "high",
+    "aspect_ratio": "4:3",
+    "count": 1
+  },
+  "cells": [
+    "L",
+    "R"
+  ],
+  "checks": {
+    "identity_style": {
+      "verdict": "PASS",
+      "evidence": "Native return matches the brown swept hair, elongated simple nose/eyes, cream shirt, tan trousers and complete wooden chair. Delicate warm outline and paper grain retained."
+    },
+    "orientation_expression": {
+      "verdict": "PASS",
+      "evidence": "L: chair back at viewer-left; knees and boots face right, open palm directed right, mouth open in polite conversation. R is rejected separately for opposite complete facing."
+    },
+    "count_state_realm": {
+      "verdict": "PASS",
+      "evidence": "One coherent pilot/chair and one blank lap paper per cell, no extra props or cloud."
+    },
+    "contact_support": {
+      "verdict": "PASS",
+      "evidence": "L: hand sits over lap paper, seated pelvis and thighs remain connected, full chair legs and two intact boot soles."
+    },
+    "native_pixel_budget": {
+      "verdict": "PASS",
+      "evidence": "L native prepared group 915x1637, opaque bounds 12,12,903,1625. Planned final seated group about1230px permits uniform reduction; final landmark measurement remains required."
+    },
+    "extraction_light_dark_intended": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Inspected L on light paper, dark slate and warm room wash. Opaque cream shirt/paper retained, chair gaps clear, hair/fingers/legs complete. Small disconnected key-field speckles removed; final placed-scale edge check remains."
+    },
+    "reading_size": {
+      "verdict": "PASS",
+      "evidence": "L active conversational palm and open speaking mouth read at about500px group height in the reviewed board. R downturned mouth reads lonely but cannot be used facing away."
+    },
+    "second_contract_check": {
+      "verdict": "PASS",
+      "evidence": "L rechecked against exact prompt, canonical civilian pilot and left cell of original geometry source: correct right-facing torso/chair/feet and usable blank paper."
+    }
+  },
+  "issues": [
+    {
+      "issue_id": "E02-R-DIRECTION",
+      "request_id": "CH01_E02",
+      "attempt": 1,
+      "cell": "R",
+      "affected_pages": [
+        "c01-s06-p02"
+      ],
+      "coordinate_space": "original source pixels; x right, y down",
+      "image_dimensions": [
+        2400,
+        1792
+      ],
+      "bbox_xywh": [
+        1440,
+        100,
+        900,
+        1655
+      ],
+      "evidence_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast.png",
+      "evidence_sha256": "1a46298f458e8177ecca40b374d4e12bd1407facc17fca4ec84f3022cada1ca2",
+      "expected": "Chair, pelvis, knees, boots and head remain three-quarter viewer-RIGHT; downcast gaze toward the lap, still physically oriented toward the group.",
+      "observed": "RIGHT cell is drawn viewer-LEFT: chair back on screen-right, knees and boot toes point left, nose left. Its sad expression is useful but the complete seating orientation contradicts the scene.",
+      "contract_reference": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/PROMPT.txt",
+      "material_impact": "Using this cell would turn the narrator away from the other men again, replacing emotional loneliness with physical avoidance.",
+      "cause": "source",
+      "local_or_existing_source_option": "No approved complete sad RIGHT-facing state exists. Mirroring the asymmetrical face/wardrobe or swapping its head onto another body is prohibited. LEFT speaking cell is already usable and will be retained untouched.",
+      "decision": "MATERIAL_FAIL",
+      "precise_fix": "For this final attempt output ONLY ONE complete solitary sad pilot/chair/paper group, centred, facing viewer-RIGHT like the LEFT cell of original Image 2 and the correct-target crop on the correction board. This scope overrides the original two-column packing: the accepted LEFT speaking state is retained from attempt 1 and must NOT be regenerated. Draw the complete coherent R pose afresh; chair back on screen-LEFT, knees and boot toes extend toward RIGHT, nose to RIGHT/down, both hands on blank lap paper. Preserve the existing sad brows/downturned mouth, adult anatomy, cream shirt, tan trousers and watercolor style. No other figure, diagram, words or shadow. Keep full chair and feet inside 6% margins on the same flat magenta background.",
+      "recheck": "Inspect the complete figure: chair back LEFT of torso, knees and BOTH boot toes to RIGHT; head three-quarter RIGHT/down; still sad; both hands on blank lap sheet; unchanged identity/style and sufficient native detail.",
+      "resolved": false
+    }
+  ],
+  "verdict": "MATERIAL_FAIL",
+  "accepted_cells": [
+    "L"
+  ],
+  "credits_estimated": 2,
+  "credits_actual": null,
+  "reviewer": "Codex actual source and matte inspection",
+  "reviewed_at": "2026-11-07T18:01:03.170722+00:00",
+  "cell_audits": {
+    "L": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS",
+          "evidence": "Native return matches the brown swept hair, elongated simple nose/eyes, cream shirt, tan trousers and complete wooden chair. Delicate warm outline and paper grain retained."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "L: chair back at viewer-left; knees and boots face right, open palm directed right, mouth open in polite conversation. R is rejected separately for opposite complete facing."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One coherent pilot/chair and one blank lap paper per cell, no extra props or cloud."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "L: hand sits over lap paper, seated pelvis and thighs remain connected, full chair legs and two intact boot soles."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "L native prepared group 915x1637, opaque bounds 12,12,903,1625. Planned final seated group about1230px permits uniform reduction; final landmark measurement remains required."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS_WITH_NOTE",
+          "evidence": "Inspected L on light paper, dark slate and warm room wash. Opaque cream shirt/paper retained, chair gaps clear, hair/fingers/legs complete. Small disconnected key-field speckles removed; final placed-scale edge check remains."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "L active conversational palm and open speaking mouth read at about500px group height in the reviewed board. R downturned mouth reads lonely but cannot be used facing away."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "L rechecked against exact prompt, canonical civilian pilot and left cell of original geometry source: correct right-facing torso/chair/feet and usable blank paper."
+        }
+      }
+    },
+    "R": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS",
+          "evidence": "Native return matches the brown swept hair, elongated simple nose/eyes, cream shirt, tan trousers and complete wooden chair. Delicate warm outline and paper grain retained."
+        },
+        "orientation_expression": {
+          "verdict": "MATERIAL_FAIL",
+          "evidence": "RIGHT cell is drawn viewer-LEFT: chair back on screen-right, knees and boot toes point left, nose left. Its sad expression is useful but the complete seating orientation contradicts the scene."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One coherent pilot/chair and one blank lap paper per cell, no extra props or cloud."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "L: hand sits over lap paper, seated pelvis and thighs remain connected, full chair legs and two intact boot soles."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "L native prepared group 915x1637, opaque bounds 12,12,903,1625. Planned final seated group about1230px permits uniform reduction; final landmark measurement remains required."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS_WITH_NOTE",
+          "evidence": "Inspected L on light paper, dark slate and warm room wash. Opaque cream shirt/paper retained, chair gaps clear, hair/fingers/legs complete. Small disconnected key-field speckles removed; final placed-scale edge check remains."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "L active conversational palm and open speaking mouth read at about500px group height in the reviewed board. R downturned mouth reads lonely but cannot be used facing away."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "L rechecked against exact prompt, canonical civilian pilot and left cell of original geometry source: correct right-facing torso/chair/feet and usable blank paper."
+        }
+      }
+    }
+  },
+  "review_images": [
+    "production/chapter-01/generation-records/performance-preparation/CH01_E02-L-matte-review.jpg"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "node_id": "A_CH01_B11_ONE",
+  "stage": "background_plate",
+  "attempt": 1,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/A_CH01_B11_ONE-attempt-1.png",
+  "source_sha256": "e2103a81f42c17c8e71f0007632e6745e9b877472ca9ea48a26099daec383e3b",
+  "parents": [],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T10:42:42.803076+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Open pale daylight sky in upper three-quarters above small sage fields, winding blue river, and distant lavender-warm hills in lowest quarter, no aircraft or people, soft storybook watercolor vignette on ivory paper."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/A_CH01_B11_ONE-attempt-1.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Opaque background plate per node contract."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Non-grounded or plate/editorial asset per node contract."
+    }
+  },
+  "issues": []
+}

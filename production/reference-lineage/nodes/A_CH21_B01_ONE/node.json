@@ -1,0 +1,73 @@
+{
+  "id": "A_CH21_B01_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-21/references/B01_apple_tree_wheat_meadow/reference-images/01_LP_ref_sahara_day.jpg",
+        "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+        "role": "Existing empty daytime Sahara plate. Preserve the full view and watercolor margins."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "quiet grassy meadow with one apple tree on LEFT, open sitting space in foreground, a band of golden wheat farther back on RIGHT. Gentle daylight, no animals, people, firearms, buildings or words.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH21_B01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c21-s01-p01",
+    "c21-s01-p02",
+    "c21-s01-p03",
+    "c21-s01-p04",
+    "c21-s01-p05",
+    "c21-s01-p06",
+    "c21-s02-p01",
+    "c21-s02-p02",
+    "c21-s02-p03",
+    "c21-s02-p04",
+    "c21-s02-p05",
+    "c21-s02-p06",
+    "c21-s02-p07",
+    "c21-s02-p08",
+    "c21-s03-p01",
+    "c21-s03-p02",
+    "c21-s03-p03",
+    "c21-s03-p04",
+    "c21-s03-p05",
+    "c21-s03-p06",
+    "c21-s03-p07",
+    "c21-s03-p08",
+    "c21-s04-p01",
+    "c21-s04-p02",
+    "c21-s04-p03",
+    "c21-s04-p04",
+    "c21-s06-p01",
+    "c21-s06-p02",
+    "c21-s06-p03",
+    "c21-s06-p04",
+    "c21-s06-p05"
+  ],
+  "audit_only_details": "New location proposal, not desert: style reference only. Apple tree roots/trunk provide stable landmark. Keep empty grass for gradually closer seating; no duplicate trees.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH21_B01_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. quiet grassy meadow with one apple tree on LEFT, open sitting space in foreground, a band of golden wheat farther back on RIGHT. Gentle daylight, no animals, people, firearms, buildings or words. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-21/references/B01_apple_tree_wheat_meadow/audit-contract.json",
+  "prompt_sha256": "4a58707c00848874c17517ca073b4e426c82fcae06ff8277b1f69fa6d7b95d00",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH21_B01_ONE"
+}

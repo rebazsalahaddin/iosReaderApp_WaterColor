@@ -1,0 +1,22 @@
+{
+  "template_only": true,
+  "node_id": null,
+  "neutral_file": null,
+  "failed_file": null,
+  "original_prompt_file": null,
+  "issues": [
+    {
+      "issue_id": "E01",
+      "bbox_xywh": null,
+      "observed": null,
+      "expected": null,
+      "precise_fix": null,
+      "target_file": null,
+      "target_bbox_xywh": null
+    }
+  ],
+  "output_directory": null,
+  "note": "Offline diagnostics only; clean accepted authority is uploaded. Keep all issue evidence, previous prompts and failed originals unchanged. Use workflow-9/retry-plan-template.json.",
+  "workflow_version": 9,
+  "upload": false
+}

@@ -1,0 +1,85 @@
+{
+  "source": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+  "sha256": "e916dd74b1f35d9d6225c8faaae70659c97d3663a046409e88ef8d01c5d2350a",
+  "parts": {
+    "cloud": {
+      "source": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+      "sha256": "e916dd74b1f35d9d6225c8faaae70659c97d3663a046409e88ef8d01c5d2350a",
+      "prepared": "production/shared/thought-clouds/prepared/cloud.png",
+      "prepared_sha256": "62d251eb26fa27b4d59b0a4522a40730c5ee9827a197b0fb240a88e1bb628cac",
+      "source_crop": [
+        166,
+        65,
+        2231,
+        1033
+      ],
+      "size": [
+        2065,
+        968
+      ],
+      "component_core_pixels": 1340234,
+      "mirrored": false,
+      "interior_max_channel_change": 0,
+      "safe_interior_mask": "production/shared/thought-clouds/prepared/cloud-safe-interior.png"
+    },
+    "puff-large": {
+      "source": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+      "sha256": "e916dd74b1f35d9d6225c8faaae70659c97d3663a046409e88ef8d01c5d2350a",
+      "prepared": "production/shared/thought-clouds/prepared/puff-large.png",
+      "prepared_sha256": "b530f2511b1cc784493dc910b973185105b1342602c227d4cb4fc973d8f04371",
+      "source_crop": [
+        1535,
+        1015,
+        2287,
+        1727
+      ],
+      "size": [
+        752,
+        712
+      ],
+      "component_core_pixels": 377680,
+      "mirrored": false,
+      "interior_max_channel_change": 0
+    },
+    "puff-medium": {
+      "source": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+      "sha256": "e916dd74b1f35d9d6225c8faaae70659c97d3663a046409e88ef8d01c5d2350a",
+      "prepared": "production/shared/thought-clouds/prepared/puff-medium.png",
+      "prepared_sha256": "dd6c32815def5605f5243691b8f06ee92278c8b55710693e45a562399feb996a",
+      "source_crop": [
+        773,
+        1089,
+        1431,
+        1701
+      ],
+      "size": [
+        658,
+        612
+      ],
+      "component_core_pixels": 278517,
+      "mirrored": false,
+      "interior_max_channel_change": 0
+    },
+    "puff-small": {
+      "source": "production/chapter-01/props/raw/LP_SHARED_TH01_watercolor_thought_cloud.png",
+      "sha256": "e916dd74b1f35d9d6225c8faaae70659c97d3663a046409e88ef8d01c5d2350a",
+      "prepared": "production/shared/thought-clouds/prepared/puff-small.png",
+      "prepared_sha256": "044f73af88d472ed1964ed787f192af9e7739f384e24bf172cb789f56385183c",
+      "source_crop": [
+        165,
+        1163,
+        657,
+        1632
+      ],
+      "size": [
+        492,
+        469
+      ],
+      "component_core_pixels": 155397,
+      "mirrored": false,
+      "interior_max_channel_change": 0
+    }
+  },
+  "matte_method": "Inspected Chapter 1 narrow-edge chroma matte; four actual connected components, nearest-core ownership for antialiasing. Original opaque interiors preserved.",
+  "safe_interior_method": "Measured warm ivory center, filled grain holes and a 12-source-pixel inset from the colored rim; used for fit checking, never to cut the thought picture."
+}

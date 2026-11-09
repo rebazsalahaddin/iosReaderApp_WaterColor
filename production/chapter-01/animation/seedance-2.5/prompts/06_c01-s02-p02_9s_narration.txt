@@ -1,0 +1,23 @@
+Use the single uploaded illustration as the first-frame, character, composition and art-style authority. Create one continuous 9-second 4:3 watercolor storybook shot. Locked camera: no cut, zoom, pan, orbit or reframing. Preserve painted paper border, delicate outlines, grain, palette, lighting, identities, anatomical scale, object counts and physical contacts. Keep the whole illustration visible. Texture and brushwork remain stable, without shimmer or boiling. Movements are small and slow, with natural pauses. Maintain reference mouth shapes; no speech animation or lip sync. No added characters, text, subtitles, logos or music.
+
+SCENE AND STARTING STATE
+The small pale tan hat thought is already visible above the responding older man. It is a mental interpretation; the boy still holds the unchanged snake-shaped Drawing One.
+
+NARRATION SYNCHRONIZATION
+The original recorded narration is added unchanged afterward in the editor. Follow the relative motion windows below; do not generate, imitate or replace any recorded speech. Existing drawings, thoughts and prop states are present from frame zero.
+
+TIMED MOTION
+0–3.818 seconds: Keep the existing hat cloud visible and completely static. The child waits with a tentative questioning expression; the adults watch the drawing.
+3.818–6.8 seconds: The older man begins one mild open-palm emphasis with his existing raised hand. Reach a small gesture peak near 6.25 seconds, without moving his elbow far.
+6.8–8.1 seconds: The boy becomes slightly puzzled. The woman remains a quiet observer; the man lets his hand settle.
+8.1–9 seconds: Hold the misunderstood moment without changing the hat cloud or the physical drawing.
+
+GENERATED SOUND: AMBIENCE ONLY
+Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.
+
+PRESERVATION LOCKS
+Preserve v010 anatomical scale, expressive starting pose, support positions and attached watercolor shadows. Exactly three stationary small thought puffs where present.
+Keep the hat, cloud rim, three puffs, size and position fixed. The hat must not grow, rotate, become realistic, become physical or replace the paper drawing. No finger-wagging or mocking expression.
+
+END STATE
+All story movement finishes within the first 8.647 seconds; maintain a quiet stable hold through 9 seconds. This extra tail is an editing handle. Do not speed up any action or create a transition.

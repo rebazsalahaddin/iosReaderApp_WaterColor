@@ -1,0 +1,71 @@
+{
+  "id": "N_pill_seller_counter__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_seller"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_seller"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Pill seller behind same plain wooden counter with one unlabelled CLOSED container, neutral face and hands at rest; no loose pills or dose in hand.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "pill_seller_counter",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c23-s01-p02",
+    "c23-s01-p03",
+    "c23-s01-p04",
+    "c23-s01-p05",
+    "c23-s01-p06"
+  ],
+  "legacy_tokens": [
+    "CH23_S01_L:ONE",
+    "CH23_S01_R:ONE"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-23/reusable-poses/S01_L_pill_seller_at_counter_first_state/reference-images/04_CH23_S01_L_PACKING_GUIDE.png",
+      "sha256": "54f114d9531c3e723427e5a3dd3a9787e84d8edcc53478b59495cbe15ef6d577",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-23/reusable-poses/S01_L_pill_seller_at_counter_first_state/reference-images/05_c23-s01-p02_COMPOSITION_GUIDE.png",
+      "sha256": "7345b73e275fc91dc703c33c2c09d3bf90eca254af9137647e23602fe4e48885",
+      "role": "TECHNICAL final-page placement for c23-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    },
+    {
+      "path": "story-and-continuity/chapter-23/reusable-poses/S01_R_pill_seller_at_counter_second_state/reference-images/05_CH23_S01_R_PACKING_GUIDE.png",
+      "sha256": "f781369c9cdf7c0d6cee91043d09baef0bda25f605ba319359805b8b8d18ff53",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-23/reusable-poses/S01_R_pill_seller_at_counter_second_state/reference-images/06_c23-s01-p06_COMPOSITION_GUIDE.png",
+      "sha256": "dcf4fa8d9e42e1611e3ff535acbfacba9017a5e1f903f7415a8c51fdd3cf1611",
+      "role": "TECHNICAL final-page placement for c23-s01-p06. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_pill_seller_counter__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Pill seller behind same plain wooden counter with one unlabelled CLOSED container, neutral face and hands at rest; no loose pills or dose in hand. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "50687a9b0f4320b1d37a1f860f3bb2c979d693ce8c55ab789844d0eceed8cc4c",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_pill_seller_counter__soft_day_upper_left"
+}

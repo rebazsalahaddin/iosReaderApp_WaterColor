@@ -1,0 +1,164 @@
+{
+  "template_only": false,
+  "request_id": "CH01_E02",
+  "attempt": 2,
+  "job_id": "68286109-888c-48d1-8968-9360c89f7a3c",
+  "source_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast__attempt-2.png",
+  "source_sha256": "987b4a7b56801a74f0d29a8a570b957255289f3ee8c260c56862c9ccb7b119b4",
+  "actual_format": "PNG",
+  "actual_dimensions": [
+    2400,
+    1792
+  ],
+  "prompt_sha256": "e15d19f120edfa0dcf84dc605eb77c77c914dd2e2ad8889fed9b29a4e1052521",
+  "attachments": [
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/01_pilot__civilian-social__neutral-three-quarter__v001.png",
+      "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b",
+      "media_id": "6f5dd030-b8e4-45ea-bd45-ee8caf9d6cff"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/02_CH01_C01_pilot_conversing_and_isolated.png",
+      "sha256": "843389b2cd2b10f76cad6df7900893908fc60b4cd361588903450228f1c41613",
+      "media_id": "9824a24b-edac-4bcd-a730-e9bf41013b96"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E02_pilot_polite_smalltalk_and_lonely_downcast/reference-images/03_CH01_E02_direction_and_packing.png",
+      "sha256": "b184cf5d17ea948ab6bf08d9fda9c738d14cc764f80101dff83ccf149982551f",
+      "media_id": "14e932e5-4fea-40d5-be04-d82d39126c0b"
+    },
+    {
+      "path": "production/chapter-01/generation-records/CH01_E02/correction-guide/correction-board-01.png",
+      "media_id": "dda5b70f-41e1-4d9c-97cf-c7ebd365957e",
+      "sha256": "077d57d939f0be13620a50e5dd22fa25ab582ada9851f44090f9997cdcf51521"
+    },
+    {
+      "path": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast.png",
+      "media_id": "6e4a18b3-3ce7-45d4-bc9c-24fa533e4690",
+      "sha256": "1a46298f458e8177ecca40b374d4e12bd1407facc17fca4ec84f3022cada1ca2"
+    }
+  ],
+  "parameters": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "high",
+    "aspect_ratio": "4:3",
+    "count": 1
+  },
+  "accepted_cells": [
+    "R"
+  ],
+  "issues": [],
+  "verdict": "PASS",
+  "reviewer": "Codex actual source / light-dark-room matte / placed-scene inspection",
+  "reviewed_at": "2026-11-07T18:23:19.559963+00:00",
+  "cell_audits": {
+    "R": {
+      "checks": {
+        "identity_style": {
+          "verdict": "PASS",
+          "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Complete single returned sad pilot now faces RIGHT: chair back LEFT, knees/toes RIGHT, head RIGHT/down; both hands rest on blank lap paper. Sad inner eyebrows, lowered gaze and downturned mouth are readable. He is still physically oriented toward the group."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Native prepared crop 942x1666; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS_WITH_NOTE",
+          "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Complete single returned sad pilot now faces RIGHT: chair back LEFT, knees/toes RIGHT, head RIGHT/down; both hands rest on blank lap paper. Sad inner eyebrows, lowered gaze and downturned mouth are readable. He is still physically oriented toward the group. This performance remains readable in the reduced component review and chapter composite."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+        }
+      },
+      "source_crop": [
+        819,
+        81,
+        1761,
+        1747
+      ],
+      "prepared_file": "production/chapter-01/components/prepared-v010/CH01_CH01_E02_ONE__rgba-performance-v010.png"
+    }
+  },
+  "credits_estimated": 2,
+  "credits_actual": null,
+  "checks": {
+    "identity_style": {
+      "verdict": "PASS",
+      "evidence": "Compared the actual source to its exact numbered identity/style crops: established facial design, hair, clothes, complete chair where required, warm thin outlines and watercolor wash; no realistic rendering or enlarged childlike adult head."
+    },
+    "orientation_expression": {
+      "verdict": "PASS",
+      "evidence": "Complete single returned sad pilot now faces RIGHT: chair back LEFT, knees/toes RIGHT, head RIGHT/down; both hands rest on blank lap paper. Sad inner eyebrows, lowered gaze and downturned mouth are readable. He is still physically oriented toward the group."
+    },
+    "count_state_realm": {
+      "verdict": "PASS",
+      "evidence": "One complete character per accepted state; chair and blank paper only where requested. No extra person, actual hat, drawing, cloud, labels or guide arrows."
+    },
+    "contact_support": {
+      "verdict": "PASS",
+      "evidence": "Hands meet their paper/knee/chin as requested; continuous limbs, intact soles and chair supports. Ground shadows are omitted from the key source and owned by local placement."
+    },
+    "native_pixel_budget": {
+      "verdict": "PASS",
+      "evidence": "Native prepared crop 942x1666; final measured source scales are below1, including declared camera changes. No head-only scaling or source enlargement."
+    },
+    "extraction_light_dark_intended": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Viewed actual matte boards on cream paper, dark slate and warm room wash. Pale opaque interiors preserved, true chair/limb gaps cleared, intact hair/finger/paper edges. Narrow local key-spill cleanup only; no global recolouring. Final placed edges checked again in page review."
+    },
+    "reading_size": {
+      "verdict": "PASS",
+      "evidence": "Complete single returned sad pilot now faces RIGHT: chair back LEFT, knees/toes RIGHT, head RIGHT/down; both hands rest on blank lap paper. Sad inner eyebrows, lowered gaze and downturned mouth are readable. He is still physically oriented toward the group. This performance remains readable in the reduced component review and chapter composite."
+    },
+    "second_contract_check": {
+      "verdict": "PASS",
+      "evidence": "Rechecked complete source/cell against intended identity, independent chair/body/head/feet/gaze, requested gesture, contacts and native pixel fit. Filename/cell placement was not treated as evidence of direction."
+    }
+  },
+  "second_attempt_recheck": {
+    "original_guide": "production/chapter-01/generation-records/CH01_E02/correction-guide/correction-guide.json",
+    "issues": [
+      {
+        "issue_id": "E02-R-DIRECTION",
+        "outcome": "corrected",
+        "source_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast__attempt-2.png",
+        "source_sha256": "987b4a7b56801a74f0d29a8a570b957255289f3ee8c260c56862c9ccb7b119b4",
+        "image_dimensions": [
+          2400,
+          1792
+        ],
+        "bbox_xywh": [
+          819,
+          81,
+          942,
+          1666
+        ],
+        "evidence_file": "production/chapter-01/props/raw/CH01_E02_pilot_polite_smalltalk_and_lonely_downcast__attempt-2.png",
+        "evidence_sha256": "987b4a7b56801a74f0d29a8a570b957255289f3ee8c260c56862c9ccb7b119b4",
+        "expected": "Chair, pelvis, knees, boots and head remain three-quarter viewer-RIGHT; downcast gaze toward the lap, still physically oriented toward the group.",
+        "observed": "Complete single returned sad pilot now faces RIGHT: chair back LEFT, knees/toes RIGHT, head RIGHT/down; both hands rest on blank lap paper. Sad inner eyebrows, lowered gaze and downturned mouth are readable. He is still physically oriented toward the group.",
+        "verdict": "PASS",
+        "local_repair_record": null
+      }
+    ],
+    "previously_passing_features_regression_check": "Same adult identity and wardrobe, clear sad expression, blank paper/hands, complete wood chair/boots, magenta isolation and watercolor style retained. Passing L remains untouched from attempt1. New image is R only under the explicit correction-scope override."
+  }
+}

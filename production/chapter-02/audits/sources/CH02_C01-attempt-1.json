@@ -1,0 +1,140 @@
+{
+ "request_id": "CH02_C01",
+ "attempt": 1,
+ "job_id": "c2d91d22-04a5-4452-adf2-e53da319b21f",
+ "source_file": "production/chapter-02/props/raw/CH02_C01_pilot_impatiently_presenting_box.png",
+ "source_sha256": "65fac36fde72c235ed8cf7c26dafe0494c540317419e1c930310474099bacb9d",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "e2870034c4cebcea6ec22d977a9cdb2a6d3e58dafa7a1b0fe1c14f18fc3a9337",
+ "attachments": [],
+ "cells": [
+  "ONE"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Same adult pilot identity (brown jacket, cream shirt, tan trousers, boots, goggles up) in both painted instances; watercolor consistent."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "RIGHT instance: torso/pelvis/knees viewer-RIGHT, head turned RIGHT toward off-frame child; tired impatient restrained (heavy-lidded flat stare, small downturned mouth), no angry caricature, no smile."
+  },
+  "count_state_realm": {
+   "verdict": "PASS_WITH_NOTE",
+   "evidence": "Generator returned TWO near-duplicate instances on a ONE-instance request (packing violation). RIGHT instance is a complete correct contract state; LEFT instance (head down toward paper) unused. Resolved locally by documented cell crop - no correction attempt spent; no mirroring or anatomy patching."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "Both hands hold ONE blank cream paper forward; all four corners visible; papers fully blank; flat magenta key through gaps; no fringe; silhouettes complete with margins."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Subject bounds [160,319,2268,1644]; right instance occupies right half with clear gutter; cropped cell supports final box 550x630 at scale<=1."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "PENDING_EXTRACTION",
+   "evidence": "Standard magenta keying of the cropped right-instance cell."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Cropped cell reads as one impatient pilot presenting a blank sheet toward the child position."
+  },
+  "second_contract_check": {
+   "verdict": "PASS_WITH_NOTE",
+   "evidence": "Recheck vs contract ONE-state: cross-legged, body RIGHT, head RIGHT, blank paper both hands, restrained impatience - RIGHT instance satisfies every state term; multiplicity handled by cell selection per judge-content-not-label rule."
+  }
+ },
+ "issues": [
+  {
+   "issue_id": "CH02_C01-NOTE-DUPLICATE-INSTANCE",
+   "request_id": "CH02_C01",
+   "attempt": 1,
+   "cell": "SHEET",
+   "affected_pages": [],
+   "coordinate_space": "source",
+   "image_dimensions": [
+    2400,
+    1792
+   ],
+   "bbox_xywh": [
+    160,
+    319,
+    2108,
+    1325
+   ],
+   "evidence_file": null,
+   "evidence_sha256": null,
+   "expected": "ONE full-width single pilot instance per packing.",
+   "contract_reference": "PROMPT.txt SOURCE PACKING / REQUESTED CONTENT ONE",
+   "observed": "Two near-duplicate pilot instances side by side; right instance matches the contract state exactly.",
+   "material_impact": "None after cell selection; left instance unused; page c02-s04-p01 needs exactly one pilot.",
+   "cause": "source",
+   "local_or_existing_source_option": "Rectangular crop of right instance in clear gutter (LOCAL_FIX); no generation consumed.",
+   "decision": "PASS_WITH_NOTE",
+   "precise_fix": "Crop right instance (approx x>=1150) as the accepted cell; key magenta; verify silhouette completeness after crop.",
+   "recheck": "Post-crop bounds and silhouette inspection in preparation step.",
+   "resolved": true
+  }
+ ],
+ "verdict": "PASS_WITH_NOTE",
+ "accepted_cells": [
+  "ONE"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "reviewed_at": "2026-11-07T14:46:00.000000+00:00",
+ "cell_audits": {
+  "ONE": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[RIGHT-INSTANCE] Same adult pilot identity (brown jacket, cream shirt, tan trousers, boots, goggles up) in both painted instances; watercolor consistent."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[RIGHT-INSTANCE] RIGHT instance: torso/pelvis/knees viewer-RIGHT, head turned RIGHT toward off-frame child; tired impatient restrained (heavy-lidded flat stare, small downturned mouth), no angry caricature, no smile."
+    },
+    "count_state_realm": {
+     "verdict": "PASS_WITH_NOTE",
+     "evidence": "[RIGHT-INSTANCE] Generator returned TWO near-duplicate instances on a ONE-instance request (packing violation). RIGHT instance is a complete correct contract state; LEFT instance (head down toward paper) unused. Resolved locally by documented cell crop - no correction attempt spent; no mirroring or anatomy patching."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[RIGHT-INSTANCE] Both hands hold ONE blank cream paper forward; all four corners visible; papers fully blank; flat magenta key through gaps; no fringe; silhouettes complete with margins."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[RIGHT-INSTANCE] Subject bounds [160,319,2268,1644]; right instance occupies right half with clear gutter; cropped cell supports final box 550x630 at scale<=1."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[RIGHT-INSTANCE] Standard magenta keying of the cropped right-instance cell."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[RIGHT-INSTANCE] Cropped cell reads as one impatient pilot presenting a blank sheet toward the child position."
+    },
+    "second_contract_check": {
+     "verdict": "PASS_WITH_NOTE",
+     "evidence": "[RIGHT-INSTANCE] Recheck vs contract ONE-state: cross-legged, body RIGHT, head RIGHT, blank paper both hands, restrained impatience - RIGHT instance satisfies every state term; multiplicity handled by cell selection per judge-content-not-label rule."
+    }
+   },
+   "summary": "Cell RIGHT-INSTANCE of CH02_C01: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "Accepted attempt 1 via documented right-instance cell crop; correction budget intact.",
+ "cell_details": [
+  {
+   "cell": "ONE",
+   "bounds_source_px": null,
+   "source_file": "production/chapter-02/props/raw/CH02_C01_pilot_impatiently_presenting_box.png",
+   "source_sha256": "65fac36fde72c235ed8cf7c26dafe0494c540317419e1c930310474099bacb9d",
+   "note": "Accepted cell is the RIGHT of two painted instances; isolated by rectangular crop in the empty clear gutter during preparation; left instance unused."
+  }
+ ]
+}

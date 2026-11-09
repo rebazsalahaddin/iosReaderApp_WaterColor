@@ -1,0 +1,1020 @@
+{
+  "workflow_version": 9,
+  "chapter": 21,
+  "title": "The Fox's Secret",
+  "page_count": 36,
+  "page_order": [
+    "c21-s01-p01",
+    "c21-s01-p02",
+    "c21-s01-p03",
+    "c21-s01-p04",
+    "c21-s01-p05",
+    "c21-s01-p06",
+    "c21-s02-p01",
+    "c21-s02-p02",
+    "c21-s02-p03",
+    "c21-s02-p04",
+    "c21-s02-p05",
+    "c21-s02-p06",
+    "c21-s02-p07",
+    "c21-s02-p08",
+    "c21-s03-p01",
+    "c21-s03-p02",
+    "c21-s03-p03",
+    "c21-s03-p04",
+    "c21-s03-p05",
+    "c21-s03-p06",
+    "c21-s03-p07",
+    "c21-s03-p08",
+    "c21-s04-p01",
+    "c21-s04-p02",
+    "c21-s04-p03",
+    "c21-s04-p04",
+    "c21-s05-p01",
+    "c21-s05-p02",
+    "c21-s05-p03",
+    "c21-s05-p04",
+    "c21-s05-p05",
+    "c21-s06-p01",
+    "c21-s06-p02",
+    "c21-s06-p03",
+    "c21-s06-p04",
+    "c21-s06-p05"
+  ],
+  "status": "plan_only_check_current_overlays_and_accepted_sources",
+  "chapter_notes": "Fox begins under apple tree. Growing closeness takes time: separate sitting positions, not instant hugging or ownership. Gold wheat matters because of the prince\u2019s hair; no magical transformation. Hunters, chickens and Thursday dances can remain dialogue, saving unnecessary assets. Scene 5 returns to the SAME garden; scene 6 returns to fox. Heart/secret are not literal glowing hearts or text.",
+  "manual_approval_required_after_delivery": true,
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "scale_and_anchor_registry_required_before_composition": true,
+  "decoded_pixel_and_semantic_duplicate_checks_required": true,
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_requires_reviewed_graphics": true,
+  "direct_source_requests": [
+    "CH02_S02",
+    "CH02_S05",
+    "CH03_S03",
+    "CH07_R02",
+    "CH20_B01",
+    "CH21_B01",
+    "CH21_S01",
+    "CH21_S02",
+    "CH21_S03"
+  ],
+  "dependency_order": [
+    "CH02_S02",
+    "CH02_S05",
+    "CH03_S03",
+    "CH07_R02",
+    "CH20_B01",
+    "CH21_B01",
+    "CH21_S01",
+    "CH21_S02",
+    "CH21_S03"
+  ],
+  "later_owned_required_sources": [],
+  "possible_initial_jobs_before_reuse": 22,
+  "max_total_submissions_if_all_sources_were_new": 66,
+  "budget_note": "Theoretical upper bound only. Not a spending budget. Reuse first, subtract both ledgers, require bounded spend window and exceptional third-attempt evidence.",
+  "generation_requests": [
+    {
+      "request_id": "CH02_S02",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c21-s01-p04",
+        "c21-s01-p05",
+        "c21-s01-p06",
+        "c21-s02-p01",
+        "c21-s02-p02",
+        "c21-s02-p03",
+        "c21-s02-p04",
+        "c21-s02-p05",
+        "c21-s02-p06",
+        "c21-s03-p01",
+        "c21-s03-p02",
+        "c21-s05-p01",
+        "c21-s05-p02",
+        "c21-s05-p03",
+        "c21-s05-p04",
+        "c21-s05-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH02_S05",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c21-s02-p07",
+        "c21-s02-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH03_S03",
+      "owner_chapter": 3,
+      "prompt_file": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c21-s01-p02",
+        "c21-s01-p03",
+        "c21-s04-p04"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH07_R02",
+      "owner_chapter": 7,
+      "prompt_file": "story-and-continuity/chapter-07/references/R02_living_special_rose/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-07/references/R02_living_special_rose/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c21-s02-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH20_B01",
+      "owner_chapter": 20,
+      "prompt_file": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c21-s05-p01",
+        "c21-s05-p02",
+        "c21-s05-p03",
+        "c21-s05-p04",
+        "c21-s05-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH21_B01",
+      "owner_chapter": 21,
+      "prompt_file": "story-and-continuity/chapter-21/references/B01_apple_tree_wheat_meadow/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-21/references/B01_apple_tree_wheat_meadow/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c21-s01-p01",
+        "c21-s01-p02",
+        "c21-s01-p03",
+        "c21-s01-p04",
+        "c21-s01-p05",
+        "c21-s01-p06",
+        "c21-s02-p01",
+        "c21-s02-p02",
+        "c21-s02-p03",
+        "c21-s02-p04",
+        "c21-s02-p05",
+        "c21-s02-p06",
+        "c21-s02-p07",
+        "c21-s02-p08",
+        "c21-s03-p01",
+        "c21-s03-p02",
+        "c21-s03-p03",
+        "c21-s03-p04",
+        "c21-s03-p05",
+        "c21-s03-p06",
+        "c21-s03-p07",
+        "c21-s03-p08",
+        "c21-s04-p01",
+        "c21-s04-p02",
+        "c21-s04-p03",
+        "c21-s04-p04",
+        "c21-s06-p01",
+        "c21-s06-p02",
+        "c21-s06-p03",
+        "c21-s06-p04",
+        "c21-s06-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH21_S01",
+      "owner_chapter": 21,
+      "prompt_file": "story-and-continuity/chapter-21/reusable-poses/S01_fox_cautious_and_attentive/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-21/reusable-poses/S01_fox_cautious_and_attentive/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c21-s01-p02",
+        "c21-s01-p03",
+        "c21-s01-p04",
+        "c21-s01-p05",
+        "c21-s01-p06",
+        "c21-s02-p01",
+        "c21-s02-p02",
+        "c21-s02-p03",
+        "c21-s02-p04",
+        "c21-s02-p05",
+        "c21-s02-p06",
+        "c21-s02-p07",
+        "c21-s02-p08",
+        "c21-s03-p01",
+        "c21-s03-p02",
+        "c21-s03-p03",
+        "c21-s03-p04",
+        "c21-s03-p06",
+        "c21-s03-p07",
+        "c21-s03-p08",
+        "c21-s04-p04",
+        "c21-s06-p01",
+        "c21-s06-p02",
+        "c21-s06-p03",
+        "c21-s06-p04",
+        "c21-s06-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH21_S02",
+      "owner_chapter": 21,
+      "prompt_file": "story-and-continuity/chapter-21/reusable-poses/S02_prince_sitting_and_listening/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-21/reusable-poses/S02_prince_sitting_and_listening/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c21-s03-p03",
+        "c21-s03-p04",
+        "c21-s03-p05",
+        "c21-s03-p06",
+        "c21-s03-p07",
+        "c21-s03-p08",
+        "c21-s04-p01",
+        "c21-s04-p02",
+        "c21-s04-p03",
+        "c21-s06-p01",
+        "c21-s06-p02",
+        "c21-s06-p03",
+        "c21-s06-p04",
+        "c21-s06-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH21_S03",
+      "owner_chapter": 21,
+      "prompt_file": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-21/reusable-poses/S03_fox_happy_and_tearful/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c21-s03-p05",
+        "c21-s04-p01",
+        "c21-s04-p02",
+        "c21-s04-p03"
+      ],
+      "dependency_only": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "c21-s01-p01",
+      "assets": [
+        "CH21_B01:ONE"
+      ],
+      "story_text": "",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s01-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s01-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s01-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p01/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE"
+      }
+    },
+    {
+      "page": "c21-s01-p02",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:L",
+        "CH03_S03:L"
+      ],
+      "story_text": "That was when the fox appeared. \"Good morning.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s01-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s01-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s01-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p02/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:L": "V_CH21_S01_L",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c21-s01-p03",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:L",
+        "CH03_S03:L"
+      ],
+      "story_text": "\"Good morning.\" \"Here. Under the apple tree.\" \"Who are you? You're very pretty.\" \"I'm a fox.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s01-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s01-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s01-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p03/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:L": "V_CH21_S01_L",
+        "CH03_S03:L": "V_CH03_S03_L"
+      }
+    },
+    {
+      "page": "c21-s01-p04",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"Come and play with me. I'm so unhappy.\" \"I can't. I'm not tame.\" \"Oh, I'm sorry. But what does tame mean?\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s01-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s01-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s01-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p04/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s01-p05",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"You don't live here. What are you looking for?\" \"People. What does tame mean?\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s01-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s01-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s01-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p05/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s01-p06",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"People have guns. They hunt us, and they keep chickens. That's all they seem to care about. Are you looking for chickens?\" \"No. Friends. What does tame mean?\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s01-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s01-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s01-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s01-p06/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s02-p01",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"It means growing close to someone. People don't do it enough. Now you're just a boy to me, like a hundred thousand other boys. And I'm just another fox to you.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s02-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s02-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s02-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p01/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s02-p02",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"We don't need each other. But if you tame me, we will. There will be no other boy like you for me. And no other fox like me for you.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s02-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s02-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s02-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p02/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s02-p03",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L",
+        "CH07_R02:R"
+      ],
+      "story_text": "\"I'm beginning to understand. There's a flower... I think she has tamed me.\" \"That can happen on Earth.\" \"But she isn't on Earth.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s02-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s02-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s02-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p03/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L",
+        "CH07_R02:R": "V_CH07_R02_R"
+      }
+    },
+    {
+      "page": "c21-s02-p04",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"On another planet? Are there hunters there?\" \"No.\" \"Interesting. Chickens?\" \"No.\" \"Well, nothing is perfect.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s02-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s02-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s02-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p04/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s02-p05",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"My life is always the same. I hunt chickens. People hunt me. Every chicken looks like every other chicken. Every person looks like every other person. I'm bored.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s02-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s02-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s02-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p05/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s02-p06",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"But your steps could become different. Other steps send me running into my hole. Yours would call me out, like music. My whole life would grow brighter.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s02-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s02-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s02-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p06/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s02-p07",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S05:L"
+      ],
+      "story_text": "\"See that wheat? I don't eat bread, so it means nothing to me. But your hair is gold. If you tame me, the wheat will remind me of you. I'll love the wind in it.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s02-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s02-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s02-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p07/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S05:L": "V_CH02_S05_L"
+      }
+    },
+    {
+      "page": "c21-s02-p08",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S05:L"
+      ],
+      "story_text": "The fox watched him for a long time. \"Please. Tame me.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s02-p08/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s02-p08/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s02-p08/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p08/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s02-p08/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S05:L": "V_CH02_S05_L"
+      }
+    },
+    {
+      "page": "c21-s03-p01",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"I'd like to. But I have friends to find, and so much to understand.\" \"You only understand what you take time to know. People buy things others have already made.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s03-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s03-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s03-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p01/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s03-p02",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"But no shop sells friendship. That's why people have so few friends. If you want a friend, tame me.\" \"What must I do?\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s03-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s03-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s03-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p02/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s03-p03",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "\"Don't hurry. Sit a little way from me, in the grass. I'll watch you. Don't speak. Words don't always help us understand each other. Every day, sit a little closer.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s03-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s03-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s03-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p03/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s03-p04",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "The next day, the little prince came back. \"It would be better to come at the same time each day.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s03-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s03-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s03-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p04/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s03-p05",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S03:L",
+        "CH21_S02:L"
+      ],
+      "story_text": "\"If you come at four, I'll begin to feel happy at three. I'll grow happier as the time gets closer. By four, I'll be jumping about, excited and a little nervous.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s03-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s03-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s03-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p05/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S03:L": "V_CH21_S03_L",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s03-p06",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:R"
+      ],
+      "story_text": "\"But if you come whenever you like, how will my heart know when to be ready? We need special habits.\" \"Special habits?\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s03-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s03-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s03-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p06/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:R": "V_CH21_S02_R"
+      }
+    },
+    {
+      "page": "c21-s03-p07",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:R"
+      ],
+      "story_text": "\"Things that make one day different from another. My hunters dance with the village girls on Thursdays. So Thursday is my day to walk among the grape plants.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s03-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s03-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s03-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p07/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:R": "V_CH21_S02_R"
+      }
+    },
+    {
+      "page": "c21-s03-p08",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:R"
+      ],
+      "story_text": "\"If they danced on any day they liked, every day would be the same for me. I'd never have a holiday.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s03-p08/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s03-p08/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s03-p08/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p08/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s03-p08/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:R": "V_CH21_S02_R"
+      }
+    },
+    {
+      "page": "c21-s04-p01",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S03:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "So the little prince tamed the fox. But the day came when he had to leave. \"I'm going to cry.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s04-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s04-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s04-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s04-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s04-p01/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S03:R": "V_CH21_S03_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s04-p02",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S03:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "\"But you asked me to tame you. I never wanted to hurt you.\" \"Yes.\" \"And now you'll cry?\" \"Yes.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s04-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s04-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s04-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s04-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s04-p02/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S03:R": "V_CH21_S03_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s04-p03",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S03:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "\"Then it hasn't helped you at all.\" \"It has. Because of the color of the wheat.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s04-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s04-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s04-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s04-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s04-p03/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S03:R": "V_CH21_S03_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s04-p04",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH03_S03:R"
+      ],
+      "story_text": "\"Go back to the roses. You'll understand why yours is different from all the others. Then come and say goodbye. I'll give you a secret.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s04-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s04-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s04-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s04-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s04-p04/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH03_S03:R": "V_CH03_S03_R"
+      }
+    },
+    {
+      "page": "c21-s05-p01",
+      "assets": [
+        "CH20_B01:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"You aren't like my rose. Nobody has tamed you, and you haven't tamed anyone. My fox was once like any other fox. Now he's my friend. There is no other like him.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s05-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s05-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s05-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p01/layout.json",
+      "reference_lineage": {
+        "CH20_B01:ONE": "A_CH20_B01_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s05-p02",
+      "assets": [
+        "CH20_B01:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "The roses said nothing. They seemed to wish he would stop. \"You're beautiful, but empty. No one could die for you.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s05-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s05-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s05-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p02/layout.json",
+      "reference_lineage": {
+        "CH20_B01:ONE": "A_CH20_B01_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s05-p03",
+      "assets": [
+        "CH20_B01:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"Someone passing by might think my rose looks just like you. But she is more important to me than all of you together.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s05-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s05-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s05-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p03/layout.json",
+      "reference_lineage": {
+        "CH20_B01:ONE": "A_CH20_B01_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s05-p04",
+      "assets": [
+        "CH20_B01:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"She's the one I watered. The one I covered with glass and kept out of the wind. For her, I killed the caterpillars, except two or three to become butterflies.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s05-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s05-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s05-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p04/layout.json",
+      "reference_lineage": {
+        "CH20_B01:ONE": "A_CH20_B01_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s05-p05",
+      "assets": [
+        "CH20_B01:ONE",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"I listened when she complained, when she spoke proudly, and even when she said nothing. Because she is my rose.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s05-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s05-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s05-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s05-p05/layout.json",
+      "reference_lineage": {
+        "CH20_B01:ONE": "A_CH20_B01_ONE",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c21-s06-p01",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "\"Goodbye.\" \"Goodbye. Here is my secret. It's simple: you must look with your heart. The most important things are invisible to your eyes.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s06-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s06-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s06-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p01/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s06-p02",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "\"The most important things are invisible to your eyes.\" He repeated it so he would remember.",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s06-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s06-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s06-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p02/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s06-p03",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "\"All that time you gave your rose is what makes her so important.\" \"All that time I gave my rose...\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s06-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s06-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s06-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p03/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s06-p04",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "\"People have forgotten this. You mustn't. You are always responsible for what you have tamed. You are responsible for your rose.\"",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s06-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s06-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s06-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p04/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    },
+    {
+      "page": "c21-s06-p05",
+      "assets": [
+        "CH21_B01:ONE",
+        "CH21_S01:R",
+        "CH21_S02:L"
+      ],
+      "story_text": "\"I am responsible for my rose.\" He said it again, so he would not forget.",
+      "assembly_instructions": "story-and-continuity/chapter-21/page-compositions/c21-s06-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-21/page-compositions/c21-s06-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-21/page-compositions/c21-s06-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-21/page-compositions/c21-s06-p05/layout.json",
+      "reference_lineage": {
+        "CH21_B01:ONE": "A_CH21_B01_ONE",
+        "CH21_S01:R": "V_CH21_S01_R",
+        "CH21_S02:L": "V_CH21_S02_L"
+      }
+    }
+  ],
+  "policy": "production/agent-policy.json",
+  "audit_template": "production/agent-workflow/templates/page-audit.json",
+  "lineage_execution_order": [
+    "I_prince",
+    "I_fox",
+    "I_flower",
+    "N_prince_standing_left__soft_day_upper_left",
+    "N_prince_walk_right__soft_day_upper_left",
+    "N_rose_open__soft_day_upper_left",
+    "N_prince_seated_ground_left__soft_day_upper_left",
+    "N_fox_standing_right__soft_day_upper_left",
+    "N_fox_seated_right__soft_day_upper_left",
+    "V_CH02_S02_L",
+    "V_CH02_S05_L",
+    "V_CH03_S03_L",
+    "V_CH03_S03_R",
+    "V_CH07_R02_R",
+    "A_CH20_B01_ONE",
+    "A_CH21_B01_ONE",
+    "V_CH21_S01_L",
+    "V_CH21_S01_R",
+    "V_CH21_S02_L",
+    "V_CH21_S02_R",
+    "V_CH21_S03_L",
+    "V_CH21_S03_R"
+  ],
+  "generation_route": "lineage_nodes_only",
+  "legacy_dependency_usage": "offline_audit_and_historical_attempt_traceability",
+  "lineage_catalog": "production/reference-lineage/catalog.json",
+  "workflow_process": "production/workflow-9/PROCESS.md",
+  "family_canaries": {
+    "N_prince_standing_left__soft_day_upper_left": "V_CH02_S02_L",
+    "N_prince_walk_right__soft_day_upper_left": "V_CH03_S03_R",
+    "N_rose_open__soft_day_upper_left": "V_CH07_R02_R",
+    "N_fox_standing_right__soft_day_upper_left": "V_CH21_S01_L",
+    "N_fox_seated_right__soft_day_upper_left": "V_CH21_S01_R",
+    "N_prince_seated_ground_left__soft_day_upper_left": "V_CH21_S02_L"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "I_flower",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One identity sheet of the SAME living coral rose in front, three-quarter, side and back views. Preserve the canonical bloom, two sage leaves, four small thorns, stem proportions and tiny face features where visible. Neutral expression; no human limbs, hair or clothing. Same watercolor design and scale across views.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": "appearance-references/shared/LP_ref_flower_stages.png",
+  "candidate_role": "existing identity turnaround or plant stages; inspect and accept before use",
+  "prompt_file": "production/reference-lineage/nodes/I_flower/PROMPT.txt",
+  "candidate_sha256": "7bc7d5701b3937e437f670d1ea79c36e79e86cd19a072e2db2c26032d2f2e228",
+  "prompt": "One identity sheet of the SAME living coral rose in front, three-quarter, side and back views. Preserve the canonical bloom, two sage leaves, four small thorns, stem proportions and tiny face features where visible. Neutral expression; no human limbs, hair or clothing. Same watercolor design and scale across views. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "68bb2655d7f450eb66f87d515feff046a7206027e59c26f6f0bf67214cfbd87c",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_flower"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "A_CH01_R10_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-01/references/R10_forest_book_swallowing_picture/reference-images/01_LP_ref_child_book.png",
+        "sha256": "eae9c508aeaaf02488093597bc9511f9f6381cfc0cd95730837e9691a6349c73",
+        "role": "Dusty blue binding, cream paper and central gutter ONLY. Requested pages are blank for later insertion of the correct printed forest picture; do not copy its existing swollen-snake content."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "a small nonverbal printed watercolor natural-history picture on cream paper: muted olive-ochre snake swallowing a generic brown forest quadruped head-first; only hindquarters, short tail and two rear legs remain outside.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_R10",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c01-s01-p02",
+    "c01-s01-p03"
+  ],
+  "audit_only_details": "No elephant, cutaway, hat silhouette, lettering, gore, visible teeth or distressed face. Keep the entire picture in a generous clear paper margin. This is printed book content, not Drawing One.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH01_R10_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. a small nonverbal printed watercolor natural-history picture on cream paper: muted olive-ochre snake swallowing a generic brown forest quadruped head-first; only hindquarters, short tail and two rear legs remain outside. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-01/references/R10_forest_book_swallowing_picture/audit-contract.json",
+  "prompt_sha256": "8bf88afc1a944a6b0c278849f2976c548a2de588228490b143305d139b9a3e1a",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH01_R10_ONE"
+}

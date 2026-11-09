@@ -1,0 +1,18 @@
+Workflow 9 authority: production/workflow-9/PROCESS.md. One live job, bounded spending, clean parent uploads and local protected pixels.
+
+WORKFLOW 9: Chapter 1 regeneration remains incomplete. Read production/workflow-9/CHAPTER_01_RECOVERY.md. The v010 delivery below is retained; this workflow revision is not a new visual approval.
+
+CHAPTER 1 — v010 READY FOR MANUAL REVIEW
+
+19 illustrations: production/chapter-01/delivery/chapter-01-v010
+Archive: production/chapter-01/delivery/Chapter_01_Illustrations_v10.zip
+Overview: production/chapter-01/delivery/chapter-01-v010/chapter-01-overview.jpg
+Measured source/placement evidence: production/chapter-01/scale-and-anchor-registry.json
+Review: production/chapter-01/current/continuity-performance-review.json
+Narration-timed animation guide uses these v010 starts; narration and all cue times are unchanged.
+
+New expressive pilot/listener states; distinct pleased agreement; registered first-drawing group; three small thought puffs; soft attached shadows; coherent detail/ending reframes. Small inherited complete-furniture contour/projection differences are documented in the measured registry; do not use them as exact rigid-prop shape masters.
+
+Chapter 2 audit only: production/chapter-02/revision-audit/Chapter_2_Audit.md
+Separate correction prompt: production/chapter-02/revision-audit/Chapter_2_Correction_Handoff.txt
+Stop for manual approval; no new chapter is authorized by completing this revision.

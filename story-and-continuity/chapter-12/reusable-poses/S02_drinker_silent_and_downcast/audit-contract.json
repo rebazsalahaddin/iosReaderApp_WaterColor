@@ -1,0 +1,176 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH12_S02",
+  "prompt_file": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/PROMPT.txt",
+  "prompt_sha256": "737a8bb8576e561b2263718e1b6a1659c27c38323ad9e7b870661a1553c61ba0",
+  "expected_cells": [
+    "ONE: same man/table/stool/six-bottle arrangement, bottle A back upright at centre, slightly less liquid, head lowered, closed mouth and quiet shame; no further drinking."
+  ],
+  "required_state_direction_contact": "Preserve bottle states from accepted S01. Single wide group for sufficient pixel width. Match the accepted after-sip liquid levels, not the earlier full bottle. DIRECTION LOCK: Body RIGHT, face DOWN in shame; table camera unchanged.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [
+    "CH12_C01"
+  ],
+  "references": [
+    {
+      "name": "01_LP_ref_char_drunkard_turnaround.png",
+      "role": "Weary grey-haired man, brown clothes, table and backless stool; bottle count comes from the state guide.",
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/01_LP_ref_char_drunkard_turnaround.png",
+      "status": "supplied",
+      "sha256": "9c1634e3081e170ac3c38cf7c7839606a1cc9aeeae10fa6b70733592ee425e6f",
+      "source_key": "drinker"
+    },
+    {
+      "name": "02_LP_ch12_seated_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/02_LP_ch12_seated_scale_guide.png",
+      "status": "supplied",
+      "sha256": "09c59f5d7650c44e635cce196670a32b5734a5294fff6c68c587068d6e28f87b",
+      "source_key": "LP_ch12_seated_scale_guide"
+    },
+    {
+      "name": "03_LP_ch12_bottle_layout_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/03_LP_ch12_bottle_layout_guide.png",
+      "status": "supplied",
+      "sha256": "d0369feae8c438017b535a3245be8e131b9e052132309f2a4690471f5a0e8691",
+      "source_key": "LP_ch12_bottle_layout_guide"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_accepted_CH12_C01_drinker_after_sip_bottle_returned.png",
+      "role": "ACCEPTED CH12_C01: drinker after sip bottle returned. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/06_accepted_CH12_C01_drinker_after_sip_bottle_returned.png",
+      "status": "waiting_for_checked_dependency",
+      "dependency": "CH12_C01",
+      "expected_raw": "production/chapter-12/props/raw/CH12_C01_drinker_after_sip_bottle_returned.png"
+    },
+    {
+      "name": "07_CH12_S02_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/07_CH12_S02_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "d7619ae315715267ff8603387665280b485dbbdaf62dd076bfde1d196b72a277"
+    },
+    {
+      "name": "08_c12-s01-p05_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c12-s01-p05. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/reference-images/08_c12-s01-p05_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "d6db568b1885a7a275b3947f97c998ad0484e124f3012e0d69f5e7b6d512d544"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "V_CH12_S02_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c12-s01-p05",
+    "c12-s01-p06",
+    "c12-s01-p07",
+    "c12-s01-p08",
+    "c13-s02-p05"
+  ],
+  "placement_targets": [
+    {
+      "page": "c12-s01-p05",
+      "cell": "CH12_S02:ONE",
+      "box_px": [
+        290,
+        420,
+        1250,
+        1110
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c12-s01-p06",
+      "cell": "CH12_S02:ONE",
+      "box_px": [
+        290,
+        420,
+        1250,
+        1110
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c12-s01-p07",
+      "cell": "CH12_S02:ONE",
+      "box_px": [
+        290,
+        420,
+        1250,
+        1110
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c12-s01-p08",
+      "cell": "CH12_S02:ONE",
+      "box_px": [
+        290,
+        420,
+        1250,
+        1110
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c13-s02-p05",
+      "cell": "CH12_S02:ONE",
+      "box_px": [
+        1604,
+        250,
+        512,
+        480
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-12/reusable-poses/S02_drinker_silent_and_downcast/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

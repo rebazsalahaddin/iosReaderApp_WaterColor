@@ -1,0 +1,25 @@
+Use the same Higgsfield model and settings: GPT Image 2.6 Flare / Medium quality / 4:3 / 2K / one output.
+
+NUMBERED REFERENCES:
+Image1: 01_CH01_S15_child_putting_pencil_down.png. ACCEPTED exact arrangement: child/chair on RIGHT, round table extends LEFT; closed blue book at far LEFT, blank separate sheet in front of child, resting pencil. Primary camera/furniture/prop authority.
+Image2: 02_LP_ref_char_child_turnaround.png. Exact six-year-old narrator identity and outfit.
+Image3: 03_c01-s05-p01.png. Watercolor quality only, no adults or social furniture.
+Image4: 04_c03-s010.jpg. Paint handling only.
+Image5: 05_CH01_S16_child_tired_of_explaining.png. FAILED return: use only the tired feeling and hands-supporting-cheeks gesture. Do NOT copy its LEFT-side chair, RIGHT-facing child, open book or covered sheet.
+Image6: 06_CORRECTION_GUIDE.png. Technical correction guide only: direction/arrangement. No labels, arrows or boxes in final output.
+
+Re-create ONE complete child/chair/table/book/paper/pencil contact group. Match Image1 exactly for camera, table size/shape, chair location, identity, costume, book and pencil design and object positions. The only action change from Image1 is that both elbows now rest naturally on the table and both hands support the cheeks; face tired and downcast, closed mouth, no smile.
+
+SCREEN GEOMETRY: child and chair remain at the RIGHT end of table, body/feet facing LEFT, head tilted down-LEFT toward his paper. Table extends to LEFT. The camera has NOT moved. Keep the whole table, chair legs and boots in view. No mirroring.
+
+PROP INVENTORY: exactly one CLOSED dusty-blue book at far LEFT; exactly one separate BLANK cream sheet in front of child with its broad inner plane uncovered; exactly one pencil resting just above/beside that sheet, held by neither hand. No open book. Nothing covers the blank sheet. Hands occupy cheeks, elbows touch table, weight remains on chair, feet naturally supported. No spare hands, extra chair, duplicate books or generated drawing. The agent will insert the canonical graphite drawing later.
+
+Use one full-width coherent asset with 5–7% clear margin, no second cell.
+
+ISOLATION: Completely flat uniform opaque #FF00FF outside silhouettes and in all genuine gaps. No cast shadows, floor, gradients, grain or magenta rim light in background. Pale skin, cream paper, wood and clothing stay opaque. Internal contact shading stays intact.
+
+LIGHT: soft neutral daylight from upper-left.
+
+Soft luminous picture-book watercolor, matching the approved Chapter1 assembled sample: translucent pigment washes within opaque painted forms, fine cold-press grain inside shapes, thin irregular darker LOCAL-colour contours, sparse interior lines, simplified rounded anatomy, pale warm skin and restrained blush. Identity references control faces, hair, age and wardrobe. No default broad grin. Backgrounds use broad soft outline-free washes and ragged deckled paper edges. No thick black contours, glossy3D, photorealism, plastic airbrush, vector clip-art or unnecessary detail. In-world graphite or pen pictures retain their specified medium.
+
+No lettering, numbers, arrows, labels, watermarks, extra cast or invented props. Preserve the complete original file.

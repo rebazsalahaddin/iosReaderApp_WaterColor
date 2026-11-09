@@ -1,0 +1,46 @@
+{
+  "id": "A_CH04_R01_R",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-04/references/R01_pink_house_and_telescope/reference-images/02_c01-s05-p01.png",
+        "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+        "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "one simple long brass telescope on a wooden tripod, no person or star chart.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH04_R01",
+  "legacy_cell": "R",
+  "affected_pages": [
+    "c04-s01-p03",
+    "c04-s01-p04",
+    "c04-s03-p03",
+    "c04-s03-p04"
+  ],
+  "audit_only_details": "Different object scales in separate cells; do not claim the house and telescope share physical scale. No prices, numbers or text.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH04_R01_R/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. one simple long brass telescope on a wooden tripod, no person or star chart. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-04/references/R01_pink_house_and_telescope/audit-contract.json",
+  "prompt_sha256": "13b9cb014b23ed564e7ced0c267dc12216a9c88970c14d6945a094dab79b4242",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH04_R01_R"
+}

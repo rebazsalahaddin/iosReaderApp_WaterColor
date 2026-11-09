@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "workflow_version": 9,
+  "chapters": 27,
+  "page_routes": 442,
+  "legacy_requests": 174,
+  "logical_states": 229,
+  "checks": {
+    "identity_turnaround": 23,
+    "neutral_posture": 90,
+    "object_or_editorial": 39,
+    "expression_variant": 162,
+    "background_plate": 27,
+    "local_assembly": 2,
+    "guard_rejection_checks": 5
+  },
+  "errors": [],
+  "scope": "Prompt graph, chapter closure and read-only rejection checks. No jobs, rendering or visual approval."
+}

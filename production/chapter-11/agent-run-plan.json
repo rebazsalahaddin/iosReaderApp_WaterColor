@@ -1,0 +1,345 @@
+{
+  "workflow_version": 9,
+  "chapter": 11,
+  "title": "The Man Who Wanted Praise",
+  "page_count": 8,
+  "page_order": [
+    "c11-s01-p01",
+    "c11-s01-p02",
+    "c11-s01-p03",
+    "c11-s01-p04",
+    "c11-s01-p05",
+    "c11-s02-p01",
+    "c11-s02-p02",
+    "c11-s02-p03"
+  ],
+  "status": "plan_only_check_current_overlays_and_accepted_sources",
+  "chapter_notes": "One hat only. Worn before the clap, raised in the man\u2019s LEFT hand for 1.4\u20131.5, worn again in scene 2 after an unshown reset. The prince stops clapping at 1.5. Raised hat framing includes its full height.",
+  "manual_approval_required_after_delivery": true,
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "scale_and_anchor_registry_required_before_composition": true,
+  "decoded_pixel_and_semantic_duplicate_checks_required": true,
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_requires_reviewed_graphics": true,
+  "direct_source_requests": [
+    "CH02_B00",
+    "CH02_S02",
+    "CH03_S03",
+    "CH11_B01",
+    "CH11_C01",
+    "CH11_R01",
+    "CH11_S01",
+    "CH11_S02"
+  ],
+  "dependency_order": [
+    "CH02_B00",
+    "CH02_S02",
+    "CH03_S03",
+    "CH11_R01",
+    "CH11_B01",
+    "CH11_S01",
+    "CH11_S02",
+    "CH11_C01"
+  ],
+  "later_owned_required_sources": [],
+  "possible_initial_jobs_before_reuse": 16,
+  "max_total_submissions_if_all_sources_were_new": 48,
+  "budget_note": "Theoretical upper bound only. Not a spending budget. Reuse first, subtract both ledgers, require bounded spend window and exceptional third-attempt evidence.",
+  "generation_requests": [
+    {
+      "request_id": "CH02_B00",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c11-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH02_S02",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c11-s01-p02",
+        "c11-s01-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH03_S03",
+      "owner_chapter": 3,
+      "prompt_file": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c11-s02-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH11_R01",
+      "owner_chapter": 11,
+      "prompt_file": "story-and-continuity/chapter-11/references/R01_blue_hat_opening_prop/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-11/references/R01_blue_hat_opening_prop/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c11-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH11_B01",
+      "owner_chapter": 11,
+      "prompt_file": "story-and-continuity/chapter-11/references/B01_vain_man_empty_world/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-11/references/B01_vain_man_empty_world/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c11-s01-p02",
+        "c11-s01-p03",
+        "c11-s01-p04",
+        "c11-s01-p05",
+        "c11-s02-p01",
+        "c11-s02-p02",
+        "c11-s02-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH11_S01",
+      "owner_chapter": 11,
+      "prompt_file": "story-and-continuity/chapter-11/reusable-poses/S01_vain_man_hat_worn_and_lifted/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-11/reusable-poses/S01_vain_man_hat_worn_and_lifted/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c11-s01-p02",
+        "c11-s01-p03",
+        "c11-s01-p04",
+        "c11-s02-p01",
+        "c11-s02-p02",
+        "c11-s02-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH11_S02",
+      "owner_chapter": 11,
+      "prompt_file": "story-and-continuity/chapter-11/reusable-poses/S02_prince_clap_and_bored_question/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-11/reusable-poses/S02_prince_clap_and_bored_question/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c11-s01-p04",
+        "c11-s01-p05",
+        "c11-s02-p01",
+        "c11-s02-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH11_C01",
+      "owner_chapter": 11,
+      "prompt_file": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-11/pose-corrections/C01_vain_man_upright_hat_still_raised/audit-contract.json",
+      "dependencies": [
+        "CH11_S01"
+      ],
+      "active_page_uses": [
+        "c11-s01-p05"
+      ],
+      "dependency_only": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "c11-s01-p01",
+      "assets": [
+        "CH02_B00:ONE",
+        "CH11_R01:ONE"
+      ],
+      "story_text": "",
+      "assembly_instructions": "story-and-continuity/chapter-11/page-compositions/c11-s01-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-11/page-compositions/c11-s01-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-11/page-compositions/c11-s01-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p01/layout.json",
+      "reference_lineage": {
+        "CH02_B00:ONE": "A_CH02_B00_ONE",
+        "CH11_R01:ONE": "A_CH11_R01_ONE"
+      }
+    },
+    {
+      "page": "c11-s01-p02",
+      "assets": [
+        "CH11_B01:ONE",
+        "CH11_S01:L",
+        "CH02_S02:L"
+      ],
+      "story_text": "A vain man lived on the second planet. \"Ah! Someone has come to admire me!\" He believed that was what other people were for.",
+      "assembly_instructions": "story-and-continuity/chapter-11/page-compositions/c11-s01-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-11/page-compositions/c11-s01-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-11/page-compositions/c11-s01-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p02/layout.json",
+      "reference_lineage": {
+        "CH11_B01:ONE": "A_CH11_B01_ONE",
+        "CH11_S01:L": "V_CH11_S01_L",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c11-s01-p03",
+      "assets": [
+        "CH11_B01:ONE",
+        "CH11_S01:L",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"Good morning. That's a strange hat.\" \"I lift it when people clap for me. The trouble is, nobody ever comes here. Clap your hands.\"",
+      "assembly_instructions": "story-and-continuity/chapter-11/page-compositions/c11-s01-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-11/page-compositions/c11-s01-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-11/page-compositions/c11-s01-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p03/layout.json",
+      "reference_lineage": {
+        "CH11_B01:ONE": "A_CH11_B01_ONE",
+        "CH11_S01:L": "V_CH11_S01_L",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c11-s01-p04",
+      "assets": [
+        "CH11_B01:ONE",
+        "CH11_S01:R",
+        "CH11_S02:L"
+      ],
+      "story_text": "The little prince clapped. The man lifted his hat and bowed. This was more fun than the king. The prince clapped again. Up went the hat.",
+      "assembly_instructions": "story-and-continuity/chapter-11/page-compositions/c11-s01-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-11/page-compositions/c11-s01-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-11/page-compositions/c11-s01-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p04/layout.json",
+      "reference_lineage": {
+        "CH11_B01:ONE": "A_CH11_B01_ONE",
+        "CH11_S01:R": "V_CH11_S01_R",
+        "CH11_S02:L": "V_CH11_S02_L"
+      }
+    },
+    {
+      "page": "c11-s01-p05",
+      "assets": [
+        "CH11_B01:ONE",
+        "CH11_C01:ONE",
+        "CH11_S02:R"
+      ],
+      "story_text": "After five minutes, the little prince had had enough. \"What makes the hat come down?\" The man did not hear. He heard only praise.",
+      "assembly_instructions": "story-and-continuity/chapter-11/page-compositions/c11-s01-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-11/page-compositions/c11-s01-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-11/page-compositions/c11-s01-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-11/page-compositions/c11-s01-p05/layout.json",
+      "reference_lineage": {
+        "CH11_B01:ONE": "A_CH11_B01_ONE",
+        "CH11_C01:ONE": "V_CH11_C01_ONE",
+        "CH11_S02:R": "V_CH11_S02_R"
+      }
+    },
+    {
+      "page": "c11-s02-p01",
+      "assets": [
+        "CH11_B01:ONE",
+        "CH11_S01:L",
+        "CH11_S02:R"
+      ],
+      "story_text": "\"Do you admire me?\" \"What does 'admire' mean?\" \"It means you think I'm the best-looking, best-dressed, richest, cleverest man on this planet.\"",
+      "assembly_instructions": "story-and-continuity/chapter-11/page-compositions/c11-s02-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-11/page-compositions/c11-s02-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-11/page-compositions/c11-s02-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-11/page-compositions/c11-s02-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-11/page-compositions/c11-s02-p01/layout.json",
+      "reference_lineage": {
+        "CH11_B01:ONE": "A_CH11_B01_ONE",
+        "CH11_S01:L": "V_CH11_S01_L",
+        "CH11_S02:R": "V_CH11_S02_R"
+      }
+    },
+    {
+      "page": "c11-s02-p02",
+      "assets": [
+        "CH11_B01:ONE",
+        "CH11_S01:L",
+        "CH11_S02:R"
+      ],
+      "story_text": "\"But you're the only man here.\" \"Please admire me anyway.\" \"I admire you. But why is it so important to you?\"",
+      "assembly_instructions": "story-and-continuity/chapter-11/page-compositions/c11-s02-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-11/page-compositions/c11-s02-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-11/page-compositions/c11-s02-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-11/page-compositions/c11-s02-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-11/page-compositions/c11-s02-p02/layout.json",
+      "reference_lineage": {
+        "CH11_B01:ONE": "A_CH11_B01_ONE",
+        "CH11_S01:L": "V_CH11_S01_L",
+        "CH11_S02:R": "V_CH11_S02_R"
+      }
+    },
+    {
+      "page": "c11-s02-p03",
+      "assets": [
+        "CH11_B01:ONE",
+        "CH11_S01:L",
+        "CH03_S03:R"
+      ],
+      "story_text": "There was nothing more to say. The little prince went on his way. Grown-ups were very strange indeed.",
+      "assembly_instructions": "story-and-continuity/chapter-11/page-compositions/c11-s02-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-11/page-compositions/c11-s02-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-11/page-compositions/c11-s02-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-11/page-compositions/c11-s02-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-11/page-compositions/c11-s02-p03/layout.json",
+      "reference_lineage": {
+        "CH11_B01:ONE": "A_CH11_B01_ONE",
+        "CH11_S01:L": "V_CH11_S01_L",
+        "CH03_S03:R": "V_CH03_S03_R"
+      }
+    }
+  ],
+  "policy": "production/agent-policy.json",
+  "audit_template": "production/agent-workflow/templates/page-audit.json",
+  "lineage_execution_order": [
+    "I_prince",
+    "I_vain",
+    "N_prince_standing_left__soft_day_upper_left",
+    "N_prince_walk_right__soft_day_upper_left",
+    "N_vain_hat_worn__soft_day_upper_left",
+    "N_vain_hat_held__soft_day_upper_left",
+    "V_CH02_S02_L",
+    "V_CH03_S03_R",
+    "A_CH11_B01_ONE",
+    "V_CH11_S01_L",
+    "V_CH11_S01_R",
+    "V_CH11_S02_L",
+    "V_CH11_S02_R",
+    "V_CH11_C01_ONE",
+    "A_CH11_R01_ONE",
+    "A_CH02_B00_ONE"
+  ],
+  "generation_route": "lineage_nodes_only",
+  "legacy_dependency_usage": "offline_audit_and_historical_attempt_traceability",
+  "lineage_catalog": "production/reference-lineage/catalog.json",
+  "workflow_process": "production/workflow-9/PROCESS.md",
+  "family_canaries": {
+    "N_prince_standing_left__soft_day_upper_left": "V_CH02_S02_L",
+    "N_prince_walk_right__soft_day_upper_left": "V_CH03_S03_R",
+    "N_vain_hat_worn__soft_day_upper_left": "V_CH11_S01_L",
+    "N_vain_hat_held__soft_day_upper_left": "V_CH11_S01_R"
+  }
+}

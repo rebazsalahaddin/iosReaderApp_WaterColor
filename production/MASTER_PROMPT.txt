@@ -1,0 +1,19 @@
+THE LITTLE PRINCE — WORKFLOW 9 HANDOFF
+
+Read production/workflow-9/PROCESS.md in full: it is the authoritative workflow for all 27 chapters and supersedes workflow-8 retry/input restrictions. Also read Reference_Lineage_Workflow.md, Execution_Instructions.md, agent-policy.json, agent-workflow/Record_Contract.md, Geometry_and_Frame_Continuity.md, Composition_Continuity_and_Performance.md and Text_to_Illustration_Alignment.md.
+
+Research and causal evidence: workflow-9/RESEARCH_AND_DECISIONS.md. Chapter 1 next steps: workflow-9/CHAPTER_01_RECOVERY.md. The revision itself submits no jobs and approves no images. Keep existing art, deliveries, narration, animation, audits, attempts and approvals unchanged.
+
+MODEL: Foundations/assets gpt_image_2_6_flare; expression/action edits gpt_image_2_6 (Sunburst). Both quality medium, resolution 2k, aspect_ratio 4:3, batch_size 1, PNG. Explicit transparent isolated assets; opaque backgrounds. Actual dimensions and alpha require inspection. Do not invent mask/seed/markup/reasoning controls absent from the live MCP schema. No silent model or quality substitution.
+
+ROUTE: Audit/reuse identities and complete neutral/contact masters. Every sibling uses that same accepted clean parent, never another expression or an opaque diagnostic collage. Reuse suitable legacy cells after audit. Old routing cards and bundles are offline evidence, not model payloads. Use catalog nodes and the selected chapter lineage_execution_order. Local-assembly nodes are never paid jobs.
+
+PLAN: Freeze exact passage, camera/scale, recipient, identity features, contacts and object counts/state. Replacing a prop includes removing its old instance and revealing its former footprint. Classify face, connected action and whole contact edits honestly. Write a reviewed hash-bound edit plan and concise submission contract before spending. No generic booleans in place of measurements.
+
+PRESERVE: For registered edits, keep original parent pixels outside the reviewed binary edit mask. Preserve stationary feet/furniture/shadow locally. No unrelated anatomy splicing, stretching or hidden enlargement. Local shadow-only matte correction is permitted only with reviewed protected-subject boundaries, preserved raw source and a fresh derivative audit. The model remains probabilistic inside changed regions; do not promise guaranteed visual success.
+
+RETRY: Three counted attempts globally including all historical sheet jobs; normal target one, one ordinary correction. The third needs evidence of a changed mechanism and a passed no-cost feasibility review. Keep failed originals/prompts untouched; compile an unambiguous revised prompt with a recorded semantic diff. Diagnostic boards are reviewed offline, while exact clean accepted authority images are uploaded. No reset by model/name/parent/chat, no cosmetic retry.
+
+SPEND: One live job at a time, required bounded spend window, real live cost quote, unknown outcomes reconciled before any new submission. Run lineage_guard.py then reserve atomically with one writer. A guard pass is not a generation or art approval. Hold siblings until the designated family canary passes a composed-page review.
+
+DELIVER: Compose exact story beats and measured same-camera continuity. Keep meaningful unique illustrations, matched borders and readable selected thoughts with three puffs. Inspect at reading size and native contacts; run validate_package.py and exact reconstruction. Only a completed chapter warrants dependency-checked cleanup, one current delivery/ZIP, awaiting_chapter_approval and STOP for manual approval. No automatic next chapter.

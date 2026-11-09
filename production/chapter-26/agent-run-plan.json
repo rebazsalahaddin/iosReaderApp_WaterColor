@@ -1,0 +1,1115 @@
+{
+  "workflow_version": 9,
+  "chapter": 26,
+  "title": "The Stars Will Laugh",
+  "page_count": 39,
+  "page_order": [
+    "c26-s01-p01",
+    "c26-s01-p02",
+    "c26-s01-p03",
+    "c26-s01-p04",
+    "c26-s01-p05",
+    "c26-s01-p06",
+    "c26-s01-p07",
+    "c26-s01-p08",
+    "c26-s01-p09",
+    "c26-s02-p01",
+    "c26-s02-p02",
+    "c26-s02-p03",
+    "c26-s02-p04",
+    "c26-s02-p05",
+    "c26-s02-p06",
+    "c26-s02-p07",
+    "c26-s02-p08",
+    "c26-s03-p01",
+    "c26-s03-p02",
+    "c26-s03-p03",
+    "c26-s03-p04",
+    "c26-s03-p05",
+    "c26-s03-p06",
+    "c26-s03-p07",
+    "c26-s03-p08",
+    "c26-s04-p01",
+    "c26-s04-p02",
+    "c26-s04-p03",
+    "c26-s04-p04",
+    "c26-s04-p05",
+    "c26-s04-p06",
+    "c26-s04-p07",
+    "c26-s04-p08",
+    "c26-s05-p01",
+    "c26-s05-p02",
+    "c26-s05-p03",
+    "c26-s05-p04",
+    "c26-s05-p05",
+    "c26-s05-p06"
+  ],
+  "status": "plan_only_check_current_overlays_and_accepted_sources",
+  "chapter_notes": "Next evening at broken wall near well. Snake must be COMPLETELY hidden on 1.2\u20131.6, including silhouettes/shadows; reveal at 1.7. Gun reach is narrated, no gun needs drawing or firing. Scarf remains CORAL per established art direction despite \u201cgold scarf\u201d in source 1.9; preserve text unchanged and record conflict. Repair completion is reported; aircraft need not enter scene. Night ankle flash/fall are non-graphic. Return home remains belief, not a shown resurrection or spacecraft.",
+  "manual_approval_required_after_delivery": true,
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "scale_and_anchor_registry_required_before_composition": true,
+  "decoded_pixel_and_semantic_duplicate_checks_required": true,
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_requires_reviewed_graphics": true,
+  "direct_source_requests": [
+    "CH07_R02",
+    "CH26_B01",
+    "CH26_B02",
+    "CH26_C01",
+    "CH26_C02",
+    "CH26_C03",
+    "CH26_R01",
+    "CH26_S01",
+    "CH26_S02",
+    "CH26_S03",
+    "CH26_S04",
+    "CH26_S05",
+    "CH26_S06",
+    "CH26_S07",
+    "CH26_S08",
+    "CH26_S09",
+    "CH27_B01"
+  ],
+  "dependency_order": [
+    "CH07_R02",
+    "CH17_A01",
+    "CH25_B01",
+    "CH26_S04",
+    "CH26_S05",
+    "CH26_S09",
+    "CH26_S08",
+    "CH27_B01",
+    "CH26_S06",
+    "CH26_C01",
+    "CH26_S07",
+    "CH26_B01",
+    "CH26_S02",
+    "CH26_C02",
+    "CH26_R01",
+    "CH26_B02",
+    "CH26_S01",
+    "CH26_S03",
+    "CH26_C03"
+  ],
+  "later_owned_required_sources": [
+    "CH27_B01"
+  ],
+  "possible_initial_jobs_before_reuse": 38,
+  "max_total_submissions_if_all_sources_were_new": 114,
+  "budget_note": "Theoretical upper bound only. Not a spending budget. Reuse first, subtract both ledgers, require bounded spend window and exceptional third-attempt evidence.",
+  "generation_requests": [
+    {
+      "request_id": "CH07_R02",
+      "owner_chapter": 7,
+      "prompt_file": "story-and-continuity/chapter-07/references/R02_living_special_rose/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-07/references/R02_living_special_rose/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c26-s05-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH17_A01",
+      "owner_chapter": 17,
+      "prompt_file": "story-and-continuity/chapter-17/references/A01_snake_appearance_reference/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-17/references/A01_snake_appearance_reference/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [],
+      "dependency_only": true
+    },
+    {
+      "request_id": "CH25_B01",
+      "owner_chapter": 25,
+      "prompt_file": "story-and-continuity/chapter-25/references/B01_desert_well_location/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-25/references/B01_desert_well_location/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [],
+      "dependency_only": true
+    },
+    {
+      "request_id": "CH26_S04",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/S04_pilot_caring_with_water/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/S04_pilot_caring_with_water/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c26-s01-p09"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_S05",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/S05_night_farewell_seated_pair/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/S05_night_farewell_seated_pair/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c26-s03-p01",
+        "c26-s03-p03",
+        "c26-s03-p04",
+        "c26-s04-p01",
+        "c26-s04-p02",
+        "c26-s04-p03",
+        "c26-s05-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_S09",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/S09_prince_laughing_at_night/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/S09_prince_laughing_at_night/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c26-s03-p02",
+        "c26-s03-p05",
+        "c26-s03-p06",
+        "c26-s03-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_S08",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/S08_narrator_at_future_open_window/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c26-s03-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH27_B01",
+      "owner_chapter": 27,
+      "prompt_file": "story-and-continuity/chapter-27/references/B01_familiar_room_at_night_empty_plate/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-27/references/B01_familiar_room_at_night_empty_plate/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c26-s03-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_S06",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/S06_walking_hand_in_hand_at_night/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/S06_walking_hand_in_hand_at_night/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c26-s04-p04",
+        "c26-s04-p05",
+        "c26-s04-p06",
+        "c26-s04-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_C01",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/pose-corrections/C01_prince_seated_afraid_alone/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/pose-corrections/C01_prince_seated_afraid_alone/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c26-s05-p01",
+        "c26-s05-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_S07",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/S07_prince_final_step_and_falling/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/S07_prince_final_step_and_falling/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c26-s05-p04",
+        "c26-s05-p06"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_B01",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/references/B01_broken_wall_near_well/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/references/B01_broken_wall_near_well/audit-contract.json",
+      "dependencies": [
+        "CH25_B01"
+      ],
+      "active_page_uses": [
+        "c26-s01-p01",
+        "c26-s01-p09",
+        "c26-s02-p01",
+        "c26-s02-p02",
+        "c26-s02-p03",
+        "c26-s02-p04",
+        "c26-s02-p05",
+        "c26-s02-p06",
+        "c26-s02-p07",
+        "c26-s02-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_S02",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/S02_snake_revealed_and_retreating/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/S02_snake_revealed_and_retreating/audit-contract.json",
+      "dependencies": [
+        "CH17_A01"
+      ],
+      "active_page_uses": [
+        "c26-s01-p07",
+        "c26-s01-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_C02",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/pose-corrections/C02_hand_in_hand_with_prince_crying/audit-contract.json",
+      "dependencies": [
+        "CH26_S06"
+      ],
+      "active_page_uses": [
+        "c26-s04-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_R01",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/R01_yellow_ankle_flash_contact/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/R01_yellow_ankle_flash_contact/audit-contract.json",
+      "dependencies": [
+        "CH17_A01"
+      ],
+      "active_page_uses": [
+        "c26-s05-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_B02",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/audit-contract.json",
+      "dependencies": [
+        "CH26_B01"
+      ],
+      "active_page_uses": [
+        "c26-s01-p02",
+        "c26-s01-p03",
+        "c26-s01-p04",
+        "c26-s01-p05",
+        "c26-s01-p06",
+        "c26-s01-p07",
+        "c26-s01-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_S01",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/S01_prince_seated_on_wall/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/S01_prince_seated_on_wall/audit-contract.json",
+      "dependencies": [
+        "CH26_B01"
+      ],
+      "active_page_uses": [
+        "c26-s01-p02",
+        "c26-s01-p03",
+        "c26-s01-p04",
+        "c26-s01-p05",
+        "c26-s01-p06",
+        "c26-s01-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_S03",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/reusable-poses/S03_pilot_catching_pale_prince/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/reusable-poses/S03_pilot_catching_pale_prince/audit-contract.json",
+      "dependencies": [
+        "CH26_B01"
+      ],
+      "active_page_uses": [
+        "c26-s01-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH26_C03",
+      "owner_chapter": 26,
+      "prompt_file": "story-and-continuity/chapter-26/pose-corrections/C03_pilot_holding_prince_for_quiet_conversation/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-26/pose-corrections/C03_pilot_holding_prince_for_quiet_conversation/audit-contract.json",
+      "dependencies": [
+        "CH26_S03"
+      ],
+      "active_page_uses": [
+        "c26-s02-p01",
+        "c26-s02-p02",
+        "c26-s02-p03",
+        "c26-s02-p04",
+        "c26-s02-p05",
+        "c26-s02-p06",
+        "c26-s02-p07",
+        "c26-s02-p08"
+      ],
+      "dependency_only": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "c26-s01-p01",
+      "assets": [
+        "CH26_B01:ONE"
+      ],
+      "story_text": "",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s01-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s01-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s01-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p01/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE"
+      }
+    },
+    {
+      "page": "c26-s01-p02",
+      "assets": [
+        "CH26_B02:ONE",
+        "CH26_S01:ONE"
+      ],
+      "story_text": "The next evening, I saw him sitting on a broken stone wall near the well. His feet hung down. Someone seemed to be speaking to him.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s01-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s01-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s01-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p02/layout.json",
+      "reference_lineage": {
+        "CH26_B02:ONE": "A_CH26_B02_ONE",
+        "CH26_S01:ONE": "V_CH26_S01_ONE"
+      }
+    },
+    {
+      "page": "c26-s01-p03",
+      "assets": [
+        "CH26_B02:ONE",
+        "CH26_S01:ONE"
+      ],
+      "story_text": "\"Yes, this is the right day. But this isn't the place.\" I was still twenty meters away. I could see no one else.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s01-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s01-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s01-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p03/layout.json",
+      "reference_lineage": {
+        "CH26_B02:ONE": "A_CH26_B02_ONE",
+        "CH26_S01:ONE": "V_CH26_S01_ONE"
+      }
+    },
+    {
+      "page": "c26-s01-p04",
+      "assets": [
+        "CH26_B02:ONE",
+        "CH26_S01:ONE"
+      ],
+      "story_text": "\"You'll see where my feet have been in the sand. Wait there tonight.\" I came closer, but I still couldn't see who was answering.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s01-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s01-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s01-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p04/layout.json",
+      "reference_lineage": {
+        "CH26_B02:ONE": "A_CH26_B02_ONE",
+        "CH26_S01:ONE": "V_CH26_S01_ONE"
+      }
+    },
+    {
+      "page": "c26-s01-p05",
+      "assets": [
+        "CH26_B02:ONE",
+        "CH26_S01:ONE"
+      ],
+      "story_text": "\"Your poison is strong? It won't hurt for long?\" My heart stopped for a moment. What was he saying?",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s01-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s01-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s01-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p05/layout.json",
+      "reference_lineage": {
+        "CH26_B02:ONE": "A_CH26_B02_ONE",
+        "CH26_S01:ONE": "V_CH26_S01_ONE"
+      }
+    },
+    {
+      "page": "c26-s01-p06",
+      "assets": [
+        "CH26_B02:ONE",
+        "CH26_S01:ONE"
+      ],
+      "story_text": "\"Go now. I want to get down.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s01-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s01-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s01-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p06/layout.json",
+      "reference_lineage": {
+        "CH26_B02:ONE": "A_CH26_B02_ONE",
+        "CH26_S01:ONE": "V_CH26_S01_ONE"
+      }
+    },
+    {
+      "page": "c26-s01-p07",
+      "assets": [
+        "CH26_B02:ONE",
+        "CH26_S01:ONE",
+        "CH26_S02:L"
+      ],
+      "story_text": "Then I saw it: a yellow snake next to the wall. I knew it could kill. I reached into my pocket for my gun and ran toward them.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s01-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s01-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s01-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p07/layout.json",
+      "reference_lineage": {
+        "CH26_B02:ONE": "A_CH26_B02_ONE",
+        "CH26_S01:ONE": "V_CH26_S01_ONE",
+        "CH26_S02:L": "V_CH26_S02_L"
+      }
+    },
+    {
+      "page": "c26-s01-p08",
+      "assets": [
+        "CH26_B02:ONE",
+        "CH26_S03:ONE",
+        "CH26_S02:R"
+      ],
+      "story_text": "The sound of my feet sent it moving away among the stones. I reached the wall just in time to catch the little prince. His face was white.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s01-p08/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s01-p08/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s01-p08/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p08/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p08/layout.json",
+      "reference_lineage": {
+        "CH26_B02:ONE": "A_CH26_B02_ONE",
+        "CH26_S03:ONE": "V_CH26_S03_ONE",
+        "CH26_S02:R": "V_CH26_S02_R"
+      }
+    },
+    {
+      "page": "c26-s01-p09",
+      "assets": [
+        "CH26_B01:ONE",
+        "CH26_S04:ONE"
+      ],
+      "story_text": "I moved his gold scarf away from his neck, wet his face, and gave him water. His heart beat fast against me, like a frightened bird's.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s01-p09/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s01-p09/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s01-p09/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p09/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s01-p09/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE",
+        "CH26_S04:ONE": "V_CH26_S04_ONE"
+      }
+    },
+    {
+      "page": "c26-s02-p01",
+      "assets": [
+        "CH26_B01:ONE",
+        "CH26_C03:ONE"
+      ],
+      "story_text": "\"I'm glad you fixed your plane. Now you can go home.\" \"How did you know?\" I had come to tell him just that.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s02-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s02-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s02-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p01/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE",
+        "CH26_C03:ONE": "V_CH26_C03_ONE"
+      }
+    },
+    {
+      "page": "c26-s02-p02",
+      "assets": [
+        "CH26_B01:ONE",
+        "CH26_C03:ONE"
+      ],
+      "story_text": "\"I'm going home too. But it's much farther. And harder.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s02-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s02-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s02-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p02/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE",
+        "CH26_C03:ONE": "V_CH26_C03_ONE"
+      }
+    },
+    {
+      "page": "c26-s02-p03",
+      "assets": [
+        "CH26_B01:ONE",
+        "CH26_C03:ONE"
+      ],
+      "story_text": "I held him tightly. He was there in my arms, but it felt as though he was already far away, falling somewhere I couldn't reach.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s02-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s02-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s02-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p03/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE",
+        "CH26_C03:ONE": "V_CH26_C03_ONE"
+      }
+    },
+    {
+      "page": "c26-s02-p04",
+      "assets": [
+        "CH26_B01:ONE",
+        "CH26_C03:ONE"
+      ],
+      "story_text": "\"I have your sheep. And his box. And the muzzle.\" His smile was sad. I waited for him to feel stronger.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s02-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s02-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s02-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p04/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE",
+        "CH26_C03:ONE": "V_CH26_C03_ONE"
+      }
+    },
+    {
+      "page": "c26-s02-p05",
+      "assets": [
+        "CH26_B01:ONE",
+        "CH26_C03:ONE"
+      ],
+      "story_text": "\"You were frightened.\" \"I'll be more frightened tonight.\" The thought of never hearing his laugh again hurt too much. His laugh was like fresh water in the desert.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s02-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s02-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s02-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p05/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE",
+        "CH26_C03:ONE": "V_CH26_C03_ONE"
+      }
+    },
+    {
+      "page": "c26-s02-p06",
+      "assets": [
+        "CH26_B01:ONE",
+        "CH26_C03:ONE"
+      ],
+      "story_text": "\"Tonight, my star will be above the place where I landed last year.\" \"Tell me this is a bad dream. The snake, the meeting, the star...\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s02-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s02-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s02-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p06/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE",
+        "CH26_C03:ONE": "V_CH26_C03_ONE"
+      }
+    },
+    {
+      "page": "c26-s02-p07",
+      "assets": [
+        "CH26_B01:ONE",
+        "CH26_C03:ONE"
+      ],
+      "story_text": "\"The most important things are those you can't see.\" \"I know.\" \"A flower on one star makes all the stars lovely. You can look up, and there she is.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s02-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s02-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s02-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p07/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE",
+        "CH26_C03:ONE": "V_CH26_C03_ONE"
+      }
+    },
+    {
+      "page": "c26-s02-p08",
+      "assets": [
+        "CH26_B01:ONE",
+        "CH26_C03:ONE"
+      ],
+      "story_text": "\"I know.\" \"The water you gave me was like music, because of the rope and the wheel. You remember.\" \"I know.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s02-p08/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s02-p08/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s02-p08/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p08/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s02-p08/layout.json",
+      "reference_lineage": {
+        "CH26_B01:ONE": "A_CH26_B01_ONE",
+        "CH26_C03:ONE": "V_CH26_C03_ONE"
+      }
+    },
+    {
+      "page": "c26-s03-p01",
+      "assets": [
+        "night",
+        "CH26_S05:ONE"
+      ],
+      "story_text": "\"My star is too small for me to show you. That's better. It can be any one of them. You'll like looking at them all. They'll all be your friends.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s03-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s03-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s03-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p01/layout.json",
+      "reference_lineage": {
+        "CH26_S05:ONE": "V_CH26_S05_ONE"
+      }
+    },
+    {
+      "page": "c26-s03-p02",
+      "assets": [
+        "night",
+        "CH26_S09:L"
+      ],
+      "story_text": "\"I'll give you a present.\" He laughed. \"I love that laugh.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s03-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s03-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s03-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p02/layout.json",
+      "reference_lineage": {
+        "CH26_S09:L": "V_CH26_S09_L"
+      }
+    },
+    {
+      "page": "c26-s03-p03",
+      "assets": [
+        "night",
+        "CH26_S05:ONE"
+      ],
+      "story_text": "\"That's my present. Like the water. Stars mean different things to different people. For travelers, they show the way. For others, they're little lights.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s03-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s03-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s03-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p03/layout.json",
+      "reference_lineage": {
+        "CH26_S05:ONE": "V_CH26_S05_ONE"
+      }
+    },
+    {
+      "page": "c26-s03-p04",
+      "assets": [
+        "night",
+        "CH26_S05:ONE"
+      ],
+      "story_text": "\"For people who study them, they're questions to answer. For my businessman, they're money. But all those stars are silent. Yours will be different.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s03-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s03-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s03-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p04/layout.json",
+      "reference_lineage": {
+        "CH26_S05:ONE": "V_CH26_S05_ONE"
+      }
+    },
+    {
+      "page": "c26-s03-p05",
+      "assets": [
+        "night",
+        "CH26_S09:L"
+      ],
+      "story_text": "\"Because I'll live on one of them, and laugh on one of them, you'll hear all the stars laughing. You alone will have stars that can laugh.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s03-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s03-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s03-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p05/layout.json",
+      "reference_lineage": {
+        "CH26_S09:L": "V_CH26_S09_L"
+      }
+    },
+    {
+      "page": "c26-s03-p06",
+      "assets": [
+        "night",
+        "CH26_S09:L"
+      ],
+      "story_text": "He laughed again. \"In time, you'll feel less sad. You'll be glad we were friends. You'll always be my friend.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s03-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s03-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s03-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p06/layout.json",
+      "reference_lineage": {
+        "CH26_S09:L": "V_CH26_S09_L"
+      }
+    },
+    {
+      "page": "c26-s03-p07",
+      "assets": [
+        "CH27_B01:ONE",
+        "CH26_S08:ONE"
+      ],
+      "story_text": "\"You'll open your window for the pleasure of it. Your friends will hear you laughing at the stars. They'll think you're quite mad. What a trick I've played on you!\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s03-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s03-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s03-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p07/layout.json",
+      "reference_lineage": {
+        "CH27_B01:ONE": "A_CH27_B01_ONE",
+        "CH26_S08:ONE": "V_CH26_S08_ONE"
+      }
+    },
+    {
+      "page": "c26-s03-p08",
+      "assets": [
+        "night",
+        "CH26_S09:L"
+      ],
+      "story_text": "He laughed once more. He had given me a sky full of little bells that knew how to laugh.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s03-p08/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s03-p08/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s03-p08/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p08/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s03-p08/layout.json",
+      "reference_lineage": {
+        "CH26_S09:L": "V_CH26_S09_L"
+      }
+    },
+    {
+      "page": "c26-s04-p01",
+      "assets": [
+        "night",
+        "CH26_S05:ONE"
+      ],
+      "story_text": "\"Tonight... please don't come. It will look as if I'm suffering. As if I'm dying. You don't need to see that.\" \"I won't leave you.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s04-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s04-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s04-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p01/layout.json",
+      "reference_lineage": {
+        "CH26_S05:ONE": "V_CH26_S05_ONE"
+      }
+    },
+    {
+      "page": "c26-s04-p02",
+      "assets": [
+        "night",
+        "CH26_S05:ONE"
+      ],
+      "story_text": "\"I don't want the snake to bite you. Snakes can be cruel. They may bite for no reason.\" \"I won't leave you.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s04-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s04-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s04-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p02/layout.json",
+      "reference_lineage": {
+        "CH26_S05:ONE": "V_CH26_S05_ONE"
+      }
+    },
+    {
+      "page": "c26-s04-p03",
+      "assets": [
+        "night",
+        "CH26_S05:ONE"
+      ],
+      "story_text": "He tried to feel less afraid: perhaps the snake would have no poison left for a second bite. \"I won't leave you.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s04-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s04-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s04-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p03/layout.json",
+      "reference_lineage": {
+        "CH26_S05:ONE": "V_CH26_S05_ONE"
+      }
+    },
+    {
+      "page": "c26-s04-p04",
+      "assets": [
+        "night",
+        "CH26_S06:ONE"
+      ],
+      "story_text": "That night, he went away quietly. I caught up with him. He walked quickly, then took my hand. \"You shouldn't have come. You'll be hurt.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s04-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s04-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s04-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p04/layout.json",
+      "reference_lineage": {
+        "CH26_S06:ONE": "V_CH26_S06_ONE"
+      }
+    },
+    {
+      "page": "c26-s04-p05",
+      "assets": [
+        "night",
+        "CH26_S06:ONE"
+      ],
+      "story_text": "\"It will look as if I'm dead. But that won't be true. My body is too heavy. I can't carry it all that way.\" I said nothing.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s04-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s04-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s04-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p05/layout.json",
+      "reference_lineage": {
+        "CH26_S06:ONE": "V_CH26_S06_ONE"
+      }
+    },
+    {
+      "page": "c26-s04-p06",
+      "assets": [
+        "night",
+        "CH26_S06:ONE"
+      ],
+      "story_text": "\"It will be like an old, empty shell. There's no need to be sad about an empty shell.\" I said nothing.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s04-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s04-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s04-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p06/layout.json",
+      "reference_lineage": {
+        "CH26_S06:ONE": "V_CH26_S06_ONE"
+      }
+    },
+    {
+      "page": "c26-s04-p07",
+      "assets": [
+        "night",
+        "CH26_S06:ONE"
+      ],
+      "story_text": "\"You know what will be lovely? When I look at the stars, they'll all be wells with old wheels. They'll all give me water.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s04-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s04-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s04-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p07/layout.json",
+      "reference_lineage": {
+        "CH26_S06:ONE": "V_CH26_S06_ONE"
+      }
+    },
+    {
+      "page": "c26-s04-p08",
+      "assets": [
+        "night",
+        "CH26_C02:ONE"
+      ],
+      "story_text": "\"You'll have five hundred million little bells. I'll have five hundred million springs of fresh water.\" But now he was crying too.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s04-p08/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s04-p08/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s04-p08/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p08/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s04-p08/layout.json",
+      "reference_lineage": {
+        "CH26_C02:ONE": "V_CH26_C02_ONE"
+      }
+    },
+    {
+      "page": "c26-s05-p01",
+      "assets": [
+        "night",
+        "CH26_C01:ONE"
+      ],
+      "story_text": "\"Here we are. Let me go on alone.\" He sat down. He was afraid.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s05-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s05-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s05-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p01/layout.json",
+      "reference_lineage": {
+        "CH26_C01:ONE": "V_CH26_C01_ONE"
+      }
+    },
+    {
+      "page": "c26-s05-p02",
+      "assets": [
+        "night",
+        "CH26_C01:ONE",
+        "CH07_R02:R"
+      ],
+      "story_text": "\"My flower... I'm responsible for her. She's so weak. She knows so little about the world. She has only four little thorns against the world.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s05-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s05-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s05-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p02/layout.json",
+      "reference_lineage": {
+        "CH26_C01:ONE": "V_CH26_C01_ONE",
+        "CH07_R02:R": "V_CH07_R02_R"
+      }
+    },
+    {
+      "page": "c26-s05-p03",
+      "assets": [
+        "night",
+        "CH26_S05:ONE"
+      ],
+      "story_text": "I sat down too. My legs would no longer hold me. \"There. That's all.\"",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s05-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s05-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s05-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p03/layout.json",
+      "reference_lineage": {
+        "CH26_S05:ONE": "V_CH26_S05_ONE"
+      }
+    },
+    {
+      "page": "c26-s05-p04",
+      "assets": [
+        "night",
+        "CH26_S07:L"
+      ],
+      "story_text": "He stood up and took one step. I could not move.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s05-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s05-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s05-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p04/layout.json",
+      "reference_lineage": {
+        "CH26_S07:L": "V_CH26_S07_L"
+      }
+    },
+    {
+      "page": "c26-s05-p05",
+      "assets": [
+        "night",
+        "CH26_R01:ONE"
+      ],
+      "story_text": "There was a yellow flash at his ankle. He didn't cry out. For a moment, he stood quite still.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s05-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s05-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s05-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p05/layout.json",
+      "reference_lineage": {
+        "CH26_R01:ONE": "V_CH26_R01_ONE"
+      }
+    },
+    {
+      "page": "c26-s05-p06",
+      "assets": [
+        "night",
+        "CH26_S07:R"
+      ],
+      "story_text": "Then he fell, slowly, as a tree falls. There was no sound. Only sand under him.",
+      "assembly_instructions": "story-and-continuity/chapter-26/page-compositions/c26-s05-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-26/page-compositions/c26-s05-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-26/page-compositions/c26-s05-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-26/page-compositions/c26-s05-p06/layout.json",
+      "reference_lineage": {
+        "CH26_S07:R": "V_CH26_S07_R"
+      }
+    }
+  ],
+  "policy": "production/agent-policy.json",
+  "audit_template": "production/agent-workflow/templates/page-audit.json",
+  "lineage_execution_order": [
+    "I_pilot",
+    "I_prince",
+    "I_flower",
+    "I_pilot_civilian",
+    "I_snake",
+    "N_prince_walk_right__moonlight_upper_left",
+    "N_pilot_room_standing__night_window_left",
+    "N_rose_open__soft_day_upper_left",
+    "N_prince_seated_ground_left__moonlight_upper_left",
+    "N_snake_ring__evening_upper_left",
+    "N_snake_s_curve__evening_upper_left",
+    "N_prince_wall__evening_upper_left",
+    "N_pilot_prince_wall__evening_upper_left",
+    "N_pilot_prince_cup__evening_upper_left",
+    "N_pilot_prince_seated__moonlight_upper_left",
+    "N_pilot_prince_handwalk__moonlight_upper_left",
+    "N_prince_fall__moonlight_upper_left",
+    "N_prince_snake_boot_close__moonlight_upper_left",
+    "N_pilot_prince_seated_support__evening_upper_left",
+    "V_CH07_R02_R",
+    "A_CH26_B01_ONE",
+    "V_CH26_S01_ONE",
+    "V_CH26_S02_L",
+    "V_CH26_S02_R",
+    "V_CH26_S03_ONE",
+    "V_CH26_S04_ONE",
+    "V_CH26_S05_ONE",
+    "V_CH26_S06_ONE",
+    "V_CH26_S07_L",
+    "V_CH26_S07_R",
+    "V_CH26_R01_ONE",
+    "V_CH26_S08_ONE",
+    "V_CH26_S09_L",
+    "A_CH27_B01_ONE",
+    "A_CH26_B02_ONE",
+    "V_CH26_C01_ONE",
+    "V_CH26_C02_ONE",
+    "V_CH26_C03_ONE"
+  ],
+  "generation_route": "lineage_nodes_only",
+  "legacy_dependency_usage": "offline_audit_and_historical_attempt_traceability",
+  "lineage_catalog": "production/reference-lineage/catalog.json",
+  "workflow_process": "production/workflow-9/PROCESS.md",
+  "family_canaries": {
+    "N_rose_open__soft_day_upper_left": "V_CH07_R02_R",
+    "N_prince_wall__evening_upper_left": "V_CH26_S01_ONE",
+    "N_snake_ring__evening_upper_left": "V_CH26_S02_L",
+    "N_snake_s_curve__evening_upper_left": "V_CH26_S02_R",
+    "N_pilot_prince_wall__evening_upper_left": "V_CH26_S03_ONE",
+    "N_pilot_prince_cup__evening_upper_left": "V_CH26_S04_ONE",
+    "N_pilot_prince_seated__moonlight_upper_left": "V_CH26_S05_ONE",
+    "N_pilot_prince_handwalk__moonlight_upper_left": "V_CH26_S06_ONE",
+    "N_prince_walk_right__moonlight_upper_left": "V_CH26_S07_L",
+    "N_prince_fall__moonlight_upper_left": "V_CH26_S07_R",
+    "N_prince_snake_boot_close__moonlight_upper_left": "V_CH26_R01_ONE",
+    "N_pilot_room_standing__night_window_left": "V_CH26_S08_ONE",
+    "N_prince_seated_ground_left__moonlight_upper_left": "V_CH26_S09_L",
+    "N_pilot_prince_seated_support__evening_upper_left": "V_CH26_C03_ONE"
+  }
+}

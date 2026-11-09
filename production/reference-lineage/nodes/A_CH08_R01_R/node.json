@@ -1,0 +1,45 @@
+{
+  "id": "A_CH08_R01_R",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-08/references/R01_flower_shoot_and_closed_bud/reference-images/01_LP_ref_flower_stages.png",
+        "sha256": "7bc7d5701b3937e437f670d1ea79c36e79e86cd19a072e2db2c26032d2f2e228",
+        "role": "Special flower: lower-left CORAL rose, two leaves and exactly four small thorns. Upper-left shoot and upper-right bud only when named. Lower-right supplies the plain bell cover; no knob or wooden base."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "same plant matured to one closed coral bud with sage sepals, two leaves and four small thorns; no open face or petals.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH08_R01",
+  "legacy_cell": "R",
+  "affected_pages": [
+    "c08-s01-p01",
+    "c08-s01-p04",
+    "c08-s01-p05"
+  ],
+  "audit_only_details": "Shoot .12 P; closed mature bud .40 P. Both are different-time states, not two plants growing together.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH08_R01_R/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. same plant matured to one closed coral bud with sage sepals, two leaves and four small thorns; no open face or petals. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-08/references/R01_flower_shoot_and_closed_bud/audit-contract.json",
+  "prompt_sha256": "a06b932bdc98d6f361ee1f89182e9278a37b689400848c2225a833e2e11aad37",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH08_R01_R"
+}

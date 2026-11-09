@@ -1,0 +1,50 @@
+{
+  "id": "V_CH01_E04_L",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_older_standing_right__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_older_standing_right__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "full standing older bespectacled man, body and both shoes three-quarter RIGHT, head turned slightly DOWN and RIGHT toward the off-sheet child. He responds with mild kindly bemusement: eyebrows gently lifted, eyes interested through spectacles, small open speaking smile, one open hand toward the child. He is not frightened; he sincerely sees an ordinary hat, without mockery.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH01_E04",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c01-s02-p01",
+    "c01-s02-p02",
+    "c01-s02-p03"
+  ],
+  "allowed_changes": "full standing older bespectacled man, body and both shoes three-quarter RIGHT, head turned slightly DOWN and RIGHT toward the off-sheet child. He responds with mild kindly bemusement: eyebrows gently lifted, eyes interested through spectacles, small open speaking smile, one open hand toward the child. He is not frightened; he sincerely sees an ordinary hat, without mockery.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Two complete independent standing adults, man in LEFT column and woman in RIGHT column; SAME depth, man height H, woman 0.96H. Both face RIGHT independently. These are the child narrator's listeners, never the adult pilot's social men. No child, chair, table, actual hat, drawn hat, cloud or words. Keep all fingers, glasses and shoe soles intact; enough quiet key-colour space around each figure.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH01_E04_L/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: full standing older bespectacled man, body and both shoes three-quarter RIGHT, head turned slightly DOWN and RIGHT toward the off-sheet child. He responds with mild kindly bemusement: eyebrows gently lifted, eyes interested through spectacles, small open speaking smile, one open hand toward the child. He is not frightened; he sincerely sees an ordinary hat, without mockery. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-01/pose-corrections/E04_childhood_adults_engaged_hat_response/audit-contract.json",
+  "prompt_sha256": "36971b8ca424a1d180e66067cf2d9068862ab3109ed0f71a62cf99adb5af58af",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH01_E04_L",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

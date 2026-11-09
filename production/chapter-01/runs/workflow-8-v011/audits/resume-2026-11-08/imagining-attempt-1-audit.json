@@ -1,0 +1,116 @@
+{
+  "node_id": "V_CH01_CHILD_IMAGINING",
+  "stage": "expression_variant",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/V_CH01_CHILD_IMAGINING-attempt-1.png",
+  "source_sha256": "8d94484a13c70a12fe0d1e2ada9673322cdbc879d76a55be2d0a05a70a3f3e7b",
+  "source_dimensions": [
+    2336,
+    1744
+  ],
+  "format": "PNG",
+  "mode": "RGBA",
+  "job_id": "9e3509a3-94ad-47ed-b11a-de2b1417e6c8",
+  "attempt": 1,
+  "parents": [
+    {
+      "node_id": "N_child_table__soft_day_upper_left",
+      "path": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-2.png",
+      "sha256": "ba1a56b2874e952e190e6cc668d729ad091d1e5717cd8bc9e0df36728c9f7a7a"
+    }
+  ],
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T22:19:39.212819+00:00",
+  "verdict": "MATERIAL_FAIL",
+  "submitted_prompt": "Edit the ONE supplied approved neutral posture. Required change: Same seated child gently raises gaze in wonder, thoughtful brow and small softly parted mouth, hands resting beside the open book; he imagines its snake story. Keep thoughts out of the cutout. Only change the named expression and necessary head/hand/arm or named prop action; preserve the support/camera setup. Keep identical identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair, skin, costume, head/body size, furniture dimensions, camera, registration and watercolor style. Keep the parent support footprint and its shadow EXACTLY: shape, position, hue, softness, alpha and intensity. No added shadow, new floor or matte. One complete state, 4:3, 2K native transparent PNG. Blank paper stays blank for later canonical marks; no labels or thought clouds in this asset.",
+  "submitted_prompt_file": "production/reference-lineage/nodes/V_CH01_CHILD_IMAGINING/PROMPT.txt",
+  "affected_pages": [
+    "c01-s01-p03"
+  ],
+  "checks": {
+    "identity": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Chestnut tufted hair, small brown dot eyes without irises, cream crew-neck shirt, rolled tan trousers and brown boots visually compared with accepted child identity. Final geometry approval withheld pending source correction."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Small brown dot/oval eyes retained; no enlarged irises or anime eye treatment."
+    },
+    "native_geometry": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Complete source group at native 2336x1744, no visible missing extremity or duplicated furniture; all landmarks and final scale must be remeasured after any retry. This is not final composition acceptance."
+    },
+    "state_expression": {
+      "verdict": "MATERIAL_FAIL",
+      "evidence": "Wonder brow and softly open mouth are visible, but the book remains closed and the required open inner page is absent."
+    },
+    "contacts": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Complete child/table/chair retained, hands resting on table; required open-book state not supplied."
+    },
+    "alpha": {
+      "verdict": "LOCAL_FIX",
+      "evidence": "Transparent surroundings and near-opaque subject interiors, but pale floor islands remain at supports. Inspected on cream, dark and intended room backing; no acceptance from PNG mode alone."
+    },
+    "shadow": {
+      "verdict": "LOCAL_FIX",
+      "evidence": "Changed pale floor islands replace the accepted neutral shadow. Deterministic restoration test copies only protected unchanged parent pixels: exact RGBA match rises from12.287953% to100%; book stays closed."
+    },
+    "unchanged_regions": {
+      "verdict": "LOCAL_FIX",
+      "evidence": "Protected mask contains1,504,384pixels. Raw exact RGBA fraction0.12287953075810432. The saved local restoration test recovers100% of those parent pixels; test is not an accepted source."
+    },
+    "pixel_budget": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "Native source2336x1744 confirmed. Diagnostic actual-background transforms are recorded separately; final page landmarks, fit and surface quadrilateral remain pending."
+    },
+    "text_alignment": {
+      "verdict": "MATERIAL_FAIL",
+      "evidence": "c01-s01-p03 describes the book and six-month sleep. The separate child-owned sleeping-snake thought is still required at assembly; the book needs an open physical inner page."
+    }
+  },
+  "issues": [
+    {
+      "issue_id": "E01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        330,
+        690,
+        520,
+        250
+      ],
+      "dimensions": [
+        2336,
+        1744
+      ],
+      "observed": "The blue book remains closed in the exact first return, although the submitted prompt requires hands beside an open book; there is no visible blank inner page for canonical printed content.",
+      "expected": "One open dusty-blue book with blank cream inner pages for later canonical marks, hands beside it, and no baked thought content.",
+      "precise_fix": "Open the same single dusty-blue book on the table to show blank cream inner pages, with both hands resting beside the open book; preserve the separate blank sheet and pencil, the complete support/camera geometry and identity. Keep the accepted neutral support footprint and shadow exactly unchanged.",
+      "recheck": "Inspect native and reading-size cream/dark/actual-ground previews; check all support alpha, protected identity and complete contact geometry. For the imagining variant also check open blank book inner quadrilateral, gesture, exact restored parent shadow and every previously passing feature.",
+      "material_impact": "No open book surface for the physical printed picture, breaking the page-specific state and chronology.",
+      "local_fix_ruled_out": "The unchanged-parent support/shadow restoration test repairs the footprint without changing the closed book ROI. No compatible accepted complete imagining/open-book state exists. Creating open book geometry or rebuilding hand/book contacts locally would require repainting or an unrelated prop replacement."
+    },
+    {
+      "issue_id": "L01",
+      "decision": "LOCAL_FIX",
+      "resolved": false,
+      "cause": "unchanged_region_drift",
+      "bbox_xywh": [
+        0,
+        1100,
+        2336,
+        644
+      ],
+      "observed": "Shadow/support pixels differ from accepted parent and show pale floor islands.",
+      "precise_fix": "Restore the exact unchanged accepted-parent support/shadow pixels under the retained mask, then inspect seams and support occlusion. Do not redraw a shadow or assemble anatomy.",
+      "evidence": "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/diagnostic-transforms.json"
+    }
+  ],
+  "diagnostic_files": [
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-cream.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-dark.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/resume-2026-11-08/imagining-actual-room.jpg"
+  ],
+  "not_accepted": true
+}

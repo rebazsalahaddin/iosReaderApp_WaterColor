@@ -1,0 +1,29 @@
+{
+  "node_id": "N_child_table__soft_day_upper_left",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-2.png",
+  "source_sha256": "ba1a56b2874e952e190e6cc668d729ad091d1e5717cd8bc9e0df36728c9f7a7a",
+  "submitted_prompt": "Previous attempt prompt for N_child_table__soft_day_upper_left before Workflow-9 revision.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T13:10:00+03:00",
+  "issues": [
+    {
+      "issue_id": "CT01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        170,
+        1200,
+        1950,
+        500
+      ],
+      "observed": "Prior workflow-8 table neutral used an uploaded diagnostic collage board and was retired under user fresh-start cleanup.",
+      "expected": "Clean neutral child seated at right chair behind honey round table with one closed blue book far left, one blank paper and one pencil, and restrained translucent support shadow.",
+      "precise_fix": "CT01: Upload only the clean child identity crop and clean furniture geometry crop (never an opaque collage board) and allow safe reversible shadow-only alpha preparation.",
+      "recheck": "Verify complete subject geometry, dot eyes, and clean alpha/shadow on light, dark, and scene backgrounds.",
+      "material_impact": "Cannot assemble Chapter 1 pages without an accepted Workflow-9 source.",
+      "local_fix_ruled_out": "Prior source was retired under user fresh-start cleanup; new generation required."
+    }
+  ]
+}

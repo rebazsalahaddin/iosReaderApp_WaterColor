@@ -1,0 +1,19 @@
+{
+  "template_only": true,
+  "parent": {"path": null, "sha256": null},
+  "candidate": {"path": null, "sha256": null},
+  "edit_mask": {"path": null, "sha256": null},
+  "support_mask": {"path": null, "sha256": null},
+  "frozen_edit_plan": {"path": null, "sha256": null},
+  "registration": {"landmarks": [], "max_residual_native_px": null},
+  "integration_review": {"status": "pending", "reviewer": null, "reviewed_at": null, "observations": null},
+  "checks": {
+    "same_parent": {"verdict": null, "evidence": null},
+    "identity": {"verdict": null, "evidence": null},
+    "connected_contacts": {"verdict": null, "evidence": null},
+    "object_inventory": {"verdict": null, "evidence": null},
+    "boundary_seams": {"verdict": null, "evidence": null},
+    "actual_background": {"verdict": null, "evidence": null},
+    "reading_size": {"verdict": null, "evidence": null}
+  }
+}

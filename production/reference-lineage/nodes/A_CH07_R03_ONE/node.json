@@ -1,0 +1,43 @@
+{
+  "id": "A_CH07_R03_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-07/references/R03_rose_thorns_opening_detail/reference-images/01_LP_ref_flower_stages.png",
+        "sha256": "7bc7d5701b3937e437f670d1ea79c36e79e86cd19a072e2db2c26032d2f2e228",
+        "role": "Special flower: lower-left CORAL rose, two leaves and exactly four small thorns. Upper-left shoot and upper-right bud only when named. Lower-right supplies the plain bell cover; no knob or wooden base."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "a close nonverbal watercolor detail of the living special rose stem, two sage leaves and exactly four small thorns; stem continues beyond the upper edge of the bounded picture, no bloom, petals or face visible.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH07_R03",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c07-s01-p01"
+  ],
+  "audit_only_details": "Opening editorial botanical detail only. The bloom must not be revealed before c07-s03-p02. No broken or dead stem, fingers, sheep or lettering.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH07_R03_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. a close nonverbal watercolor detail of the living special rose stem, two sage leaves and exactly four small thorns; stem continues beyond the upper edge of the bounded picture, no bloom, petals or face visible. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-07/references/R03_rose_thorns_opening_detail/audit-contract.json",
+  "prompt_sha256": "5e67a6fdf80e55f1b9a6fda235c4af6db018c241a4b44096c1238d58fc56834e",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH07_R03_ONE"
+}

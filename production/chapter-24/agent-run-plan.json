@@ -1,0 +1,554 @@
+{
+  "workflow_version": 9,
+  "chapter": 24,
+  "title": "A Well in the Desert",
+  "page_count": 18,
+  "page_order": [
+    "c24-s01-p01",
+    "c24-s01-p02",
+    "c24-s01-p03",
+    "c24-s01-p04",
+    "c24-s01-p05",
+    "c24-s01-p06",
+    "c24-s02-p01",
+    "c24-s02-p02",
+    "c24-s02-p03",
+    "c24-s02-p04",
+    "c24-s02-p05",
+    "c24-s02-p06",
+    "c24-s02-p07",
+    "c24-s02-p08",
+    "c24-s03-p01",
+    "c24-s03-p02",
+    "c24-s03-p03",
+    "c24-s03-p04"
+  ],
+  "status": "plan_only_check_current_overlays_and_accepted_sources",
+  "chapter_notes": "Eighth day: last water, engine STILL broken. Long search continues into night; no well before sunrise at final page. Carrying the sleeping child is one supported contact group. Hidden treasure is a memory/belief, never shown as a found chest. Candle/inner light is metaphor, no glowing child.",
+  "manual_approval_required_after_delivery": true,
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "scale_and_anchor_registry_required_before_composition": true,
+  "decoded_pixel_and_semantic_duplicate_checks_required": true,
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_requires_reviewed_graphics": true,
+  "direct_source_requests": [
+    "CH02_R01",
+    "CH02_S02",
+    "CH02_S05",
+    "CH03_S03",
+    "CH24_S01",
+    "CH24_S02",
+    "CH24_S03",
+    "CH24_S04",
+    "CH24_S05",
+    "CH25_B01"
+  ],
+  "dependency_order": [
+    "CH02_R01",
+    "CH02_S02",
+    "CH02_S05",
+    "CH03_S03",
+    "CH24_S01",
+    "CH24_S05",
+    "CH24_S02",
+    "CH24_S03",
+    "CH25_B01",
+    "CH24_S04"
+  ],
+  "later_owned_required_sources": [
+    "CH25_B01"
+  ],
+  "possible_initial_jobs_before_reuse": 22,
+  "max_total_submissions_if_all_sources_were_new": 66,
+  "budget_note": "Theoretical upper bound only. Not a spending budget. Reuse first, subtract both ledgers, require bounded spend window and exceptional third-attempt evidence.",
+  "generation_requests": [
+    {
+      "request_id": "CH02_R01",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/references/R01_parked_aircraft_open_engine/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c24-s01-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH02_S02",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/reusable-poses/S02_prince_requesting_and_inspecting/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c24-s01-p03",
+        "c24-s01-p04",
+        "c24-s01-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH02_S05",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/reusable-poses/S05_prince_listening_and_delighted/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c24-s01-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH03_S03",
+      "owner_chapter": 3,
+      "prompt_file": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c24-s01-p06"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH24_S01",
+      "owner_chapter": 24,
+      "prompt_file": "story-and-continuity/chapter-24/reusable-poses/S01_pilot_drinking_last_water/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-24/reusable-poses/S01_pilot_drinking_last_water/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c24-s01-p02",
+        "c24-s01-p03",
+        "c24-s01-p04",
+        "c24-s01-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH24_S05",
+      "owner_chapter": 24,
+      "prompt_file": "story-and-continuity/chapter-24/reusable-poses/S05_pilot_daylight_walking/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-24/reusable-poses/S05_pilot_daylight_walking/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c24-s01-p06"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH24_S02",
+      "owner_chapter": 24,
+      "prompt_file": "story-and-continuity/chapter-24/reusable-poses/S02_pilot_and_prince_walking_at_night/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-24/reusable-poses/S02_pilot_and_prince_walking_at_night/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c24-s02-p01",
+        "c24-s02-p02",
+        "c24-s02-p03",
+        "c24-s02-p04",
+        "c24-s02-p05",
+        "c24-s02-p08"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH24_S03",
+      "owner_chapter": 24,
+      "prompt_file": "story-and-continuity/chapter-24/reusable-poses/S03_pilot_carrying_sleeping_prince/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-24/reusable-poses/S03_pilot_carrying_sleeping_prince/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c24-s03-p01",
+        "c24-s03-p02",
+        "c24-s03-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH25_B01",
+      "owner_chapter": 25,
+      "prompt_file": "story-and-continuity/chapter-25/references/B01_desert_well_location/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-25/references/B01_desert_well_location/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c24-s03-p04"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH24_S04",
+      "owner_chapter": 24,
+      "prompt_file": "story-and-continuity/chapter-24/reusable-poses/S04_pilot_carrying_prince_at_sunrise/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-24/reusable-poses/S04_pilot_carrying_prince_at_sunrise/audit-contract.json",
+      "dependencies": [
+        "CH24_S03"
+      ],
+      "active_page_uses": [
+        "c24-s03-p04"
+      ],
+      "dependency_only": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "c24-s01-p01",
+      "assets": [
+        "night"
+      ],
+      "story_text": "",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s01-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s01-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s01-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p01/layout.json",
+      "reference_lineage": {}
+    },
+    {
+      "page": "c24-s01-p02",
+      "assets": [
+        "day",
+        "CH02_R01:ONE",
+        "CH24_S01:L",
+        "CH02_S05:L"
+      ],
+      "story_text": "It was my eighth day in the desert. As I listened to that story, I drank the last of my water. The engine was still broken.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s01-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s01-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s01-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p02/layout.json",
+      "reference_lineage": {
+        "CH02_R01:ONE": "A_CH02_R01_ONE",
+        "CH24_S01:L": "V_CH24_S01_L",
+        "CH02_S05:L": "V_CH02_S05_L"
+      }
+    },
+    {
+      "page": "c24-s01-p03",
+      "assets": [
+        "day",
+        "CH24_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"Your stories are lovely. But I haven't fixed my plane, and we've no water left. I'd be happy to walk to a spring too.\" \"My friend the fox\u2014\"",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s01-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s01-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s01-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p03/layout.json",
+      "reference_lineage": {
+        "CH24_S01:R": "V_CH24_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c24-s01-p04",
+      "assets": [
+        "day",
+        "CH24_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "\"My dear little prince, this isn't about the fox. We may die of thirst.\" \"It's still good to have a friend, even if you're going to die. I'm glad I had my fox.\"",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s01-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s01-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s01-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p04/layout.json",
+      "reference_lineage": {
+        "CH24_S01:R": "V_CH24_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c24-s01-p05",
+      "assets": [
+        "day",
+        "CH24_S01:R",
+        "CH02_S02:L"
+      ],
+      "story_text": "I thought he didn't understand the danger. He never seemed hungry or thirsty. A little sunlight was enough for him.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s01-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s01-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s01-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p05/layout.json",
+      "reference_lineage": {
+        "CH24_S01:R": "V_CH24_S01_R",
+        "CH02_S02:L": "V_CH02_S02_L"
+      }
+    },
+    {
+      "page": "c24-s01-p06",
+      "assets": [
+        "day",
+        "CH03_S03:R",
+        "CH24_S05:ONE"
+      ],
+      "story_text": "\"I'm thirsty too. Let's look for a well.\" I didn't think we could find a well in this great desert. But we began to walk.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s01-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s01-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s01-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s01-p06/layout.json",
+      "reference_lineage": {
+        "CH03_S03:R": "V_CH03_S03_R",
+        "CH24_S05:ONE": "V_CH24_S05_ONE"
+      }
+    },
+    {
+      "page": "c24-s02-p01",
+      "assets": [
+        "night",
+        "CH24_S02:L",
+        "CH24_S02:R"
+      ],
+      "story_text": "We walked for hours. Night came, and the stars appeared. Thirst made everything feel like a dream. The little prince's words stayed with me.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s02-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s02-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s02-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p01/layout.json",
+      "reference_lineage": {
+        "CH24_S02:L": "V_CH24_S02_L",
+        "CH24_S02:R": "V_CH24_S02_R"
+      }
+    },
+    {
+      "page": "c24-s02-p02",
+      "assets": [
+        "night",
+        "CH24_S02:L",
+        "CH24_S02:R"
+      ],
+      "story_text": "\"You're thirsty too?\" \"Water can be good for the heart.\" I didn't understand. But I had learned that asking again would not help.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s02-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s02-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s02-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p02/layout.json",
+      "reference_lineage": {
+        "CH24_S02:L": "V_CH24_S02_L",
+        "CH24_S02:R": "V_CH24_S02_R"
+      }
+    },
+    {
+      "page": "c24-s02-p03",
+      "assets": [
+        "night",
+        "CH24_S02:L",
+        "CH24_S02:R"
+      ],
+      "story_text": "\"The stars are beautiful because of a flower we can't see.\" I looked at the pale shapes of the sand in the moonlight. He was right.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s02-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s02-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s02-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p03/layout.json",
+      "reference_lineage": {
+        "CH24_S02:L": "V_CH24_S02_L",
+        "CH24_S02:R": "V_CH24_S02_R"
+      }
+    },
+    {
+      "page": "c24-s02-p04",
+      "assets": [
+        "night",
+        "CH24_S02:L",
+        "CH24_S02:R"
+      ],
+      "story_text": "\"The desert is beautiful too.\" It was. There was nothing to see or hear, but something seemed to shine through the quiet.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s02-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s02-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s02-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p04/layout.json",
+      "reference_lineage": {
+        "CH24_S02:L": "V_CH24_S02_L",
+        "CH24_S02:R": "V_CH24_S02_R"
+      }
+    },
+    {
+      "page": "c24-s02-p05",
+      "assets": [
+        "night",
+        "CH24_S02:L",
+        "CH24_S02:R"
+      ],
+      "story_text": "\"Somewhere, it hides a well. That's what makes it beautiful.\"",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s02-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s02-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s02-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p05/layout.json",
+      "reference_lineage": {
+        "CH24_S02:L": "V_CH24_S02_L",
+        "CH24_S02:R": "V_CH24_S02_R"
+      }
+    },
+    {
+      "page": "c24-s02-p06",
+      "assets": [
+        "room"
+      ],
+      "story_text": "Suddenly, I understood. As a child, I had lived in a house where people said treasure was buried. No one had found it. Perhaps no one had even looked.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s02-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s02-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s02-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p06/layout.json",
+      "reference_lineage": {}
+    },
+    {
+      "page": "c24-s02-p07",
+      "assets": [
+        "room"
+      ],
+      "story_text": "But that secret filled the house. The thought of treasure hidden inside made the house feel different.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s02-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s02-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s02-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p07/layout.json",
+      "reference_lineage": {}
+    },
+    {
+      "page": "c24-s02-p08",
+      "assets": [
+        "night",
+        "CH24_S02:L",
+        "CH24_S02:R"
+      ],
+      "story_text": "\"A house, the stars, the desert... What makes them beautiful is something we can't see.\" \"I'm glad you agree with my fox.\"",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s02-p08/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s02-p08/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s02-p08/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p08/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s02-p08/layout.json",
+      "reference_lineage": {
+        "CH24_S02:L": "V_CH24_S02_L",
+        "CH24_S02:R": "V_CH24_S02_R"
+      }
+    },
+    {
+      "page": "c24-s03-p01",
+      "assets": [
+        "night",
+        "CH24_S03:ONE"
+      ],
+      "story_text": "He grew sleepy. I lifted him into my arms and walked on. I felt I was carrying a treasure that could so easily be lost.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s03-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s03-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s03-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s03-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s03-p01/layout.json",
+      "reference_lineage": {
+        "CH24_S03:ONE": "V_CH24_S03_ONE"
+      }
+    },
+    {
+      "page": "c24-s03-p02",
+      "assets": [
+        "night",
+        "CH24_S03:ONE"
+      ],
+      "story_text": "His face was pale in the moonlight. His gold hair moved in the wind. A small smile stayed on his lips. What I could see was only the outside.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s03-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s03-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s03-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s03-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s03-p02/layout.json",
+      "reference_lineage": {
+        "CH24_S03:ONE": "V_CH24_S03_ONE"
+      }
+    },
+    {
+      "page": "c24-s03-p03",
+      "assets": [
+        "night",
+        "CH24_S03:ONE"
+      ],
+      "story_text": "His love for a flower lit him from inside, even in sleep. I had to protect that light, as carefully as a candle in the wind.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s03-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s03-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s03-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s03-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s03-p03/layout.json",
+      "reference_lineage": {
+        "CH24_S03:ONE": "V_CH24_S03_ONE"
+      }
+    },
+    {
+      "page": "c24-s03-p04",
+      "assets": [
+        "CH25_B01:ONE",
+        "CH24_S04:ONE"
+      ],
+      "story_text": "And as the sun rose, I found the well.",
+      "assembly_instructions": "story-and-continuity/chapter-24/page-compositions/c24-s03-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-24/page-compositions/c24-s03-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-24/page-compositions/c24-s03-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-24/page-compositions/c24-s03-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-24/page-compositions/c24-s03-p04/layout.json",
+      "reference_lineage": {
+        "CH25_B01:ONE": "A_CH25_B01_ONE",
+        "CH24_S04:ONE": "V_CH24_S04_ONE"
+      }
+    }
+  ],
+  "policy": "production/agent-policy.json",
+  "audit_template": "production/agent-workflow/templates/page-audit.json",
+  "lineage_execution_order": [
+    "I_pilot",
+    "I_prince",
+    "N_prince_standing_left__soft_day_upper_left",
+    "N_prince_walk_right__soft_day_upper_left",
+    "N_prince_walk_right__moonlight_upper_left",
+    "N_pilot_canteen__soft_day_upper_left",
+    "N_pilot_walk_right__moonlight_upper_left",
+    "N_pilot_walk_right__soft_day_upper_left",
+    "N_pilot_carry_prince__moonlight_upper_left",
+    "N_pilot_carry_prince__sunrise_left",
+    "A_CH02_R01_ONE",
+    "V_CH02_S02_L",
+    "V_CH02_S05_L",
+    "V_CH03_S03_R",
+    "V_CH24_S01_L",
+    "V_CH24_S01_R",
+    "V_CH24_S02_L",
+    "V_CH24_S02_R",
+    "V_CH24_S03_ONE",
+    "V_CH24_S04_ONE",
+    "V_CH24_S05_ONE",
+    "A_CH25_B01_ONE"
+  ],
+  "generation_route": "lineage_nodes_only",
+  "legacy_dependency_usage": "offline_audit_and_historical_attempt_traceability",
+  "lineage_catalog": "production/reference-lineage/catalog.json",
+  "workflow_process": "production/workflow-9/PROCESS.md",
+  "family_canaries": {
+    "N_prince_standing_left__soft_day_upper_left": "V_CH02_S02_L",
+    "N_prince_walk_right__soft_day_upper_left": "V_CH03_S03_R",
+    "N_pilot_canteen__soft_day_upper_left": "V_CH24_S01_L",
+    "N_pilot_walk_right__moonlight_upper_left": "V_CH24_S02_L",
+    "N_prince_walk_right__moonlight_upper_left": "V_CH24_S02_R",
+    "N_pilot_carry_prince__moonlight_upper_left": "V_CH24_S03_ONE",
+    "N_pilot_carry_prince__sunrise_left": "V_CH24_S04_ONE",
+    "N_pilot_walk_right__soft_day_upper_left": "V_CH24_S05_ONE"
+  }
+}

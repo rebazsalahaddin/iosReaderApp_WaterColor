@@ -1,0 +1,51 @@
+{
+  "id": "V_CH13_S01_L_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_business_working__soft_day_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_business_working__soft_day_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "businessman seated at his desk, right hand holding pencil over central blank working sheet, eyes down counting; two paper stacks and cold cigarette fixed.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH13_S01_L",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c13-s01-p02",
+    "c13-s01-p03",
+    "c13-s03-p01",
+    "c13-s03-p02"
+  ],
+  "allowed_changes": "businessman seated at his desk, right hand holding pencil over central blank working sheet, eyes down counting; two paper stacks and cold cigarette fixed.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Drawer closed; no visible key yet. No painted calculations, money or glowing cigarette. Wide groups: keep table corners and chair feet complete. DIRECTION LOCK: Body/desk three-quarter RIGHT; head DOWN to central paper, right hand pencil.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH13_S01_L_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: businessman seated at his desk, right hand holding pencil over central blank working sheet, eyes down counting; two paper stacks and cold cigarette fixed. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-13/reusable-poses/S01_L_businessman_counting_and_explaining_first_state/audit-contract.json",
+  "prompt_sha256": "f582580fe07e17a8c4ed3e043888cb7209362518a4dc842492764132c5c926db",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH13_S01_L_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

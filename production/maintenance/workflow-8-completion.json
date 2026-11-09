@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-08",
+  "status": "prompt_revision_complete_no_execution",
+  "scope": "Resumed interrupted prompt-only workflow-8 migration across all chapters. No artwork creation, revision, export, deletion, cleanup or paid jobs.",
+  "chapters": 27,
+  "page_plans": 442,
+  "legacy_request_cards": 174,
+  "logical_states": 229,
+  "nodes_by_stage": {
+    "background_plate": 27,
+    "expression_variant": 162,
+    "identity_turnaround": 23,
+    "local_assembly": 2,
+    "neutral_posture": 90,
+    "object_or_editorial": 39
+  },
+  "changes": [
+    "Finished active prose and structured page shadow instructions",
+    "Restored chapter-specific narrative staging supplements",
+    "Refined short identity, neutral and expression prompts without inherited multi-image wording",
+    "Protected generated master shadow, dot eyes, identity, furniture, scale and registration",
+    "Retired legacy submission routes and removed nonexistent helper references",
+    "Routed independent Chapter 16 portraits to local identity crops",
+    "Added lineage graph, dependency closure and rejection checks to package validation"
+  ],
+  "validation": {
+    "command": "python3 -B production/validate_package.py",
+    "status": "pass",
+    "validators_passed": 7,
+    "log": "production/maintenance/workflow-8-final-validation.txt",
+    "lineage_report": "production/reference-lineage/validation-report.json",
+    "protected_baseline_files": 2449,
+    "protected_hash_differences": [],
+    "added_media_files": [],
+    "current_chapter1_pages_reconstructed_in_memory": 19
+  },
+  "jobs_submitted": 0,
+  "credits_spent": 0,
+  "artwork_modified": false,
+  "media_deleted": false,
+  "historical_job_and_audit_records_modified": false,
+  "execution_state_modified": false,
+  "manual_approval_inferred": false,
+  "unchanged_execution_status": "awaiting_chapter_approval",
+  "active_chapter": null,
+  "entry_point": "production/MASTER_PROMPT.txt",
+  "next_step": "Prompt revision is complete. Await a new explicit user request; this maintenance pass authorizes no generation or chapter execution."
+}

@@ -1,0 +1,62 @@
+{
+  "id": "N_older_social_chair_left__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_social_older"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_social_older"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+        "candidate_sha256": "80ecd925cb7d12fd9807023e74913dfa79437fe1fe40d72c14e1e469aac260da",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Moustached older adult seated three-quarter LEFT on his approved social chair, hands on knees, supported feet and neutral face.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "older_social_chair_left",
+  "light": "Soft diffuse upper-left warm light.",
+  "affected_pages": [
+    "c01-s06-p01"
+  ],
+  "legacy_tokens": [
+    "CH01_E03:L"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+      "sha256": "80ecd925cb7d12fd9807023e74913dfa79437fe1fe40d72c14e1e469aac260da",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces LEFT. Change only the requested coherent expression/gesture state, preserving design and support geometry."
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/02_CH01_S05_grownup4_listen_reply.png",
+      "sha256": "f7482945be69292db3e5918c2f87fac69a48cf172ecffcbd37aea04da8825cad",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces LEFT. Change only the requested coherent expression/gesture state, preserving design and support geometry."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_older_social_chair_left__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Moustached older adult seated three-quarter LEFT on his approved social chair, hands on knees, supported feet and neutral face. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft diffuse upper-left warm light. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "0f5b08caa2e320523045f4adcf034d2b0487c90c2dac2f74b15dcf99b8334c30",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_older_social_chair_left__soft_day_upper_left"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "A_CH22_R01_L",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-22/references/R01_trains_opposite_directions/reference-images/01_LP_ref_char_switchman_turnaround.png",
+        "sha256": "b9a30995f6c6be440a5469891a4c11d8e49f772ba6d42b4a1eb719d83700d6fd",
+        "role": "Switchman identity and blue uniform; lantern is carried only if explicitly requested."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "one simple period passenger train in three-quarter side view travelling LEFT, lit rectangular windows, coherent locomotive and short carriage section, no words.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH22_R01",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c22-s01-p03",
+    "c22-s01-p04",
+    "c22-s01-p05"
+  ],
+  "audit_only_details": "One train per separate full-width horizontal band, NOT side-by-side columns: long vehicles need width. Allow clear gap between bands; full vehicles may be short representative sections, not cropped wheels. These are proposed designs, not copies of an absent approved train master.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH22_R01_L/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. one simple period passenger train in three-quarter side view travelling LEFT, lit rectangular windows, coherent locomotive and short carriage section, no words. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-22/references/R01_trains_opposite_directions/audit-contract.json",
+  "prompt_sha256": "88b247ce51700a186bbbb83da8b2d9d463cdaee8db1c2a0e2b4ce14d65cf7766",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH22_R01_L"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "A_CH04_R02_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/reference-images/01_LP_ref_char_prince_turnaround.png",
+        "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+        "role": "Prince identity: golden hair, rounded child face, sage coat, CORAL scarf, brass buttons and brown boots; never enlarge him to adult proportions."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "a simple tender graphite portrait of the same little prince on one cream paper sheet, head and full familiar coat/boots, recognisable golden-hair silhouette translated into graphite shading. No writing or live scenery.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH04_R02",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c02-s02-p03",
+    "c04-s04-p03",
+    "c04-s05-p01",
+    "c04-s05-p02",
+    "c04-s05-p03"
+  ],
+  "audit_only_details": "One canonical in-world drawing, not a replacement character identity. Grey graphite with sparse imperfect hand-drawn contours; no colored watercolor inside this drawing, no photorealism. Reuse its marks on the narrator’s blank paper.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH04_R02_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. a simple tender graphite portrait of the same little prince on one cream paper sheet, head and full familiar coat/boots, recognisable golden-hair silhouette translated into graphite shading. No writing or live scenery. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-04/references/R02_narrator_graphite_prince_portrait/audit-contract.json",
+  "prompt_sha256": "793fd1104ba7bd16b0f0a06dc6e71ea847e126306d74045269e00ef3d4a5d42a",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH04_R02_ONE"
+}

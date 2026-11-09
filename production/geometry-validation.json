@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "page_geometry_contracts": 442,
+  "source_geometry_prompts": 174,
+  "editorial_covers_with_shared_field": 16,
+  "measured_current_checks": {},
+  "errors": [],
+  "scope": "Planned geometry coverage plus installed measured corrections; future source landmarks still require actual visual measurement."
+}

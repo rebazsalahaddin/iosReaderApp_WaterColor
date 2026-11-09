@@ -1,0 +1,29 @@
+{
+  "node_id": "N_pilot_flying_right__moonlight_upper_left",
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/N_pilot_flying_right__moonlight_upper_left-attempt-1.png",
+  "source_sha256": "33945393e32e746335a38d4e27156dfb95457810f1a8148e09dee03f13f55b70",
+  "submitted_prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Complete same aircraft airborne nose RIGHT, closed cowling, one cockpit with pilot in flight clothes and forehead goggles looking RIGHT, neutral face, two-blade propeller. No floor shadow. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Cool moonlight from upper-left with modest warm skin; no glow or landscape. Keep transparent surroundings and opaque subject interiors; no physical floor or floor shadow in this airborne/close-cropped asset. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks. Keep exact single-state asset boundaries, dot-eye storybook watercolor discipline, and clean background handling.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T13:35:20+03:00",
+  "issues": [
+    {
+      "issue_id": "PFR01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        0,
+        0,
+        2335,
+        1734
+      ],
+      "observed": "Aircraft fuselage and propeller point LEFT while the pilot faces RIGHT toward the tail.",
+      "expected": "Entire cream-and-blue monoplane flying RIGHTWARD with propeller and nose on the RIGHT, tail fin on the LEFT, and pilot in cockpit facing RIGHT toward the nose.",
+      "precise_fix": "PFR01: Provide starboard-oriented aircraft prop reference and orient the entire aircraft flying RIGHTWARD with two-blade propeller and closed nose cowling on the RIGHT, tail fin on the LEFT, and pilot facing RIGHT toward the nose.",
+      "recheck": "Verify both aircraft nose/propeller and pilot gaze point RIGHTWARD, with tail fin on the LEFT.",
+      "material_impact": "Cannot use a plane flying backward on c01-s04-p02.",
+      "local_fix_ruled_out": "Horizontal flip of final day artwork is forbidden by audit contract and would invert upper-left lighting; must regenerate facing right."
+    }
+  ]
+}

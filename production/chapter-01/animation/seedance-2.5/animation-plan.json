@@ -1,0 +1,1291 @@
+{
+  "chapter": 1,
+  "illustration_edition": "v010",
+  "model_id": "seedance_2_5",
+  "prepared_on": "2026-11-07",
+  "status": "narration timing preserved; revised illustration start frames await manual approval; no video jobs",
+  "user_max_clip_seconds": 20,
+  "audio_choice": "Supplied original narration as the continuous primary soundtrack, with optional quiet generated ambience underneath; no generated speech or music.",
+  "suggested_settings": {
+    "mode": "omni_reference",
+    "resolution": "1080p",
+    "aspect_ratio": "4:3",
+    "generate_audio": true,
+    "bitrate_mode": "standard",
+    "draft": false,
+    "reference_role": "start_image",
+    "duration": "Use generation_duration_seconds in the model control; final_duration_seconds is the editor trim length, not the model input."
+  },
+  "timing_basis": "Verified source audio hash and matching page passages; supplied machine word alignment, independent local transcription and measured silence gaps. Motions are phrase-level targets, not frame-accurate generation guarantees.",
+  "total_planned_seconds": 232.504,
+  "transition_accounting": "Continuous untouched chapter narration; exact adjacent page boundaries. Trim extra generated tail, never stretch narration. Round picture boundaries to nearest frame in the final editor without cumulative drift.",
+  "source_authority": "production/chapter-01/delivery/chapter-01-v010/page-order.json",
+  "source_approval": "production/chapter-01/animation/seedance-2.5/source-approval.json",
+  "capability_source": "production/chapter-01/animation/seedance-2.5/model-capabilities.json",
+  "official_reference": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+  "clips": [
+    {
+      "order": 1,
+      "page": "c01-s01-p01",
+      "title": "Opening drawing",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s01-p01.png",
+      "source_sha256": "64a3e3b7b7d6bdb817ea5905021326817d2efc12955cb4ea98e3cebbfc828884",
+      "duration_seconds": 4,
+      "timeline_start_seconds": 0.0,
+      "timeline_end_seconds": 2.573,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/01_c01-s01-p01_4s_narration.txt",
+      "prompt_sha256": "9ca29d10a112d7e3d1d9ba1b7409b8ff03b84c16627da884bb516af328ceb058",
+      "story_text_context_only": "My First Drawing",
+      "scene": "An overhead still life of Drawing Number One and its resting pencil. The paper, exact graphite contour and pencil remain stationary.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Hold the supplied opening illustration completely still. The chapter title is heard only in the original recording added later. Keep the pencil, paper, graphite and lighting unchanged.",
+          "end_seconds": 4
+        }
+      ],
+      "ambient_audio": "Almost silent room air only. The drawing and pencil are stationary, with no scratch, rustle or impact.",
+      "preservation_locks": "No hand enters; no line draws itself; no text or title appears. No pencil rolling, paper flutter, sparkling pigment or animated wood grain. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Use a local still hold of 2.573 seconds for the spoken chapter title. No paid generation needed. Optional 4-second generated version: keep its first 2.573 seconds. The separate full-book title at source 00:00.240–00:02.000 is intentionally outside this Chapter 1 excerpt.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 4,
+      "final_duration_seconds": 2.573,
+      "source_audio_start_seconds": 2.2,
+      "source_audio_end_seconds": 4.773,
+      "paragraph_id": "para.c01.000",
+      "narration_cues": [
+        {
+          "phrase": "My First Drawing",
+          "source_seconds": 2.4,
+          "chapter_seconds": 0.2,
+          "clip_seconds": 0.2
+        }
+      ],
+      "recommended_method": "local_still_hold"
+    },
+    {
+      "order": 2,
+      "page": "c01-s01-p02",
+      "title": "The picture in the book",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s01-p02.png",
+      "source_sha256": "332219265fe00702a2db8b671064e207b6841a3c071e21291543aad051a16533",
+      "duration_seconds": 16,
+      "timeline_start_seconds": 2.573,
+      "timeline_end_seconds": 18.541,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/02_c01-s01-p02_16s_narration.txt",
+      "prompt_sha256": "0baedefb91613808286d42fb6b531fa0dfb3c729434c5a704ea606469da25d91",
+      "story_text_context_only": "When I was six, I found a picture I couldn't stop looking at. It was in a book about the forest: a huge snake swallowing an animal.",
+      "scene": "The six-year-old boy is already seated on the right at the round table, studying the already-open book. Its printed snake picture remains a flat illustration.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Hold the seated reading pose with gentle breathing and both hands supported on the already-open book.",
+          "end_seconds": 3.437
+        },
+        {
+          "start_seconds": 3.437,
+          "action": "Let his eyes settle on the book picture with a small curious brow lift; no head turn or page turn.",
+          "end_seconds": 7.587
+        },
+        {
+          "start_seconds": 7.587,
+          "action": "Incline his chin very slightly toward the existing printed picture, keeping the book flat and its artwork unchanged.",
+          "end_seconds": 10.197
+        },
+        {
+          "start_seconds": 10.197,
+          "action": "Hold his quietly fascinated look; one relaxed blink. The printed snake remains a flat, motionless picture.",
+          "end_seconds": 15.2
+        },
+        {
+          "start_seconds": 15.2,
+          "action": "Settle near the original pose and hold through the end.",
+          "end_seconds": 16
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "Do not open, close or turn the already-open book. Do not animate swallowing, bring the printed snake into the room, add a thought cloud or alter the printed picture. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 00:02.573–00:18.541. Keep video 00:00.000–00:15.968 (15.968 seconds) from the generated 16-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 16,
+      "final_duration_seconds": 15.968,
+      "source_audio_start_seconds": 4.773,
+      "source_audio_end_seconds": 20.741,
+      "paragraph_id": "para.c01.001",
+      "narration_cues": [
+        {
+          "phrase": "picture",
+          "source_seconds": 8.21,
+          "chapter_seconds": 6.01,
+          "clip_seconds": 3.437
+        },
+        {
+          "phrase": "a book",
+          "source_seconds": 12.360002,
+          "chapter_seconds": 10.16,
+          "clip_seconds": 7.587
+        },
+        {
+          "phrase": "a huge snake",
+          "source_seconds": 14.97,
+          "chapter_seconds": 12.77,
+          "clip_seconds": 10.197
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 3,
+      "page": "c01-s01-p03",
+      "title": "Imagining the sleeping snake",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s01-p03.png",
+      "source_sha256": "3bee8911261a359f5da1f697ed5d16ed81f1069c6b16bd17a841f300110b620d",
+      "duration_seconds": 14,
+      "timeline_start_seconds": 18.541,
+      "timeline_end_seconds": 31.669,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/03_c01-s01-p03_14s_narration.txt",
+      "prompt_sha256": "4b4409e36377eed286ad3117d2b6589e50e7d9cf9b1bc6c53435868e4faa4935",
+      "story_text_context_only": "The book said these snakes swallowed their food whole. After a meal, they couldn't move. They slept for six months!",
+      "scene": "Keep the existing painted thought cloud, two trail puffs and sleeping-snake picture exactly where and how large they are. The cloud belongs to the child; its picture remains a still mental image.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "The existing child-owned sleeping-snake cloud is present from frame zero and stays completely still. The boy studies the open book.",
+          "end_seconds": 6.229
+        },
+        {
+          "start_seconds": 6.229,
+          "action": "Let his eyes pause thoughtfully; the book, hands and thought picture remain fixed.",
+          "end_seconds": 9.709
+        },
+        {
+          "start_seconds": 9.709,
+          "action": "His eyes lift slightly and his eyebrows rise in quiet amazement, reaching their small expressive peak around 11.6 seconds.",
+          "end_seconds": 12.4
+        },
+        {
+          "start_seconds": 12.4,
+          "action": "Settle the expression gently. Keep cloud size, two trail puffs and snake unchanged through the end.",
+          "end_seconds": 14
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "Do not inflate, pulse, rotate, fade or redraw the cloud or its contents. No calendar, time-lapse, extra animal, live snake or six-month transformation. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 00:18.541–00:31.669. Keep video 00:00.000–00:13.128 (13.128 seconds) from the generated 14-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 14,
+      "final_duration_seconds": 13.128,
+      "source_audio_start_seconds": 20.741,
+      "source_audio_end_seconds": 33.869,
+      "paragraph_id": "para.c01.002",
+      "narration_cues": [
+        {
+          "phrase": "After a meal",
+          "source_seconds": 26.97,
+          "chapter_seconds": 24.77,
+          "clip_seconds": 6.229
+        },
+        {
+          "phrase": "They slept",
+          "source_seconds": 30.45,
+          "chapter_seconds": 28.25,
+          "clip_seconds": 9.709
+        },
+        {
+          "phrase": "six months",
+          "source_seconds": 32.09,
+          "chapter_seconds": 29.89,
+          "clip_seconds": 11.349
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 4,
+      "page": "c01-s01-p04",
+      "title": "Beginning Drawing Number One",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s01-p04.png",
+      "source_sha256": "1ff810b59fd600d977d6377033842e0a3210d9cc02faaab7abc14882432c470d",
+      "duration_seconds": 15,
+      "timeline_start_seconds": 31.669,
+      "timeline_end_seconds": 45.914,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/04_c01-s01-p04_15s_narration.txt",
+      "prompt_sha256": "1c257e1b018e10d24e8ac6f47bcc9f6c69e6a0b890c87c106b6ec8f27f30c465",
+      "story_text_context_only": "Six months! I kept thinking about that snake and all the adventures in the forest. At last, I took my pencil and began to draw.",
+      "scene": "The boy is already holding the pencil over the partially drawn sheet; the blue book is already closed. Keep the exact incomplete Drawing One visible on the paper.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Hold a thoughtful downward gaze over the existing partial drawing. The pencil is already in his hand; do not pick it up, open the book or draw early.",
+          "end_seconds": 9.271
+        },
+        {
+          "start_seconds": 9.271,
+          "action": "Refocus his eyes toward the pencil tip while keeping the grip and paper steady.",
+          "end_seconds": 11.521
+        },
+        {
+          "start_seconds": 11.521,
+          "action": "Make one tiny supported tracing motion along an already-existing short line, through approximately 13.0 seconds. Do not complete or add any line.",
+          "end_seconds": 13.1
+        },
+        {
+          "start_seconds": 13.1,
+          "action": "Pause the tip at the original paper position and hold the concentrated expression through the end.",
+          "end_seconds": 15
+        }
+      ],
+      "ambient_audio": "Quiet room tone. One very faint graphite sound only during actual pencil contact around 11.1–13.0 seconds. No other event sound, voice or music.",
+      "preservation_locks": "No new line, filled shape, elephant, handwriting, erasure or complete Drawing One reveal. No second pencil, changing grip, growing fingers, sliding paper or opening the closed book. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 00:31.669–00:45.914. Keep video 00:00.000–00:14.245 (14.245 seconds) from the generated 15-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 15,
+      "final_duration_seconds": 14.245,
+      "source_audio_start_seconds": 33.869,
+      "source_audio_end_seconds": 48.114,
+      "paragraph_id": "para.c01.003",
+      "narration_cues": [
+        {
+          "phrase": "At last",
+          "source_seconds": 43.14,
+          "chapter_seconds": 40.94,
+          "clip_seconds": 9.271
+        },
+        {
+          "phrase": "pencil",
+          "source_seconds": 45.39,
+          "chapter_seconds": 43.19,
+          "clip_seconds": 11.521
+        },
+        {
+          "phrase": "began to draw",
+          "source_seconds": 46.04,
+          "chapter_seconds": 43.84,
+          "clip_seconds": 12.171
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 5,
+      "page": "c01-s02-p01",
+      "title": "Showing Drawing Number One",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s02-p01.png",
+      "source_sha256": "09fd384948b17860fa0a42a5a8be1c30311dfdddc1971779ecb34d188ee6abc5",
+      "duration_seconds": 13,
+      "timeline_start_seconds": 45.914,
+      "timeline_end_seconds": 58.082,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/05_c01-s02-p01_13s_narration.txt",
+      "prompt_sha256": "792067a93cd72012f7af1c7557cdf366dd2a1b26c30203b8cdfefca31db6a704",
+      "story_text_context_only": "I called it Drawing Number One. To me, it was wonderful. Now I wanted to see what the grown-ups thought.",
+      "scene": "The boy stands at viewer right, already showing one sheet of Drawing One to the two visible adults on the left. The listeners remain present and face the child.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Hold the completed Drawing One steadily toward the two visible adults. Keep the child hopeful and the listeners present.",
+          "end_seconds": 4.196
+        },
+        {
+          "start_seconds": 4.196,
+          "action": "A tiny proud chin lift and warm change around his eyes convey satisfaction; the sheet barely moves.",
+          "end_seconds": 7.196
+        },
+        {
+          "start_seconds": 7.196,
+          "action": "The child looks expectantly toward the adults. The older man makes a slight head inclination toward the sheet; the woman blinks once.",
+          "end_seconds": 11.5
+        },
+        {
+          "start_seconds": 11.5,
+          "action": "All three settle into an attentive pause. No answer gesture or hat cloud yet.",
+          "end_seconds": 13
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "No hat thought yet. Do not remove the audience, turn the boy toward the viewer, wave or tilt the drawing, add a second sheet, change the canonical line or move anyone’s feet. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 00:45.914–00:58.082. Keep video 00:00.000–00:12.168 (12.168 seconds) from the generated 13-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 13,
+      "final_duration_seconds": 12.168,
+      "source_audio_start_seconds": 48.114,
+      "source_audio_end_seconds": 60.282,
+      "paragraph_id": "para.c01.004",
+      "narration_cues": [
+        {
+          "phrase": "To me",
+          "source_seconds": 52.31,
+          "chapter_seconds": 50.11,
+          "clip_seconds": 4.196
+        },
+        {
+          "phrase": "wonderful",
+          "source_seconds": 53.8,
+          "chapter_seconds": 51.6,
+          "clip_seconds": 5.686
+        },
+        {
+          "phrase": "Now I wanted",
+          "source_seconds": 55.31,
+          "chapter_seconds": 53.11,
+          "clip_seconds": 7.196
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 6,
+      "page": "c01-s02-p02",
+      "title": "The adults see a hat",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s02-p02.png",
+      "source_sha256": "bcba2c75e5d38cbb72aee6bb41a04371b5951c3605fdd8f2dd28ee08fa7f80dc",
+      "duration_seconds": 9,
+      "timeline_start_seconds": 58.082,
+      "timeline_end_seconds": 66.729,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/06_c01-s02-p02_9s_narration.txt",
+      "prompt_sha256": "57ff925188ba6e89ef383a8f4849ee150d00419a1fa402f9e6be43c210659996",
+      "story_text_context_only": "\"Are you frightened?\" I asked. \"Frightened? It's only a hat,\" they said.",
+      "scene": "The small pale tan hat thought is already visible above the responding older man. It is a mental interpretation; the boy still holds the unchanged snake-shaped Drawing One.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Keep the existing hat cloud visible and completely static. The child waits with a tentative questioning expression; the adults watch the drawing.",
+          "end_seconds": 3.818
+        },
+        {
+          "start_seconds": 3.818,
+          "action": "The older man begins one mild open-palm emphasis with his existing raised hand. Reach a small gesture peak near 6.25 seconds, without moving his elbow far.",
+          "end_seconds": 6.8
+        },
+        {
+          "start_seconds": 6.8,
+          "action": "The boy becomes slightly puzzled. The woman remains a quiet observer; the man lets his hand settle.",
+          "end_seconds": 8.1
+        },
+        {
+          "start_seconds": 8.1,
+          "action": "Hold the misunderstood moment without changing the hat cloud or the physical drawing.",
+          "end_seconds": 9
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "Keep the hat, cloud rim, three puffs, size and position fixed. The hat must not grow, rotate, become realistic, become physical or replace the paper drawing. No finger-wagging or mocking expression. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 00:58.082–01:06.729. Keep video 00:00.000–00:08.647 (8.647 seconds) from the generated 9-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 9,
+      "final_duration_seconds": 8.647,
+      "source_audio_start_seconds": 60.282,
+      "source_audio_end_seconds": 68.929,
+      "paragraph_id": "para.c01.005",
+      "narration_cues": [
+        {
+          "phrase": "Are you frightened",
+          "source_seconds": 60.68,
+          "chapter_seconds": 58.48,
+          "clip_seconds": 0.398
+        },
+        {
+          "phrase": "Frightened? It's",
+          "source_seconds": 64.1,
+          "chapter_seconds": 61.9,
+          "clip_seconds": 3.818
+        },
+        {
+          "phrase": "a hat",
+          "source_seconds": 66.42,
+          "chapter_seconds": 64.22,
+          "clip_seconds": 6.138
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 7,
+      "page": "c01-s02-p03",
+      "title": "What the child really imagined",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s02-p03.png",
+      "source_sha256": "704fa180e7eb04077890132a4a767330caa35324f977cf6bce6478adb81a1619",
+      "duration_seconds": 14,
+      "timeline_start_seconds": 66.729,
+      "timeline_end_seconds": 79.917,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/07_c01-s02-p03_14s_narration.txt",
+      "prompt_sha256": "59586f295061e9d38ef3ad1ab13597f8d4bec56fbd991398fe7f97de91229e76",
+      "story_text_context_only": "A hat? It wasn't a hat at all. My snake had an elephant inside! But the grown-ups could only see the outside.",
+      "scene": "The child’s existing thought cloud contains the exact elephant-inside-the-snake drawing. The physical sheet still contains Drawing One, and all three characters retain their positions.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Keep the existing elephant-inside-the-snake thought visible and still, owned by the child. His expression is puzzled but earnest.",
+          "end_seconds": 2.151
+        },
+        {
+          "start_seconds": 2.151,
+          "action": "Let his eyes glance briefly down at the held sheet without tipping it.",
+          "end_seconds": 5.451
+        },
+        {
+          "start_seconds": 5.451,
+          "action": "Look back toward the adults with gently insistent eyes; the elephant thought remains flat and motionless.",
+          "end_seconds": 8.441
+        },
+        {
+          "start_seconds": 8.441,
+          "action": "The older man gives one uncertain blink; the woman remains attentive. Keep the child quiet and earnest.",
+          "end_seconds": 12.6
+        },
+        {
+          "start_seconds": 12.6,
+          "action": "Settle all tiny movements while keeping the mental picture readable.",
+          "end_seconds": 14
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "The elephant drawing stays flat and motionless inside the existing cloud. No live elephant, extra trunk/legs, second paper, new cloud or change to Drawing One on the held sheet. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 01:06.729–01:19.917. Keep video 00:00.000–00:13.188 (13.188 seconds) from the generated 14-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 14,
+      "final_duration_seconds": 13.188,
+      "source_audio_start_seconds": 68.929,
+      "source_audio_end_seconds": 82.117,
+      "paragraph_id": "para.c01.006",
+      "narration_cues": [
+        {
+          "phrase": "It wasn't",
+          "source_seconds": 71.08,
+          "chapter_seconds": 68.88,
+          "clip_seconds": 2.151
+        },
+        {
+          "phrase": "My snake",
+          "source_seconds": 74.38,
+          "chapter_seconds": 72.18,
+          "clip_seconds": 5.451
+        },
+        {
+          "phrase": "elephant inside",
+          "source_seconds": 75.67,
+          "chapter_seconds": 73.47,
+          "clip_seconds": 6.741
+        },
+        {
+          "phrase": "But the grown-ups",
+          "source_seconds": 77.37,
+          "chapter_seconds": 75.17,
+          "clip_seconds": 8.441
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 8,
+      "page": "c01-s03-p01",
+      "title": "Drawing Number Two",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s03-p01.png",
+      "source_sha256": "e2484400dac4d390009e0c964c78a182402595b8f3310e40c1b4f49d678b656a",
+      "duration_seconds": 15,
+      "timeline_start_seconds": 79.917,
+      "timeline_end_seconds": 94.198,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/08_c01-s03-p01_15s_narration.txt",
+      "prompt_sha256": "3a481bdf6595d3d21a2fb8f89dcb7dcd9fb146801cdecba150a130c9369107e2",
+      "story_text_context_only": "So I drew another picture. This time, I showed the inside of the snake, with the elephant in its big round body. Drawing Number Two.",
+      "scene": "Use the supplied closer drawing-detail composition from frame zero; the whole scene is already reframed. Do not add another zoom or change paper/hand contacts.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Use the supplied closer drawing-detail composition from frame zero; the whole scene is already reframed. Do not add another zoom or change paper/hand contacts.",
+          "end_seconds": 0.683
+        },
+        {
+          "start_seconds": 0.683,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 2.8
+        },
+        {
+          "start_seconds": 2.8,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 8.133
+        },
+        {
+          "start_seconds": 8.133,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 12.623
+        },
+        {
+          "start_seconds": 12.623,
+          "action": "Let movement settle into a stable hold, preserving the supplied expression, composition and all contacts.",
+          "end_seconds": 15
+        }
+      ],
+      "ambient_audio": "Quiet room tone. One very faint graphite contact only during the small checking stroke around 0.7–2.8 seconds. No other event sound, voice or music.",
+      "preservation_locks": "Do not erase and redraw the elephant, invent lines, move its anatomy, turn the paper, open the book or create a thought cloud. The reference already contains the completed drawing. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 01:19.917–01:34.198. Keep video 00:00.000–00:14.281 (14.281 seconds) from the generated 15-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 15,
+      "final_duration_seconds": 14.281,
+      "source_audio_start_seconds": 82.117,
+      "source_audio_end_seconds": 96.398,
+      "paragraph_id": "para.c01.007",
+      "narration_cues": [
+        {
+          "phrase": "drew another",
+          "source_seconds": 82.8,
+          "chapter_seconds": 80.6,
+          "clip_seconds": 0.683
+        },
+        {
+          "phrase": "the elephant",
+          "source_seconds": 90.25,
+          "chapter_seconds": 88.05,
+          "clip_seconds": 8.133
+        },
+        {
+          "phrase": "Drawing Number Two",
+          "source_seconds": 94.74,
+          "chapter_seconds": 92.54,
+          "clip_seconds": 12.623
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 9,
+      "page": "c01-s03-p02",
+      "title": "The adults redirect him",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s03-p02.png",
+      "source_sha256": "9170890661a052ddaf014d3673b94225ec2b9c91aa7e8ebaf7d5b7ff4c727302",
+      "duration_seconds": 13,
+      "timeline_start_seconds": 94.198,
+      "timeline_end_seconds": 107.029,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/09_c01-s03-p02_13s_narration.txt",
+      "prompt_sha256": "fef262cf65114c6cef561d596c922caa2275f164259bbbffe16f46b9ace50143",
+      "story_text_context_only": "Now they could see the elephant. I waited. \"Put those snakes away,\" they said. \"Study geography, history, math, and grammar instead.\"",
+      "scene": "The boy already holds one sheet with Drawing Two before the same older man and grey-haired woman. The older man’s response is mild dismissal, not ridicule.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "The child already holds Drawing Two toward the same adults and waits. Keep the visible elephant drawing unchanged.",
+          "end_seconds": 3.392
+        },
+        {
+          "start_seconds": 3.392,
+          "action": "Maintain an attentive pause. Do not begin the adults' dismissal before this pause.",
+          "end_seconds": 4.652
+        },
+        {
+          "start_seconds": 4.652,
+          "action": "The older man makes one restrained downward settling gesture with his already extended hand, without touching the sheet.",
+          "end_seconds": 7.532
+        },
+        {
+          "start_seconds": 7.532,
+          "action": "The child's hopeful face softens into disappointment; shoulders relax slightly while both hands hold the paper steady.",
+          "end_seconds": 12.2
+        },
+        {
+          "start_seconds": 12.2,
+          "action": "Hold the quiet result. No new school props or thought cloud.",
+          "end_seconds": 13
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "Preserve the physical elephant cutaway exactly. No thought clouds, maps, schoolbooks, floating numbers or new teaching props. No grabbing, tearing, scolding finger, shrinking child or turning the adults away. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 01:34.198–01:47.029. Keep video 00:00.000–00:12.831 (12.831 seconds) from the generated 13-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 13,
+      "final_duration_seconds": 12.831,
+      "source_audio_start_seconds": 96.398,
+      "source_audio_end_seconds": 109.229,
+      "paragraph_id": "para.c01.008",
+      "narration_cues": [
+        {
+          "phrase": "I waited",
+          "source_seconds": 99.79,
+          "chapter_seconds": 97.59,
+          "clip_seconds": 3.392
+        },
+        {
+          "phrase": "Put those snakes",
+          "source_seconds": 101.05,
+          "chapter_seconds": 98.85,
+          "clip_seconds": 4.652
+        },
+        {
+          "phrase": "Study geography",
+          "source_seconds": 103.93,
+          "chapter_seconds": 101.73,
+          "clip_seconds": 7.532
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 10,
+      "page": "c01-s03-p03",
+      "title": "The pencil is already down",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s03-p03.png",
+      "source_sha256": "c451bc4a9f730b665e622ae78d572653181ddfead1e4757378f88cc43a49fe4a",
+      "duration_seconds": 12,
+      "timeline_start_seconds": 107.029,
+      "timeline_end_seconds": 118.744,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/10_c01-s03-p03_12s_narration.txt",
+      "prompt_sha256": "9bc10c5b6ae40f823acd4ca80c7c92450c94181f7df83646bbeef3d4a0ee9de4",
+      "story_text_context_only": "I was only six, and already I was giving up my life as an artist. I put down my pencil.",
+      "scene": "The pencil already lies on the tabletop beside Drawing Two. The boy is seated, with one hand near the paper and the other resting on his lap; show the aftermath of giving up.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "The pencil already rests on the table. Show the aftermath of giving up, not a repeated pickup-and-drop. Keep both hands in their existing places.",
+          "end_seconds": 4.951
+        },
+        {
+          "start_seconds": 4.951,
+          "action": "His shoulders settle with one small natural breath; his gaze grows quietly disappointed.",
+          "end_seconds": 8.171
+        },
+        {
+          "start_seconds": 8.171,
+          "action": "Let his eyes lower toward the resting pencil. Keep the pencil absolutely still and make no impact sound.",
+          "end_seconds": 10.9
+        },
+        {
+          "start_seconds": 10.9,
+          "action": "Hold his reflective pose through the end, without tears or collapse.",
+          "end_seconds": 12
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "Never pick up the pencil merely to put it down again. No new drawing, tears, collapsed posture, changing table size or replacing the paper art. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 01:47.029–01:58.744. Keep video 00:00.000–00:11.715 (11.715 seconds) from the generated 12-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 12,
+      "final_duration_seconds": 11.715,
+      "source_audio_start_seconds": 109.229,
+      "source_audio_end_seconds": 120.944,
+      "paragraph_id": "para.c01.009",
+      "narration_cues": [
+        {
+          "phrase": "giving up",
+          "source_seconds": 114.18,
+          "chapter_seconds": 111.98,
+          "clip_seconds": 4.951
+        },
+        {
+          "phrase": "I put down",
+          "source_seconds": 117.4,
+          "chapter_seconds": 115.2,
+          "clip_seconds": 8.171
+        },
+        {
+          "phrase": "pencil",
+          "source_seconds": 119.36,
+          "chapter_seconds": 117.16,
+          "clip_seconds": 10.131
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 11,
+      "page": "c01-s03-p04",
+      "title": "Tired of explaining",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s03-p04.png",
+      "source_sha256": "1b2dd5d58cafbbaadc36f01021848e6e16e42efa6da163deaa1e1786bf167757",
+      "duration_seconds": 14,
+      "timeline_start_seconds": 118.744,
+      "timeline_end_seconds": 132.193,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/11_c01-s03-p04_14s_narration.txt",
+      "prompt_sha256": "1d06577a659a107ca0116cee4d1ebd6ac380391b03ee324e13e92ca427158f3d",
+      "story_text_context_only": "Grown-ups need so many explanations. And when you're six, explaining everything, again and again, is very tiring.",
+      "scene": "The boy already rests both cheeks in his hands at the same table. His elbows, chair, book, resting pencil and Drawing Two keep their established contacts.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Maintain both cheeks in the supported palms, elbows on the same table. Subtle upper-body breathing only.",
+          "end_seconds": 7.346
+        },
+        {
+          "start_seconds": 7.346,
+          "action": "Let his eyes remain downcast and the brow relax slightly; no repeated nodding, slipping elbows or moving hands.",
+          "end_seconds": 11.516
+        },
+        {
+          "start_seconds": 11.516,
+          "action": "Give him one slow tired blink, keeping cheeks, hands and elbows in contact.",
+          "end_seconds": 13.0
+        },
+        {
+          "start_seconds": 13.0,
+          "action": "Hold the weary expression in near stillness through the end.",
+          "end_seconds": 14
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "No hands leaving the cheeks, fingers passing through the face, elbow drift, chair movement, sleeping collapse or new cloud. Do not add further sadness props or tears. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 01:58.744–02:12.193. Keep video 00:00.000–00:13.449 (13.449 seconds) from the generated 14-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 14,
+      "final_duration_seconds": 13.449,
+      "source_audio_start_seconds": 120.944,
+      "source_audio_end_seconds": 134.393,
+      "paragraph_id": "para.c01.010",
+      "narration_cues": [
+        {
+          "phrase": "explaining everything",
+          "source_seconds": 128.29,
+          "chapter_seconds": 126.09,
+          "clip_seconds": 7.346
+        },
+        {
+          "phrase": "very tiring",
+          "source_seconds": 132.46,
+          "chapter_seconds": 130.26,
+          "clip_seconds": 11.516
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 12,
+      "page": "c01-s04-p01",
+      "title": "Daytime flight",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s04-p01.png",
+      "source_sha256": "19b9b1d669aae0b3aaccfe31d718d31ec7ea1ea36c24ad214eaec1a6de5330f6",
+      "duration_seconds": 14,
+      "timeline_start_seconds": 132.193,
+      "timeline_end_seconds": 145.517,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/12_c01-s04-p01_14s_narration.txt",
+      "prompt_sha256": "ede37f820a944169416cee3bdd1f73dde2372a077897f89a66eac1c103da7d31",
+      "story_text_context_only": "Years passed. I chose a different life and learned to fly planes. Since then, I've flown over many parts of the world.",
+      "scene": "The adult pilot is already airborne in the single-cockpit aircraft, nose pointing viewer left. Keep the complete aircraft and pilot at the reference size and position, with a level attitude.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Begin steady level flight from the approved nose-left aircraft. The complete plane/pilot stays nearly fixed; the existing two-blade propeller has a continuous soft rotational blur.",
+          "end_seconds": 5.217
+        },
+        {
+          "start_seconds": 5.217,
+          "action": "Maintain quiet forward-focused attention. Only distant terrain drifts toward viewer right, no more than two percent of frame width over the entire clip.",
+          "end_seconds": 7.147
+        },
+        {
+          "start_seconds": 7.147,
+          "action": "The pilot gives one small blink and a tiny forward-focused eye adjustment. Slight hair-tip motion suggests airflow; hands remain inside the same cockpit.",
+          "end_seconds": 12.7
+        },
+        {
+          "start_seconds": 12.7,
+          "action": "Maintain the same scale, level attitude and gentle speed through the end. No departure from frame.",
+          "end_seconds": 14
+        }
+      ],
+      "ambient_audio": "Soft even piston-engine hum and gentle airflow, quiet beneath a later narration mix. No revving, radio, voices, wind gusts, navigation beeps or music. Thought pictures are silent.",
+      "preservation_locks": "No bank, dive, takeoff, landing, camera orbit, zoom, gear retraction or additional cockpit. Preserve closed cowling, tail, windscreen, wings and two-blade design. Do not mirror the aircraft or introduce a map/cloud. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 02:12.193–02:25.517. Keep video 00:00.000–00:13.324 (13.324 seconds) from the generated 14-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 14,
+      "final_duration_seconds": 13.324,
+      "source_audio_start_seconds": 134.393,
+      "source_audio_end_seconds": 147.717,
+      "paragraph_id": "para.c01.011",
+      "narration_cues": [
+        {
+          "phrase": "Years passed",
+          "source_seconds": 134.79,
+          "chapter_seconds": 132.59,
+          "clip_seconds": 0.397
+        },
+        {
+          "phrase": "learned to fly",
+          "source_seconds": 139.61,
+          "chapter_seconds": 137.41,
+          "clip_seconds": 5.217
+        },
+        {
+          "phrase": "Since then",
+          "source_seconds": 141.54,
+          "chapter_seconds": 139.34,
+          "clip_seconds": 7.147
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 13,
+      "page": "c01-s04-p02",
+      "title": "Geography during night flight",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s04-p02.png",
+      "source_sha256": "e955a282d3675cc7b1e6af3bf3e66aa08370e9e3107f6464f10a2487da0a9f7a",
+      "duration_seconds": 13,
+      "timeline_start_seconds": 145.517,
+      "timeline_end_seconds": 157.982,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/13_c01-s04-p02_13s_narration.txt",
+      "prompt_sha256": "16041a239d4c1a4101de2505e989cb45f5bfdf2b9f2edd7fbaaa1ab80a31c0a9",
+      "story_text_context_only": "And yes, geography has helped. One look, and I know: China or Arizona. That's useful when you're lost in the dark.",
+      "scene": "The complete plane and pilot are already lower in the composition, flying nose-right. The small map thought occupies its reserved upper-right sky space; the moon and painted page border stay in place.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Begin steady nose-right night flight with the map thought already visible in its reserved sky space. Keep the complete plane/pilot group at exactly its source scale.",
+          "end_seconds": 1.113
+        },
+        {
+          "start_seconds": 1.113,
+          "action": "Hold the calm navigation composition. Map, cloud rim, three puffs, moon and stars remain stationary.",
+          "end_seconds": 3.973
+        },
+        {
+          "start_seconds": 3.973,
+          "action": "Give the pilot one tiny eye/head adjustment toward the route ahead, then settle by 6.3 seconds. The thought trail stays anchored near his head.",
+          "end_seconds": 6.3
+        },
+        {
+          "start_seconds": 6.3,
+          "action": "Hold quiet recognition and steady flight; distant terrain drifts slightly viewer-left, no more than two percent of frame width over the whole clip. No real map handling or atlas animation.",
+          "end_seconds": 11.9
+        },
+        {
+          "start_seconds": 11.9,
+          "action": "Keep the map readable and flight steady through the end.",
+          "end_seconds": 13
+        }
+      ],
+      "ambient_audio": "Soft even piston-engine hum and gentle airflow, quiet beneath a later narration mix. No revving, radio, voices, wind gusts, navigation beeps or music. Thought pictures are silent.",
+      "preservation_locks": "Keep map contours, size, pigment, cloud padding and position unchanged. No labels, route lines, animated atlas zoom, extra islands, pulsing rim, moving moon or scintillating stars. No aircraft growth or movement into the cloud. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 02:25.517–02:37.982. Keep video 00:00.000–00:12.465 (12.465 seconds) from the generated 13-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 13,
+      "final_duration_seconds": 12.465,
+      "source_audio_start_seconds": 147.717,
+      "source_audio_end_seconds": 160.182,
+      "paragraph_id": "para.c01.012",
+      "narration_cues": [
+        {
+          "phrase": "geography has helped",
+          "source_seconds": 148.83,
+          "chapter_seconds": 146.63,
+          "clip_seconds": 1.113
+        },
+        {
+          "phrase": "One look",
+          "source_seconds": 151.69,
+          "chapter_seconds": 149.49,
+          "clip_seconds": 3.973
+        },
+        {
+          "phrase": "China or Arizona",
+          "source_seconds": 154.19,
+          "chapter_seconds": 151.99,
+          "clip_seconds": 6.473
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 14,
+      "page": "c01-s04-p03",
+      "title": "Listening to important talk",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s04-p03.png",
+      "source_sha256": "3fefb506ac6164814d0445c9783f333d92e7b7f9b39fc2b69ef726dac44fb73c",
+      "duration_seconds": 15,
+      "timeline_start_seconds": 157.982,
+      "timeline_end_seconds": 172.286,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/14_c01-s04-p03_15s_narration.txt",
+      "prompt_sha256": "b62882fc933a738c368a6156d81c4f7bf59a6c33200c8af6d42c6ec4bf5b2b70",
+      "story_text_context_only": "I've met many grown-ups in different countries. I've listened to all their important talk. And I still remember why I put down my pencil.",
+      "scene": "The adult narrator sits at viewer left, quietly listening to the two grown-ups across the round table. He is not displaying a drawing in this illustration.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Hold the exact seated arrangement, with the narrator on the left quietly listening. He has no displayed drawing.",
+          "end_seconds": 4.938
+        },
+        {
+          "start_seconds": 4.938,
+          "action": "The moustached man makes one small emphasis with his existing raised hand. The narrator attends to him; mouths retain the reference expressions without speech-shaped movement.",
+          "end_seconds": 9.648
+        },
+        {
+          "start_seconds": 9.648,
+          "action": "Let the narrator become slightly more reflective, with one small blink and a restrained eye movement. The younger listener remains attentive.",
+          "end_seconds": 13.7
+        },
+        {
+          "start_seconds": 13.7,
+          "action": "Settle the gestures close to their original positions. No added drawing or childhood flashback.",
+          "end_seconds": 15
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "Keep the narrator’s matched anatomical scale and chair angle. No drawing appears in his hands, no added guest or prop, no chair slide, table wobble, exaggerated nod or changed room zoom. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 02:37.982–02:52.286. Keep video 00:00.000–00:14.304 (14.304 seconds) from the generated 15-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 15,
+      "final_duration_seconds": 14.304,
+      "source_audio_start_seconds": 160.182,
+      "source_audio_end_seconds": 174.486,
+      "paragraph_id": "para.c01.013",
+      "narration_cues": [
+        {
+          "phrase": "I've listened",
+          "source_seconds": 165.12,
+          "chapter_seconds": 162.92,
+          "clip_seconds": 4.938
+        },
+        {
+          "phrase": "And I still remember",
+          "source_seconds": 169.83,
+          "chapter_seconds": 167.63,
+          "clip_seconds": 9.648
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 15,
+      "page": "c01-s05-p01",
+      "title": "Hoping someone will understand",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s05-p01.png",
+      "source_sha256": "d0280ce2ba50aff602fd0664f8596d9756699f97dc3b1e7784ed77b6eee4fc0d",
+      "duration_seconds": 15,
+      "timeline_start_seconds": 172.286,
+      "timeline_end_seconds": 187.24,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/15_c01-s05-p01_15s_narration.txt",
+      "prompt_sha256": "719dabeb16208f8141549f008a8a9ccdc473baaec3b72c37983e52751cf0c631",
+      "story_text_context_only": "But sometimes I meet someone and think, \"Perhaps this one will understand.\" I still have Drawing Number One. So I show it to them.",
+      "scene": "Pilot already reaches the sheet toward the adults with a hopeful open smile. Keep the offered paper steady; only slight breathing, a restrained brow lift and a blink. Do not raise or extend it again.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Pilot already reaches the sheet toward the adults with a hopeful open smile. Keep the offered paper steady; only slight breathing, a restrained brow lift and a blink. Do not raise or extend it again.",
+          "end_seconds": 5.424
+        },
+        {
+          "start_seconds": 5.424,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 9.524
+        },
+        {
+          "start_seconds": 9.524,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 12.604
+        },
+        {
+          "start_seconds": 12.604,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 14.5
+        },
+        {
+          "start_seconds": 14.5,
+          "action": "Let movement settle into a stable hold, preserving the supplied expression, composition and all contacts.",
+          "end_seconds": 15
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "No hat cloud before the response. No sheet rotation, paper flutter, hand regripping, extra fingers, new drawing, changed scale or moving furniture. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 02:52.286–03:07.240. Keep video 00:00.000–00:14.954 (14.954 seconds) from the generated 15-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 15,
+      "final_duration_seconds": 14.954,
+      "source_audio_start_seconds": 174.486,
+      "source_audio_end_seconds": 189.44,
+      "paragraph_id": "para.c01.014",
+      "narration_cues": [
+        {
+          "phrase": "Perhaps this one",
+          "source_seconds": 179.91,
+          "chapter_seconds": 177.71,
+          "clip_seconds": 5.424
+        },
+        {
+          "phrase": "I still have",
+          "source_seconds": 184.01,
+          "chapter_seconds": 181.81,
+          "clip_seconds": 9.524
+        },
+        {
+          "phrase": "So I show",
+          "source_seconds": 187.09,
+          "chapter_seconds": 184.89,
+          "clip_seconds": 12.604
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 16,
+      "page": "c01-s05-p02",
+      "title": "The same answer again",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s05-p02.png",
+      "source_sha256": "a113ec61f95cb71e3f9b1903a68d6111fd16b7ae48ca3c4ab96a86c65668fba7",
+      "duration_seconds": 9,
+      "timeline_start_seconds": 187.24,
+      "timeline_end_seconds": 195.241,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/16_c01-s05-p02_9s_narration.txt",
+      "prompt_sha256": "34450f05157203a20c3464448469f735e3b2bb7fe122be37078d10f9cc309bfe",
+      "story_text_context_only": "I wait for their answer. \"A hat,\" they say. Always a hat.",
+      "scene": "Pilot already holds the sheet closer and looks down in disappointment. Preserve this sad face and all paper/finger contacts. The adult-owned hat thought and three puffs are present from frame zero.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Pilot already holds the sheet closer and looks down in disappointment. Preserve this sad face and all paper/finger contacts. The adult-owned hat thought and three puffs are present from frame zero.",
+          "end_seconds": 2.93
+        },
+        {
+          "start_seconds": 2.93,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 4.8
+        },
+        {
+          "start_seconds": 4.8,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 5.72
+        },
+        {
+          "start_seconds": 5.72,
+          "action": "Let movement settle into a stable hold, preserving the supplied expression, composition and all contacts.",
+          "end_seconds": 9
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "Do not enlarge or animate the hat, alter its pale watercolor finish, switch the thinker, replace Drawing One with a hat, lower the sheet, move the table or rotate any chair. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 03:07.240–03:15.241. Keep video 00:00.000–00:08.001 (8.001 seconds) from the generated 9-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 9,
+      "final_duration_seconds": 8.001,
+      "source_audio_start_seconds": 189.44,
+      "source_audio_end_seconds": 197.441,
+      "paragraph_id": "para.c01.015",
+      "narration_cues": [
+        {
+          "phrase": "I wait",
+          "source_seconds": 189.79,
+          "chapter_seconds": 187.59,
+          "clip_seconds": 0.35
+        },
+        {
+          "phrase": "A hat",
+          "source_seconds": 192.37,
+          "chapter_seconds": 190.17,
+          "clip_seconds": 2.93
+        },
+        {
+          "phrase": "Always a hat",
+          "source_seconds": 195.16,
+          "chapter_seconds": 192.96,
+          "clip_seconds": 5.72
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 17,
+      "page": "c01-s05-p03",
+      "title": "Turning to ordinary subjects",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s05-p03.png",
+      "source_sha256": "2f2ac4b9e8c0d7051df212945433cd972d0592ec5123fa5ef42f00f5c1638e50",
+      "duration_seconds": 14,
+      "timeline_start_seconds": 195.241,
+      "timeline_end_seconds": 208.631,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/17_c01-s05-p03_14s_narration.txt",
+      "prompt_sha256": "79119348d2042b0cccb57bde079ddd0637937fe94d40a85df37c2caa5bd963d1",
+      "story_text_context_only": "After that, I say nothing more about snakes, forests, or stars. We talk about work instead. About money. About clothes.",
+      "scene": "Pilot already makes a polite open-palm conversational gesture, blank reverse paper flat on lap. Keep the hand within its existing small gesture range; adults attend to him.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Pilot already makes a polite open-palm conversational gesture, blank reverse paper flat on lap. Keep the hand within its existing small gesture range; adults attend to him.",
+          "end_seconds": 7.859
+        },
+        {
+          "start_seconds": 7.859,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 10.249
+        },
+        {
+          "start_seconds": 10.249,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 12.7
+        },
+        {
+          "start_seconds": 12.7,
+          "action": "Let movement settle into a stable hold, preserving the supplied expression, composition and all contacts.",
+          "end_seconds": 14
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "Do not materialize work, money or clothes as new objects or thought clouds. Preserve the lowered sheet and furniture. No grand gesturing, renewed drawing display or enthusiastic laughter. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 03:15.241–03:28.631. Keep video 00:00.000–00:13.390 (13.39 seconds) from the generated 14-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 14,
+      "final_duration_seconds": 13.39,
+      "source_audio_start_seconds": 197.441,
+      "source_audio_end_seconds": 210.831,
+      "paragraph_id": "para.c01.016",
+      "narration_cues": [
+        {
+          "phrase": "We talk about work",
+          "source_seconds": 205.3,
+          "chapter_seconds": 203.1,
+          "clip_seconds": 7.859
+        },
+        {
+          "phrase": "About money",
+          "source_seconds": 207.69,
+          "chapter_seconds": 205.49,
+          "clip_seconds": 10.249
+        },
+        {
+          "phrase": "About clothes",
+          "source_seconds": 209.38,
+          "chapter_seconds": 207.18,
+          "clip_seconds": 11.939
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 18,
+      "page": "c01-s06-p01",
+      "title": "A sensible man in their eyes",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s06-p01.png",
+      "source_sha256": "5f0b827cc0e2dc656b97ebf1f69845bdc7b4853e02c881d09d6540d16f3e02c5",
+      "duration_seconds": 16,
+      "timeline_start_seconds": 208.631,
+      "timeline_end_seconds": 224.377,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/18_c01-s06-p01_16s_narration.txt",
+      "prompt_sha256": "fe27a95840fb82eb56d482c1d6674e1e84638bd94fb1f09a9e16286df0d46932",
+      "story_text_context_only": "And now they're pleased with me. Such a sensible man! We understand each other so well. At least, that's what they think.",
+      "scene": "Distinct pleased-agreement image: younger adult is already smiling with an open palm toward the pilot, older adult is friendly. Maintain this response and current seating; do not recreate the previous page.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Distinct pleased-agreement image: younger adult is already smiling with an open palm toward the pilot, older adult is friendly. Maintain this response and current seating; do not recreate the previous page.",
+          "end_seconds": 2.529
+        },
+        {
+          "start_seconds": 2.529,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 5.369
+        },
+        {
+          "start_seconds": 5.369,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 12.789
+        },
+        {
+          "start_seconds": 12.789,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 15.2
+        },
+        {
+          "start_seconds": 15.2,
+          "action": "Let movement settle into a stable hold, preserving the supplied expression, composition and all contacts.",
+          "end_seconds": 16
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "No thought cloud, text reading sensible, new props or exaggerated grin. Do not repeat the narrator’s previous broad action, change his size, alter the drawing’s existing rest position or move the camera. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 03:28.631–03:44.377. Keep video 00:00.000–00:15.746 (15.746 seconds) from the generated 16-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 16,
+      "final_duration_seconds": 15.746,
+      "source_audio_start_seconds": 210.831,
+      "source_audio_end_seconds": 226.577,
+      "paragraph_id": "para.c01.017",
+      "narration_cues": [
+        {
+          "phrase": "pleased with me",
+          "source_seconds": 213.36,
+          "chapter_seconds": 211.16,
+          "clip_seconds": 2.529
+        },
+        {
+          "phrase": "Such a sensible man",
+          "source_seconds": 216.2,
+          "chapter_seconds": 214.0,
+          "clip_seconds": 5.369
+        },
+        {
+          "phrase": "At least",
+          "source_seconds": 223.62,
+          "chapter_seconds": 221.42,
+          "clip_seconds": 12.789
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    },
+    {
+      "order": 19,
+      "page": "c01-s06-p02",
+      "title": "Alone among the grown-ups",
+      "source_image": "production/chapter-01/delivery/chapter-01-v010/illustrations/c01-s06-p02.png",
+      "source_sha256": "4e351e796a46abd6eac551515fd442cf086f5cb42773bdd4ba272fe7ce4e9daa",
+      "duration_seconds": 9,
+      "timeline_start_seconds": 224.377,
+      "timeline_end_seconds": 232.504,
+      "prompt_file": "production/chapter-01/animation/seedance-2.5/prompts/19_c01-s06-p02_9s_narration.txt",
+      "prompt_sha256": "f124340984bcb3580a2df799a241b2ea2e6f281eb50b39d154a7631cbf9e057b",
+      "story_text_context_only": "There were people all around me. But no one I could really talk to.",
+      "scene": "Pilot is already downcast and visibly lonely in the closer supplied view, hands on lap paper, body/chair still toward the group. Other adults are already softly blurred. Preserve the existing sadness without a chair turn, extra blur or new camera move.",
+      "timed_motion": [
+        {
+          "start_seconds": 0,
+          "action": "Pilot is already downcast and visibly lonely in the closer supplied view, hands on lap paper, body/chair still toward the group. Other adults are already softly blurred. Preserve the existing sadness without a chair turn, extra blur or new camera move.",
+          "end_seconds": 1.353
+        },
+        {
+          "start_seconds": 1.353,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 4.143
+        },
+        {
+          "start_seconds": 4.143,
+          "action": "Maintain the supplied expression, gaze direction and physical contacts; one small natural blink or breathing movement only. No paper, chair or thought movement.",
+          "end_seconds": 6.1
+        },
+        {
+          "start_seconds": 6.1,
+          "action": "Let movement settle into a stable hold, preserving the supplied expression, composition and all contacts.",
+          "end_seconds": 9
+        }
+      ],
+      "ambient_audio": "Very quiet, steady indoor room tone. Optional cloth movement only if visibly matched to a small gesture. No vocal sound, audible breath, music, pencil drop, page turn, animal or magical sound.",
+      "preservation_locks": "No chair rotation, sliding away, shrinking narrator, emptying the room, heavy new blur or rack focus. Preserve the existing small distances and the narrator’s sharpness. No tears, new cloud, waving goodbye or physical abandonment. Preserve v010 anatomical scale, existing expressions, support positions and attached shadows; thoughts have exactly three small stationary puffs where present.",
+      "editing_note_not_for_generation": "Place at chapter 03:44.377–03:52.504. Keep video 00:00.000–00:08.127 (8.127 seconds) from the generated 9-second clip; remove only its surplus end. Keep the continuous narration uncut and at 100% speed. End after the final words and short recorded pause. Any optional visual fade belongs only in the final approximately 0.35-second pause; do not add time or fade the final words.",
+      "status": "narration_timed_instructions_ready_not_generated",
+      "generation_duration_seconds": 9,
+      "final_duration_seconds": 8.127,
+      "source_audio_start_seconds": 226.577,
+      "source_audio_end_seconds": 234.704,
+      "paragraph_id": "para.c01.018",
+      "narration_cues": [
+        {
+          "phrase": "people all around",
+          "source_seconds": 227.93,
+          "chapter_seconds": 225.73,
+          "clip_seconds": 1.353
+        },
+        {
+          "phrase": "But no one",
+          "source_seconds": 230.72,
+          "chapter_seconds": 228.52,
+          "clip_seconds": 4.143
+        },
+        {
+          "phrase": "really talk to",
+          "source_seconds": 232.6,
+          "chapter_seconds": 230.4,
+          "clip_seconds": 6.023
+        }
+      ],
+      "recommended_method": "generate_then_trim_tail"
+    }
+  ],
+  "revision": "narration-synchronized",
+  "total_generation_seconds": 240,
+  "narration_source": "production/chapter-01/animation/seedance-2.5/audio/Chapter_1_Narration.wav",
+  "narration_alignment": "production/chapter-01/animation/seedance-2.5/narration-alignment.json",
+  "chapter_offset_in_original_seconds": 2.2,
+  "chapter_end_in_original_seconds": 234.704,
+  "opening_method": "Local 2.573-second hold recommended; optional 4-second generation then trim."
+}

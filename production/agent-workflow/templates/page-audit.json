@@ -1,0 +1,165 @@
+{
+  "template_only": true,
+  "page": null,
+  "chapter": null,
+  "output_file": null,
+  "output_sha256": null,
+  "layout_file": null,
+  "generation_round": 1,
+  "source_requests": [],
+  "visible_instant": null,
+  "realm": null,
+  "actor_action_target": null,
+  "measured_placements": [],
+  "contacts": [],
+  "paper_surfaces": [],
+  "checks": {
+    "story_staging": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "identity_style_scale": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "orientation_emotion": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "prop_ownership_state": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "extraction_second_check": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "contact_alignment_second_check": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "paper_marks_occlusion": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "reading_size": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "native_size": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "adjacent_continuity": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "exact_reconstruction": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "same_camera_scale": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "painted_frame_border": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "thought_content_legibility": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "text_visual_alignment": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "thought_selection_and_owner": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "thought_chronology_and_redundancy": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "thought_aesthetic_hierarchy": {
+      "verdict": null,
+      "evidence": "Whole-page reading-size visual weight, style simplicity, reserved space and clear owner; or factual no-cloud reason."
+    },
+    "relative_scale_second_landmark": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "stationary_anchor_registration": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "actual_ground_contact": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "meaningful_unique_page": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "motivated_whole_scene_camera": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "readable_face_and_recipient": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    },
+    "three_puff_owner_path": {
+      "verdict": "NOT_CHECKED",
+      "evidence": null
+    }
+  },
+  "issues": [],
+  "verdict": "NOT_CHECKED",
+  "user_approved": false,
+  "reviewer": null,
+  "reviewed_at": null,
+  "geometry_measurements": {
+    "camera_group_id": null,
+    "baseline_page": null,
+    "native_landmarks": [],
+    "target_landmarks": [],
+    "uniform_scales": [],
+    "support_anchors": [],
+    "painted_bounds": null,
+    "normalized_margins": null,
+    "thought_content_bounds": null
+  },
+  "text_evidence": {
+    "central_action_or_response": null,
+    "visible_component_evidence": [],
+    "thought_decision": null,
+    "thought_owner": null,
+    "exact_phrase_or_user_directed_inference": null,
+    "neighbour_page_check": null
+  },
+  "composition_performance_contract": {
+    "version": 1,
+    "guide": "production/Composition_Continuity_and_Performance.md",
+    "scale_tolerance_percent": 1.5,
+    "unchanged_anchor_tolerance_px": 3,
+    "scale_method": "Native anatomical and rigid-prop endpoints -> one uniform scale -> second independent landmark check; never fit pose height as anatomy.",
+    "relative_scale_authority": "Named geometry artwork and persistent cross-chapter ratios; reconcile conflicting turnaround proportions before generating.",
+    "registration": "Keep actor/prop world anchors and at least three room/floor landmarks fixed at same camera/depth unless the passage moves them.",
+    "camera_rule": "Plan a motivated establishing/interaction/detail/emotional shot; genuine angle needs matching perspective sources. Reframe ALL physical layers and shadows together, preserve screen direction and painted border.",
+    "expression_rule": "Each visible participant has named readable emotion, gaze recipient, brow/eye/mouth/head/gesture evidence at reading size.",
+    "grounding_rule": "Verified actual bearing surfaces, one owner, attached low-alpha contact core and soft wash; no white gap; no shadows under imagined/airborne objects.",
+    "thought_trail_count_when_selected": 3,
+    "uniqueness_rule": "Every page communicates its own text through action/response/meaningful view; no exact or cosmetic-only duplicate.",
+    "before_delivery": [
+      "actual native landmarks and source hashes",
+      "relative scale and same-camera comparison",
+      "actual support pixels and final shadow attachment",
+      "reading-size expression/gaze/interaction",
+      "decoded-pixel duplicate scan plus semantic near-duplicate review",
+      "exact layer reconstruction",
+      "manual chapter approval stop"
+    ]
+  }
+}

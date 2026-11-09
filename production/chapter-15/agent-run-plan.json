@@ -1,0 +1,556 @@
+{
+  "workflow_version": 9,
+  "chapter": 15,
+  "title": "The Geographer",
+  "page_count": 18,
+  "page_order": [
+    "c15-s01-p01",
+    "c15-s01-p02",
+    "c15-s01-p03",
+    "c15-s01-p04",
+    "c15-s01-p05",
+    "c15-s01-p06",
+    "c15-s02-p01",
+    "c15-s02-p02",
+    "c15-s02-p03",
+    "c15-s02-p04",
+    "c15-s02-p05",
+    "c15-s03-p01",
+    "c15-s03-p02",
+    "c15-s03-p03",
+    "c15-s03-p04",
+    "c15-s03-p05",
+    "c15-s03-p06",
+    "c15-s03-p07"
+  ],
+  "status": "plan_only_check_current_overlays_and_accepted_sources",
+  "chapter_notes": "Geographer stays seated. Prince sits on the clear RIGHT-FRONT table bay, never on the book, until departure. Raised seat does not make child adult-sized. Pen only in early entry; pencil for unverified testimony, never confirmed ink. Unknown geography stays unknown; \u201cten times bigger\u201d is not asserted as an exact diameter.",
+  "manual_approval_required_after_delivery": true,
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "scale_and_anchor_registry_required_before_composition": true,
+  "decoded_pixel_and_semantic_duplicate_checks_required": true,
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_requires_reviewed_graphics": true,
+  "direct_source_requests": [
+    "CH02_B00",
+    "CH03_S03",
+    "CH07_R02",
+    "CH15_B01",
+    "CH15_R01",
+    "CH15_S01",
+    "CH15_S02",
+    "CH15_S03",
+    "CH15_S04"
+  ],
+  "dependency_order": [
+    "CH02_B00",
+    "CH03_S03",
+    "CH07_R02",
+    "CH15_R01",
+    "CH15_B01",
+    "CH15_S01",
+    "CH15_S02",
+    "CH15_S03",
+    "CH15_S04"
+  ],
+  "later_owned_required_sources": [],
+  "possible_initial_jobs_before_reuse": 16,
+  "max_total_submissions_if_all_sources_were_new": 48,
+  "budget_note": "Theoretical upper bound only. Not a spending budget. Reuse first, subtract both ledgers, require bounded spend window and exceptional third-attempt evidence.",
+  "generation_requests": [
+    {
+      "request_id": "CH02_B00",
+      "owner_chapter": 2,
+      "prompt_file": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-02/references/B00_shared_editorial_cover_wash/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c15-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH03_S03",
+      "owner_chapter": 3,
+      "prompt_file": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-03/reusable-poses/S03_prince_quiet_and_departing/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c15-s03-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH07_R02",
+      "owner_chapter": 7,
+      "prompt_file": "story-and-continuity/chapter-07/references/R02_living_special_rose/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-07/references/R02_living_special_rose/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c15-s03-p05"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH15_R01",
+      "owner_chapter": 15,
+      "prompt_file": "story-and-continuity/chapter-15/references/R01_great_book_and_magnifier_opening/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-15/references/R01_great_book_and_magnifier_opening/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c15-s01-p01"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH15_B01",
+      "owner_chapter": 15,
+      "prompt_file": "story-and-continuity/chapter-15/references/B01_geographer_empty_world/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-15/references/B01_geographer_empty_world/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c15-s01-p02",
+        "c15-s01-p03",
+        "c15-s01-p04",
+        "c15-s01-p05",
+        "c15-s01-p06",
+        "c15-s02-p01",
+        "c15-s02-p02",
+        "c15-s02-p03",
+        "c15-s02-p04",
+        "c15-s02-p05",
+        "c15-s03-p01",
+        "c15-s03-p02",
+        "c15-s03-p03",
+        "c15-s03-p04",
+        "c15-s03-p05",
+        "c15-s03-p06",
+        "c15-s03-p07"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH15_S01",
+      "owner_chapter": 15,
+      "prompt_file": "story-and-continuity/chapter-15/reusable-poses/S01_geographer_and_prince_early_entry/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-15/reusable-poses/S01_geographer_and_prince_early_entry/audit-contract.json",
+      "dependencies": [],
+      "active_page_uses": [
+        "c15-s01-p02"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH15_S02",
+      "owner_chapter": 15,
+      "prompt_file": "story-and-continuity/chapter-15/reusable-poses/S02_geographer_and_prince_conversation/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-15/reusable-poses/S02_geographer_and_prince_conversation/audit-contract.json",
+      "dependencies": [
+        "CH15_S01"
+      ],
+      "active_page_uses": [
+        "c15-s01-p03",
+        "c15-s01-p04",
+        "c15-s01-p05",
+        "c15-s01-p06",
+        "c15-s02-p01",
+        "c15-s02-p02",
+        "c15-s02-p03"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH15_S03",
+      "owner_chapter": 15,
+      "prompt_file": "story-and-continuity/chapter-15/reusable-poses/S03_geographer_taking_pencil_account/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-15/reusable-poses/S03_geographer_taking_pencil_account/audit-contract.json",
+      "dependencies": [
+        "CH15_S01"
+      ],
+      "active_page_uses": [
+        "c15-s02-p04",
+        "c15-s02-p05",
+        "c15-s03-p01",
+        "c15-s03-p02",
+        "c15-s03-p03",
+        "c15-s03-p04",
+        "c15-s03-p05",
+        "c15-s03-p06"
+      ],
+      "dependency_only": false
+    },
+    {
+      "request_id": "CH15_S04",
+      "owner_chapter": 15,
+      "prompt_file": "story-and-continuity/chapter-15/reusable-poses/S04_geographer_after_visitor_leaves/PROMPT.txt",
+      "audit_contract": "story-and-continuity/chapter-15/reusable-poses/S04_geographer_after_visitor_leaves/audit-contract.json",
+      "dependencies": [
+        "CH15_S01"
+      ],
+      "active_page_uses": [
+        "c15-s03-p07"
+      ],
+      "dependency_only": false
+    }
+  ],
+  "pages": [
+    {
+      "page": "c15-s01-p01",
+      "assets": [
+        "CH02_B00:ONE",
+        "CH15_R01:ONE"
+      ],
+      "story_text": "",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s01-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s01-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s01-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p01/layout.json",
+      "reference_lineage": {
+        "CH02_B00:ONE": "A_CH02_B00_ONE",
+        "CH15_R01:ONE": "A_CH15_R01_ONE"
+      }
+    },
+    {
+      "page": "c15-s01-p02",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S01:ONE"
+      ],
+      "story_text": "The sixth planet was ten times bigger than the last. An old man sat writing in a great book. \"A traveler!\" The little prince sat on the table to rest after his journey.",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s01-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s01-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s01-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p02/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S01:ONE": "V_CH15_S01_ONE"
+      }
+    },
+    {
+      "page": "c15-s01-p03",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S02:ONE"
+      ],
+      "story_text": "\"What's that book? What do you do?\" \"I'm a geographer. I know where the seas, rivers, towns, mountains, and deserts are.\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s01-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s01-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s01-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p03/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S02:ONE": "V_CH15_S02_ONE"
+      }
+    },
+    {
+      "page": "c15-s01-p04",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S02:ONE"
+      ],
+      "story_text": "At last, a useful job!",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s01-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s01-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s01-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p04/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S02:ONE": "V_CH15_S02_ONE"
+      }
+    },
+    {
+      "page": "c15-s01-p05",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S02:ONE"
+      ],
+      "story_text": "\"Your planet is beautiful. Are there oceans?\" \"I don't know.\" \"Mountains? Towns? Rivers?\" \"I don't know.\" \"But you're a geographer!\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s01-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s01-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s01-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p05/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S02:ONE": "V_CH15_S02_ONE"
+      }
+    },
+    {
+      "page": "c15-s01-p06",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S02:ONE"
+      ],
+      "story_text": "\"Exactly. Not a traveler. I stay at my desk. My work is too important for traveling. Travelers travel and tell me what they find. But there aren't any on my planet.\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s01-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s01-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s01-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s01-p06/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S02:ONE": "V_CH15_S02_ONE"
+      }
+    },
+    {
+      "page": "c15-s02-p01",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S02:ONE"
+      ],
+      "story_text": "\"First, I must know whether a traveler tells the truth. Lies would make my books wrong. So would too much alcohol.\" \"Why?\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s02-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s02-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s02-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p01/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S02:ONE": "V_CH15_S02_ONE"
+      }
+    },
+    {
+      "page": "c15-s02-p02",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S02:ONE"
+      ],
+      "story_text": "\"A man who has drunk too much might see two mountains where there is only one.\" \"I know someone who would make a bad traveler.\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s02-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s02-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s02-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p02/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S02:ONE": "V_CH15_S02_ONE"
+      }
+    },
+    {
+      "page": "c15-s02-p03",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S02:ONE"
+      ],
+      "story_text": "\"Then I need proof of what the traveler has found.\" \"You go and look?\" \"No. Too much trouble. For a mountain, he must bring back large stones.\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s02-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s02-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s02-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p03/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S02:ONE": "V_CH15_S02_ONE"
+      }
+    },
+    {
+      "page": "c15-s02-p04",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S03:ONE"
+      ],
+      "story_text": "\"But you come from far away. Tell me about your planet!\" He picked up his pencil. First, pencil. Only after proof did he write in pen.",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s02-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s02-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s02-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p04/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S03:ONE": "V_CH15_S03_ONE"
+      }
+    },
+    {
+      "page": "c15-s02-p05",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S03:ONE"
+      ],
+      "story_text": "\"It's very small. I have three volcanoes. Two are still burning, and one is cold. But you never know.\" \"You never know.\" \"And I have a flower.\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s02-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s02-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s02-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s02-p05/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S03:ONE": "V_CH15_S03_ONE"
+      }
+    },
+    {
+      "page": "c15-s03-p01",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S03:ONE"
+      ],
+      "story_text": "\"We don't write about flowers.\" \"Why? She's the most beautiful thing on my planet.\" \"Flowers are short-lived.\" \"What does that mean?\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s03-p01/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s03-p01/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s03-p01/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p01/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p01/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S03:ONE": "V_CH15_S03_ONE"
+      }
+    },
+    {
+      "page": "c15-s03-p02",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S03:ONE"
+      ],
+      "story_text": "\"My books are about things that last. A mountain doesn't move. An ocean doesn't suddenly empty. These books don't go out of date.\" \"What does short-lived mean?\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s03-p02/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s03-p02/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s03-p02/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p02/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p02/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S03:ONE": "V_CH15_S03_ONE"
+      }
+    },
+    {
+      "page": "c15-s03-p03",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S03:ONE"
+      ],
+      "story_text": "\"A cold volcano might wake again.\" \"That makes no difference to me. The mountain stays.\" \"But what does short-lived mean?\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s03-p03/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s03-p03/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s03-p03/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p03/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p03/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S03:ONE": "V_CH15_S03_ONE"
+      }
+    },
+    {
+      "page": "c15-s03-p04",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S03:ONE"
+      ],
+      "story_text": "\"It means something that may soon disappear.\" \"My flower may soon disappear?\" \"Of course.\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s03-p04/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s03-p04/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s03-p04/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p04/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p04/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S03:ONE": "V_CH15_S03_ONE"
+      }
+    },
+    {
+      "page": "c15-s03-p05",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S03:ONE",
+        "CH07_R02:R"
+      ],
+      "story_text": "His flower. Four little thorns against the whole world. And he had left her alone. For the first time on his journey, he wished he had stayed.",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s03-p05/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s03-p05/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s03-p05/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p05/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p05/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S03:ONE": "V_CH15_S03_ONE",
+        "CH07_R02:R": "V_CH07_R02_R"
+      }
+    },
+    {
+      "page": "c15-s03-p06",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S03:ONE"
+      ],
+      "story_text": "\"Where do you think I should go next?\" \"Earth. People speak well of it.\"",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s03-p06/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s03-p06/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s03-p06/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p06/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p06/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S03:ONE": "V_CH15_S03_ONE"
+      }
+    },
+    {
+      "page": "c15-s03-p07",
+      "assets": [
+        "CH15_B01:ONE",
+        "CH15_S04:ONE",
+        "CH03_S03:R"
+      ],
+      "story_text": "The little prince went on his way, thinking of his flower.",
+      "assembly_instructions": "story-and-continuity/chapter-15/page-compositions/c15-s03-p07/ASSEMBLY.md",
+      "layout": "story-and-continuity/chapter-15/page-compositions/c15-s03-p07/layout.json",
+      "placement_guide": "story-and-continuity/chapter-15/page-compositions/c15-s03-p07/PLACEMENT_GUIDE.png",
+      "max_generation_rounds": 3,
+      "geometry_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p07/layout.json",
+      "text_alignment_contract": "story-and-continuity/chapter-15/page-compositions/c15-s03-p07/layout.json",
+      "reference_lineage": {
+        "CH15_B01:ONE": "A_CH15_B01_ONE",
+        "CH15_S04:ONE": "V_CH15_S04_ONE",
+        "CH03_S03:R": "V_CH03_S03_R"
+      }
+    }
+  ],
+  "policy": "production/agent-policy.json",
+  "audit_template": "production/agent-workflow/templates/page-audit.json",
+  "lineage_execution_order": [
+    "I_prince",
+    "I_geo",
+    "I_flower",
+    "N_prince_walk_right__soft_day_upper_left",
+    "N_rose_open__soft_day_upper_left",
+    "N_geographer_with_prince__soft_day_upper_left",
+    "N_geographer_alone__soft_day_upper_left",
+    "V_CH03_S03_R",
+    "V_CH07_R02_R",
+    "A_CH15_B01_ONE",
+    "V_CH15_S01_ONE",
+    "V_CH15_S02_ONE",
+    "V_CH15_S03_ONE",
+    "V_CH15_S04_ONE",
+    "A_CH15_R01_ONE",
+    "A_CH02_B00_ONE"
+  ],
+  "generation_route": "lineage_nodes_only",
+  "legacy_dependency_usage": "offline_audit_and_historical_attempt_traceability",
+  "lineage_catalog": "production/reference-lineage/catalog.json",
+  "workflow_process": "production/workflow-9/PROCESS.md",
+  "family_canaries": {
+    "N_prince_walk_right__soft_day_upper_left": "V_CH03_S03_R",
+    "N_rose_open__soft_day_upper_left": "V_CH07_R02_R",
+    "N_geographer_with_prince__soft_day_upper_left": "V_CH15_S01_ONE",
+    "N_geographer_alone__soft_day_upper_left": "V_CH15_S04_ONE"
+  }
+}

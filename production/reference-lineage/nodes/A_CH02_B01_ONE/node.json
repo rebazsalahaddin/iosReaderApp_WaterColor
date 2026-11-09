@@ -1,0 +1,48 @@
+{
+  "id": "A_CH02_B01_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/reference-images/01_LP_ref_sahara_day.jpg",
+        "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+        "role": "Existing empty daytime Sahara plate. Preserve the full view and watercolor margins."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "same empty Sahara landscape and full camera as day reference, softly warm sunrise at LEFT, matching dunes and paper edges; no people or aircraft.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH02_B01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c02-s02-p01",
+    "c02-s02-p02",
+    "c02-s02-p04",
+    "c25-s01-p06",
+    "c25-s01-p07",
+    "c27-s01-p03"
+  ],
+  "audit_only_details": "Reusable dawn component for meeting, well close-ups and remembered absence. Keep one sun at most, no new landmarks.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH02_B01_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. same empty Sahara landscape and full camera as day reference, softly warm sunrise at LEFT, matching dunes and paper edges; no people or aircraft. Warm sunrise from upper-left. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-02/references/B01_sahara_sunrise_reusable_plate/audit-contract.json",
+  "prompt_sha256": "96d4406068bf59fc78ba14e2e07e67937d8b9933e535b6bd30cdcdeb6a4dafb6",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH02_B01_ONE"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "CH02_R02",
+  "chapter": 2,
+  "code": "R02",
+  "title": "small sheep imagined by the delighted prince",
+  "kind": "prop",
+  "cells": [
+    "ONE: one small healthy gentle lamb, curled comfortably with tucked legs, calm closed eyes, tiny ears, simple cream fleece and no horns. Sparse warm contours and broad watercolor wash; no realistic wool texture."
+  ],
+  "refs": [],
+  "details": "A subjective thought picture only, not a physical reveal of the sheep inside the box. No box, cutaway, grass field, people, paper, frame, trail, scenery or lettering. Do not alter the canonical box drawing. Keep the complete simple lamb isolated and readable at about 360px final width.",
+  "light": "Soft neutral upper-left illumination; opaque pale interiors, restrained luminous watercolor.",
+  "dependencies": [],
+  "key": null,
+  "slug": "prince_imagined_small_sheep",
+  "output": "CH02_R02_prince_imagined_small_sheep.png",
+  "revision_origin": "Latest user explicitly requested a prince-owned imagined sheep on the delighted box response page. This is new content, not a new allowance for an existing failed character.",
+  "status": "planned_not_generated",
+  "uses": [
+    "c02-s04-p02"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-02/references/R02_prince_imagined_small_sheep",
+  "raw_output_folder": "production/chapter-02/props/raw",
+  "representative_page": "c02-s04-p02",
+  "placement_targets": [
+    {
+      "page": "c02-s04-p02",
+      "cell": "CH02_R02:ONE",
+      "box_px": [
+        1455,
+        480,
+        360,
+        230
+      ],
+      "anchor": "center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_watercolor_style_crop.png",
+      "role": "STYLE ONLY: native crop of the approved Chapter 1 watercolor paper/pencil/wood, for pigment grain, local contour and opaque cream tone. Do not copy its pencil, drawing, wood surface or composition.",
+      "path": "story-and-continuity/chapter-02/references/R02_prince_imagined_small_sheep/reference-images/01_watercolor_style_crop.png",
+      "status": "supplied",
+      "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32"
+    },
+    {
+      "name": "02_approved_storybook_style.png",
+      "role": "STYLE ONLY: approved full Chapter 1 illustration. Match its simplified shapes, thin warm contours, quiet watercolor washes and low detail; do not copy cast, furniture, drawing or composition. This controls rendering simplicity over the texture-only first reference.",
+      "path": "story-and-continuity/chapter-02/references/R02_prince_imagined_small_sheep/reference-images/02_approved_storybook_style.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275"
+    }
+  ],
+  "readiness": "plan_only_no_chapter2_execution_authorized_in_this_turn",
+  "prompt": "CH02_R02 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: one small healthy gentle lamb, curled comfortably with tucked legs, calm closed eyes, tiny ears, simple cream fleece and no horns. Sparse warm contours and broad watercolor wash; no realistic wool texture.\n  Actual short payload: production/reference-lineage/nodes/A_CH02_R02_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "A_CH02_R02_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

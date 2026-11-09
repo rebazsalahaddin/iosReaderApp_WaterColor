@@ -1,0 +1,64 @@
+{
+  "page": "c01-s06-p02",
+  "canvas": [
+    2400,
+    1792
+  ],
+  "edition": "v011",
+  "layers": [
+    {
+      "source": "production/chapter-01/current/layers/b6c9e3ab4c4a1e5d8bb3.png",
+      "sha256": "b6c9e3ab4c4a1e5d8bb3407aa15915c5d47ce482bff4dea0cc3a50ca50d85d9f",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/50380f8d11db958fcbe0.png",
+      "sha256": "50380f8d11db958fcbe089267a8a5f650aa3ded8c8480a64719f89f7751dfe0d",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/fe29db304b6acf109846.png",
+      "sha256": "fe29db304b6acf10984693699d10450c8b59e1f6b7b733c63184978b74f1abf9",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/7833c46b746715839e9f.png",
+      "sha256": "7833c46b746715839e9fd00f26e04fc0c7cc1309bc51a31212c205d5b6b33ccf",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/cf58a6a187153e6fb2b0.png",
+      "sha256": "cf58a6a187153e6fb2b0d580cdb44b9529d39c7b707200e1917efeb14a5e061b",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "production/chapter-01/current/layers/08d6f374fef9b846b5ac.png",
+      "sha256": "08d6f374fef9b846b5acc3406be6102304c7ee1832966427a1c181f094f8225f",
+      "transform": "identity; alpha composite in listed order",
+      "position": [
+        0,
+        0
+      ]
+    }
+  ]
+}

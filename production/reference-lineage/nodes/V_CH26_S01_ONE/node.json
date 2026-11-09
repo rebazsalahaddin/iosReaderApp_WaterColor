@@ -1,0 +1,53 @@
+{
+  "id": "V_CH26_S01_ONE",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_prince_wall__evening_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_prince_wall__evening_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "prince seated on the top of a matching broken wall segment, legs dangling, looking down toward an unseen speaker below-right, quiet serious expression. Include the entire visible low broken wall span beneath him, no snake or snake shadow.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH26_S01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c26-s01-p02",
+    "c26-s01-p03",
+    "c26-s01-p04",
+    "c26-s01-p05",
+    "c26-s01-p06",
+    "c26-s01-p07"
+  ],
+  "allowed_changes": "prince seated on the top of a matching broken wall segment, legs dangling, looking down toward an unseen speaker below-right, quiet serious expression. Include the entire visible low broken wall span beneath him, no snake or snake shadow.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": "Use accepted B01 masonry/camera. Match wall height .45 H; no foot support invented under dangling boots. One local opaque stone insert. Full wall span is one coherent group, not a patch over a second wall. DIRECTION LOCK: Child seated facing front-right on wall, head DOWN-RIGHT toward hidden speaker, boots dangling; no visible snake before reveal.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH26_S01_ONE/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: prince seated on the top of a matching broken wall segment, legs dangling, looking down toward an unseen speaker below-right, quiet serious expression. Include the entire visible low broken wall span beneath him, no snake or snake shadow. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-26/reusable-poses/S01_prince_seated_on_wall/audit-contract.json",
+  "prompt_sha256": "b9d613790df612de14f19364e9794c08ed699145e92c33550b6ecffdbd6927f5",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH26_S01_ONE",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

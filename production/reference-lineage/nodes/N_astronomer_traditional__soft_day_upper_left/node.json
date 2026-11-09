@@ -1,0 +1,59 @@
+{
+  "id": "N_astronomer_traditional__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_astro_old"
+  ],
+  "input_contract": {
+    "max_images": 1,
+    "required_identity_parents": [
+      "I_astro_old"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [],
+    "no_style_bundle": true
+  },
+  "content": "Astronomer standing in traditional costume with neutral face, grounded feet and hands low. Body and feet RIGHT, head RIGHT toward the audience position. Body and feet RIGHT, head RIGHT toward the audience position.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "astronomer_traditional",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c04-s02-p01",
+    "c04-s02-p02",
+    "c04-s02-p03",
+    "c04-s02-p04"
+  ],
+  "legacy_tokens": [
+    "CH04_S03:L"
+  ],
+  "shadow_mode": "generated_attached_contact",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-04/reusable-poses/S03_astronomer_two_costumes/reference-images/06_CH04_S03_PACKING_GUIDE.png",
+      "sha256": "419dea939508cd635caa24b314562dfdc224e478cf79e250c5658467a722fa83",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-04/reusable-poses/S03_astronomer_two_costumes/reference-images/07_c04-s02-p01_COMPOSITION_GUIDE.png",
+      "sha256": "06b47ef4d115fe999c32b2527b719f200be22ee094b2d53d5683d19704adba17",
+      "role": "TECHNICAL final-page placement for c04-s02-p01. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_astronomer_traditional__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Astronomer standing in traditional costume with neutral face, grounded feet and hands low. Body and feet RIGHT, head RIGHT toward the audience position. Body and feet RIGHT, head RIGHT toward the audience position. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Use a restrained translucent neutral shadow touching actual ground supports, softly fading to zero alpha. Keep the floor itself transparent, with no pale painted island. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "8ae5d7e68781c13e6e73e7a10cd56c92772b8667ba411625ed7623ecdc2ffe63",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_astronomer_traditional__soft_day_upper_left"
+}

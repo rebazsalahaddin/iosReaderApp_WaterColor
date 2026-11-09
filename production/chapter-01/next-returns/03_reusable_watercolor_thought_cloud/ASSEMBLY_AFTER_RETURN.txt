@@ -1,0 +1,3 @@
+CURRENT CONTENT-FIRST THOUGHT ASSEMBLY
+
+Use production/Geometry_and_Frame_Continuity.md and production/shared/thought-clouds/registry.json. The existing large painted puff is the simple blank frame. Preserve original thought pigment and uniform aspect. c01-s01-p03 uses a 640px-wide snake picture in an 800×500 frame at [1200,150]; c01-s02-p03 uses a 650px-wide canonical Drawing Two in an 800×380 frame at [1270,215]. Use the current measured layouts for exact fitted picture offsets and trail positions. Interior is opaque cream; outer edge is softened. Never impose the former 650px cloud-body width or shrink the pictures to fit it. The shared compositor helper reproduces the current results exactly. No new generation is needed for these uses.

@@ -1,0 +1,58 @@
+{
+  "chapter": 26,
+  "method": "Pillow programmatic technical layout; thumbnails of existing source art plus explicitly schematic placement zones; no generative calls",
+  "programmatic_targets": [
+    "PROPOSED wall; standing ratio inherited",
+    [
+      [
+        "Pilot height H",
+        1.0
+      ],
+      [
+        "Prince height",
+        0.61
+      ],
+      [
+        "Wall top",
+        0.45
+      ]
+    ]
+  ],
+  "generated_guides": [
+    {
+      "path": "size-and-location-references/chapter-26/CH26_G01_size_and_sheet_layout.png",
+      "sha256": "0a6b3154a48672f7e589ec9ebad61730f1437f4b0d26c04974ef8bd8df1c03f5",
+      "pixels": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "size-and-location-references/chapter-26/CH26_L01_location_and_placement.png",
+      "sha256": "582b48faea5092b2356892aed08359ec33cde41c3730312720f9d208aa49b4a5",
+      "pixels": [
+        2400,
+        1792
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "source": "appearance-references/shared/LP_ref_well_turnaround.png",
+      "sha256": "06283689f481a7f364d89f8f86a87c7ac8194457eb5c228a1e952de8c0c35ea7"
+    },
+    {
+      "source": "size-and-location-references/shared/LP_scale_prince_pilot_standing.png",
+      "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c"
+    },
+    {
+      "source": "appearance-references/shared/LP_ref_pilot_room_standing_ch04.png",
+      "sha256": "565aec88e81db8b99c2c56d8eb81136b04db08df1f77fd801a99e3f1c2604d36"
+    },
+    {
+      "source": "production/shared/backgrounds/LP_ref_sahara_night.jpg",
+      "sha256": "c99e972cf519b1be1804535072d92b5a7bad4b24a9f82dd56eb312abaac15bb7"
+    }
+  ],
+  "status": "technical planning only; not final-art approval"
+}

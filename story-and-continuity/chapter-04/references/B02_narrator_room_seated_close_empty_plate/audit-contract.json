@@ -1,0 +1,174 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH04_B02",
+  "prompt_file": "story-and-continuity/chapter-04/references/B02_narrator_room_seated_close_empty_plate/PROMPT.txt",
+  "prompt_sha256": "3f596956b7622b403defa7bc9e162d2f8cf75519a14f9626599e336831402c58",
+  "expected_cells": [
+    "ONE: same familiar room seen at the approved seated-CLOSE camera, with matching window, wall and distant shelf geometry; remove the foreground pilot, paper, table and chair so the complete seated foreground group can be placed once. No people, drawings or new furniture."
+  ],
+  "required_state_direction_contact": "The approved close anchor controls camera and background scale. Do not substitute the wide child-room view. Removed foreground furniture belongs to CH04_S01, not to this plate.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_LP_ref_pilot_room_seated_close_ch04.png",
+      "role": "Approved adult-room seated CLOSE camera/fit: head height/table width target .34, band .31\u2013.37. Cropped legs supply no full-body measurement.",
+      "path": "story-and-continuity/chapter-04/references/B02_narrator_room_seated_close_empty_plate/reference-images/01_LP_ref_pilot_room_seated_close_ch04.png",
+      "status": "supplied",
+      "sha256": "9799b2e0271577589cca143f107cddfbf0bf1a3690d5896c0431ef25b273ec62",
+      "source_key": "roomclose"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-04/references/B02_narrator_room_seated_close_empty_plate/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-04/references/B02_narrator_room_seated_close_empty_plate/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_CH04_B02_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-04/references/B02_narrator_room_seated_close_empty_plate/reference-images/04_CH04_B02_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "0f7749f19f8d73fea81f6020543a8357b20249bb96d97bfa7a99dbfefb9f7e4b"
+    },
+    {
+      "name": "05_c04-s04-p03_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c04-s04-p03. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-04/references/B02_narrator_room_seated_close_empty_plate/reference-images/05_c04-s04-p03_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "f7239667e4030deac321cd7219dd0f1501aa7872b0c9e698a316fedc811ffffb"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "A_CH04_B02_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c04-s04-p03",
+    "c04-s04-p04",
+    "c04-s05-p01",
+    "c04-s05-p02",
+    "c04-s05-p03",
+    "c05-s04-p03",
+    "c05-s04-p04"
+  ],
+  "placement_targets": [
+    {
+      "page": "c04-s04-p03",
+      "cell": "CH04_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c04-s04-p04",
+      "cell": "CH04_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c04-s05-p01",
+      "cell": "CH04_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c04-s05-p02",
+      "cell": "CH04_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c04-s05-p03",
+      "cell": "CH04_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c05-s04-p03",
+      "cell": "CH04_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c05-s04-p04",
+      "cell": "CH04_B02:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-04/references/B02_narrator_room_seated_close_empty_plate/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

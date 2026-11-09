@@ -1,0 +1,52 @@
+{
+  "id": "V_CH17_S01_R",
+  "stage": "expression_variant",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "N_prince_standing_left__moonlight_upper_left"
+  ],
+  "input_contract": {
+    "exact_images": 1,
+    "sole_appearance_authority": "N_prince_standing_left__moonlight_upper_left",
+    "first_attempt": "exact clean accepted neutral file/hash",
+    "retry": "exact same clean accepted neutral; reviewed diagnostic board stays offline",
+    "forbidden_parents": [
+      "expression_variant",
+      "previous_expression",
+      "legacy_reference_bundle"
+    ]
+  },
+  "content": "same prince gazing upward thoughtfully toward a star, hands relaxed, quiet sadness.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH17_S01",
+  "legacy_cell": "R",
+  "affected_pages": [
+    "c17-s02-p01",
+    "c17-s02-p02",
+    "c17-s02-p03",
+    "c17-s03-p01",
+    "c17-s03-p02"
+  ],
+  "allowed_changes": "same prince gazing upward thoughtfully toward a star, hands relaxed, quiet sadness.",
+  "shadow_mode": "preserve_parent",
+  "audit_only_details": " DIRECTION LOCK: LEFT body/feet/head LEFT toward ground-level snake. RIGHT body/feet LEFT but head UP toward stars; preserve independent body/gaze directions.",
+  "prompt_file": "production/reference-lineage/nodes/V_CH17_S01_R/PROMPT.txt",
+  "prompt": "Edit the supplied clean neutral image. Target state: same prince gazing upward thoughtfully toward a star, hands relaxed, quiet sadness. Change only the named face/gaze and connected head/arm/hand/prop action. Keep the same identity, age, small dot eyes, face, hair, skin, clothes, body proportions, watercolor finish, camera and canvas registration. Preserve stationary table/chair geometry, feet and support footprint. Keep the existing shadow visually unchanged; do not add a floor or second shadow. Any replaced object must disappear from its old location. One complete coherent state, transparent PNG, 4:3, 2K. Blank paper remains blank; no labels, arrows or thought clouds.",
+  "offline_audit_request": "story-and-continuity/chapter-17/reusable-poses/S01_prince_moonlit_conversation/audit-contract.json",
+  "prompt_sha256": "de8e1e819d3456374088c75ed88908a701ceeb92d59f19170ff99cfc4299bfaf",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "V_CH17_S01_R",
+  "edit_risk": "Must classify face vs connected action vs whole contact in measured preflight; no automatic face-only assumption",
+  "model_route_reason": "Sunburst is documented for precise reference edits; same live medium 2K quote as Flare on 2026-11-08. Untested on this revised book workflow; canary required."
+}

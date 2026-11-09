@@ -1,0 +1,27 @@
+{
+  "template_only": true,
+  "source_audit": null,
+  "first_attempt_prompt_file": null,
+  "first_attempt_prompt_sha256": null,
+  "issues_per_sheet": 2,
+  "preserve": [],
+  "issues": [
+    {
+      "issue_id": null,
+      "display": null,
+      "target": {
+        "mode": "approved_crop",
+        "path": null,
+        "sha256": null,
+        "crop_xywh": null,
+        "feature_bbox_xywh": null,
+        "authority": null
+      }
+    }
+  ],
+  "target_options_help": {
+    "approved_crop": "Use root-relative approved reference path/hash, full-reference crop_xywh and feature_bbox_xywh, and the exact identity/style/feature authority.",
+    "orientation_diagram": "Use mode, authority, and directions with head/torso/feet each viewer-left, viewer-right, front or back; optional chair with the same values; gaze_target explains recipient. This governs orientation only.",
+    "local_diagram": "Use mode, root-relative locally authored PNG path/hash, crop_xywh, feature_bbox_xywh, authority and creation_method=local_programmatic_diagram. Never use an AI-generated replacement or invent an identity master."
+  }
+}

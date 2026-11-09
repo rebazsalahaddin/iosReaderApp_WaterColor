@@ -1,0 +1,44 @@
+{
+  "id": "A_CH09_R01_L",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes/reference-images/02_c01-s05-p01.png",
+        "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+        "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "exactly TWO small active volcanic cones, low gentle fire within their openings, no lava outside.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH09_R01",
+  "legacy_cell": "L",
+  "affected_pages": [
+    "c09-s01-p01",
+    "c09-s01-p02"
+  ],
+  "audit_only_details": "Small home props: active .36 P high, cold .32 P. No Earth-sized mountain or merging the two active cones into one.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH09_R01_L/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. exactly TWO small active volcanic cones, low gentle fire within their openings, no lava outside. Neutral soft upper-left daylight, without environment-colour spill. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-09/references/R01_three_home_volcanoes/audit-contract.json",
+  "prompt_sha256": "3c751e5fc8875f9ed3af56e6e671e7dbee682460fc088a93415aac17eae08ffe",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH09_R01_L"
+}

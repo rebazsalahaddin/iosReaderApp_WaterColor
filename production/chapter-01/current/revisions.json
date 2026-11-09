@@ -1,0 +1,91 @@
+{
+  "chapter": 1,
+  "workflow_version": 9,
+  "revisions": [
+    {
+      "edition": "v011",
+      "workflow_version": 9,
+      "user_request": "generate chapter one illustrations carefully following the instruction",
+      "recorded_at": "2026-11-08T15:00:00+03:00",
+      "scope": "Complete Chapter 1 regeneration with 42 accepted reference lineage nodes under Workflow 9.",
+      "changed_images": {
+        "c01-s01-p01": {
+          "previous_sha256": "a4d8707e69034c266a11a690cdbe4fce810d73f088f4d1760d1c20f6f66eb750",
+          "current_sha256": "a2bb9cab0ba4745c572522ce8da15e0125cbb3808fc670a16c23ee39370c8daf"
+        },
+        "c01-s01-p02": {
+          "previous_sha256": "65827121a43dc23f2bba0c0710dcbb7bdb7f50d3262630064433937b125281a3",
+          "current_sha256": "2ef633191ceb4368bf464c2c5afddb677574d796dce11fc69539d2a4892cd00c"
+        },
+        "c01-s01-p03": {
+          "previous_sha256": "653dd0a9ddb192afa952b0de949053073b95ec9e2a86435eb6e050ba3e2d9b93",
+          "current_sha256": "1ad2844e7d7e1b426b03c62815bc1260c4cf299160f646088d447ded5630300a"
+        },
+        "c01-s01-p04": {
+          "previous_sha256": "21fbd94572cc89967315647be80df42268f23bd8e4c325025dfed64a7fbd0e21",
+          "current_sha256": "6479e7899984d60d99641a31a53331968ea55425f29932e69a2faa0420a4c561"
+        },
+        "c01-s02-p01": {
+          "previous_sha256": "efcf050bdd9bec323aff7cb6caa497426d4c4024c89da7210439aedcf0118331",
+          "current_sha256": "36d4f98005c646ffcf7c2be4d14dc1fed0ef85167b961aceaa5632e97fb919dc"
+        },
+        "c01-s02-p02": {
+          "previous_sha256": "efcf050bdd9bec323aff7cb6caa497426d4c4024c89da7210439aedcf0118331",
+          "current_sha256": "073fed2f51e9342933916e6901744d0e6473d3df88d7c942a9dca619101265c1"
+        },
+        "c01-s02-p03": {
+          "previous_sha256": "169072c0a186b07fd73ed60ff8ab59ece9e1157ca483f3ed1ff7f55f04b60c39",
+          "current_sha256": "bd42b373afb07ad426d2bd291d1bf7e34ed47ab0b78e1d62f58ab96e8fb351eb"
+        },
+        "c01-s03-p01": {
+          "previous_sha256": "41ba41d5f1490c60741e1414ec33e38afc9f584af2f57cb97da4bbe35011868f",
+          "current_sha256": "84bb08d19228e2e283b46fcd6eef6c2913ae8b9fcea91a019b47f07a121af02d"
+        },
+        "c01-s03-p02": {
+          "previous_sha256": "7e443e9ea24cfa1a1bfd489ccbee77bbcf8043325c897dd06828e858a7ee2997",
+          "current_sha256": "edcd7fb8fcde432bae794a2876ba820a1ec7ab2889bcd98315fc038ef7124f35"
+        },
+        "c01-s03-p03": {
+          "previous_sha256": "bdb159ec2eab3a03255bb4ce5520fef9229dff75334bc9685fc82618e67783ea",
+          "current_sha256": "9d20729a1f76247218921d411c67c54f7d4e75a5a38a47e90d6acdc1b3132381"
+        },
+        "c01-s03-p04": {
+          "previous_sha256": "86f4fa17db9af49a619d9b718d26c9fe379919fae548ec41465ad6c0d816f4ee",
+          "current_sha256": "02fdf67a423e74cccf99f8d1e218e7d1a8b1f841ca51dd5dfaca159d7433916f"
+        },
+        "c01-s04-p01": {
+          "previous_sha256": "19b9b1d669aae0b3aaccfe31d718d31ec7ea1ea36c24ad214eaec1a6de5330f6",
+          "current_sha256": "4503372682ebfaf374522d564bd759ec50b43ca1709115eada6a5db95869e67c"
+        },
+        "c01-s04-p02": {
+          "previous_sha256": "63942d30b897403039278f1f9c3b0c07e5d7983c96ccaab540cfc7a6a0c4e363",
+          "current_sha256": "af017642399ebee070ab4a0f0c0f7d1edc85ab329e952afea1b601181580c572"
+        },
+        "c01-s04-p03": {
+          "previous_sha256": "090c7c2ded0f656f0d24fc01d97bd11fc9c1827da372f1b6d17653f2829af201",
+          "current_sha256": "4e89ee31ef126c67d05b8671bc6fa5d0f7eecf4faa24ea94d86a5da15220c38b"
+        },
+        "c01-s05-p01": {
+          "previous_sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+          "current_sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275"
+        },
+        "c01-s05-p02": {
+          "previous_sha256": "01d3f003f7a32568ae4344bfcb0b8804f39fc3e1729c66f5c861b700da2b6c1b",
+          "current_sha256": "fa835146a7cb4963214e3c0a68129566aa67838931709e82c38216c731c2d701"
+        },
+        "c01-s05-p03": {
+          "previous_sha256": "02b4d60602be4acbb9f9728a1ae0ec57b995a695ace71801df57c1c2672b2dd0",
+          "current_sha256": "02b4d60602be4acbb9f9728a1ae0ec57b995a695ace71801df57c1c2672b2dd0"
+        },
+        "c01-s06-p01": {
+          "previous_sha256": "02b4d60602be4acbb9f9728a1ae0ec57b995a695ace71801df57c1c2672b2dd0",
+          "current_sha256": "02b4d60602be4acbb9f9728a1ae0ec57b995a695ace71801df57c1c2672b2dd0"
+        },
+        "c01-s06-p02": {
+          "previous_sha256": "621db8d16558ef0c86f36d51e67012178a38cdd405695a8102d7eddb8aee5588",
+          "current_sha256": "621db8d16558ef0c86f36d51e67012178a38cdd405695a8102d7eddb8aee5588"
+        }
+      }
+    }
+  ]
+}

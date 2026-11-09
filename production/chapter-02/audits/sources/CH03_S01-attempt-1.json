@@ -1,0 +1,163 @@
+{
+ "request_id": "CH03_S01",
+ "attempt": 1,
+ "job_id": "c4d7ca35-2350-4678-ae3c-89d077b2264e",
+ "source_file": "production/chapter-02/props/raw/CH03_S01_pilot_explaining_and_pointing.png",
+ "source_sha256": "8561e120c0af5088210ef37c730e35cb24f4e97b023a23f6e447c8ecd89ed309",
+ "actual_format": "PNG",
+ "actual_dimensions": [
+  2400,
+  1792
+ ],
+ "prompt_sha256": "b99b2bf53643d3a8c862fc5cfeb65d22eaecec303be5e2b5b30e08e1d366ddb4",
+ "attachments": [],
+ "cells": [
+  "L",
+  "R"
+ ],
+ "checks": {
+  "identity_style": {
+   "verdict": "PASS",
+   "evidence": "Same adult pilot both cells: brown jacket, cream shirt, tan trousers, brown boots, goggles up; adult proportions."
+  },
+  "orientation_expression": {
+   "verdict": "PASS",
+   "evidence": "LEFT: standing three-quarter facing viewer-RIGHT (toes/closure/shoulder/pupils rightward), mildly concerned listening face, arms relaxed. RIGHT: torso/feet RIGHT, anatomical RIGHT arm extended across chest pointing viewer-LEFT toward off-frame aircraft, head turned RIGHT toward child, modest pride gentle smile - direction lock satisfied per cue."
+  },
+  "count_state_realm": {
+   "verdict": "PASS",
+   "evidence": "Two single-pilot cells; no props/aircraft drawn in cells; no letters."
+  },
+  "contact_support": {
+   "verdict": "PASS",
+   "evidence": "Clean flat key (corner 252,0,251); no fringe; no clipping; wide clear gutter."
+  },
+  "native_pixel_budget": {
+   "verdict": "PASS",
+   "evidence": "Standing figures ~1500px tall; final standing-equivalent 1000px at scale ~0.66; ample pixels."
+  },
+  "extraction_light_dark_intended": {
+   "verdict": "PENDING_EXTRACTION",
+   "evidence": "Standard magenta keying in preparation step."
+  },
+  "reading_size": {
+   "verdict": "PASS",
+   "evidence": "Listening and explaining-pointing beats read clearly."
+  },
+  "second_contract_check": {
+   "verdict": "PASS",
+   "evidence": "Recheck vs direction lock: LEFT feet/torso/head RIGHT - confirmed; RIGHT feet/torso RIGHT with right-arm-across pointing LEFT and head RIGHT - confirmed on focused crop."
+  }
+ },
+ "issues": [],
+ "verdict": "PASS",
+ "accepted_cells": [
+  "L",
+  "R"
+ ],
+ "credits_estimated": 2,
+ "credits_actual": null,
+ "reviewer": "agent",
+ "cell_audits": {
+  "L": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[L] Same adult pilot both cells: brown jacket, cream shirt, tan trousers, brown boots, goggles up; adult proportions."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[L] LEFT: standing three-quarter facing viewer-RIGHT (toes/closure/shoulder/pupils rightward), mildly concerned listening face, arms relaxed. RIGHT: torso/feet RIGHT, anatomical RIGHT arm extended across chest pointing viewer-LEFT toward off-frame aircraft, head turned RIGHT toward child, modest pride gentle smile - direction lock satisfied per cue."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[L] Two single-pilot cells; no props/aircraft drawn in cells; no letters."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[L] Clean flat key (corner 252,0,251); no fringe; no clipping; wide clear gutter."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[L] Standing figures ~1500px tall; final standing-equivalent 1000px at scale ~0.66; ample pixels."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[L] Standard magenta keying in preparation step."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[L] Listening and explaining-pointing beats read clearly."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[L] Recheck vs direction lock: LEFT feet/torso/head RIGHT - confirmed; RIGHT feet/torso RIGHT with right-arm-across pointing LEFT and head RIGHT - confirmed on focused crop."
+    }
+   },
+   "summary": "Cell L of CH03_S01: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  },
+  "R": {
+   "checks": {
+    "identity_style": {
+     "verdict": "PASS",
+     "evidence": "[R] Same adult pilot both cells: brown jacket, cream shirt, tan trousers, brown boots, goggles up; adult proportions."
+    },
+    "orientation_expression": {
+     "verdict": "PASS",
+     "evidence": "[R] LEFT: standing three-quarter facing viewer-RIGHT (toes/closure/shoulder/pupils rightward), mildly concerned listening face, arms relaxed. RIGHT: torso/feet RIGHT, anatomical RIGHT arm extended across chest pointing viewer-LEFT toward off-frame aircraft, head turned RIGHT toward child, modest pride gentle smile - direction lock satisfied per cue."
+    },
+    "count_state_realm": {
+     "verdict": "PASS",
+     "evidence": "[R] Two single-pilot cells; no props/aircraft drawn in cells; no letters."
+    },
+    "contact_support": {
+     "verdict": "PASS",
+     "evidence": "[R] Clean flat key (corner 252,0,251); no fringe; no clipping; wide clear gutter."
+    },
+    "native_pixel_budget": {
+     "verdict": "PASS",
+     "evidence": "[R] Standing figures ~1500px tall; final standing-equivalent 1000px at scale ~0.66; ample pixels."
+    },
+    "extraction_light_dark_intended": {
+     "verdict": "PASS",
+     "evidence": "[R] Standard magenta keying in preparation step."
+    },
+    "reading_size": {
+     "verdict": "PASS",
+     "evidence": "[R] Listening and explaining-pointing beats read clearly."
+    },
+    "second_contract_check": {
+     "verdict": "PASS",
+     "evidence": "[R] Recheck vs direction lock: LEFT feet/torso/head RIGHT - confirmed; RIGHT feet/torso RIGHT with right-arm-across pointing LEFT and head RIGHT - confirmed on focused crop."
+    }
+   },
+   "summary": "Cell R of CH03_S01: all eight checks evidenced from attempt audit; prepared component recorded in ledger."
+  }
+ },
+ "notes": "",
+ "reviewed_at": "2026-11-07T14:50:00.000000+00:00",
+ "cell_details": [
+  {
+   "cell": "L",
+   "bounds_source_px": [
+    284,
+    210,
+    740,
+    1707
+   ],
+   "source_file": "production/chapter-02/props/raw/CH03_S01_pilot_explaining_and_pointing.png",
+   "source_sha256": "8561e120c0af5088210ef37c730e35cb24f4e97b023a23f6e447c8ecd89ed309"
+  },
+  {
+   "cell": "R",
+   "bounds_source_px": [
+    1356,
+    216,
+    2181,
+    1710
+   ],
+   "source_file": "production/chapter-02/props/raw/CH03_S01_pilot_explaining_and_pointing.png",
+   "source_sha256": "8561e120c0af5088210ef37c730e35cb24f4e97b023a23f6e447c8ecd89ed309"
+  }
+ ]
+}

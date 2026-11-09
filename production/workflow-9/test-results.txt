@@ -1,0 +1,27 @@
+test_chapter_budget_required_beyond_window (__main__.WorkflowTests) ... ok
+test_collage_cannot_replace_clean_parent (__main__.WorkflowTests) ... ok
+test_complete_integration_record_passes_without_writing (__main__.WorkflowTests) ... ok
+test_evidenced_third_attempt_can_pass_without_repeating_bad_prompt (__main__.WorkflowTests) ... ok
+test_grayscale_feather_is_not_binary_mask (__main__.WorkflowTests) ... ok
+test_hash_change_and_path_escape_rejected (__main__.WorkflowTests) ... ok
+test_inherited_and_new_attempts_share_three_cap (__main__.WorkflowTests) ... ok
+test_integration_mask_cannot_change_after_freeze (__main__.WorkflowTests) ... ok
+test_invalid_cost_never_treated_as_zero (__main__.WorkflowTests) ... ok
+test_noncollinear_landmarks_required (__main__.WorkflowTests) ... ok
+test_old_preflight_cannot_spend_new_allowance (__main__.WorkflowTests) ... ok
+test_prop_move_requires_vacated_footprint (__main__.WorkflowTests) ... ok
+test_ready_fixture_passes_all_gates (__main__.WorkflowTests) ... ok
+test_registered_replacement_preserves_and_can_erase (__main__.WorkflowTests) ... ok
+test_sheet_inheritance_and_rejection_count (__main__.WorkflowTests) ... ok
+test_sibling_needs_family_page_canary (__main__.WorkflowTests) ... ok
+test_spent_and_reserved_costs_exceed_window (__main__.WorkflowTests) ... ok
+test_support_overlap_and_wrong_dimensions_rejected (__main__.WorkflowTests) ... ok
+test_third_attempt_needs_changed_mechanism (__main__.WorkflowTests) ... ok
+test_unknown_historical_chapter_cost_blocks (__main__.WorkflowTests) ... ok
+test_unknown_other_node_blocks_globally (__main__.WorkflowTests) ... ok
+test_window_required (__main__.WorkflowTests) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.066s
+
+OK

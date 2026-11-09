@@ -1,0 +1,31 @@
+{
+  "id": "I_social_older",
+  "stage": "identity_turnaround",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "approved_seed_only": true
+  },
+  "content": "One clean identity turnaround of the SAME social older: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "candidate": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+  "candidate_role": "single adult identity seed; first prepare/audit turnaround",
+  "prompt_file": "production/reference-lineage/nodes/I_social_older/PROMPT.txt",
+  "candidate_sha256": "80ecd925cb7d12fd9807023e74913dfa79437fe1fe40d72c14e1e469aac260da",
+  "prompt": "One clean identity turnaround of the SAME social older: front, three-quarter, side and back; neutral face, complete body, well-separated views and consistent scale. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Native transparent PNG, 4:3, 2K; no scenery, floor shadow or labels.",
+  "prompt_sha256": "783e857e014b121d2ee09cfa84c8112b2ab7937e6777f2c57221670f33585b14",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "I_social_older"
+}

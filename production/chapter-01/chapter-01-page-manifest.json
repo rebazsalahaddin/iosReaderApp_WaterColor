@@ -1,0 +1,143 @@
+{
+  "chapter": 1,
+  "workflow_version": 9,
+  "status": "delivered",
+  "edition": "v011",
+  "delivery": "production/chapter-01/delivery/chapter-01-v011",
+  "archive": "production/chapter-01/delivery/Chapter_01_Illustrations_v11.zip",
+  "pages": [
+    {
+      "page": "c01-s01-p01",
+      "component_layout": "production/chapter-01/current/pages/c01-s01-p01/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s01-p01.png",
+      "delivery_sha256": "a2bb9cab0ba4745c572522ce8da15e0125cbb3808fc670a16c23ee39370c8daf",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s01-p02",
+      "component_layout": "production/chapter-01/current/pages/c01-s01-p02/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s01-p02.png",
+      "delivery_sha256": "2ef633191ceb4368bf464c2c5afddb677574d796dce11fc69539d2a4892cd00c",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s01-p03",
+      "component_layout": "production/chapter-01/current/pages/c01-s01-p03/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s01-p03.png",
+      "delivery_sha256": "1ad2844e7d7e1b426b03c62815bc1260c4cf299160f646088d447ded5630300a",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s01-p04",
+      "component_layout": "production/chapter-01/current/pages/c01-s01-p04/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s01-p04.png",
+      "delivery_sha256": "6479e7899984d60d99641a31a53331968ea55425f29932e69a2faa0420a4c561",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s02-p01",
+      "component_layout": "production/chapter-01/current/pages/c01-s02-p01/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s02-p01.png",
+      "delivery_sha256": "36d4f98005c646ffcf7c2be4d14dc1fed0ef85167b961aceaa5632e97fb919dc",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s02-p02",
+      "component_layout": "production/chapter-01/current/pages/c01-s02-p02/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s02-p02.png",
+      "delivery_sha256": "073fed2f51e9342933916e6901744d0e6473d3df88d7c942a9dca619101265c1",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s02-p03",
+      "component_layout": "production/chapter-01/current/pages/c01-s02-p03/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s02-p03.png",
+      "delivery_sha256": "bd42b373afb07ad426d2bd291d1bf7e34ed47ab0b78e1d62f58ab96e8fb351eb",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s03-p01",
+      "component_layout": "production/chapter-01/current/pages/c01-s03-p01/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s03-p01.png",
+      "delivery_sha256": "84bb08d19228e2e283b46fcd6eef6c2913ae8b9fcea91a019b47f07a121af02d",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s03-p02",
+      "component_layout": "production/chapter-01/current/pages/c01-s03-p02/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s03-p02.png",
+      "delivery_sha256": "edcd7fb8fcde432bae794a2876ba820a1ec7ab2889bcd98315fc038ef7124f35",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s03-p03",
+      "component_layout": "production/chapter-01/current/pages/c01-s03-p03/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s03-p03.png",
+      "delivery_sha256": "9d20729a1f76247218921d411c67c54f7d4e75a5a38a47e90d6acdc1b3132381",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s03-p04",
+      "component_layout": "production/chapter-01/current/pages/c01-s03-p04/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s03-p04.png",
+      "delivery_sha256": "02fdf67a423e74cccf99f8d1e218e7d1a8b1f841ca51dd5dfaca159d7433916f",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s04-p01",
+      "component_layout": "production/chapter-01/current/pages/c01-s04-p01/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s04-p01.png",
+      "delivery_sha256": "4503372682ebfaf374522d564bd759ec50b43ca1709115eada6a5db95869e67c",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s04-p02",
+      "component_layout": "production/chapter-01/current/pages/c01-s04-p02/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s04-p02.png",
+      "delivery_sha256": "af017642399ebee070ab4a0f0c0f7d1edc85ab329e952afea1b601181580c572",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s04-p03",
+      "component_layout": "production/chapter-01/current/pages/c01-s04-p03/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s04-p03.png",
+      "delivery_sha256": "4e89ee31ef126c67d05b8671bc6fa5d0f7eecf4faa24ea94d86a5da15220c38b",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s05-p01",
+      "component_layout": "production/chapter-01/current/pages/c01-s05-p01/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s05-p01.png",
+      "delivery_sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s05-p02",
+      "component_layout": "production/chapter-01/current/pages/c01-s05-p02/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s05-p02.png",
+      "delivery_sha256": "fa835146a7cb4963214e3c0a68129566aa67838931709e82c38216c731c2d701",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s05-p03",
+      "component_layout": "production/chapter-01/current/pages/c01-s05-p03/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s05-p03.png",
+      "delivery_sha256": "02b4d60602be4acbb9f9728a1ae0ec57b995a695ace71801df57c1c2672b2dd0",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s06-p01",
+      "component_layout": "production/chapter-01/current/pages/c01-s06-p01/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s06-p01.png",
+      "delivery_sha256": "02b4d60602be4acbb9f9728a1ae0ec57b995a695ace71801df57c1c2672b2dd0",
+      "user_approved": false
+    },
+    {
+      "page": "c01-s06-p02",
+      "component_layout": "production/chapter-01/current/pages/c01-s06-p02/layout.json",
+      "delivery_file": "production/chapter-01/delivery/chapter-01-v011/illustrations/c01-s06-p02.png",
+      "delivery_sha256": "621db8d16558ef0c86f36d51e67012178a38cdd405695a8102d7eddb8aee5588",
+      "user_approved": false
+    }
+  ]
+}

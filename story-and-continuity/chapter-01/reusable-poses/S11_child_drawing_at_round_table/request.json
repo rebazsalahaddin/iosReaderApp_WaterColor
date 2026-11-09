@@ -1,0 +1,145 @@
+{
+  "id": "CH01_S11",
+  "chapter": 1,
+  "code": "S11",
+  "title": "child drawing at round table",
+  "kind": "contact",
+  "cells": [
+    "ONE: same child at RIGHT chair and same round table, body angled LEFT, right anatomical hand holding a graphite pencil over a blank cream sheet, left hand steadies its margin; head down in concentration; one closed dusty-blue book to the far left."
+  ],
+  "refs": [
+    "child",
+    "child_scale",
+    "room",
+    "child_book",
+    "success_style",
+    "style"
+  ],
+  "details": "Match the accepted reading group camera and furniture. Pencil is in the anatomical right hand. Paper centre x51%, y73%, width28%; interior unobscured. No generated marks; Drawing One or Two will be inserted later.",
+  "light": "Soft neutral daylight from upper-left; preserve the established local colours.",
+  "dependencies": [
+    "CH01_S10"
+  ],
+  "key": null,
+  "slug": "child_drawing_at_round_table",
+  "output": "CH01_S11_child_drawing_at_round_table.png",
+  "revision_origin": "required state planned during full-book review",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c01-s01-p04",
+    "c01-s03-p01"
+  ],
+  "referenced_by_requests": [
+    "CH01_S15"
+  ],
+  "required": true,
+  "folder": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table",
+  "raw_output_folder": "production/chapter-01/props/raw",
+  "representative_page": "c01-s01-p04",
+  "placement_targets": [
+    {
+      "page": "c01-s01-p04",
+      "cell": "CH01_S11:ONE",
+      "box_px": [
+        550,
+        440,
+        1400,
+        1190
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c01-s03-p01",
+      "cell": "CH01_S11:ONE",
+      "box_px": [
+        550,
+        440,
+        1400,
+        1190
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_char_child_turnaround.png",
+      "role": "Six-year-old narrator identity, distinct from both the adult pilot and the prince.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/reference-images/01_LP_ref_char_child_turnaround.png",
+      "status": "supplied",
+      "sha256": "c93cf9a9dec750fe6e30847dfd92d85d8f0f3c88bea3f1fb6cb88e3d65db93f6",
+      "source_key": "child"
+    },
+    {
+      "name": "02_LP_scale_child_grownups.png",
+      "role": "Childhood size authority: older man H=1000, woman .96H, six-year-old narrator .66H; preserve own anatomy, compare standing equivalents, never visible seated height.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/reference-images/02_LP_scale_child_grownups.png",
+      "status": "supplied",
+      "sha256": "64af22820bab6a44b0252a6c1e5b9da849d7ecd425dd8658f34a7e4ba387f34f",
+      "source_key": "child_scale"
+    },
+    {
+      "name": "03_LP_ref_child_room.jpg",
+      "role": "Empty familiar room: furniture, window and layout. Original child scale does not govern adult figures.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/reference-images/03_LP_ref_child_room.jpg",
+      "status": "supplied",
+      "sha256": "39e0533078e2e4d695dd479f4538febe7e830a96dbdae2f9a45683f3a26e1c11",
+      "source_key": "room"
+    },
+    {
+      "name": "04_LP_ref_child_book.png",
+      "role": "Dusty blue binding, cream paper and central gutter ONLY. Requested pages are blank for later insertion of the correct printed forest picture; do not copy its existing swollen-snake content.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/reference-images/04_LP_ref_child_book.png",
+      "status": "supplied",
+      "sha256": "eae9c508aeaaf02488093597bc9511f9f6381cfc0cd95730837e9691a6349c73",
+      "source_key": "child_book"
+    },
+    {
+      "name": "05_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/reference-images/05_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "06_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/reference-images/06_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "07_accepted_CH01_S10_child_reading_at_round_table.png",
+      "role": "ACCEPTED CH01_S10: child reading at round table. Match the specific state named in REQUESTED CONTENT; do not copy extra cells, people, key background or labels. The agent must check the returned source before attaching it.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/reference-images/07_accepted_CH01_S10_child_reading_at_round_table.png",
+      "status": "supplied",
+      "dependency": "CH01_S10",
+      "expected_raw": "production/chapter-01/props/raw/CH01_S10_child_reading_at_round_table.png",
+      "sha256": "85dab7dadb86fe79e4a25a17eb5e9a092867cc496962edee47bdfce7bab0c82a",
+      "accepted_source": "production/chapter-01/props/raw/CH01_S10_child_reading_at_round_table.png"
+    },
+    {
+      "name": "08_CH01_S11_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/reference-images/08_CH01_S11_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "febfd0c3545fe0ad51799eda2307757770623d2955cef8a43999ed3b18572e75"
+    },
+    {
+      "name": "09_c01-s01-p04_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c01-s01-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/reference-images/09_c01-s01-p04_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "6c6ad928ec1f8b65b2cf1658523cc280411241fc761d2b2723870812258d0331"
+    }
+  ],
+  "readiness": "references_supplied",
+  "prompt": "CH01_S11 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: same child at RIGHT chair and same round table, body angled LEFT, right anatomical hand holding a graphite pencil over a blank cream sheet, left hand steadies its margin; head down in concentration; one closed dusty-blue book to the far left.\n  Actual short payload: production/reference-lineage/nodes/V_CH01_S11_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "V_CH01_S11_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

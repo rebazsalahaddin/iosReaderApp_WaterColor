@@ -1,0 +1,499 @@
+{
+  "chapter": 25,
+  "groups": {
+    "c25-s01-p01-opening-camera": [
+      "c25-s01-p01"
+    ],
+    "well_conversation-ebd2b6f4aa": [
+      "c25-s01-p02",
+      "c25-s01-p03",
+      "c25-s01-p09",
+      "c25-s01-p10",
+      "c25-s02-p01",
+      "c25-s02-p02",
+      "c25-s02-p07",
+      "c25-s02-p08",
+      "c25-s02-p09",
+      "c25-s02-p10",
+      "c25-s02-p11"
+    ],
+    "well_wall_contact-6d14aa0f3c": [
+      "c25-s01-p04",
+      "c25-s01-p05"
+    ],
+    "sahara-3a0c1e5ef5": [
+      "c25-s01-p06",
+      "c25-s01-p07"
+    ],
+    "christmas_memory-3fa4541c7a": [
+      "c25-s01-p08"
+    ],
+    "sahara-06a8e0ce67": [
+      "c25-s02-p03",
+      "c25-s02-p04",
+      "c25-s02-p05",
+      "c25-s02-p06"
+    ]
+  },
+  "status": "planned grouping; establish measured source-specific baselines before execution",
+  "guide": "production/Geometry_and_Frame_Continuity.md",
+  "baseline_pages": {
+    "c25-s01-p01-opening-camera": "c25-s01-p01",
+    "well_conversation-ebd2b6f4aa": "c25-s01-p02",
+    "well_wall_contact-6d14aa0f3c": "c25-s01-p04",
+    "sahara-3a0c1e5ef5": "c25-s01-p06",
+    "christmas_memory-3fa4541c7a": "c25-s01-p08",
+    "sahara-06a8e0ce67": "c25-s02-p03"
+  },
+  "authored_landmark_targets": {
+    "well_conversation-ebd2b6f4aa": [
+      {
+        "page": "c25-s01-p02",
+        "entity_role": "prince",
+        "source_cell": "CH02_S05:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p02",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p03",
+        "entity_role": "prince",
+        "source_cell": "CH02_S05:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p03",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p09",
+        "entity_role": "prince",
+        "source_cell": "CH02_S05:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p09",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p10",
+        "entity_role": "prince",
+        "source_cell": "CH02_S05:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p10",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p01",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p01",
+        "entity_role": "prince",
+        "source_cell": "CH02_S02:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p02",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p02",
+        "entity_role": "prince",
+        "source_cell": "CH02_S02:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p07",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p07",
+        "entity_role": "prince",
+        "source_cell": "CH25_S04:ONE",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p08",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p08",
+        "entity_role": "prince",
+        "source_cell": "CH25_S04:ONE",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p09",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p09",
+        "entity_role": "prince",
+        "source_cell": "CH25_S04:ONE",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p10",
+        "entity_role": "pilot",
+        "source_cell": "CH25_C01:ONE",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p10",
+        "entity_role": "prince",
+        "source_cell": "CH03_S03:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p11",
+        "entity_role": "pilot",
+        "source_cell": "CH25_C01:ONE",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p11",
+        "entity_role": "prince",
+        "source_cell": "CH03_S03:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      }
+    ],
+    "well_wall_contact-6d14aa0f3c": [
+      {
+        "page": "c25-s01-p04",
+        "entity_role": "environment_contact",
+        "source_cell": "CH25_S01:ONE",
+        "targets": {
+          "adult_standing_equivalent_px": null,
+          "adult_head_height_target_px": null,
+          "prince_standing_equivalent_px": 610,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child.",
+          "prince_head_height_target_px": 189
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p04",
+        "entity_role": "pilot",
+        "source_cell": "CH03_S01:L",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p05",
+        "entity_role": "environment_contact",
+        "source_cell": "CH25_S02:ONE",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p05",
+        "entity_role": "prince",
+        "source_cell": "CH02_S05:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      }
+    ],
+    "sahara-3a0c1e5ef5": [
+      {
+        "page": "c25-s01-p06",
+        "entity_role": "duo",
+        "source_cell": "CH25_S03:ONE",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": 610,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s01-p07",
+        "entity_role": "duo",
+        "source_cell": "CH25_S03:ONE",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": 610,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      }
+    ],
+    "sahara-06a8e0ce67": [
+      {
+        "page": "c25-s02-p03",
+        "entity_role": "pilot",
+        "source_cell": "CH02_S01:R",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p03",
+        "entity_role": "prince",
+        "source_cell": "CH03_S02:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p04",
+        "entity_role": "pilot",
+        "source_cell": "CH02_S01:R",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p04",
+        "entity_role": "prince",
+        "source_cell": "CH03_S02:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p05",
+        "entity_role": "pilot",
+        "source_cell": "CH02_S01:R",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p05",
+        "entity_role": "prince",
+        "source_cell": "CH02_S05:R",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p06",
+        "entity_role": "pilot",
+        "source_cell": "CH02_S01:R",
+        "targets": {
+          "adult_standing_equivalent_px": 1000,
+          "adult_head_height_target_px": 220,
+          "prince_standing_equivalent_px": null,
+          "method": "Use this character’s specific scale guide and reference landmarks to determine ONE uniform scale; envelope is an upper bound. Never substitute pilot proportions for a different adult. For a contact group verify internal ratio before placement. If scale and bounds conflict, correct complete source/layout, never shrink only a head or child."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      },
+      {
+        "page": "c25-s02-p06",
+        "entity_role": "prince",
+        "source_cell": "CH03_S03:L",
+        "targets": {
+          "prince_standing_equivalent_px": 610,
+          "prince_head_height_target_px": 189,
+          "method": "Match crown-to-chin target and original proportions at the same depth; do not stretch a seated/kneeling silhouette to full standing height."
+        },
+        "authority": "authored target only; calibrate actual source native landmarks before composing"
+      }
+    ]
+  },
+  "performance_continuity_contract": {
+    "version": 1,
+    "guide": "production/Composition_Continuity_and_Performance.md",
+    "scale_tolerance_percent": 1.5,
+    "unchanged_anchor_tolerance_px": 3,
+    "scale_method": "Native anatomical and rigid-prop endpoints -> one uniform scale -> second independent landmark check; never fit pose height as anatomy.",
+    "relative_scale_authority": "Named geometry artwork and persistent cross-chapter ratios; reconcile conflicting turnaround proportions before generating.",
+    "registration": "Keep actor/prop world anchors and at least three room/floor landmarks fixed at same camera/depth unless the passage moves them.",
+    "camera_rule": "Plan a motivated establishing/interaction/detail/emotional shot; genuine angle needs matching perspective sources. Reframe ALL physical layers and shadows together, preserve screen direction and painted border.",
+    "expression_rule": "Each visible participant has named readable emotion, gaze recipient, brow/eye/mouth/head/gesture evidence at reading size.",
+    "grounding_rule": "Verified actual bearing surfaces, one owner, attached low-alpha contact core and soft wash; no white gap; no shadows under imagined/airborne objects.",
+    "thought_trail_count_when_selected": 3,
+    "uniqueness_rule": "Every page communicates its own text through action/response/meaningful view; no exact or cosmetic-only duplicate.",
+    "before_delivery": [
+      "actual native landmarks and source hashes",
+      "relative scale and same-camera comparison",
+      "actual support pixels and final shadow attachment",
+      "reading-size expression/gaze/interaction",
+      "decoded-pixel duplicate scan plus semantic near-duplicate review",
+      "exact layer reconstruction",
+      "manual chapter approval stop"
+    ]
+  },
+  "source_landmarks_must_be_measured_not_inferred_from_boxes": true
+}

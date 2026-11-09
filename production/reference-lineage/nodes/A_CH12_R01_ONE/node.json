@@ -1,0 +1,43 @@
+{
+  "id": "A_CH12_R01_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-12/reusable-poses/R01_two_bottles_opening_still_life/reference-images/01_LP_ref_char_drunkard_turnaround.png",
+        "sha256": "9c1634e3081e170ac3c38cf7c7839606a1cc9aeeae10fa6b70733592ee425e6f",
+        "role": "Weary grey-haired man, brown clothes, table and backless stool; bottle count comes from the state guide."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "one full and one empty bottle from the accepted drinker table, upright together on a small matching tabletop patch, no hands or people.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH12_R01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c12-s01-p01"
+  ],
+  "audit_only_details": "Opening editorial detail only; two shown here is not a change from six narrative bottles. Preserve bottle contents/local background as opaque.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH12_R01_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. one full and one empty bottle from the accepted drinker table, upright together on a small matching tabletop patch, no hands or people. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-12/reusable-poses/R01_two_bottles_opening_still_life/audit-contract.json",
+  "prompt_sha256": "315f5ed51b36c961742a45b59674f891c850429c17b8591e7616025929cac8f9",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH12_R01_ONE"
+}

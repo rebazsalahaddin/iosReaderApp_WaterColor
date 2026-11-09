@@ -1,0 +1,31 @@
+{
+  "request": "C01_pilot_conversation_and_isolation",
+  "status": "received, prepared and used in completed chapter",
+  "output_filename": "CH01_C01_pilot_conversing_and_isolated.png",
+  "output_directory": "production/chapter-01/props/raw",
+  "references": [
+    {
+      "file": "01_pilot_original_identity.png",
+      "source": "appearance-references/chapter-01/LP_ref_char_pilot_turnaround.png",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2"
+    },
+    {
+      "file": "02_pilot_civilian_appearance.png",
+      "source": "appearance-references/chapter-01/pilot__civilian-social__neutral-three-quarter__v001.png",
+      "sha256": "c060805f01431f88d4ff076e4fde252afe5d2293f15f7d9a58050534c6edff4b"
+    },
+    {
+      "file": "03_pilot_seated_facing_right.png",
+      "source": "production/chapter-01/components/prepared/CH01_pilot_listening__rgba-v007.png",
+      "sha256": "e89dd8f88a705a450e347157bf11786e9517c6dcce4231ad35593c0679d452f3"
+    },
+    {
+      "file": "04_approved_social_page.png",
+      "source": "appearance-references/shared/CH01_approved_style_example.png",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275"
+    }
+  ],
+  "automatic_generation_authorized": false,
+  "received_file": "production/chapter-01/props/raw/CH01_C01_pilot_conversing_and_isolated.png",
+  "received_sha256": "843389b2cd2b10f76cad6df7900893908fc60b4cd361588903450228f1c41613"
+}

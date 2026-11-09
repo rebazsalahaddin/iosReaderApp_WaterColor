@@ -1,0 +1,59 @@
+{
+  "status": "complete_instruction_update; 27 guard cases pass; full package check limited by in-progress Chapter 2 records",
+  "date": "2026-11-07",
+  "scope": "Mandatory local graphical correction evidence before future visual attempt 2; no production chapter activated",
+  "chapters": 27,
+  "source_contracts": 169,
+  "guard_checks": {
+    "status": "pass",
+    "cases": [
+      "valid first attempt",
+      "preparation cannot spend",
+      "chapter stop cannot spend",
+      "unknown outcome cannot resubmit",
+      "third attempt forbidden",
+      "accepted source reused",
+      "4K/model drift forbidden",
+      "wrong reference bytes forbidden",
+      "explicit credit budget enforced",
+      "later unrelated source forbidden",
+      "next chapter without approval forbidden",
+      "parallel credit cap",
+      "text-only visual retry forbidden",
+      "unreviewed generated boards forbidden",
+      "one complete reviewed graphical correction allowed",
+      "missing board attachment forbidden",
+      "omitted defect forbidden",
+      "changed board bytes forbidden",
+      "unverified correct target forbidden",
+      "published reference limit enforced",
+      "unchecked input capacity forbidden",
+      "diagnosed no-image technical retry allowed",
+      "technical label cannot bypass visual evidence",
+      "ten defects all rendered across five local boards",
+      "cosmetic retry forbidden",
+      "composition error repaired locally",
+      "unplanned repeat correction forbidden"
+    ],
+    "jobs_submitted": 0,
+    "persistent_state_modified": false
+  },
+  "helper": "production/agent-workflow/build_correction_guide.py",
+  "guide": "production/Visual_Correction_Guide.txt",
+  "example": "production/agent-workflow/examples/graphical-correction-example.png",
+  "example_sha256": "b21977b9202ee49f674cf20bbbde3c6385fa215ffdfb2652600efb4f28299456",
+  "visual_review": "Rendered two-issue synthetic demonstration inspected: correct viewer-right profile/body/toes, independent direction arrows, marked error and thin-eyebrow positive target, readable callouts and explicit nonproduction label. Not an audit of actual generated artwork.",
+  "credits_used": 0,
+  "original_generation_ledger_modified": false,
+  "illustration_sources_modified": false,
+  "instruction_coverage_validation": "All 169 source contracts and 27 chapter plans require reviewed graphical retries, preserve their original prompt hashes and retain the two-attempt/chapter-approval limits.",
+  "full_package_validation": {
+    "status": "blocked_by_in_progress_production_records",
+    "passed": [
+      "book plans",
+      "narrative staging",
+      "self containment and 19 exact Chapter 1 reconstructions"
+    ],
+    "blocking_check": "Handoff execution records: accepted Chapter 2 source cells omit prepared_file and related preparation metadata. Production ledger/state were not changed by this instruction update."
+  }
+}

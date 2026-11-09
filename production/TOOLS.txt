@@ -1,0 +1,24 @@
+LOCAL TOOLS
+
+Use Python 3.9 or newer. requirements.txt records the working image-library versions. Install them in a local environment if needed. Validation/recomposition need Pillow; the measured Chapter 1 reference preparation methods additionally use numpy, scipy and OpenCV. Local validators never submit generation jobs. Reference generation is performed separately through Higgsfield MCP under Higgsfield_Agent_Workflow.md; no external story project is required.
+
+From the project root:
+python3 production/validate_package.py
+python3 production/compositor/compose_current.py --chapter 1 --verify
+
+compose_current.py reads only current page manifests and their ordered retained layers. --verify reconstructs in memory and compares exact decoded pixels with the final files. To write new review renders, use --output production/_work/chapter-01-rebuild. It refuses to overwrite the selected delivery. Remove disposable test renders after validation.
+
+chapter01_reference_methods.py retains the inspected Chapter 1 keying, protected-paper insertion, grounding and composition functions. Its source crops, matte thresholds and surface coordinates are measured for Chapter 1 only. Do not apply them blindly to a new return; follow Background_Removal_Instructions.md and the page-specific measured layout. Future chapters require actual source inspection and measured fits. Source generation uses the chapter-gated Higgsfield MCP workflow in Higgsfield_Agent_Workflow.md.
+
+All 442 planned layouts, assembly instructions, placement guides, request prompts and correction routes are already authored. The old one-off package builders and historical page-revision scripts have been removed; they are not needed to generate sources or compose from the current recipes.
+
+Workflow 9 checks and planning:
+python3 production/agent-workflow/validate_handoff.py
+python3 production/validate_reference_lineage.py
+python3 production/agent-workflow/lineage_guard.py --chapter 2 --node V_CH02_S02_L
+The guard is read-only and is expected to BLOCK during prompt-only maintenance. It requires real chapter execution authorization, complete preflight, accepted parents and available inherited attempts. It does not call MCP, reserve jobs or approve art. Use the selected chapter's lineage_execution_order, never the old request ID as an image payload. The maintenance migration scripts are not production entry points; do not rerun them to replace current authored plans.
+
+WORKFLOW 9 LOCAL CHECKS
+python3 production/workflow-9/tests/test_workflow9.py
+python3 production/agent-workflow/registered_edit.py --record ROOT_RELATIVE_REVIEWED_RECORD.json
+The second command checks only by default. --output writes a NEW unapproved candidate outside originals/current/delivery. Read workflow-9/PROCESS.md and its templates first. Correction boards stay offline. The retired build_handoff and maintenance writers exit without changing current controls.

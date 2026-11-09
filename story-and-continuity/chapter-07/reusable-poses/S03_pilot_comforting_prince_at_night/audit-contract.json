@@ -1,0 +1,130 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH07_S03",
+  "prompt_file": "story-and-continuity/chapter-07/reusable-poses/S03_pilot_comforting_prince_at_night/PROMPT.txt",
+  "prompt_sha256": "6bdf0a45f5a59619e6345aa1e13a287e42737cdd9d1bd75ca81e968a2f750772",
+  "expected_cells": [
+    "ONE: pilot kneeling and holding the crying prince gently in both arms, child leaning against his chest, complete interlocking embrace with believable hands and supported weight."
+  ],
+  "required_state_direction_contact": "One wide coherent contact group, not two separate cutouts. Empty hands; no tools, finished muzzle or fence. DIRECTION LOCK: Adult on LEFT faces RIGHT, child on RIGHT leans LEFT into adult; one supported embrace, no tools.",
+  "isolation_key": null,
+  "light": "Cool soft moonlight from upper-left; tender subdued tones.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_LP_ref_char_pilot_turnaround.png",
+      "role": "Adult pilot identity and brown flight jacket, cream shirt, tan trousers, brown boots; no civilian wardrobe substitution.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/S03_pilot_comforting_prince_at_night/reference-images/01_LP_ref_char_pilot_turnaround.png",
+      "status": "supplied",
+      "sha256": "2e62bfecef88baa6b180c24aa6fa4e16b4c9fe80b76eb7bb5152ddef81cd6cf2",
+      "source_key": "pilot"
+    },
+    {
+      "name": "02_LP_ref_char_prince_turnaround.png",
+      "role": "Prince identity: golden hair, rounded child face, sage coat, CORAL scarf, brass buttons and brown boots; never enlarge him to adult proportions.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/S03_pilot_comforting_prince_at_night/reference-images/02_LP_ref_char_prince_turnaround.png",
+      "status": "supplied",
+      "sha256": "37d3b884eb96192eb2542be4bfc09d3c181ed0904bd0b5fc0a924b79c007bed9",
+      "source_key": "prince"
+    },
+    {
+      "name": "03_LP_ch07_embrace_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/S03_pilot_comforting_prince_at_night/reference-images/03_LP_ch07_embrace_scale_guide.png",
+      "status": "supplied",
+      "sha256": "75841b8e6ab99dc1008782e6f12ba759a79feeeae5a00fb4e411d4dd83971b49",
+      "source_key": "LP_ch07_embrace_scale_guide"
+    },
+    {
+      "name": "04_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/S03_pilot_comforting_prince_at_night/reference-images/04_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "05_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/S03_pilot_comforting_prince_at_night/reference-images/05_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "06_CH07_S03_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/S03_pilot_comforting_prince_at_night/reference-images/06_CH07_S03_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "c2ac05ce0085e557734932a43e7dd2465909ff02b1cd6a0bbf6de9b159415497"
+    },
+    {
+      "name": "07_c07-s04-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c07-s04-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-07/reusable-poses/S03_pilot_comforting_prince_at_night/reference-images/07_c07-s04-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "2c44951d7d283e4d11e05d6384783c204310d94581a860d3234d7e8553ca319c"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "ONE": "V_CH07_S03_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c07-s04-p02",
+    "c07-s04-p03"
+  ],
+  "placement_targets": [
+    {
+      "page": "c07-s04-p02",
+      "cell": "CH07_S03:ONE",
+      "box_px": [
+        520,
+        410,
+        1360,
+        1120
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c07-s04-p03",
+      "cell": "CH07_S03:ONE",
+      "box_px": [
+        520,
+        410,
+        1360,
+        1120
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-07/reusable-poses/S03_pilot_comforting_prince_at_night/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

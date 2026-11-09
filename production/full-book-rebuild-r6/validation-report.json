@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "revision": 6,
+  "workflow_version": 9,
+  "independently_parsed_manuscript_pages": 442,
+  "chapters": 27,
+  "required_asset_requests": 174,
+  "pending_new_component_pages": 423,
+  "checks": {
+    "page_guides": 442,
+    "component_placements": 1231,
+    "supplied_attachments": 1037,
+    "explicit_waiting_attachments": 45,
+    "active_markdown_links": 3126
+  },
+  "errors": [],
+  "limitations": "Planning/reference checks plus preserved approved current art. Consult current production overlays and self-contained validation for live composition status."
+}

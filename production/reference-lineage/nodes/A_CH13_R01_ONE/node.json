@@ -1,0 +1,43 @@
+{
+  "id": "A_CH13_R01_ONE",
+  "stage": "object_or_editorial",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-13/references/R01_paper_and_pencil_opening_still_life/reference-images/01_LP_ref_char_businessman_turnaround.png",
+        "sha256": "5a49cfb0cca48051c9f3fbcbcb7cf404bc79b15df3b946afe987acb30d43a6ea",
+        "role": "Blue-waistcoated businessman, wooden desk and chair; use the specified desk state."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "a small stack of blank cream working papers and the businessman pencil resting beside it on a matching desk-colour patch, no person or calculations.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH13_R01",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c13-s01-p01"
+  ],
+  "audit_only_details": "Complete editorial still life; no cropped wrist, money or lit cigarette.",
+  "shadow_mode": "physical_contact_if_applicable_no_editorial_floor",
+  "prompt_file": "production/reference-lineage/nodes/A_CH13_R01_ONE/PROMPT.txt",
+  "prompt": "Create ONE complete isolated object/editorial asset. a small stack of blank cream working papers and the businessman pencil resting beside it on a matching desk-colour patch, no person or calculations. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-13/references/R01_paper_and_pencil_opening_still_life/audit-contract.json",
+  "prompt_sha256": "fc337e40b031f6b177ee0a21148d21a32528840c51d1832055192e522832e3b6",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH13_R01_ONE"
+}

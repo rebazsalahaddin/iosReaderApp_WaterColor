@@ -1,0 +1,271 @@
+{
+  "id": "CH20_B01",
+  "chapter": 20,
+  "code": "B01",
+  "title": "rose garden empty location",
+  "kind": "background",
+  "cells": [
+    "ONE: garden densely filled with ordinary coral-pink roses resembling the special rose in petal structure, healthy bushes and foliage, path from RIGHT and a clear grass foreground. No characters, faces on every flower, house or lettering."
+  ],
+  "refs": [
+    "flower",
+    "success_style",
+    "style"
+  ],
+  "details": "Use lower-left flower stage for blossom family only; these are ordinary garden roses, not thousands of identical named characters. Suggest abundance without literal count or symmetrical cloning.",
+  "key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "slug": "rose_garden_empty_location",
+  "output": "CH20_B01_rose_garden_empty_location.png",
+  "raw_output_folder": "production/chapter-20/props/raw",
+  "status": "planned_required_not_generated",
+  "uses": [
+    "c20-s01-p01",
+    "c20-s01-p02",
+    "c20-s01-p03",
+    "c20-s01-p04",
+    "c20-s01-p05",
+    "c20-s01-p06",
+    "c20-s02-p01",
+    "c20-s02-p02",
+    "c20-s02-p03",
+    "c20-s02-p04",
+    "c20-s02-p05",
+    "c21-s05-p01",
+    "c21-s05-p02",
+    "c21-s05-p03",
+    "c21-s05-p04",
+    "c21-s05-p05"
+  ],
+  "referenced_by_requests": [],
+  "required": true,
+  "folder": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location",
+  "representative_page": "c20-s01-p02",
+  "placement_targets": [
+    {
+      "page": "c20-s01-p01",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s01-p02",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s01-p03",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s01-p04",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s01-p05",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s01-p06",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s02-p01",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s02-p02",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s02-p03",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s02-p04",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c20-s02-p05",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c21-s05-p01",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c21-s05-p02",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c21-s05-p03",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c21-s05-p04",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    },
+    {
+      "page": "c21-s05-p05",
+      "cell": "CH20_B01:ONE",
+      "box_px": [
+        200,
+        149,
+        2000,
+        1493
+      ],
+      "anchor": "center"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01_LP_ref_flower_stages.png",
+      "role": "Special flower: lower-left CORAL rose, two leaves and exactly four small thorns. Upper-left shoot and upper-right bud only when named. Lower-right supplies the plain bell cover; no knob or wooden base.",
+      "path": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location/reference-images/01_LP_ref_flower_stages.png",
+      "status": "supplied",
+      "sha256": "7bc7d5701b3937e437f670d1ea79c36e79e86cd19a072e2db2c26032d2f2e228",
+      "source_key": "flower"
+    },
+    {
+      "name": "02_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location/reference-images/02_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "03_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location/reference-images/03_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "04_CH20_B01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location/reference-images/04_CH20_B01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "5c032043d2914ec910698a165043139ac462816e9f6d225b89e5d9bdf4c8f672"
+    },
+    {
+      "name": "05_c20-s01-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c20-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-20/references/B01_rose_garden_empty_location/reference-images/05_c20-s01-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "d044dce16e29de16b5cfe7d80a9ce91ced2086eaaad84fe300f83d33a2b18da6"
+    }
+  ],
+  "readiness": "ready_for_agent_generation",
+  "prompt": "CH20_B01 \u2014 WORKFLOW 9 AGENT ROUTING CARD (not an image-model payload)\nMODEL: Foundations/assets use GPT Image 2.6 Flare / gpt_image_2_6_flare; expression/action edits use GPT Image 2.6 Sunburst / gpt_image_2_6. Both medium, 2K, 4:3, PNG, batch_size 1. Exact node parameters govern. Explicit transparent isolated assets / opaque backgrounds.\nREFERENCE: Read production/Reference_Lineage_Workflow.md and production/reference-lineage/catalog.json. Inspect/reuse the identity turnaround, approve the neutral posture/contact master, then edit each expression from exactly ONE approved neutral image. Never submit this routing card or the old numbered bundle to the model.\nDIRECTION AND STATE:\n- ONE: garden densely filled with ordinary coral-pink roses resembling the special rose in petal structure, healthy bushes and foliage, path from RIGHT and a clear grass foreground. No characters, faces on every flower, house or lettering.\n  Actual short payload: production/reference-lineage/nodes/A_CH20_B01_ONE/PROMPT.txt\nL/R identify legacy logical states, not output columns. Generate a single state only when needed. All variants return to the same neutral master, never to a sibling expression. Preserve face, dot eyes, hair, clothes, age, anatomy, dimensions, camera, furniture and registration outside named edits. Protect stationary shadow/support pixels locally outside the measured edit region; no extra shadow. See workflow-9 registered-edit and matte-repair rules.\nAUDIT: Compare all offline identity/scale/story evidence; audit native alpha, emotion, exact contact and parent-shadow preservation. Read story-context.json and audit-contract.json. Old attachments stay for audit only. Accepted current artwork remains reusable and untouched.\nMEASURED CONTINUITY AND FRAMING LOCK: Use measured anatomy and support anchors from page layout.json; same camera keeps size/location. Final 2400\u00d71792 geometry remains unchanged; check actual 2K source pixels.\nCOMPOSITION CONTINUITY AND PERFORMANCE LOCK: One physical contact group, correct relative ratios, attached single-owner shadow, clear expression/gaze/recipient and meaningful unique page beat.\nTEXT-TO-ILLUSTRATION ALIGNMENT: Exact page story-context remains authoritative; no early reveal or invented contact. Thought contents are separate assets.\nTHOUGHT AESTHETICS AND SCENE HIERARCHY: Selected thoughts only, readable quiet watercolor contents, adapted frame and three owner-linked puffs; do not crowd the page.\nBUDGET: At most THREE global attempts including historical sheets. The third requires a changed mechanism and no-cost feasibility evidence. One live job, bounded spend window, reuse first. Review diagnostic boards OFFLINE; submit clean authority images. Recompile ambiguous prompts with a recorded semantic diff. Follow production/workflow-9/PROCESS.md. Stop after one chapter for manual approval.\n",
+  "performance_continuity_guide": "production/Composition_Continuity_and_Performance.md",
+  "lineage_nodes": {
+    "ONE": "A_CH20_B01_ONE"
+  },
+  "generation_route": "lineage_nodes_only",
+  "attachment_usage": "offline_audit_only_not_submission_manifest"
+}

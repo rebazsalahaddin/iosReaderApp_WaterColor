@@ -1,0 +1,29 @@
+{
+  "node_id": "A_CH01_R10_ONE",
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/A_CH01_R10_ONE-attempt-1.png",
+  "source_sha256": "8347be5206f1d94c19cf4ab04a32da77b9e9bb977153bd1bcb95844bf27f9107",
+  "submitted_prompt": "Create ONE complete isolated object/editorial asset. a small nonverbal printed watercolor natural-history picture on cream paper: muted olive-ochre snake swallowing a generic brown forest quadruped head-first; only hindquarters, short tail and two rear legs remain outside. Soft neutral daylight from upper-left; preserve the established local colours. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Native transparent surroundings; opaque subject interiors. Physical grounded objects only: very light soft attached contact shadow with graded alpha. Editorial pictures, diagrams and imagined content: no physical floor shadow. Preserve any explicitly requested bounded paper or tiny support patch. One logical state only; 4:3, 2K PNG. No instruction labels or generated text. Keep exact single-state asset boundaries, dot-eye storybook watercolor discipline, and clean background handling.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T13:45:30+03:00",
+  "issues": [
+    {
+      "issue_id": "R10A01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        0,
+        39,
+        2322,
+        1681
+      ],
+      "observed": "Snake head with tongue is on the left while the prey animal hindquarters protrude from the right tail end of a hat-shaped lump copied from 01_LP_ref_child_book.png.",
+      "expected": "Natural-history watercolor picture on cream paper showing an olive-ochre snake swallowing a brown forest quadruped head-first into its mouth, with only hindquarters, short tail, and two rear legs remaining outside the snake jaws.",
+      "precise_fix": "R10A01: Replace 01_LP_ref_child_book.png attachment with pure watercolor style crop and specify snake tail on the left and snake head/open jaws on the right swallowing the quadruped head-first so hindquarters and rear legs protrude from the snake mouth.",
+      "recheck": "Verify prey hindquarters protrude from the snake mouth/jaws rather than the tail end, with no hat silhouette.",
+      "material_impact": "Anatomically backwards swallowing picture cannot represent the natural-history book illustration on c01-s01-p02 and c01-s01-p03.",
+      "local_fix_ruled_out": "Source anatomy is inverted because the snake head is at the opposite end from the swallowed prey."
+    }
+  ]
+}

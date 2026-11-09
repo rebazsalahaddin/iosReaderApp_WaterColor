@@ -1,0 +1,40 @@
+{
+  "node_id": "N_younger_social_chair_left__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "attempt": 1,
+  "source_file": "production/chapter-01/runs/workflow-9-v011/sources/N_younger_social_chair_left__soft_day_upper_left-attempt-1.png",
+  "source_sha256": "437a7c15f6543b373395b082a71bc9d3ed2228eb44d2b452ee7647bb996c540c",
+  "parents": [
+    {
+      "node_id": "I_social_younger",
+      "path": "appearance-references/chapter-01/LP_ref_char_grownup4_turnaround.png",
+      "sha256": "4802b0884b1fd288da9bdf998a0d2a79b40f41888ed1ab0d45d6056957fa7a61"
+    }
+  ],
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T10:30:00.195592+00:00",
+  "verdict": "PASS",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Single seated younger man (I_social_younger) on wooden chair facing three-quarter left, exact brown hair, dot eyes, taupe-grey sweater, cuffed blue jeans, grey sneakers, hands resting on knees, complete chair legs and grounded feet, clean transparent alpha on light and dark diagnostic plates."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Verified small dot/oval eyes without anime highlights or iris rings where characters are present."
+    },
+    "native_geometry": {
+      "verdict": "PASS",
+      "evidence": "Inspected native 2K 4:3 asset (production/chapter-01/runs/workflow-9-v011/sources/N_younger_social_chair_left__soft_day_upper_left-attempt-1.png); complete silhouette, consistent proportions, and camera orientation."
+    },
+    "alpha": {
+      "verdict": "PASS",
+      "evidence": "Inspected on cream and dark charcoal diagnostic boards; clean transparent exterior and opaque subject interior."
+    },
+    "shadow": {
+      "verdict": "PASS",
+      "evidence": "Soft translucent ground contact shadow verified on light and dark backgrounds with no opaque floor patch."
+    }
+  },
+  "issues": []
+}

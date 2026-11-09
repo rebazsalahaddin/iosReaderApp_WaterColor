@@ -1,0 +1,29 @@
+{
+  "node_id": "V_CH01_CHILD_IMAGINING",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/V_CH01_CHILD_IMAGINING-attempt-2.png",
+  "source_sha256": "f275cca699e28fd5b9976f452bbd11bec097b2f68e36f198c890427f7bc919c3",
+  "submitted_prompt": "Previous attempt prompt for V_CH01_CHILD_IMAGINING before Workflow-9 revision.",
+  "verdict": "MATERIAL_FAIL",
+  "reviewer": "Antigravity visual inspection",
+  "reviewed_at": "2026-11-08T14:01:00+03:00",
+  "issues": [
+    {
+      "issue_id": "CI01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        190,
+        620,
+        1180,
+        520
+      ],
+      "observed": "Prior workflow-8 attempts duplicated the blue book (keeping both the closed left book and adding an open book) and were retired under user fresh-start cleanup.",
+      "expected": "Same seated child at round table with wondering gaze, ONE open blank dusty-blue book near hands (with the old far-left closed book completely removed), one blank sheet and one pencil.",
+      "precise_fix": "CI01: Upload ONLY the clean accepted Workflow-9 neutral table master on Sunburst (gpt_image_2_6) and enforce single-book replacement (open book near hands, far-left closed book removed leaving bare honey tabletop).",
+      "recheck": "Verify single-state anatomy, prop count, dot eyes, preserved support geometry, and clean alpha/shadow.",
+      "material_impact": "Cannot compose target Chapter 1 pages without an accepted Workflow-9 variant.",
+      "local_fix_ruled_out": "Prior source was retired under user fresh-start cleanup; new generation from Workflow-9 neutral master required."
+    }
+  ]
+}

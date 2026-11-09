@@ -1,0 +1,67 @@
+{
+  "id": "N_pilot_engine_hand_close__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "transparent"
+  },
+  "parents": [
+    "I_pilot"
+  ],
+  "input_contract": {
+    "max_images": 2,
+    "required_identity_parents": [
+      "I_pilot"
+    ],
+    "foundation_exception_only": true,
+    "additional_geometry_candidates": [
+      {
+        "candidate": "appearance-references/shared/plane_engin_hood_open.png",
+        "candidate_sha256": "095e22c15fb0244f4dab3f6e1bcf267a58f3b4b43404649242d409c1be85915c",
+        "role": "essential furniture/prop geometry only; select ONE relevant clean object view/crop offline, exclude all other people, labels and competing states; record audited crop hash before use"
+      }
+    ],
+    "no_style_bundle": true
+  },
+  "content": "Close coherent right hand of flight pilot with sleeve, one spanner seated around stuck hex bolt in exposed engine bay, fixed crop and exact contact. No floor shadow in this close crop.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "family": "pilot_engine_hand_close",
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "affected_pages": [
+    "c07-s01-p04"
+  ],
+  "legacy_tokens": [
+    "CH07_R01:ONE"
+  ],
+  "shadow_mode": "none_airborne_or_close_crop",
+  "geometry_authorities": [
+    {
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/04_LP_ch07_tools_scale_guide.png",
+      "sha256": "63375b8726d891f0e2e756dbe2192e7b57bb09e16b84de27ae2b3b2aacdbb4b9",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork."
+    },
+    {
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/07_CH07_R01_PACKING_GUIDE.png",
+      "sha256": "fa61ba794a8022f9ca47c8ccbfa9eb90119cee8dc5dbd303519240b857910627",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels."
+    },
+    {
+      "path": "story-and-continuity/chapter-07/reusable-poses/R01_engine_repair_contact_insert/reference-images/08_c07-s01-p04_COMPOSITION_GUIDE.png",
+      "sha256": "74b1f74577c678e2adadf62c479fc140476a748aa004a1f5213705424b6d93cc",
+      "role": "TECHNICAL final-page placement for c07-s01-p04. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear."
+    }
+  ],
+  "prompt_file": "production/reference-lineage/nodes/N_pilot_engine_hand_close__soft_day_upper_left/PROMPT.txt",
+  "prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Close coherent right hand of flight pilot with sleeve, one spanner seated around stuck hex bolt in exposed engine bay, fixed crop and exact contact. No floor shadow in this close crop. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Neutral soft upper-left daylight, without environment-colour spill. Keep transparent surroundings and opaque subject interiors; no physical floor or floor shadow in this airborne/close-cropped asset. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "prompt_sha256": "d4bca42211bba380cc353d9d8c4137dec7fb4d5759770f4146aa38edb11941aa",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "N_pilot_engine_hand_close__soft_day_upper_left"
+}

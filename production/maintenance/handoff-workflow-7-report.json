@@ -1,0 +1,284 @@
+{
+  "workflow_version": 7,
+  "status": "complete; all package, staging, self-containment and handoff checks passed",
+  "chapter_plans": 27,
+  "page_slots": 442,
+  "reference_audit_contracts": 167,
+  "mcp_jobs_submitted": 0,
+  "generation_credits_spent": 0,
+  "source_art_modified": false,
+  "current_chapter_1_edition": "v006",
+  "guard_cases_passed": 16,
+  "removed_cache_files": [
+    {
+      "path": ".DS_Store",
+      "sha256": "22e713ae3fcaaa37997dd389d927638ef17a3b5b518500c3926b40124969a856",
+      "bytes": 14340,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/.DS_Store",
+      "sha256": "667125379a2ea0d82d7666c7995a0a9e3a97c7c95b7f632be1537fa194ad47c9",
+      "bytes": 14340,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-02/.DS_Store",
+      "sha256": "31e1b7c561267f7876cd7f29a290843402b6fa6634ee4a33fc5881e4de5f2206",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-02/reusable-poses/.DS_Store",
+      "sha256": "6673e9db66f6b904123e1bc51edd9176b947762ea1322e242b3469cd3b04ec42",
+      "bytes": 8196,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-02/references/.DS_Store",
+      "sha256": "699bd7ff7efd14475267685da04afca53912259e6eafc62260af7083e8cfbc96",
+      "bytes": 8196,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-02/references/E01_existing_assets/.DS_Store",
+      "sha256": "26bbe7988fddcca8f8b87793f93a818c761ea043a68331e2e1044222661a97c2",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/.DS_Store",
+      "sha256": "6dc86f24cd13665d5f18f57a5c07fddf8e174b764b703884cd12d88a0474049f",
+      "bytes": 10244,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/.DS_Store",
+      "sha256": "dcf00d61bf3e1690e018d7aa2d22074986881607de426633171f8311a282f890",
+      "bytes": 24580,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S01_pilot_listen_converse/.DS_Store",
+      "sha256": "e24bf83421558e9cd003794618f38726cc381662397fc9f46f165a9e38d1f75d",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S15_child_putting_pencil_down/.DS_Store",
+      "sha256": "71211d6d1e42840f6eea115ef8ee4cffd9e67eb7f6762406ce8d116846d9c2e1",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S10_child_reading_at_round_table/.DS_Store",
+      "sha256": "87c3c6ea554bef205524ef05f29ab2acde5d00f31bd99c458fb568234c155648",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S18_night_aircraft_with_pilot_facing_right/.DS_Store",
+      "sha256": "45390d5eac8a19fadd14bba7bff7096f55c95f883c7f40308cee43594448503f",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S14_childhood_adults_redirecting/.DS_Store",
+      "sha256": "a2474c7f9200220e5e78814f61079e94cb1381a33f2193ca037396c7f04ab231",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S02_pilot_drawing_hope_disappointed/.DS_Store",
+      "sha256": "6f40319bf7bad5d596952d6c8ae4d8d5be8b4df031121d03ec8947d8bd227972",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S03_pilot_isolated_grownup3_right/.DS_Store",
+      "sha256": "d63b492656786ead725eeef58576505ab119f2da0b8b8005881a87630345af0a",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S12_child_presenting_and_explaining/.DS_Store",
+      "sha256": "392597dbcb611c2f7aa72f7f50897f024ecb07dc1096469e92b4cda5c1aa3c41",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S04_grownup3_talk_reply/.DS_Store",
+      "sha256": "855997178b5cbaaafef44e5ffdfa6f8490073ec851b257f0dab48848d9ecdbcb",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S16_child_tired_of_explaining/.DS_Store",
+      "sha256": "9140ad73ebbec7cca9ab6acc64075e9912e998b255b35c8f31070ea0692d2060",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S17_day_aircraft_with_pilot_facing_left/.DS_Store",
+      "sha256": "1b92ee8fc41bd9a02ebf2194a898e31b150f4ca3905b0359c209122e4004aade",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S13_childhood_adults_questioning/.DS_Store",
+      "sha256": "6edbaddac960a6d2db1ff506d706ed09a155d6e7b49edee7c4a25a329b39a9d9",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S11_child_drawing_at_round_table/.DS_Store",
+      "sha256": "8713ee77aa6476726d2198ed1b1c5b636398d0591127953240f469e2958b4910",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/reusable-poses/S05_grownup4_listen_reply/.DS_Store",
+      "sha256": "38cb966a3e5760f9b05c293fe7b9cb10760901133f66574af8955c670608bccf",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/.DS_Store",
+      "sha256": "19184825072b0f60f253b3c40d5baed5c222e435f7d19897b0981900569a27e6",
+      "bytes": 10244,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/B12_night_flight_landscape/.DS_Store",
+      "sha256": "2be6767d254c6041da27f9e662ce04ee617d3723edd05f0fdaabc9a492764859",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/R11_sleeping_snake_imagination/.DS_Store",
+      "sha256": "871e2127fbc990b636c5946cd547be62bd7e184a3334b871d5e1e1843595c677",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/G01_social_size_camera/.DS_Store",
+      "sha256": "c9bee84b3d6a2cb9e5d46d80acc656a1c79072324825129bfdd2724c848fd7ce",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/R12_opening_blank_paper_and_pencil/.DS_Store",
+      "sha256": "4eaa145da0f74cf8f9e0c4944dbc76a44c328f07a943c7841f3790a45dbdcb94",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/B10_childhood_room_without_foreground_furniture/.DS_Store",
+      "sha256": "94064c8b04ef6ed2af53be8b383bd62e8e3780901a1f0287a0ff5cb32d097145",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/T01_social_table/.DS_Store",
+      "sha256": "d585951a5df709514c6945a74d984f230015b62ad09be6601f70506ab27ba721",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/B11_day_flight_landscape/.DS_Store",
+      "sha256": "221ed73a6c7dfb5307b29bed59d805c10d2a3b32fe587d9870081dcbbe8cf05b",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/D01_drawing_one/.DS_Store",
+      "sha256": "8f2974dc4dead1896420e1f16463ce600ac82faf77561967906f60b51d48b93b",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/references/R10_forest_book_swallowing_picture/.DS_Store",
+      "sha256": "f5d6f5123f5cb2ccccdc938b18564afc326c8ca1ce7ccdb03efc39064fca44d3",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/.DS_Store",
+      "sha256": "2b03bd807edbdb4f58796c4652a1a94acae616d5827aac28a7052be541fbd9c5",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/C02_younger_listener_facing_left/.DS_Store",
+      "sha256": "22513cd9e5783423dcaea0df3c28508645c6b5ab183357bab88368ebe099ac84",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "story-and-continuity/chapter-01/pose-corrections/C01_pilot_conversation_and_isolation/.DS_Store",
+      "sha256": "c252f13a3c844249dbd3696f8fd365db46eac0764ed4421c1b8fb03a7a20c5e6",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "size-and-location-references/.DS_Store",
+      "sha256": "9ec38fbb6962ca375d76254f16611446c85318ee24d6f1c896ebbb2d9aeb6e84",
+      "bytes": 14340,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "production/.DS_Store",
+      "sha256": "f5d925c9e51660989fab502ca3c6fdac5bd01ebed8b484476b62457da36437f0",
+      "bytes": 14340,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "production/chapter-01/.DS_Store",
+      "sha256": "543c9bc759c54c540bb80609a933e0c68052bd4741e59a2958f0e4bcbd018721",
+      "bytes": 14340,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "production/chapter-01/next-returns/.DS_Store",
+      "sha256": "a3508e307fb4acac95fb5ca7ea2e99c3503c09baa275092d06b7ab003b14c474",
+      "bytes": 10244,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "production/chapter-01/next-returns/01_woman_both_states_facing_right/.DS_Store",
+      "sha256": "aacd6d756cf6f00c2e9b184baece0a85dbe25b0290f77335449c93f8c6908533",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "production/chapter-01/next-returns/02_tired_child_same_table/.DS_Store",
+      "sha256": "a949649e8726fe6a66b74cad0d4c5771e4b9e1e6721ffbfbf2f75a2d1e31c7ce",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "production/chapter-01/props/.DS_Store",
+      "sha256": "c229f322d308d25b6f6ca94267d1f6c4e9610180b1486d2438c709cd8f7ddfda",
+      "bytes": 8196,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "production/chapter-01/delivery/.DS_Store",
+      "sha256": "31f09745365dd51e02dd9ee9229bdcfdf78014b716bc68600bfebeaf8e4ac9e7",
+      "bytes": 12292,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    },
+    {
+      "path": "production/chapter-01/delivery/chapter-01-v006/.DS_Store",
+      "sha256": "8c7a847d7553b2f9d7fa075e97a760fd6d2b4571ad236b9cf0e0c0e1655d47d2",
+      "bytes": 6148,
+      "reason": "Disposable filesystem/Python cache from handoff checks"
+    }
+  ],
+  "verification_reports": [
+    "production/package-validation.json",
+    "production/self-contained-validation.json",
+    "production/agent-workflow/validation-report.json"
+  ],
+  "current_chapter_1_images_reconstructed_exactly": 19
+}

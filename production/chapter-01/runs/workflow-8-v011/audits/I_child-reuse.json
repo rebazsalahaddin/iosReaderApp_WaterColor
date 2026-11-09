@@ -1,0 +1,41 @@
+{
+  "node_id": "I_child",
+  "stage": "identity_turnaround",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/preflight/child-identity-three-quarter.png",
+  "source_sha256": "66189f88355625379751e442d48206c83534571565e9216d80164a28ed71a040",
+  "parents": [],
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T21:53:43.339876+00:00",
+  "verdict": "PASS_WITH_NOTE",
+  "checks": {
+    "identity": {
+      "verdict": "PASS",
+      "evidence": "Four standing views show the same six-year-old: chestnut tousled fringe, rounded cheeks, small brown dot eyes, cream crew-neck top, rolled tan trousers, brown ankle boots; no competing design. Complete anatomy present in all four views."
+    },
+    "dot_eye_design": {
+      "verdict": "PASS",
+      "evidence": "Small simple brown/dark dot/oval eyes; no detailed irises or anime eyes."
+    },
+    "native_geometry": {
+      "verdict": "PASS_WITH_NOTE",
+      "evidence": "405x1210 native child crop, complete head/arms/hands/trousers/boots without resizing. Full original 2048x2048 four-view identity audited separately."
+    },
+    "alpha": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Retained RGB identity sheet on opaque cream paper is appearance authority only, not a transparent compositing asset; new neutral outputs require actual transparent alpha."
+    },
+    "shadow": {
+      "verdict": "NOT_APPLICABLE",
+      "evidence": "Identity views are appearance references, not a physical page group. Attached shadow must be checked on new neutral sources."
+    }
+  },
+  "issues": [],
+  "canonical_turnaround_file": "appearance-references/shared/LP_ref_char_child_turnaround.png",
+  "crop_xyxy": [
+    650,
+    420,
+    1055,
+    1630
+  ],
+  "crop_note": "Full native three-quarter child selected from the accepted 4-view sheet. Unrelated neighbouring fragments in blank margins cleared with sampled paper; target face/body pixels unchanged. No new identity or generation attempt."
+}

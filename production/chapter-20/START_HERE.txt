@@ -1,0 +1,13 @@
+MODEL ROUTE — WORKFLOW 9: Flare (gpt_image_2_6_flare) for foundations/assets; Sunburst (gpt_image_2_6) for expression/action edits. Both medium / 2K / 4:3 / one PNG. The exact node parameters govern. Both quoted 1 credit on 2026-11-08; recheck live before spending. The change never resets attempts.
+
+Workflow 9 authority: production/workflow-9/PROCESS.md. One live job, bounded spending, clean parent uploads and local protected pixels.
+
+CHAPTER 20 — A Garden Full of Roses
+
+Read production/MASTER_PROMPT.txt, production/Higgsfield_Agent_Workflow.md and production/Visual_Audit_and_Retry.md first.
+Use production/chapter-20/agent-run-plan.json for exactly 11 page slots and this chapter’s required dependency closure. Reuse accepted sources; do not run a full book-wide generation wave.
+Read story-and-continuity/chapter-20/START_HERE.txt for the complete authored source and page plans. Save raw originals under production/chapter-20/props/raw.
+Agent generation uses Higgsfield MCP with stage-specific GPT Image 2.6 Flare/Sunburst / Medium quality / 4:3 / 2K / one output. Maximum three attempts per canonical reference, with the third conditional on changed-mechanism evidence; only material defects justify a correction. Keep persistent ledger and precise source/page audits.
+After all page compositions pass reading-size and native-size checks, verify delivery/reconstruction, perform production/Cleanup_Instructions.md and STOP for manual approval before Chapter 21. No next-chapter generation while awaiting approval.
+
+Before generation and composition, read production/Geometry_and_Frame_Continuity.md and this chapter’s camera-continuity.json. Lock same-camera physical sizes, match cover borders and size thought content before its frame.

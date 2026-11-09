@@ -1,0 +1,243 @@
+{
+  "template_only": false,
+  "request_id": "CH01_R13",
+  "attempt": 1,
+  "job_id": "ed5d9f88-e01b-47f8-b72a-7a9d8b9e736e",
+  "source_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts.png",
+  "source_sha256": "dbe2311b9ea3254e155b9a9b1422bbb3b186fde142bd218e2ce4cf6019430621",
+  "actual_format": "PNG",
+  "actual_dimensions": [
+    2400,
+    1792
+  ],
+  "prompt_sha256": "ea722cc4bcf559635546af01b0925685d86052cd1066229f8a4a06b9aca14e4a",
+  "attachments": [
+    {
+      "path": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/reference-images/01_watercolor_style_crop.png",
+      "sha256": "ca38d883dbf17358bb61bed2202285a87676638f437b22d7cfa61cc1c25fec32",
+      "media_id": "493c4cb7-9aa6-4fbe-b50e-6de4493624ff"
+    }
+  ],
+  "parameters": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "high",
+    "aspect_ratio": "4:3",
+    "count": 1
+  },
+  "cells": [],
+  "checks": {
+    "identity_style": {
+      "verdict": "MATERIAL_FAIL",
+      "evidence": "Both cells rejected after user inspection of delivered compositions; see pinpointed source issues."
+    },
+    "orientation_expression": {
+      "verdict": "PASS",
+      "evidence": "Both cells individually checked; see cell_audits."
+    },
+    "count_state_realm": {
+      "verdict": "PASS",
+      "evidence": "Both cells individually checked; see cell_audits."
+    },
+    "contact_support": {
+      "verdict": "PASS",
+      "evidence": "Both cells individually checked; see cell_audits."
+    },
+    "native_pixel_budget": {
+      "verdict": "PASS",
+      "evidence": "Both cells individually checked; see cell_audits."
+    },
+    "extraction_light_dark_intended": {
+      "verdict": "PASS",
+      "evidence": "Both cells individually checked; see cell_audits."
+    },
+    "reading_size": {
+      "verdict": "PASS",
+      "evidence": "Both cells individually checked; see cell_audits."
+    },
+    "second_contract_check": {
+      "verdict": "PASS",
+      "evidence": "Both cells individually checked; see cell_audits."
+    }
+  },
+  "issues": [
+    {
+      "issue_id": "CH01_R13-panel",
+      "cell": "L/R",
+      "coordinate_space": "full source",
+      "image_dimensions": [
+        2400,
+        1792
+      ],
+      "bbox_xywh": [
+        110,
+        110,
+        2180,
+        1570
+      ],
+      "expected": "Flat isolation around the requested pictures.",
+      "observed": "Model supplied cream rectangular exterior panels inside the magenta field.",
+      "material_impact": "Would create rectangles if pasted without extraction; source pictures themselves are complete and usable.",
+      "cause": "extraction",
+      "decision": "LOCAL_FIX",
+      "precise_fix": "Remove empty hat panel with silhouette mask; crop blank map margins and normalize the paper base before fitting the painted frame.",
+      "recheck": "Native matte diagnostic and all three intended scene renders inspected; no exterior panel visible.",
+      "resolved": true,
+      "evidence_file": "production/chapter-01/props/raw/CH01_R13_hat_and_navigation_thoughts.png",
+      "evidence_sha256": "dbe2311b9ea3254e155b9a9b1422bbb3b186fde142bd218e2ce4cf6019430621"
+    },
+    {
+      "issue_id": "CH01_R13-L-style",
+      "request_id": "CH01_R13",
+      "attempt": 1,
+      "job_id": "ed5d9f88-e01b-47f8-b72a-7a9d8b9e736e",
+      "cell": "L",
+      "affected_pages": [
+        "c01-s02-p02",
+        "c01-s05-p02"
+      ],
+      "coordinate_space": "full source",
+      "image_dimensions": [
+        2400,
+        1792
+      ],
+      "bbox_xywh": [
+        540,
+        160,
+        1310,
+        650
+      ],
+      "evidence_file": "production/chapter-01/audits/sources/CH01_R13-attempt-1-L-style-evidence.png",
+      "evidence_sha256": "5dbe4e4151cd20b7bc9a2ca01b6886888b49e719551a8b82450722a0b536934e",
+      "expected": "Simplified storybook watercolor consistent with the approved Chapter 1 characters; source mental picture must remain subordinate at reading size.",
+      "observed": "Hat uses sculpted multi-band brim, sharply modelled crown, buckle and dense dark pigment. At page size it reads as a product illustration, heavier and more realistic than the simple character art.",
+      "contract_reference": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/PROMPT.txt",
+      "material_impact": "User rejects conspicuously incompatible rendering in the final three pages; source detail cannot be corrected by repositioning alone.",
+      "cause": "source",
+      "decision": "MATERIAL_FAIL",
+      "local_or_existing_source_option": "Uniform reduction fixes the oversized presentation but does not remove mismatched modelling/atlas detail. Blurring would erase pigment and produce a muddy result. No other accepted ordinary hat/map source exists.",
+      "precise_fix": "One soft low rounded crown, one broad simple brim and one plain band; pale warm tan wash, two broad tones, delicate warm contour; no buckle, sharp creases or detailed felt.",
+      "recheck": "Compare source and final pages to approved character art at 800px page width; recognizable hat/map with quiet broad washes and no detailed modelling/cartography.",
+      "resolved": false
+    },
+    {
+      "issue_id": "CH01_R13-R-style",
+      "request_id": "CH01_R13",
+      "attempt": 1,
+      "job_id": "ed5d9f88-e01b-47f8-b72a-7a9d8b9e736e",
+      "cell": "R",
+      "affected_pages": [
+        "c01-s04-p02"
+      ],
+      "coordinate_space": "full source",
+      "image_dimensions": [
+        2400,
+        1792
+      ],
+      "bbox_xywh": [
+        290,
+        940,
+        1820,
+        735
+      ],
+      "evidence_file": "production/chapter-01/audits/sources/CH01_R13-attempt-1-R-style-evidence.png",
+      "evidence_sha256": "4dc1090e50b7604fb8acc3ac37ed27a3f8aac5720825d9e9925ad898e42982ab",
+      "expected": "Simplified storybook watercolor consistent with the approved Chapter 1 characters; source mental picture must remain subordinate at reading size.",
+      "observed": "Map has intricate coastlines, many tiny islands, subdivided terrain colouring and folds, reading as a detailed atlas rather than a quiet storybook mental picture.",
+      "contract_reference": "story-and-continuity/chapter-01/references/R13_hat_and_navigation_thoughts/PROMPT.txt",
+      "material_impact": "User rejects conspicuously incompatible rendering in the final three pages; source detail cannot be corrected by repositioning alone.",
+      "cause": "source",
+      "decision": "MATERIAL_FAIL",
+      "local_or_existing_source_option": "Uniform reduction fixes the oversized presentation but does not remove mismatched modelling/atlas detail. Blurring would erase pigment and produce a muddy result. No other accepted ordinary hat/map source exists.",
+      "precise_fix": "Simple unlabeled world-map impression with a few broad rounded continental silhouettes and pale blue wash, one muted sage tone; no small islands, terrain, borders, grids, fine coastlines, folds or aged-paper realism.",
+      "recheck": "Compare source and final pages to approved character art at 800px page width; recognizable hat/map with quiet broad washes and no detailed modelling/cartography.",
+      "resolved": false
+    }
+  ],
+  "verdict": "MATERIAL_FAIL",
+  "accepted_cells": [],
+  "credits_estimated": 2,
+  "credits_actual": null,
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T00:44:46.521375+00:00",
+  "cell_audits": {
+    "L": {
+      "checks": {
+        "identity_style": {
+          "verdict": "MATERIAL_FAIL",
+          "evidence": "Hat uses sculpted multi-band brim, sharply modelled crown, buckle and dense dark pigment. At page size it reads as a product illustration, heavier and more realistic than the simple character art."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Complete three-quarter ordinary hat; no head/wearer/feather."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One hat, reused unchanged for both adult interpretations; physical Drawing One remains unmodified."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Isolated mental picture, no external support or hand contact required."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Prepared hat is (1252, 597) native pixels; final picture width 560, uniformly reduced."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS",
+          "evidence": "Cream exterior panel removed by measured silhouette; native edge inspected on cream and charcoal plus both final room backgrounds. No magenta remains."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Crown, brim and band remain clearly recognizable at whole-page reading size."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Both response-page candidates preserve the original people, drawings and furnishings; hat/frame/trail remain separate layers."
+        }
+      }
+    },
+    "R": {
+      "checks": {
+        "identity_style": {
+          "verdict": "MATERIAL_FAIL",
+          "evidence": "Map has intricate coastlines, many tiny islands, subdivided terrain colouring and folds, reading as a detailed atlas rather than a quiet storybook mental picture."
+        },
+        "orientation_expression": {
+          "verdict": "PASS",
+          "evidence": "Straight-on horizontal world map; no rotation or scene distortion."
+        },
+        "count_state_realm": {
+          "verdict": "PASS",
+          "evidence": "One unlabeled mental map; no names, pins, routes or political assertions. It supports the user-directed geography inference."
+        },
+        "contact_support": {
+          "verdict": "PASS",
+          "evidence": "Map exists only within the pilot’s thought; no physical sheet or cockpit hand edit."
+        },
+        "native_pixel_budget": {
+          "verdict": "PASS",
+          "evidence": "Measured original map crop 1770×685; final picture 560×217 with uniform scale."
+        },
+        "extraction_light_dark_intended": {
+          "verdict": "PASS",
+          "evidence": "Blank exterior margins removed and pigment normalized relative to original cream; inspected inside an opaque painted frame against the actual dark sky. No keyed hole or white exterior panel remains."
+        },
+        "reading_size": {
+          "verdict": "PASS",
+          "evidence": "Recognizable continent arrangement visible at reading size; no text to become unreadable."
+        },
+        "second_contract_check": {
+          "verdict": "PASS",
+          "evidence": "Final frame/trail has zero alpha overlap with the retained aircraft layer; moon, cockpit, two blades, direction and terrain remain intact."
+        }
+      }
+    }
+  },
+  "retained_extraction_evidence": {
+    "file": "production/chapter-01/audits/sources/CH01_R13-matte-check.png",
+    "sha256": "23e50d22402c58dd022670ace38fbde96e67a0fe288cc6b950b802524e701448"
+  },
+  "prior_internal_verdict": "PASS_WITH_NOTE",
+  "user_rejected_at": "2026-11-07T00:59:59.490248+00:00"
+}

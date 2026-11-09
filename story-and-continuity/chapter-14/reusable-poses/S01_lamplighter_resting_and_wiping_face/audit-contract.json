@@ -1,0 +1,256 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH14_S01",
+  "prompt_file": "story-and-continuity/chapter-14/reusable-poses/S01_lamplighter_resting_and_wiping_face/PROMPT.txt",
+  "prompt_sha256": "73b5da12740f8e09836717776f231f4a62a1622abc398e3dafc5235417641b0f",
+  "expected_cells": [
+    "LEFT: adult lamplighter standing, LEFT hand holding pole near upright, tired but attentive, red-checked cloth pocketed out of sight.",
+    "RIGHT: same man, LEFT hand holding pole, RIGHT hand wiping forehead with one red-checked cloth; no duplicate cloth."
+  ],
+  "required_state_direction_contact": "Pole tip unlit; no lamp in these cells. Preserve adult proportions, not a second prince. DIRECTION LOCK: Both adult cells body RIGHT and head RIGHT toward child; anatomical LEFT hand carries pole, RIGHT handles cloth only in right cell.",
+  "isolation_key": null,
+  "light": "Neutral soft upper-left daylight, without environment-colour spill.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_LP_ref_char_lamplighter_turnaround.png",
+      "role": "Adult lamplighter, cream cap, blue jacket, tan trousers, streetlamp and lighting pole.",
+      "path": "story-and-continuity/chapter-14/reusable-poses/S01_lamplighter_resting_and_wiping_face/reference-images/01_LP_ref_char_lamplighter_turnaround.png",
+      "status": "supplied",
+      "sha256": "b783a1c504df0aa09ddcf5c2d48de53222cfd7a9224ad8d41b28cf8837e50aeb",
+      "source_key": "lamp"
+    },
+    {
+      "name": "02_LP_ch14_scale_guide.png",
+      "role": "Existing technical construction/scale/state guide. Geometry only; omit labels, arrows, diagrams and repeated states from artwork.",
+      "path": "story-and-continuity/chapter-14/reusable-poses/S01_lamplighter_resting_and_wiping_face/reference-images/02_LP_ch14_scale_guide.png",
+      "status": "supplied",
+      "sha256": "1a42fa3c2540b92f572cce1b88e0738c4d8891b845584e9c4c19b0a624a922e3",
+      "source_key": "LP_ch14_scale_guide"
+    },
+    {
+      "name": "03_c01-s05-p01.png",
+      "role": "Approved component-assembled watercolor quality, clean contours, opaque pale interiors and coherent soft light ONLY. Do not copy its adults, table, pose, clothing or room into an unrelated asset. The supplied identity controls the character.",
+      "path": "story-and-continuity/chapter-14/reusable-poses/S01_lamplighter_resting_and_wiping_face/reference-images/03_c01-s05-p01.png",
+      "status": "supplied",
+      "sha256": "d91c7f4380dcab66ab64b68b9fe43ed3895c8b81bcf58600355d75ae79a33275",
+      "source_key": "success_style"
+    },
+    {
+      "name": "04_c03-s010.jpg",
+      "role": "Paint handling and local-colour contours only; omit its cast, action, paper and thought bubble.",
+      "path": "story-and-continuity/chapter-14/reusable-poses/S01_lamplighter_resting_and_wiping_face/reference-images/04_c03-s010.jpg",
+      "status": "supplied",
+      "sha256": "45876884a00b86cc5e6d0ddf007d3f36aa06477e72ae2680c708545c8beb63e3",
+      "source_key": "style"
+    },
+    {
+      "name": "05_CH14_S01_PACKING_GUIDE.png",
+      "role": "Technical source-packing guide only. Geometry/clear margins, not character design, real-world scale, artwork or labels.",
+      "path": "story-and-continuity/chapter-14/reusable-poses/S01_lamplighter_resting_and_wiping_face/reference-images/05_CH14_S01_PACKING_GUIDE.png",
+      "status": "supplied",
+      "sha256": "374874ee02bc936af19841d790610ebf4cce36d3bb8db94422d0217bdec935bc"
+    },
+    {
+      "name": "06_c14-s01-p02_COMPOSITION_GUIDE.png",
+      "role": "TECHNICAL final-page placement for c14-s01-p02. Use camera, relative scale, empty space and direction only. Source packing still controls THIS output. Do not copy other cast, rectangles, labels or background into an isolated subject. Background requests should leave the shown subject footprints clear.",
+      "path": "story-and-continuity/chapter-14/reusable-poses/S01_lamplighter_resting_and_wiping_face/reference-images/06_c14-s01-p02_COMPOSITION_GUIDE.png",
+      "status": "supplied",
+      "sha256": "f2319961f0b84101af8aceebebb5b18c5ec478183e0cb61a254f77fe7954134a"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "L": "V_CH14_S01_L",
+    "R": "V_CH14_S01_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c14-s01-p02",
+    "c14-s01-p03",
+    "c14-s01-p04",
+    "c14-s01-p06",
+    "c14-s02-p01",
+    "c14-s02-p02",
+    "c14-s02-p03",
+    "c14-s02-p04",
+    "c14-s03-p01",
+    "c14-s03-p02",
+    "c14-s03-p03",
+    "c14-s03-p04",
+    "c14-s03-p06"
+  ],
+  "placement_targets": [
+    {
+      "page": "c14-s01-p02",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s01-p03",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s01-p04",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s01-p06",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s02-p01",
+      "cell": "CH14_S01:R",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s02-p02",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s02-p03",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s02-p04",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s03-p01",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s03-p02",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s03-p03",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s03-p04",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    },
+    {
+      "page": "c14-s03-p06",
+      "cell": "CH14_S01:L",
+      "box_px": [
+        880.0,
+        284,
+        360,
+        760
+      ],
+      "anchor": "bottom_center"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-14/reusable-poses/S01_lamplighter_resting_and_wiping_face/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

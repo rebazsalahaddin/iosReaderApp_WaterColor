@@ -1,0 +1,42 @@
+{
+  "chapter": 8,
+  "method": "Pillow programmatic technical layout; thumbnails of existing source art plus explicitly schematic placement zones; no generative calls",
+  "programmatic_targets": null,
+  "generated_guides": [
+    {
+      "path": "size-and-location-references/chapter-08/CH08_G01_size_and_sheet_layout.png",
+      "sha256": "18e54c03bfcb762d9344f2070ae1377becd4ea438b370a5f3843b8ee24df647c",
+      "pixels": [
+        2400,
+        1792
+      ]
+    },
+    {
+      "path": "size-and-location-references/chapter-08/CH08_L01_location_and_placement.png",
+      "sha256": "6933d03b5b23a0599f0d9d93ac1dfaed6665c5cf48205b9d15f09bc6719ecd87",
+      "pixels": [
+        2400,
+        1792
+      ]
+    }
+  ],
+  "source_images": [
+    {
+      "source": "size-and-location-references/shared/LP_ch08_growth_scale_guide.png",
+      "sha256": "78182037ca1d65853dbb6cebc489d4e6969d8277712c78421b5c0c3a5f784eb0"
+    },
+    {
+      "source": "size-and-location-references/shared/LP_ch08_care_props_guide.png",
+      "sha256": "cbd1a74f338291f7500e57a178f45fb5e35085a97ef53e61490bc4b1c23cafb7"
+    },
+    {
+      "source": "size-and-location-references/shared/LP_scale_prince_pilot_standing.png",
+      "sha256": "b8703ad28bf4f8d57f94896bb3849c4bbbf591e90cf6ab722ad278929554a15c"
+    },
+    {
+      "source": "production/shared/backgrounds/LP_ref_sahara_day.jpg",
+      "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da"
+    }
+  ],
+  "status": "technical planning only; not final-art approval"
+}

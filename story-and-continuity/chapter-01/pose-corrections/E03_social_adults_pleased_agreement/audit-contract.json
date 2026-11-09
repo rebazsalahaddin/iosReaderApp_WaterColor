@@ -1,0 +1,87 @@
+{
+  "workflow_version": 9,
+  "request_id": "CH01_E03",
+  "prompt_file": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/PROMPT.txt",
+  "prompt_sha256": "4b8e530614b8b7bb165f6f5bc64011b6b0a268399017894faf9defbb48529b52",
+  "expected_cells": [
+    "LEFT: the older moustached man sits three-quarter LEFT, looking toward the off-sheet pilot on his LEFT. His eyes warmly engaged, eyebrows relaxed, clear friendly smile with a slightly open mouth as he approves the sensible conversation. One hand lightly touches his chest in pleased agreement, other hand on knee. A modest forward head inclination reads as an approving nod.",
+    "RIGHT: younger adult in grey sweater sits three-quarter LEFT looking toward the pilot to his LEFT, leaning forward slightly, relaxed eyebrows, warm small open smile with subtle lifted cheek. One open palm rises in a small welcoming agreement gesture LEFT, other hand rests on knee. Do not make him childlike."
+  ],
+  "required_state_direction_contact": "Two independently complete person/chair groups, older man left cell and younger man right cell. Preserve their individual adult anatomy from the references, comparable same-depth adult heads and chair seats; do not scale the younger adult like a child. Both chairs, torsos, knees, boots/shoes and noses angle LEFT. Express friendly satisfaction, not ridicule or exaggerated laughter. No sheets, tables, hats, other people or words.",
+  "isolation_key": null,
+  "light": "Soft diffuse upper-left warm light.",
+  "dependencies": [],
+  "references": [
+    {
+      "name": "01_CH01_S04_grownup3_talk_reply.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/01_CH01_S04_grownup3_talk_reply.png",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces LEFT. Change only the requested coherent expression/gesture state, preserving design and support geometry.",
+      "status": "supplied",
+      "sha256": "80ecd925cb7d12fd9807023e74913dfa79437fe1fe40d72c14e1e469aac260da"
+    },
+    {
+      "name": "02_CH01_S05_grownup4_listen_reply.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/02_CH01_S05_grownup4_listen_reply.png",
+      "role": "Exact unmirrored crop of the ONE intended figure. Use this complete figure for identity, adult anatomy, clothes, chair if present, and camera direction. It faces LEFT. Change only the requested coherent expression/gesture state, preserving design and support geometry.",
+      "status": "supplied",
+      "sha256": "f7482945be69292db3e5918c2f87fac69a48cf172ecffcbd37aea04da8825cad"
+    },
+    {
+      "name": "03_CH01_E03_direction_and_packing.png",
+      "path": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/reference-images/03_CH01_E03_direction_and_packing.png",
+      "role": "INSTRUCTION ONLY: cell identity, independent facing arrows and complete silhouette packing. It is not an art, anatomy, face or colour reference. Do not copy labels or diagrams into output.",
+      "status": "supplied",
+      "sha256": "57a5d4b9c63d057f9a1033dec174405b6a2e781d588a2ba91537008df5b9b65f"
+    }
+  ],
+  "attachment_usage": "offline_audit_only_not_submission_manifest",
+  "lineage_nodes": {
+    "L": "V_CH01_E03_L",
+    "R": "V_CH01_E03_R"
+  },
+  "generation_route": "lineage_nodes_only",
+  "affected_pages": [
+    "c01-s06-p01"
+  ],
+  "placement_targets": [
+    {
+      "page": "c01-s06-p01",
+      "cell": "CH01_E03:R",
+      "box_px": [
+        1660,
+        450,
+        680,
+        1180
+      ],
+      "anchor": "measured_anatomical_and_support_registration"
+    }
+  ],
+  "audit_guide": "production/Visual_Audit_and_Retry.md",
+  "visual_correction_guide": "production/Visual_Correction_Guide.txt",
+  "visual_retry_protocol_version": 3,
+  "visual_retry_requires_reviewed_graphics": true,
+  "geometry_guide": "production/Geometry_and_Frame_Continuity.md",
+  "composition_performance_guide": "production/Composition_Continuity_and_Performance.md",
+  "required_placement_evidence": [
+    "two measured comparable native landmarks and uniform scale",
+    "relative anatomy/prop ratios at shared depth",
+    "stationary support and background anchor comparison",
+    "actual bearing-edge shadow attachment",
+    "reading-size face/gaze/gesture toward recipient",
+    "meaningful unique page and coherent camera",
+    "three owner-linked thought puffs where selected"
+  ],
+  "text_alignment_guide": "production/Text_to_Illustration_Alignment.md",
+  "story_context": "story-and-continuity/chapter-01/pose-corrections/E03_social_adults_pleased_agreement/story-context.json",
+  "max_attempts_total": 3,
+  "required_evidence": [
+    "actual cell bounds and full source dimensions",
+    "identity/style compared offline with canonical turnaround; single neutral parent for variants",
+    "independent body/feet/chair/head/gaze and expression checks",
+    "counts, states, contacts, native pixels and proposed uniform scale",
+    "extraction on diagnostic and intended backgrounds",
+    "reading-size and native-size verdicts with concrete observations"
+  ],
+  "retry_gate": "Material source defect only, after safe local repair/reuse is ruled out. At most three global attempts including historical sheets. Reviewed diagnostics stay offline; upload clean accepted authority. Recompile ambiguous prompts with a recorded semantic diff. Third attempt requires a changed mechanism, no-cost feasibility evidence, finite spend window and lineage_guard pass. Never reset attempts by renaming.",
+  "workflow_process": "production/workflow-9/PROCESS.md"
+}

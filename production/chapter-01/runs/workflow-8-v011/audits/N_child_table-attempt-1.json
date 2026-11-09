@@ -1,0 +1,47 @@
+{
+  "node_id": "N_child_table__soft_day_upper_left",
+  "stage": "neutral_posture",
+  "source_file": "production/chapter-01/runs/workflow-8-v011/sources/N_child_table-attempt-1.png",
+  "source_sha256": "a6a28685958a6a5f69a29166e7b6a85e3b81a7899ce852cdc9c5de0498b845f7",
+  "submitted_prompt": "Create ONE neutral posture/contact master from the audited identity and any supplied essential prop authority. Six-year-old seated on RIGHT chair behind the SAME round table, body LEFT, neutral relaxed face, hands resting at the near edge, feet supported. One closed dusty-blue book far LEFT, one blank cream paper and one resting pencil. Complete table/chair/child group, medium-wide slightly raised view; no room. Preserve identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair silhouette and colour, skin, costume colours and body proportions. No redesign, mirroring or extra limbs. Establish the specified camera and support arrangement; keep the complete contact group intact. Soft neutral daylight from upper-left; preserve the established local colours. Include a very light soft attached watercolor contact shadow at visible ground supports, with graded alpha fading to full transparency. No detached blob, dark oval, opaque floor or checkerboard. Preserve opaque subject interiors. 4:3, 2K native transparent PNG; no scenery, labels or diagram marks.",
+  "job_id": "2ba9e943-9876-4a46-81dc-c0d241b39772",
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T22:01:44.489751+00:00",
+  "verdict": "MATERIAL_FAIL",
+  "issues": [
+    {
+      "issue_id": "E01",
+      "decision": "MATERIAL_FAIL",
+      "resolved": false,
+      "cause": "source",
+      "bbox_xywh": [
+        240,
+        1370,
+        1940,
+        374
+      ],
+      "dimensions": [
+        2336,
+        1744
+      ],
+      "observed": "Pale floor-coloured patches under legs/soles are nearly opaque (example RGBA184,160,148,250 at400,1630); conspicuous bright islands on dark ground and paper-colour blotches on the actual rug.",
+      "expected": "Only soft attached neutral warm-grey shadow with low/graded alpha and transparent surround; actual floor/rug visible through it, no cream matte.",
+      "precise_fix": "Remove every pale or cream floor patch beneath all supports; retain only a very light neutral warm-grey contact shadow with low graded alpha, attached to all soles/legs and fading to zero. Preserve every subject/furniture pixel and camera outside the shadow.",
+      "recheck": "Inspect all support shadows on cream, dark and actual room backgrounds; sample RGB/alpha outside opaque supports and verify no pale opaque floor islands.",
+      "material_impact": "Opaque pale patches overwrite actual room/rug texture and look like cutout floor islands.",
+      "local_fix_ruled_out": "New neutral shadow must be genuinely generated and accepted before expression branching. Erasing these patches would remove the shadow; replacing it programmatically violates this workflow."
+    }
+  ],
+  "passed_features": [
+    "recognizable child identity and dot eyes",
+    "complete connected table/chair/child",
+    "neutral hand pose and blank paper",
+    "book/pencil count",
+    "complete boots",
+    "no visible room scenery"
+  ],
+  "diagnostics": [
+    "production/chapter-01/runs/workflow-8-v011/audits/child-table-alpha-dark.jpg",
+    "production/chapter-01/runs/workflow-8-v011/audits/child-master-actual-background.jpg"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This tool provides an auto-updating generation widget for these jobs. Do not call job_display, show_generations, or show_generation_by_ids to display these jobs again, either before or after completion, unless the user explicitly requests a separate display. If you need to await completion, use jobs_wait with timeout_seconds <= 15. Use job_display only if the user explicitly requests a separate re-display of one specific job."
+    },
+    {
+      "type": "text",
+      "text": "Note: adjustments applied — medias[0].role: \"image\" → \"image_references\" (GPT Image 2.6 Flare backend expects schema-key media roles).\n\nSubmitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- 9e3509a3-94ad-47ed-b11a-de2b1417e6c8  \"Edit the ONE supplied approved neutral posture. Required change: Same seated child gently raises gaze in wonder, thoughtful brow and small softly parted mouth, hands resting beside the open book; he imagines its snake story. Keep thoughts out of the cutout. Only change the named expression and necessary head/hand/arm or named prop action; preserve the support/camera setup. Keep identical identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair, skin, costume, head/body size, furniture dimensions, camera, registration and watercolor style. Keep the parent support footprint and its shadow EXACTLY: shape, position, hue, softness, alpha and intensity. No added shadow, new floor or matte. One complete state, 4:3, 2K native transparent PNG. Blank paper stays blank for later canonical marks; no labels or thought clouds in this asset.\""
+    },
+    {
+      "type": "text",
+      "text": "If the user requests a combined display of multiple generations, including jobs submitted through separate generate_* calls, collect all requested job IDs, wait for the complete set with jobs_wait, then call show_generation_by_ids with jobs: [{\"index\":0,\"job_id\":\"<first actual job ID>\"},{\"index\":1,\"job_id\":\"<second actual job ID>\"}, ...]. job_display accepts only one id: never pass ids to it or loop over it to show a group. Do not create an extra display when the existing generation widgets already satisfy the request."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "id": "9e3509a3-94ad-47ed-b11a-de2b1417e6c8",
+        "type": "image",
+        "status": "pending",
+        "model": "gpt_image_2_6_flare",
+        "params": {
+          "prompt": "Edit the ONE supplied approved neutral posture. Required change: Same seated child gently raises gaze in wonder, thoughtful brow and small softly parted mouth, hands resting beside the open book; he imagines its snake story. Keep thoughts out of the cutout. Only change the named expression and necessary head/hand/arm or named prop action; preserve the support/camera setup. Keep identical identity, age, dot-shaped eyes (no anime eyes or enlarged irises), face/nose/ears, hair, skin, costume, head/body size, furniture dimensions, camera, registration and watercolor style. Keep the parent support footprint and its shadow EXACTLY: shape, position, hue, softness, alpha and intensity. No added shadow, new floor or matte. One complete state, 4:3, 2K native transparent PNG. Blank paper stays blank for later canonical marks; no labels or thought clouds in this asset.",
+          "aspect_ratio": "4:3",
+          "reference_images": [
+            "10b5918a-ece4-4b78-a108-1ce403f4c017"
+          ],
+          "quality": "medium",
+          "resolution": "2k",
+          "batch_size": 1,
+          "output_format": "png",
+          "background": "transparent"
+        }
+      }
+    ],
+    "adjustments": {
+      "medias[0].role": {
+        "requested": "image",
+        "used": "image_references",
+        "reason": "GPT Image 2.6 Flare backend expects schema-key media roles"
+      }
+    }
+  },
+  "isError": false
+}

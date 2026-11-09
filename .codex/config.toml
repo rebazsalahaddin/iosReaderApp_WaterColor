@@ -1,0 +1,8 @@
+# Workspace access and Higgsfield MCP connection.
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[mcp_servers.higgsfield]
+url = "https://openai-mcp.higgsfield.ai/mcp"
+enabled = true
+default_tools_approval_mode = "approve"

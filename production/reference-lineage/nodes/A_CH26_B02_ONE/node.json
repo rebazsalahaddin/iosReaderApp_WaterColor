@@ -1,0 +1,49 @@
+{
+  "id": "A_CH26_B02_ONE",
+  "stage": "background_plate",
+  "status": "planned_not_generated_or_accepted",
+  "parameters": {
+    "model": "gpt_image_2_6_flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "4:3",
+    "batch_size": 1,
+    "output_format": "png",
+    "background": "opaque"
+  },
+  "parents": [],
+  "input_contract": {
+    "max_images": 1,
+    "selected_candidates": [
+      {
+        "path": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/reference-images/01_LP_ref_sahara_day.jpg",
+        "sha256": "e814928b9d545ab1078e5273593242ad5ea5758257adffec268f4f56d14670da",
+        "role": "Existing empty daytime Sahara plate. Preserve the full view and watercolor margins."
+      }
+    ],
+    "require_role_audit_before_upload": true
+  },
+  "content": "accepted evening scene and distant well back-left, but remove ENTIRE foreground broken wall and its local shadow; continuous empty sand where complete wall-contact group will sit.",
+  "max_attempts_total": 3,
+  "reuse_first": true,
+  "legacy_request": "CH26_B02",
+  "legacy_cell": "ONE",
+  "affected_pages": [
+    "c26-s01-p02",
+    "c26-s01-p03",
+    "c26-s01-p04",
+    "c26-s01-p05",
+    "c26-s01-p06",
+    "c26-s01-p07",
+    "c26-s01-p08"
+  ],
+  "audit_only_details": "Full wall comes from S01 or S03 exactly once. No snake, snake shadow or concealed tail.",
+  "shadow_mode": "background_painted",
+  "prompt_file": "production/reference-lineage/nodes/A_CH26_B02_ONE/PROMPT.txt",
+  "prompt": "Create ONE empty background plate. accepted evening scene and distant well back-left, but remove ENTIRE foreground broken wall and its local shadow; continuous empty sand where complete wall-contact group will sit. Warm late evening from upper-left. Match the approved restrained storybook watercolor: broad washes, delicate warm contours, quiet pale colours, no photorealism or fine decorative texture. Keep scene landmarks and painted paper border consistent; no new cast. One logical state only; 4:3, 2K PNG. No instruction labels or generated text.",
+  "offline_audit_request": "story-and-continuity/chapter-26/references/B02_wall_scene_without_foreground_wall/audit-contract.json",
+  "prompt_sha256": "efec25167af058001f1b9af5fc7ca4991e1865a198b29f928eb9163de3ee0b0e",
+  "edit_plan_required": true,
+  "workflow_version": 9,
+  "canonical_budget_key": "A_CH26_B02_ONE"
+}
